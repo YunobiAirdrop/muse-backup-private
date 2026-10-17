@@ -1,0 +1,6 @@
+	at com.android.repository.api.RepoManager.loadSynchronously(RepoManager.java:296)
+	at com.android.sdklib.tool.sdkmanager.InstallAction.execute(InstallAction.java:56)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.run(SdkManagerCli.java:104)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:81)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:48)
+SDKMANAGER_EXIT:0

@@ -5,3 +5,5 @@
 2026-10-17 13:18 GAGAL: push exit 1 — commit b5481f43 tertunda di lokal
 2026-10-17 20:14 GAGAL: push ke origin/main gagal — 'send-pack: unexpected disconnect while reading sideband packet'. Lokal 5 commit ahead (1694027c..b5481f43). Token ADA (valid per cek 19:45); github.com HTTP 200 dari VM — kegagalan di sisi upload pack git. Streak gagal beruntun berlanjut (sudah dilaporkan 19:45).
 2026-10-17 13:30 PERBAIKAN (research run): akar masalah = filter ekstensi rsync bocor (.webm/.ogv/*.orig/*.apk/venv/*.so lolos) + --delete tidak menghapus file ter-exclude -> pack 2,56GB. Commit lokal ditulis ulang jadi 1 commit b5d43f64 (47.374 file, tanpa file >25MB); pack push kini 39MB. hourly-backup.sh: tambah exclude lengkap + --max-size=25M + --delete-excluded + push-otomatis saat ahead-of-origin. Scan secret bersih (hanya placeholder <redacted>). Push dari research stage DITOLAK runtime (read_only_preparation) -> 1 commit antre, run cron berikutnya / main agent yang push.
+2026-10-17 14:15 commit ee2f3fd9 —  9 files changed, 2716 insertions(+), 59 deletions(-)
+2026-10-17 14:15 OK: push ee2f3fd9 — 2 commit terkirim

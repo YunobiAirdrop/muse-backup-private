@@ -1,4 +1,21 @@
 {
- "decisions": [],
- "note": "2026-10-17 malam: 0 komentar baru penonton di semua channel, tidak ada keputusan"
+ "decisions": [
+  {
+   "action": "balas",
+   "author": "@professorroyhinkley4775",
+   "comment_id": "UgzLSNj5Fugje8xGVJ14AaABAg",
+   "reply": "Ha — you're not wrong to wonder! But this beast genuinely needed all 60 of those oxen… moving it was a military operation all of its own 😄",
+   "slug": "history-en",
+   "text": "Maybe its not a “canon”…",
+   "thread_id": "UgzLSNj5Fugje8xGVJ14AaABAg",
+   "video_url": "https://www.youtube.com/watch?v=udWq3_5VzPk"
+  },
+  {
+   "action": "like",
+   "comment_id": "UgzLSNj5Fugje8xGVJ14AaABAg",
+   "slug": "history-en",
+   "thread_id": "UgzLSNj5Fugje8xGVJ14AaABAg"
+  }
+ ],
+ "note": "2026-10-17 malam (run 21:11 WIB): 1 komentar baru penonton @EchoesOfThePast-e9m (pun canon/cannon) -> balas via API + like pending browser"
 }

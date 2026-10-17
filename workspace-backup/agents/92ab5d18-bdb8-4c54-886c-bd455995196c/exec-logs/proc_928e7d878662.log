@@ -1,0 +1,10 @@
+	at com.android.repository.api.RepoManager$DummyProgressRunner.runSyncWithProgress(RepoManager.java:417)
+	at com.android.repository.impl.manager.RepoManagerImpl.load(RepoManagerImpl.java:415)
+	at com.android.repository.impl.manager.RepoManagerImpl.loadSynchronously(RepoManagerImpl.java:300)
+	at com.android.repository.api.RepoManager.loadSynchronously(RepoManager.java:296)
+	at com.android.sdklib.tool.sdkmanager.InstallAction.execute(InstallAction.java:56)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.run(SdkManagerCli.java:104)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:81)
+	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:48)
+EXIT:0
+cmdline-tools

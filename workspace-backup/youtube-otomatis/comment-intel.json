@@ -1,1 +1,16 @@
-[{"aksi":"Tambahkan filter tahap naskah: buang semua stage-direction ('Narrator:', 'Host:', 'Speaker:', dsb) dari teks SEBELUM masuk TTS, untuk semua channel. Cek pipeline gen_audio_* yang sudah jalan malam ini.","channel":"@EchoesOfThePast-e9m","kategori":"koreksi","kutipan":"@benbiddle1373: When you see the word \"Narrator\" in a text, (without being in a sentence), that is a directive NOT to be part of the spoken production. DO BETTER!","tanggal":"2026-10-14"}]
+[
+ {
+  "aksi": "Tambahkan filter tahap naskah: buang semua stage-direction ('Narrator:', 'Host:', 'Speaker:', dsb) dari teks SEBELUM masuk TTS, untuk semua channel. Cek pipeline gen_audio_* yang sudah jalan malam ini.",
+  "channel": "@EchoesOfThePast-e9m",
+  "kategori": "koreksi",
+  "kutipan": "@benbiddle1373: When you see the word \"Narrator\" in a text, (without being in a sentence), that is a directive NOT to be part of the spoken production. DO BETTER!",
+  "tanggal": "2026-10-14"
+ },
+ {
+  "tanggal": "2026-10-17",
+  "channel": "@EchoesOfThePast-e9m",
+  "kategori": "sentimen",
+  "kutipan": "@professorroyhinkley4775: Maybe its not a “canon”… (di video 'The Cannon That Needed 60 Oxen to Move')",
+  "aksi": "Hanya pun ringan canon/cannon (judul sudah benar 'Cannon'); tidak ada tindakan produksi. Balasan sudah diposting — penonton tipe ini engaged & suka bercanda, gaya balasan playful cocok."
+ }
+]
