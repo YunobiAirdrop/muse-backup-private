@@ -1,6 +1,10 @@
 // YT Dashboard Service Worker — cache-first untuk shell, network-first untuk data
-const CACHE = 'yt-dash-v1';
+const CACHE = 'yt-dash-v3';
 const SHELL = ['/', '/index.html', '/manifest.json', '/icon-192.png', '/icon-512.png'];
+
+self.addEventListener('message', (e) => {
+  if (e.data && e.data.type === 'SKIP_WAITING') self.skipWaiting();
+});
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -15,8 +19,8 @@ self.addEventListener('activate', (e) => {
 
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
-  // Data Firebase & API: selalu network
-  if (url.hostname.includes('firebaseio.com') || url.hostname.includes('googleapis.com')) {
+  // Data Firebase & API: selalu network (jangan di-cache!)
+  if (url.hostname.includes('firebaseio.com') || url.hostname.includes('firebasedatabase.app') || url.hostname.includes('googleapis.com')) {
     e.respondWith(fetch(e.request));
     return;
   }

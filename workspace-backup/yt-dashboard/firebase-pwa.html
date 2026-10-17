@@ -58,7 +58,12 @@ nav button.on{color:#fff;border-top:2px solid #f00}
 <meta name="theme-color" content="#0f0f0f">
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').catch(function(){});
+  navigator.serviceWorker.register('/sw.js').then(function(reg){
+    // paksa cek update SW tiap buka (bypass cache 24 jam browser)
+    if (reg && reg.update) { try { reg.update(); } catch(e){} }
+    // kalau ada SW baru nunggu, langsung aktifkan
+    if (reg && reg.waiting) { try { reg.waiting.postMessage({type:'SKIP_WAITING'}); } catch(e){} }
+  }).catch(function(){});
 }
 </script>
 </head>

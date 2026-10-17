@@ -78,5 +78,7 @@ scan_share3x.py otomatis menggabung `share3x-pending-*.json` dari goals/toolkit-
 
 ## Konversi still-image JANGAN via ffmpeg-queue (2026-10-17)
 Konversi webp→jpg (PIL, 2 detik, RAM kecil) via ffmpeg-queue ikut antre di belakang render video channel lain (kasus: 4 worker truecrime-en macet 15 menit menunggu 2 slot yang dipegang render horror-en + space-en). Aturan "semua via ffmpeg-queue" tujuannya cegah OOM RENDER video — konversi still-image via PIL tidak melanggar semangatnya. Render video tetap WAJIB via wrapper.
+## Service worker Firebase — cek hostname firebasedatabase.app (2026-10-17)
+Domain Realtime Database sekarang `*.firebasedatabase.app`, BUKAN `firebaseio.com` lagi. Service worker yt-dashboard pernah nge-cache respons Firebase karena cek `hostname.includes('firebaseio.com')` tidak match — dashboard user stuck nampilin data 1,5 jam basi padahal Firebase udah update. Selalu match KEDUA domain di bypass-cache service worker. Bump CACHE version tiap deploy sw.js.
 ## cek_duplikat.py gagal parse 2 format judul (2026-10-15)
 Script judul_dari_instruksi() TIDAK membaca format "Judul (persis, ...):" (inktime shorts txt) dan "## JUDUL" markdown (kisah-islami md) — keluar {"error": "judul tidak ditemukan"} (exit 2). BUKAN tanda duplikat. Workaround pra-screen: ekstrak judul manual dari file instruksi, ulangi dengan `--judul`. Format yang lolos parse: "Judul: ..." (satu baris), "=== N. JUDUL ===", "Varian ... (DIPILIH):".

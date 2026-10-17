@@ -49,33 +49,42 @@ def api(method, path, body=None, raw=None, headers=None):
 
 
 def main():
-    gz = gzip.compress(open(HTML, "rb").read(), compresslevel=9)
-    h = hashlib.sha256(gz).hexdigest()
-    print(f"file {len(gz)} bytes gz, sha256 {h[:12]}...", flush=True)
+    files = {
+        "/index.html": gzip.compress(open(HTML, "rb").read(), compresslevel=9),
+        "/sw.js": gzip.compress(open("/home/hatch/workspace/yt-dashboard/static/sw.js", "rb").read(), compresslevel=9),
+    }
+    hashes = {p: hashlib.sha256(gz).hexdigest() for p, gz in files.items()}
+    for p, gz in files.items():
+        print(f"file {p}: {len(gz)} bytes gz, sha256 {hashes[p][:12]}...", flush=True)
 
-    ver = api("POST", f"/sites/{SITE}/versions", {"config": {"headers": []}})
+    ver = api("POST", f"/sites/{SITE}/versions", {"config": {"headers": [
+        {"glob": "/sw.js", "headers": {"Cache-Control": "no-cache, no-store, must-revalidate"}},
+        {"glob": "**", "headers": {"Cache-Control": "max-age=3600"}},
+    ]}})
     vname = ver["name"]
     print("version:", vname, flush=True)
 
     pop = api("POST", f"/{vname}:populateFiles",
-              {"files": {"/index.html": h}})
-    upurl = pop["uploadUrl"] + "/" + h
-    print("uploading...", flush=True)
+              {"files": {p: h for p, h in hashes.items()}})
     import subprocess, tempfile, os
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".gz") as tf:
-        tf.write(gz)
-        tmp = tf.name
-    # upload via curl (urllib kena 411 Length Required di env ini)
-    r = subprocess.run(["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}",
-                        "-X", "POST", upurl,
-                        "-H", f"Authorization: Bearer {get_token()}",
-                        "-H", "Content-Type: application/octet-stream",
-                        "--data-binary", "@" + tmp],
-                       capture_output=True, text=True, timeout=120)
-    os.unlink(tmp)
-    if r.stdout.strip() != "200":
-        raise RuntimeError(f"upload gagal: HTTP {r.stdout} {r.stderr[:200]}")
-    print("upload OK", flush=True)
+    for p, gz in files.items():
+        h = hashes[p]
+        upurl = pop["uploadUrl"] + "/" + h
+        print(f"uploading {p}...", flush=True)
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".gz") as tf:
+            tf.write(gz)
+            tmp = tf.name
+        # upload via curl (urllib kena 411 Length Required di env ini)
+        r = subprocess.run(["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}",
+                            "-X", "POST", upurl,
+                            "-H", f"Authorization: Bearer {get_token()}",
+                            "-H", "Content-Type: application/octet-stream",
+                            "--data-binary", "@" + tmp],
+                           capture_output=True, text=True, timeout=120)
+        os.unlink(tmp)
+        if r.stdout.strip() != "200":
+            raise RuntimeError(f"upload {p} gagal: HTTP {r.stdout} {r.stderr[:200]}")
+        print(f"upload {p} OK", flush=True)
 
     api("PATCH", f"/{vname}?updateMask=status", {"status": "FINALIZED"})
     print("finalized", flush=True)

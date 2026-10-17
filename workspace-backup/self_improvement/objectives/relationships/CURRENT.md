@@ -1,7 +1,7 @@
 ---
 objective_id: relationships
-run_id: sirun_ca0a2a46e280466fb771a9db84a2f5c0
-created_at: 2026-10-17T15:45:44.354122713+00:00
+run_id: sirun_fac62a2efede44429a0aca18d2e7516d
+created_at: 2026-10-17T16:33:41.725368377+00:00
 card_id: relationships
 worker_outcome: insufficient
 ---
