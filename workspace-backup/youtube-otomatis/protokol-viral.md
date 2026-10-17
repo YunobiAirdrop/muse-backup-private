@@ -31,7 +31,7 @@ Tujuan: memaksimalkan peluang video meledak. Berlaku untuk semua 13 channel.
 - Judul: curiosity gap, ≤60 karakter, kata kuat di depan ("Ternyata...", "Jangan...", angka).
 - Thumbnail: ≤4 kata, kontras tinggi, satu objek fokus, ekspresi/wajah jika relevan.
 - Jangan clickbait bohong — retensi hancur = algoritma menghukum.
-- KHUSUS SHORTS: hashtag ditaruh di AKHIR JUDUL video (contoh: "...! #shorts #miniature #diy #foryou"), BUKAN di deskripsi. Judul berisi 3-4 hashtag, hashtag TERAKHIR WAJIB #foryou, dan selain #foryou WAJIB minimal 2 hashtag PALING RAMAI dipakai yang relevan topik (perintah user 2026-10-12). (Video long tetap: hashtag di deskripsi, dan WAJIB ada #foryou di antara hashtag deskripsinya.)
+- KHUSUS SHORTS: hashtag ditaruh di AKHIR JUDUL video (contoh: "...! #butifyourcloseyoureyesmeme #shorts #miniature #diy #foryou"), BUKAN di deskripsi. Judul berisi 5 hashtag, hashtag TERAKHIR WAJIB #foryou, #butifyourcloseyoureyesmeme WAJIB ada, dan selain itu WAJIB 3 hashtag PALING RAMAI dipakai yang relevan topik (perintah user 2026-10-12; ditambah hashtag wajib 2026-10-18). (Video long tetap: hashtag di deskripsi, dan WAJIB ada #butifyourcloseyoureyesmeme + #foryou di antara hashtag deskripsinya.)
 
 ## 4. DOUBLE-DOWN RULE (wajib cek tiap hari)
 - Cek performa video kemarin/lusa di channel ini.
@@ -105,12 +105,12 @@ Tujuan: memaksimalkan peluang video meledak. Berlaku untuk semua 13 channel.
 - **Target metrik: CTR 4-10%+.** Dua metrik yang dikejar algoritma: CTR × rata-rata durasi tonton. Thumbnail + judul = gerbang segalanya.
 
 ## 14. PAKET HASHTAG TRENDING (wajib, mulai 2026-10-11 — perintah user)
-Paket hashtag siap pakai (riset komunitas 2026-10-10). Aturan (diperbarui user 2026-10-12): SETIAP video WAJIB MINIMAL 3 hashtag = #foryou + MINIMAL 2 hashtag PALING RAMAI dipakai yang relevan dengan topik, diambil dari paket di bawah ini (utamakan volume pemakaian terbesar: umum viral/platform dulu, lalu niche terpopuler) — BUKAN hashtag karangan/asal. Judul Shorts: total 3-4 hashtag, DITUTUP #foryou sebagai hashtag terakhir. Video LONG: hashtag di deskripsi minimal 3, WAJIB menyertakan #foryou + 2 trending relevan.
+Paket hashtag siap pakai (riset komunitas 2026-10-10). Aturan (diperbarui user 2026-10-12; ditambah hashtag wajib user 2026-10-18): SETIAP video WAJIB 5 hashtag = #butifyourcloseyoureyesmeme + #foryou + 3 hashtag PALING RAMAI dipakai yang relevan dengan topik, diambil dari paket di bawah ini (utamakan volume pemakaian terbesar: umum viral/platform dulu, lalu niche terpopuler) — BUKAN hashtag karangan/asal. Judul Shorts: total 5 hashtag, DITUTUP #foryou sebagai hashtag terakhir, #butifyourcloseyoureyesmeme WAJIB ada. Video LONG: hashtag di deskripsi minimal 5, WAJIB menyertakan #butifyourcloseyoureyesmeme + #foryou + 3 trending relevan.
 - Umum viral: #viral #fyp #foryou #foryoupage #trending #explore #viralvideo #trendingshorts #videooftheday
 - Platform: #shorts #youtubeshorts #reels #reelsviral
 - Indonesia: #viralindonesia #fypindonesia #trendindonesia #shortsindonesia #viral2026 #kontenviral
 - Niche (tambah sesuai channel): #mystery #unsolved #horor #sejarah #alkitab #rohani #islami #miniature #diy #cryptid #space #kosmos #faktaunik
-- Contoh: `Judul Video! #shorts #viralindonesia #mystery #foryou`
+- Contoh: `Judul Video! #butifyourcloseyoureyesmeme #shorts #viralindonesia #mystery #foryou`
 
 ## 15. UPLOAD UNLISTED-DULU (wajib, mulai 2026-10-11 — perintah user, trik komunitas kreator)- Upload video sebagai **Tidak Publik (Unlisted)** dulu, BUKAN langsung Terjadwal/Publik.
 - Sambil unlisted: rapikan judul (formula packaging + hashtag), deskripsi SEO (keyword di 100 karakter pertama), dan thumbnail — tanpa tekanan waktu.
@@ -193,9 +193,9 @@ Paket hashtag siap pakai (riset komunitas 2026-10-10). Aturan (diperbarui user 2
 - **Strange Tales (target US):** upload di irisan zona waktu ID-US (sudah 21:00/03:00/07:00 WIB — pertahankan).
 - **Short, sharp, complete:** video 6 menit fokus 1 masalah mengalahkan tutorial 12 menit generik (satisfaction per menit lebih tinggi).
 
-## 17. CHECKLIST WAJIB SEBELUM TULIS INSTRUKSI UPLOAD (jangan skip)- [ ] SHORTS: judul diakhiri hashtag — MINIMAL 3, maks 4 hashtag; format: `<Judul> #<trending relevan 1> #<trending relevan 2> #foryou` (hashtag TERAKHIR WAJIB #foryou; selain #foryou minimal 2 hashtag PALING RAMAI dipakai dari paket bagian 14, contoh: `...! #shorts #viral #mystery #foryou`). TANPA hashtag / tanpa #foryou / cuma 1-2 hashtag = instruksi DITOLAK, tulis ulang.
-- [ ] Hashtag diambil dari PAKET HASHTAG TRENDING (bagian 14): minimal 3 = #foryou + minimal 2 hashtag paling ramai dipakai yang relevan (utamakan umum viral/platform bervolume terbesar, lalu niche terpopuler).
-- [ ] LONG: hashtag di deskripsi (bukan judul), MINIMAL 3, WAJIB ada #foryou + minimal 2 hashtag trending relevan dari bagian 14.
+## 17. CHECKLIST WAJIB SEBELUM TULIS INSTRUKSI UPLOAD (jangan skip)- [ ] SHORTS: judul diakhiri hashtag — 5 hashtag; format: `<Judul> #butifyourcloseyoureyesmeme #<trending relevan 1> #<trending relevan 2> #<trending relevan 3> #foryou` (hashtag TERAKHIR WAJIB #foryou; #butifyourcloseyoureyesmeme WAJIB ada; selain itu minimal 3 hashtag PALING RAMAI dipakai dari paket bagian 14, contoh: `...! #butifyourcloseyoureyesmeme #shorts #viral #mystery #foryou`). TANPA hashtag / tanpa #foryou / tanpa #butifyourcloseyoureyesmeme = instruksi DITOLAK, tulis ulang.
+- [ ] Hashtag diambil dari PAKET HASHTAG TRENDING (bagian 14): 5 hashtag = #butifyourcloseyoureyesmeme + #foryou + 3 hashtag paling ramai dipakai yang relevan (utamakan umum viral/platform bervolume terbesar, lalu niche terpopuler).
+- [ ] LONG: hashtag di deskripsi (bukan judul), 5 hashtag, WAJIB ada #butifyourcloseyoureyesmeme + #foryou + 3 hashtag trending relevan dari bagian 14.
 - [ ] PREFLIGHT SEO: metadata paket upload WAJIB lolos audit `~/workspace/youtube-otomatis/yt-growth/seo_audit.py` (mode file) — perbaiki semua FAIL sebelum upload (skor <100 boleh tayang hanya bila tidak ada FAIL). Tools mingguan terkait: retention.py (titik jatuh penonton), ab_test.py (uji judul terukur, mode proposal), competitor_scan.py (pola kompetitor) — dijalankan cron yt-seo-refresh-mingguan.
 - [ ] FUNNEL VIDEO LAMA (distribusi ulang): di sesi Studio untuk disclosure, video LONG baru WAJIB diberi end screen mengarah ke video long lama PALING SEPI yang masih relevan di channel yang sama + komentar berisi link video lama itu diposting & di-pin. Video baru juga dimasukkan ke playlist tematik channel (playlist dibuat via yt-growth; bila belum ada, laporkan).
 - [ ] AI disclosure dicentang.
