@@ -1,0 +1,379 @@
+{
+ "beats": [
+  {
+   "id": "beat-001",
+   "image": "A man's shoes pointed toward an open door while his smiling face looks at the camera, tense dramatic moment, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "His feet pointed at the door while he smiled straight at me. In that moment, I knew he was already gone."
+  },
+  {
+   "id": "beat-002",
+   "image": "A giant clock rewinding over a scene of two people talking in a dim cafe, time spiral effect, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting",
+   "narration": "Rewind. That single moment taught me the most dangerous lies are told without a single spoken word."
+  },
+  {
+   "id": "beat-003",
+   "image": "An observer with a notebook studying people across a boardroom, a cafe, and a courtroom blended into one scene, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "I have spent years studying people in boardrooms, cafes, and courtrooms. Tonight, I hand you everything I learned."
+  },
+  {
+   "id": "beat-004",
+   "image": "A human silhouette with gesture symbols rising from the body posture instead of the mouth, silent language concept, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Your body speaks a language your mouth never learned. And it never stops talking."
+  },
+  {
+   "id": "beat-005",
+   "image": "Seven glowing signal symbols floating around a mysterious hooded figure in darkness, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting",
+   "narration": "Seven signals. Each one exposes something people desperately try to hide."
+  },
+  {
+   "id": "beat-006",
+   "image": "A person removing a theatrical mask revealing their true face underneath, dramatic reveal, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Learn them well, and you will never be fooled the same way twice."
+  },
+  {
+   "id": "beat-007",
+   "image": "A glowing shield protecting a person from shadowy reaching hands, guardian defense concept, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "This is not about manipulating anyone. It is about protecting yourself."
+  },
+  {
+   "id": "beat-008",
+   "image": "Extreme close-up of a human face with a flicker of true emotion crossing it for a frozen instant, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Signal one. The micro-expression. A flash of true emotion that lasts one twenty-fifth of a second."
+  },
+  {
+   "id": "beat-009",
+   "image": "A cracked porcelain mask with bright light leaking through the cracks, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Your face cannot hold a lie perfectly. No matter how hard you try, something always leaks through."
+  },
+  {
+   "id": "beat-010",
+   "image": "Split frame close-up: a nose wrinkling in disgust on one side, lips pressed thin in anger on the other, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Watch closely. Disgust flickers around the nose. Anger presses the lips into a thin line."
+  },
+  {
+   "id": "beat-011",
+   "image": "A theatrical stage smile mask with cold empty eyes behind it, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "A smile that never reaches the eyes is just theater. Real joy always crinkles the corners."
+  },
+  {
+   "id": "beat-012",
+   "image": "Close-up of a man's eyes glancing sideways while his mouth forms a lie, caught mid-sentence, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "I once watched a man's eyes betray him before his mouth could finish a single lie."
+  },
+  {
+   "id": "beat-013",
+   "image": "A human face captured in the tense half-second right after a question lands, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "The trick is simple. Watch the face in the exact moment right after your question lands."
+  },
+  {
+   "id": "beat-014",
+   "image": "A theatrical mask slipping off a face revealing the truth underneath, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "That half second is when the mask slips. That is when the truth escapes."
+  },
+  {
+   "id": "beat-015",
+   "image": "A person covering their ears with eyes wide open, choosing watching over listening, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Most people miss it because they are busy listening to words. Stop. Watch the face instead."
+  },
+  {
+   "id": "beat-016",
+   "image": "Near-total darkness with a single faint eye outline glowing, dramatic pause, dark storybook 2D illustration, 16:9 widescreen",
+   "narration": ""
+  },
+  {
+   "id": "beat-017",
+   "image": "A detective-like observer studying a human face through a large magnifying glass, noir mood, dark storybook 2D illustration, 16:9 widescreen",
+   "narration": "One flash is all you get. But train your eyes, and you will start catching it everywhere."
+  },
+  {
+   "id": "beat-018",
+   "image": "Extreme macro of human pupils, one dilated and one normal, side by side, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Signal two. The pupils. And here is the beautiful part. You cannot fake them."
+  },
+  {
+   "id": "beat-019",
+   "image": "A pupil widening as it gazes at something exciting, macro view with warm glow, dark storybook 2D illustration, 16:9 widescreen",
+   "narration": "When something excites us, the pupils widen. When we dislike it, they shrink back down."
+  },
+  {
+   "id": "beat-020",
+   "image": "A glowing human brain while the mouth below stays firmly shut, biology concept, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "It is pure biology. The brain answers honestly before the person has time to think."
+  },
+  {
+   "id": "beat-021",
+   "image": "A poker player wearing dark sunglasses at a green felt card table, tense game, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Poker players wear dark sunglasses for exactly this reason. They are hiding the truth in their eyes."
+  },
+  {
+   "id": "beat-022",
+   "image": "Two people in a tense salary negotiation across a desk, eyes locked, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Now imagine reading that same signal in a salary negotiation. The power shifts completely."
+  },
+  {
+   "id": "beat-023",
+   "image": "Extreme close-up of eyes widening during a negotiation, truth leaking through, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Ask for more money. Then watch the eyes. The real answer is there before the words arrive."
+  },
+  {
+   "id": "beat-024",
+   "image": "A dim interrogation room with a single hanging lamp and deep shadows, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Dim light helps you read them. Bright light hides the tell completely."
+  },
+  {
+   "id": "beat-025",
+   "image": "An interrogator's silhouette in a dim room under a single bulb, tense atmosphere, dark storybook 2D illustration, 16:9 widescreen",
+   "narration": "This is why professional interrogators keep their rooms dim. They watch the eyes, not the mouth."
+  },
+  {
+   "id": "beat-026",
+   "image": "Eyes radiating light while the mouth is symbolically sealed shut, surreal concept, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Your eyes leak what your mouth works so hard to hide."
+  },
+  {
+   "id": "beat-027",
+   "image": "A single glowing puzzle piece, then a cluster of connected pieces forming a face, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "But here is the catch. One signal alone means nothing. You need clusters of signals together."
+  },
+  {
+   "id": "beat-028",
+   "image": "A pair of feet under a table pointed firmly toward a door, dramatic low angle, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Signal three. The feet. Out of everything I will teach you, they never lie."
+  },
+  {
+   "id": "beat-029",
+   "image": "A person rehearsing facial expressions in a mirror while their feet stay uncontrolled below, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "People control their face. They rehearse their voice. But almost nobody bothers guarding their feet."
+  },
+  {
+   "id": "beat-030",
+   "image": "Split scene: feet pointing toward an open exit door on one side, toward a desired person on the other, dark storybook 2D illustration, 16:9 widescreen",
+   "narration": "Feet point toward what we want. Toward the exit. Toward the person in the room we desire."
+  },
+  {
+   "id": "beat-031",
+   "image": "View under a long conference table showing many pairs of feet, one pair angled away toward the door, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "So in your next meeting, do something strange. Glance under the table."
+  },
+  {
+   "id": "beat-032",
+   "image": "A man's feet angled toward the door while he sits at a meeting table pretending to listen, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Feet angled at the door means the person sitting there is already halfway home."
+  },
+  {
+   "id": "beat-033",
+   "image": "A client smiling through a business pitch presentation while his shoes point toward the elevator, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "This one hit close to home when a client smiled through my whole pitch, but his shoes faced the elevator."
+  },
+  {
+   "id": "beat-034",
+   "image": "A handshake dissolving into smoke while feet walk away toward a door, lost deal concept, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "We lost that deal in the end. But honestly, the feet had told me first."
+  },
+  {
+   "id": "beat-035",
+   "image": "A giant painted arrow on the floor pointing down at a pair of feet, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "If you want to know where someone truly stands, stop looking at their face. Look down."
+  },
+  {
+   "id": "beat-036",
+   "image": "A person rethinking past conversations, thought bubbles with faces floating above their head, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "If this is making you rethink every conversation you had this week, subscribe. Next week I go even deeper."
+  },
+  {
+   "id": "beat-037",
+   "image": "Ancient words carved on a stone tablet, timeless truth, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Feet never lie. Write that down somewhere. Remember that."
+  },
+  {
+   "id": "beat-038",
+   "image": "Extreme close-up of an eye blinking rapidly under stress, tension visible, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Signal four. The blink rate. When the brain panics under stress, the blinking spikes."
+  },
+  {
+   "id": "beat-039",
+   "image": "A calm meditating person with slow relaxed blinking eyes, peaceful, dark storybook 2D illustration, 16:9 widescreen, soft moody lighting",
+   "narration": "A calm relaxed person blinks about fifteen times every minute. Nice and steady."
+  },
+  {
+   "id": "beat-040",
+   "image": "A person asked an uncomfortable question, eyes blinking fast with visible tension, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Ask something uncomfortable, and watch that number double. Sometimes it even triples."
+  },
+  {
+   "id": "beat-041",
+   "image": "Brain gears turning fast while eyelids flutter above them, surreal concept, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "The brain is working overtime trying to build the lie. The eyelids simply follow along."
+  },
+  {
+   "id": "beat-042",
+   "image": "The frozen tense moment right after a hard question is asked, two faces in suspense, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Watch for it in the seconds right after you ask the question that really matters."
+  },
+  {
+   "id": "beat-043",
+   "image": "Symbols of dry air swirl, a contact lens, and a bright screen glowing around a single eye, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "But be careful here. Dry air, contact lenses, bright screens. Context is everything with this one."
+  },
+  {
+   "id": "beat-044",
+   "image": "A paranoid person seeing suspicious signals in every swirling face around them, chaotic, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Never read one single signal in isolation. That is exactly how you turn into the paranoid one."
+  },
+  {
+   "id": "beat-045",
+   "image": "Three glowing signal icons stacking together into one clear pattern, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Stack three signals together, and suddenly you have a pattern you can trust."
+  },
+  {
+   "id": "beat-046",
+   "image": "Puppet master hands controlling a smiling puppet on strings, manipulation concept, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Now we reach the signal that manipulators themselves love to use against you."
+  },
+  {
+   "id": "beat-047",
+   "image": "Two people mirroring each other's posture across a table, one genuine and one calculating, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Signal five. Mirroring. When someone copies your posture, what they really want is your trust."
+  },
+  {
+   "id": "beat-048",
+   "image": "Two real friends naturally mirroring posture on a park bench, warm and genuine, dark storybook 2D illustration, 16:9 widescreen, soft lighting",
+   "narration": "It is how the human brain builds rapport. Real friends do it completely naturally."
+  },
+  {
+   "id": "beat-049",
+   "image": "A salesperson deliberately copying a customer's posture in a showroom, calculated, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "But trained salespeople do it on purpose. Every lean, every nod, calculated."
+  },
+  {
+   "id": "beat-050",
+   "image": "Two people leaning in at the same time, one watching the other with suspicion, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "So the next time someone leans in exactly when you lean in, notice it. Really notice."
+  },
+  {
+   "id": "beat-051",
+   "image": "A person questioning themselves before a mirror showing two faces, connection or technique, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Then ask yourself one hard question. Is this genuine connection, or is this a technique?"
+  },
+  {
+   "id": "beat-052",
+   "image": "A person suddenly changing posture while the other person is caught mid-copy, exposed, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Here is how you protect yourself. Change your posture suddenly, for no reason at all."
+  },
+  {
+   "id": "beat-053",
+   "image": "A spotlight revealing a person caught mid-mirror, exposed in the act, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "If they follow your movement, you know the mirroring is deliberate. Now you see it."
+  },
+  {
+   "id": "beat-054",
+   "image": "A high-stakes boardroom with millions on the table, tense mirroring between negotiators, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "I have seen this happen in rooms where millions of dollars were sitting on the table."
+  },
+  {
+   "id": "beat-055",
+   "image": "A glowing shield of awareness surrounding a protected person, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "The best defense was never confrontation. It is awareness. And now you have it."
+  },
+  {
+   "id": "beat-056",
+   "image": "A person hugging themselves with crossed arms, seeking comfort rather than showing anger, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Signal six. The self-hug. Arms wrapped tight around the body, holding on."
+  },
+  {
+   "id": "beat-057",
+   "image": "Arms wrapped around the body like a warm blanket, self-comfort concept, dark storybook 2D illustration, 16:9 widescreen, soft moody lighting",
+   "narration": "Most people read this as anger. Psychologists read it as comfort. The body calming its own alarm."
+  },
+  {
+   "id": "beat-058",
+   "image": "Split close-up of hands: one squeezing an arm tensely, one resting loose and relaxed, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Watch the hands closely now. Squeezing the arms means tension. Resting loose means relaxed."
+  },
+  {
+   "id": "beat-059",
+   "image": "A hand rubbing the back of a tense neck, pressure and stress concept, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Rubbing the back of the neck is the body quietly saying it is under serious pressure."
+  },
+  {
+   "id": "beat-060",
+   "image": "A hand touching the face during a denial, classic tell, close-up, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Touching the face right in the middle of a denial is one of the most classic tells."
+  },
+  {
+   "id": "beat-061",
+   "image": "Hands soothing tense shoulders with a warm calming glow, self-soothing concept, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Psychologists call these self-soothing gestures. The body trying to calm its own alarm bells."
+  },
+  {
+   "id": "beat-062",
+   "image": "A person lowering their voice with a calming open hand gesture, easing tension, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "When you spot them, do the opposite of what feels natural. Lower your voice. Ease off."
+  },
+  {
+   "id": "beat-063",
+   "image": "Truth emerging as light through an open door during a comfortable relaxed conversation, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "You will always get more truth from comfort than you ever will from pressure."
+  },
+  {
+   "id": "beat-064",
+   "image": "A mysterious seventh door slowly opening with bright light behind it, the final secret, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "But the seventh signal betrays even the people who control absolutely everything else."
+  },
+  {
+   "id": "beat-065",
+   "image": "Sound waves rising in pitch from a stressed voice, visual waveform climbing upward, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Signal seven. The voice. Under real stress, the pitch of the voice rises."
+  },
+  {
+   "id": "beat-066",
+   "image": "A nervous system drawn as glowing wires with a voice pitch climbing half a tone, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Listen for it carefully. A voice climbing half a tone is a nervous system talking out loud."
+  },
+  {
+   "id": "beat-067",
+   "image": "Frozen sound waves suspended in total dark silence, dramatic pause, dark storybook 2D illustration, 16:9 widescreen",
+   "narration": ""
+  },
+  {
+   "id": "beat-068",
+   "image": "A master liar controlling their own face, hands, and feet like a puppeteer, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "The very best liars control their face, their hands, and even their feet. All of it."
+  },
+  {
+   "id": "beat-069",
+   "image": "Glowing vocal cords vibrating uncontrollably while everything else stays perfectly still, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "But almost nobody on earth controls their vocal cords. They betray everyone eventually."
+  },
+  {
+   "id": "beat-070",
+   "image": "Two voice waveforms compared side by side: calm baseline versus stressed present, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Compare how they sound right now to how they sounded at the very start."
+  },
+  {
+   "id": "beat-071",
+   "image": "A measuring tape stretched across a steady calm voice wave, baseline concept, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "The baseline is everything here. Get them calm first, then compare."
+  },
+  {
+   "id": "beat-072",
+   "image": "Seven glowing icons in a row, each representing one body language signal, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Let us recap. Seven signals. Micro-expressions. Pupils. Feet. Blink rate. Mirroring. Self-soothing. Voice."
+  },
+  {
+   "id": "beat-073",
+   "image": "Two or three puzzle pieces forming a clear picture of a human face, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "Here is the good news. You do not need all seven. Stack two or three, and the picture turns clear."
+  },
+  {
+   "id": "beat-074",
+   "image": "A guardian raising a shield in defense, protecting without attacking, dark storybook 2D illustration, 16:9 widescreen, dramatic light",
+   "narration": "Use all of this to protect yourself. Never to trap anyone. That line matters."
+  },
+  {
+   "id": "beat-075",
+   "image": "A large ear listening as a shadowy silhouette confesses, body language decoded, dark storybook 2D illustration, 16:9 widescreen, moody lighting",
+   "narration": "The body always confesses in the end. Now you finally know how to listen. I will see you in the next one."
+  }
+ ]
+}

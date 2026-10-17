@@ -1,0 +1,115 @@
+[
+ {
+  "judul": "Sambal Matah Bali Segar, Nikmat dengan Ikan Bakar",
+  "deskripsi": "Sambal matah yang aromatis dan pedas segar ini bisa langsung menyentuh selera dengan hanya beberapa bahan khas Bali.",
+  "bahan": [
+   "10 siung bawang merah, iris tipis",
+   "3 buah cabai rawit merah, iris halus",
+   "2 batang serai, bagian putihnya hanya, iris tipis",
+   "4 lembar daun jeruk, buang tulang tengah, iris tipis",
+   "1 sdt terasi bakar",
+   "1 sdm gula pasir",
+   "1/2 sdt garam",
+   "2 sdm minyak kelapa atau minyak sayur",
+   "1 buah jeruk limo, peras airnya"
+  ],
+  "bumbu_halus": [],
+  "langkah": [
+   "Campur bawang merah, cabai rawit, serai, dan daun jeruk dalam mangkuk besar.",
+   "Tambahkan terasi bakar, gula, dan garam, aduk hingga rata.",
+   "Tuangkan minyak panas ke dalam campuran, aduk cepat hingga sedikit layu tetapi masih terasa renyah.",
+   "Peras air jeruk limo ke dalam sambal, aduk lagi hingga bumbu meresap.",
+   "Cicipi dan sesuaikan rasa dengan menambahkan sedikit garam atau gula jika diperlukan.",
+   "Sambal matah siap disajikan sebagai pelengkap ikan bakar, ayam goreng, atau nasi putih."
+  ],
+  "tips": [
+   "Gunakan minyak yang benar-benar panas untuk menumis bumbu agar sambal tidak terlalu basah.",
+   "Jika suka lebih pedas, tambahkan jumlah cabai rawit atau beri sedikit bubuk cabe.",
+   "Sambal matah terbaik disantap segera setelah dibuat agar aroma segarnya tetap kuat."
+  ],
+  "porsi": "4 porsi",
+  "waktu": "15 menit",
+  "kesulitan": "Mudah",
+  "prompt_gambar": "Sambal Matah Bali dalam mangkuk kecil, disajikan bersama ikan bakar dan nasi putih, latar belakang daun pisang hijau.",
+  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "nama_pool": "Sambal Matah Bali",
+  "kategori": "sambal"
+ },
+ {
+  "judul": "Pisang Molen Gurih, Kenyeleran Kenyal",
+  "deskripsi": "Rasanya renyah di luar, kenyal di dalam, dan dipenuhi aroma santan manis yang menggoda.",
+  "bahan": [
+   "4 buah pisang kepok",
+   "200 gr tepung terigu",
+   "100 gr tepung beras",
+   "100 ml santan kental",
+   "50 gr gula pasir",
+   "1 sdt baking powder",
+   "1 butir telur",
+   "50 ml susu cair",
+   "30 ml minyak goreng",
+   "1 sdt garam"
+  ],
+  "bumbu_halus": [],
+  "langkah": [
+   "Pertama, kupas pisang, potong menjadi bagian‑bagian pendek sekitar 3 cm, lalu remuk perlahan dengan sedikit garam.",
+   "Kocok telur dengan santan, susu cair, minyak goreng, dan gula pasir hingga rata.",
+   "Campurkan tepung terigu, tepung beras, dan baking powder dalam mangkuk besar, aduk merata.",
+   "Masukkan campuran kocok ke dalam tepung, aduk perlahan hingga adonan menjadi lembut, tidak terlalu kental.",
+   "Ambil adonan, lumuri setiap potongan pisang, lalu goreng dalam minyak panas (180 °C) hingga berwarna keemasan dan keren.",
+   "Tiriskan minyak, taburi sedikit gula pasir atau keju parut, sajikan hangat dengan kopi atau teh."
+  ],
+  "tips": [
+   "Gunakan minyak yang sudah panas sebelum menambahkan adonan, supaya pisang tidak menyerap terlalu banyak minyak.",
+   "Jangan terlalu banyak mengisi wajan sekaligus, goreng batch demi‑demi agar renyah.",
+   "Sebelum menggoreng, pastikan adonan menempel sempurna pada pisang dengan sedikit telur kering."
+  ],
+  "waktu": "80 menit",
+  "porsi": "4 porsi",
+  "kesulitan": "Mudah",
+  "prompt_gambar": "Pisang molen renyah berwarna keemasan, disajikan di piring keramik putih dengan taburan gula pasir, latar belakang papan kayu rustic.",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "nama_pool": "Pisang Molen",
+  "kategori": "jajanan"
+ },
+ {
+  "judul": "Nasi Liwet Sunda Wangi, Gurihnya Bikin Nambah!",
+  "deskripsi": "Nasi gurih yang dimasak langsung dengan rempah dan ikan asin, aromanya benar-benar menggoda selera makan keluarga.",
+  "bahan": [
+   "500 gr beras putih kualitas baik, cuci bersih",
+   "800 ml air (sesuaikan dengan takaran air biasa)",
+   "50 gr ikan asin peda atau teri medan, goreng kering",
+   "5 siung bawang merah, iris tipis",
+   "3 siung bawang putih, iris tipis",
+   "3 batang serai, memarkan",
+   "4 lembar daun salam",
+   "3 lembar daun jeruk, buang tulang daunnya",
+   "2 buah cabai merah besar, iris serong",
+   "2 sdt garam (sesuaikan selera)",
+   "1 sdt kaldu jamur",
+   "2 sdm minyak goreng untuk menumis"
+  ],
+  "bumbu_halus": [],
+  "langkah": [
+   "1. Tumis bawang merah dan bawang putih dengan minyak hingga harum dan layu.",
+   "2. Masukkan serai, daun salam, daun jeruk, dan irisan cabai ke dalam tumisan, aduk sebentar.",
+   "3. Masukkan beras yang sudah dicuci ke dalam panci kastrol atau rice cooker, lalu campurkan tumisan bumbu tadi.",
+   "4. Tambahkan air, garam, dan kaldu jamur, lalu aduk rata agar bumbu menyatu dengan beras.",
+   "5. Masak nasi dengan api kecil (jika pakai panci) atau mode 'cook' (jika pakai rice cooker) hingga matang.",
+   "6. Setelah nasi matang, masukkan ikan asin goreng ke atas permukaan nasi, tutup kembali sebentar agar aroma ikan meresap.",
+   "7. Aduk perlahan nasi dengan ikan asin agar tercampur merata sebelum disajikan."
+  ],
+  "tips": [
+   "Gunakan panci kastrol jika ingin aroma 'smoky' khas pedesaan yang lebih kuat.",
+   "Pastikan ikan asin digoreng terlebih dahulu agar teksturnya tetap renyah saat dicampur nasi.",
+   "Jangan terlalu banyak memberi garam karena ikan asin sudah memberikan rasa asin alami."
+  ],
+  "waktu": "45 menit",
+  "porsi": "4 porsi",
+  "kesulitan": "Mudah",
+  "prompt_gambar": "Nasi liwet dalam panci kastrol tradisional dengan ikan asin dan cabai di atasnya, disajikan di atas meja kayu dengan alas daun pisang dan latar belakang pedesaan yang hangat.",
+  "model": "google/gemma-4-26b-a4b-it:free",
+  "nama_pool": "Nasi Liwet Sunda",
+  "kategori": "nasi"
+ }
+]

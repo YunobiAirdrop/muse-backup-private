@@ -1,0 +1,10 @@
+{
+  "audited_at": "2026-10-07T15:44:14.377689+00:00",
+  "audited_day": "2026-10-07",
+  "memory_sha256": "f25ed15b7719c2f75a7140e13655a2aae1f533c2d29641845504245ee60da324",
+  "run_id": "sirun_d21afdaa5a36449ca2647edd68521f29",
+  "user_audited_day": "2026-10-07",
+  "user_recheck_requested": true,
+  "user_sha256": "bfde530602b298c82d3eb129fe79242877ba52dc93336fa0793b94cbaa59eff2",
+  "version": 2
+}

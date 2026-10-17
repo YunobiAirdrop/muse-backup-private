@@ -1,0 +1,89 @@
+{
+ "run": "retry-upload-cepat 2026-10-11 06:55 UTC",
+ "eligible_ge_23h": 16,
+ "skipped_this_run": [
+  "space-en-2026-10-09 (defer: CATATAN instruksi = kerjakan paling cepat MALAM 11 Okt agar tidak tabrakan limit rolling shorts 10 Okt)"
+ ],
+ "batches": [
+  {
+   "n": 1,
+   "items": [
+    "strangetales-mantis-shrimp-2026-10-08",
+    "strangetales-blood-falls-2026-10-08",
+    "strangetales-mary-celeste-2026-10-08"
+   ],
+   "files_mb": 34,
+   "task_id": "browser-task:40bef975-ee41-494a-acef-91d361510a15",
+   "status": "failed-limit (3/3 tetap di antrean; gagal_pada diupdate ke 2026-10-11 ~07:05)"
+  },
+  {
+   "n": 2,
+   "items": [
+    "strangetales-axolotl-2026-10-09"
+   ],
+   "files_mb": 80.4,
+   "task_id": "browser-task:c2081511-b12a-411c-872a-f703bde2018e",
+   "status": "failed-limit (axolotl; gagal_pada diupdate)"
+  },
+  {
+   "n": 3,
+   "items": [
+    "strangetales-voynich-2026-10-09"
+   ],
+   "files_mb": 50.1,
+   "task_id": null,
+   "status": "skipped-this-run (limit ST terkonfirmasi 2x; antrean dibiarkan untuk watchdog 20:00)"
+  },
+  {
+   "n": 4,
+   "items": [
+    "strangetales-lake-natron-2026-10-09"
+   ],
+   "files_mb": 80.9,
+   "task_id": null,
+   "status": "skipped-this-run (limit ST terkonfirmasi 2x; antrean dibiarkan untuk watchdog 20:00)"
+  },
+  {
+   "n": 5,
+   "items": [
+    "weird-en-2026-10-08",
+    "weird-en-2026-10-09-s1",
+    "weird-en-2026-10-09-s2",
+    "weird-en-2026-10-09-s3"
+   ],
+   "files_mb": 19,
+   "task_id": "browser-task:6b26b706-8e54-4e00-9cde-5e2f6bb1bf70",
+   "status": "failed-limit (4/4 tetap di antrean; gagal_pada diupdate)"
+  },
+  {
+   "n": 6,
+   "items": [
+    "kisah-alkitab-2026-10-08"
+   ],
+   "files_mb": 93.4,
+   "task_id": "browser-task:f9c7d716-1eaa-4358-9b00-804b65d7d5ed",
+   "status": "failed-limit (KA-long; gagal_pada diupdate)"
+  },
+  {
+   "n": 7,
+   "items": [
+    "kisah-alkitab-short1-2026-10-09",
+    "kisah-alkitab-short2-2026-10-09",
+    "kisah-alkitab-short3-2026-10-09"
+   ],
+   "files_mb": 69,
+   "task_id": null,
+   "status": "skipped-this-run (limit KA terkonfirmasi; antrean dibiarkan untuk watchdog 20:00)"
+  },
+  {
+   "n": 8,
+   "items": [
+    "inktime-2026-10-09"
+   ],
+   "files_mb": 22,
+   "task_id": "browser-task:acf9a8f4-4c4d-4161-af28-ad6f581543ac",
+   "status": "failed-limit (inktime; gagal_pada diupdate)"
+  }
+ ],
+ "summary": "16 eligible >=23h; 1 deferred (space-en -> watchdog 20:00 malam 11 Okt sesuai CATATAN instruksi). 11 item dicoba via 5 browser task (ST 4, weird-en 4, KA-long 1, inktime 1) — SEMUA gagal: batas upload harian masih aktif di semua 5 channel (terverifikasi live). 5 item dilewati run ini (ST voynich + lake-natron, KA 3 shorts) karena limit channel yang sama sudah terkonfirmasi hitungan menit sebelumnya; antrean dibiarkan utuh untuk watchdog 20:00. Sukses: 0 -> tidak lapor ke chat (sesuai aturan body)."
+}

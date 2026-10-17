@@ -1,0 +1,1 @@
+The manipulator creates a threat, then offers to rescue you from it.

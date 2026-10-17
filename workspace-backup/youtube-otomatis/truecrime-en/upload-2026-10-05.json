@@ -1,0 +1,30 @@
+{
+  "ai_disclosure": "ALTERED CONTENT: This video contains AI-generated narration (TTS) and AI-generated illustrations. Per YouTube policy, the 'Altered content' checkbox MUST be ticked at upload.",
+  "audio_combined": "~/workspace/youtube-otomatis/truecrime-en/audio/gabungan-2026-10-05.mp3",
+  "channel": "Dark Case Files (@TrueCaseFilesTV)",
+  "description": "On November 24, 1971 — the eve of Thanksgiving — a calm, polite man in a dark suit boarded Northwest Orient Airlines Flight 305 in Portland, Oregon. He called himself Dan Cooper. Within an hour, he handed a flight attendant a note claiming he had a bomb, demanded $200,000 in cash and four parachutes, and set in motion the only unsolved skyjacking in American history.\n\nAfter releasing 36 passengers in Seattle, Cooper ordered the Boeing 727 back into the stormy night sky. Somewhere over the dark forests of southwestern Washington, he lowered the rear stairs, strapped the money to his body, and jumped into the void — never to be seen again. In 1980, $5,800 of the ransom money was found rotting on the banks of the Columbia River. The rest has never been recovered.\n\nIn this documentary, Dark Case Files traces every step of the case: the hijacking, the jump, the massive FBI manhunt, the suspects — including Richard McCoy — and the theories that still divide investigators more than fifty years later. In 2016, the FBI closed the case. The legend of D.B. Cooper only grew.\n\nDark Case Files brings you America's most baffling unsolved crimes — carefully researched, documentary-style, every single week. Subscribe and turn on notifications so you never miss a case.\n\n⚠️ AI Disclosure: Narration and illustrations in this video are AI-generated. Content is presented for educational and documentary purposes.\n\n#truecrime #dbcooper #unsolvedmystery #coldcase #documentary",
+  "schedule_target": "2026-10-06 07:00 Asia/Jakarta",
+  "shorts": [
+    {
+      "description": "He demanded $200,000, jumped from a Boeing 727 into a stormy night — and was never seen again. Full documentary coming soon on Dark Case Files. #shorts #truecrime #mystery",
+      "path": "~/workspace/youtube-otomatis/truecrime-en/shorts/2026-10-05-s1.mp4",
+      "title": "He Jumped From a Plane With $200,000 — Never Found"
+    },
+    {
+      "description": "In 1980, a family found $5,800 of D.B. Cooper's ransom money on a riverbank. The rest vanished forever. Full documentary coming soon on Dark Case Files. #shorts #truecrime #mystery",
+      "path": "~/workspace/youtube-otomatis/truecrime-en/shorts/2026-10-05-s2.mp4",
+      "title": "The $5,800 That Reopened America's Greatest Mystery"
+    },
+    {
+      "description": "The FBI chased D.B. Cooper for 45 years and never solved it. The greatest vanishing act in aviation history. Full documentary coming soon on Dark Case Files. #shorts #truecrime #mystery",
+      "path": "~/workspace/youtube-otomatis/truecrime-en/shorts/2026-10-05-s3.mp4",
+      "title": "Cooper Vanished Mid-Air. The FBI Never Solved It"
+    }
+  ],
+  "thumbnail": "~/workspace/youtube-otomatis/truecrime-en/thumbnail-2026-10-05.jpg",
+  "title": "D.B. Cooper: The Skyjacker Who Vanished Mid-Air | True Crime",
+  "topic": "D.B. Cooper — Northwest Orient Airlines Flight 305 skyjacking, November 24, 1971",
+  "video": "~/workspace/youtube-otomatis/truecrime-en/video/2026-10-05.mp4",
+  "video_duration_sec": 517.7,
+  "notes": "scene-013.jpg is a duplicate of scene-012.jpg: image generation for beat-013 (ordering a drink / lighting a cigarette) was blocked by the media tool's safety policy; reused the neighboring cabin scene to keep all 75 A/V slots in sync."
+}

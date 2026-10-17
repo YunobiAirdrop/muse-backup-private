@@ -1,0 +1,358 @@
+POV: Kamu Jadi Prajurit Mataram Menyerang Batavia 1628
+88 beat | Tokoh: Rangga, 21 tahun, prajurit Mataram | Setting: Kerajaan Mataram (Jawa Tengah), perjalanan ke Batavia, pengepungan Batavia, Agustus-Desember 1628
+KARAKTER VISUAL: Rangga, a young Javanese Mataram soldier, 21 years old, lean muscular build, warm brown skin, black hair tied in a small topknot, thin mustache, simple dark-brown cotton vest, red-brown sarong wrapped as trousers, leather belt with an ornate kris dagger, barefoot, carrying a long bamboo spear. Sultan Agung, Javanese king in his mid-30s, dignified calm face, royal batik attire, black blangkon headcloth with gold trim, gold-hilted kris at waist. Tumenggung Bahureksa, Mataram war commander in his 50s, stern scarred face, grey-streaked hair, red headcloth, iron-studded leather armor over batik sarong. Jan Pieterszoon Coen, Dutch VOC governor-general, stern pale face, wide-brimmed black hat, dark 17th-century coat with white ruff collar. Batavia: stone Kasteel Batavia fortress with high walls and cannons, Dutch gabled warehouses, tall VOC sailing ships anchored in the harbor.
+GAYA GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), dramatic cinematic composition, not photorealistic, no text
+CATATAN: hindari darah/kekerasan eksplisit di narasi maupun prompt gambar. Angka di naskah sudah dieja agar TTS natural. [JEDA] = tambah silence 0.8 detik di akhir beat (sebelum twist/momen kunci).
+OVERLAY TEKS (drawtext, 5 momen): beat 2 "PENGEPUNGAN BATAVIA 1628" | beat 30 "SEPULUH RIBU PRAJURIT" | beat 44 "SUBSCRIBE!" (3 detik) | beat 69 "TUMENGGUNG GUGUR" | beat 86 "MATARAM AKAN KEMBALI"
+
+BEAT 1:
+Ledakan meriam membelah malam. Tanah di bawah kakiku bergetar seperti gempa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), night battle outside a stone fortress, cannon muzzle flashes lighting the smoke, Rangga a young Javanese Mataram soldier with topknot and bamboo spear bracing against the shockwave, embers flying, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 2:
+Di depan, tembok batu Batavia menjulang setinggi pohon kelapa — dan dari atasnya, ratusan moncong meriam menatap kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), massive stone fortress wall of Kasteel Batavia at night towering over the viewer, rows of cannon barrels pointing down from the ramparts, torches on the wall, low-angle intimidating shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 3:
+Tanganku gemetar memegang tombak bambu. Malam ini, aku mungkin tidak pulang. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), extreme close-up of Rangga the young Javanese soldier, terrified wide-eyed face lit by orange cannon flashes, sweat on his brow, gripping a bamboo spear, night battle bokeh behind, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 4:
+Tapi tunggu — biar kuceritakan dari awal, bagaimana aku sampai di sini.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), peaceful Javanese village in Mataram kingdom at dawn, thatched houses, rice fields, mist over palm trees, calm wide establishing shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 5:
+Namaku Rangga. Dua puluh satu tahun, prajurit biasa dari Kedu, jantung kerajaan Mataram.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), portrait of Rangga, young Javanese Mataram soldier, 21, lean muscular, brown skin, black hair in small topknot, thin mustache, dark-brown cotton vest, red-brown sarong trousers, kris dagger on leather belt, bamboo spear, standing in a village, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 6:
+Hidupku sederhana: sawah, latihan tombak tiap pagi, dan cerita tentang raja kami — Sultan Agung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Rangga training with a bamboo spear at sunrise in a Javanese rice field, dynamic practice pose, village houses behind, warm morning light, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 7:
+Sultan Agung bukan raja biasa. Mimpinya satu: seluruh Jawa bersatu, bebas dari orang asing.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Sultan Agung, Javanese king mid-30s, dignified, royal batik attire, black blangkon with gold trim, gold-hilted kris, standing on a palace terrace overlooking Mataram lands, regal medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 8:
+Dan orang asing itu sudah bercokol di ujung barat Jawa — di sebuah kota bernama Batavia.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), distant view of Batavia, a walled Dutch colonial port city with stone fortress, gabled warehouses and tall sailing ships in the harbor, seen from a hill, ominous mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 9:
+Batavia dibangun orang Belanda, VOC namanya. Mereka datang berdagang... lalu membangun benteng batu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), 17th-century Dutch VOC merchants unloading spice crates from a tall ship while stone fortress walls rise behind them, Javanese laborers watching, harbor scene, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 10:
+Benteng batu. Di tanah Jawa. Jujur, bagian ini yang bikin saya merinding — membayangkan perasaan Sultan saat mendengarnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Sultan Agung in his palace receiving the news, clenched fist on a carved wooden throne, face stern with restrained anger, courtiers bowing, torchlight, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 11:
+Pemimpin mereka Jan Pieterszoon Coen — pria dingin yang menganggap Jawa cuma gudang rempah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Jan Pieterszoon Coen, stern pale Dutch governor, wide-brimmed black hat, dark 17th-century coat with white ruff collar, standing on the fortress rampart looking down coldly, arms crossed, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 12:
+Tahun seribu enam ratus dua puluh delapan, Sultan memanggil. Perang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), royal messenger on horseback raising a war banner in a Javanese village square, villagers gathering, Rangga among them looking up, dramatic sky, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 13:
+Sepuluh ribu prajurit dikumpulkan dari seluruh Mataram. Dan aku salah satunya. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), vast mustering field of Mataram soldiers, thousands of Javanese warriors with spears and banners stretching to the horizon, Rangga small in the crowd looking around in awe, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 14:
+Ibuku membekaliku ketupat dan doa. Ayah cuma bilang: "Jangan pulang sebelum menang."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), emotional farewell at dawn, a Javanese mother pressing a woven food bundle into Rangga's hands, father placing a firm hand on his shoulder, soft morning light, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 15:
+Kami berangkat saat musim kemarau. Barisan prajurit membentang sejauh mata memandang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), long column of Mataram soldiers marching on a dusty Javanese road, spears upright, red banners waving, dry-season landscape, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 16:
+Perjalanan ke Batavia bukan dekat — ratusan kilometer, melewati hutan, sungai, dan gunung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), map-like sweeping view of the marching army winding through jungle, across a wide river and toward distant blue mountains, tiny soldiers in a vast landscape, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 17:
+Setiap prajurit memikul beras dan senjata sendiri. Tidak ada kuda, tidak ada kereta.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), close view of marching Mataram soldiers carrying woven rice baskets on shoulder poles and bamboo spears, sweat and dust, determined faces, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 18:
+Malam pertama kami tidur di bawah langit, beralaskan daun pisang, ditemani suara jangkrik.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Mataram soldiers sleeping under a starry night sky on banana leaves, campfires glowing low, Rangga awake staring at the stars, peaceful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 19:
+Ada yang menyanyi tembang Jawa pelan-pelan. Entah kenapa, rasanya seperti lagu perpisahan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), an old Javanese soldier singing softly by a campfire at night, young soldiers including Rangga listening with faraway eyes, warm firelight on faces, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 20:
+Hari ketujuh, alas kakiku jebol. Kaki telanjangku perih menginjak kerikil panas.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Rangga sitting by the roadside examining his broken woven sandal and sore bare foot, fellow soldiers marching past, dusty road, sympathetic medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 21:
+Tapi tak ada yang mengeluh. Di depan kami, panji Mataram berkibar — dan itu cukup.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), low-angle shot of the red Mataram war banner waving against a bright sky, soldiers marching beneath it with renewed spirit, Rangga looking up inspired, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 22:
+Kami menyeberangi sungai besar dengan rakit bambu, tombak diikat di punggung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Mataram soldiers crossing a wide brown river on bamboo rafts, spears strapped to their backs, strong current, jungle banks, adventurous wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 23:
+Di seberang, hutan jati gelap menyambut. Kata orang tua, hutan itu dihuni makhluk halus.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), towering dark teak forest with mist between giant trunks, small column of soldiers entering nervously, eerie green light, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 24:
+Malam itu tak ada yang berani tidur nyenyak. Setiap bunyi ranting bikin kami meraih gagang keris. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), tense night camp in the teak forest, Rangga wide-eyed gripping his kris hilt, soldiers sitting upright around a dying fire, shadows looming, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 25:
+Pagi harinya kami tertawa sendiri. Ternyata cuma monyet yang melempari kami dengan buah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), comical relief scene, monkeys in teak trees throwing fruit at laughing Mataram soldiers at dawn camp, Rangga laughing wiping his face, light-hearted medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 26:
+Sebulan berjalan, ransum mulai menipis. Kami berburu, memancing, memakan umbi hutan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), weary soldiers foraging in the forest, one fishing in a stream, another digging wild tubers, empty rice baskets nearby, Rangga chewing a root, muted wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 27:
+Kalau menurut saya, inilah ujian sebenarnya — bukan musuh di depan, tapi perut yang kosong di tengah jalan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), close-up of Rangga's gaunt thoughtful face at dusk, empty woven food basket beside him, fellow soldiers resting in soft focus, reflective mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 28:
+Lalu suatu sore, dari puncak bukit, kami melihatnya. Laut. Dan di kejauhan... asap kota.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), soldiers cresting a hill at sunset, the sea glittering beyond, thin smoke columns rising from a distant coastal city, Rangga pointing forward, hopeful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 29:
+Batavia. Kota batu di tepi laut, dengan kapal-kapal raksasa berlayar putih di pelabuhannya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), panoramic view of 17th-century Batavia from the hills, stone fortress, Dutch gabled rooftops, tall VOC ships with white sails anchored in the harbor, morning haze, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 30:
+Temboknya tebal, menaranya tinggi, dan di atas benteng — bendera tiga warna berkibar angkuh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), close view of Kasteel Batavia's massive stone walls and towers, the red-white-blue Dutch flag waving arrogantly on top, cannons visible on ramparts, imposing low-angle shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 31:
+Sepuluh ribu prajurit Mataram mengepung dari darat. Tapi benteng itu seperti tidak peduli.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), sweeping view of Mataram siege camps with bamboo palisades surrounding the distant stone city, tiny tents and cooking fires, the fortress looming untouched, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 32:
+Komandan kami Tumenggung Bahureksa memerintahkan: bangun benteng bambu mengelilingi kota.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Tumenggung Bahureksa, 50s commander with scarred face, grey-streaked hair and red headcloth, iron-studded leather armor, gesturing command as soldiers raise bamboo palisade walls, authoritative medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 33:
+Siang malam kami menebang bambu, mengikat, menggali parit. Tangan penuh lecet.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), soldiers laboring to build bamboo fortifications, chopping bamboo, lashing poles, digging trenches, Rangga with blistered hands wiping sweat, busy wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 34:
+Dari kejauhan, meriam-meriam benteng mengawasi. Kami tahu mereka menghitung kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), view from behind the bamboo palisade toward the distant fortress, Dutch cannons glinting on the ramparts, a spyglass glint, tense standoff wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 35:
+Malam pertama di perkemahan, aku tidak bisa tidur. Bau mesiu terbawa angin dari kota.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Rangga lying awake in the siege camp at night staring at the distant torch-lit fortress walls, fellow soldiers asleep around him, moonlight, quiet medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 36:
+Rencana pertama: serang gudang-gudang di luar tembok. Bakar persediaan mereka.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), war council at night, Bahureksa pointing at a sand-drawn map of Batavia's outer warehouses, torch-lit faces of officers including Rangga, conspiratorial medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 37:
+Tengah malam kami menyelinap seperti bayangan, obor di tangan, jantung di tenggorokan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Mataram raiders sneaking through moonlit darkness toward Dutch warehouses outside the walls, torches unlit in hands, Rangga leading low and silent, stealthy wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 38:
+Api menyala! Gudang VOC terbakar, asap hitam membubung ke langit malam.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Dutch warehouse engulfed in flames at night, thick black smoke rising, Mataram soldiers retreating into darkness with torches, sparks flying, dramatic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 39:
+Dari atas tembok, lonceng bahaya berdentang panik. Mereka tidak menyangka kami seberani ini.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), fortress wall at night in alarm, Dutch soldiers ringing a large warning bell frantically, torches rushing along the rampart, fire glow on the horizon, urgent medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 40:
+Tapi balasan datang cepat — dentuman meriam memekakkan telinga, tanah beterbangan. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), fortress cannons firing at night, huge muzzle flashes and smoke, earth erupting near fleeing Mataram soldiers, Rangga diving for cover, explosive wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 41:
+Kami lari menyelamatkan diri ke kegelapan. Malam itu kami menang kecil — tapi mereka punya meriam.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Mataram soldiers running back through dark fields toward their camp, the burning warehouse glowing behind them, Rangga looking back over his shoulder, breathless wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 42:
+Keesokan harinya Bahureksa mengumpulkan kami. "Meriam bisa dikalahkan," katanya, "asal kita lebih dekat."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Bahureksa addressing thousands of soldiers at dawn, standing on a mound, red headcloth vivid, fist raised, Rangga in the crowd listening intently, inspiring wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 43:
+Rencana kedua: gali parit mendekati tembok, malam demi malam, sejengkal demi sejengkal.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), soldiers digging zigzag siege trenches at night by torchlight, shovels and baskets of earth, the fortress looming closer ahead, Rangga digging with effort, gritty wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 44:
+Eh sebentar — kalau kisah pengepungan kayak gini bikin kamu tegang, tekan subscribe ya! Masih panjang ceritanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Rangga turning to face the viewer with a friendly grin, pointing toward the viewer, siege camp and fortress behind him, inviting medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 45:
+Parit-parit itu jadi rumah kedua kami. Lumpur setinggi lutut, tapi kami semakin dekat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), network of muddy siege trenches, soldiers wading knee-deep in mud carrying baskets, the fortress wall now close and towering above, overcast daylight, immersive wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 46:
+Dari parit, kami bisa mendengar suara serdadu Belanda bercakap di atas tembok.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), view from inside the trench looking up at the fortress rampart, Dutch soldiers silhouetted chatting casually above, Rangga peeking over the trench edge, tense low-angle shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 47:
+Mereka tertawa. Suara tawa itu... membuat darahku mendidih.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), close-up of Rangga's furious face in the trench, jaw clenched, eyes burning upward, mud on his cheek, fellow soldier holding his shoulder back, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 48:
+Lalu tibalah malam penyerangan besar. Tangga-tangga bambu disiapkan ratusan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), night before the assault, hundreds of long bamboo ladders lined up in the trenches, soldiers checking weapons by torchlight, Rangga gripping his ladder, the fortress dark ahead, ominous wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 49:
+Sinyal: tiga kali bunyi kentongan. Lalu kami berlari menembus hujan peluru.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), mass night assault, waves of Mataram soldiers charging across open ground carrying bamboo ladders, muzzle flashes from the fortress walls, dust and chaos, Rangga sprinting in front, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 50:
+Tanggaku bersandar di tembok. Aku memanjat — tangan berkeringat, kaki gemetar.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Rangga climbing a bamboo ladder against the massive stone fortress wall at night, looking up at the parapet above, other ladders with soldiers beside him, vertigo-inducing low-angle shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 51:
+Di atas, serdadu VOC menunggu dengan tombak. Aku menghindar, melompat turun ke dalam kota!
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Rangga leaping from the ladder over the parapet into the fortress courtyard at night, Dutch soldiers turning in surprise, torches and chaos, dynamic action freeze-frame, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 52:
+Kekacauan di mana-mana. Api, asap, teriakan dalam dua bahasa. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), chaotic night street battle inside Batavia, burning carts, smoke, Mataram soldiers clashing with Dutch troops in a narrow lane, Rangga in the middle swinging his spear, dramatic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 53:
+Kami bertarung di gang-gang sempit. Tombak bambuku patah — aku cabut keris.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), close-quarters fight in a narrow Batavia alley at night, Rangga drawing his ornate kris dagger as his broken bamboo spear falls, Dutch soldier recoiling, torchlight flicker, intense medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 54:
+Tapi meriam kecil mereka... suaranya seperti petir yang tidak berhenti.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), small Dutch field cannons firing in a Batavia street at night, blinding muzzle flashes, Mataram soldiers diving aside, debris flying, Rangga shielding his face, explosive wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 55:
+Satu per satu kawanku tumbang di sekitarku. Aku tidak sempat menoleh. Tidak boleh menoleh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Rangga running through smoke-filled street at night, fallen comrades blurred at the edges of frame, his face set with painful determination, embers in the air, emotional wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 56:
+Bahureksa sendiri memimpin dari depan, berteriak: "Maju! Demi Sultan!"
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Bahureksa the scarred commander with red headcloth charging through the night battle, sword raised, shouting, soldiers rallying behind him, heroic low-angle medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 57:
+Fajar menyingsing. Tembok masih berdiri. Dan kami... diperintahkan mundur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), dawn breaking over Batavia, the fortress walls still standing intact, exhausted Mataram soldiers retreating across the field, Rangga looking back with disbelief, somber wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 58:
+Serangan besar itu gagal. Ratusan prajurit tidak kembali ke perkemahan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), morning after the battle, empty spaces in the Mataram camp, abandoned spears stuck in the ground, soldiers sitting in silent grief, Rangga staring at the ground, muted wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 59:
+Malam itu perkemahan sunyi. Tidak ada yang menyanyi. Hanya suara isak tertahan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), silent night camp, low campfires, soldiers sitting apart with bowed heads, one quietly weeping into his hands, Rangga hugging his knees, moonlight, mournful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 60:
+Tapi Bahureksa tidak menyerah. "Kita coba lagi," katanya. "Mataram tidak kenal mundur."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Bahureksa standing before his weary troops at dawn, bandaged arm, voice firm, red headcloth bright against the grey morning, soldiers slowly rising, resolute medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 61:
+Masalahnya: beras kami habis. Ladang di sekitar sudah kami makan habis.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), quartermaster tipping over an empty rice sack, a few grains spilling, hungry soldiers watching with hollow eyes, stripped bare fields behind the camp, bleak wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 62:
+Lalu kabar terburuk datang — penyakit menyerang perkemahan. Demam, muntah, lemas. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), disease-stricken siege camp, soldiers lying on mats with fever, a healer pressing a damp cloth to a forehead, Rangga looking on in fear, grey overcast light, somber wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 63:
+Kawan-kawanku yang selamat dari meriam, kini tumbang oleh sesuatu yang tak terlihat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Rangga kneeling beside his feverish friend in the camp, holding his hand, worry etched on his face, other sick soldiers in soft focus, intimate medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 64:
+Aku sendiri demam tiga hari. Dalam mengigau, aku melihat wajah ibuku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), fever dream sequence, Rangga tossing on a mat with closed eyes, translucent vision of his Javanese mother smiling above him in warm light, dreamlike soft focus, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 65:
+Obat? Tidak ada. Hanya doa, dan air rebusan daun yang dibuat dukun pasukan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), old Javanese healer stirring a clay pot of herbal brew over a small fire, sick soldiers waiting with wooden bowls, Rangga sipping weakly, humble medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 66:
+Di tengah semua itu, Bahureksa memaksakan serangan terakhir.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Bahureksa strapping on his armor before dawn, face pale but eyes fierce, aides handing him his sword, red headcloth being tied, determined close medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 67:
+Pagi buta, ia memimpin sendiri pasukan ke gerbang kota.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), pre-dawn assault, Bahureksa leading a column of soldiers toward the city gate in blue darkness, torches flickering, the fortress gate looming, Rangga following behind, tense wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 68:
+Aku melihatnya dari jauh — ikat kepala merahnya berkibar, gagah seperti dalam legenda.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), heroic shot of Bahureksa from behind at the head of the charge, red headcloth streaming in the wind, sword raised toward the fortress gate, dawn light breaking, legendary wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 69:
+Lalu dentuman meriam. Asap putih. Dan ikat kepala merah itu... jatuh. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), slow-motion tragedy, a red headcloth falling through white cannon smoke at dawn, soldiers frozen in shock around it, Rangga's horrified face in the foreground, heartbreaking wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 70:
+Tumenggung Bahureksa gugur. Komandan kami. Bapak perang kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), fallen commander covered respectfully with a red banner cloth, soldiers kneeling around in grief at dawn, Rangga with tears on his cheeks, the fortress distant, solemn wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 71:
+Pasukan kacau. Tanpa komandan, serangan berubah jadi pelarian.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), disorganized retreat at dawn, Mataram soldiers falling back across the field in confusion, Dutch cannons smoking on the walls, Rangga running with the crowd, chaotic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 72:
+Aku berlari sambil menangis — bukan takut mati, tapi takut semuanya sia-sia.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), close-up of Rangga running with tears streaming down his dust-covered face, blurred retreating soldiers behind, raw emotion, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 73:
+Sisa pasukan berkumpul di perkemahan. Wajah-wajah kosong, perut kosong.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), remnants of the army gathered in the ruined camp, hollow-eyed soldiers sitting in silence, broken bamboo palisades, grey daylight, desolate wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 74:
+Utusan dari Mataram datang membawa perintah Sultan: mundur. Selamatkan yang tersisa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), royal messenger on horseback delivering a sealed order to the surviving officers, soldiers gathered around listening with bowed heads, Rangga among them, heavy medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 75:
+Kami membakar benteng bambu kami sendiri — agar tidak dipakai musuh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Mataram soldiers setting fire to their own bamboo fortifications at dusk, flames consuming the palisades, soldiers watching with grim faces, Rangga holding a torch low, bittersweet wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 76:
+Api itu terasa seperti membakar harga diri kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), close-up of Rangga's face illuminated by the burning palisade, jaw tight, eyes reflecting flames, pride and pain mixed, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 77:
+Perjalanan pulang lebih berat dari berangkat. Yang sakit digotong bergantian.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), weary column of survivors marching home through rain, soldiers carrying sick comrades on bamboo stretchers, mud and misery, Rangga helping carry a stretcher, bleak wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 78:
+Di setiap desa yang kami lewati, orang bertanya: "Menang?" Kami hanya diam.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), villagers lining a road watching the ragged column pass, a child asking a question, Rangga unable to meet their eyes, heavy silence, poignant wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 79:
+Aku tiba di rumah saat musim hujan. Ibu memelukku lama sekali.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), emotional homecoming in the rain, Rangga's mother embracing him tightly at the village house door, rain falling, father watching with wet eyes, warm medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 80:
+Ayah menatapku, lalu berkata pelan: "Kamu pulang. Itu sudah cukup." [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), quiet intimate moment, Rangga's father placing both hands on his son's shoulders, looking into his eyes with pride and relief, rain soft outside, tender medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 81:
+Tapi malam-malamku tidak tenang. Aku masih mendengar dentuman meriam dalam mimpi.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Rangga waking with a start in his dark village bedroom at night, sitting up in a cold sweat, moonlight through the window, haunted expression, intimate medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 82:
+Batavia tidak jatuh. Tembok batu itu masih berdiri, dan Coen masih berkuasa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), the Batavia fortress standing proud at sunset, Dutch flag waving, Coen's silhouette on the rampart, seen as if in Rangga's memory, defiant wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 83:
+Kalau menurut saya, kekalahan ini justru pelajaran terbesar Mataram — tembok batu bisa ditantang, tapi butuh lebih dari sekadar keberanian.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), older reflective Rangga sitting on his village porch at dusk, gazing toward the west, thoughtful wise expression, rice fields golden behind, contemplative medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 84:
+Butuh perbekalan. Butuh meriam sendiri. Butuh rencana yang lebih matang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), symbolic montage, Javanese craftsmen forging a bronze cannon, farmers loading rice boats, strategists studying maps by lamplight, three-panel storybook composition, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 85:
+Dan Sultan Agung mendengarkan pelajaran itu. Ia tidak menyerah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Sultan Agung in his palace war room at night, studying maps by oil lamp, face hardened with resolve, kris gleaming at his waist, powerful medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 86:
+Setahun kemudian, pasukan yang lebih besar kembali ke Batavia. Perang belum selesai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), an even larger Mataram army marching at dawn, endless columns with new banners, Rangga older and harder among them gripping his spear, epic hopeful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 87:
+Jadi kalau kamu pikir cerita ini berakhir di sini... kamu salah besar.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), Rangga turning to the viewer with a knowing intense look, pointing forward, the marching army blurred behind him, direct-address medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 88:
+Tulis di komentar: kalau kamu jadi Rangga, setelah semua ini — ikut lagi tahun depan, atau cukup? [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (terracotta, deep jungle green, ochre, volcanic grey, river brown), final frame, Rangga standing alone on a hill at sunset looking toward distant Batavia, spear planted in the ground, wind in his topknot, contemplative heroic wide shot, dramatic cinematic composition, not photorealistic, no text

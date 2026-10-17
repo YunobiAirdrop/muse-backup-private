@@ -1,0 +1,390 @@
+{
+ "batch1": [
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a giant cartoon alarm clock cracking and shattering into glowing pieces, lightning bolts, excited energy",
+   "num": "001",
+   "tts": "Time is broken. And I can prove it in about nine minutes."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cheerful cartoon host character named Bo with messy hair waving at viewer, big smile, studio background with stars",
+   "num": "002",
+   "tts": "I'm Bo, and welcome back to Weird World Daily \u2014 the show where reality gets a little too weird."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, split scene showing Earth globe, outer space with planets, and a cartoon human head with a clock inside",
+   "num": "003",
+   "tts": "Forget countdowns today. We're grouping these by where time goes wrong: on Earth, in space, and inside your own skull."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, three glowing portals labeled with earth, space and brain icons, adventurous cartoon character jumping toward them",
+   "num": "004",
+   "tts": "Seven facts. Three zones. By the end, you will not trust your own brain. Let's go."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon viewer on couch with popcorn, glowing TV screen showing swirling clock, suspenseful fun mood",
+   "num": "005",
+   "tts": "Quick warning: number seven genuinely changed how I see reality. Stay till the end."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, giant cartoon human body standing on Earth globe, tiny clocks attached to head and feet",
+   "num": "006",
+   "tts": "Part one: TIME ON EARTH. And we're starting with the weirdest clock you own \u2014 your own body."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon person with an old wrinkled face on top and young baby feet at bottom, funny contrast",
+   "num": "007",
+   "overlay": "YOUR HEAD IS OLDER THAN YOUR FEET",
+   "tts": "Fact: your head is literally older than your feet. Right now, as you watch this."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon Albert Einstein with wild hair pointing at a diagram showing Earth pulling clocks downward with arrows",
+   "num": "008",
+   "tts": "Einstein predicted it a hundred years ago: gravity slows time. Closer to Earth's center, time ticks slower."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, two shiny cartoon atomic clocks on lab shelves, one slightly higher than the other, scientist taking notes",
+   "num": "009",
+   "tts": "In 2010, scientists at NIST actually measured it \u2014 with two atomic clocks just one foot apart."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, close-up of cartoon feet wearing sneakers with a tiny slow clock, head above with a faster clock",
+   "num": "010",
+   "tts": "The clock closer to the ground ticked slower. Your feet age slower than your head. This is real physics."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, giant magnifying glass over a cartoon timeline showing a teeny tiny gap labeled in nanoseconds",
+   "num": "011",
+   "tts": "The difference is tiny \u2014 over a lifetime, your head ages about five hundred nanoseconds more than your feet."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon sad feet in sneakers sulking while a happy head floats above, comedy scene",
+   "num": "012",
+   "tts": "So if you've been feeling down lately... blame your feet. They're literally living in the past."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon Egyptian queen Cleopatra holding a glowing smartphone, pyramids in the background",
+   "num": "013",
+   "tts": "Fact two: Cleopatra lived closer in time to the iPhone than to the pyramids. Yeah. Let that land."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon timeline showing a pyramid on the left and Cleopatra on the right with a long winding arrow between them",
+   "num": "014",
+   "tts": "The Great Pyramid was built around 2560 BC. Cleopatra was born in 69 BC \u2014 about 2500 years later."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon Cleopatra statue next to a giant glowing iPhone, measuring tape between them",
+   "num": "015",
+   "tts": "She died in 30 BC. The first iPhone launched in 2007 \u2014 only about 2000 years after her."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon brain with wide eyes and open mouth in shock, exclamation marks flying",
+   "num": "016",
+   "overlay": "2000 YEARS VS 2500 YEARS",
+   "tts": "Wait, WHAT?! I had to read that twice before my brain believed it."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon desert with pyramids, a smartphone floating closer to a cartoon Egyptian palace",
+   "num": "017",
+   "tts": "So Cleopatra was five hundred years closer to your phone than to those giant triangles in the desert."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon planet Venus with a confused face, spinning slowly, sun and calendar swirling around it",
+   "num": "018",
+   "overlay": "VENUS DAY LONGER THAN YEAR",
+   "tts": "Fact three: on Venus, a single day is longer than an entire year. The planet is just... wrong."
+  },
+  {
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon Venus planet rotating backwards with a big calendar showing 243 days flipping",
+   "num": "019",
+   "tts": "Venus spins backwards, incredibly slowly. One full spin \u2014 one Venus day \u2014 takes 243 Earth days."
+  }
+ ],
+ "batch2": [
+  {
+   "num": "020",
+   "tts": "But it orbits the Sun in just 224.7 Earth days. That orbit is its year.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon Venus racing around the sun on a short orbit track while its rotation arrow moves slowly"
+  },
+  {
+   "num": "021",
+   "tts": "So if you lived on Venus, you'd celebrate your birthday before finishing a single day. Imagine a workday lasting 243 days \u2014 I am NEVER complaining about Monday again.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, exhausted cartoon office worker at desk on Venus with birthday balloons, giant clock showing endless hours"
+  },
+  {
+   "num": "022",
+   "tts": "Part one done. Earth time is officially weird. Now let's go bigger.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon rocket blasting off from Earth toward stars, trail of sparkles"
+  },
+  {
+   "num": "023",
+   "tts": "Part two: TIME IN SPACE. Where time doesn't just bend \u2014 it flat-out misbehaves.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, deep space scene with planets and a giant clock bending like rubber, stars twinkling"
+  },
+  {
+   "num": "024",
+   "tts": "Fact four: your phone's GPS only works because Einstein was right about time.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon smartphone showing a map with a location pin, GPS satellites beaming signals down"
+  },
+  {
+   "num": "025",
+   "tts": "GPS satellites zoom around at fourteen thousand kilometers per hour, so their clocks tick slower from speed...",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon satellite speeding around Earth with motion lines, a clock on it ticking slowly"
+  },
+  {
+   "num": "026",
+   "tts": "...but they're far from Earth's gravity, so their clocks ALSO tick faster. The net result: faster.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon satellite high above Earth, gravity arrows weakening, clock on satellite speeding up",
+   "overlay": "GPS 38 MICROSECONDS PER DAY"
+  },
+  {
+   "num": "027",
+   "tts": "About 38 microseconds faster, every single day. Engineers must correct for it constantly.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon engineer at a control panel adjusting a giant clock, satellite on screen"
+  },
+  {
+   "num": "028",
+   "tts": "Without that correction, your maps would drift by kilometers within hours. You'd get lost walking to the store.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, confused cartoon person staring at a phone map showing them in the ocean, funny"
+  },
+  {
+   "num": "029",
+   "tts": "Every time your GPS gets you somewhere, thank relativity. Einstein is literally your co-pilot.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon Albert Einstein driving a car with a happy family, GPS voice bubble, fun road trip"
+  },
+  {
+   "num": "030",
+   "tts": "Fact five: sharks are older than Saturn's rings. Let that sink in.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon shark swimming next to planet Saturn with its rings, shark looking smug",
+   "overlay": "SHARKS 450 MILLION YEARS"
+  },
+  {
+   "num": "031",
+   "tts": "Sharks have cruised Earth's oceans for about 450 million years. They survived five mass extinctions.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon timeline with a shark swimming past dinosaurs, meteors and volcanoes"
+  },
+  {
+   "num": "032",
+   "tts": "Saturn's rings? Astronomers think they're only ten to a hundred million years old. Cosmic babies.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, planet Saturn wearing a baby bonnet with tiny new rings, cartoon shark laughing"
+  },
+  {
+   "num": "033",
+   "tts": "Dinosaurs looked up and saw Saturn WITH rings. But ancient sharks looked up at a ringless Saturn.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon dinosaur gazing at ringed Saturn, split scene with ancient shark seeing plain Saturn"
+  },
+  {
+   "num": "034",
+   "tts": "Life in our oceans is older than jewelry on a planet. Nature is showing off.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon shark wearing Saturn's rings like a crown, striking a proud pose"
+  },
+  {
+   "num": "035",
+   "tts": "Fact six \u2014 the deepest one: the universe has no single universal 'now'.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, universe split in two halves showing different times on cosmic clocks, question marks",
+   "overlay": "NO UNIVERSAL NOW"
+  },
+  {
+   "num": "036",
+   "tts": "Einstein's relativity of simultaneity says: two events that look simultaneous to you might happen in a different order for someone moving fast.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, two cartoon astronauts on different spaceships seeing lightning strikes in different orders, thought bubbles"
+  },
+  {
+   "num": "037",
+   "tts": "Depending on your speed, someone far away could honestly disagree with you about what 'right now' even means.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon aliens on two planets pointing at clocks showing different times, arguing playfully"
+  },
+  {
+   "num": "038",
+   "tts": "There is no cosmic clock ticking for everyone. Your 'now' is local. That is honestly kind of beautiful.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, glowing Earth in space with a personal bubble clock around it, stars, peaceful"
+  },
+  {
+   "num": "039",
+   "tts": "Space: officially broken. But the weirdest time machine isn't out there.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon telescope pointing at space, arrow turning back toward a cartoon human head"
+  },
+  {
+   "num": "040",
+   "tts": "Real quick \u2014 if you're enjoying having your brain gently broken, hit subscribe. Weird World Daily: one broken brain per day.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon red subscribe button being pressed by a giant finger, confetti, excited",
+   "overlay": "SUBSCRIBE!"
+  }
+ ],
+ "batch3": [
+  {
+   "num": "041",
+   "tts": "Part three: TIME INSIDE YOUR BRAIN. This is the one that got me. Deep breath.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon human head opening like a door revealing a glowing clockwork brain inside"
+  },
+  {
+   "num": "042",
+   "tts": "Fact seven: your brain lives about 80 milliseconds in the past. Your 'right now' is a delayed replay.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon brain watching a TV showing events from a moment ago, 80 ms timer",
+   "overlay": "YOUR BRAIN 80 MS IN THE PAST"
+  },
+  {
+   "num": "043",
+   "tts": "Signals from your eyes take time to travel to your brain. So your brain buffers reality \u2014 like a livestream with a tiny delay.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon eyeball sending a signal along a wire to a brain, buffering wheel spinning"
+  },
+  {
+   "num": "044",
+   "tts": "Everything you see, hear, and feel... already happened. You are always experiencing the past.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon person watching a replay of themselves waving, mind-blown expression"
+  },
+  {
+   "num": "045",
+   "tts": "So when I wave at you right now... you're actually seeing a wave I already finished. Hi, past Bo.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon host Bo waving, with a ghost echo of his wave trailing behind, playful"
+  },
+  {
+   "num": "046",
+   "tts": "Scientists proved it with flashes and beeps: your brain syncs them up and pretends it's all happening 'now'.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon scientist lab with flashing lights and speakers, brain syncing signals with gears"
+  },
+  {
+   "num": "047",
+   "tts": "Your consciousness is basically a really convincing highlight reel of what just happened.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon brain as a film director shouting action, editing a movie reel of memories"
+  },
+  {
+   "num": "048",
+   "tts": "The present moment? For you, it barely exists. You live in a very, very recent past.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon calendar page dissolving into smoke, person chasing it"
+  },
+  {
+   "num": "049",
+   "tts": "So technically, every time you say 'right now'... you're lying. To yourself. About time.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon person with a long nose next to a clock, funny guilty face"
+  },
+  {
+   "num": "050",
+   "tts": "Here's the wild part: your brain doesn't just delay reality \u2014 it PREDICTS it.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon brain wearing a fortune teller hat gazing into a crystal ball showing the future"
+  },
+  {
+   "num": "051",
+   "tts": "To catch a ball, your brain can't wait for the delayed signal. So it guesses where the ball WILL be.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon kid catching a baseball, brain above with dotted prediction line to the glove"
+  },
+  {
+   "num": "052",
+   "tts": "You're not reacting to the world. You're reacting to your brain's prediction of the world.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, split scene: real world versus brain's predicted version with a crystal ball overlay, cartoon style"
+  },
+  {
+   "num": "053",
+   "tts": "Athletes, drivers, gamers \u2014 everyone running on an 80-millisecond-old prediction, and it works.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon race car driver, soccer player and gamer with glowing prediction trails, dynamic"
+  },
+  {
+   "num": "054",
+   "tts": "When the prediction is wrong? That's when you get those weird glitches \u2014 like missing a step that isn't there.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon person tripping on an invisible step, glitch effects, funny"
+  },
+  {
+   "num": "055",
+   "tts": "Your brain is a time traveler: living in the past, betting on the future, faking the present.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon brain in a time machine with past and future portals, adventurous"
+  },
+  {
+   "num": "056",
+   "tts": "And it does all of this without asking you. You're just along for the ride.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, tiny cartoon person riding on top of a giant brain like a rodeo, fun"
+  },
+  {
+   "num": "057",
+   "tts": "So the next time someone says 'live in the moment'... tell them it's physically impossible.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon guru meditating with a speech bubble, brain character shrugging, comedy"
+  },
+  {
+   "num": "058",
+   "tts": "You're living in the moment from 80 milliseconds ago. And honestly? That's close enough.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon person relaxing on a couch hugging a clock, cozy warm scene"
+  },
+  {
+   "num": "059",
+   "tts": "Seven facts. Three zones. One broken concept of time. Let's wrap this up.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon gift box being wrapped with a bow, celebration"
+  }
+ ],
+ "batch4": [
+  {
+   "num": "060",
+   "tts": "Recap lightning round: your head out-ages your feet, thanks to gravity.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, fast-motion cartoon recap: head with old face and young feet, speed lines"
+  },
+  {
+   "num": "061",
+   "tts": "Cleopatra missed the pyramids by 2500 years, but the iPhone by only 2000.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon timeline race: Cleopatra running between a pyramid and an iPhone, finish line"
+  },
+  {
+   "num": "062",
+   "tts": "Venus can't finish a single day before its year is over.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, exhausted cartoon Venus planet sweating while running around the sun"
+  },
+  {
+   "num": "063",
+   "tts": "GPS survives on Einstein's math \u2014 38 microseconds a day, or you're lost.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon GPS satellite flexing muscles with Einstein cheering, funny"
+  },
+  {
+   "num": "064",
+   "tts": "Sharks are older than Saturn's rings. The ocean beats the sky.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon shark champion holding a trophy next to planet Saturn, podium"
+  },
+  {
+   "num": "065",
+   "tts": "There is no universal 'now'. Everyone gets their own.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, many cartoon planets each with their own personal clock bubble, diverse"
+  },
+  {
+   "num": "066",
+   "tts": "And you? You're watching a replay of your own life, 80 milliseconds late.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon person watching themselves on a TV, cozy living room"
+  },
+  {
+   "num": "067",
+   "tts": "Time isn't what you thought. It's weirder, bendier, and honestly way more fun.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon clock made of rubber stretching and twisting, playful colors"
+  },
+  {
+   "num": "068",
+   "tts": "Which one broke YOUR brain the most? Tell me in the comments \u2014 I read every single one.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon comment section with speech bubbles, Bo character reading them happily"
+  },
+  {
+   "num": "069",
+   "tts": "If this melted your mind even a little, subscribe and smash that bell \u2014 new weirdness every single day.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon bell ringing with subscribe button, melting brain fun style",
+   "overlay": "SUBSCRIBE!"
+  },
+  {
+   "num": "070",
+   "tts": "And if you want more reality-breaking facts, the next video is already waiting for you.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon play button glowing with next video thumbnail, arrow pointing"
+  },
+  {
+   "num": "071",
+   "tts": "Thanks for letting me break your brain today. Seriously, this was a fun one.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon Bo bowing with a cracked brain prop, theater stage, applause"
+  },
+  {
+   "num": "072",
+   "tts": "Remember: don't trust your clock, don't trust your 'now'...",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon suspicious clock with shifty eyes, person side-eyeing it"
+  },
+  {
+   "num": "073",
+   "tts": "...and whatever you do, don't try to outrun time on Venus. You'll lose.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon runner racing a calendar on Venus, calendar winning, funny"
+  },
+  {
+   "num": "074",
+   "tts": "I'm Bo. Stay weird.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon Bo waving goodbye, end screen with stars",
+   "overlay": "STAY WEIRD!"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+# Brief campaign resmi: NUTRIFLAKES X ERY MAKMUR X LEO GIOVANNI (Clippo.id)
+# Data brief dari halaman campaign (dicatat 2026-10-14):
+# - Wajib tag: @official.nutriflakes & @nutriflakes.official
+# - Hashtag: #nutriflakesxclippo
+# - Durasi klip: 15-180 detik | Rate: Rp5.000/1.000 views | Klaim maks Rp5.000.000
+# - Syarat: min 10 followers, min 1.000 views/klip, like rate 0,5%
+# - Sisa budget saat dipilih: ~11% (kejar tayang)
+# CATATAN: teks CTA resmi tidak tercatat di brief -> pakai generik "Cek link di bio!"
+# (sesuaikan bila user tahu CTA resmi campaign).
+
+campaign: "NUTRIFLAKES X ERY MAKMUR X LEO GIOVANNI"
+sumber_video: "__VIDEO__"   # diisi batch script dengan path absolut video
+bahasa: "id"
+
+# Rentang durasi tiap klip (detik) — dalam rentang resmi 15-180.
+durasi_klip_min: 20
+durasi_klip_max: 60
+
+# Berapa kandidat teratas yang dirender jadi klip.
+jumlah_klip: 2
+
+# Platform target posting (untuk manifest & caption).
+platform: ["tiktok", "instagram", "facebook"]
+
+# Hashtag WAJIB dari brief campaign — jangan diubah/dikurangi.
+hashtag_wajib:
+  - "#nutriflakesxclippo"
+  - "#nutriflakes"
+
+hook:
+  badge_durasi_detik: 3   # badge hook tampil di 3 detik pertama
+  maks_kata: 8            # badge diambil dari N kata pertama momen
+
+cta:
+  teks: "Cek link di bio!"   # overlay CTA di akhir klip
+  overlay_durasi_detik: 5
+
+# Template caption per klip. Placeholder: {hook} {cta} {hashtags}
+caption_template: |
+  {hook}
+
+  @official.nutriflakes @nutriflakes.official
+  {cta}
+  {hashtags}
+
+# Rate bayaran campaign (info saja, untuk arsip).
+rate_per_1000_views: 5000

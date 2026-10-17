@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<title><data:blog.pageTitle/></title>
+<b:include data='blog' name='all-head-content'/>
+<!-- SEO dasar -->
+<b:if cond='data:blog.pageType == "item"'>
+<meta expr:content='data:blog.pageName' name='description'/>
+<meta content='article' property='og:type'/>
+<meta expr:content='data:blog.pageName' property='og:title'/>
+<meta expr:content='data:blog.url' property='og:url'/>
+<b:else/>
+<meta content='Kabar viral terkini: berita nasional, teknologi, hiburan, dan olahraga, diperbarui setiap hari.' name='description'/>
+<meta content='website' property='og:type'/>
+<meta expr:content='data:blog.pageTitle' property='og:title'/>
+<meta expr:content='data:blog.homepageUrl' property='og:url'/>
+</b:if>
+<meta expr:content='data:blog.title' property='og:site_name'/>
+<meta content='id_ID' property='og:locale'/>
+<meta content='summary_large_image' name='twitter:card'/>
+
+<link href='https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap' rel='stylesheet'/>
+
+<b:skin><![CDATA[/* tes */]]></b:skin>
+</head>
+<body>
+<b:section class='main' id='main' showaddelement='no'>
+<b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
+<b:includable id='main' var='top'>
+<b:loop values='data:posts' var='post'>
+<h2><data:post.title/></h2>
+</b:loop>
+</b:includable>
+</b:widget>
+</b:section>
+</body>
+</html>

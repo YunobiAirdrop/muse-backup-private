@@ -1,0 +1,65 @@
+# DRAFT METADATA — Lima Misteri — 2026-10-14 (produksi) → tayang 2026-10-15 19:00 WIB
+# JANGAN UPLOAD. Upload via API (yt-growth, slug lima-misteri) oleh agen induk.
+# Semua: private + publishAt 2026-10-15T12:00:00Z (= 19:00 WIB). AI disclosure ("Altered content") dicentang menyusul via Studio.
+
+## LONG
+- File: video/video-2026-10-14-final.mp4
+- Thumbnail: thumbnail-2026-10-14-long.jpg ("5 MISTERI PALING SERAM")
+- Judul: 5 Misteri Ini Bikin Saya Merinding, Nomor 1 Paling Tak Terjelaskan | Lima Misteri
+- Deskripsi:
+```
+Hari ini saya merangkum 5 kejadian aneh yang terdokumentasi tapi belum punya jawaban tuntas — dari Teke Teke si hantu tanpa kaki di Jepang, Resurrection Mary penunggu jalanan Chicago, kota Centralia yang terbakar dari dalam sejak 1962, cahaya misterius Hessdalen di Norwegia, sampai batu-batu yang berjalan sendiri di Death Valley.
+
+Jujur, yang nomor 1 paling bikin saya merinding. Kalau kalian, nomor berapa yang paling nggak masuk akal? Tulis di komentar ya.
+
+🛒 Rekomendasi hari ini:
+🛒 Alat Rebus Telur Elektrik (Rp155.100): https://s.shopee.co.id/40gzb1K9Fi
+🛒 New Balance Fresh Foam X 2025 (Rp850.000): https://s.shopee.co.id/1gJ4onHvca
+(Link di atas adalah link afiliasi — saya dapat komisi kecil tanpa biaya tambahan untuk kamu. Terima kasih sudah mendukung channel ini.)
+
+⚠️ Video ini adalah penceritaan ulang orisinal atas peristiwa yang terdokumentasi, diilustrasikan dengan gambar buatan AI. Bukan footage asli peristiwa.
+
+#misteri #penampakan #kejadiananeh #indonesia #foryou #teketeke #batuberjalan
+```
+- Tags: misteri, penampakan, kejadian aneh, teke teke, resurrection mary, centralia, cahaya hessdalen, batu berjalan racetrack, lima misteri, indonesia
+
+## SHORT 1 (Teke Teke, hook: HANTU TANPA KAKI)
+- File: shorts/2026-10-14-s1.mp4
+- Thumbnail: thumbnail-2026-10-14-s1.jpg ("HANTU TANPA KAKI")
+- Judul: Hantu Tanpa Kaki Berlari Lebih Cepat dari Manusia | Lima Misteri #shorts #misteri #hantu #foryou
+- Deskripsi:
+```
+Tonton versi lengkapnya: __LONG_URL__
+🛒 Alat Rebus Telur Elektrik (Rp155.100): https://s.shopee.co.id/40gzb1K9Fi
+⚠️ Video ini adalah penceritaan ulang orisinal atas peristiwa yang terdokumentasi, diilustrasikan dengan gambar buatan AI. Bukan footage asli peristiwa.
+```
+- Tags: teke teke, hantu jepang, legenda urban, misteri, lima misteri, shorts
+
+## SHORT 2 (Resurrection Mary, hook: PENUMPANG HILANG)
+- File: shorts/2026-10-14-s2.mp4
+- Thumbnail: thumbnail-2026-10-14-s2.jpg ("PENUMPANG HILANG")
+- Judul: Gadis Bergaun Putih Hilang dari Kursi Belakang Taksi | Lima Misteri #shorts #misteri #hantu #foryou
+- Deskripsi:
+```
+Tonton versi lengkapnya: __LONG_URL__
+🛒 New Balance Fresh Foam X 2025 (Rp850.000): https://s.shopee.co.id/1gJ4onHvca
+⚠️ Video ini adalah penceritaan ulang orisinal atas peristiwa yang terdokumentasi, diilustrasikan dengan gambar buatan AI. Bukan footage asli peristiwa.
+```
+- Tags: resurrection mary, hantu chicago, penampakan, misteri, lima misteri, shorts
+
+## SHORT 3 (Centralia, hook: KOTA TERBAKAR)
+- File: shorts/2026-10-14-s3.mp4
+- Thumbnail: thumbnail-2026-10-14-s3.jpg ("KOTA TERBAKAR")
+- Judul: Kota Ini Terbakar dari Dalam Sejak 1962 | Lima Misteri #shorts #misteri #kotahantu #foryou
+- Deskripsi:
+```
+Tonton versi lengkapnya: __LONG_URL__
+🛒 Alat Rebus Telur Elektrik (Rp155.100): https://s.shopee.co.id/40gzb1K9Fi
+⚠️ Video ini adalah penceritaan ulang orisinal atas peristiwa yang terdokumentasi, diilustrasikan dengan gambar buatan AI. Bukan footage asli peristiwa.
+```
+- Tags: centralia, kota hantu, kebakaran tambang, misteri, lima misteri, shorts
+
+## Catatan produksi
+- Produk afiliasi: indeks 5 (Alat Rebus Telur Elektrik, terakhir dipakai 2026-10-06) dan indeks 6 (New Balance Fresh Foam X 2025, 2026-10-07) — dua produk paling lama tidak dipakai per promo_history.json.
+- Komentar: Allow all. Audiens: Tidak dibuat untuk anak-anak. AI disclosure: centang Ya (via Studio).
+- Slot tayang: 2026-10-15 19:00 WIB (publishAt 2026-10-15T12:00:00Z).

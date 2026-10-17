@@ -1,0 +1,16 @@
+    1│# MEMORY.md
+    2│
+    3│<!-- Your curated long-term memory: durable facts, preferences, and commitments. Keep it tight: promote what lasts here, and leave raw day-to-day detail in your daily notes. -->
+    4│
+    5│## Facts
+    6│- User's name is Yunobi (introduced 2026-09-30, via WhatsApp).
+    7│- Hermes Agent v0.21.5 installed on this VM at ~/.hermes (installed 2026-09-30). Configured with Yunobi's OpenRouter API key (key validated OK via OpenRouter API, stored only in ~/.hermes/.env with 600 perms — never in chat/memory). Ready to use via `hermes`.
+    8│- Installed 864 skills from github.com/ComposioHQ/awesome-claude-skills into ~/.hermes/skills/community/ (28 standalone + ~832 Composio app-automation + 4 document skills). No Hermes-specific skills exist in that repo; all use standard SKILL.md format which Hermes supports.
+    9│- Composio MCP connected (2026-09-30): consumer key stored in ~/.hermes/.env as COMPOSIO_CONSUMER_KEY (600 perms), server registered in config.yaml mcp_servers with ${COMPOSIO_CONSUMER_KEY} header interpolation. `hermes mcp test composio` → connected, 11 meta-tools discovered. Apps not yet connected — user connects on demand via OAuth link from agent.
+   10│- 9Router v0.5.91 installed (2026-09-30, npm global) as local AI gateway on this VPS. Runs as systemd service `9router` (server binary run directly, bound to 127.0.0.1:20128; DATA_DIR=/home/hatch/.9router). Dashboard password default 123456 (saved hash in DB). Provider node "Yunobi-OR" (prefix `yunobi`, openai-compatible → https://openrouter.ai/api/v1) registered via /api/provider-nodes + /api/providers with Yunobi's OpenRouter key; combo `hermes-main` = yunobi/anthropic/claude-opus-4.6 → yunobi/anthropic/claude-sonnet-4.6 fallback. 9Router API key for Hermes stored as NINEROUTER_API_KEY in ~/.hermes/.env (600). Hermes config.yaml: model.provider="nine-router" (named custom provider resolves: base_url http://127.0.0.1:20128/v1 + key_env NINEROUTER_API_KEY), model.default="hermes-main". `hermes doctor` passes. End-to-end chat via curl through 9Router returns model answer ("Halo!" via yunobi/anthropic/claude-opus-4.6). CAVEAT (2026-09-30): full-agent smoke test (`hermes -z`) hangs during startup in this VM — proven environmental, NOT caused by 9Router config (control run with --ignore-user-config hung identically, 0 requests reached 9Router, empty stdout). Suspect: startup scanning 864 skills or MCP init on small VM. Agent path itself remains unverified live. NOTE: registering "Muse/yourself as a provider" is technically impossible — no inference endpoint exists; explained to user 2026-09-30.
+   11│
+   12│## Preferences
+   13│
+   14│## Commitments
+   15│- Declined (2026-09-30, twice): user asked for free-tier API key farming — first as a website builder request, then uploaded `yunobi.py`, an auto-reg script that mass-creates atria-asi.ai accounts via temp-mail + Turnstile bypass to harvest free API keys. Will not write, run, or deploy this kind of abuse tooling. Offered legitimate alternatives instead.
+   16│

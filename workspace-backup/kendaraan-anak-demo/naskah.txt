@@ -1,0 +1,45 @@
+============================================================
+DEMO SHORTS ANAK — "Belajar Warna bersama Bimo & Alat Berat"
+Teknik: keyframe (gambar diam digerakkan per layer via ffmpeg)
+Karakter: 100% ORISINAL — Bimo si bus kecil HIJAU & teman alat berat
+Durasi target: ±40 detik, vertikal 720x1280
+============================================================
+
+==================== LAGU TEMA (ORISINAL) ====================
+Judul: "Lagu Bimo"
+Penulis: dibuat khusus untuk demo ini (bukan lagu yang sudah ada)
+Dibawakan sebagai chant ritmis (TTS Mudiwa, speed 112) di atas
+musik instrumental ceria. 1 baris lagu ≈ 2,3 detik mengikuti beat.
+
+[PEMBuka — 4 baris, ±detik 0-10]
+Baris 1: Bimo! Bimo! Bus kecil hijau!
+Baris 2: Bimo! Bimo! Selalu ceria!
+Baris 3: Ayo bekerja bersama alat berat!
+Baris 4: Bantu teman, hati gembira!
+
+[REPRISE PENUTUP — 1 baris lagu + salam, ±detik 33-37]
+Baris 1: Bimo! Bimo! Bus kecil hijau!   (ulangan baris 1)
+Salam   : Sampai jumpa lagi, teman-teman!
+
+========================= NARASI ===========================
+[HOOK — Bimo, ±detik 10-14]
+"Wah, jalannya rusak! Siapa yang bisa membantu?"
+
+[EXCAVATOR — ±detik 15-19]
+"Aku excavator kuning! Aku menggali tanah!"
+
+[DUMP TRUCK — ±detik 20-24]
+"Aku truk merah! Aku membawa pasir!"
+
+[BULLDOZER — ±detik 25-30]
+"Aku bulldozer biru! Aku meratakan jalan!"
+
+[BIMO — penutup cerita, ±detik 31-33]
+"Hore! Jalannya sudah bagus! Terima kasih, teman-teman!"
+
+[CTA — ±detik 37-40]
+"Jangan lupa subscribe ya, teman-teman!"
+
+=================== KARTU WARNA DI LAYAR ===================
+HIJAU (saat lagu) • KUNING • MERAH • BIRU (tiap kendaraan masuk)
+Teks akhir: "TERIMA KASIH!" lalu "JANGAN LUPA SUBSCRIBE!"

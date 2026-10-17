@@ -1,0 +1,8 @@
+{
+  "runtime": "static",
+  "platformVersion": 15,
+  "entry": "index.html",
+  "name": "Login OAuth 16 Channel",
+  "slug": "login-oauth-16-channel",
+  "managedCronJobs": []
+}

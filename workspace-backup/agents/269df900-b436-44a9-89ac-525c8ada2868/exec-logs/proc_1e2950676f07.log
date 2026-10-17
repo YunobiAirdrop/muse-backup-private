@@ -1,0 +1,3 @@
+launched pid 1702
+    PID     ELAPSED 
+   1702       00:05 /bin/bash --norc --noprofile -c umask 0007; cd ~/workspace/kisah-dharma/2026-10-17 && nohup python3 -u rakit.py > _rakit2.log 2>&1 < /dev/null & disown; echo "launched pid $!"; sleep 5; ps -p $! -o pid,etime,cmd= 2>/dev/null || ps aux | grep "[r]akit.py" | head -2

@@ -1,0 +1,71 @@
+STYLE (prepend to every prompt): Dark 2D storybook illustration, moody moonlit desert noir, deep blacks, cinematic lighting, hand-painted storybook texture, no text, no words, no letters, 16:9 widescreen.
+One literal image per beat (the object/action named in the narration):
+1: Old gray payphone on a brick gas station wall at night, ringing, faint glow
+2: Close-up of a trembling hand lifting a payphone receiver in the dark
+3: Shadowy man's face in darkness lit by green phone-screen glow, mouth open mid-whisper
+4: Night-shift gas station clerk behind a counter at 3 AM, fluorescent lights, empty store
+5: Lonely desert highway at night, one small gas station glowing far ahead
+6: Gas station at night: single pump island, old ice machine, payphone on brick wall
+7: Close-up of a dead gray payphone, dusty, cobwebs, moonlight
+8: Desert night, full moon over an empty silent gas station
+9: Clerk restocking a drink cooler inside a dark store, greenish light, back turned
+10: Flashlight beam cutting through darkness toward a ringing payphone on a wall
+11: Close-up of an old payphone LCD screen glowing green in the dark
+12: Old home telephone on a dusty table in an abandoned room, moonlight through window
+13: A man's hand picking up a payphone receiver at night, lonely gas station
+14: Desert night darkness, faint silhouette of a car with engine running far away
+15: Dark empty room, silhouette of a man holding a phone receiver to his ear
+16: Close-up of a telephone receiver in cold blue darkness, faint static
+17: A man's half-lit face in darkness, finger to lips, whispering
+18: Spooky storyteller desk: open notebook, candle flame, dark room
+19: Young night-shift clerk in gas station uniform looking at viewer, night
+20: Young man behind a store counter at night, baseball bat across his knees, tense
+21: Black pickup truck, headlights off, parked beside a payphone at night
+22: Silhouette of a man standing motionless beside a payphone in the dark
+23: Small office at dawn, tired clerk on an old wall telephone
+24: Man waking bolt upright on a couch in a dark living room at night, scared
+25: Payphone ringing on a brick wall at night, green glow
+26: Payphone LCD screen glowing blank green in the dark
+27: Close-up of a payphone receiver in the dark, faint green glow
+28: Man hanging up a payphone receiver hard at night, angry
+29: Gas pump at night in a flashlight beam, dark sticky stain on concrete
+30: Fire truck red lights at a small gas station at night, firefighters working
+31: Aerial night view of a small desert gas station, calm, no fire
+32: Young clerk holding a ringing payphone receiver, conflicted expression, night
+33: Blue pickup truck at a gas pump at night, driver holding a credit card
+34: Dark wooden bookshelf full of old horror books, single candle, inviting and spooky
+35: Blue truck at a gas pump at night, driver paying at the pump
+36: Clerk taking cash bills from a driver through a small night service window
+37: Sheriff patrol car with flashing lights at a gas station at night
+38: Payphone receiver hanging off the hook at night, mysterious green glow
+39: Open notebook with handwritten notes beside a flashlight and pen, night
+40: Young frightened woman beside a car with a flat tire at night, headlights behind her
+41: Clerk standing protectively between a young woman and a dark road at night
+42: Paper coffee cup on a store counter at night, cold and stale
+43: Close-up of a paper coffee cup with curdled creamer, night store counter
+44: Clerk holding a payphone receiver, talking into it tensely at night
+45: Dark silhouette of an old man on a telephone, face hidden in shadow, ominous
+46: Old wall clock showing half past three at night, behind a store counter
+47: Close-up of a young man's pale frightened face in green phone glow
+48: Old cash register with a small clock display at night, dark store
+49: Open notebook in a flashlight beam, handwriting that looks strange and wrong
+50: Extreme close-up of a handwritten notebook page, neat looping letters, flashlight beam
+51: Man staring at a notebook in shock, flashlight between teeth, night
+52: Empty gas station lot at night, payphone ringing with green glow
+53: Man holding a phone receiver, looking around nervously as headlights approach
+54: Dark figure walking toward a gas station store at night, seen from inside through glass
+55: Clerk whispering into a payphone, terrified, seen through store glass
+56: Black pickup with headlights off rolling in, seen through store glass at night
+57: Gray-haired older man stepping out of a truck at night, face in shadow
+58: Older man's face through glass, mouth forming silent words, finger to lips
+59: Young man holding a phone receiver while an older identical man points at it through glass
+60: Payphone receiver swinging on its cord against a brick wall at night
+61: Truck taillights fading into desert darkness, red glow dissolving
+62: Close-up of a dead silent payphone receiver, dusty, moonlight
+63: Young man with a duffel bag walking away from a gas station at dawn
+64: Demolished gas station, rubble and a bulldozer in the desert
+65: Man lying awake in bed at night, staring at the ceiling, frightened
+66: Man waking up in a dark bedroom at night, sitting up, terrified
+67: Cell phone ringing on a nightstand in a dark bedroom, screen glowing
+68: Man sitting in a dark bedroom, phone ringing, counting on his fingers
+69: Window glass with faint breath fog on it in a dark bedroom, eerie

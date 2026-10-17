@@ -1,0 +1,9 @@
+{
+  "attempted_day": "2026-09-30",
+  "claim_id": "sirun_91236bb3b6844eeea5f74175c4a95a9f",
+  "memory_sha256": "594ca34eb886ef697437e1e6b6e16f2e5240ac129917924e2248ba191900757e",
+  "projection_state": "present",
+  "recorded_at": "2026-09-30T19:30:20.347227557+00:00",
+  "source": "objective_apply",
+  "version": 1
+}

@@ -1,0 +1,51 @@
+TUGAS: Upload 4 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Kerjakan BERURUTAN. Nama file UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 22 ===
+FILE: 22-mystery-en-2026-10-07.mp4
+CHANNEL: Unsolved Shadows | ID: UCjxESFWyFPOkGTSpajK69Lw
+JUDUL: The Ghost Ship With No Crew: What Really Happened to the Mary Celeste?
+DESKRIPSI: In December 1872, the Mary Celeste was found drifting in the Atlantic — perfectly intact, fully stocked... but her entire crew of 10 had vanished without a trace. No distress signal. No lifeboats. No answers. For over 150 years, this remains one of history's most chilling unsolved mysteries. 
+  
+ What do YOU think happened? Drop your theory in the comments. 
+  
+ Subscribe to Unsolved Shadows for a new unsolved mystery every day. 
+  
+ #unsolvedmystery #maryceleste #ghostship #mystery #unsolved
+TAGS: mary celeste, ghost ship, unsolved mystery, mystery, disappearances, unsolved
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 23 ===
+FILE: 23-strangetales-strange-tales-2026-10-07-mantis-shrimp-sm.mp4
+CHANNEL: strangetales | ID: UCAVSqZjG8Af_pm_1uD5wRzA
+JUDUL: This Shrimp Punches Faster Than a BULLET — But HOW?! #shorts #weirdfacts #strangetales
+DESKRIPSI: The mantis shrimp strikes faster than a bullet and sees colors we can't even imagine. A new strange tale every day.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 24 ===
+FILE: 24-strangetales-strange-tales-2026-10-07-blood-falls-sm.mp4
+CHANNEL: strangetales | ID: UCAVSqZjG8Af_pm_1uD5wRzA
+JUDUL: This Glacier Is BLEEDING — Scientists Found What's Inside?! #shorts #weirdfacts #strangetales
+DESKRIPSI: Blood Falls in Antarctica pours red water from a two-million-year-old hidden sea. A new strange tale every day.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 25 ===
+FILE: 25-strangetales-strange-tales-2026-10-07-mary-celeste-sm.mp4
+CHANNEL: strangetales | ID: UCAVSqZjG8Af_pm_1uD5wRzA
+JUDUL: A Ship Found Sailing With NO CREW — What Happened?! #shorts #mystery #strangetales
+DESKRIPSI: The Mary Celeste: a ghost ship adrift in 1872 with untouched cargo and a vanished crew. A new strange tale every day.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+LAPORAN AKHIR: tiap nomor -> SUKSES + URL, atau GAGAL + alasan singkat.

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<title><data:blog.pageTitle/></title>
+<b:include data='blog' name='all-head-content'/>
+<!-- SEO dasar -->
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<meta expr:content='data:blog.pageName' name='description'/>
+<meta content='article' property='og:type'/>
+<meta expr:content='data:blog.pageName' property='og:title'/>
+<meta expr:content='data:blog.url' property='og:url'/>
+<b:else/>
+<meta content='Kabar viral terkini: berita nasional, teknologi, hiburan, dan olahraga, diperbarui setiap hari.' name='description'/>
+<meta content='website' property='og:type'/>
+<meta expr:content='data:blog.pageTitle' property='og:title'/>
+<meta expr:content='data:blog.homepageUrl' property='og:url'/>
+</b:if>
+<meta expr:content='data:blog.title' property='og:site_name'/>
+<meta content='id_ID' property='og:locale'/>
+<meta content='summary_large_image' name='twitter:card'/>
+<!-- Structured data untuk Google News / SEO -->
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<script type='application/ld+json'>
+{"@context":"https://schema.org","@type":"NewsArticle","headline":"<data:blog.pageName/>","mainEntityOfPage":"<data:blog.url/>","publisher":{"@type":"Organization","name":"<data:blog.title/>"}}
+</script>
+</b:if>
+<link href='https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap' rel='stylesheet'/>
+<b:skin><![CDATA[
+/* ===== KABARVIRAL PRO - CSS Utama ===== */
+<Group description="Warna Tema" selector="body">
+<Variable name="warna.aksen" description="Warna Aksen" type="color" default="#e11d2e" value="#e11d2e"/>
+<Variable name="warna.gelap" description="Warna Gelap" type="color" default="#0f172a" value="#0f172a"/>
+<Variable name="warna.teks" description="Warna Teks" type="color" default="#1e293b" value="#1e293b"/>
+<Variable name="warna.latar" description="Warna Latar" type="color" default="#f1f5f9" value="#f1f5f9"/>
+</Group>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;color:$(warna.teks);background:$(warna.latar);line-height:1.6;font-size:16px}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;height:auto}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+/* ---- Bilah atas ---- */
+.topbar{background:$(warna.gelap);color:#cbd5e1;font-size:12.5px;padding:7px 0}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.topbar .tgl{font-weight:600;color:#fff}
+/* ---- Header ---- */
+.site-header{background:#fff;border-bottom:1px solid #e2e8f0;padding:18px 0}
+.header-in{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.logo a{font-size:30px;font-weight:800;letter-spacing:-.5px;color:$(warna.gelap)}
+.logo a span{color:$(warna.aksen)}
+.logo p{font-size:13px;color:#64748b;margin-top:2px}
+/* ---- Slot iklan ---- */
+.slot-iklan{background:#f8fafc;border:1px dashed #cbd5e1;border-radius:8px;text-align:center;overflow:hidden}
+.slot-iklan:empty{display:none}
+.ad-leaderboard{min-width:300px;min-height:90px;display:flex;align-items:center;justify-content:center}
+.ad-leaderboard:empty{display:none}
+/* ---- Navigasi ---- */
+.navbar{background:$(warna.gelap);position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.navbar .wrap{display:flex;align-items:center}
+.menu-toggle{display:none;background:none;border:0;color:#fff;font-size:24px;padding:10px 4px;cursor:pointer}
+ul.menu{list-style:none;display:flex;flex-wrap:wrap}
+ul.menu li a{display:block;color:#e2e8f0;font-weight:600;font-size:14px;padding:13px 16px;text-transform:uppercase;letter-spacing:.3px}
+ul.menu li a:hover{background:$(warna.aksen);color:#fff}
+/* ---- Ticker terkini ---- */
+.ticker{background:#fff;border-bottom:1px solid #e2e8f0;display:flex;align-items:stretch}
+.ticker .wrap{display:flex;align-items:center;width:100%}
+.ticker-label{background:$(warna.aksen);color:#fff;font-weight:800;font-size:13px;padding:9px 14px;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap}
+.ticker-view{overflow:hidden;flex:1;position:relative;height:38px}
+.ticker-items{position:absolute;white-space:nowrap;animation:jalan 40s linear infinite;padding:9px 0;font-size:14px}
+.ticker-items a{margin-right:48px;color:$(warna.teks);font-weight:500}
+.ticker-items a:hover{color:$(warna.aksen)}
+@keyframes jalan{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+/* ---- Konten ---- */
+.konten{display:grid;grid-template-columns:1fr 320px;gap:26px;padding:26px 16px;align-items:start}
+.section-judul{font-size:20px;font-weight:800;color:$(warna.gelap);margin:6px 0 16px;padding-left:12px;border-left:4px solid $(warna.aksen);text-transform:uppercase;letter-spacing:.3px}
+/* Kartu utama (featured) */
+.kartu-utama{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(15,23,42,.08);margin-bottom:24px;display:block}
+.kartu-utama .gambar{position:relative;aspect-ratio:16/8;overflow:hidden;background:#0f172a}
+.kartu-utama .gambar img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.kartu-utama:hover .gambar img{transform:scale(1.04)}
+.kartu-utama .isi{padding:20px 22px}
+.kartu-utama h2{font-size:26px;font-weight:800;line-height:1.3;margin:8px 0 10px}
+.kartu-utama h2 a:hover{color:$(warna.aksen)}
+.label-kat{display:inline-block;background:$(warna.aksen);color:#fff;font-size:11.5px;font-weight:700;padding:3px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.4px}
+.meta{font-size:13px;color:#64748b;margin-bottom:8px}
+.ringkasan{color:#475569;font-size:15px}
+/* Grid kartu */
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.kartu{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(15,23,42,.07);display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s}
+.kartu:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(15,23,42,.12)}
+.kartu .gambar{aspect-ratio:16/9;overflow:hidden;background:#e2e8f0}
+.kartu .gambar img{width:100%;height:100%;object-fit:cover}
+.kartu .isi{padding:16px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.kartu h3{font-size:17px;font-weight:700;line-height:1.4}
+.kartu h3 a:hover{color:$(warna.aksen)}
+.kartu .ringkasan{font-size:14px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+/* Kartu pertama tampil besar sebagai headline */
+.grid > article:first-child{grid-column:1/-1}
+.grid > article:first-child .gambar{aspect-ratio:16/8}
+.grid > article:first-child h3{font-size:24px}
+.grid > article:first-child .ringkasan{-webkit-line-clamp:3;font-size:15px}
+/* Halaman artikel */
+.post-full{background:#fff;border-radius:12px;padding:28px;box-shadow:0 2px 12px rgba(15,23,42,.07)}
+.breadcrumb{font-size:13px;color:#64748b;margin-bottom:12px}
+.breadcrumb a:hover{color:$(warna.aksen)}
+.post-full h1{font-size:30px;font-weight:800;line-height:1.35;color:$(warna.gelap);margin:10px 0 14px}
+.post-full .meta{display:flex;gap:16px;flex-wrap:wrap;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0;padding:10px 0;margin-bottom:20px;font-size:13.5px}
+.post-body{font-size:17px;line-height:1.85;color:#334155}
+.post-body p{margin-bottom:18px}
+.post-body h2{font-size:22px;font-weight:800;color:$(warna.gelap);margin:26px 0 14px}
+.post-body img{border-radius:8px;margin:8px 0}
+.slot-artikel{margin:22px 0}
+.post-label{margin-top:24px;padding-top:16px;border-top:1px solid #e2e8f0;font-size:14px}
+.post-label a{background:#f1f5f9;border:1px solid #e2e8f0;border-radius:20px;padding:4px 14px;margin:0 6px 6px 0;display:inline-block;font-weight:600}
+.post-label a:hover{background:$(warna.aksen);border-color:$(warna.aksen);color:#fff}
+.share{margin:20px 0;display:flex;gap:10px;align-items:center;font-weight:700;font-size:14px}
+.share a{background:$(warna.gelap);color:#fff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:8px}
+.share a:hover{background:$(warna.aksen)}
+.terkait{margin-top:30px}
+.terkait h3{font-size:19px;font-weight:800;margin-bottom:14px;color:$(warna.gelap)}
+.terkait ul{list-style:none;display:grid;gap:12px}
+.terkait li a{display:flex;gap:12px;align-items:center;background:#f8fafc;border-radius:8px;padding:10px;font-weight:600;font-size:15px}
+.terkait li a:hover{color:$(warna.aksen)}
+.terkait li img{width:90px;height:60px;object-fit:cover;border-radius:6px;flex-shrink:0}
+/* Komentar */
+.komentar{margin-top:30px;background:#fff;border-radius:12px;padding:24px;box-shadow:0 2px 12px rgba(15,23,42,.07)}
+.komentar h3{font-size:19px;font-weight:800;margin-bottom:14px}
+/* Sidebar */
+.sidebar{display:flex;flex-direction:column;gap:22px;position:sticky;top:70px}
+.widget{background:#fff;border-radius:12px;padding:20px;box-shadow:0 2px 12px rgba(15,23,42,.07)}
+.side-judul{font-size:16px;font-weight:800;text-transform:uppercase;letter-spacing:.3px;margin-bottom:14px;padding-bottom:10px;border-bottom:2px solid $(warna.aksen);color:$(warna.gelap)}
+.cari{display:flex;gap:8px}
+.cari input{flex:1;border:1px solid #cbd5e1;border-radius:8px;padding:10px 12px;font-size:14px;font-family:inherit}
+.cari button{background:$(warna.aksen);color:#fff;border:0;border-radius:8px;padding:10px 18px;font-weight:700;cursor:pointer;font-family:inherit}
+ul.daftar-label{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+ul.daftar-label a{background:#f1f5f9;border:1px solid #e2e8f0;padding:6px 14px;border-radius:20px;font-size:13.5px;font-weight:600}
+ul.daftar-label a:hover{background:$(warna.gelap);color:#fff;border-color:$(warna.gelap)}
+ul.pop{list-style:none;display:grid;gap:14px;counter-reset:pop}
+ul.pop li{display:flex;gap:12px;align-items:flex-start}
+ul.pop li::before{counter-increment:pop;content:counter(pop);background:$(warna.aksen);color:#fff;font-weight:800;min-width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px}
+ul.pop a{font-weight:600;font-size:14.5px;line-height:1.45}
+ul.pop a:hover{color:$(warna.aksen)}
+.slot-sidebar{min-height:250px;display:flex;align-items:center;justify-content:center}
+/* Navigasi halaman */
+.pagenav{display:flex;justify-content:space-between;margin-top:26px}
+.pagenav a{background:#fff;border:1px solid #e2e8f0;padding:10px 22px;border-radius:8px;font-weight:700;box-shadow:0 2px 8px rgba(15,23,42,.06)}
+.pagenav a:hover{background:$(warna.gelap);color:#fff}
+/* Footer */
+.site-footer{background:$(warna.gelap);color:#94a3b8;margin-top:40px;padding:44px 0 0}
+.footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;padding-bottom:34px}
+.site-footer h4{color:#fff;font-size:16px;font-weight:800;margin-bottom:14px;text-transform:uppercase;letter-spacing:.3px}
+.site-footer p,.site-footer li{font-size:14px}
+.site-footer ul{list-style:none;display:grid;gap:8px}
+.site-footer a:hover{color:#fff}
+.copyright{border-top:1px solid #1e293b;padding:16px 0;text-align:center;font-size:13px}
+/* Tombol ke atas */
+.keatas{position:fixed;right:20px;bottom:20px;background:$(warna.aksen);color:#fff;border:0;width:46px;height:46px;border-radius:50%;font-size:20px;cursor:pointer;display:none;box-shadow:0 4px 14px rgba(225,29,46,.4);z-index:200}
+/* Responsif */
+@media(max-width:960px){
+.konten{grid-template-columns:1fr}
+.sidebar{position:static}
+.footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:640px){
+.grid{grid-template-columns:1fr}
+.kartu-utama h2{font-size:21px}
+.post-full{padding:20px 16px}
+.post-full h1{font-size:23px}
+.menu-toggle{display:block}
+ul.menu{display:none;flex-direction:column;width:100%}
+ul.menu.buka{display:flex}
+ul.menu li a{padding:12px 8px;border-top:1px solid #1e293b}
+.header-in{justify-content:center;text-align:center}
+.ad-leaderboard{width:100%}
+.footer-grid{grid-template-columns:1fr}
+}
+]]></b:skin>
+</head>
+<body>
+<!-- ===== Bilah atas ===== -->
+<div class='topbar'>
+<div class='wrap'>
+<span class='tgl' id='tgl-hari-ini'>Memuat tanggal...</span>
+<span>Kabar viral terkini, terupdate setiap hari</span>
+</div>
+</div>
+
+<!-- ===== Header ===== -->
+<header class='site-header'>
+<div class='wrap header-in'>
+<div class='logo'>
+<a expr:href='data:blog.homepageUrl'><data:blog.title/></a>
+<p>Berita viral terkini: nasional, teknologi, hiburan, olahraga</p>
+</div>
+<!-- SLOT IKLAN 1 (Header 728x90): tempel kode AdSense di dalam div ini setelah disetujui -->
+<div class='slot-iklan ad-leaderboard'>
+</div>
+</div>
+</header>
+
+<!-- ===== Navigasi ===== -->
+<nav class='navbar'>
+<div class='wrap'>
+<button class='menu-toggle' id='menu-toggle' aria-label='Menu'>&#9776;</button>
+<b:section class='nav-section' id='nav' maxwidgets='1' showaddelement='no'>
+<b:widget id='LinkList1' locked='false' title='Menu Navigasi' type='LinkList' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<ul class='menu' id='menu-utama'>
+<li><a expr:href='data:blog.homepageUrl'>Beranda</a></li>
+<b:loop values='data:links' var='link'>
+<li><a expr:href='data:link.target'><data:link.name/></a></li>
+</b:loop>
+</ul>
+</b:includable>
+</b:widget>
+</b:section>
+</div>
+</nav>
+
+<!-- ===== Ticker berita terkini ===== -->
+<div class='ticker'>
+<div class='wrap'>
+<span class='ticker-label'>Terkini</span>
+<div class='ticker-view'><div class='ticker-items' id='ticker-items'><span>Memuat berita terbaru...</span></div></div>
+</div>
+</div>
+
+<!-- ===== Konten utama ===== -->
+<main class='wrap konten'>
+<div class='konten-utama'>
+<b:section class='main' id='main' maxwidgets='1' showaddelement='no'>
+<b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+  <h2 class='section-judul'>Berita Terbaru</h2>
+  <div class='grid'>
+  <b:loop values='data:posts' var='post'>
+  <!-- Kartu berita: kartu pertama otomatis tampil besar sebagai headline via CSS -->
+  <article class='kartu'>
+    <b:if cond='data:post.featuredImage'>
+    <a class='gambar' expr:href='data:post.url'><img expr:alt='data:post.title' expr:src='data:post.featuredImage'/></a>
+    </b:if>
+    <div class='isi'>
+      <b:if cond='data:post.labels'>
+      <b:loop values='data:post.labels' var='label'><span class='label-kat'><data:label.name/></span> </b:loop>
+      </b:if>
+      <h3><a expr:href='data:post.url'><data:post.title/></a></h3>
+      <div class='meta'><data:post.timestamp/></div>
+      <p class='ringkasan'><data:post.snippet/></p>
+    </div>
+  </article>
+  </b:loop>
+  </div>
+  <div class='pagenav'>
+    <b:include name='nextprev'/>
+  </div>
+<b:elseif cond='data:blog.pageType == &quot;item&quot;'/>
+  <b:loop values='data:posts' var='post'>
+  <b:include data='post' name='post'/>
+  </b:loop>
+<b:else/>
+  <h2 class='section-judul'><data:blog.pageName/></h2>
+  <div class='grid'>
+  <b:loop values='data:posts' var='post'>
+  <article class='kartu'>
+    <b:if cond='data:post.featuredImage'>
+    <a class='gambar' expr:href='data:post.url'><img expr:alt='data:post.title' expr:src='data:post.featuredImage'/></a>
+    </b:if>
+    <div class='isi'>
+      <h3><a expr:href='data:post.url'><data:post.title/></a></h3>
+      <div class='meta'><data:post.timestamp/></div>
+      <p class='ringkasan'><data:post.snippet/></p>
+    </div>
+  </article>
+  </b:loop>
+  </div>
+  <div class='pagenav'>
+    <b:include name='nextprev'/>
+  </div>
+</b:if>
+</b:includable>
+
+<b:includable id='post' var='post'>
+<article class='post-full'>
+<div class='breadcrumb'><a expr:href='data:blog.homepageUrl'>Beranda</a> &#187; <span><data:post.title/></span></div>
+<b:if cond='data:post.labels'><b:loop values='data:post.labels' var='label'><span class='label-kat'><data:label.name/></span> </b:loop></b:if>
+<h1><data:post.title/></h1>
+<div class='meta'><span>&#128197; <data:post.timestamp/></span><span>&#9998; <data:post.author/></span></div>
+<!-- SLOT IKLAN 2 (Dalam artikel): tempel kode AdSense di dalam div ini; otomatis pindah setelah paragraf ke-2 -->
+<div class='slot-iklan slot-artikel' id='iklan-artikel'>
+</div>
+<div class='post-body' id='post-body'>
+<data:post.body/>
+</div>
+<div class='share'>Bagikan:
+<a expr:href='"https://www.facebook.com/sharer/sharer.php?u=" + data:post.url' target='_blank'>Facebook</a>
+<a expr:href='"https://twitter.com/intent/tweet?url=" + data:post.url + "&amp;text=" + data:post.title' target='_blank'>X</a>
+<a expr:href='"https://wa.me/?text=" + data:post.title + " " + data:post.url' target='_blank'>WhatsApp</a>
+</div>
+<b:if cond='data:post.labels'>
+<div class='post-label'>Label:
+<b:loop values='data:post.labels' var='label'>
+<a expr:href='data:label.url' rel='tag'><data:label.name/></a>
+</b:loop>
+</div>
+</b:if>
+<!-- SLOT IKLAN 3 (Bawah artikel): tempel kode AdSense di dalam div ini -->
+<div class='slot-iklan slot-artikel'>
+</div>
+<div class='terkait'>
+<h3>Berita Terkait</h3>
+<ul id='berita-terkait'><li>Memuat...</li></ul>
+</div>
+</article>
+<div class='komentar'>
+<b:include data='post' name='comments'/>
+</div>
+</b:includable>
+</b:widget>
+</b:section>
+</div>
+
+<!-- ===== Sidebar ===== -->
+<aside class='sidebar'>
+<b:section class='side' id='sidebar' maxwidgets='6' showaddelement='yes'>
+<b:widget id='BlogSearch1' locked='false' title='Cari Berita' type='BlogSearch' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='widget'>
+<b:if cond='data:title != &quot;&quot;'><div class='side-judul'><data:title/></div></b:if>
+<form class='cari' expr:action='data:blog.homepageUrl + "search"'>
+<input name='q' placeholder='Cari berita...' type='text'/>
+<button type='submit'>Cari</button>
+</form>
+</div>
+</b:includable>
+</b:widget>
+<!-- SLOT IKLAN 4 (Sidebar 300x250): tempel kode AdSense di dalam div ini -->
+<b:widget id='HTML1' locked='false' title='' type='HTML' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='slot-iklan slot-sidebar'>
+</div>
+</b:includable>
+</b:widget>
+<b:widget id='PopularPosts1' locked='false' title='Terpopuler' type='PopularPosts' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='widget'>
+<div class='side-judul'>Terpopuler</div>
+<ul class='pop'>
+<b:loop values='data:posts' var='post'>
+<li><a expr:href='data:post.href'><data:post.title/></a></li>
+</b:loop>
+</ul>
+</div>
+</b:includable>
+</b:widget>
+<b:widget id='Label1' locked='false' title='Kategori' type='Label' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='widget'>
+<div class='side-judul'>Kategori</div>
+<ul class='daftar-label'>
+<b:loop values='data:labels' var='label'>
+<li><a expr:href='data:label.url'><data:label.name/></a></li>
+</b:loop>
+</ul>
+</div>
+</b:includable>
+</b:widget>
+</b:section>
+</aside>
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class='site-footer'>
+<div class='wrap footer-grid'>
+<div>
+<h4>Tentang Kami</h4>
+<p><b><data:blog.title/></b> menyajikan kabar viral terkini dari berbagai topik: nasional, teknologi, hiburan, dan olahraga. Diperbarui setiap hari.</p>
+</div>
+<div>
+<h4>Navigasi</h4>
+<ul>
+<li><a expr:href='data:blog.homepageUrl'>Beranda</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Nasional"'>Nasional</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Teknologi"'>Teknologi</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Hiburan"'>Hiburan</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Olahraga"'>Olahraga</a></li>
+</ul>
+</div>
+<div>
+<h4>Info</h4>
+<ul>
+<li><a expr:href='data:blog.homepageUrl + "p/tentang-kami.html"'>Tentang Kami</a></li>
+<li><a expr:href='data:blog.homepageUrl + "p/kebijakan-privasi.html"'>Kebijakan Privasi</a></li>
+<li><a expr:href='data:blog.homepageUrl + "p/kontak.html"'>Kontak</a></li>
+<li><a expr:href='data:blog.homepageUrl + "p/disclaimer.html"'>Disclaimer</a></li>
+</ul>
+</div>
+</div>
+<div class='copyright'>
+<div class='wrap'>&#169; <span id='tahun'></span> <data:blog.title/>. Seluruh hak cipta dilindungi.</div>
+</div>
+</footer>
+
+<button class='keatas' id='keatas' aria-label='Ke atas'>&#8593;</button>
+
+<script>
+//<![CDATA[
+(function(){
+  "use strict";
+  var blogUrl = document.querySelector("link[rel='canonical']") ?
+    document.querySelector("link[rel='canonical']").href.replace(/\/$/,'') :
+    location.origin;
+  /* Tanggal Indonesia di bilah atas */
+  try {
+    var hari = ["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
+    var bulan = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+    var t = new Date();
+    document.getElementById("tgl-hari-ini").textContent =
+      hari[t.getDay()] + ", " + t.getDate() + " " + bulan[t.getMonth()] + " " + t.getFullYear();
+    document.getElementById("tahun").textContent = t.getFullYear();
+  } catch(e){}
+  /* Menu mobile */
+  var toggle = document.getElementById("menu-toggle");
+  if (toggle) toggle.addEventListener("click", function(){
+    document.getElementById("menu-utama").classList.toggle("buka");
+  });
+  /* Tombol ke atas */
+  var keatas = document.getElementById("keatas");
+  window.addEventListener("scroll", function(){
+    keatas.style.display = window.scrollY > 400 ? "block" : "none";
+  });
+  keatas.addEventListener("click", function(){ window.scrollTo({top:0, behavior:"smooth"}); });
+  /* Ticker: ambil 8 postingan terbaru */
+  function isiTicker(){
+    var el = document.getElementById("ticker-items");
+    if(!el) return;
+    fetch(blogUrl + "/feeds/posts/default?alt=json&max-results=8")
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        var items = (d.feed.entry || []).map(function(e){
+          var link = (e.link || []).filter(function(l){ return l.rel === "alternate"; })[0];
+          return '<a href="' + (link ? link.href : "#") + '">' + e.title.$t + "</a>";
+        }).join("");
+        if(items){ el.innerHTML = items + items; } /* ganda untuk animasi mulus */
+        else { el.innerHTML = "<span>Belum ada berita.</span>"; }
+      })
+      .catch(function(){ el.innerHTML = "<span>Selamat datang di " + document.title + "</span>"; });
+  }
+  isiTicker();
+  /* Pindahkan slot iklan artikel ke setelah paragraf ke-2 */
+  try {
+    var slot = document.getElementById("iklan-artikel");
+    var body = document.getElementById("post-body");
+    if (slot && body) {
+      var ps = body.querySelectorAll("p");
+      if (ps.length > 2) { ps[1].after(slot); }
+    }
+  } catch(e){}
+  /* Berita terkait: ambil berdasarkan label pertama */
+  try {
+    var katEl = document.querySelector(".post-full .label-kat");
+    var box = document.getElementById("berita-terkait");
+    if (katEl && box) {
+      var kat = encodeURIComponent(katEl.textContent.trim());
+      fetch(blogUrl + "/feeds/posts/default/-/" + kat + "?alt=json&max-results=4")
+        .then(function(r){ return r.json(); })
+        .then(function(d){
+          var html = (d.feed.entry || []).filter(function(e){
+            return e.link && e.link.some(function(l){ return l.rel==="alternate" && l.href !== location.href; });
+          }).slice(0,3).map(function(e){
+            var link = e.link.filter(function(l){ return l.rel === "alternate"; })[0];
+            var img = (e.media$thumbnail) ? e.media$thumbnail.url.replace(/\/s72-c\//, "/s300/") : "";
+            return '<li><a href="' + link.href + '">' +
+              (img ? '<img src="' + img + '" alt="" loading="lazy"/>' : "") +
+              "<span>" + e.title.$t + "</span></a></li>";
+          }).join("");
+          box.innerHTML = html || "<li>Tidak ada berita terkait.</li>";
+        })
+        .catch(function(){ box.innerHTML = "<li>Tidak ada berita terkait.</li>"; });
+    } else if (box) { box.innerHTML = ""; }
+  } catch(e){}
+})();
+ //]]>
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+CHANNEL: Strange Tales UCAVSqZjG8Af_pm_1uD5wRzA
+UPLOAD: strange-tales-2026-10-14-movile-cave.mp4 -> 2026-10-16 21:00 WIB
+GAGAL: init HTTP 400: {
+  "error": {
+    "code": 400,
+    "message": "The request metadata specifies an invalid or empty video title.",
+    "errors": [
+      {
+        "message": "The request metadata specifies an invalid or empty video title.",
+        "domain": "youtube.video",
+        "reason": "invalidTitle",
+       
+QUEUE DITULIS: /home/hatch/workspace/youtube-otomatis/retry-queue/strangetales-movile-cave-2026-10-14.json
+UPLOAD: strange-tales-2026-10-14-dragons-blood.mp4 -> 2026-10-17 03:00 WIB
+... 8388608/30450682
+... 16777216/30450682
+... 25165824/30450682
+SELESAI: YCkvzZeoiI8 https://youtu.be/YCkvzZeoiI8
+UPLOAD: strange-tales-2026-10-14-green-flash.mp4 -> 2026-10-17 07:00 WIB
+... 8388608/60241759
+... 16777216/60241759
+... 25165824/60241759
+... 33554432/60241759
+... 41943040/60241759
+... 50331648/60241759
+... 58720256/60241759
+SELESAI: Sh9fyNe7w-Y https://youtu.be/Sh9fyNe7w-Y
+SEMUA UPLOAD SELESAI: 2/3

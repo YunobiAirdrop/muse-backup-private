@@ -1,0 +1,36 @@
+{
+  "ai_disclosure": "ALTERED CONTENT: AI-generated TTS narration + AI-generated illustrations. 'Altered content' checkbox MUST be ticked at upload.",
+  "channel": "Dark Case Files (@TrueCaseFilesTV, UC2df1xY_WqWdX33oLqeXE2w, login khususstokyunobi@gmail.com)",
+  "context": "Retry upload 3 shorts Sodder yang gagal 2026-10-06 & 2026-10-07 karena batas upload harian YouTube. Keputusan run 2026-10-07: coba ulang 2026-10-08 16:11 (batas ±24 jam). Tidak ada produksi baru hari ini — backlog diprioritaskan (aturan anti-mogok). Long Sodder (video/2026-10-06.mp4, 547.1s) tetap antre untuk HARI LONG berikutnya.",
+  "retry_of": "2026-10-06 production shorts; failed upload attempts 2026-10-06 & 2026-10-07 (daily upload limit)",
+  "schedule_target": "2026-10-09 07:00 Asia/Jakarta (all 3 shorts)",
+  "shorts": [
+    {
+      "description": "Christmas Day, 1945: a farmhouse burns down — and five children vanish without a trace. No remains were ever found. Honestly, this is one of those cases that genuinely unsettled me. Full documentary on the way — follow Dark Case Files: https://www.youtube.com/@TrueCaseFilesTV",
+      "path": "/home/hatch/workspace/youtube-otomatis/truecrime-en/shorts/2026-10-06-s1.mp4",
+      "title": "5 Kids Vanished in a Christmas Fire — Never Found #shorts #truecrime #mystery"
+    },
+    {
+      "description": "Before the fire even started, someone cut the Sodders' phone line. The ladder that could have saved the kids was missing too. In my opinion? That's not bad luck — that's a plan. Full documentary coming to Dark Case Files: https://www.youtube.com/@TrueCaseFilesTV",
+      "path": "/home/hatch/workspace/youtube-otomatis/truecrime-en/shorts/2026-10-06-s2.mp4",
+      "title": "The Phone Line Was CUT Before the Fire Started #shorts #truecrime #mystery"
+    },
+    {
+      "description": "Twenty-three years after five children vanished in a Christmas fire, the Sodders received a photo in the mail — a young man who looked exactly like their missing son Louis. It still gives me chills. Full documentary coming to Dark Case Files: https://www.youtube.com/@TrueCaseFilesTV",
+      "path": "/home/hatch/workspace/youtube-otomatis/truecrime-en/shorts/2026-10-06-s3.mp4",
+      "title": "23 Years Later, a Mysterious Photo Arrived #shorts #truecrime #mystery"
+    }
+  ],
+  "stop_condition": "Jika YouTube menampilkan 'Batas upload harian telah tercapai' (daily upload limit) pada video mana pun -> STOP, jangan coba video sisanya, laporkan. JANGAN retry saat itu juga.",
+  "topic": "Sodder children disappearance — Fayetteville, West Virginia, Christmas 1945",
+  "upload_day_type": "shorts (alternating pattern; upload-terakhir.txt = long:2026-10-05)",
+  "hasil_upload": "3/3 shorts BERHASIL diupload & dijadwalkan 2026-10-09 07:00 WIB (batas harian sudah terangkat; tidak ada pesan limit)",
+  "urls": [
+    "https://youtube.com/shorts/7fb5QMDnja4",
+    "https://youtube.com/shorts/7zOMvbK2rjE",
+    "https://youtube.com/shorts/cDji7o2q26U"
+  ],
+  "channel_terverifikasi": "Dark Case Files (@TrueCaseFilesTV, UC2df1xY_WqWdX33oLqeXE2w); Studio awalnya di channel lain, diganti via pengalih akun",
+  "upload_terakhir_txt": "shorts:2026-10-08",
+  "catatan_berikutnya": "Long Sodder (video/2026-10-06.mp4) tetap antre untuk HARI LONG berikutnya"
+}

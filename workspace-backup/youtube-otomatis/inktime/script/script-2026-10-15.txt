@@ -1,0 +1,65 @@
+SCRIPT: "The Library of Alexandria: What We Actually Lost"
+Channel: InkTime | Long video | ~9-10 min | English | Voice: avocado_v2:miles | Persona: "Pak Guru Ink"
+Notes: numbers written spoken-form for TTS. "~" = dramatic pause placement (strip before TTS).
+Hook: 3-second cold open (contradiction: it did NOT burn in one night). Question in first minute.
+2-3 narrator reflections included. CTA at ~50% (beat 6) + end + end-screen pitch.
+
+=== BEAT 1 (HOOK — cold open, no intro) ===
+NARRATION:
+What if I told you the greatest library of the ancient world did NOT burn down in one dramatic night of flames — but died slowly, quietly, while almost nobody noticed? Hundreds of thousands of scrolls. The collected knowledge of Greece, Egypt, and Babylon — gathered in one place for the first time in history. And today, almost all of it is gone. The Library of Alexandria. You have heard the legend. But what we actually lost — and how we lost it — is a story nobody tells you right. So here is my question before we start: what do YOU think happened to it? Fire? War? Something else? Drop your guess in the comments — because the real answer will surprise you.
+
+VISUAL PLAN: IMAGE 1 — framework header "THE LIBRARY DID NOT BURN" + bullets: hundreds of thousands of scrolls; knowledge of three civilizations in one place; almost all of it is gone.
+
+=== BEAT 2 ===
+NARRATION:
+To feel the scale of this loss, you have to understand what the Ptolemies built. Around three hundred BC, Ptolemy the First — one of Alexander the Great's generals — took over Egypt. And he had a wild dream: to collect every book in the world. Every book. He built the Musaeum — literally a temple to the Muses, the goddesses of knowledge — part university, part research institute, where scholars were paid a salary to do nothing but think. And attached to it: the Library. The chief librarian answered only to the king. This was not a dusty archive. This was humanity's first attempt at gathering all knowledge in one place. Imagine someone today saying: "We are going to download the entire internet, print it, and keep it in one building." That is what Alexandria was.
+
+VISUAL PLAN: IMAGE 2 — framework header "ALL THE WORLD'S BOOKS" + bullets: Ptolemy the First, around 300 BC; the Musaeum — temple of the Muses; scholars paid to do nothing but think.
+
+=== BEAT 3 ===
+NARRATION:
+Now here is the part that blows my mind: how they got the scrolls. Alexandria was the busiest port in the Mediterranean. And the Ptolemies passed a law: every ship that entered the harbor had to hand over its books. The librarians would copy the scrolls — and keep the ORIGINALS. The ship got the copy. One story — recorded by the physician Galen — says Ptolemy the Third borrowed Athens' official state copies of the great tragedies: Aeschylus, Sophocles, Euripides. He put down a fortune in silver as a deposit... and then kept the originals and sent back the copies, telling Athens to keep the money. He stole the master copies of the greatest plays ever written. Think of it as the ancient version of "download now, apologize later."
+
+VISUAL PLAN: IMAGE 3 — framework header "THE GREATEST BOOK HEIST" + bullets: every ship searched at the harbor; originals kept, copies returned; Ptolemy III kept Athens' master plays.
+
+=== BEAT 4 ===
+NARRATION:
+So what was actually inside? The numbers vary — ancient sources claim anywhere from forty thousand to four hundred thousand scrolls. Even the low end is staggering for the ancient world. And it was not just storage. This was where Euclid wrote the Elements — the geometry textbook your grandparents studied. Eratosthenes, the chief librarian, measured the circumference of the Earth with a stick, a well, and shadows — and got it right within two percent. Two thousand two hundred years before satellites. Herophilus performed the first systematic dissections of the human body here and mapped the brain. Callimachus, another librarian, invented the library catalog — the Pinakes — a hundred and twenty volumes listing every work and its author, the first bibliography in history. Think about that for a second: the search engine was invented in Alexandria, two thousand years before Google.
+
+VISUAL PLAN: IMAGE 4 — framework header "WHAT WAS INSIDE" + bullets: 40,000 to 400,000 scrolls; Euclid, Eratosthenes, Herophilus; Callimachus' Pinakes — the first catalog.
+
+=== BEAT 5 ===
+NARRATION:
+And the people running it were the greatest minds alive. Let me give you my favorite: Eratosthenes. Around two forty BC, he heard that in the city of Syene, at noon on the summer solstice, the sun shone straight down a well — no shadow at all. But in Alexandria, on the same day, a stick DID cast a shadow. From that one difference, he calculated the angle of the shadow, estimated the distance between the two cities, and computed the Earth's circumference: about thirty-nine thousand kilometers. The real number? Just over forty thousand. He was off by less than two percent — with a stick and a well. ~ That, to me, is the Library of Alexandria in one story: curiosity, turned into mathematics, turned into truth about the entire planet.
+
+VISUAL PLAN: IMAGE 5 — framework header "A STICK, A WELL, THE EARTH" + bullets: Syene well — no shadow at noon; Alexandria stick — a shadow; Earth's size within 2 percent, around 240 BC.
+
+=== BEAT 6 (CTA ~50%) ===
+NARRATION:
+A few years ago, a student asked me what the Library of Alexandria would be today. And I said — it already exists. It is Wikipedia. It is the Internet Archive. It is every open library you have ever used. But here is the difference: we think digital means forever. The Alexandrians thought papyrus and stone meant forever, too. What fascinates me about this is that the people of Alexandria were SO confident their knowledge was safe... and they were wrong. If stories about the fragile, human side of history are your thing — subscribe to InkTime. One video a week that makes you rethink the past. And stay with me — because the part about the fire? Almost everything you know about it is wrong.
+
+VISUAL PLAN: IMAGE 6 — framework header "ALEXANDRIA: THE ANCIENT GOOGLE" + bullets: Wikipedia of the ancient world; digital feels forever — so did papyrus; what fascinates me... Overlay text: "SUBSCRIBE!" (3 seconds).
+
+=== BEAT 7 ===
+NARRATION:
+Okay — the fire. You have seen the movie version: Julius Caesar torches the harbor in forty-eight BC and the great library goes up in flames. Here is what actually happened. Caesar was besieged in Alexandria and set fire to his OWN ships to block the enemy fleet. The fire spread to warehouses on the docks. The Roman writer Seneca says forty thousand scrolls burned. But — and this is crucial — those were most likely books stored in the harbor warehouses, duplicates waiting to be catalogued. The main library, up in the royal quarter, probably survived. One fire, forty-eight BC, did not destroy the Library of Alexandria. The legend of the single great fire? It is mostly a myth. The truth is slower — and sadder.
+
+VISUAL PLAN: IMAGE 7 — framework header "THE FIRE THAT WASN'T" + bullets: Caesar's fire, 48 BC — harbor warehouses; 40,000 scrolls burned (Seneca); the main library probably survived.
+
+=== BEAT 8 ===
+NARRATION:
+Because the library did not die in a night. It died over centuries. The later Ptolemy kings cared more about palace politics than scholars — budgets were cut, and the best minds left for Rome and elsewhere. By the time of the Roman emperor Aurelian, in the two seventies AD, his troops destroyed the Brucheion — the royal quarter where the library stood. The smaller "daughter library" in the Serapeum temple survived longer — until three ninety-one AD, when a mob, acting under imperial orders, tore the temple down. No single villain. No single fire. Just neglect, war, riots, and budget cuts — the most boring apocalypse imaginable. What fascinates me is how ordinary it all was. Knowledge does not usually die screaming. It dies from nobody bothering to save it.
+
+VISUAL PLAN: IMAGE 8 — framework header "DEATH BY A THOUSAND CUTS" + bullets: budget cuts under later kings; Aurelian destroys the Brucheion, around 270s AD; the Serapeum torn down, 391 AD.
+
+=== BEAT 9 ===
+NARRATION:
+So what did we ACTUALLY lose? This is the part that hurts. Of the roughly one thousand two hundred known ancient Greek authors, we have complete works from only a handful. Aeschylus wrote around ninety plays — seven survive. Sophocles wrote about one hundred twenty — seven survive. Euripides: ninety plays, nineteen survive. Sappho — the most famous poet of the ancient world — survives only in fragments; a single complete poem. Entire schools of philosophy, histories, scientific treatises — we know them only as titles in other people's footnotes. ~ Now think about this: if even ONE more warehouse of scrolls had survived, our picture of the ancient world could be completely different. The library's real tragedy is not what burned. It is what faded — silently, title by title, until nobody remembered what was missing.
+
+VISUAL PLAN: IMAGE 9 — framework header "WHAT WE ACTUALLY LOST" + bullets: Aeschylus — 90 plays, 7 survive; Sappho — one complete poem; whole sciences known only by title.
+
+=== BEAT 10 (CLOSING) ===
+NARRATION:
+Two thousand years later, the Library of Alexandria is still teaching us one lesson: civilization is not a one-way road. Knowledge is not automatically safe — not on papyrus, not on servers, not anywhere. Every generation has to choose to keep it. The Alexandrians collected the world's knowledge once. We did it again with the internet. The question is: will we do better than they did? If this story gave you chills, subscribe to InkTime — and tell me in the comments: if you could save ONE lost work from Alexandria, what would it be? And next, watch our video on the Bronze Age Collapse — when the entire civilized world fell apart in fifty years, and nobody knows why. History rhymes. See you there.
+
+VISUAL PLAN: IMAGE 10 — framework header "KNOWLEDGE IS NOT AUTOMATIC" + bullets: civilization can go backward; every generation must choose to keep it; save one lost work? comment below.

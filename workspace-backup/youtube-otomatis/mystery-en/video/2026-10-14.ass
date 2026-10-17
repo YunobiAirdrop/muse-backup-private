@@ -1,0 +1,67 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+[V1 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV
+Style: Nar,DejaVu Sans,44,&H00FFFFFF,&H00000000,&H80000000,-1,0,1,2.5,0,2,60
+[Events]
+Format: Layer, Start, End, Style, Text
+Dialogue: 0,0:00:00.00,0:00:05.83,Nar,In eighteen ninety-seven, a dead woman\Nwalked into an American courtroom... and\Npointed at her killer.
+Dialogue: 0,0:00:05.83,0:00:13.39,Nar,The jury heard her testimony. They\Nbelieved her. And they sent a man to\Nprison for life... based on the word of a\Nghost.
+Dialogue: 0,0:00:13.39,0:00:23.90,Nar,This is the only murder trial in American\Nhistory where a ghost took the stand. And\Nthe strangest part? The evidence says she\Nmight have been telling the truth.
+Dialogue: 0,0:00:23.90,0:00:47.74,Nar,Welcome back to Unsolved Shadows, where\Nthe past refuses to stay buried. Today:\Nthe Greenbrier Ghost. A rushed burial, a\Ngrieving mother, and four midnight visits\Nthat changed everything. Quick question\Nbefore we start: if a ghost told you who\Nthe killer was... would you believe it?\NHold that thought.
+Dialogue: 0,0:00:47.74,0:00:56.18,Nar,Greenbrier County, West Virginia. January\Ntwenty-third, eighteen ninety-seven. A\Ncold Saturday afternoon.
+Dialogue: 0,0:00:56.18,0:01:06.43,Nar,A neighbor boy runs an errand to the\Nlittle house of Edward Shue and his young\Nwife, Zona. What he finds inside... stops\Nhim cold.
+Dialogue: 0,0:01:06.43,0:01:18.86,Nar,Zona Heaster Shue is dead. Twenty-three\Nyears old. Her husband Edward, they called\Nhim Trout, is kneeling beside her...\Ncradling her head in his arms, rocking\Nback and forth, sobbing.
+Dialogue: 0,0:01:18.86,0:01:29.50,Nar,Now here is the first strange thing. When\Nneighbors try to help, to move her, to\Nlook closer... Trout will not let go. He\Nclutches her head like he is hiding\Nsomething.
+Dialogue: 0,0:01:29.50,0:01:39.77,Nar,Doctor George Knapp arrives. He tries to\Nexamine the body properly. But Trout\Nhovers over him the entire time... rushing\Nhim, distracting him, answering questions\Nnobody asked.
+Dialogue: 0,0:01:39.77,0:01:54.24,Nar,The examination lasts barely thirty\Nminutes. The doctor writes down the cause\Nof death: quote, everlasting faint.\NEverlasting faint. That is not a medical\Ndiagnosis. That is a shrug with a\Nsignature.
+Dialogue: 0,0:01:54.24,0:02:06.36,Nar,A few days later, the doctor quietly\Nchanges it to childbed fever. Zona might\Nhave been expecting a child. Nobody really\Nknows. But a proper autopsy? Never\Nhappens. Not yet.
+Dialogue: 0,0:02:06.36,0:02:13.73,Nar,And Trout? He moves fast. Zona is buried\Nthe very next day. Before rumors can grow\Nlegs. Before questions can be asked.
+Dialogue: 0,0:02:13.73,0:02:22.73,Nar,But people notice things. At the burial,\NZona wears a dress with a stiff, high\Ncollar... buttoned all the way up. Hiding\Nher neck completely.
+Dialogue: 0,0:02:22.73,0:02:32.45,Nar,And Trout places a rolled-up cloth beside\Nher head in the coffin. Like a pillow.\NLike... support. For a neck that might\Nneed holding together.
+Dialogue: 0,0:02:32.45,0:02:45.36,Nar,Now, let me tell you about Trout Shue.\NBecause this man... this man has a past.\NHe drifted into Greenbrier County from out\Nof state. Charming. Good-looking. And\Nmarried twice before Zona.
+Dialogue: 0,0:02:45.36,0:02:58.32,Nar,His first wife died under... unclear\Ncircumstances. His second wife divorced\Nhim, claiming cruelty. He served time for\Nhorse theft. This is not a man with clean\Nhands.
+Dialogue: 0,0:02:58.32,0:03:08.35,Nar,Zona's mother, Mary Jane Heaster, never\Ntrusted him. And at that rushed funeral,\Nwatching that high collar... a mother's\Ninstinct starts screaming.
+Dialogue: 0,0:03:08.35,0:03:17.47,Nar,Mary Jane goes home and does something\Nextraordinary. Every night, for four\Nweeks, she prays. Not for comfort. For the\Ntruth. Show me what happened to my\Ndaughter.
+Dialogue: 0,0:03:17.47,0:03:21.48,Nar,And then... on the fourth week... Zona\Ncomes home.
+Dialogue: 0,0:03:21.48,0:03:28.87,Nar,Not once. Four nights in a row. The ghost\Nof Zona appears to her mother, glowing\Nfaintly, and tells her everything.
+Dialogue: 0,0:03:28.87,0:03:35.76,Nar,She says Trout came home angry. Supper was\Nnot ready. He flew into a rage... and\Nbroke her neck with his bare hands.
+Dialogue: 0,0:03:35.76,0:03:46.85,Nar,And then the ghost does something Mary\NJane will never forget. Slowly... she\Nturns her head. All the way around. A full\Nhalf-turn no living neck could survive.
+Dialogue: 0,0:03:46.85,0:03:54.00,Nar,To prove it was murder. To show her mother\Nexactly how she died. A broken neck...\Ndisplayed like evidence.
+Dialogue: 0,0:03:54.00,0:04:05.95,Nar,Now. Stop. Take a breath. Because I know\Nwhat you are thinking. Grief does strange\Nthings to people. Dreams feel real. Was\Nthis just a heartbroken mother...\Nimagining what she needed to hear?
+Dialogue: 0,0:04:05.95,0:04:16.56,Nar,That is the reasonable question. And it is\Nexactly what the town thought... until\NMary Jane did something nobody expected.\NShe went to the prosecutor.
+Dialogue: 0,0:04:16.56,0:04:30.60,Nar,Prosecutor John Alfred Preston listens to\Nthis wild story. A ghost. Four visits. A\Nbroken neck. He should laugh her out of\Nthe office. Instead... he orders the body\Nexhumed.
+Dialogue: 0,0:04:30.60,0:04:45.77,Nar,Think about that. In eighteen\Nninety-seven, a prosecutor digs up a\Nwoman... because her mother dreamed her\Nghost said so. Either he saw something in\NMary Jane's eyes... or he already\Nsuspected Trout too.
+Dialogue: 0,0:04:45.77,0:04:54.10,Nar,The autopsy happens in a small\Nschoolhouse. Three doctors. And what they\Nfind... freezes the room.
+Dialogue: 0,0:04:54.10,0:05:03.62,Nar,Zona's neck was broken. Between the first\Nand second vertebrae. Her windpipe...\Ncrushed. Her throat bruised with what\Nlooked like finger marks.
+Dialogue: 0,0:05:03.62,0:05:11.90,Nar,Exactly what the ghost described. Down to\Nthe detail. A mother who never saw the\Nbody up close... knew precisely how her\Ndaughter died.
+Dialogue: 0,0:05:11.90,0:05:23.78,Nar,Now, how could Mary Jane know that? She\Nwas not at the autopsy. She never examined\Nthe body. Trout guarded it like a secret.\NUnless... someone told her.
+Dialogue: 0,0:05:23.78,0:05:30.10,Nar,Trout Shue is arrested for murder. And in\NJune of eighteen ninety-seven, he stands\Ntrial in Greenbrier County.
+Dialogue: 0,0:05:30.10,0:05:36.86,Nar,The courtroom is packed. Reporters come\Nfrom three states. Because everyone has\Nheard the rumor... the ghost is going to\Ntestify.
+Dialogue: 0,0:05:36.86,0:05:49.82,Nar,Mary Jane Heaster takes the stand. And\Nunder oath, she tells the jury about the\Nfour visits. The glowing figure. The head\Nturning all the way around. The accusation\Nfrom beyond the grave.
+Dialogue: 0,0:05:49.82,0:06:01.54,Nar,If you enjoy mysteries like this one,\Nsubscribe to Unsolved Shadows right now,\Nbecause next week we have a case that is\Nsomehow even stranger than a testifying\Nghost.
+Dialogue: 0,0:06:01.54,0:06:13.66,Nar,Here is the wild part. The judge allows\Nit. The defense barely objects. In\Neighteen ninety-seven West Virginia...\Nghost testimony enters the official court\Nrecord.
+Dialogue: 0,0:06:13.66,0:06:24.86,Nar,The defense tries to paint Mary Jane as a\Ngrieving woman lost in fantasy. But she\Nnever wavers. Four weeks of prayer. Four\Nmidnight visits. Every detail... steady as\Nstone.
+Dialogue: 0,0:06:24.86,0:06:41.50,Nar,Then the prosecution plays its real card.\NNot the ghost... the body. The broken\Nneck. The crushed windpipe. The\Nfinger-shaped bruises. Science backing up\Nthe supernatural.
+Dialogue: 0,0:06:41.50,0:06:52.30,Nar,And Trout? On the stand, he is cold.\NCharming at first... then cracking. His\Nstory about that afternoon keeps shifting.\NSmall lies. Then bigger ones.
+Dialogue: 0,0:06:52.30,0:07:04.42,Nar,Witnesses remember the high collar at the\Nfuneral. The rolled cloth in the coffin.\NThe way he would not let go of her head.\NEvery strange detail... suddenly looks\Nlike guilt.
+Dialogue: 0,0:07:04.42,0:07:10.58,Nar,The jury deliberates for just over an\Nhour. One hour. For a murder trial built\Npartly on a ghost story.
+Dialogue: 0,0:07:10.58,0:07:16.75,Nar,Guilty. First-degree murder. Edward Trout\NShue is sentenced to life in prison.
+Dialogue: 0,0:07:16.75,0:07:27.79,Nar,He maintains his innocence to the end.\NThree years later, in nineteen hundred,\NTrout Shue dies in prison... during an\Nepidemic. He takes whatever he knows... to\Nhis own grave.
+Dialogue: 0,0:07:27.79,0:07:41.16,Nar,So. Was justice served... by a ghost? Or\Ndid a clever, grieving mother simply know\Nher son-in-law was a killer... and invent\Nthe only witness no lawyer could\Ncross-examine?
+Dialogue: 0,0:07:41.16,0:07:51.72,Nar,Let us look at this like investigators.\NTheory one: the supernatural is real, and\NZona truly came back. The broken neck\Ndetail is... hard to explain any other\Nway.
+Dialogue: 0,0:07:51.72,0:08:06.31,Nar,Theory two: Mary Jane already suspected\Nmurder. Mothers notice things. The rushed\Nburial. The collar. Trout's past. Her\Nsubconscious assembled the puzzle... and\Nher dreams delivered the verdict.
+Dialogue: 0,0:08:06.31,0:08:19.70,Nar,Theory three, the cynical one: she made\Nthe whole thing up. A brilliant lie.\NBecause in eighteen ninety-seven, no court\Nwould dig up a body on a mother's hunch...\Nbut a ghost? That got the prosecutor's\Nattention.
+Dialogue: 0,0:08:19.70,0:08:31.51,Nar,And here is what really gets me about this\Ncase. Whatever you believe about ghosts...\Nthe physical evidence was real. A broken\Nneck does not lie. Someone murdered Zona\NHeaster Shue.
+Dialogue: 0,0:08:31.51,0:08:44.28,Nar,My personal theory? I think Mary Jane\Nknew. Maybe not consciously, not at first.\NBut she watched Trout at that funeral,\Nclutching and hovering, and some deep\Nmaternal instinct did the math before her\Nmind caught up.
+Dialogue: 0,0:08:44.28,0:08:57.43,Nar,The dreams, the ghost, the four visits...\NI think that was her grief and her\Ncertainty finding the only language\Npowerful enough to force the world to\Nlisten. And you know what? It worked.
+Dialogue: 0,0:08:57.43,0:09:09.31,Nar,But I will say this. If it was all\Ninvention... how did she describe the\Nexact broken vertebrae? That detail still\Ngives me chills, more than a century\Nlater.
+Dialogue: 0,0:09:09.31,0:09:19.63,Nar,The Greenbrier Ghost remains the only case\Nin American legal history where testimony\Nfrom beyond the grave helped convict a\Nkiller. No court has allowed it since.
+Dialogue: 0,0:09:19.63,0:09:31.08,Nar,Today, a historical marker stands in\NGreenbrier County. It reads: quote, only\Nknown case in which testimony from a ghost\Nhelped convict a murderer.
+Dialogue: 0,0:09:31.08,0:09:47.59,Nar,Locals still whisper that on cold January\Nnights... a woman in white walks the road\Nnear the old Shue house. Waiting.\NWatching. Making sure the truth stays\Nburied... or stays told.
+Dialogue: 0,0:09:47.59,0:09:59.30,Nar,So what do YOU think happened that night\Nin Greenbrier County? A genuine haunting?\NA mother's brilliant deception? Or\Nsomething in between that we do not have a\Nname for yet?
+Dialogue: 0,0:09:59.30,0:10:05.23,Nar,Drop your theory in the comments. I read\Nevery single one, and the best ones might\Njust shape our next investigation.
+Dialogue: 0,0:10:05.23,0:10:14.42,Nar,And if this case kept you up tonight...\Nwait until you hear about the lighthouse\Nkeepers who vanished without a trace,\Nleaving dinner still warm on the table.\NThat story is coming soon.
+Dialogue: 0,0:10:14.42,0:10:22.46,Nar,If you are new here, subscribe to Unsolved\NShadows. We dig up history's darkest\Nmysteries... so you do not have to.

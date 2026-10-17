@@ -1,0 +1,10 @@
+YT DASHBOARD — AKSES
+====================
+Status: BELUM ADA URL PUBLIK (tunnel diblokir proxy egress VM, 2026-10-15).
+
+Backend jalan di: http://127.0.0.1:8765 (hanya dari VM ini)
+Password: dibuat saat pertama dibuka (min. 4 karakter).
+
+Untuk akses dari HP perlu tunnel yang terbukti jalan menembus proxy
+(kandidat: ngrok dengan authtoken user). Setelah tunnel hidup, tulis URL di sini.
+Lihat README.md untuk detail.

@@ -1,0 +1,8 @@
+{
+ "channel": "horror-en",
+ "video_path": "/home/hatch/workspace/youtube-otomatis/horror-en/shorts/2026-10-09-s2.mp4",
+ "instruksi_path": "/home/hatch/workspace/youtube-otomatis/horror-en/upload-instruksi-2026-10-09.md",
+ "slot_target": "2026-10-10 07:00 WIB",
+ "gagal_pada": "2026-10-10T20:33:00+07:00",
+ "sebab": "Batas upload harian masih tercapai saat retry watchdog 10 Okt 20:33 WIB (task 3/6)"
+}

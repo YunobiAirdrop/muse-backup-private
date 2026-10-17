@@ -1,0 +1,37 @@
+{
+ "pouch-travel": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_pouch-travel.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_pouch-travel_wa.mp4",
+  "durasi": 31.5,
+  "seg1": "AI",
+  "seg2": "AI"
+ },
+ "vitamin-kucing": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_vitamin-kucing.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_vitamin-kucing_wa.mp4",
+  "durasi": 28.7,
+  "seg1": "AI",
+  "seg2": "AI"
+ },
+ "vitamin-cerna": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_vitamin-cerna.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_vitamin-cerna_wa.mp4",
+  "durasi": 27.5,
+  "seg1": "AI",
+  "seg2": "AI"
+ },
+ "sabun-piring": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_sabun-piring.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_sabun-piring_wa.mp4",
+  "durasi": 23.7,
+  "seg1": "AI",
+  "seg2": "AI"
+ },
+ "impact-wrench": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_impact-wrench.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_impact-wrench_wa.mp4",
+  "durasi": 29.1,
+  "seg1": "AI",
+  "seg2": "AI"
+ }
+}

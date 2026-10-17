@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+"""Text overlay untuk mystery-en (English) — momen kunci video 2026-10-07.
+Penggunaan: python3 tambah_overlay_en.py <video_in> <durasi_json> <video_out>
+"""
+import json, subprocess, sys
+
+OVERLAYS = [
+    (1, "A SHIP WITH NO CREW"),
+    (24, "10 PEOPLE VANISHED"),
+    (35, "THE ROPE SNAPPED"),
+    (54, "MY THEORY"),
+    (66, "WHAT DO YOU THINK?"),
+]
+FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+FFQ = "/home/hatch/workspace/youtube-otomatis/ffmpeg-queue.sh"
+
+def main():
+    vin, djur, vout = sys.argv[1:4]
+    d = json.load(open(djur))
+    durs = [float(d[f"beat-{i+1:03d}"]) for i in range(len(d))]
+    cum = [0.0]
+    for x in durs:
+        cum.append(cum[-1] + x)
+    filters = []
+    for beat, teks in OVERLAYS:
+        s, e = cum[beat - 1], cum[beat]
+        filters.append(
+            f"drawtext=fontfile={FONT}:text='{teks}':fontsize=64:fontcolor=white:"
+            f"borderw=3:bordercolor=black:x=(w-text_w)/2:y=h*0.78:"
+            f"enable='between(t,{s:.2f},{e:.2f})'"
+        )
+    vf = ",".join(filters)
+    r = subprocess.run([FFQ, "-y", "-i", vin, "-vf", vf,
+                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+                        "-pix_fmt", "yuv420p", "-c:a", "copy", vout],
+                       capture_output=True, text=True)
+    if r.returncode != 0:
+        print(r.stderr[-2000:]); sys.exit(1)
+    print(f"OK: {vout}")
+
+if __name__ == "__main__":
+    main()

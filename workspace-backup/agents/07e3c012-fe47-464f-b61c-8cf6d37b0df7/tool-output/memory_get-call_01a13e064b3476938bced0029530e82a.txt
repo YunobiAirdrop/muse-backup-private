@@ -1,0 +1,350 @@
+# Memory file `memory/2026-10-15.md`
+
+```markdown
+
+## pra-screen-duplikat-retry (00:04 WIB)
+- 8 JSON di retry-queue/ (abaikan done/, claimed/). Semua dicek via cek_duplikat.py — hasil: **duplikat: false** untuk semuanya, tidak ada yang dipindah ke done/.
+  - inktime long 2026-10-09: false (dicek 6)
+  - inktime long 2026-10-13: false (dicek 6)
+  - inktime shorts s1/s2/s3 2026-10-14: false (masing-masing dicek 6; instruksi_path gagal diparse skrip karena format "Judul (persis):" — dicek manual via --judul, berhasil)
+  - macammacam hewan Part 1: false (dicek 2; via --judul karena JSON tidak punya instruksi_path)
+  - macammacam truk-kartun 2026-10-12: false (dicek 2)
+  - mystery-en 2026-10-13: false (dicek 5)
+- Tidak ada error API (tidak ada 429/403). Catatan: cek_duplikat.py tidak mengenali format judul "Judul (persis):" / "Judul (persis, ...):" (exit 2 "judul tidak ditemukan") — fallback --judul berhasil dipakai.
+
+## Pra-screen duplikat retry (~01:04 WIB)
+- 8 JSON antrean di retry-queue/ dicek via cek_duplikat.py (API playlist uploads): inktime 2026-10-09-long, inktime 2026-10-13-long, inktime 2026-10-14 s1/s2/s3, macammacam hewan-part1, macammacam truk-kartun 2026-10-12, mystery-en 2026-10-13.
+- Hasil: semua duplikat: false — tidak ada yang dipindah ke done/. Tidak ada error fatal (2 kasus "judul tidak ditemukan" karena format instruksi 3-judul/metadata, diselesaikan dengan flag --judul manual; hasil tetap false).
+- CATATAN skrip: judul_dari_instruksi() tidak mengenali format "Judul (persis):" (instruksi shorts gabungan) dan tidak bisa baca judul dari file meta JSON (meta_path) — dua variasi ini perlu fallback --judul manual seperti malam ini.
+
+## Pra-screen duplikat retry (~02:04 WIB)
+- 8 JSON antrean dicek via cek_duplikat.py (inktime 2026-10-09-long, inktime 2026-10-13-long, inktime 2026-10-14 s1/s2/s3, macammacam hewan-part1, macammacam truk-kartun 2026-10-12, mystery-en 2026-10-13).
+- HASIL: SEMUA gagal — {"error": "invalid_grant: Token has been expired or revoked"}, exit=2. Sesuai aturan: semua dibiarkan di antrean, tidak ada yang dipindah ke done/. Diam ke chat (aturan langkah 5).
+- Investigasi: token fallback mystery-en.json (refresh terakhir 01:07 WIB, masih jalan di run 01:04) kini invalid; konfirmasi lima-misteri (token milik sendiri, bukan fallback) juga invalid_grant → SEMUA token yt-growth mati, bukan satu channel.
+- HIPOTESIS: refresh token OAuth kedaluwarsa 7-hari karena consent screen client yt-growth-desktop masih mode Testing (token dibuat 2026-10-08 → mati persis 2026-10-15). Perlu re-auth ulang tiap channel (butuh user — WAJIB umumkan dulu per aturan login) atau client dipindah ke Production di Google Cloud Console.
+- DAMPAK SISTEM: bukan cuma pra-screen — SEMUA perkakas yt-growth mati (upload API, analytics, komentar, yt-seo-refresh, cek-video-sepi-3harian, playlist funnel). Browser task upload masih bisa jalan manual via ketukan user.
+- Perbaikan kecil skrip: judul_dari_instruksi() tidak mengenali format "Judul (persis):" — 3 shorts inktime harus dicek via --judul manual.
+
+## pra-screen-duplikat-retry (03:04 WIB)
+- 8 JSON di retry-queue (5 inktime, 2 macammacam, 1 mystery-en): SEMUA tetap di antrean, tidak ada yang dipindah ke done/.
+- cek_duplikat.py GAGAL total: 5x invalid_grant (token OAuth expired/revoked) + 3x "judul tidak ditemukan" (parser tidak mengenali format "Judul (persis):" multi-baris di instruksi shorts inktime 2026-10-14).
+- Diagnosa: SEMUA refresh token yt-growth mati (diterbitkan 2026-10-08, refresh terakhir sukses 2026-10-14) — pola cocok batas 7 hari consent screen OAuth mode Testing. Token strangetales diuji independen juga mati.
+- Tambahan: inktime & macammacam tidak punya file token sendiri (selalu pakai fallback token mystery-en — by design, uploads playlist publik).
+- Dampak: bukan cuma pra-screen buta — SEMUA alur API yt-growth (upload API-first, seo-refresh, analytics, komentar) akan gagal sampai re-auth. Perlu: consent screen pindah ke Production + re-auth per channel. SESUAI ATURAN USER ("mau login bilang dulu") — TIDAK boleh re-auth diam-diam; wajib diumumkan ke user dan tunggu izin eksplisit.
+- Run log: ~/workspace/goals/retry-otomatis-upload-youtube/hidden_files/pra-screen-duplikat-2026-10-15.md
+
+## YT Dashboard dibangun (2026-10-15, subagent; permintaan user "aplikasi android")
+- Lokasi: ~/workspace/yt-dashboard/ — backend Flask (venv sendiri), PWA mobile-first
+  (index.html + manifest + ikon), password hash, systemd service yt-dashboard-backend (aktif).
+- Fitur: /api/channels, /api/videos, /api/pending, /api/publish + log; UI tab Channel/Review (ID).
+- BLOKIR 1: token OAuth yt-growth SEMUA mati (invalid_grant) — kemungkinan 7-day
+  testing expiry (dibuat ~8 Okt). Seluruh pipeline API ikut mati. Butuh re-auth 17 channel
+  oleh user (auth.py auth-url + exchange per slug).
+- BLOKIR 2: expose ke HP gagal — cloudflared/localtunnel/pinggy tidak tembus proxy egress;
+  Tailscale client-only. Service tunnel dinonaktifkan. Kandidat: ngrok (butuh authtoken user).
+- Jangan tawarkan cloudflared lagi sampai proxy mendukung; jangan re-auth token tanpa user.
+
+## Token OAuth YouTube MATI SEMUA (2026-10-15 pagi)
+- 17/17 token yt-growth `invalid_grant: Token has been expired or revoked` (verifikasi langsung 3 channel: lima-misteri, kisahalkitab, truecrime-en).
+- Penyebab: consent screen project yt-growth-510917 masih "Testing" → refresh token testing mati 7 hari (dibuat 8 Okt → mati 15 Okt). BUKAN user revoke.
+- Dampak: SELURUH pipeline API mati (upload API-first, scan sepi, yt-seo-refresh, analytics, dashboard). Upload via browser Studio masih jalan.
+- Fix: (1) pindahkan consent screen ke Production di Cloud Console (one-time, cegah mati tiap 7 hari); (2) re-auth 17 channel via `auth.py auth-url/exchange`.
+- Dashboard YT Dashboard (~/workspace/yt-dashboard/) SUDAH JADI (backend Flask systemd + PWA) tapi nunggu token hidup + tunnel ke HP (cloudflared/localtunnel/pinggy gagal tembus proxy egress; kandidat: ngrok butuh akun user).
+- Menunggu izin user untuk re-auth via browser VM (sesi khususstokyunobi aktif).
+
+## Sesi malam 2026-10-14 (flush pra-kompaksi)
+
+### Blog: run manual gantikan cron nyangkut (user: "lewati saja kalo bisa jalan mah")
+- Run cron blog-otomatis-harian 11 Okt zombie 3 hari (fase resolve), blokir antrean; run 12–13 Okt coalesced/cancelled; run 14 Okt queued.
+- Subagent produksi manual: 2/6 artikel jadi — ekonomi bisnis info ("Saham MAPI Menguat, Peluang Cuan di Sektor Ritel 2026") + Gaya Hidup Kekinian ("Mety Daud Rayakan Ultah ke-65, Harapkan Musik Indonesia Mendunia"). 4 gagal (kabarviral, teknopedia, infokesehatan, olahraga) — OpenRouter 429, budget 24 percobaan/artikel habis.
+- Temuan teknis: `inclusionai/ling-3.0-flash-sante:free` 404 permanen (model dipensiunkan) → hapus dari MODELS di tulis_ulang.py (membuang 2 percobaan sia-sia). `nvidia/nemotron-3-super-120b-a12b:free` satu-satunya model hidup sore itu. Tiap request 429 tetap makan kuota 50/hari.
+- rotasi-blog.txt diupdate ke index 5.
+
+### Login Google browser mati → user izinkan login ulang ("boleh")
+- 2 browser task posting blog gagal: sesi khususstokyunobi@gmail.com kedaluwarsa (3 akun "Telah logout"). Sesuai aturan login, tidak login diam-diam — minta izin dulu, user jawab "boleh".
+- credentials.list: login Google tersimpan di vault. Browser task login ulang: credential fill + 2FA disetujui user di HP → sesi hidup kembali ~19:52 WIB.
+- Kedua artikel TERPOSTING (ekonomi bisnis + gaya hidup), terverifikasi "Pos dipublikasikan".
+
+### truecrime-en: upload ternyata sudah sukses sebelum timeout
+- Subagent cron 16:11 timeout tapi SEBELUM mati sempat upload: MsvOo6y4Bko "The Gardner Heist: $500M Stolen in 81 Minutes, Still Unsolved", private terjadwal 15 Okt 07:00 WIB. Anti-duplikat skrip mencegah upload ganda.
+- Subagent pengganti: rebuild chunk2 korup → backup video/2026-10-14.mp4 (550 dtk); potong 3 shorts (bank besok); bookkeeping lengkap (upload-2026-10-14.json, riwayat-topik.json, upload-terakhir.txt=long:2026-10-14).
+- AI disclosure: browser task pertama crash saat ganti channel; percobaan kedua BERHASIL — "Ya, AI digunakan" tersimpan, komentar Aktif.
+
+### mind-en: 3 shorts terupload, disclosure menyusul setelah login hidup
+- 3 shorts dari long 2026-10-12 via API ke Dark Mind Files, private terjadwal 15 Okt 07:00 WIB: tfK7Y2Jhc54, rJHq-vCQsDc, 1RdEgv4V_SA. upload-terakhir.txt=shorts:2026-10-14.
+- Disclosure sempat gagal (sesi mati); setelah login ulang, browser task centang "Ya" di 3 shorts + long kemarin vUTBGGn_i-Q (publik 14 Okt). Komentar Aktif semua.
+- Insiden: disk VM 0 bytes tengah encode → 12GB dibebaskan (hapus 2026-10-11-ov.mp4 + intermediate).
+
+### Kisah Alkitab: long Musa terupload, thumbnail manual
+- Long "Terjepit di Tepi Laut..." (Keluaran 14) via API: JS-uNWKfI1w (https://youtu.be/JS-uNWKfI1w), private terjadwal 15 Okt 19:00 WIB. AI disclosure dicentang via Studio.
+- Thumbnail DITOLAK API (403, channel belum verifikasi HP) → file thumbnail.jpg dilampirkan ke user untuk dipasang manual di Studio sebelum premiere. riwayat-kisah.json + upload-terakhir.txt=long:2026-10-14.
+
+### Jejak Islami: produksi belum selesai (tertunda render)
+- Kisah Ashabul Kahfi (QS 18:9-26): naskah 989 kata + 3 refleksi narator, TTS Mudiwa 486.45 dtk, 6 klip Wikimedia terverifikasi takzim.
+- Perakitan long masih antre di ffmpeg-queue saat run berakhir → upload, shorts, thumbnail, riwayat BELUM.
+
+### Macam-macam: hewan Part 1 jadi, upload antre watchdog
+- hewan-part1.mp4 (66.1 dtk) + metadata JSON lolos verifikasi frame. Upload Studio gagal 2x (kapasitas spool browser, bukan limit harian) → retry-queue/macammacam-2026-10-14-hewan.json, watchdog 20:00 WIB.
+- macammacam TIDAK punya token OAuth ("Belum ada token") → upload API tidak bisa.
+
+### Badge "Pemberitahuan" di video truk Macam Macam (user tanya)
+- Cek Studio via browser: BUKAN klaim hak cipta — notifikasi "Video ini memiliki fitur terbatas" karena video diset "Dibuat untuk Anak-Anak" (komentar mati + notifikasi mati, aturan COPPA). Video publik normal, 4 views.
+
+### Riset: "made for kids = sepi views?" (permintaan user)
+- Web: label kids mematikan komentar, notifikasi, end screen, kartu, iklan personal → distribusi & revenue turun. Kreator FB (Spanyol) klaim views mentok 1–10rb karena default made-for-kids; setelah dimatikan pulih.
+- Verdict ke user: keluhan berdasar, tapi channel anak raksasa tetap miliaran views — yang hilang = fitur penyebar. Untuk Macam Macam label WAJIB jujur (risiko penalti kalau bohong); kejar views via judul/thumbnail, playlist, share WA grup ortu, embed blog.
+
+### Eksperimen share-7x: hasil ~22 jam (14 Okt)
+- banding_share7x.py: 92/95 terukur → 20 naik, 72 tetap, 0 turun; total +1.540 views. Top: Lima Misteri Dyatlov (+1.148).
+- User minta "akalin biar besar": dijelaskan trik salin-link sudah diminishing returns + risiko Fake Engagement Policy kalau dipaksa → TIDAK dilanjutkan.
+- Pengganti: (a) fitur embed video di artikel blog — subagent bangun embed_video.py + embed_video_config.json + video_cache_builder.py + cache 8 channel (~86 video publik) + embed_video.patch (BELUM diterapkan — tunggu run blog 14 Okt selesai; target aktif run 15 Okt); (b) paket-share-wa-2026-10-14.txt (6 video + teks siap forward).
+
+### Monetisasi: ekspektasi diluruskan (user: "pengen semua chanel cepet Monet")
+- Syarat YPP: 1000 subs + 4000 jam tayang/12 bln ATAU 10 jt views Shorts/90 hari. Posisi: total ~839 views (12 Okt). Realistis 3–6 bulan KALAU ada yang viral; tidak ada jalan pintas aman (beli views/subs = ditolak saat review YPP).
+- Janji: hasil scan cek-video-sepi-3harian (15 Okt) → tunjukkan channel paling dekat monetisasi untuk digas duluan.
+
+### Skill GitHub YouTube (user kirim screenshot "ada yang bagus ga?")
+- adityaarsharma/youtube-marketing-skills (21 commands) ternyata SUDAH ada di ~/workspace/skills/. 19/21 duplikat sistem kita.
+- 1 yang baru: comment-intel → dipasang: ~/workspace/youtube-otomatis/comment-intel-playbook.md + cron balas-komentar-youtube-malam diupdate (langkah 5: mining tiap run malam → comment-intel.json). MCP server tidak dipasang (butuh Node+GCP, redundan dgn yt-growth).
+
+### Comment-intel langsung dapat temuan (run malam 14 Okt)
+- 1 komentar baru @EchoesOfThePast-e9m (@benbiddle1373): "kata 'Narrator' kebaca TTS" → kategori koreksi; filter stage-direction ("Narrator:" dsb) wajib dibuang sebelum TTS di SEMUA channel. Tercatat di comment-intel.json.
+- 12 channel lain: 0 komentar baru. Seed OK 2 channel; seed @TrueCaseFilesTV MsvOo6y4Bko gagal 403 insufficient permissions (bukan commentsDisabled).
+
+### Verifikasi OTP: user tanya "bisa kamu jalanin?"
+- Diingatkan: run manual 16:47 WIB SUDAH dicoba → gagal, throttle YouTube level akun masih aktif, refund 100%, saldo Rp 11.000.
+- User setuju otomatis: cron verifikasi-otp-3harian tetap jalan perdana Jum 16 Okt 23:35 WIB (tiap 72 jam).
+
+### Tiny Builders cron DI-PAUSE (user: "pause dulu")
+- media.generate_video 403 region-block hari ke-5. cron.update tinybuilders-shorts-harian enabled=false. Aktifkan lagi saat blokir dibuka.
+
+### balas-komentar-malam catch-up 11 Okt
+- 0 komentar baru; seed 3 channel OK. 4 channel gagal seed (comments disabled) — diverifikasi manual: 2 video sudah 404 (dihapus), 2 lainnya komentar kini TERBUKA. Isu selesai sendiri.
+
+## YT Dashboard / re-auth token — update (07:34 WIB)
+- UPDATE (menggantikan "Menunggu izin user untuk re-auth"): user jawab "boleh" 2x — (1) re-auth 17 channel via browser VM (sesi khususstokyunobi aktif), (2) pindahkan consent screen ke Production via browser VM (console.cloud.google.com, project yt-growth-510917).
+- Verifikasi mandiri token mati: lima-misteri, kisahalkitab, truecrime-en → invalid_grant (3/3). Penyebab tetap: consent Testing 7-hari (dibuat 8 Okt → mati 15 Okt).
+- 17 auth URL digenerate (auth.py auth-url per slug), tersimpan di ~/workspace/yt-dashboard/auth-urls.txt; PKCE verifier di yt-growth/pkce.json. Urutan kerja: Production DULU baru re-auth (kalau dibalik, token baru mati lagi 7 hari).
+- Browser task SPAWNED (masih jalan, hasil via handoff): Bagian A = klik PUBLISH APP di OAuth consent screen project yt-growth-510917 + verifikasi "In production"; Bagian B = 17 flow OAuth (buka URL → pilih brand account/channel sesuai slug, BUKAN akun Google utama → Advanced → Go to app → Allow → salin ?code= dari localhost redirect). Kalau muncul 2FA/kode HP: STOP + lapor.
+- Langkah berikut SETELAH handoff tiba: jalankan `auth.py exchange SLUG KODE` per pasangan slug:code, lalu verifikasi token hidup (channels().list mine=True).
+- Konteks asal: user mau aplikasi seperti postingan FB Bang Dadone (bang.dadone, 12 Okt 2026) — dashboard 1 layar untuk semua channel YouTube + publish langsung dari aplikasi (review sebelum publish), dibuat via Claude Code, tidak dijual. User pilih versi "aplikasi android".
+- Keputusan arsitektur: PWA mobile (Add to Home Screen) — BUKAN APK native; Tailscale VM client-only (tidak bisa hosting), jadi HP tidak bisa akses VM via tailnet. cloudflared sudah terinstall; quick tunnel direncanakan setelah token hidup (butuh password dashboard; user set sendiri saat pertama dibuka).
+
+## Re-auth YouTube: Bagian A (Production) TERTAHAN branding (2026-10-15 07:35)
+- Browser task: login khususstokyunobi + project yt-growth-510917 OK, tapi tombol "Publish app" DISABLED — Google wajib Branding lengkap: Application home page + privacy policy link KOSONG, authorized domains kosong. Task tidak mengarang URL (benar).
+- Rencana: buat halaman privacy policy di blog KabarViral (milik user) → pakai URL blogspot untuk homepage+privacy → daftarkan authorized domain → Publish → baru 17 re-auth (Part B). Menunggu persetujuan user.
+- Catatan: setelah publish tanpa verifikasi, OAuth akan tampil peringatan "unverified app" — tetap bisa lanjut via Advanced → Continue (pemakaian pribadi).
+
+## Dashboard: tab Penghasilan ditambah (2026-10-15)
+- User minta penghasilan semua channel muncul di aplikasi. Ditambah: GET /api/revenue (YouTube Analytics estimatedRevenue 28 hari, cache 1 jam) + tab "💰 Duit" (total + per channel, IDR estimasi kurs 16.500).
+- Jujur ke user: angka baru ada setelah channel monetisasi; sekarang Rp 0 semua. Scope yt-analytics.readonly sudah ada di OAuth, tidak perlu re-auth tambahan.
+
+## Verified extraction — 01:31 UTC (run sirun_3f55a38980754554aa8b40db870a9a7c)
+
+- [event|high] Pada 2026-10-15, pemindahan OAuth consent screen project yt-growth-510917 ke Production tertahan karena halaman branding kosong (tombol Publish tidak aktif sampai URL beranda aplikasi + URL privacy policy dilengkapi); asisten mengusulkan membuat halaman privacy policy sederhana di blog KabarViral dan user menyetujui, lalu asisten melaporkan sedang membuatnya. Kemudian asisten melaporkan 'aplikasinya udah In production' dan bahwa 'token nggak bakal mati tiap 7 hari lagi' — status In production dan klaim token adalah laporan asisten (belum terverifikasi independen), dan penyelesaian pembuatan halaman privacy policy-nya sendiri tidak terkonfirmasi dalam jendela ini.
+  - claim: c276d704e1d6aafc42c3bac1d84c0667
+  - quote: "atur saja sama kamu"
+  - sources: message:assistant-msg-1b625dd1-4fa3-9daf-65bc-6c54b46894e1, message:bc11c154-cc1d-8b98-9772-020d03b3dcf1, message:assistant-msg-2630b0be-0563-4a48-a1c8-599f4994e409, message:assistant-msg-221b5984-1d3e-9ee1-2454-5e111133551f
+- [event|high] Login ulang 17 channel YouTube tertahan menunggu tindakan user di HP: Google mengirim prompt verifikasi perangkat dan user diminta "Buka HP, ketuk 'Ya', terus ketuk angka 92" — setelah itu asisten melanjutkan flow OAuth 17 channel. Ini langkah yang memblokir pemulihan seluruh pipeline API (upload API, scan, SEO, analitik).
+  - claim: 0f888dc2cdffd1469abb7b7ea0d99e3a
+  - sources: message:assistant-msg-221b5984-1d3e-9ee1-2454-5e111133551f
+- [preference|high] Untuk pengaturan aplikasi monitoring baru: produksi + upload tetap dikerjakan asisten; user hanya memantau lewat aplikasi.
+  - claim: b9b1174816b90cf5f856d01e45da3e11
+  - quote: "tapi upload video nya tetep sama kamu kan? saya cuma mantau lewat aplikasi nanti"
+  - sources: message:e267ec2c-6346-8021-a947-297826538c6d, message:assistant-msg-2563f69b-cfe2-4932-92f0-1eb24c632639
+
+## Demoted from MEMORY.md (01:31 UTC, run sirun_3f55a38980754554aa8b40db870a9a7c)
+
+- Assistant avatar changed (2026-09-30, at user's request): cool anime guy smoking a cigarette; chat name 'Yunobi bot agent' confirmed at the same time.
+
+
+## Re-auth YouTube — UPDATE 09:08 WIB (menggantikan status "Bagian A TERTAHAN")
+- **Bagian A SELESAI (laporan browser task):** consent screen project yt-growth-510917 kini "In production" (terverifikasi di halaman Audience: Publishing status = "In production", tombol "Back to testing" tampil). Halaman privacy policy berhasil dibuat di blog KabarViral: home page https://kabarviralterkiniterbaru.blogspot.com/, privacy https://kabarviralterkiniterbaru.blogspot.com/p/kebijakan-privasi_0748944425.html, authorized domain kabarviralterkiniterbaru.blogspot.com. Token baru tidak akan mati tiap 7 hari lagi.
+- **Bagian B (17 re-auth) BERJALAN, tersendat 2FA berulang:** Google meminta verifikasi perangkat di SETIAP alur OAuth baru. User sudah setujui 2FA angka 92 (pertama) dan 86 (kedua); 2FA ketiga angka 73 diminta ~09:05 WIB — menunggu user ketuk di HP.
+- **Blokir teknis baru:** redirect OAuth ke http://localhost:8080/?code=... DIBLOKIR Chrome (ERR_BLOCKED_BY_LOCAL_NETWORK_ACCESS_CHECKS) → kode empires-en pertama hilang. Perbaikan via otomasi GAGAL (chrome://settings tidak bisa diakses automation — browser_process_failed; ikon gembok tidak terlihat oleh visual automation). User melakukan TAKEOVER browser dan mengizinkan "Local network access" untuk accounts.google.com (dilaporkan task).
+- **Koreksi mapping channel:** empires-en = "Lost Empires YouTube" (BUKAN "Ancient Empires TV" seperti di channels.yaml/handle mapping). Task memilih yang paling cocok.
+- **Langkah berikut (pending):** setelah user setujui 2FA "73", task lanjut 17 flow → kumpulkan pasangan slug:code → jalankan `auth.py exchange SLUG KODE` per slug → verifikasi token hidup.
+- Catatan operasional: pola "2FA tiap OAuth baru" berarti re-auth massal via browser VM butuh user standby ketuk HP berkali-kali; untuk maintenance token di masa depan (sekarang Production, seharusnya jarang), pertimbangkan alur per-channel di HP user bila terulang.
+
+## Pra-screen anti-duplikat retry (09:04 WIB)
+8 JSON di retry-queue/ dicek via cek_duplikat.py — SEMUA error, tidak ada yang dipindah ke done/:
+- 5 dari 6 (inktime x2, mystery-en, macam-macam x2): `invalid_grant: Token has been expired or revoked` — token OAuth yt-growth mati (menunggu 2FA tap user di HP; blokir dikenal).
+- inktime-2026-10-14-s1/s2/s3 (sama-sama instruksi-2026-10-14-shorts.txt): parser cek_duplikat gagal baca judul ("judul tidak ditemukan") — file berisi 3 shorts sekaligus, format tidak didukung script. (Error ini menutupi invalid_grant yang pasti muncul juga.)
+Semua antrean dibiarkan; pra-screen tetap tidak bisa validasi sampai token diperbarui.
+
+## Re-auth YouTube — PIVOT ke Apps Script catcher (09:21 WIB, menggantikan alur localhost)
+- **Koreksi blokir localhost:** izin "Local network access" yang di-Allow user via takeover TIDAK mempan — redirect http://localhost:8080/?code=... TETAP diblokir Chrome (ERR_BLOCKED_BY_LOCAL_NETWORK_ACCESS_CHECKS), terbukti di screenshot user 09:20 WIB. (Menggantikan catatan sebelumnya yang hanya "dilaporkan task" bahwa user mengizinkan.)
+- **Task browser lama MATI observasi:** task a43c8739 melaporkan "terminal_observation_failed" pasca-takeover — tidak bisa ketuk address bar/salin kode, minta user tempel manual. User tidak bisa salin ("ga bisa di salin dari saya").
+- **Keputusan: alur localhost DITINGGALKAN.** Task lama di-CLOSE 09:21 WIB. Task baru di-SPAWN (4946cf9d-67f2-4363-a95e-059a46e7b6d1, MASIH JALAN 09:22): (1) buat Apps Script "oauth-catcher" — doGet tampilkan `OAUTH_CODE=<code>` sebagai teks polos, deploy web app (Execute as: Me, akses: Anyone); (2) daftarkan URL /exec sebagai Authorized redirect URI di OAuth client yt-growth-desktop (Cloud Console); (3) laporkan URL /exec.
+- **Rencana lanjutan (pending handoff task baru):** ubah REDIRECT di auth.py line 24 (saat ini "http://localhost:8080/") → URL /exec → regenerate 17 auth URL (auth.py auth-url per slug) → 17 flow OAuth via browser (kode terbaca sebagai teks besar di halaman, tanpa address bar) → `auth.py exchange SLUG KODE` per slug → verifikasi token hidup.
+- **Urutan 2FA yang diminta Google (tiap alur OAuth baru):** 92 (user: "udah"), 86 (user: "nomor 1 udah"), 73 (tidak ada konfirmasi eksplisit user; task melanjutkan ke prompt berikutnya), 7 (user: "sudah" 09:20). Pola "2FA tiap OAuth" terkonfirmasi 4x — user standby ketuk HP.
+
+## Permintaan lokasi pabrik seafood Kawasan Millennium (09:15–09:20 WIB)
+- User (berburu kerja pabrik dekat Mauk) minta lokasi + sharelok pabrik seafood kawasan Millennium.
+- Hasil jujur: pabrik seafood SPESIFIK tidak ditemukan (web search 2x + geocode hanya menemukan kawasannya, bukan nama PT). Yang dikirim: Kawasan Industri Millennium (Millennium Industrial Estate), Jl. Millennium, Peusar, Panongan/Cikupa, Kab. Tangerang 15710; koordinat -6.24632, 106.49256; sharelok https://www.google.com/maps/search/?api=1&query=-6.24632,106.49256 (±30-40 mnt dari Mauk).
+- Tindak lanjut ditawarkan ke user: kasih nama PT-nya kalau tahu (carikan alamat persis) atau carikan info loker pabrik seafood Tangerang. Menunggu jawaban user.
+
+## Catatan teknis side-chat
+- Widget creation (create_options, create_map_widget) GAGAL di konteks side-chat: "widget creation requires a main-conversation-surface turn" — non-retryable. Jangan coba lagi di side chat; sampaikan sebagai teks/link saja.
+
+## Re-auth: pivot ke OAuth client Web + Apps Script catcher (2026-10-15 09:43)
+- Apps Script "oauth-catcher" JADI + verified (https://script.google.com/macros/s/AKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ/exec → tampil OAUTH_CODE=NO_CODE).
+- Blocker: OAuth client existing tipe "Desktop" → TIDAK punya "Authorized redirect URIs", tidak bisa daftar URL /exec. Solusi: buat client BARU tipe "Web application" ("yt-growth-web") di project yang sama (branding In production ikut project).
+- Setelah client jadi: ganti ~/.hermes/yt-growth/client_secret.json (backup dulu), REDIRECT di auth.py → URL /exec, regenerate 17 auth URL, task kerjakan 17 flow (code kebaca sebagai teks di halaman, tanpa address bar).
+- Task lama (a43c8739) ditutup (observasi terminal gagal pasca-takeover user).
+
+## Prune materi mentah (2026-10-15, disetujui user)
+- User setuju "prune sekarang". Dihapus 11.7G dari 5 direktori work (kisah-islami 2026-10-08/11, kisah-alkitab 2026-10-08/10/12): folder audio, clips, frames, commons, _segs, _ov, klip + file concat.mp4.
+- YANG DIPERTAHANKAN: semua video final (*-long.mp4, *-upload*.mp4), thumbnail, naskah, instruksi, script, JSON. 4 final terverifikasi utuh.
+- Disk: 99% (1.3G) -> 88% (13G bebas).
+
+## Re-auth: 10/17 token HIDUP terverifikasi (2026-10-15 09:59)
+- Berhasil + verified via API: empires-en, history-en, horor, horror-en, jejakbuddha, jejakislami, kisahalkitab, kisahdharma, lima-misteri, mind-en.
+- Sisa 7: mystery-en (tertahan 2FA 41), space-en, strangetales, tinybuilders, truecrime-en, weird-en, youtube-pov.
+- Catatan mapping: history-en="Echoes of History Channel YouTube", horror-en="Midnight Dread Tales YouTube", mind-en="Dark Mind Files YouTube", empires-en="Lost Empires YouTube".
+
+## Re-auth: kredensial client BARU aktif (2026-10-15 ~09:45 WIB) — STATE CHANGE
+- `~/.hermes/yt-growth/client_secret.json` DIGANTI: client lama "yt-growth-desktop" (tipe Desktop) → client baru "yt-growth-web" (tipe Web application). Backup lama: `client_secret.json.bak-desktop` (600). File baru 600.
+- Client ID baru: 576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com (project yt-growth-510917 tetap; branding "In production" ikut level project).
+- `REDIRECT` di yt-growth/auth.py diubah: `http://localhost:8080/` → URL /exec Apps Script oauth-catcher.
+- 17 auth URL baru digenerate → `~/workspace/yt-dashboard/auth-urls-web.txt` (PKCE verifier baru di yt-growth/pkce.json). File lama `auth-urls.txt` = URL localhost, JANGAN dipakai lagi.
+- Alasan pivot: client Desktop tidak punya "Authorized redirect URIs" (Google hanya izinkan loopback); redirect localhost tetap diblokir Chrome (ERR_BLOCKED_BY_LOCAL_NETWORK_ACCESS_CHECKS) meski user sudah Allow "Local network access" via takeover — terbukti di screenshot user 09:20 WIB.
+
+## Urutan 2FA re-auth (pelengkap)
+- Google minta verifikasi perangkat di SETIAP alur OAuth baru (pola terkonfirmasi 5x): 92 → 86 → 73 → 7 → 61. "61" diminta ~09:47 WIB untuk empires-en (alur pertama via client web baru). User mengetuk semuanya di HP (Vivo Y19s / Infinix).
+
+## YT Dashboard: detail yang belum tercatat
+- Password: user buat sendiri saat pertama membuka dashboard (min. 4 karakter, hash SHA256+salt di `.pw_hash` 600); session 30 hari.
+- AKSES DARI HP MASIH BUNTU (temuan subagent builder): cloudflared tidak pakai proxy egress VM (koneksi langsung diblokir), localtunnel hang, pinggy via SSH+proxy timeout, Tailscale VM client-only (tidak bisa hosting). Service tunnel dinonaktifkan agar tidak restart-loop. Kandidat realistis: ngrok (proxy-aware) — butuh user bikin akun gratis + kasih authtoken. Sampai itu ada, dashboard hanya bisa dibuka dari VM ini.
+
+## 2026-10-15 10:04 WIB — Pra-screen anti-duplikat retry (cron pra-screen-duplikat-retry)
+- 8 JSON antrean di retry-queue/*.json diperiksa via cek_duplikat.py (inktime long 2026-10-09, inktime long 2026-10-13, inktime shorts s1/s2/s3 2026-10-14, macam-macam truk-kartun 2026-10-12, macam-macam hewan 2026-10-14, mystery-en 2026-10-13).
+- HASIL: semua cek ERROR (exit 2), tidak satu pun duplikat:true → tidak ada JSON dipindah ke done/, semua tetap di antrean. Sesuai body: diam (tanpa laporan chat).
+- Penyebab error: 7/8 cek → OAuth token expired/revoked ("invalid_grant: Token has been expired or revoked") — sejalan dengan status 17 token channel yang sudah mati semua sejak 7-day Testing limit; inktime shorts instruksi → "judul tidak ditemukan" (file instruksi tidak mengandung judul yang bisa diekstrak).
+- IMPLIKASI: guard anti-duplikat tidak berfungsi sampai token OAuth diperbarui (verifikasi 2FA manual user). Watchdog retry juga lumpuh upload API-nya untuk alasan yang sama.
+
+## Re-auth SELESAI 16/17 (2026-10-15 10:06)
+- 16 token HIDUP + verified via API: empires-en, history-en, horor, horror-en, jejakbuddha, jejakislami, kisahalkitab, kisahdharma, lima-misteri, mind-en, mystery-en, space-en, strangetales, tinybuilders, truecrime-en, weird-en.
+- youtube-pov (@ceritarakyat862) GAGAL: channel tidak ada di khususstokyunobi@gmail.com; akun lain di browser (stokakunwebyunobi@gmail.com, stokwebyakis@gmail.com) berstatus logout — butuh user login manual atau tunjuk akun pemilik.
+- Mapping display name (Google brand picker): history-en="Echoes of History Channel YouTube", horror-en="Midnight Dread Tales YouTube", mind-en="Dark Mind Files YouTube", mystery-en="Unsolved Shadows YouTube", space-en="Cosmic Unknown YouTube", truecrime-en="Dark Case Files YouTube", empires-en="Lost Empires YouTube".
+- OAuth client sekarang: yt-growth-web (Web application), redirect ke Apps Script catcher. Consent screen yt-growth-510917 = In production (token tidak mati 7-harian lagi).
+
+## Re-auth youtube-pov — UPDATE 10:20 WIB (menggantikan "pending user login manual")
+- User pilih opsi "kamu yang login" dan menyetujui login ke akun Google lain ("sudah di setujui", 10:20 WIB).
+- credentials.list: 1 login Google tersimpan di Secure Vault (domain google.com, field username+password, available) — metadata saja, isi tidak terlihat.
+- Browser task BARU di-spawn (082fddd4-635b-44b4-b88d-1037a0fa9f65, MASIH JALAN 10:20): buka URL OAuth youtube-pov → login ke stokakunwebyunobi@gmail.com atau stokwebyakis@gmail.com pakai kredensial tersimpan → cari @ceritarakyat862 di daftar channel → Advanced → Continue ke yt-growth-web → centang semua izin → Allow → laporkan kode. Batasan: jangan pilih khususstokyunobi, jangan buat akun baru, jangan ubah setelan; STOP + lapor angka bila 2FA muncul; STOP + lapor bila kredensial ditolak.
+- Kendala task: initial_url tidak ke-load (task hanya membuka chrome://newtab/, minta URL aktual) → URL OAuth lengkap ditempel ulang via steer_task; task accepted, menunggu hasil.
+- Fakta baru: pemilih akun Google menampilkan alamat ke-4 "stokwebyakis@gmail.com" (status logout) — belum tercatat di daftar Gmail user di MEMORY.md (khususstokyunobi, akunytyunobi17, stokakunwebyunobi).
+- Diskrepansi terbuka: log 2026-10-04 mencatat @ceritarakyat862 dan @KisahPOV "di akun khususstokyunobi@gmail.com yang sama"; tapi brand picker OAuth hari ini (19 akun) tidak memuat ceritarakyat862 — channel mungkin pindah akun, atau daftar picker tidak lengkap. Belum terkonfirmasi.
+
+## Urutan 2FA re-auth (pelengkap 10:20)
+- Setelah "61": 48 (history-en), 41 (mystery-en — kedaluwarsa di HP user, "Perintah ini sudah tidak berlaku") → 42 (mystery-en, re-trigger via "Kirim ulang kode"). Semua disetujui user. Pola "2FA tiap alur OAuth baru" terkonfirmasi total ~8x.
+
+## Re-auth SELESAI 17/17 (2026-10-15 11:02)
+- SEMUA token HIDUP + verified via API (17/17).
+- youtube-pov: ternyata "Akun Utama yunobi" di pemilih channel OAuth = channel @ceritarakyat862 (nama tampil ikut nama akun Google, bukan nama channel). Pelajaran: di OAuth picker, channel utama tampil sebagai nama akun, bukan nama channelnya.
+- OAuth client: yt-growth-web (Web app), redirect Apps Script catcher. Consent screen In production.
+
+## Koreksi: youtube-pov TIDAK butuh akun lain (menggantikan "GAGAL — butuh user login manual" di entri 10:06 & 10:20)
+- @ceritarakyat862 ADA di khususstokyunobi@gmail.com sejak awal — di OAuth picker dia tampil sebagai "Akun Utama yunobi" (nama akun Google, bukan nama channel). User membuktikan via screenshot HP (channel checked, 49 subs, di bawah header khususstokyunobi@gmail.com).
+- Browser task 3x gagal menemukannya karena mencocokkan nama tampilan saja; picker OAuth hanya menampilkan display name tanpa @handle (20 entri dicek teks penuh, tidak ada "ceritarakyat").
+- Solusi final: otorisasi item "Akun Utama yunobi" → token terverifikasi via API `channels.list(mine=True)` terikat ke UC1c8WpKGhFKpUOp5AqVueEg = "Yunobi BerCERITA RAKYAT +62" / @ceritarakyat862. 17/17 SELESAI 11:02 WIB.
+- Pelajaran sudah dicatat di AGENTS.md (section "OAuth picker — channel utama tampil sebagai nama akun Google").
+
+## Urutan 2FA re-auth (pelengkap akhir)
+- Setelah 42: 74 (youtube-pov percobaan akun lain — alur dibatalkan), 71 (cek ulang khususstokyunobi), 74 (otorisasi "Akun Utama yunobi" — final). Semua disetujui user via ketuk "Ya"+angka di HP (Vivo Y19s / Infinix). Total pola "2FA tiap alur OAuth baru" ~11x sepanjang sesi 09:00–11:00 WIB.
+
+## Secure Vault — temuan login Google (2026-10-15 ~10:21)
+- credentials.list: 1 login Google tersimpan (domain google.com, field username+password, available) — metadata saja.
+- Password tersimpan DITOLAK saat browser task mencobanya untuk stokakunwebyunobi@gmail.com ("Sandi salah") → login tersimpan adalah untuk khususstokyunobi@gmail.com saja, bukan akun-akun lain.
+- Kartu secure login (request_login accounts.google.com) sempat dikirim ke user tapi TIDAK PERNAH diisi — menjadi tidak perlu setelah user mengonfirmasi akunnya khususstokyunobi@gmail.com. Jangan menganggap kartu itu sudah terisi di sesi berikutnya.
+
+## 11:04 — pra-screen anti-duplikat retry (cron pra-screen-duplikat-retry)
+Dicek 8 antrean retry-queue/*.json via cek_duplikat.py (yt-growth venv). Hasil: semua `duplikat: false`, tidak ada yang dipindah ke done/ (sesuai body: diam, tanpa laporan chat).
+- inktime-2026-10-09 (long), inktime-2026-10-13 (long), mystery-en-2026-10-13, macammacam-truk-kartun-2026-10-12: aman, judul tidak live di uploads masing-masing.
+- inktime shorts s1–s3: instruksi-2026-10-14-shorts.txt berisi 3 judul sekaligus — parser judul_dari_instruksi() tidak bisa menangani format multi-judul (error "judul tidak ditemukan", exit 2). Dicek manual dengan --judul langsung, ketiganya `duplikat: false`.
+- macammacam hewan (part 1): instruksi inline di JSON, dicek dengan --judul, `duplikat: false`.
+OBSERVASI: perbaiki cek_duplikat.py agar menerima satu file instruksi berisi beberapa judul (atau ambil judul per sN dari nama file JSON) supaya pra-screen jalan fully otomatis untuk file multi-shorts.
+
+## YT Dashboard: backend hidup lagi, akses HP masih butuh ngrok (2026-10-15 11:05)
+- Service yt-dashboard-backend hilang karena VM replacement (unit di /etc tidak persisten) → reinstall dari ~/workspace/yt-dashboard/systemd/ + enable + start; backend OK (200 di 127.0.0.1:8765).
+- cloudflared quick tunnel TETAP gagal (tls handshake error, proxy egress). Download biner ngrok juga gagal (URL lama 404, URL baru 404).
+- Jalur tersisa: ngrok akun gratis user (authtoken) → user daftar di ngrok.com, kasih authtoken via form aman, asisten pasang tunnel + tulis URL publik ke AKSES.txt.
+
+## KOREKSI: ngrok TIDAK BISA dipakai di VM ini (2026-10-15 11:08, hasil tes langsung)
+- Tes: biner ngrok 3.39.11 berhasil diunduh (URL aktif: bin.ngrok.com/c/bNyj1mQVY4c/...) dan disimpan di ~/workspace/yt-dashboard/ngrok.
+- Hasil: (1) lewat proxy → ngrok menolak: "Running the agent with an http/s proxy is a Pay-as-you-go feature" (ERR_NGROK_9009) = butuh paket BERBAYAR; (2) langsung tanpa proxy → "tls: first record does not look like a TLS handshake" = koneksi langsung diblokir egress.
+- Tes domain: api.trycloudflare.com → 403 (Cloudflare memblokir IP egress ini, itu sebabnya cloudflared gagal); tunnel.ngrok.com → gagal konek; localhost.run → 200 tapi SSH diblokir (hanya HTTPS lolos).
+- KESIMPULAN: tidak ada tunnel gratis yang bisa jalan dari VM ini. JANGAN minta user daftar ngrok — percuma.
+- Opsi tersisa untuk akses HP: (A) halaman pantau snapshot di blog sendiri (update/jam) + publish via perintah WhatsApp; (B) app full via relay Firebase Realtime DB (butuh user bikin project Firebase); (C) bot Telegram interaktif (butuh user install Telegram + bikin bot via BotFather); (D) Tailscale (belum dites, butuh setup di HP user).
+
+## YT Dashboard versi Firebase — ARSITEKTUR FINAL (2026-10-15)
+- Masalah: tidak ada tunnel gratis yang jalan dari VM (cloudflared 403, ngrok paywall+blokir, SSH diblokir). Solusi: Firebase Realtime Database sebagai relay.
+- Firebase: project "yt-dashboard-yunobi", asia-southeast1, locked mode, Spark gratis. Kredensial: ~/.hermes/yt-firebase.json (600) {db_url, secret}. JANGAN tulis secret ke chat/memory.
+- VM: ~/workspace/yt-dashboard/fb_bridge.py — sync ke RTDB (/yt/state: channels, pending, revenue, videos; /yt/commands, /yt/results, /yt/req_videos, /yt/pw). Cron `yt-dashboard-fb-bridge` tiap 5 menit (pending 20 mnt, channels 3 jam, revenue 6 jam — hemat kuota API).
+- HP: PWA di halaman Blogger KabarViral (/p/yt-dashboard.html) — baca/tulis Firebase via REST + ?auth=secret; password dibuat sendiri saat pertama dibuka (hash di /yt/pw); publish = tulis command → bridge eksekusi (maks ~5 mnt) → hasil di /yt/results.
+- Tes: pipeline publish palsu OK (command→API→result tercatat). Data live: 19 channel, 26 pending, revenue Rp 0 (jujur: belum monetisasi).
+- Backend Flask lokal (127.0.0.1:8765) tetap jalan sebagai fallback; service di-reinstall pasca VM wipe.
+
+## YT Dashboard Firebase — cron + tes pipeline + deploy halaman (2026-10-15 11:26)
+- Cron `yt-dashboard-fb-bridge` DIBUAT (interval 5 mnt, run pertama ~11:29:57 WIB): menjalankan fb_bridge.py; diam bila sukses, lapor chat hanya bila error.
+- Tes pipeline publish end-to-end BERHASIL: perintah palsu (horor/TESTVIDEO123) → bridge mengeksekusi → hasil tercatat di /yt/results (403 expected untuk video palsu) → artefak tes dibersihkan. Publish asli dari HP akan jalan max ~5 mnt setelah tombol ditekan.
+- fb_bridge.py diperkuat: bug argumen posisional fb() diperbaiki (9 call sites), retry 3x + isolasi per-section (section()) setelah TimeoutError saat sync channels; run penuh ~1,5–2 mnt.
+- Password PWA: .pw_hash Flask ternyata TIDAK PERNAH ADA (user belum pernah buka dashboard lokal) → PWA pakai setup password saat pertama dibuka, hash disimpan di /yt/pw Firebase (bukan .pw_hash).
+- Project Firebase: opsi "Enable Gemini in Firebase" dibiarkan aktif (default), "Join Google Developer Program" dimatikan; Analytics OFF, plan Spark gratis.
+- PENDING: browser task deploy PWA sebagai halaman Blogger KabarViral (judul "YT Dashboard", HTML 14,5KB ditempel di task) — MASIH JALAN 11:26 WIB, URL halaman belum didapat. Setelah terbit: verifikasi halaman termuat + data Firebase tampil, baru serahkan link ke user.
+
+## Verified extraction — 04:25 UTC (run sirun_b9123c9ca5764a2cbf01ce189f6d3c72)
+
+- [event|high] 2026-10-15: user chose option 2 for phone access to the YT monitoring app — a full app via Firebase relay (assistant adapts the app; a Firebase project is needed). Rejected for now: (1) hourly snapshot page published on the user's own blog; ngrok free tier was already tested and cannot run on this VM.
+  - claim: 7081e792a42becef0eb672af28b1546b
+  - quote: "2"
+  - sources: message:b73ecaff-2c83-8e7f-8a0e-8610a3eac180, message:assistant-msg-512e1764-5622-4576-a385-4181b48d4843
+## 2026-10-15 11:29 WIB — yt-dashboard-fb-bridge
+- fb_bridge.py sukses (exit 0): commands OK, vidreq OK, state/updated_at OK; ada RemoteDisconnected sesekali tapi retry berhasil.
+- 11:35 WIB — fb_bridge (cron yt-dashboard-fb-bridge): OK (exit 0, 'bridge ok'). [commands] ok, [vidreq] ok. Catatan: PUT state/updated_at gagal 3x RemoteDisconnected — transient Firebase, non-fatal. Silent ke chat sesuai SOP.
+- 11:39 WIB: yt-dashboard-fb-bridge (cron) sukses — exit 0, "[commands] ok / [vidreq] ok / bridge ok". Sync YT Dashboard -> Firebase + eksekusi perintah publish dari aplikasi HP berjalan normal.
+
+## Dialog aplikasi HP + delegasi signup (2026-10-15 ~11:05–11:09)
+- User tanya "terus aplikasi nya?" → temuan: backend yt-dashboard mati pasca VM replacement (sudah di-reinstall + start 11:05, OK 200 di 127.0.0.1:8765), tunnel publik buntu.
+- User delegasikan eksplisit pembuatan akun: "kamu saja kan kamu masuk ke gmail saya".
+- Sebelum signup, dites dulu → signup jadi MOOT dan tidak dijalankan: SSH tunnel (localhost.run) = connection reset oleh proxy egress 198.19.0.1:3128; ngrok binary OK tapi free+proxy = paywall ERR_NGROK_9009, direct = TLS handshake fail. (Delegasi ada, tapi teknis tidak memungkinkan — bukan soal izin.)
+- Opsi ke user: (1) halaman pantau snapshot di blog sendiri + publish via perintah WhatsApp (nol usaha user), (2) app full via relay Firebase (butuh project Firebase). User jawab: "2".
+
+## Pre-flight Firebase (2026-10-15 ~11:10)
+- Sebelum buat project, verifikasi jalur VM→Firebase via proxy: console.firebase.google.com → 302 OK; asia-southeast1.firebasedatabase.app → TLS OK (root empty reply, wajar). Jalur aman → project dibuat via browser task (selesai 11:16 WIB, tanpa 2FA).
+
+## YT Dashboard: deploy halaman Blogger GAGAL → pivot ke Firebase Hosting (2026-10-15 ~11:40)
+- UPDATE menggantikan "PENDING: browser task deploy PWA sebagai halaman Blogger KabarViral" (entri 11:26): browser task BERHASIL buat draf halaman "YT Dashboard" di KabarViral (ID draf 734269190087654009, judul terisi, tampilan HTML aktif) tapi GAGAL menempel kode HTML — editor HTML Blogger memakai CodeMirror dengan textarea tersembunyi (position:absolute; bottom:-1em); semua aksi fill/type ditolak framework otomasi ("obscured"). Task di-CLOSE; draf dibiarkan tidak terpublish (bisa dihapus nanti).
+- Pelajaran teknis: editor CodeMirror Blogger TIDAK bisa diisi via otomasi browser — untuk konten HTML besar, user harus tempel manual atau pakai jalur API.
+- Jalur API Blogger juga MATI: refresh token ~/.hermes/blogger-tokens.json → invalid_grant "Token has been expired or revoked" (kedaluwarsa 7-hari yang sama seperti token YouTube; dibuat 4 Okt). posting_web.py via browser tetap satu-satunya jalur posting blog yang hidup.
+- Persiapan loader (dilakukan sebelum pivot): HTML aplikasi lengkap firebase-pwa.html (14.402 karakter) sudah di-PUT ke Firebase di /yt/app_html (HTTP 200); rules RTDB diubah: /yt/app_html ".read": true publik (tanpa auth), sisanya tetap locked — terverifikasi baca tanpa auth OK (15.190 bytes). Berguna sebagai fallback bila Hosting gagal.
+- User bertanya "emang harus pake blog? kenapa ga pake netlify atau yang lainya" → dijelaskan: blog dipilih karena akun sudah ada & login (nol signup baru); Netlify/Vercel butuh daftar akun baru + token; Firebase Hosting paling rapi (project yt-dashboard-yunobi sudah ada). User pilih "1" = Firebase Hosting.
+- OAuth firebase.hosting: URL persetujuan dibuat (client yt-growth-web 576217641407-...apps.googleusercontent.com, redirect Apps Script oauth-catcher, scope https://www.googleapis.com/auth/firebase.hosting, access_type=offline, prompt=consent) → dikirim ke user sebagai link di WhatsApp ~11:43 WIB. PENDING: menunggu user buka di HP, pilih akun, izinkan, lalu kirim balik OAUTH_CODE.
+- Rencana setelah kode diterima: tukar kode jadi token → deploy via Firebase Hosting REST API (create site → create version → upload file → finalize → release) → URL target https://yt-dashboard-yunobi.web.app. Blog tidak jadi dipakai.
+- 11:44 WIB yt-dashboard-fb-bridge: sukses (exit 0, ~57 dtk). commands ok, vidreq ok, pending ok (1x retry RemoteDisconnected pada PUT state/pending), bridge ok.
+- 11:50 WIB: cron yt-dashboard-fb-bridge run — fb_bridge.py selesai OK ([commands] ok, [vidreq] ok, bridge ok), sync dashboard -> Firebase berjalan normal.
+- 11:45 WIB: user pilih Firebase Hosting (opsi 1) ganti halaman blog. OAuth firebase.hosting via yt-growth-web client + Apps Script catcher: user kirim OAUTH_CODE manual via chat, tukar jadi token -> ~/.hermes/yt-firebase-hosting.json (600).
+- 11:50: Hosting diaktifkan via browser console (khususstokyunobi@gmail.com, default site yt-dashboard-yunobi.web.app). Deploy via Hosting REST API kena 403 "API not enabled" -> kemungkinan propagasi; retry terjadwal. Pelajaran: setelah enable API di console, tunggu beberapa menit sebelum panggil API.
+- 11:55 WIB: cron yt-dashboard-fb-bridge jalan — fb_bridge.py exit 0 ('[commands] ok / [vidreq] ok / bridge ok'), sinkronisasi Firebase + eksekusi perintah publish OK.
+## yt-dashboard-fb-bridge (11:59 WIB)
+- fb_bridge.py selesai OK (exit 0, "bridge ok"): [commands] ok, [vidreq] ok setelah 1 retry RemoteDisconnected.
+
+## pra-screen-duplikat-retry (12:04 WIB)
+- Antrean retry-queue: 8 JSON aktif (done/ dan claimed/ diabaikan). Hasil cek_duplikat.py per slot:
+  - inktime-2026-10-09 (long): duplikat=false → tetap antre
+  - inktime-2026-10-13 (long): duplikat=false → tetap antre
+  - inktime-2026-10-14-s1/s2/s3: SCRIPT ERROR "judul tidak ditemukan" (instruksi memakai format "Judul (persis, ...):" yang tidak dikenali parser cek_duplikat.py) → tetap antre, tidak dipindah
+  - macammacam-truk-kartun-2026-10-12: duplikat=false → tetap antre
+  - macammacam-2026-10-14-hewan: duplikat=false → tetap antre
+  - mystery-en-2026-10-13: duplikat=false → tetap antre
+- Tidak ada duplikat → tidak ada file dipindah ke done/, tidak ada laporan ke chat (sesuai body: diam).
+
+## 12:09 WIB — fb_bridge (cron yt-dashboard-fb-bridge)
+Skrip `fb_bridge.py` selesai sukses (exit 0, ~60 dtk). FB GET commands sempat RemoteDisconnected 2x tapi retry berhasil. `[commands] ok`, `[vidreq] ok`, `[pending] ok`, `bridge ok`. Sinkronisasi YouTube → Firebase selesai, perintah publish dari aplikasi HP dieksekusi. Tidak perlu dilaporkan ke chat (aturan skrip: diam jika sukses).
+- 12:15 WIB: cron yt-dashboard-fb-bridge jalan sukses (exit 0): sync channel/antrean/revenue + eksekusi perintah publish OK; hanya 1 retry ringan di FB GET state/videos_ts (RemoteDisconnected, coba 1/3 lalu sukses).
+- 12:20 WIB: yt-dashboard-fb-bridge selesai sukses (sync channel, antrean review, revenue ke Firebase; perintah publish HP dieksekusi). Satu retry transient RemoteDisconnected pada GET req_videos (coba 1/3) lalu pulih.
+- 12:24 WIB: fb_bridge.py selesai sukses (exit 0): [commands] ok, [vidreq] ok, bridge ok. Tidak ada laporan ke chat (sesuai aturan diam jika sukses).
+```
+
+<!-- More: yes. Fetch more from `memory/2026-10-15.md` with `memory_get` parameters {"path":"memory/2026-10-15.md","from":345}. -->

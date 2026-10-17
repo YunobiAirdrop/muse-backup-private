@@ -1,0 +1,358 @@
+POV: Kamu Jadi Prajurit Diponegoro di Perang Jawa
+88 beat | Tokoh: Karto, 23 tahun, prajurit pengikut Pangeran Diponegoro | Setting: Jawa Tengah, 1825-1830, Perang Jawa melawan Belanda di bawah Jenderal de Kock
+KARAKTER VISUAL: Karto, a young Javanese soldier, 23 years old, lean build, warm tan skin, black hair tied in a small bun under a dark batik blangkon headcloth, simple indigo lurik woven shirt, brown sarong, a keris dagger tucked at his back waist, carrying an old flintlock musket and a bamboo spear. Pangeran Diponegoro, Javanese prince in his early 40s, calm charismatic face, thin mustache, white destar turban-like headcloth, long white jubah robe with a green sash, prayer beads in hand, sometimes riding a dark Javanese horse. Dutch officer, Napoleonic-era blue uniform with gold epaulettes, tall black shako hat, pale skin, thick mustache. General de Kock, older Dutch general, grey-white hair, stern face, dark green uniform with medals. Setting: lush Javanese villages, rice fields, teak forests, Yogyakarta kraton walls, the Selarong cave headquarters, small Dutch benteng forts.
+GAYA GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text
+CATATAN: hindari darah/kekerasan eksplisit di narasi maupun prompt gambar. Angka di naskah sudah dieja agar TTS natural. [JEDA] = tambah silence 0.8 detik di akhir beat (sebelum twist/momen kunci).
+OVERLAY TEKS (drawtext, 5 momen): beat 2 "PERANG JAWA 1825" | beat 30 "SERBU FAJAR" | beat 44 "SUBSCRIBE!" (3 detik) | beat 70 "MAGELANG 1830" | beat 86 "DIPONEGORO ABADI"
+
+BEAT 1:
+Obor-obor Belanda mengepung kami dari tiga arah. Di belakang cuma ada sungai yang arusnya deras — dan aku cuma pegang satu tombak bambu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, night riverbank in Java, lines of Dutch soldiers with flaming torches closing in from three sides, a young Javanese soldier with blangkon headcloth holding a bamboo spear, terrified wide-eyed face lit by torchlight, dark rushing river behind him, extremely tense, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 2:
+Di depanku, deretan senapan Belanda sudah terangkat. Di sampingku, Pangeran Diponegoro mengangkat tangannya — memberi isyarat yang belum kumengerti.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Pangeran Diponegoro in white jubah robe and white destar headcloth raising his hand in signal, standing beside young soldier Karto with bamboo spear, a line of Dutch soldiers with raised flintlock muskets facing them at night, torchlight, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 3:
+Seratus moncong senapan mengarah ke kami. Malam ini, aku cuma punya satu pilihan: bertarung, atau tenggelam di sungai. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, extreme close-up of Karto's terrified face, sweat dripping, gripping a bamboo spear, rows of Dutch musket barrels pointed at him glowing in torchlight, night, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 4:
+Tapi tunggu — biar kuceritakan dari awal, bagaimana seorang petani biasa bisa berdiri di malam kematian ini.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, peaceful Javanese village at dawn, rice fields, farmers planting rice, Mount Merapi silhouette far behind, calm wide establishing shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 5:
+Namaku Karto. Dua puluh tiga tahun, petani dari desa kecil di selatan Yogyakarta.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, portrait of Karto, young Javanese farmer, 23, lean, tan skin, black hair under dark batik blangkon headcloth, simple indigo lurik shirt, standing in a green rice field holding a wooden hoe, warm morning light, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 6:
+Hidupku dulu sederhana. Pagi mencangkul sawah, sore pulang, malam makan tiwul bersama ibu dan adikku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto hoeing a rice paddy at sunrise, his mother and little sister waving from a small bamboo house behind, peaceful rural mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 7:
+Sampai Belanda datang dengan aturan baru: sewa tanah naik, hasil panen dipotong, dan kerja rodi tanpa bayaran.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a stern Dutch colonial official in blue uniform collecting sacks of rice from exhausted Javanese farmers, tax ledger in hand, villagers bowing with worried faces, tense wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 8:
+Ayahku meninggal karena kelelahan di proyek jalan Belanda. Ibuku menangis semalaman, tapi pajak tetap harus dibayar.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, an elderly Javanese woman crying quietly beside a simple grave mound at dusk, young Karto comforting her, a Dutch road construction site with workers in the distance, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 9:
+Jujur, bagian ini yang bikin saya merinding — kami bukan malas, kami diperas sampai tak bisa bernapas.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of Karto's clenched fist holding a nearly empty rice bowl, his angry determined face half in shadow, a Dutch tax notice nailed on a bamboo wall behind, reflective mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 10:
+Lalu datang kabar yang mengguncang seluruh Jawa: Belanda menancapkan patok jalan tepat di atas makam leluhur Pangeran Diponegoro.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Dutch surveyors hammering wooden road stakes into sacred ancestral ground in Tegalrejo, an old Javanese family tomb disturbed, shocked villagers watching from afar, tense wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 11:
+Bagi orang Jawa, makam leluhur itu suci. Menancapkan patok di sana sama saja meludahi muka seluruh keluarga.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, an elderly Javanese man kneeling in grief before a disturbed ancestral tomb, wooden stakes driven into the earth around it, villagers with bowed heads, solemn mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 12:
+Diponegoro murka. Pangeran keraton Yogyakarta itu keluar dari istana dan bersumpah akan melawan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Pangeran Diponegoro in white jubah and white destar striding out of the Yogyakarta kraton gate, face resolute, guards and courtiers watching in shock, palace walls behind, powerful medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 13:
+Keraton sendiri sudah dikuasai pengaruh Belanda. Sultan boneka, para bupati berebut jabatan — Diponegoro muak melihatnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, inside the Yogyakarta kraton, Javanese nobles in fine batik bowing to a Dutch resident official seated arrogantly, Diponegoro standing apart with a disgusted expression, tense interior scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 14:
+Malam itu juga, Diponegoro mendirikan markas di Gua Selarong — dan kabar perlawanannya menyebar seperti api ke seluruh desa. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, the dark mouth of Selarong cave at night, torches inside, Diponegoro silhouette addressing a crowd of villagers, firelight flickering on limestone walls, dramatic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 15:
+Orang bilang dia bukan pangeran biasa. Dia ulama, ahli tirakat, dan banyak yang percaya dia titisan Ratu Adil.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Diponegoro praying in deep meditation inside the cave, prayer beads in hand, soft divine light rays falling on him, villagers watching with awe from the cave entrance, mystical mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 16:
+Desaku ikut bergejolak. Para pemuda berkumpul di balai desa, dan aku berdiri di antara mereka.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Javanese village youths gathered at night in a bamboo meeting hall, Karto among them listening intently, an elder speaking passionately, oil lamps glowing, tense medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 17:
+Ibuku memelukku erat. "Kalau kau pergi, siapa yang mencangkul sawah?" Aku tidak bisa menjawab.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto's mother hugging him tightly at the door of their bamboo house at dawn, tears in her eyes, Karto holding a bamboo spear looking torn, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 18:
+Tapi aku ingat ayahku yang mati di jalan Belanda. Dan aku mengambil tombak bambu peninggalannya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto lifting an old bamboo spear from the wall of his house, his father's worn farmer hat hanging beside it, morning light through the doorway, his face hardening with resolve, emotional close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 19:
+Perjalanan ke Selarong tiga hari jalan kaki. Sepanjang jalan, ratusan petani lain berjalan ke arah yang sama.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a long column of Javanese farmers with bamboo spears and farm tools walking on a dirt road toward distant hills, Karto among them, hopeful determined mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 20:
+Ada yang bawa cangkul, ada yang bawa arit, ada yang cuma bawa bambu runcing. Senjata kami? Apa pun yang ada.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of farmers' hands holding simple weapons: hoes, sickles, sharpened bamboo spears, keris daggers, walking in a column, gritty detail shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 21:
+Di depan gua, kami bersumpah setia. Diponegoro menatap kami satu per satu — tatapannya seperti menembus dada. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, hundreds of Javanese fighters kneeling with raised bamboo spears before Diponegoro at the Selarong cave mouth, the prince's piercing gaze sweeping over them, torches, solemn powerful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 22:
+Sejak hari itu, aku bukan lagi petani. Aku prajurit Diponegoro — dan hidupku berubah selamanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto standing tall in lurik shirt and blangkon holding bamboo spear among fellow fighters, the Selarong cave behind, sunrise breaking, proud determined medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 23:
+Gua Selarong jadi rumah kami. Siang berlatih, malam berjaga — makan seadanya, tidur beralaskan tikar pandan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, inside the Selarong cave, Javanese fighters training with bamboo spears, others cooking over small fires, sleeping mats on stone floor, lived-in camp mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 24:
+Diponegoro melarang kami perang terbuka. "Belanda kuat di lapangan," katanya, "tapi hutan ini milik kita."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Diponegoro in white jubah pointing at a hand-drawn map on the cave floor, surrounded by his commanders including Karto, explaining guerrilla strategy by torchlight, tense planning scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 25:
+Strateginya sederhana tapi mematikan: serang saat fajar, pukul cepat, lalu hilang ke dalam hutan jati.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Javanese fighters melting into a dense teak forest at dawn, bamboo spears on shoulders, mist between the trees, a Dutch patrol road visible in the distance, stealthy wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 26:
+Seragam Belanda berat dan kaku. Di lumpur sawah dan semak belukar, mereka seperti gajah di toko kaca.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Dutch soldiers in heavy blue uniforms struggling through a muddy rice field, muskets held high, looking exhausted and frustrated, Javanese fighters watching silently from bamboo thickets, ironic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 27:
+Kami kenal setiap jalan tikus, setiap parit, setiap pohon. Mereka cuma kenal peta yang sering salah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto leading fighters silently through a narrow hidden path between rice paddies at dusk, a confused Dutch patrol with a map in the background on the wrong road, clever mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 28:
+Kalau menurut saya, ini kejeniusan Diponegoro — dia mengubah kelemahan kami jadi senjata paling tajam.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Diponegoro on horseback at a hilltop at dawn overlooking a vast Javanese landscape, white jubah flowing, Karto and fighters behind him, visionary epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 29:
+Tiga bulan berlatih, akhirnya tiba hari pertama kami bertempur. Targetnya: patroli Belanda di jalan desa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a Dutch patrol marching on a village road at dawn, unaware, Javanese fighters crouched hidden in rice fields on both sides, Karto gripping his bamboo spear, heart-pounding tension, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 30:
+Isyarat datang sebelum matahari terbit. Serbu fajar — dan dalam sekejap, jalan desa itu jadi milik kami. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Javanese fighters charging out of morning mist onto a village road at dawn, bamboo spears raised, surprised Dutch patrol scattering, dynamic action wide shot without explicit gore, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 31:
+Kami merebut dua belas pucuk senapan hari itu. Untuk pertama kalinya, kami punya senjata api.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto holding a captured Dutch flintlock musket with awe, fellow fighters examining captured muskets and supplies, morning light, triumphant medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 32:
+Tanganku gemetar memegang senapan itu. Berat, dingin — dan rasanya seperti memegang masa depan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of Karto's trembling hands holding a flintlock musket, his hopeful wide eyes reflected on the metal barrel, emotional detail shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 33:
+Kabar kemenangan menyebar. Desa-desa yang dulu takut, sekarang mengirim beras dan pemuda untuk kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, villagers carrying sacks of rice and baskets of food to the fighters' camp, young men joining with bamboo spears, warm communal mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 34:
+Dalam setahun, pasukan kami membesar dari ratusan jadi puluhan ribu. Belanda mulai panik. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a massive sea of Javanese fighters with bamboo spears and banners gathering in a field, Diponegoro on horseback before them, epic scale wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 35:
+Serangan kami makin berani. Benteng kecil Belanda di pedalaman jatuh satu per satu ke tangan kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Javanese fighters storming a small Dutch wooden fort at dawn, climbing the palisade with bamboo ladders, Dutch flag being lowered, dynamic wide shot without explicit gore, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 36:
+Pernah suatu malam kami mengepung pos Belanda sampai mereka kehabisan peluru dan menyerah tanpa syarat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a Dutch outpost surrounded at night by rings of Javanese fighters with torches, Dutch soldiers raising a white cloth from the palisade, tense standoff wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 37:
+Diponegoro memperlakukan tawanan dengan baik. "Kita melawan penjajah," katanya, "bukan menjadi penjahat."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Diponegoro in white jubah giving water and food to captured Dutch soldiers seated on the ground, Karto watching with respect, humane dignified medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 38:
+Jujur, bagian ini yang bikin saya merinding — di tengah perang, dia masih sempat memikirkan kemanusiaan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of Diponegoro's compassionate calm face, a freed captive bowing gratefully before him, soft morning light, reflective emotional mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 39:
+Tahun seribu delapan ratus dua puluh tujuh, separuh Jawa Tengah praktis berada di bawah kendali kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a wide map-like view of Central Java villages with Diponegoro's green banners flying, fighters patrolling, Dutch confined to walled towns, epic strategic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 40:
+Belanda di Batavia kalang kabut. Perang ini sudah menelan biaya yang bikin kas mereka jebol.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, worried Dutch officials in Batavia around a table covered with war expense ledgers and maps of Java, candles burning low, anxious interior scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 41:
+Lalu mereka mengirim satu nama yang mengubah segalanya: Jenderal de Kock, ahli perang yang dingin dan sabar.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, General de Kock, older stern Dutch general with grey-white hair and dark green uniform with medals, disembarking from a ship at Semarang harbor, troops lined up, ominous arrival wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 42:
+De Kock tidak mengejar kami ke hutan. Dia membangun sesuatu yang jauh lebih licik: benteng stelsel.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a ring of small Dutch benteng forts connected by patrol roads slowly closing around Javanese villages on a strategic map table, de Kock moving wooden markers, cold calculating scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 43:
+Puluhan benteng kecil mengepung wilayah kami. Pasokan beras diputus, jalan ditutup, desa diawasi.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Javanese villagers stopped at a Dutch benteng checkpoint, soldiers inspecting empty carts, a mother hiding a small rice bundle, tense checkpoint scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 44:
+Perang berubah jadi perang lapar. Dan di sinilah aku ingin bilang — kalau kalian suka cerita sejarah kayak gini, subscribe channel ini biar aku bisa terus bercerita.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto looking directly at the viewer, hand raised in a friendly inviting gesture, fellow fighters and camp behind him, warm engaging medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 45:
+Musim hujan tiba. Beras menipis, obat habis, dan penyakit mulai merenggut kawan-kawanku satu per satu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a rain-soaked fighters' camp, sick comrades lying on mats under a bamboo shelter, Karto wringing out a wet cloth for a feverish friend, somber mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 46:
+Sastro, sahabatku sejak kecil, tumbang karena demam. Aku menggenggam tangannya sampai dia pergi dengan tenang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto kneeling beside his childhood friend Sastro lying peacefully on a mat, holding his hand, rain falling outside the shelter, other fighters bowing heads in respect, restrained emotional scene, no explicit gore, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 47:
+Malam itu aku menangis diam-diam. Bukan karena takut mati — tapi karena rindu rumah yang makin jauh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto sitting alone at night outside the cave, tears glistening, clutching a small woven bracelet from his mother, moonlight on wet leaves, lonely emotional close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 48:
+Diponegoro datang menghampiriku. "Yang gugur sudah mulia," katanya pelan. "Tugas kita yang masih hidup: teruskan."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Diponegoro placing a comforting hand on Karto's shoulder at night, the prince's calm reassuring face, Karto looking up with renewed resolve, warm torchlight, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 49:
+Kata-katanya seperti air dingin di wajahku. Keesokan paginya, aku kembali memegang tombak.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto standing at dawn gripping his bamboo spear, sunrise behind the hills, jaw set with determination, fellow fighters assembling behind him, resolute wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 50:
+Kami masih melawan. Serangan kecil ke konvoi Belanda, memutus jalur pasokan mereka — perang belum selesai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Javanese fighters ambushing a Dutch supply convoy of horse carts on a forest road, scattering supplies, Dutch guards retreating, dynamic action wide shot without explicit gore, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 51:
+Tapi lingkaran benteng makin rapat. Tahun seribu delapan ratus dua puluh sembilan, kami terjepit di wilayah sempit. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a tightening ring of Dutch benteng forts around a shrinking green zone of Javanese territory, seen from above like a closing noose, ominous strategic view, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 52:
+Satu per satu panglima kami menyerah, tergiur janji ampun Belanda. Barisan kami retak dari dalam.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a Javanese commander kneeling to hand his keris to a Dutch officer at a benteng gate, Karto watching from afar with a pained expression, other fighters turning away, tense emotional scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 53:
+Kalau menurut saya, inilah luka terdalam perang ini — bukan dikalahkan musuh, tapi dikhianati kawan sendiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of Karto's bitter face, a broken bamboo spear on the ground before him, the surrendering commander's silhouette in the distance, reflective somber mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 54:
+Diponegoro menolak menyerah. "Lebih baik mati berdiri," katanya, "daripada hidup berlutut."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Diponegoro standing defiant on a rocky hilltop, white jubah billowing in the wind, remaining loyal fighters raising spears behind him, Dutch forts on the horizon, heroic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 55:
+Kami yang tersisa — tinggal segelintir — bersumpah akan tetap di sisinya sampai akhir. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a small circle of weary but loyal fighters including Karto placing hands together in oath before Diponegoro at night, campfire light, solemn powerful medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 56:
+Lalu datang surat dari de Kock: undangan berunding di Magelang, dengan jaminan keselamatan penuh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a Dutch messenger on horseback delivering a sealed letter to Diponegoro's camp, the prince reading it with a wary expression, Karto and commanders watching anxiously, tense scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 57:
+Para panglima terbelah. Sebagian bilang ini jebakan, sebagian bilang ini satu-satunya jalan damai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, heated argument among Javanese commanders inside a bamboo hut at night, some pointing at the letter angrily, others pleading, Diponegoro silent in the middle, tense interior scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 58:
+Aku sendiri tidak tenang malam itu. Ada firasat buruk yang tidak bisa kujelaskan — seperti awan sebelum badai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto unable to sleep, sitting outside staring at dark storm clouds gathering over the hills, uneasy foreboding mood, night, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 59:
+Tanggal dua puluh delapan Maret seribu delapan ratus tiga puluh, Diponegoro berangkat ke Magelang — tanpa senjata, percaya pada janji.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Diponegoro in white jubah riding his horse toward Magelang at dawn, unarmed, small entourage, Karto watching from the camp gate with worry, poignant wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 60:
+Kami menunggu di markas. Sehari... dua hari... tidak ada kabar. Hening yang menakutkan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, the quiet fighters' camp, Karto and others sitting in tense silence staring at the empty road, an untouched meal going cold, anxious waiting mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 61:
+Malam ketiga, seorang kurir tiba dengan wajah pucat. Tangannya gemetar saat menyerahkan kabar itu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a pale exhausted messenger on a lathered horse arriving at the night camp, handing a crumpled note to Karto whose face drains of color, torchlight, dread-filled scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 62:
+Diponegoro ditangkap di Magelang. Janji keselamatan itu dusta — dia diborgol dan dibawa pergi malam itu juga. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Diponegoro in white jubah being led away by Dutch soldiers at night in Magelang, his calm dignified face, a Dutch officer holding the broken promise letter, lanterns, tragic powerful scene without explicit violence, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 63:
+Markas kami pecah dalam tangis. Lima tahun perang, dan pemimpin kami direbut dengan tipu daya — bukan di medan tempur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Javanese fighters weeping and embracing in the night camp, some smashing bamboo spears in rage, Karto on his knees staring at the ground, heartbreaking wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 64:
+Sebagian ingin menyerbu Magelang malam itu juga. Tapi untuk apa — Pangeran sudah di atas kapal menuju pengasingan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a Dutch ship sailing away at dawn carrying Diponegoro into exile, tiny white figure at the stern gazing back at Java's coastline, Karto watching from the shore hills, melancholic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 65:
+Dia dibuang ke Manado, lalu ke Makassar — ke Benteng Rotterdam. Tak pernah lagi menginjak tanah Jawa sampai akhir hayatnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, an elderly Diponegoro with white beard sitting quietly in a stone room of Fort Rotterdam in Makassar, painting on paper, a small barred window showing the sea, dignified melancholic scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 66:
+Tanpa Diponegoro, perlawanan padam satu per satu. Perang Jawa — perang terbesar abad itu — resmi berakhir.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, abandoned Javanese camp, cold campfire, a bamboo spear stuck in the ground with a white cloth, mist over empty rice fields at dawn, quiet somber wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 67:
+Korban perang ini mengerikan: ratusan ribu rakyat Jawa gugur, ribuan tentara Belanda tewas, kas Belanda jebol dua puluh juta gulden.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a somber memorial scene: rows of simple bamboo grave markers on a Javanese hillside at dusk, villagers placing flowers, no explicit gore, respectful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 68:
+Belanda memang menang. Tapi kemenangan yang membuat mereka bangkrut dan trauma selama puluhan tahun. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a Dutch treasury office with empty coffers, officials staring at a massive war debt ledger, cobwebs on coin chests, ironic somber interior scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 69:
+Aku pulang ke desa dengan tombak bambu yang sama — tapi desa itu sudah tidak sama lagi.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto walking back into his war-scarred village at dusk, bamboo spear on shoulder, damaged houses, villagers emerging to greet him with mixed joy and sorrow, poignant wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 70:
+Ibuku sudah tiada. Adikku kini jadi kepala keluarga. Sawah kami dikerjakan bersama para janda perang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto kneeling before his mother's simple grave beside the rice field, his younger sibling and village widows planting rice together behind, bittersweet emotional scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 71:
+Malam-malam aku duduk di depan rumah, menatap bintang, dan bertanya: apakah semua pengorbanan ini sia-sia?
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Karto sitting alone on his bamboo house veranda at night gazing at a starry sky, thoughtful melancholic close-up, fireflies around, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 72:
+Lalu aku ingat wajah Diponegoro di gua itu — tenang, yakin, seolah sudah melihat jauh ke masa depan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, memory-like glowing vision of Diponegoro's serene confident face inside the Selarong cave, soft golden light, Karto's silhouette in the foreground remembering, dreamlike mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 73:
+Dia pernah berkata: benih yang ditanam hari ini, akan dipanen oleh anak cucu kita. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Diponegoro planting a small young tree seedling with his own hands, Karto watching beside him, sunrise behind, symbolic hopeful scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 74:
+Delapan puluh tahun kemudian, benih itu tumbuh: Indonesia merdeka. Nama Diponegoro diabadikan sebagai pahlawan nasional.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a grand bronze statue of Diponegoro on horseback in a modern Indonesian city square, red-and-white flags waving, children looking up in awe, proud wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 75:
+Jujur, bagian ini yang bikin saya merinding — petani-petani bambu runcing itu ternyata menanam kemerdekaan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a time-transition image: the bamboo spears of 1825 fighters dissolving into a waving Indonesian red-and-white flag, Karto's aged face smiling through the transition, powerful symbolic composition, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 76:
+Kalau menurut saya, Perang Jawa bukan cerita kalah-menang. Ini cerita tentang harga sebuah martabat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, an elderly Karto with grey-streaked hair sitting among village children, telling stories, the children listening wide-eyed, his old bamboo spear mounted on the wall behind, warm intergenerational scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 77:
+Lima tahun aku berperang. Kehilangan ayah, ibu, sahabat — tapi aku tidak pernah kehilangan satu hal: kebanggaan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of elderly Karto's proud weathered face, medals of memory in his eyes, his hand resting on the old bamboo spear, dignified emotional portrait, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 78:
+Karena saat negerimu diinjak, diam itu pilihan — dan kami memilih untuk berdiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, silhouettes of Javanese fighters with bamboo spears standing firm on a hilltop against a blazing sunset, epic heroic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 79:
+Diponegoro wafat di pengasingan tahun seribu delapan ratus lima puluh lima — tapi namanya tidak pernah mati.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a peaceful grave of Diponegoro in Makassar with flowers and visitors paying respects, soft morning light, Indonesian flag beside the tomb, respectful solemn scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 80:
+Dan setiap kali bendera berkibar, aku merasa dia ikut berdiri di sana — mengawasi negeri yang dulu dibelanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, the Indonesian flag waving majestically with a faint noble silhouette of Diponegoro on horseback in the clouds above, spiritual patriotic composition, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 81:
+Dan tombak bambu peninggalan ayahku? Masih tersimpan rapi di dinding rumah — saksi lima tahun yang mengubah segalanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, the old bamboo spear mounted honorably on the bamboo wall of Karto's house, sunlight streaming through, small offerings of flowers beneath it, reverent still-life scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 82:
+Kadang cucuku bertanya: "Kek, takut tidak waktu itu?" Aku tersenyum. Takut? Setiap hari.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Karto smiling warmly at his little grandchild sitting on his lap, the child holding a tiny wooden toy spear, cozy home interior, tender intergenerational close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 83:
+Tapi keberanian bukan berarti tidak takut. Keberanian adalah tetap maju — meski lutut gemetar.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, young Karto again at the night riverbank from beat 1, trembling knees but stepping forward with bamboo spear raised, torchlight, full-circle heroic moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 84:
+Malam pengepungan di sungai itu — aku selamat. Pangeran memberi isyarat mundur, dan kami menghilang ke dalam gelap. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Javanese fighters slipping silently into the dark river and vanishing into night mist, Dutch torches searching empty riverbank behind, clever escape wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 85:
+Itulah perang gerilya. Bukan tentang siapa paling kuat — tapi siapa paling pantang menyerah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, footprints of fighters disappearing into a misty teak forest at dawn, a dropped Dutch shako hat on the path, poetic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 86:
+Dua abad berlalu. Tapi setiap anak Indonesia yang belajar sejarah, akan mendengar satu nama: Diponegoro.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, Indonesian schoolchildren in a classroom looking at a painting of Diponegoro on the wall, teacher pointing, inspired young faces, hopeful bright scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 87:
+Dan mungkin — di antara mereka — ada yang bertanya seperti aku dulu: beranikah aku berdiri saat negeriku memanggil?
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, a young Indonesian student gazing thoughtfully at Diponegoro's portrait, his reflection in the glass merging with the prince's face, contemplative close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 88:
+Terima kasih sudah mendengarkan kisahku. Kalau cerita ini menyentuhmu, subscribe dan bagikan — biar sejarah kita tidak pernah mati. Merdeka!
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (rice-field green, teak brown, volcanic grey, indigo batik blue, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Karto waving warmly goodbye at his house gate, Indonesian flag flying behind, sunset glow, heartfelt closing medium shot, dramatic cinematic composition, not photorealistic, no text

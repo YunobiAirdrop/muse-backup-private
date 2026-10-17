@@ -1,0 +1,11 @@
+[A-audio] mulai...
+[A-audio] OK
+audio gabungan: 33.5s
+[B-video] mulai...
+[B-video] OK
+video silent: 607.8s
+Traceback (most recent call last):
+  File "/home/hatch/workspace/youtube-otomatis/history-en/rakit_3step_2026-10-11.py", line 76, in <module>
+    assert abs(dur(SILENT) - dur(GAB)) < 2.5, "durasi video & audio terpaut jauh"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: durasi video & audio terpaut jauh

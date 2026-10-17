@@ -1,0 +1,16 @@
+{
+  "_komentar": "Daftar niche untuk ekspansi blog otomatis tiap 2 minggu. Tandai 'terpakai' setelah dibuat.",
+  "terpakai": ["campuran", "teknologi", "kesehatan", "keuangan", "hiburan", "olahraga", "wisata", "kuliner", "otomotif", "pendidikan"],
+  "antrean": [
+    {"niche": "properti", "nama": "PropertiKu", "tagline": "Info properti, rumah & investasi tanah", "warna": "#0891b2", "feeds": {"DetikProperti": "https://properti.detik.com/rss"}},
+    {"niche": "parenting", "nama": "ParentingCeria", "tagline": "Tips parenting & keluarga bahagia", "warna": "#ec4899", "feeds": {"DetikHealth-Parenting": "https://health.detik.com/rss"}},
+    {"niche": "fashion", "nama": "FashionTrend", "tagline": "Tren fashion terkini", "warna": "#8b5cf6", "feeds": {"DetikHot-Fashion": "https://hot.detik.com/rss"}},
+    {"niche": "gaming", "nama": "GameZone", "tagline": "Berita game terbaru", "warna": "#7c3aed", "feeds": {"DetikInet-Game": "https://inet.detik.com/rss"}},
+    {"niche": "karier", "nama": "KarierSukses", "tagline": "Tips karier & lowongan kerja", "warna": "#059669", "feeds": {"Detik-Edu": "https://www.detik.com/edu/rss"}},
+    {"niche": "kecantikan", "nama": "CantikAlami", "tagline": "Tips kecantikan & skincare", "warna": "#f472b6", "feeds": {"DetikHot-Beauty": "https://hot.detik.com/rss"}},
+    {"niche": "hewan", "nama": "PecintaHewan", "tagline": "Dunia hewan peliharaan", "warna": "#84cc16", "feeds": {"DetikHealth": "https://health.detik.com/rss"}},
+    {"niche": "musik", "nama": "MusikHits", "tagline": "Musik terhits setiap hari", "warna": "#a855f7", "feeds": {"DetikHot-Musik": "https://hot.detik.com/rss"}},
+    {"niche": "film", "nama": "FilmSeru", "tagline": "Review & berita film", "warna": "#6366f1", "feeds": {"DetikHot-Film": "https://hot.detik.com/rss"}},
+    {"niche": "pertanian", "nama": "TaniMaju", "tagline": "Info pertanian modern", "warna": "#4d7c0f", "feeds": {"DetikFinance-Tani": "https://finance.detik.com/rss"}}
+  ]
+}

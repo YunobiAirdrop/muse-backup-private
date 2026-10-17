@@ -1,0 +1,506 @@
+[
+ {
+  "beat": "beat-001",
+  "chapter": "The Aftermath",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Rows of white marble crosses stretching to the horizon at dawn, morning mist drifting between them, a single American flag waving gently",
+  "overlay": "NORMANDY, FRANCE",
+  "text": "Ten thousand white crosses stand in silence above the sea. This is where our story ends."
+ },
+ {
+  "beat": "beat-002",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Close view of a single white cross with a soldier helmet resting on it, dew on grass, soft golden sunrise",
+  "overlay": null,
+  "text": "Each marker is someone's son. A young man who never came home from the longest day."
+ },
+ {
+  "beat": "beat-003",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Elderly veteran in a wheelchair touching a white cross, holding a faded photograph, an American flag in the background",
+  "overlay": null,
+  "text": "Many were only nineteen. They crossed an ocean to a beach they had never heard of."
+ },
+ {
+  "beat": "beat-004",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Waves gently washing over an empty peaceful beach at Normandy, seagulls flying, serene blue sky, a lone pair of dog tags half buried in sand",
+  "overlay": null,
+  "text": "Today the beach is peaceful. But eighty years ago, this sand decided the world's fate."
+ },
+ {
+  "beat": "beat-005",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A narrator figure silhouette standing among the crosses at sunset, wind moving through flags, contemplative mood",
+  "overlay": null,
+  "text": "What strikes me most here is not the sadness. It is the gratitude. France never forgot them."
+ },
+ {
+  "beat": "beat-006",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Split scene of a peaceful cemetery above and ghostly fleet of ships on the sea below, time blending past and present",
+  "overlay": null,
+  "text": "To understand these crosses, we rewind. To one morning in June, nineteen forty-four. [JEDA] D-Day."
+ },
+ {
+  "beat": "beat-007",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Massive fleet of gray warships and landing craft stretching across the horizon at dawn, silhouettes against an orange sunrise, waves",
+  "overlay": null,
+  "text": "Never had so many ships crossed the sea at once. Seven thousand vessels. One impossible mission."
+ },
+ {
+  "beat": "beat-008",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Young American soldiers in landing craft at dawn, helmets low, nervous faces, gripping rifles, gray waves around them",
+  "overlay": null,
+  "text": "Imagine being there. Nineteen, seasick in the dark. And the beach ahead is waiting."
+ },
+ {
+  "beat": "beat-009",
+  "chapter": "The Plan",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Generals gathered around a huge war map table in a smoky room, pointing at the Normandy coast, pins and strings marking the plan",
+  "overlay": "OPERATION OVERLORD",
+  "text": "The plan had a code name: Operation Overlord. How do you break into Hitler's fortress Europe?"
+ },
+ {
+  "beat": "beat-010",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: General Eisenhower standing thoughtfully with arms crossed, American flag behind him, portrait of calm leadership",
+  "overlay": null,
+  "text": "The man in charge was Dwight D. Eisenhower. One hundred fifty thousand lives rested on him."
+ },
+ {
+  "beat": "beat-011",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: German concrete bunkers and barbed wire along a French beach, Atlantic Wall fortifications, gloomy overcast sky",
+  "overlay": null,
+  "text": "The Germans had built the Atlantic Wall. Bunkers, mines, barbed wire. Fifty miles of fortress coast."
+ },
+ {
+  "beat": "beat-012",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: German Field Marshal Rommel inspecting beach defenses with officers, binoculars, pointing at the sea, 1944 uniforms",
+  "overlay": null,
+  "text": "Rommel inspected those defenses himself. He knew the Allies were coming. But not where."
+ },
+ {
+  "beat": "beat-013",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Allied officers studying aerial photographs of Normandy beaches, magnifying glasses, red circles marking targets",
+  "overlay": null,
+  "text": "The Allies chose Normandy for a clever reason. Calais was the obvious crossing. So Germany guarded it hardest."
+ },
+ {
+  "beat": "beat-014",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Five beach sectors marked on a stylized map, American British and Canadian flags, landing arrows pointing at Normandy coast",
+  "overlay": null,
+  "text": "Normandy would be hit across five beaches. Utah, Omaha, Gold, Juno, and Sword."
+ },
+ {
+  "beat": "beat-015",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Eisenhower writing a letter at his desk late at night, crumpled drafts around him, single lamp lighting, heavy burden",
+  "overlay": null,
+  "text": "Here is what school never taught you. Eisenhower wrote a resignation letter, in case it failed."
+ },
+ {
+  "beat": "beat-016",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A folded letter sealed with wax beside a helmet on a desk, dramatic close-up, shadows",
+  "overlay": null,
+  "text": "He carried that letter in his pocket on the eve of battle. That is real leadership."
+ },
+ {
+  "beat": "beat-017",
+  "chapter": "The Deception",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Fake inflatable tanks and wooden airplanes in an English field, soldiers painting camouflage, clever trickery scene",
+  "overlay": "OPERATION FORTITUDE",
+  "text": "But a plan alone would never work. The Germans had to look elsewhere. So the Allies built a trick."
+ },
+ {
+  "beat": "beat-018",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: General Patton in sunglasses addressing troops in a fake headquarters, confident pose, 1944 setting",
+  "overlay": null,
+  "text": "Its name was Operation Fortitude. A fake army, dummy tanks, real radio traffic. Led by Patton."
+ },
+ {
+  "beat": "beat-019",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A double agent in a dark London office sending secret radio messages, typewriter, maps with pins, espionage atmosphere",
+  "overlay": null,
+  "text": "Double agents fed Berlin lie after lie. The invasion, they swore, would come at Calais."
+ },
+ {
+  "beat": "beat-020",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: German commanders pointing at Calais on a war map, confident expressions, while a tiny ghost fleet moves toward Normandy in a corner illustration",
+  "overlay": null,
+  "text": "Hitler moved his best tanks to Calais. Nineteen divisions waiting for an invasion that never came. [JEDA] The trap was set."
+ },
+ {
+  "beat": "beat-021",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: French Resistance fighters with radios hidden in a barn at night, coded messages, lantern light",
+  "overlay": null,
+  "text": "Meanwhile, the French Resistance waited for a signal. A poem on the radio. Tomorrow, the Allies come."
+ },
+ {
+  "beat": "beat-022",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Saboteurs cutting railway tracks at night with sparks flying, dark forest, secret mission",
+  "overlay": null,
+  "text": "That night, bridges fell. Rails twisted. France tore up the roads Germany would need. In the dark."
+ },
+ {
+  "beat": "beat-023",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Ghostly silhouette of paratroopers boarding planes at dusk, English airfield, C-47 transport planes lined up",
+  "overlay": null,
+  "text": "And in England, thirteen thousand paratroopers blackened their faces. They would jump first. Into the night."
+ },
+ {
+  "beat": "beat-024",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A stormy English Channel with huge waves crashing, dark clouds, a lone ship struggling, dramatic weather",
+  "overlay": null,
+  "text": "Then came the storm. The worst weather in twenty years. The invasion was postponed. One day."
+ },
+ {
+  "beat": "beat-025",
+  "chapter": "The Gamble",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A weather officer pointing at pressure charts in a war room, officers watching anxiously, storm maps",
+  "overlay": null,
+  "text": "His meteorologist found a narrow window. Thirty-six hours of calm, starting June sixth. Now, or perhaps never."
+ },
+ {
+  "beat": "beat-026",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Eisenhower standing before his generals in a dim headquarters, pointing firmly at the map, decisive moment, tension",
+  "overlay": null,
+  "text": "At four thirty in the morning, Eisenhower stood up. The room fell silent. His order: [JEDA] Go."
+ },
+ {
+  "beat": "beat-027",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: The English Channel filled with thousands of ships at night, lights like a city on water, moonlit waves",
+  "overlay": null,
+  "text": "The largest fleet in history sailed into the night. The Germans were certain: no one attacks in this weather."
+ },
+ {
+  "beat": "beat-028",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: German soldiers sleeping in a concrete bunker, calm before the storm, a radio crackling quietly, dim lamp",
+  "overlay": null,
+  "text": "Many German commanders were not at their posts. Rommel was home in Germany. For his wife's birthday."
+ },
+ {
+  "beat": "beat-029",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Paratroopers with blackened faces sitting in a C-47 plane at night, red jump light glowing, gripping static lines",
+  "overlay": null,
+  "text": "Above the clouds, the paratroopers waited for the red light to turn green. Below, Normandy slept."
+ },
+ {
+  "beat": "beat-030",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Eisenhower shaking hands with a young paratrooper, warm smile, other soldiers around, emotional farewell, night",
+  "overlay": null,
+  "text": "Before they boarded, Eisenhower walked among them. One boy asked if he was scared. We are all scared."
+ },
+ {
+  "beat": "beat-031",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Paratroopers jumping from planes into a night sky filled with parachutes, searchlights sweeping, tracer fire in the distance",
+  "overlay": null,
+  "text": "At midnight, thirteen thousand men dropped out of the sky. Scattered and lost. [JEDA] But they fought anyway."
+ },
+ {
+  "beat": "beat-032",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Battleships firing huge guns at dawn, muzzle flashes lighting the gray sky, shells arcing toward the coast",
+  "overlay": "JUNE 6, 1944 — 5:50 AM",
+  "text": "At five fifty, the sea erupted. Six battleships opened fire. The longest day was here."
+ },
+ {
+  "beat": "beat-033",
+  "chapter": "Dawn",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A lone soldier sitting in a landing craft at dawn, staring at the coastline, dawn light on his young face, contemplative",
+  "overlay": null,
+  "text": "Picture this. You are twenty. The ramp is about to drop. Beyond it, an entire army waits."
+ },
+ {
+  "beat": "beat-034",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Landing craft ramps dropping at the shoreline, soldiers wading through waist-deep water toward the beach, gray morning",
+  "overlay": null,
+  "text": "At six thirty, the ramps dropped. On five beaches at once, the Allies waded ashore."
+ },
+ {
+  "beat": "beat-035",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Soldiers running across a sandy beach under gray skies, determination on their faces, landing craft behind them, morning light",
+  "overlay": null,
+  "text": "Utah fell quickly. The British and Canadians pushed inland. But on one beach, the plan collapsed. [JEDA] Omaha."
+ },
+ {
+  "beat": "beat-036",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Omaha Beach from above, steep cliffs, concrete bunkers on the bluffs, landing craft approaching through gray waves",
+  "overlay": "OMAHA BEACH",
+  "text": "Omaha was a natural fortress. High bluffs. A narrow strip of sand. And one unexpected German division."
+ },
+ {
+  "beat": "beat-037",
+  "chapter": "Omaha Beach",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Soldiers taking cover behind steel beach obstacles in shallow water, helping each other forward, gray morning, courage",
+  "overlay": null,
+  "text": "The bombing had missed. The bunkers were intact. For hours, Omaha hung by a thread."
+ },
+ {
+  "beat": "beat-038",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A young officer standing upright on the beach waving soldiers forward, inspiring courage, others following, dramatic moment",
+  "overlay": null,
+  "text": "But ordinary men did extraordinary things. Officers stood up under fire and shouted: follow me."
+ },
+ {
+  "beat": "beat-039",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Rangers climbing ropes up the cliffs of Pointe du Hoc, scaling the rock face, dramatic vertical scene, gray sky",
+  "overlay": null,
+  "text": "At Pointe du Hoc, Rangers climbed sheer cliffs on ropes, into machine-gun fire. [JEDA] They destroyed the guns."
+ },
+ {
+  "beat": "beat-040",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Medics carrying a wounded soldier on a stretcher across the beach, others advancing past them, compassion amid battle, muted tones",
+  "overlay": null,
+  "text": "The medics never stopped. Under fire, they dragged the wounded to safety. Heroes without rifles."
+ },
+ {
+  "beat": "beat-041",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Soldiers breaching a gap in the cliffs, moving inland through a narrow draw, flags advancing, turning point, morning light breaking",
+  "overlay": null,
+  "text": "By noon, small groups had clawed off the beach. The bluffs were falling. Omaha was holding."
+ },
+ {
+  "beat": "beat-042",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: American soldiers raising a small flag on the bluffs above Omaha Beach, exhausted but triumphant, wind, gray sky clearing",
+  "overlay": null,
+  "text": "When the first flag went up on those bluffs, men wept. Not from fear this time. From relief."
+ },
+ {
+  "beat": "beat-043",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Landing craft unloading jeeps and tanks onto the beach, engineers building paths, supplies piling up, afternoon",
+  "overlay": null,
+  "text": "Behind the fighters came the tide of war. Tanks. Trucks. Bulldozers. Highways of steel into France."
+ },
+ {
+  "beat": "beat-044",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: German officers arguing over a telephone in a chateau headquarters, maps on the wall, panic and confusion",
+  "overlay": null,
+  "text": "And the Germans? They were arguing. The phone lines were cut. Real invasion, or diversion?"
+ },
+ {
+  "beat": "beat-045",
+  "chapter": "The Enemy Sleeps",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: German Panzer tanks parked motionless in a forest, engines cold, a sleeping figure in a distant command post, missed opportunity",
+  "overlay": null,
+  "text": "Hitler's best tanks sat waiting near Calais. Only Hitler could release them. No one dared wake him."
+ },
+ {
+  "beat": "beat-046",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A German commander staring through binoculars at the massive Allied fleet offshore, shock and disbelief, morning",
+  "overlay": null,
+  "text": "When the German generals finally understood, it was too late. The sea was full of ships."
+ },
+ {
+  "beat": "beat-047",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Rommel rushing in a staff car toward Normandy, urgent motion, dust on the road, afternoon light",
+  "overlay": null,
+  "text": "Rommel raced back through the night. His Atlantic Wall was breached in five places. In one day."
+ },
+ {
+  "beat": "beat-048",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Allied soldiers marching through a French village, civilians cheering with flowers and flags, liberation, joy",
+  "overlay": null,
+  "text": "Inland, the paratroopers linked up with the beaches. French villages woke to freedom. Children ran beside the tanks."
+ },
+ {
+  "beat": "beat-049",
+  "chapter": "The Turning Tide",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A French family offering bread and wine to exhausted American soldiers in a farmhouse, gratitude, warm candlelight",
+  "overlay": null,
+  "text": "After four years of occupation, France tasted freedom again. Bread. Wine. Strangers who had crossed an ocean."
+ },
+ {
+  "beat": "beat-050",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: War correspondents typing on typewriters in a tent, radio operators sending news, headlines forming, urgency",
+  "overlay": null,
+  "text": "Back home, the world held its breath. Radio bulletins interrupted every program. Families prayed."
+ },
+ {
+  "beat": "beat-051",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: President Roosevelt leading a national prayer on the radio, families kneeling in a living room, solemn American home, 1944",
+  "overlay": null,
+  "text": "President Roosevelt led the nation in prayer that night. Millions knelt. America prayed as one."
+ },
+ {
+  "beat": "beat-052",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Sunset over the Normandy beaches, landing craft silhouettes, calm water, the day ending, peaceful yet solemn",
+  "overlay": "JUNE 6, 1944 — 11:59 PM",
+  "text": "By midnight, it was over. The beaches were Allied. One hundred fifty thousand men ashore."
+ },
+ {
+  "beat": "beat-053",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Rows of helmets placed on the sand at dusk, a chaplain kneeling in prayer, solemn tribute, muted colors",
+  "overlay": null,
+  "text": "But the cost was terrible. More than four thousand Allied soldiers died that day. [JEDA] Never forget."
+ },
+ {
+  "beat": "beat-054",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A field hospital tent at night, medics working by lantern light, bandaged soldiers resting, quiet heroism",
+  "overlay": null,
+  "text": "Thousands more were wounded. Behind the beaches, surgeons worked through the night by lantern light."
+ },
+ {
+  "beat": "beat-055",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Eisenhower reading casualty reports at his desk, head bowed, the unsent resignation letter beside him, heavy silence",
+  "overlay": null,
+  "text": "Eisenhower read the casualty lists in silence. Then he tore up the letter in his pocket."
+ },
+ {
+  "beat": "beat-056",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A map of Europe with Allied arrows pushing from Normandy eastward toward Germany, dramatic strategic illustration",
+  "overlay": null,
+  "text": "D-Day was not the end of the war. But it was the beginning of the end. The Allies marched to Berlin."
+ },
+ {
+  "beat": "beat-057",
+  "chapter": "The Beginning of the End",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Allied tanks rolling through French countryside toward the horizon, dust rising, determined advance, summer light",
+  "overlay": null,
+  "text": "Eleven months later, Germany surrendered. The thousand-year Reich fell in less than twelve."
+ },
+ {
+  "beat": "beat-058",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Crowds celebrating in the streets of Paris, flags waving, soldiers lifted onto shoulders, joy, 1944",
+  "overlay": null,
+  "text": "Paris was liberated. Then Brussels. The map of Europe changed color until the nightmare was over."
+ },
+ {
+  "beat": "beat-059",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A modern American flag waving over the Normandy cemetery at sunrise, crosses in neat rows below, timeless tribute",
+  "overlay": null,
+  "text": "That is why those crosses still matter. They are not just graves. They are why Europe is free."
+ },
+ {
+  "beat": "beat-060",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Veterans returning to Normandy in old age, walking slowly among the crosses with canes, medals on their chests, emotional",
+  "overlay": null,
+  "text": "Every June, the veterans return. Fewer each year. They touch the names of friends who never grew old."
+ },
+ {
+  "beat": "beat-061",
+  "chapter": "Legacy",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Schoolchildren placing flowers on the white crosses, a teacher explaining, bright morning, hope and remembrance",
+  "overlay": null,
+  "text": "And French schoolchildren still place flowers here. They learn the names. So no one forgets."
+ },
+ {
+  "beat": "beat-062",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: The famous quote displayed over a battlefield sunrise, soldiers advancing, words etched in light, inspiring",
+  "overlay": "THE EYES OF THE WORLD ARE UPON YOU",
+  "text": "Eisenhower's order said it best. The eyes of the world are upon you. [JEDA] Eighty years later, they still are."
+ },
+ {
+  "beat": "beat-063",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A young soldier silhouette against a huge sunrise over the sea, hope, new dawn, epic and uplifting",
+  "overlay": null,
+  "text": "The tide of tyranny turned on a single morning. Because ordinary people chose to be brave."
+ },
+ {
+  "beat": "beat-064",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A narrator silhouette at the cemetery at golden hour, looking out over the crosses toward the sea, peaceful reflection",
+  "overlay": null,
+  "text": "I have told many stories here. But this one stays with me. Freedom is never free. Someone always pays."
+ },
+ {
+  "beat": "beat-065",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: An American flag at half mast beside a white cross, gentle breeze, poppies growing, quiet dignity",
+  "overlay": null,
+  "text": "So when you see those white crosses, see a promise. Kept by nineteen-year-olds in Normandy."
+ },
+ {
+  "beat": "beat-066",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Candles lit beside a white cross at night, stars above, eternal flame of remembrance, serene",
+  "overlay": null,
+  "text": "They gave their today, so we could have our tomorrow. That is what D-Day means."
+ },
+ {
+  "beat": "beat-067",
+  "chapter": "Never Forget",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A red subscribe button glowing among the white crosses, friendly invitation, YouTube style, warm light",
+  "overlay": null,
+  "text": "If these stories move you, subscribe to Echoes of History. Every week, we bring the past back to life."
+ },
+ {
+  "beat": "beat-068",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A bell ringing over the cemetery at dawn, sound waves spreading, peaceful morning, remembrance",
+  "overlay": null,
+  "text": "Ring the bell, so you never miss a story. Tell me in the comments: which moment moved you most?"
+ },
+ {
+  "beat": "beat-069",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: The channel logo style emblem of a golden question mark over an open history book, epic background, closing scene",
+  "overlay": null,
+  "text": "I read every comment. Your stories, your grandfathers, your memories keep history alive. Thank you."
+ },
+ {
+  "beat": "beat-070",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: End screen style scene of the Normandy coast at sunset, two glowing video suggestion panels, warm farewell",
+  "overlay": null,
+  "text": "Next week, another story the textbooks forgot. Until then, remember the brave. And never forget."
+ },
+ {
+  "beat": "beat-071",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Fade to a starry night sky over the calm sea at Normandy, peaceful ending, the end",
+  "overlay": null,
+  "text": "This was June sixth, nineteen forty-four. The longest day. The day the world changed forever."
+ },
+ {
+  "beat": "beat-072",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: The Normandy American Cemetery at sunrise with mist, a single dove flying upward, hope, final frame",
+  "overlay": null,
+  "text": "And if you ever stand among those crosses, listen. The silence has a story to tell. This was it."
+ }
+]

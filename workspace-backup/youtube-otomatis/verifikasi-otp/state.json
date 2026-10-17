@@ -1,0 +1,115 @@
+{
+  "antrean": [
+    {
+      "catatan": "Prioritas user 2026-10-13; percobaan 2026-10-13 22:52 kena throttle YouTube di klik pertama | 2026-10-16: nomor virtual gagal dibeli 3x (OTPMurah 'Layanan sedang dalam pengisian')",
+      "channel_id": "UCJ6KqdYvVJ-PaxhGLfTFVhA",
+      "handle": "@BizarreWorldDaily",
+      "slug": "weird-en"
+    },
+    {
+      "catatan": "Prioritas user 2026-10-13",
+      "channel_id": "UCGCXDPx3vSHTUOkNiuLezdw",
+      "handle": "@KisahAlkitab-k9j",
+      "slug": "kisahalkitab"
+    },
+    {
+      "catatan": "",
+      "channel_id": "UCd2wADmj47v3XCPcCpk-fSg",
+      "handle": "@AncientEmpiresTV",
+      "slug": "empires-en"
+    },
+    {
+      "catatan": "",
+      "channel_id": "UCCBGIbsfMo2TmyhbUzHxD0A",
+      "handle": "@EchoesOfThePast-e9m",
+      "slug": "history-en"
+    },
+    {
+      "catatan": "",
+      "channel_id": "UCR7uhocCg9YZM7-Qoi1sVGA",
+      "handle": "@TalesOfDreadTV",
+      "slug": "horror-en"
+    },
+    {
+      "catatan": "",
+      "channel_id": "UC1PNEzhOmAH08p75vwp7n0A",
+      "handle": "@JejakBuddha",
+      "slug": "jejakbuddha"
+    },
+    {
+      "catatan": "",
+      "channel_id": "UC81zPJnIJbKU5lhTKx-6Hyg",
+      "handle": "@JejakIslami-h3d",
+      "slug": "jejakislami"
+    },
+    {
+      "catatan": "",
+      "channel_id": "UCAhInkFRxF3xkxW8kgFOrJA",
+      "handle": "@KisahDharma",
+      "slug": "kisahdharma"
+    },
+    {
+      "catatan": "",
+      "channel_id": "UCAnSrJzQuePS1MJhfwlRJuQ",
+      "handle": "@TheDarkMindFiles-s6i",
+      "slug": "mind-en"
+    },
+    {
+      "catatan": "",
+      "channel_id": "UCjxESFWyFPOkGTSpajK69Lw",
+      "handle": "@MysteryShadowsTV",
+      "slug": "mystery-en"
+    },
+    {
+      "catatan": "",
+      "channel_id": "UCQnUeh4-2AKgCsV_cjgUv4w",
+      "handle": "@CosmosUnknownTV",
+      "slug": "space-en"
+    },
+    {
+      "catatan": "",
+      "channel_id": "UCjy7bWJU5gULDIYjPmTg9xg",
+      "handle": "@tinybuilders-d5z",
+      "slug": "tinybuilders"
+    },
+    {
+      "catatan": "",
+      "channel_id": "",
+      "handle": "@InkTime-d3t",
+      "slug": "inktime"
+    },
+    {
+      "catatan": "",
+      "channel_id": "",
+      "handle": "@MacamMacamID",
+      "slug": "macammacam"
+    },
+    {
+      "catatan": "",
+      "channel_id": "UC2df1xY_WqWdX33oLqeXE2w",
+      "handle": "@TrueCaseFilesTV",
+      "slug": "truecrime-en"
+    }
+  ],
+  "keterangan": "Antrean verifikasi HP YouTube via nomor virtual OTPMurah.id (otomatis tiap 3 hari). 1 nomor virtual = 1 channel (1 akun 1 OTP); tiap run beli 1 nomor baru; YouTube bisa menolak nomor virtual (tidak ada OTP) -> cancel -> refund 100% otomatis.",
+  "riwayat": [
+    {
+      "tanggal": "2026-10-14T16:47+07:00",
+      "channel": "@BizarreWorldDaily",
+      "hasil": "GAGAL - YouTube throttle level akun masih aktif (terlalu banyak upaya verifikasi). Nomor OTP dibatalkan, refund 100% (Rp 358 kembali, saldo Rp 11.000).",
+      "permintaan": "manual user"
+    },
+    {
+      "tanggal": "2026-10-17T10:25:14.221890+07:00",
+      "channel": "@BizarreWorldDaily",
+      "hasil": "GAGAL - pembelian nomor virtual gagal 3x ('Layanan sedang dalam pengisian, mohon coba beberapa menit lagi'); tidak ada pembelian, saldo utuh Rp 11.000.",
+      "permintaan": "otomatis cron 3-harian"
+    }
+  ],
+  "terverifikasi": [
+    "@KisahPOV",
+    "@ceritarakyat862",
+    "@StrangeTales-g6n",
+    "@LimaMisteri"
+  ]
+}

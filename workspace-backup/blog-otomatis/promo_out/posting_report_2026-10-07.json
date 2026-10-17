@@ -1,0 +1,125 @@
+{
+ "tanggal": "2026-10-07",
+ "hasil": [
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "IG",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a115e15704733d9917497cd0dd6275\"},\"media_fbid\":\"18092969231173580\"}\n"
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "Threads-1",
+   "status": "TERPOSTING",
+   "info": "{\"post_id\":\"17890147284684304\"}\n"
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "FB",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[61592661515070,1347201611814398,1593394845662636,122102744895498449],\"message_ids\":[]},\"tool_call_id\":\"call_01a115e15704733d9917497cd0dd6275\"},\"acting_account_id\":\"615926615"
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "IG",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a115e15704733d9917497cd0dd6275\"},\"media_fbid\":\"17893016664437041\"}\n"
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "Threads-1",
+   "status": "RATE_LIMIT",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write Rate Limit Reached: The daily limit for this Thre"
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "Threads-2",
+   "status": "TERPOSTING",
+   "info": "{\"post_id\":\"18076976273741318\"}\n"
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "FB",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[61592661515070,1347201611814398,1361937056015634,122102765271498449],\"message_ids\":[]},\"tool_call_id\":\"call_01a1160a5e7873618bb7d4c9c38d869d\"},\"acting_account_id\":\"615926615"
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "IG",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a115e15704733d9917497cd0dd6275\"},\"media_fbid\":\"18150763378545597\"}\n"
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "FB",
+   "status": "GAGAL",
+   "info": "\u001b[2m2026-10-07T10:51:35.213063Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mhatch_tool_sdk::media_artifact\u001b[0m\u001b[2m:\u001b[0m Sentinel rejected media artifact registration \u001b[3merror\u001b[0m\u001b[2m=\u001b[0mmedia artifact runtime context is"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "IG",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a115e15704733d9917497cd0dd6275\"},\"media_fbid\":\"18099426530072037\"}\n"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-1",
+   "status": "TERPOSTING",
+   "info": "{\"post_id\":\"18249224452312712\"}\n"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-2",
+   "status": "TERPOSTING",
+   "info": "{\"post_id\":\"18227811622335511\"}\n"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "FB",
+   "status": "GAGAL",
+   "info": "\u001b[2m2026-10-07T10:57:42.750173Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mhatch_tool_sdk::media_artifact\u001b[0m\u001b[2m:\u001b[0m Sentinel rejected media artifact registration \u001b[3merror\u001b[0m\u001b[2m=\u001b[0mmedia artifact runtime context is"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "IG",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a115e15704733d9917497cd0dd6275\"},\"media_fbid\":\"17881802028690691\"}\n"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-2",
+   "status": "TERPOSTING",
+   "info": "{\"post_id\":\"18121142680822345\"}\n"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "FB",
+   "status": "GAGAL",
+   "info": "\u001b[2m2026-10-07T11:04:51.264898Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mhatch_tool_sdk::media_artifact\u001b[0m\u001b[2m:\u001b[0m Sentinel rejected media artifact registration \u001b[3merror\u001b[0m\u001b[2m=\u001b[0mmedia artifact runtime context is"
+  }
+ ]
+}

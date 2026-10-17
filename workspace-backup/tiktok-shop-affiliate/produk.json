@@ -1,0 +1,766 @@
+{
+ "cycle_days": 14,
+ "products": [
+  {
+   "demo": "Ibu mengoleskan serum ke bulu mata dan alis dengan aplikator kecil, close-up mata",
+   "harga": 18000,
+   "id": "serum-bulu-mata-alis",
+   "kategori": "kecantikan",
+   "komisi": 201800,
+   "nama": "Promo 3Pcs Serum Bulu Mata dan Alis",
+   "poin": [
+    "Bulu mata terlihat lebih tebal dan panjang",
+    "Alis tampak lebih tegas dan rapi",
+    "Paket hemat isi 3 pcs"
+   ],
+   "skor": "sedang",
+   "stok": 7900,
+   "testimoni": [
+    "Baru 2 minggu pakai, bulu mataku kelihatan lebih lentik!",
+    "Alisku yang botak di ujung sekarang mulai keisi, seneng banget"
+   ],
+   "toko": "MM Market85"
+  },
+  {
+   "demo": "Wanita menyalakan kipas genggam mini, angin menerbangkan rambut, ekspresi segar",
+   "harga": 61200,
+   "id": "kipas-genggam-mini-turbo",
+   "kategori": "elektronik",
+   "komisi": 40000,
+   "nama": "Kipas Genggam Mini Ultra Cepat 199 Turbo COD",
+   "poin": [
+    "Angin super kencang 199 turbo",
+    "Baterai tahan hingga 20 jam",
+    "Bisa COD, ada layar LCD indikator baterai"
+   ],
+   "skor": "tinggi",
+   "stok": 146100,
+   "testimoni": [
+    "Anginnya kenceng banget, nggak nyangka sekecil ini",
+    "Baterai awet seharian, wajib punya buat yang gampang gerah"
+   ],
+   "toko": "Tekora (Mall)"
+  },
+  {
+   "demo": "Wanita mengaplikasikan rangkaian skincare paket whiteglow ke wajah dengan gerakan memijat",
+   "harga": 321000,
+   "id": "medikacare-premium",
+   "kategori": "kecantikan",
+   "komisi": 32800,
+   "nama": "Medikacare Premium Paket Whiteglow (Exclusive Dok Ayu3)",
+   "poin": [
+    "Paket lengkap whiteglow + sunscreen",
+    "Diskon 68% dari harga normal",
+    "Formulasi dokter, aman untuk kulit sensitif"
+   ],
+   "skor": "sedang",
+   "stok": 20,
+   "testimoni": [
+    "Seminggu pakai kulitku lebih cerah dan lembap",
+    "Akhirnya nemu skincare yang cocok, nggak bikin breakout"
+   ],
+   "toko": "medikacare.skincare"
+  },
+  {
+   "demo": "Wanita memakai setelan katun, memutar badan menunjukkan potongan baju",
+   "harga": 236450,
+   "id": "set-katun-miracle",
+   "kategori": "fashion",
+   "komisi": 21316,
+   "nama": "Set Katun LD 100-110 Premium",
+   "poin": [
+    "Bahan katun adem dan menyerap keringat",
+    "Potongan rapi, cocok untuk acara santai-formal",
+    "LD 100-110 muat untuk berbagai ukuran"
+   ],
+   "skor": "sedang",
+   "stok": 20,
+   "testimoni": [
+    "Bahannya adem banget, jahitannya rapi",
+    "Dipakai kondangan juga pantes, elegan"
+   ],
+   "toko": "Tk Miracle"
+  },
+  {
+   "demo": "Wanita memakai vest korean style, pose kasual di depan cermin",
+   "harga": 143920,
+   "id": "jeslyn-vest-korean",
+   "kategori": "fashion",
+   "komisi": 14392,
+   "nama": "FEVY.ID Jeslyn Set Vest Korean Style",
+   "poin": [
+    "Model korean style yang lagi tren",
+    "Bahan nyaman dipakai seharian",
+    "Cocok dipadukan dengan inner apapun"
+   ],
+   "skor": "sedang",
+   "stok": 74700,
+   "testimoni": [
+    "Modelnya persis kayak di foto, cakep banget",
+    "Udah beli 2 warna karena sebagus itu"
+   ],
+   "toko": "Fevy.Id ByJGR"
+  },
+  {
+   "demo": "Wanita memakai setelan rayon ruffle, menunjukkan detail ruffle dan gerakan kain yang jatuh",
+   "harga": 146000,
+   "id": "setelan-ruffle-rayon",
+   "kategori": "fashion",
+   "komisi": 14310,
+   "nama": "Setelan Ruffle Rayon Premium Super Adem",
+   "poin": [
+    "Bahan rayon premium super adem",
+    "Detail ruffle manis dan feminin",
+    "Adem dipakai cuaca panas"
+   ],
+   "skor": "sedang",
+   "stok": 100,
+   "testimoni": [
+    "Adem banget dipakai, nggak gerah sama sekali",
+    "Motif dan warnanya cantik, sesuai ekspektasi"
+   ],
+   "toko": "Ernik Collection"
+  },
+  {
+   "demo": "Wanita mengaplikasikan rangkaian paket glowing booster ke wajah bertahap",
+   "harga": 90900,
+   "id": "ls-skincare-glowing",
+   "kategori": "kecantikan",
+   "komisi": 13635,
+   "nama": "LS Skincare Paket New Glowing Booster (Mall)",
+   "poin": [
+    "Paket glowing booster lengkap",
+    "Harga terjangkau untuk paket lengkap",
+    "Cocok untuk pemula skincare"
+   ],
+   "skor": "sedang",
+   "stok": 3500,
+   "testimoni": [
+    "Wajahku jadi lebih glowing dalam 2 minggu",
+    "Paket lengkap tapi harganya ramah di kantong"
+   ],
+   "toko": "LS SKINCARE STORE (Mall)"
+  },
+  {
+   "demo": "Ibu mengoleskan lotion ke tangan dan kaki anak dengan lembut",
+   "harga": 78964,
+   "id": "expert-care-lotion-bayi",
+   "kategori": "ibu-anak",
+   "komisi": 12468,
+   "nama": "Expert Care Face & Body Lotion Bayi & Anak (Mall)",
+   "poin": [
+    "Aman untuk kulit bayi dan anak",
+    "Cegah eksim hingga 40%",
+    "Melembapkan tanpa lengket"
+   ],
+   "skor": "tinggi",
+   "stok": 42900,
+   "testimoni": [
+    "Kulit anakku yang kering jadi lembap",
+    "Akhirnya nemu lotion yang cocok buat kulit sensitif anak"
+   ],
+   "toko": "Skincare Anak Expert Care (Mall)"
+  },
+  {
+   "demo": "Wanita memakai stelan premium motif salur, jalan santai menunjukkan jatuhnya kain",
+   "harga": 140250,
+   "id": "stelan-premium-salur",
+   "kategori": "fashion",
+   "komisi": 11550,
+   "nama": "Stelan Premium Motif Salur (Terbaru)",
+   "poin": [
+    "Kualitas premium, jahitan rapi",
+    "Motif salur elegan dan langsing",
+    "Nyaman dipakai aktivitas harian"
+   ],
+   "skor": "sedang",
+   "stok": 1000,
+   "testimoni": [
+    "Kualitasnya premium beneran, nggak murahan",
+    "Dipakai kerja nyaman seharian"
+   ],
+   "toko": "Ms.Fashiononlineshop"
+  },
+  {
+   "demo": "Ibu mengoleskan calming cream ke perut dan punggung bayi dengan pijatan lembut",
+   "harga": 67200,
+   "id": "calming-baby-cream",
+   "kategori": "ibu-anak",
+   "komisi": 8400,
+   "nama": "Calming Baby Cream 50g (Mall)",
+   "poin": [
+    "Membantu menenangkan dan menidurkan bayi",
+    "Bahan lembut aman untuk bayi",
+    "Aroma menenangkan"
+   ],
+   "skor": "tinggi",
+   "stok": 29500,
+   "testimoni": [
+    "Bayiku jadi lebih nyenyak tidurnya setelah dipijat pakai ini",
+    "Wangi dan teksturnya lembut, bayi suka"
+   ],
+   "toko": "GENTLY Baby (Mall)"
+  },
+  {
+   "demo": "Ibu mengoleskan hair lotion ke kepala bayi dengan pijatan lembut, close-up rambut",
+   "harga": 73000,
+   "id": "hair-lotion-lou",
+   "kategori": "ibu-anak",
+   "komisi": 7300,
+   "nama": "Hair Lotion Bayi Baru Lahir LOU Grow More",
+   "poin": [
+    "Merangsang pertumbuhan rambut bayi",
+    "Aman untuk bayi baru lahir",
+    "Tekstur ringan tidak lengket"
+   ],
+   "skor": "tinggi",
+   "stok": 41200,
+   "testimoni": [
+    "Rambut bayiku yang tipis sekarang mulai lebat",
+    "Wanginya enak dan nggak lengket"
+   ],
+   "toko": "LOU Baby"
+  },
+  {
+   "demo": "Ibu memasangkan popok Sweety ke bayi, menunjukkan daya serap",
+   "harga": 94877,
+   "id": "sweety-dry-xpert",
+   "kategori": "ibu-anak",
+   "komisi": 6641,
+   "nama": "Sweety Dry X-Pert Pants",
+   "poin": [
+    "Tetap kering hingga 5x lebih lama",
+    "Bahan lembut tidak bikin iritasi",
+    "Daya serap tinggi anti bocor"
+   ],
+   "skor": "tinggi",
+   "stok": 433,
+   "testimoni": [
+    "Nggak bocor semalaman, bayi tidur nyenyak",
+    "Daya serapnya juara, nggak ruam popok lagi"
+   ],
+   "toko": "Raja pamperss"
+  },
+  {
+   "demo": "Ibu memberikan satu sendok madu ikan gabus ke anak",
+   "harga": 42000,
+   "id": "vitabumin-madu-ikan-gabus",
+   "kategori": "ibu-anak",
+   "komisi": 6300,
+   "nama": "Vitabumin Madu Ikan Gabus Anak 60ml (Mall)",
+   "poin": [
+    "Madu ikan gabus kaya albumin untuk daya tahan tubuh",
+    "Rasa manis disukai anak",
+    "Kemasan 60ml praktis"
+   ],
+   "skor": "tinggi",
+   "stok": 8300,
+   "testimoni": [
+    "Anakku jadi jarang sakit sejak rutin minum ini",
+    "Rasanya enak, anakku malah nagih"
+   ],
+   "toko": "Vitabumin (Mall)"
+  },
+  {
+   "demo": "Wanita memakai one set celana, menunjukkan kelenturan bahan saat bergerak",
+   "harga": 59900,
+   "id": "setelan-yurika",
+   "kategori": "fashion",
+   "komisi": 5990,
+   "nama": "Setelan Celana One Set Wanita Dewasa Yurika",
+   "poin": [
+    "One set praktis, langsung matching",
+    "Bahan adem dan melar nyaman",
+    "Diskon 60% harga spesial"
+   ],
+   "skor": "sedang",
+   "stok": 119,
+   "testimoni": [
+    "Bahannya melar dan adem, enak dipakai",
+    "Satu set langsung jadi, nggak ribet mix and match"
+   ],
+   "toko": "Gogo Fashion"
+  },
+  {
+   "demo": "Wanita memakai kaos fitted crew neck, menunjukkan lekuk tubuh yang tegas",
+   "harga": 84150,
+   "id": "joybasic-crewneck",
+   "kategori": "fashion",
+   "komisi": 5940,
+   "nama": "Joybasic All Day Fit Crew Neck Fitted (Mall)",
+   "poin": [
+    "Model fitted membentuk tubuh lebih tegas",
+    "Bahan lembut dan stretch",
+    "Nyaman dipakai seharian"
+   ],
+   "skor": "tinggi",
+   "stok": 112200,
+   "testimoni": [
+    "Bentuk badannya jadi kelihatan bagus pakai ini",
+    "Bahannya lembut banget, nggak nerawang"
+   ],
+   "toko": "joybasic.id (Mall)"
+  },
+  {
+   "demo": "Wanita memakai daster motif salur, menunjukkan bahan adem dan motif",
+   "harga": 54444,
+   "id": "daster-fuji-lily",
+   "kategori": "fashion",
+   "komisi": 5444,
+   "nama": "Vansauniquee Daster Fuji Lily Motif Salur",
+   "poin": [
+    "Bahan adem cocok untuk di rumah",
+    "Motif salur cantik dan kekinian",
+    "Skor produk tinggi, terlaris"
+   ],
+   "skor": "tinggi",
+   "stok": 600,
+   "testimoni": [
+    "Adem banget buat dasteran di rumah",
+    "Motifnya cantik, bahannya juga lembut"
+   ],
+   "toko": "vansauniquee"
+  },
+  {
+   "demo": "Wanita berhijab memakai one set rayon panjang, menunjukkan panjang dan jatuhnya kain",
+   "harga": 53250,
+   "id": "rafella-one-set",
+   "kategori": "fashion",
+   "komisi": 5059,
+   "nama": "Rafella One Set Setelan Wanita Panjang Rayon",
+   "poin": [
+    "Bahan rayon adem dan jatuh",
+    "Model panjang sopan dan elegan",
+    "Stok besar 15 ribu+, terpercaya"
+   ],
+   "skor": "sedang",
+   "stok": 15400,
+   "testimoni": [
+    "Bahannya adem dan nggak nerawang",
+    "Panjangnya pas, elegan dipakai"
+   ],
+   "toko": "Aylook Item"
+  },
+  {
+   "id": "beauty-plan-bulu-mata",
+   "nama": "Beauty Plan Bulu Mata Tanpa Lem + Tweezer",
+   "toko": "Beauty Plan ID",
+   "komisi": 4160,
+   "harga": 26240,
+   "stok": 14800000,
+   "skor": "tinggi",
+   "kategori": "kecantikan",
+   "demo": "Wanita memasang bulu mata tanpa lem memakai tweezer, close-up mata",
+   "poin": [
+    "Tanpa lem, praktis dan cepat dipasang",
+    "Dilengkapi tweezer khusus",
+    "Produk viral, stok 14,8 juta"
+   ],
+   "testimoni": [
+    "Nempelnya gampang banget, nggak perlu lem",
+    "Awet seharian nggak copot"
+   ]
+  },
+  {
+   "id": "dress-jeans-anak",
+   "nama": "Dress Jeans Anak Motif Boneka",
+   "toko": "emwestore02",
+   "komisi": 2440,
+   "harga": 24400,
+   "stok": 11400,
+   "skor": "tinggi",
+   "kategori": "fashion anak",
+   "demo": "Anak kecil memakai dress jeans motif boneka, berputar ceria",
+   "poin": [
+    "Bahan jeans lembut nyaman untuk anak",
+    "Motif boneka lucu disukai anak",
+    "Harga terjangkau Rp24 ribu"
+   ],
+   "testimoni": [
+    "Anakku suka banget, nggak mau dilepas",
+    "Bahannya lembut, nggak kaku"
+   ]
+  },
+  {
+   "id": "animate-active-white",
+   "nama": "Animate 5x Active White Tone Up Day Cream (Mall)",
+   "toko": "Animate",
+   "komisi": 2121,
+   "harga": 27148,
+   "stok": 94100,
+   "skor": "tinggi",
+   "kategori": "kecantikan",
+   "demo": "Wanita mengoleskan tone up cream ke wajah, before-after kulit cerah",
+   "poin": [
+    "Best seller, stok 94 ribu",
+    "Mencerahkan instan tanpa abu-abu",
+    "5x active whitening"
+   ],
+   "testimoni": [
+    "Cerahnya pas, nggak abu-abu",
+    "Best seller emang nggak pernah salah"
+   ]
+  },
+  {
+   "id": "sonix-kipas-sf08",
+   "nama": "Sonix Kipas Angin Portable SF08 (Mall)",
+   "toko": "SONIX Indonesia Shop",
+   "komisi": 4900,
+   "harga": 49000,
+   "stok": 4700,
+   "skor": "tinggi",
+   "kategori": "elektronik",
+   "demo": "Wanita menyalakan kipas portable Sonix, rambut tertiup angin kencang",
+   "poin": [
+    "Kipas portable high speed",
+    "Garansi resmi 1 tahun",
+    "Diskon 76%"
+   ],
+   "testimoni": [
+    "Anginnya kencang, baterai awet",
+    "Garansi resmi, tenang belinya"
+   ]
+  },
+  {
+   "id": "glad-2glow-retinol",
+   "nama": "GLAD 2glow Peach Retinol Moisturizer",
+   "toko": "WOW COLOUR BEAUTY",
+   "komisi": 4988,
+   "harga": 33250,
+   "stok": 3300,
+   "skor": "tinggi",
+   "kategori": "kecantikan",
+   "demo": "Wanita mengoleskan moisturizer peach ke wajah, kulit tampak glowing",
+   "poin": [
+    "Kandungan retinol + ekstrak peach",
+    "Bangun dengan kulit tampak segar",
+    "Diskon 65%"
+   ],
+   "testimoni": [
+    "Bangun tidur kulitku kenyal dan segar",
+    "Teksturnya ringan, cepat meresap"
+   ]
+  },
+  {
+   "id": "scarlett-body-lotion",
+   "nama": "Scarlett Fragrance Brightening Body Lotion (Mall)",
+   "toko": "Scarlett Whitening",
+   "komisi": 2360,
+   "harga": 59000,
+   "stok": 13900,
+   "skor": "tinggi",
+   "kategori": "kecantikan",
+   "demo": "Wanita mengoleskan body lotion Scarlett ke tangan dan kaki",
+   "poin": [
+    "Mencerahkan sekaligus melembapkan",
+    "Wangi tahan lama",
+    "Brand Mall terpercaya"
+   ],
+   "testimoni": [
+    "Wanginya enak banget, tahan lama",
+    "Kulitku lebih cerah setelah rutin pakai"
+   ]
+  },
+  {
+   "id": "misonells-body-scrub",
+   "nama": "Misonells Javanese Skin Bliss Scrub (Mall)",
+   "toko": "Misonells beaute",
+   "komisi": 4491,
+   "harga": 49899,
+   "stok": 9500,
+   "skor": "tinggi",
+   "kategori": "kecantikan",
+   "demo": "Wanita menggosokkan body scrub ke lengan lalu membilas, kulit halus",
+   "poin": [
+    "Lulur tradisional Jawa",
+    "Diskon 86% besar-besaran",
+    "Kulit halus dan cerah"
+   ],
+   "testimoni": [
+    "Daki-daki keangkat, kulit jadi halus",
+    "Wanginya khas lulur tradisional"
+   ]
+  },
+  {
+   "id": "syb-red-jelly-serum",
+   "nama": "New SYB Forte Red Jelly Serum 20ml",
+   "toko": "SYBSHOPP",
+   "komisi": 2350,
+   "harga": 24000,
+   "stok": 26600,
+   "skor": "sedang",
+   "kategori": "kecantikan",
+   "demo": "Wanita meneteskan serum merah ke wajah dengan pipet",
+   "poin": [
+    "15% active ingredients + niacinamide",
+    "Harga cuma Rp24 ribu",
+    "Stok 26 ribu+ terjual"
+   ],
+   "testimoni": [
+    "Serum semurah ini tapi nampol",
+    "Bekas jerawatku mulai memudar"
+   ]
+  },
+  {
+   "id": "heyxi-ginseng-cream",
+   "nama": "HEYXI Ginseng Nourishing Cream (Mall)",
+   "toko": "HEYXI.Indonesia",
+   "komisi": 4152,
+   "harga": 59313,
+   "stok": 170100,
+   "skor": "tinggi",
+   "kategori": "kecantikan",
+   "demo": "Wanita mengoleskan ginseng cream ke wajah dengan pijatan",
+   "poin": [
+    "Ekstrak ginseng menutrisi kulit",
+    "Paket 2 produk lebih hemat",
+    "Stok 170 ribu, laris manis"
+   ],
+   "testimoni": [
+    "Kulitku kenyal dan sehat",
+    "Paket lengkap, puas banget"
+   ]
+  },
+  {
+   "id": "gloowbe-sunscreen",
+   "nama": "Gloow&be Glass Skin Sunscreen SPF 40",
+   "toko": "gloow&be",
+   "komisi": 3880,
+   "harga": 42500,
+   "stok": 1300,
+   "skor": "tinggi",
+   "kategori": "kecantikan",
+   "demo": "Wanita mengoleskan sunscreen, wajah tampak glass skin",
+   "poin": [
+    "SPF 40 PA+++",
+    "Efek glass skin natural",
+    "Tidak whitecast"
+   ],
+   "testimoni": [
+    "Nggak whitecast sama sekali",
+    "Enak dipakai daily, ringan"
+   ]
+  },
+  {
+   "id": "animate-bubble-glow",
+   "nama": "Animate Bubble Glow Pink Best Seller (Mall)",
+   "toko": "Animate",
+   "komisi": 2857,
+   "harga": 27567,
+   "stok": 1000000,
+   "skor": "sedang",
+   "kategori": "kecantikan",
+   "demo": "Wanita mengoleskan lip product bubble glow, bibir pink segar",
+   "poin": [
+    "Best seller 300 ribu+ terjual",
+    "Warna pink segar natural",
+    "Stok 1 juta"
+   ],
+   "testimoni": [
+    "Bibir auto segar pakai ini",
+    "Warnanya cantik natural"
+   ]
+  },
+  {
+   "id": "cissiya-lipstick-set",
+   "nama": "Cissiya 6PCS Set Lipstick Matte",
+   "toko": "CISSYIA",
+   "komisi": 3990,
+   "harga": 39900,
+   "stok": 9600,
+   "skor": "rendah",
+   "kategori": "kecantikan",
+   "demo": "Wanita swatch 6 warna lipstick di tangan lalu memakai satu warna",
+   "poin": [
+    "Isi 6 pcs warna coklat elegan",
+    "Hasil matte tahan lama",
+    "Harga hemat Rp39 ribu"
+   ],
+   "testimoni": [
+    "Warnanya bagus-bagus semua",
+    "Matte tapi nggak bikin kering"
+   ]
+  },
+  {
+   "id": "dress-polkadot",
+   "nama": "Dress Wanita Kekinian Motif Polkadot",
+   "toko": "Gudang daster jumbo pekalongan",
+   "komisi": 4753,
+   "harga": 67900,
+   "stok": 707,
+   "skor": "tinggi",
+   "kategori": "fashion",
+   "demo": "Wanita memakai dress motif polkadot, berputar menunjukkan jatuhnya kain",
+   "poin": [
+    "Motif polkadot timeless",
+    "Bahan nyaman dipakai",
+    "Skor produk tinggi"
+   ],
+   "testimoni": [
+    "Motifnya manis banget",
+    "Jahitannya rapi"
+   ]
+  },
+  {
+   "id": "daster-lowo-arnisa",
+   "nama": "Daster Lowo Kelelawar Vol.12",
+   "toko": "ARNISA",
+   "komisi": 3838,
+   "harga": 47975,
+   "stok": 754,
+   "skor": "sedang",
+   "kategori": "fashion",
+   "demo": "Wanita memakai daster lowo model kelelawar, menunjukkan kelonggaran",
+   "poin": [
+    "Model kelelawar longgar dan adem",
+    "Motif kekinian",
+    "Nyaman untuk di rumah"
+   ],
+   "testimoni": [
+    "Adem banget dipakai",
+    "Motifnya bagus"
+   ]
+  },
+  {
+   "id": "daster-mahalini",
+   "nama": "Daster Lowo Jumbo Mahalini Viral",
+   "toko": "Nata Batik",
+   "komisi": 3080,
+   "harga": 38500,
+   "stok": 1800,
+   "skor": "sedang",
+   "kategori": "fashion",
+   "demo": "Wanita memakai daster jumbo motif batik, menunjukkan ukuran longgar",
+   "poin": [
+    "Ukuran jumbo nyaman",
+    "Motif batik yang viral",
+    "Harga cuma Rp38 ribu"
+   ],
+   "testimoni": [
+    "Jumbo beneran, nyaman",
+    "Motifnya cantik"
+   ]
+  },
+  {
+   "id": "jema-set-3in1",
+   "nama": "JEMA Setelan Wanita 3in1 Blouse Renda",
+   "toko": "Keyvara-Outfit",
+   "komisi": 3586,
+   "harga": 92519,
+   "stok": 5600,
+   "skor": "rendah",
+   "kategori": "fashion",
+   "demo": "Wanita memakai set 3in1 blouse renda dipadukan celana",
+   "poin": [
+    "3in1 praktis: blouse renda + celana",
+    "Renda cantik dan feminin",
+    "Diskon 50%"
+   ],
+   "testimoni": [
+    "Satu set langsung jadi",
+    "Rendanya cantik"
+   ]
+  },
+  {
+   "id": "thansya-hijab",
+   "nama": "Thansya Hijab Instan Bergo Size M",
+   "toko": "thansyahijab",
+   "komisi": 3200,
+   "harga": 32000,
+   "stok": 24000,
+   "skor": "sedang",
+   "kategori": "fashion",
+   "demo": "Wanita memakai hijab bergo instan, rapi dalam hitungan detik",
+   "poin": [
+    "Instan, langsung pakai tanpa jarum",
+    "Bahan adem",
+    "Stok 24 ribu"
+   ],
+   "testimoni": [
+    "Praktis banget buat daily",
+    "Bahannya adem"
+   ]
+  },
+  {
+   "id": "ayaya-bergo",
+   "nama": "Ayaya Bergo Instan Bahan Kaos Rayon",
+   "toko": "trendhijab_id",
+   "komisi": 2500,
+   "harga": 25000,
+   "stok": 11800,
+   "skor": "sedang",
+   "kategori": "fashion",
+   "demo": "Wanita memakai bergo instan Ayaya, menunjukkan pet yang rapi",
+   "poin": [
+    "Bahan kaos rayon cooltec adem",
+    "Instan tanpa jarum pentul",
+    "Harga Rp25 ribu"
+   ],
+   "testimoni": [
+    "Adem dan praktis",
+    "Warnanya bagus"
+   ]
+  },
+  {
+   "id": "paket-hijab-3pcs",
+   "nama": "Paket Hemat 3 PCS Hijab Segitiga Instan",
+   "toko": "FM hijab colecction",
+   "komisi": 3561,
+   "harga": 44900,
+   "stok": 40200,
+   "skor": "sedang",
+   "kategori": "fashion",
+   "demo": "Wanita menunjukkan 3 hijab segitiga instan warna berbeda",
+   "poin": [
+    "Hemat isi 3 pcs",
+    "Segitiga instan praktis",
+    "Stok 40 ribu"
+   ],
+   "testimoni": [
+    "Hemat banget isi 3",
+    "Bahannya enak"
+   ]
+  },
+  {
+   "id": "inmonen-hijab-sport",
+   "nama": "In Monen Hijab Sport Pet Tebal Jersey",
+   "toko": "In Monen",
+   "komisi": 2700,
+   "harga": 25500,
+   "stok": 300,
+   "skor": "sedang",
+   "kategori": "fashion",
+   "demo": "Wanita memakai hijab sport pet tebal saat berolahraga",
+   "poin": [
+    "Pet tebal antem tanpa jarum",
+    "Bahan jersey nyaman",
+    "Cocok untuk olahraga"
+   ],
+   "testimoni": [
+    "Pet-nya antem, nggak perlu jarum",
+    "Enak buat olahraga"
+   ]
+  },
+  {
+   "id": "daster-malika",
+   "nama": "Daster Malika Ld 130 Rayon Motif Kekinian",
+   "toko": "Miraayra",
+   "komisi": 4410,
+   "harga": 62999,
+   "stok": 2300,
+   "skor": "tinggi",
+   "kategori": "fashion",
+   "demo": "Wanita memakai daster rayon motif kekinian, menunjukkan bahan adem",
+   "poin": [
+    "LD 130 longgar nyaman",
+    "Bahan rayon adem",
+    "Motif kekinian"
+   ],
+   "testimoni": [
+    "Adem dan longgar",
+    "Motifnya kekinian banget"
+   ]
+  }
+ ],
+ "updated": "2026-10-08"
+}

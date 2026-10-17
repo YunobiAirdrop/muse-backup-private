@@ -1,0 +1,42 @@
+# CONTOH brief campaign clipper.
+# Salin file ini menjadi brief-<nama-campaign>.yaml lalu isi sesuai brief resmi campaign
+# (biasanya didapat dari dashboard Clippo.id / grup Telegram campaign).
+# Semua teks overlay mengikuti aturan AGENTS.md: tanpa '%' (tulis PERSEN),
+# tanpa apostrof (') bila dipakai bersama enable='between(...)'.
+
+campaign: "CONTOH-KAMPANYE"
+sumber_video: "sampel/sumber.mp4"   # video panjang RESMI dari campaign (bukan reupload orang)
+bahasa: "id"                        # kode bahasa transkripsi: id / en
+
+# Rentang durasi tiap klip (detik). Sesuaikan dengan ketentuan campaign.
+durasi_klip_min: 20
+durasi_klip_max: 60
+
+# Berapa kandidat teratas yang dirender jadi klip.
+jumlah_klip: 2
+
+# Platform target posting (untuk manifest & caption).
+platform: ["tiktok", "instagram"]
+
+# Hashtag WAJIB dari brief campaign — jangan diubah/dikurangi.
+hashtag_wajib:
+  - "#contoh"
+  - "#clipper"
+
+hook:
+  badge_durasi_detik: 3   # badge hook tampil di 3 detik pertama
+  maks_kata: 8            # badge diambil dari N kata pertama momen
+
+cta:
+  teks: "Cek link di bio!"   # overlay CTA di akhir klip
+  overlay_durasi_detik: 5
+
+# Template caption per klip. Placeholder: {hook} {cta} {hashtags}
+caption_template: |
+  {hook}
+
+  {cta}
+  {hashtags}
+
+# Rate bayaran campaign (info saja, untuk arsip).
+rate_per_1000_views: 5000

@@ -1,0 +1,19 @@
+name: recovered_skill_notes
+title: Recovered skill notes
+description: Local skill notes preserved from the previous layout and awaiting review.
+category: Learning and customization
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  needs_review: false
+  status: retired
+  evidence_handles:
+  - /home/hatch/workspace/custom-skills/recovered-skill-notes/SKILL.md
+  measurement:
+    proxy_metric_id: active_placeholder_skill_count
+    success_criterion: 'Active managed skills whose SKILL.md is the recovered-notes placeholder drop from 18 to exactly 1: local_youtube_marketing_skills is deferred this run (its inventory revision could not be grounded character-for-character, so it stays marked needs_review for a later audit); the 9 substantive skills stay active.'
+    window_days: 7
+  rationale: 'Consolidation review: 27 active learned skills (>=10) triggers mandatory consolidation. This skill''s SKILL.md (read this turn at the cited path) is the byte-identical ''Recovered skill notes'' placeholder shared by 18 learned skills — no method, no guidance — and its skill.yaml is managed:true/needs_review:true with include_in_prompt:true. The useful methods from these source repos were already extracted into workspace tooling on 2026-10-08 (MEMORY.md: humanizer+ai-seo -> tulis_ulang.py; last30days -> trend_radar.py; OpenMontage -> Tiny Builders assembly; youtube-marketing-skills -> packaging-formulas.md; affiliate-skills -> share_promo.py captions), so retiring loses no unique guidance. Listed in every conversation via include_in_prompt:true, it occupies discovery while teaching nothing. Retire: leaves active discovery; folder and any tooling stay on disk.'
+  review_after: 2026-10-23T01:22:16.550462+00:00
+  reviewed_at: 2026-10-16T01:22:16.550462+00:00
+  run_id: sirun_8c9514fd182f43e3881ab6bb5d2a52ba

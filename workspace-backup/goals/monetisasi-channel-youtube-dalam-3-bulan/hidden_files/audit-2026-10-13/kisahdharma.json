@@ -1,0 +1,40 @@
+{
+ "slug": "kisahdharma",
+ "handle": "@KisahDharma",
+ "date": "2026-10-13",
+ "analytics": {
+  "channel": "kisahdharma",
+  "handle": "@KisahDharma",
+  "channel_id": "UCAhInkFRxF3xkxW8kgFOrJA",
+  "days": 28,
+  "summary": {
+   "views": 0,
+   "watch_minutes": 0,
+   "subs_gained": 0
+  },
+  "videos": []
+ },
+ "enrich": {
+  "channel_id": "UCAhInkFRxF3xkxW8kgFOrJA",
+  "stats": {
+   "viewCount": "0",
+   "subscriberCount": "0",
+   "hiddenSubscriberCount": false,
+   "videoCount": "8"
+  },
+  "reader": "kisahdharma"
+ },
+ "playlists": [
+  {
+   "id": "PLI2DgtVbAKrM",
+   "title": "Ramayana",
+   "count": 3
+  }
+ ],
+ "videos_in_playlists": [
+  "34bSHOyyriY",
+  "7kzvq0KQyO0",
+  "QnSs69dmjIg"
+ ],
+ "videos_no_playlist": []
+}

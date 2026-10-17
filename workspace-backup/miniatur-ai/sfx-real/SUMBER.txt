@@ -1,0 +1,47 @@
+SUMBER EFEK SUARA (SFX) — sfx-real/
+===================================
+Diunduh: 2026-10-07 (WIB) — semua rekaman ASLI (bukan sintesis), gratis & bebas lisensi.
+Total 27 file MP3, 8.4 MB. File preview Freesound (lq) diunduh tanpa login.
+
+Lisensi:
+- CC0 = Creative Commons Zero — bebas dipakai komersial tanpa atribusi.
+- CC BY 4.0 = boleh dipakai komersial dengan atribusi ke perekam (cantumkan kredit di deskripsi video).
+- Orangefreesounds = free sound effects, boleh dipakai bebas (unduh langsung, tanpa login).
+
+1. chicken-cluck-1.mp3 | 9.4s | orangefreesounds.com | Realistic chicken clucking — free
+2. chicken-cluck-2.mp3 | 9.4s | orangefreesounds.com | Hen clucking — free
+3. rooster-crow.mp3 | 2.5s | orangefreesounds.com | Sound of cockerel crowing — free
+4. cow-moo-1.mp3 | 7.3s | orangefreesounds.com | Cows chewing and mooing close-up — free
+5. cow-moo-2.mp3 | 1.7s | freesound.org (TheKingOfGeeks360, "Bovines - Cattle; Cow Mooing") | CC0
+6. birds-ambience.mp3 | 45.0s | orangefreesounds.com | Birds chirping, peaceful morning birdsong — free
+7. wind-soft.mp3 | 43.7s | orangefreesounds.com | Wind blowing noise loop — free
+8. tractor-engine.mp3 | 7.2s | orangefreesounds.com | Tractor passing — free
+9. diesel-engine-start.mp3 | 3.2s | orangefreesounds.com | Chainsaw motor starting & idling (pull-start, terdekat yg ditemukan) — free
+10. diesel-engine-idle.mp3 | 22.8s | orangefreesounds.com | Diesel engine idle ambiance (passenger bus) — free
+11. water-gush.mp3 | 48.0s | freesound.org (Kolezan, "Water stream 4" — air menuang deras di antara batu) | CC BY 4.0
+12. water-trickle.mp3 | 137.4s | orangefreesounds.com | Running water stream ambience — free
+13. water-splash-1.mp3 | 1.4s | orangefreesounds.com | Single water splash — free
+14. water-splash-2.mp3 | 2.0s | orangefreesounds.com | Realistic water splash — free
+15. shovel-dig-1.mp3 | 14.5s | freesound.org (Glen_Dorner, "Shovel_hitting_hard_dirt_1") | CC BY 4.0
+16. shovel-dig-2.mp3 | 5.0s | freesound.org (Tiaan123, "digging.wav") | CC0
+17. shovel-dig-3.mp3 | 48.4s | freesound.org (kyles, digging with metal spades) | CC0
+18. cement-mix.mp3 | 17.0s | freesound.org (15HPanskaSuchopar_Jakub, "Cement mixer.wav") | CC0
+19. brick-place-1.mp3 | 8.1s | freesound.org (DanielMarais, "Brick Sliding Across Concrete Floor") | CC BY 4.0
+20. brick-place-2.mp3 | 0.8s | freesound.org (insanity54, "body_hit.wav" — bunyi thud/dentar) | CC0
+21. brick-place-3.mp3 | 1.8s | freesound.org (datasoundsample, "thud.wav") | CC BY 4.0
+22. trowel-scrape.mp3 | 11.3s | freesound.org (be_a_hero_not_a_patriot, "working with trowel mortar clay sand") | CC0
+23. metal-clink.mp3 | 2.3s | freesound.org (freemaster2, "Metal clang") | CC0
+24. wrench.mp3 | 0.8s | freesound.org (yfjesse, "Socket Wrench") | CC BY 4.0
+25. paint-brush.mp3 | 3.7s | freesound.org (acrober, slow paint brush strokes) | CC0
+26. valve-squeak.mp3 | 30.7s | freesound.org (FreqMan, "squeaky valve.wav" — keran shower diputar, squeak) | CC BY 4.0
+27. crow-caw.mp3 | 4.1s | freesound.org (nigelcoop, crow cawing loudly) | CC0
+
+CATATAN / GAGAL:
+- diesel-engine-start: tidak ditemukan starter diesel asli yang gratis; dipakai chainsaw pull-start + idle sebagai pendekatan terdekat. (1 pencarian intensif; sumber alternatif: Freesound butuh login.)
+- crow-caw: ditemukan (CC0) — tercakup di atas.
+- Semua 20 jenis SFX berhasil dipenuhi (27 file). Tidak ada jenis yang dilewati.
+
+Catatan kualitas: file dari Freesound adalah preview "lq" (bitrate rendah ~128 kbps), bukan file asli full-quality (yang butuh login). Untuk SFX pendek di video YouTube, kualitasnya cukup. Jika butuh versi HQ, unduh manual via akun Freesound (gratis mendaftar).
+
+Kredit atribusi CC BY 4.0 (cantumkan di deskripsi video):
+- Glen_Dorner, DanielMarais, datasoundsample, yfjesse, FreqMan, Kolezan — via Freesound (CC BY 4.0)

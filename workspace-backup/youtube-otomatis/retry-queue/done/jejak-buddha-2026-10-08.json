@@ -1,0 +1,8 @@
+{
+ "channel": "jejak-buddha",
+ "gagal_pada": "2026-10-10T20:47:00+07:00",
+ "instruksi_path": "/home/hatch/workspace/jejak-buddha/2026-10-08/upload-instruksi-2026-10-08.md",
+ "sebab": "Batas upload harian masih tercapai saat retry watchdog 10 Okt 20:47 WIB (task 5/6)",
+ "slot_target": "2026-10-09 19:00 WIB",
+ "video_path": "/home/hatch/workspace/jejak-buddha/2026-10-08/jejak-buddha-2026-10-08-upload.mp4"
+}

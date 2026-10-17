@@ -1,0 +1,76 @@
+INSTRUKSI UPLOAD — InkTime (@InkTime-d3t) — LONG VIDEO
+Tanggal produksi: 2026-10-11 | Slot: Terjadwal 2026-10-12 07:00 WIB (= 2026-10-11 19:00 US Eastern, prime time USA)
+
+=== 0. VERIFIKASI CHANNEL DULU (WAJIB, SEBELUM UPLOAD) ===
+- Buka YouTube Studio. PASTIKAN channel aktif = "InkTime".
+- Verifikasi via CHANNEL ID (bukan cuma nama!): URL Studio HARUS mengandung
+  UCoZl5OaqjXSVkE4S96RY8_g
+  Contoh: https://studio.youtube.com/channel/UCoZl5OaqjXSVkE4S96RY8_g
+- Kalau ID tidak cocok -> JANGAN upload, hentikan dan laporkan.
+- Cek sekilas tab Inspirasi/Analytics untuk konteks channel (opsional, cepat).
+
+=== 1. UPLOAD ===
+- Upload sebagai TIDAK PUBLIK (Unlisted) dulu.
+- File video: /home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-11-long.mp4
+  Durasi: ~7:24 (444.5 detik), 1280x720, 30fps, ada video+audio (voiceover EN + bumper suara owner).
+- AI DISCLOSURE: WAJIB centang "Altered content" (konten dibuat/diubah AI).
+- JANGAN set "made for kids". Komentar: ON (jangan pernah dimatikan).
+- Izinkan embedding: YA. Lisensi: Standar YouTube. Auto-chapters: ON.
+- Bahasa video: English. Kategori: Education.
+- Auto-dubbing: aktifkan EN -> ID dan EN -> ES.
+
+=== 2. JUDUL (FINAL) ===
+You Work MORE Than a Medieval Peasant
+
+=== 3. DESKRIPSI (template 6 bagian — paste apa adanya) ===
+A medieval peasant worked about 1,620 hours a year. The average American today works 1,791. Economists have done the math — and the Middle Ages wins on free time. But before you trade your laptop for a pitchfork, here is the brutal truth about what those "days off" really cost.
+
+Chapters:
+0:00 You work MORE than a medieval peasant
+0:32 The shocking math
+1:19 Why: 130 days off
+2:08 The industrious revolution
+2:54 The brutal trade-off
+3:54 Fewer hours, harder life
+4:32 It is about control
+5:23 The modern trap
+6:04 Free time is taken, not given
+6:45 Would YOU trade?
+
+What amazes me most is that we invented every labor-saving machine in history — and somehow ended up working MORE than people with wooden plows. If stories where real history flips what you thought you knew are your thing, subscribe to InkTime.
+
+Watch next: our video on the year 536 — the year the sun went out (link video long kemarin "Why 536 Was the Worst Year to Be Alive" dari tab Konten channel ini).
+
+Sources:
+- Schor, Juliet B. (1991). The Overworked American: The Unexpected Decline of Leisure. Basic Books. (medieval English workers estimated ~1,620 hrs/year)
+- de Vries, Jan (1994). "The Industrial Revolution and the Industrious Revolution." The Journal of Economic History, 54(2), 249-270.
+- Clark, Gregory (2007). A Farewell to Alms: A Brief Economic History of the World. Princeton University Press.
+- Hatcher, John — research on medieval English peasantry and harvest labor intensity (Plague, Population and the English Economy; The Black Death: A Personal History).
+- OECD. "Hours worked" — average annual hours actually worked per worker (USA ~1,791).
+
+#history #medievalhistory #worklifebalance #explainer
+
+=== 4. TAGS (20) ===
+medieval peasant, working hours history, Juliet Schor, overworked American, industrious revolution, Jan de Vries, medieval history, history documentary, whiteboard explainer, work life balance, 1300s, middle ages, OECD hours worked, history explained, ancient humans, labor history, why we work so much, burnout, hustle culture, InkTime
+
+=== 5. THUMBNAIL (Test & Compare — upload 3, biarkan YouTube uji) ===
+Utama:   /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-11.jpg    ("LESS WORK, 1300s")
+Varian 2: /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-11-v2.jpg ("FEWER HOURS?")
+Varian 3: /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-11-v3.jpg ("WORKED 150 DAYS?")
+
+=== 6. SETELAH METADATA RAPI ===
+- Masukkan ke 1 playlist bertema (buat "Medieval History" bila belum ada).
+- End screen: 1 video spesifik (video 536 kemarin) + 1 elemen playlist.
+- Set "Terjadwal": 2026-10-12 07:00 WIB.
+- Pinned comment (paste setelah tayang):
+  "1,620 hrs/year in the 1300s vs 1,791 today — which number shocked you more? Chapters above. And the real question: would YOU trade your job for a peasant's calendar? Tell me why (or why not)."
+- Review akurasi auto-caption (perbaiki istilah: Schor, de Vries, OECD bila salah).
+
+=== 7. CATATAN PRODUKSI ===
+- Bahasa: English | Voiceover: TTS avocado_v2:miles | Persona: "Pak Guru Ink"
+- Visual: 10 gambar sketsa whiteboard + draw-reveal wipe + burned captions + film grain (anti-AI look).
+- AI clips: GAGAL total 4/4 (media.generate_video: "video_not_available", region 403 — sama seperti kemarin). Fallback ke gambar untuk semua beat, sesuai aturan. TIDAK ada retry (aturan: jangan ulangi request video yang ditolak region).
+- Bumper suara owner (bumper-inktime.wav, 4.6 dtk) diselipkan di jeda natural antara beat 5 dan 6 (~3:50), dengan kartu putih + teks "InkTime" tengah (REVISI QC 11:53: versi awal pakai gambar beat-5 + lower-third menabrak bullet — diperbaiki via splice bedah: segmen bumper diganti kartu putih bersih, audio asli utuh, A/V selisih <60ms).
+- File final: /home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-11-long.mp4 (444.5 dtk, 21.5 MB, h264+aac, terverifikasi). Backup v1 (bumper lama): inktime-2026-10-11-long-v1bak.mp4.
+- CTA: verbal + overlay "SUBSCRIBE!" 3 dtk di ~50% (beat 6) + CTA akhir + pitch end-screen ke video 536.
+- Komentar: pastikan ON. AI disclosure: WAJIB centang.

@@ -1,0 +1,33 @@
+TUGAS: Upload 2 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Kerjakan BERURUTAN. Nama file UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 16 ===
+FILE: 16-kisahdharma-kisah-dharma-2026-10-09-short2.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Di Titik Terendah Hidupnya, Ia Malah Tersenyum #shorts #ramayana #hindu
+DESKRIPSI: Di saat paling hancur dalam hidupnya, Rama justru tersenyum tulus. "Empat belas tahun di hutan bukanlah hukuman bagi saya. Ini kesempatan untuk berbakti." Saya sendiri merinding membayangkan keteguhan seperti itu. 
+  
+ Kisah lengkap dari epos Ramayana ada di video long channel ini.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 17 ===
+FILE: 17-kisahdharma-kisah-dharma-2026-10-09-short3.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Takhta Kerajaan Diduduki Sepasang Sandal #shorts #ramayana #hindu
+DESKRIPSI: Bharata menolak takhta yang diperoleh dengan cara licik. Ia meletakkan sepasang sandal kayu milik kakaknya di singgasana — empat belas tahun takhta diduduki sandal, bukan manusia. Dan saya pun bertanya pada diri sendiri: sanggupkah saya melepas segalanya, demi sebuah janji? 
+  
+ Kisah lengkap dari epos Ramayana ada di video long channel ini.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+LAPORAN AKHIR: tiap nomor -> SUKSES + URL, atau GAGAL + alasan singkat.

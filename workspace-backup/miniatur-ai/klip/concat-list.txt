@@ -1,0 +1,8 @@
+file 'norm/a.mp4'
+file 'norm/b.mp4'
+file 'norm/c.mp4'
+file 'norm/d.mp4'
+file 'norm/e.mp4'
+file 'norm/f.mp4'
+file 'norm/g.mp4'
+file 'norm/h.mp4'

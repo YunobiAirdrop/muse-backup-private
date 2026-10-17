@@ -1,0 +1,63 @@
+{
+ "slug": "weird-en",
+ "handle": "@BizarreWorldDaily",
+ "date": "2026-10-13",
+ "analytics": {
+  "channel": "weird-en",
+  "handle": "@BizarreWorldDaily",
+  "channel_id": "UCJ6KqdYvVJ-PaxhGLfTFVhA",
+  "days": 28,
+  "summary": {
+   "views": 3,
+   "watch_minutes": 2,
+   "subs_gained": 0
+  },
+  "videos": [
+   {
+    "video_id": "MnqiOkoot10",
+    "views": 3,
+    "likes": 1,
+    "watch_minutes": 2,
+    "avg_view_sec": 57,
+    "title": "The Great Emu War of 1932 — When Australia Lost a War to Birds",
+    "published": "2026-10-07",
+    "description": "In 1932, Australia declared war — on emus. The military brought machine guns. The birds brought chaos. This is the true story of the Great Emu War, one of the strangest military operations in history.\n\n⚠️ This video is an original retelling illustrated with AI-generated artwork.\n\n🔔 SUBSCRIBE to Weird World Daily for the strangest true stories on Earth!\n\n#weird #history #weirdfacts #funfacts #australia\n#foryou #viral",
+    "tags": [
+     "amazing facts",
+     "bizarre world",
+     "strange history",
+     "weird facts",
+     "weird places",
+     "weird world daily"
+    ],
+    "duration_iso": "PT9M17S",
+    "views_lt": 3,
+    "likes_lt": 1,
+    "comments_lt": 1,
+    "duration_sec": 557,
+    "retention_pct": 10.2
+   }
+  ]
+ },
+ "enrich": {
+  "channel_id": "UCJ6KqdYvVJ-PaxhGLfTFVhA",
+  "stats": {
+   "viewCount": "3",
+   "subscriberCount": "0",
+   "hiddenSubscriberCount": false,
+   "videoCount": "8"
+  },
+  "reader": "weird-en"
+ },
+ "playlists": [
+  {
+   "id": "PLF5KYcAHwR74",
+   "title": "Weird Places & Bizarre World Facts | Weird World Daily",
+   "count": 1
+  }
+ ],
+ "videos_in_playlists": [
+  "MnqiOkoot10"
+ ],
+ "videos_no_playlist": []
+}

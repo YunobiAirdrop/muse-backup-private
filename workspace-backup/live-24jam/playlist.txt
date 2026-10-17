@@ -1,0 +1,7 @@
+ffconcat version 1.0
+file '/home/hatch/workspace/youtube-otomatis/video/2026-10-03-upload.mp4'
+file '/home/hatch/workspace/youtube-otomatis/video/2026-10-04-web.mp4'
+file '/home/hatch/workspace/youtube-otomatis/video/2026-10-05.mp4'
+file '/home/hatch/workspace/youtube-otomatis/video/2026-10-06.mp4'
+file '/home/hatch/workspace/youtube-otomatis/video/2026-10-08-web.mp4'
+file '/home/hatch/workspace/youtube-otomatis/video/2026-10-09-final.mp4'

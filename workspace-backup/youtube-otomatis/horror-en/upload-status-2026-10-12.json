@@ -1,0 +1,32 @@
+{
+ "channel": "Midnight Dread Tales",
+ "handle": "@TalesOfDreadTV",
+ "channel_id": "UCR7uhocCg9YZM7-Qoi1sVGA",
+ "dibuat": "2026-10-12",
+ "jenis_hari_ini": "PRODUKSI LONG BARU (bank) — TIDAK ada upload manual hari ini",
+ "alasan_tidak_upload": "Long Watcher (2026-10-10) masih di antrean retry horror-en-2026-10-11.json, eligible >=2026-10-12 17:21 WIB, slot 2026-10-13 07:00 WIB, dikerjakan watchdog 20:00 WIB. Upload long manual hari ini = duplikat + bentrok pola selang-seling.",
+ "produksi_baru": {
+  "judul": "I Found Stairs in the Appalachian Woods",
+  "topik": "Appalachian Trail staircase (trend radar 2026-10-12 #2 horror stories appalachian trail, fit-check lolos)",
+  "script": "script/2026-10-12.txt (69 beat, 1187 kata, opini narator 3x, CTA tengah beat 36 + akhir)",
+  "audio": "audio/gabungan-2026-10-12.mp3 (465.3 dtk, TTS en briggs speed 92, jeda dramatis 2.2 dtk di 6 beat scare)",
+  "gambar": "gambar/2026-10-12/ 69/69 webp storybook gelap 16:9 terverifikasi di filesystem (2 laporan subagent soal beat 35-69 sempat tidak terbukti, sudah digenerate ulang & diverifikasi)",
+  "thumbnail": "thumbnail-2026-10-12.jpg (DON'T CLIMB THEM)",
+  "rakit": "rakit_2026-10-12.py SEDANG JALAN (antre ffmpeg-queue, 19 channel produksi paralel; resume-capable, nohup)",
+  "chain": "chain_assembly_2026-10-12.sh jalan: tunggu rakit OK -> sisip bumper suara clone user di 254.02 dtk -> potong 3 shorts (potong_shorts_2026-10-12.py) -> log chain-2026-10-12.log",
+  "video_target": "video/2026-10-12.mp4 (~7.8 mnt + bumper)",
+  "shorts_target": [
+   "shorts/2026-10-12-s1.mp4 (~26 dtk)",
+   "shorts/2026-10-12-s2.mp4 (~26 dtk)",
+   "shorts/2026-10-12-s3.mp4 (~49 dtk)"
+  ],
+  "instruksi_upload": "upload-instruksi-2026-10-12.md — BANK, slot tayang 2026-10-15 07:00 WIB"
+ },
+ "shorts_watcher_besok": {
+  "instruksi": "upload-instruksi-shorts-2026-10-13.md",
+  "perbaikan": "judul 3 shorts Watcher (shorts-rencana-2026-10-11.jsonl) ditambah #foryou sebagai hashtag terakhir (aturan user 2026-10-12)",
+  "slot": "upload run 2026-10-13, terjadwal 2026-10-14 07:00 WIB"
+ },
+ "upload_terakhir_txt": "TIDAK diubah ( tetap shorts:2026-10-09 ) — belum ada upload terkonfirmasi sejak itu; Watcher long masih antrean",
+ "url": "belum ada (tidak ada upload hari ini)"
+}

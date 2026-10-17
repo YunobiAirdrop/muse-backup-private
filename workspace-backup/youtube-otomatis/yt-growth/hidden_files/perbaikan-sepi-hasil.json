@@ -1,0 +1,219 @@
+{
+ "empires-en": {
+  "diubah": 11,
+  "verifikasi": [
+   {
+    "id": "6DwpnronVQQ",
+    "judul_cocok": true
+   },
+   {
+    "id": "XBDTTZi5M_Y",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "history-en": {
+  "diubah": 3,
+  "verifikasi": [
+   {
+    "id": "P8wVZLH-_8U",
+    "judul_cocok": true
+   },
+   {
+    "id": "PFG-p8TNA4o",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "horor": {
+  "diubah": 20,
+  "verifikasi": [
+   {
+    "id": "iSIaj3nG_vk",
+    "judul_cocok": true
+   },
+   {
+    "id": "m42ntYlIGSs",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "horror-en": {
+  "diubah": 4,
+  "verifikasi": [
+   {
+    "id": "LYjw4nTlwUE",
+    "judul_cocok": true
+   },
+   {
+    "id": "W-9_kjVUpuI",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "jejakbuddha": {
+  "diubah": 4,
+  "verifikasi": [
+   {
+    "id": "Rf14NV4B3Fs",
+    "judul_cocok": true
+   },
+   {
+    "id": "arJpVXPCJcs",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "jejakislami": {
+  "diubah": 6,
+  "verifikasi": [
+   {
+    "id": "l3G0yeRWSN8",
+    "judul_cocok": true
+   },
+   {
+    "id": "8LdS1kmxEjg",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "kisahalkitab": {
+  "diubah": 3,
+  "verifikasi": [
+   {
+    "id": "NwQSkmd0XR4",
+    "judul_cocok": true
+   },
+   {
+    "id": "loFcWFwCh6E",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "kisahdharma": {
+  "diubah": 3,
+  "verifikasi": [
+   {
+    "id": "34bSHOyyriY",
+    "judul_cocok": true
+   },
+   {
+    "id": "QnSs69dmjIg",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "lima-misteri": {
+  "diubah": 10,
+  "verifikasi": [
+   {
+    "id": "K8QaZZXVN2Q",
+    "judul_cocok": true
+   },
+   {
+    "id": "rgGUFu8m6zw",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "mind-en": {
+  "diubah": 6,
+  "verifikasi": [
+   {
+    "id": "iKiyHMameGQ",
+    "judul_cocok": true
+   },
+   {
+    "id": "eHDUZyD8oKw",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "mystery-en": {
+  "diubah": 4,
+  "verifikasi": [
+   {
+    "id": "bmcSYyeN6Vs",
+    "judul_cocok": true
+   },
+   {
+    "id": "g900Smffbuo",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "space-en": {
+  "diubah": 6,
+  "verifikasi": [
+   {
+    "id": "5S1A7qDZj0M",
+    "judul_cocok": true
+   },
+   {
+    "id": "I-fJeXXkgn8",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "strangetales": {
+  "diubah": 10,
+  "verifikasi": [
+   {
+    "id": "_I_NbyyTiFM",
+    "judul_cocok": true
+   },
+   {
+    "id": "Pn6JCkju1zs",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "tinybuilders": {
+  "diubah": 7,
+  "verifikasi": [
+   {
+    "id": "uiTYVHzYzjU",
+    "judul_cocok": true
+   },
+   {
+    "id": "kCoM5sT9q40",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "truecrime-en": {
+  "diubah": 11,
+  "verifikasi": [
+   {
+    "id": "b3KyDWsTyq0",
+    "judul_cocok": true
+   },
+   {
+    "id": "cDji7o2q26U",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "weird-en": {
+  "diubah": 1,
+  "verifikasi": [
+   {
+    "id": "MnqiOkoot10",
+    "judul_cocok": true
+   }
+  ]
+ },
+ "youtube-pov": {
+  "diubah": 19,
+  "verifikasi": [
+   {
+    "id": "W--QaM2Mm2A",
+    "judul_cocok": true
+   },
+   {
+    "id": "7pSgcSnNT9I",
+    "judul_cocok": true
+   }
+  ]
+ }
+}

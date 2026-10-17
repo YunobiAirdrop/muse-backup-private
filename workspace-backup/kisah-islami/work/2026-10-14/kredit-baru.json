@@ -1,0 +1,82 @@
+{
+  "c01": {
+    "title": "1001 Adventure Tours - Travel Blog - Travel Minute Slovenia - Postojnska Jama Cave, Slovenia.webm",
+    "license": "CC BY",
+    "artist": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.youtube.com/user/1001adventures\">https://www.youtube.com/user/",
+    "page": "https://commons.wikimedia.org/wiki/File:1001_Adventure_Tours_-_Travel_Blog_-_Travel_Minute_Slovenia_-_Postojnska_Jama_Cave,_Slovenia.webm",
+    "w": 1280,
+    "h": 720,
+    "keyword": "cave interior",
+    "file": "c01.webm"
+  },
+  "c02": {
+    "title": "Ch teau de Linderhof la grotte de Venus .ogv",
+    "license": "CC BY-SA",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:PIERRE_ANDRE_LECLERCQ\" class=\"mw-redirect\" title=\"User:PIERRE ANDRE LECLERCQ\"",
+    "page": "https://commons.wikimedia.org/wiki/File:Ch_teau_de_Linderhof_la_grotte_de_Venus_.ogv",
+    "w": 1920,
+    "h": 1080,
+    "keyword": "cave interior",
+    "file": "c02.ogv"
+  },
+  "c03": {
+    "title": "Burning Man 1995.webm",
+    "license": "CC BY",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://vimeo.com/ammonhaggerty\">Ammon Haggerty</a>",
+    "page": "https://commons.wikimedia.org/wiki/File:Burning_Man_1995.webm",
+    "w": 872,
+    "h": 480,
+    "keyword": "desert night",
+    "file": "c03.webm"
+  },
+  "c04": {
+    "title": "Burning Man Seen From JPSS (CIRA 2024-09-03 - labels).webm",
+    "license": "PD/CC0",
+    "artist": "JPSS imagery: CSU/CIRA &amp; NOAA/NESDIS",
+    "page": "https://commons.wikimedia.org/wiki/File:Burning_Man_Seen_From_JPSS_(CIRA_2024-09-03_-_labels).webm",
+    "w": 1920,
+    "h": 1080,
+    "keyword": "desert night",
+    "file": "c04.webm"
+  },
+  "c05": {
+    "title": "ASC Leiden - van de Bruinhorst Collection - Somaliland 2019 - 4407 - Digital Quran read pen scanner (Qalaamu Qari) demonstrated by a bookseller in Al-Fajri (also spelled as “al fajar”) Bookshop & Stationery, Hargeisa.webm",
+    "license": "CC BY-SA",
+    "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q61827747\" class=\"extiw\" title=\"d:Q61827747\"><span title=\"africanist at the ",
+    "page": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_van_de_Bruinhorst_Collection_-_Somaliland_2019_-_4407_-_Digital_Quran_read_pen_scanner_(Qalaamu_Qari)_demonstrated_by_a_bookseller_in_Al-Fajri_(also_spelled_as_%E2%80%9Cal_fajar%E2%80%9D)_Bookshop_%26_Stationery,_Hargeisa.webm",
+    "w": 1920,
+    "h": 1080,
+    "keyword": "quran",
+    "file": "c05.webm"
+  },
+  "c06": {
+    "title": "BIM Al-Quran.webm",
+    "license": "PD/CC0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:PeaceSeekers\" title=\"User:PeaceSeekers\">PeaceSeekers</a>",
+    "page": "https://commons.wikimedia.org/wiki/File:BIM_Al-Quran.webm",
+    "w": 1440,
+    "h": 1440,
+    "keyword": "quran",
+    "file": "c06.webm"
+  },
+  "c07": {
+    "title": "10th Mountain Division employs new technology during Combined Resolve 25-1 (950098).webm",
+    "license": "PD/CC0",
+    "artist": "U.S. Army video by Spc. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1771097\">Jennif",
+    "page": "https://commons.wikimedia.org/wiki/File:10th_Mountain_Division_employs_new_technology_during_Combined_Resolve_25-1_(950098).webm",
+    "w": 1080,
+    "h": 1920,
+    "keyword": "mountains night",
+    "file": "c07.webm"
+  },
+  "c08": {
+    "title": "Alexander Mountain Fire Burns Through the Night (CIRA 2024-07-30 - labels).webm",
+    "license": "PD/CC0",
+    "artist": "GOES imagery: CSU/CIRA &amp; NOAA",
+    "page": "https://commons.wikimedia.org/wiki/File:Alexander_Mountain_Fire_Burns_Through_the_Night_(CIRA_2024-07-30_-_labels).webm",
+    "w": 1920,
+    "h": 1080,
+    "keyword": "mountains night",
+    "file": "c08.webm"
+  }
+}

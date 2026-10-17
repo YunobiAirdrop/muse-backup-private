@@ -1,0 +1,24 @@
+---
+id: retry-upload-cepat
+title: Retry upload cepat (3 jam)
+enabled: true
+owner: goal:retry-otomatis-upload-youtube
+mode: task
+schedule:
+  kind: interval
+  timezone: Asia/Jakarta
+  at: 2026-10-09T03:55:14
+  every: 3h
+delivery:
+  - chat_id: cff15a74-710d-4347-9f43-b63e9629bb90
+metadata:
+  tags: [cron:automatic-interval-anchor]
+  originating_chat_context_json: '{"origin_provider":"main","chat_kind":"direct","event_kind":"message","require_mention":false}'
+  presentation_locale: id-ID
+---
+**RETRY UPLOAD CEPAT (pendamping watchdog 20:00).** Tiap run:
+1. List ~/workspace/youtube-otomatis/retry-queue/*.json (abaikan folder done/). Jika kosong → selesai diam-diam.
+2. Untuk tiap antrean (urut gagal_pada paling lama): baca JSON + instruksi_path, verifikasi video_path ada. Umur = sekarang - gagal_pada. Jika < 23 jam → SKIP. Jika >= 23 jam → spawn browser task upload ke YouTube Studio sesuai instruksi_path (cek channel aktif benar, AI disclosure WAJIB dicentang, status Terjadwal ke slot_target; jika slot lewat/terisi pakai slot kosong terdekat).
+3. SUKSES (terjadwal/tayang) → pindahkan JSON ke retry-queue/done/. GAGAL karena limit → biarkan di antrean. GAGAL sebab lain → biarkan + catat.
+4. Jika ada yang SUKSES → laporkan singkat ke chat (judul + URL). Jika tidak ada yang eligible/tidak ada yang sukses → diam, jangan lapor.
+Jangan edit MEMORY.md; observasi ke ~/memory/YYYY-MM-DD.md.

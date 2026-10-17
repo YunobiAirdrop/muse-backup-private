@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-2EKWMDG4B2'/>
+<script>
+//<![CDATA[
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-2EKWMDG4B2');
+//]]>
+</script>
+
+<meta charset='UTF-8'/>
+<title><data:blog.pageTitle/></title>
+<b:include data='blog' name='all-head-content'/>
+<b:skin><![CDATA[*{margin:0;padding:0;box-sizing:border-box}
+:root{--aksen:#059669;--gelap:#0f172a;--teks:#1e293b;--latar:#f1f5f9}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--latar);color:var(--teks);line-height:1.6}
+.wrap{max-width:1140px;margin:0 auto;padding:0 16px}
+a{color:var(--aksen);text-decoration:none}
+img{max-width:100%;height:auto}
+.topbar{background:linear-gradient(90deg,#0f172a,#1e293b);color:#cbd5e1;font-size:13px;padding:9px 0}
+.topbar .wrap{display:flex;justify-content:space-between;gap:12px}
+.topbar .tgl{font-weight:700;color:#fff}
+.site-header{background:#fff;padding:32px 0;text-align:center;border-bottom:1px solid #e2e8f0;position:relative;overflow:hidden}
+.site-header::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#059669,#f59e0b,#059669)}
+.logo a{font-size:42px;font-weight:900;color:var(--gelap);letter-spacing:-1.5px}
+.logo a span{color:var(--aksen)}
+.logo p{color:#64748b;font-size:15px;margin-top:8px}
+.navbar{background:var(--gelap);position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+.navbar .wrap{display:flex;align-items:center}
+.menu-toggle{display:none;background:none;border:none;color:#fff;font-size:24px;padding:12px;cursor:pointer}
+ul.menu{list-style:none;display:flex;gap:2px}
+ul.menu a{display:block;color:#e2e8f0;padding:15px 20px;font-weight:600;font-size:15px;transition:.25s;position:relative}
+ul.menu a::after{content:'';position:absolute;bottom:0;left:20px;right:20px;height:3px;background:var(--aksen);transform:scaleX(0);transition:.25s}
+ul.menu a:hover{color:#fff}
+ul.menu a:hover::after{transform:scaleX(1)}
+.ticker{background:#fff;border-bottom:1px solid #e2e8f0;padding:11px 0}
+.ticker .wrap{display:flex;align-items:center;gap:12px}
+.ticker-label{background:linear-gradient(135deg,#059669,#b91c1c);color:#fff;font-weight:800;font-size:12px;padding:7px 16px;border-radius:20px;text-transform:uppercase;flex-shrink:0;box-shadow:0 2px 8px rgba(225,29,46,.3);animation:denyut 2s infinite}
+@keyframes denyut{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+.ticker-view{overflow:hidden;flex:1}
+.ticker-items{display:flex;gap:36px;white-space:nowrap;animation:geser 30s linear infinite}
+@keyframes geser{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.ticker-items a{color:#334155;font-size:14px;font-weight:500}
+.ticker-items a:hover{color:var(--aksen)}
+.konten{display:flex;gap:26px;padding:30px 16px;align-items:flex-start}
+.konten-utama{flex:1;min-width:0}
+.judul-section{font-size:24px;font-weight:900;color:var(--gelap);margin-bottom:20px;display:flex;align-items:center;gap:12px}
+.judul-section::before{content:'';width:6px;height:28px;background:linear-gradient(180deg,#059669,#f59e0b);border-radius:3px}
+/* Kartu JS */
+#daftar-js{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:22px}
+.kartu-js{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(15,23,42,.08);transition:.3s cubic-bezier(.4,0,.2,1);opacity:0;transform:translateY(24px);animation:muncul .6s forwards}
+@keyframes muncul{to{opacity:1;transform:translateY(0)}}
+.kartu-js:hover{transform:translateY(-6px);box-shadow:0 12px 32px rgba(15,23,42,.15)}
+.kartu-js .gbr{display:block;aspect-ratio:16/9;overflow:hidden;background:linear-gradient(135deg,#e2e8f0,#cbd5e1);position:relative}
+.kartu-js .gbr img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.kartu-js:hover .gbr img{transform:scale(1.08)}
+.kartu-js .kat{position:absolute;top:12px;left:12px;background:var(--aksen);color:#fff;font-size:11px;font-weight:800;padding:5px 12px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px}
+.kartu-js .isi{padding:20px}
+.kartu-js h3{font-size:17px;line-height:1.5;margin-bottom:8px}
+.kartu-js h3 a{color:var(--gelap);transition:.2s}
+.kartu-js h3 a:hover{color:var(--aksen)}
+.kartu-js .meta{font-size:12px;color:#94a3b8;margin-bottom:10px}
+.kartu-js .ringkasan{font-size:14px;color:#475569;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+/* Loading */
+.loading{text-align:center;padding:60px 20px;color:#94a3b8}
+.loading .spin{width:48px;height:48px;border:4px solid #e2e8f0;border-top-color:var(--aksen);border-radius:50%;margin:0 auto 16px;animation:putar 1s linear infinite}
+@keyframes putar{to{transform:rotate(360deg)}}
+/* Artikel full JS */
+.artikel-js{background:#fff;border-radius:16px;padding:36px;box-shadow:0 4px 20px rgba(15,23,42,.08);animation:muncul .5s}
+.artikel-js h1{font-size:30px;line-height:1.35;color:var(--gelap);margin:14px 0}
+.artikel-js .meta{padding-bottom:18px;border-bottom:1px solid #e2e8f0;margin-bottom:22px}
+.artikel-js .konten-artikel{font-size:17px;line-height:1.85;color:#334155}
+.artikel-js .konten-artikel p{margin-bottom:18px}
+.artikel-js .konten-artikel img{border-radius:12px;margin:20px 0;box-shadow:0 4px 16px rgba(0,0,0,.1)}
+.breadcrumb{font-size:13px;color:#94a3b8}
+.sidebar{width:300px;flex-shrink:0;display:flex;flex-direction:column;gap:20px}
+.sidebar .widget{background:#fff;border-radius:16px;padding:22px;box-shadow:0 4px 20px rgba(15,23,42,.08)}
+.sidebar h2{font-size:16px;font-weight:800;margin-bottom:14px;color:var(--gelap);display:flex;align-items:center;gap:8px}
+.sidebar h2::before{content:'';width:4px;height:18px;background:var(--aksen);border-radius:2px}
+footer{background:linear-gradient(180deg,#0f172a,#020617);color:#94a3b8;margin-top:44px}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:36px;padding:48px 16px}
+footer h3{color:#fff;font-size:17px;margin-bottom:18px}
+footer p,footer a{font-size:14px;line-height:2}
+footer a:hover{color:#fff}
+.copyright{text-align:center;padding:22px;border-top:1px solid #1e293b;font-size:13px}
+.totop{position:fixed;bottom:24px;right:24px;width:52px;height:52px;background:linear-gradient(135deg,#059669,#b91c1c);color:#fff;border:none;border-radius:50%;font-size:22px;cursor:pointer;box-shadow:0 4px 16px rgba(225,29,46,.4);opacity:0;pointer-events:none;transition:.3s;z-index:99}
+.totop.tampil{opacity:1;pointer-events:auto}
+.totop:hover{transform:translateY(-3px)}
+@media(max-width:768px){.konten{flex-direction:column}.sidebar{width:100%}ul.menu{display:none;flex-direction:column;width:100%}ul.menu.buka{display:flex}.menu-toggle{display:block}#daftar-js{grid-template-columns:1fr}.artikel-js{padding:22px}.artikel-js h1{font-size:23px}.logo a{font-size:32px}}
+/* ===== Halaman Artikel Individual ===== */
+.artikel-full{background:#fff;border-radius:16px;padding:38px;box-shadow:0 4px 24px rgba(0,0,0,.08);animation:fadeUp .5s ease}
+.breadcrumb{font-size:13px;color:#888;margin-bottom:18px}
+.breadcrumb a{color:#059669;text-decoration:none;font-weight:600}
+.judul-artikel{font-size:32px;font-weight:900;line-height:1.3;color:#1a1a2e;margin-bottom:14px}
+.meta-artikel{font-size:14px;color:#888;margin-bottom:24px;padding-bottom:18px;border-bottom:2px solid #f0f0f0}
+.meta-artikel .kat{background:linear-gradient(135deg,#059669,#f59e0b);color:#fff;padding:4px 14px;border-radius:20px;font-size:12px;font-weight:700}
+.isi-artikel{font-size:17px;line-height:1.85;color:#333}
+.isi-artikel p{margin-bottom:18px}
+.isi-artikel h2{font-size:24px;font-weight:800;margin:28px 0 14px;color:#1a1a2e}
+.isi-artikel h3{font-size:20px;font-weight:700;margin:24px 0 12px;color:#1a1a2e}
+.isi-artikel img{max-width:100%;height:auto;border-radius:12px;margin:18px 0}
+.isi-artikel ul,.isi-artikel ol{margin:0 0 18px 24px}
+.isi-artikel li{margin-bottom:8px}
+.isi-artikel blockquote{border-left:4px solid #059669;background:#fef2f2;padding:14px 20px;border-radius:0 10px 10px 0;margin:20px 0;font-style:italic}
+.kembali{margin-top:32px;padding-top:20px;border-top:2px solid #f0f0f0}
+.kembali a{color:#059669;font-weight:700;text-decoration:none;font-size:16px}
+@media(max-width:768px){.artikel-full{padding:22px}.judul-artikel{font-size:24px}.isi-artikel{font-size:16px}}]]></b:skin>
+</head>
+<body>
+<!-- KABARVIRAL-THEME v1.16 -->
+<!-- ===== Bilah atas ===== -->
+<div class='topbar'>
+<div class='wrap'>
+<span class='tgl' id='tgl-hari-ini'>Memuat tanggal...</span>
+<span>Kabar viral terkini, terupdate setiap hari</span>
+</div>
+</div>
+
+<!-- ===== Header ===== -->
+<header class='site-header'>
+<div class='wrap header-in'>
+<div class='logo'>
+<a expr:href='data:blog.homepageUrl'><data:blog.title/></a>
+<p>Berita terkini: keuangan, teknologi, nasional &amp; gaya hidup</p>
+</div>
+<!-- SLOT IKLAN 1 (Header 728x90): tempel kode AdSense di dalam div ini setelah disetujui -->
+<div class='slot-iklan ad-leaderboard'>
+</div>
+</div>
+</header>
+
+<!-- ===== Navigasi ===== -->
+<nav class='navbar'>
+<div class='wrap'>
+<button aria-label='Menu' class='menu-toggle' id='menu-toggle'>&#9776;</button>
+<b:section class='nav-section' id='nav' maxwidgets='1' showaddelement='no'>
+  <b:widget id='LinkList1' locked='false' title='Menu Navigasi' type='LinkList' version='2' visible='true'>
+    <b:includable id='main' var='top'>
+<ul class='menu' id='menu-utama'>
+<li><a expr:href='data:blog.homepageUrl'>Beranda</a></li>
+<b:loop values='data:links' var='link'>
+<li><a expr:href='data:link.target'><data:link.name/></a></li>
+</b:loop>
+</ul>
+</b:includable>
+    <b:includable id='content'>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+ </div>
+</b:includable>
+  </b:widget>
+</b:section>
+</div>
+</nav>
+
+<!-- ===== Ticker berita terkini ===== -->
+<div class='ticker'>
+<div class='wrap'>
+<span class='ticker-label'>Terkini</span>
+<div class='ticker-view'><div class='ticker-items' id='ticker-items'><span>Memuat berita terbaru...</span></div></div>
+</div>
+</div>
+
+<!-- ===== Konten utama ===== -->
+<main class='wrap konten'>
+<div class='konten-utama'>
+<b:section class='main' id='main' maxwidgets='1' showaddelement='no'>
+  <b:widget id='Header1' locked='false' title='KabarViral (Header)' type='Header'>
+    <b:widget-settings>
+      <b:widget-setting name='displayUrl'/>
+      <b:widget-setting name='displayHeight'>0</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
+      <b:widget-setting name='useImage'>false</b:widget-setting>
+      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+      <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
+      <b:widget-setting name='displayWidth'>0</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+
+  <b:if cond='data:useImage'>
+    <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
+      <!--
+      Show image as background to text. You can't really calculate the width
+      reliably in JS because margins are not taken into account by any of
+      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
+      width if the user is using shrink to fit.
+      This results in a margin-width's worth of pixels being cropped. If the
+      user is not using shrink to fit then we expand the header.
+      -->
+      <b:if cond='data:mobile'>
+        <div id='header-inner'>
+          <div class='titlewrapper' style='background: transparent'>
+            <h1 class='title' style='background: transparent; border-width: 0px'>
+              <b:include name='title'/>
+            </h1>
+          </div>
+          <b:include name='description'/>
+        </div>
+      <b:else/>
+        <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;                      + &quot;background-position: &quot;                      + data:backgroundPositionStyleStr + &quot;; &quot;                      + data:widthStyleStr                      + &quot;min-height: &quot; + data:height                      + &quot;_height: &quot; + data:height                      + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
+          <div class='titlewrapper' style='background: transparent'>
+            <h1 class='title' style='background: transparent; border-width: 0px'>
+              <b:include name='title'/>
+            </h1>
+          </div>
+          <b:include name='description'/>
+        </div>
+      </b:if>
+    <b:else/>
+      <!--Show the image only-->
+      <div id='header-inner'>
+        <a expr:href='data:blog.homepageUrl' style='display: block'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/>
+        </a>
+        <!--Show the description-->
+        <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
+          <b:include name='description'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <!--No header image -->
+    <div id='header-inner'>
+      <div class='titlewrapper'>
+        <h1 class='title'>
+          <b:include name='title'/>
+        </h1>
+      </div>
+      <b:include name='description'/>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='description'>
+  <div class='descriptionwrapper'>
+    <p class='description'><span><data:description/></span></p>
+  </div>
+</b:includable>
+    <b:includable id='title'>
+  <b:tag cond='data:blog.url != data:blog.homepageUrl' expr:href='data:blog.homepageUrl' name='a'>
+    <data:title/>
+  </b:tag>
+</b:includable>
+  </b:widget>
+  <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
+    <b:includable id='main'>
+  <div class='widget-content'>
+    <data:adCode/>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='AdSense2' locked='false' title='' type='AdSense'>
+    <b:includable id='main'>
+  <div class='widget-content'>
+    <data:adCode/>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='Attribution1' locked='false' title='' type='Attribution'>
+    <b:widget-settings>
+      <b:widget-setting name='copyright'/>
+    </b:widget-settings>
+    <b:includable id='main'>
+    <div class='widget-content' style='text-align: center;'>
+      <b:if cond='data:attribution != &quot;&quot;'>
+       <data:attribution/>
+      </b:if>
+    </div>
+
+    <b:include name='quickedit'/>
+  </b:includable>
+  </b:widget>
+  <b:widget id='BlogArchive1' locked='false' title='Arsip Blog' type='BlogArchive'>
+    <b:widget-settings>
+      <b:widget-setting name='showStyle'>FLAT</b:widget-setting>
+      <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
+      <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
+      <b:widget-setting name='monthPattern'>MMMM yyyy</b:widget-setting>
+      <b:widget-setting name='dayPattern'>MMM dd</b:widget-setting>
+      <b:widget-setting name='weekPattern'>MM/dd</b:widget-setting>
+      <b:widget-setting name='chronological'>false</b:widget-setting>
+      <b:widget-setting name='showPosts'>true</b:widget-setting>
+      <b:widget-setting name='frequency'>MONTHLY</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+  <div id='ArchiveList'>
+  <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
+    <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
+    <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
+    <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
+  </div>
+  </div>
+  <b:include name='quickedit'/>
+  </div>
+</b:includable>
+    <b:includable id='flat' var='data'>
+  <ul class='flat'>
+    <b:loop values='data:data' var='i'>
+      <li class='archivedate'>
+        <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+    <b:includable id='interval' var='intervalData'>
+  <b:loop values='data:intervalData' var='interval'>
+    <ul class='hierarchy'>
+      <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
+        <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
+        <a class='post-count-link' expr:href='data:interval.url'>
+          <data:interval.name/>
+        </a>
+        <span class='post-count' dir='ltr'>(<data:interval.post-count/>)</span>
+        <b:include cond='data:interval.data' data='interval.data' name='interval'/>
+        <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
+      </li>
+    </ul>
+  </b:loop>
+</b:includable>
+    <b:includable id='menu' var='data'>
+  <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
+    <option value=''><data:title/></option>
+    <b:loop values='data:data' var='i'>
+      <option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
+    </b:loop>
+  </select>
+</b:includable>
+    <b:includable id='posts' var='posts'>
+  <ul class='posts'>
+    <b:loop values='data:posts' var='post'>
+      <li><a expr:href='data:post.url'><data:post.title/></a></li>
+    </b:loop>
+  </ul>
+</b:includable>
+    <b:includable id='toggle' var='interval'>
+  <a class='toggle' href='javascript:void(0)'>
+    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
+      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
+        &#9660;&#160;
+      <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
+        &#9668;&#160;
+      <b:else/>
+        &#9658;&#160;
+      </b:if>
+    </span>
+  </a>
+</b:includable>
+  </b:widget>
+  <b:widget id='ReportAbuse1' locked='false' title='' type='ReportAbuse'>
+    <b:includable id='main'>
+  <b:include name='reportAbuse'/>
+</b:includable>
+  </b:widget>
+  <b:widget cond='!data:view.isPost' id='PageList1' locked='false' title='' type='PageList'>
+    <b:widget-settings>
+      <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"http://kabarviralterkiniterbaru.blogspot.com/","position":0,"title":"Beranda"}}]]></b:widget-setting>
+      <b:widget-setting name='homeTitle'>Beranda</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <b:if cond='data:mobile'>
+      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+        <b:if cond='data:showPlaceholder'>
+          <option disabled='disabled' hidden='hidden' value=''>
+            <b:attr cond='!data:hasCurrentPage' name='selected' value='selected'/>
+            <b:message name='messages.moveToPage'/>
+          </option>
+        </b:if>
+        <b:loop values='data:links' var='link'>
+          <option expr:value='data:link.href'>
+            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
+            <data:link.title/>
+          </option>
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+          <li>
+            <b:class cond='data:link.isCurrentPage' name='selected'/>
+            <a expr:href='data:link.href'><data:link.title/></a>
+          </li>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='Profile1' locked='false' title='Mengenai Saya' type='Profile'>
+    <b:widget-settings>
+      <b:widget-setting name='showaboutme'>true</b:widget-setting>
+      <b:widget-setting name='showlocation'>false</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+    <b:if cond='data:team'> <!-- team blog profile -->
+      <ul>
+        <b:loop values='data:authors' var='i'>
+          <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
+        </b:loop>
+      </ul>
+
+    <b:else/> <!-- normal blog profile -->
+
+      <b:if cond='data:photo.url != &quot;&quot;'>
+        <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
+      </b:if>
+
+      <dl class='profile-datablock'>
+        <dt class='profile-data'>
+          <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
+            <data:displayname/>
+          </a>
+        </dt>
+
+        <b:if cond='data:showlocation'>
+          <dd class='profile-data'><data:location/></dd>
+        </b:if>
+
+        <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
+      </dl>
+      <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
+    </b:if>
+
+     <b:include name='quickedit'/>
+    </div>
+  </b:includable>
+  </b:widget>
+  <b:widget cond='data:view.isHomepage' id='FeaturedPost1' locked='false' title='' type='FeaturedPost'>
+    <b:widget-settings>
+      <b:widget-setting name='showSnippet'>true</b:widget-setting>
+      <b:widget-setting name='showPostTitle'>true</b:widget-setting>
+      <b:widget-setting name='showFirstImage'>true</b:widget-setting>
+      <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- Only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <b:include name='content'/>
+
+  <b:include name='quickedit'/>
+</b:includable>
+    <b:includable id='content'>
+  <div class='post-summary'>
+    <b:if cond='data:showPostTitle and data:postTitle != &quot;&quot;'>
+      <h3><a expr:href='data:postUrl'><data:postTitle/></a></h3>
+    </b:if>
+    <b:if cond='data:showSnippet and data:postSummary != &quot;&quot;'>
+      <p>
+        <data:postSummary/>
+      </p>
+    </b:if>
+    <b:if cond='data:showFirstImage and data:postFirstImage != &quot;&quot;'>
+      <img class='image' expr:src='data:postFirstImage'/>
+    </b:if>
+  </div>
+
+  <style type='text/css'>
+    .image {
+      width: 100%;
+    }
+  </style>
+</b:includable>
+  </b:widget>
+  <b:widget id='Blog1' locked='false' title='Postingan Blog' type='Blog' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+      <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showShareButtons'>true</b:widget-setting>
+      <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+      <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showAuthor'>false</b:widget-setting>
+      <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+      <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='timestampLabel'/>
+      <b:widget-setting name='reactionsLabel'/>
+      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+      <b:widget-setting name='showLabels'>true</b:widget-setting>
+      <b:widget-setting name='showLocation'>true</b:widget-setting>
+      <b:widget-setting name='postLabelsLabel'/>
+      <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+      <b:widget-setting name='postsPerAd'>3</b:widget-setting>
+      <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showInlineAds'>true</b:widget-setting>
+      <b:widget-setting name='showReactions'>false</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main' var='top'>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+  <h2 class='section-judul'>Berita Terbaru</h2>
+  <div class='grid'>
+  <b:loop values='data:posts' var='post'>
+  <!-- Kartu berita: kartu pertama otomatis tampil besar sebagai headline via CSS -->
+  <article class='kartu'>
+    <b:if cond='data:post.featuredImage'>
+    <a class='gambar' expr:href='data:post.url'><img expr:alt='data:post.title' expr:src='data:post.featuredImage'/></a>
+    </b:if>
+    <div class='isi'>
+      <b:if cond='data:post.labels'>
+      <b:loop values='data:post.labels' var='label'><span class='label-kat'><data:label.name/></span> </b:loop>
+      </b:if>
+      <h3><a expr:href='data:post.url'><data:post.title/></a></h3>
+      <div class='meta'><data:post.timestamp/></div>
+      <p class='ringkasan'><data:post.snippet/></p>
+    </div>
+  </article>
+  </b:loop>
+  </div>
+  <div class='pagenav'>
+    <b:include name='nextprev'/>
+  </div>
+<b:elseif cond='data:blog.pageType == &quot;item&quot;'/>
+  <b:loop values='data:posts' var='post'>
+  <b:include data='post' name='post'/>
+  </b:loop>
+<b:else/>
+  <h2 class='section-judul'><data:blog.pageName/></h2>
+  <div class='grid'>
+  <b:loop values='data:posts' var='post'>
+  <article class='kartu'>
+    <b:if cond='data:post.featuredImage'>
+    <a class='gambar' expr:href='data:post.url'><img expr:alt='data:post.title' expr:src='data:post.featuredImage'/></a>
+    </b:if>
+    <div class='isi'>
+      <h3><a expr:href='data:post.url'><data:post.title/></a></h3>
+      <div class='meta'><data:post.timestamp/></div>
+      <p class='ringkasan'><data:post.snippet/></p>
+    </div>
+  </article>
+  </b:loop>
+  </div>
+  <div class='pagenav'>
+    <b:include name='nextprev'/>
+  </div>
+</b:if>
+</b:includable>
+    <b:includable id='aboutPostAuthor'>
+  <div class='author-name'>
+    <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
+      <span>
+        <data:post.author.name/>
+      </span>
+    </a>
+  </div>
+  <div>
+    <span class='author-desc'>
+      <data:post.author.aboutMe/>
+    </span>
+  </div>
+</b:includable>
+    <b:includable id='addComments'>
+  <a expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:message name='messages.postAComment'/>
+  </a>
+</b:includable>
+    <b:includable id='commentAuthorAvatar'>
+  <div class='avatar-image-container'>
+    <img class='author-avatar' expr:src='data:comment.authorAvatarSrc' height='35' width='35'/>
+  </div>
+</b:includable>
+    <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:messages.deleteComment'>
+        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+    <b:includable id='commentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+    <b:includable id='commentFormIframeSrc' var='post'>
+  <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+</b:includable>
+    <b:includable id='commentItem' var='comment'>
+  <div class='comment' expr:id='&quot;c&quot; + data:comment.id'>
+    <b:include cond='data:blog.enabledCommentProfileImages' name='commentAuthorAvatar'/>
+
+    <div class='comment-block'>
+      <div class='comment-author'>
+        <b:if cond='data:comment.authorUrl'>
+          <b:message name='messages.authorSaidWithLink'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+            <b:param expr:value='data:comment.authorUrl' name='authorUrl'/>
+          </b:message>
+        <b:else/>
+          <b:message name='messages.authorSaid'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+          </b:message>
+        </b:if>
+      </div>
+      <div expr:class='&quot;comment-body&quot; + (data:comment.isDeleted ? &quot; deleted&quot; : &quot;&quot;)'>
+        <data:comment.body/>
+      </div>
+      <div class='comment-footer'>
+        <span class='comment-timestamp'>
+          <a expr:href='data:comment.url' title='comment permalink'>
+            <data:comment.timestamp/>
+          </a>
+          <b:include data='comment' name='commentDeleteIcon'/>
+        </span>
+      </div>
+    </div>
+  </div>
+</b:includable>
+    <b:includable id='commentList' var='comments'>
+  <div id='comments-block'>
+    <b:loop values='data:comments' var='comment'>
+      <b:include data='comment' name='commentItem'/>
+    </b:loop>
+  </div>
+</b:includable>
+    <b:includable id='commentPicker' var='post'>
+  <b:if cond='data:post.showThreadedComments'>
+    <b:include data='post' name='threadedComments'/>
+  <b:else/>
+    <b:include data='post' name='comments'/>
+  </b:if>
+</b:includable>
+    <b:includable id='comments' var='post'>
+  <section expr:class='&quot;comments&quot; + (data:post.embedCommentForm ? &quot; embed&quot; : &quot;&quot;)' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+
+      <b:include name='commentsTitle'/>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <b:include cond='data:post.comments' data='post.comments' name='commentList'/>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <div class='paging-control-container'>
+          <b:if cond='data:post.hasOlderLinks'>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+              <data:messages.oldest/>
+            </a>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+              <data:messages.older/>
+            </a>
+          </b:if>
+
+          <span class='comment-range-text'>
+            <data:post.commentRangeText/>
+          </span>
+
+          <b:if cond='data:post.hasNewerLinks'>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+              <data:messages.newer/>
+            </a>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+              <data:messages.newest/>
+            </a>
+          </b:if>
+        </div>
+      </b:if>
+
+      <div class='footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='commentForm'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:post.allowComments'>
+            <b:include data='post' name='addComments'/>
+          </b:if>
+        </b:if>
+      </div>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+  </section>
+</b:includable>
+    <b:includable id='commentsTitle'>
+  <h3 class='title'><data:messages.comments/></h3>
+</b:includable>
+    <b:includable id='feedLinks'>
+  <b:if cond='!data:view.isPost'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+  <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.allowComments and data:post.feedLinks'>
+          <b:include data='post.feedLinks' name='feedLinksBody'/>
+        </b:if>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:messages.subscribeTo/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+    <b:includable id='homePageLink'>
+  <a class='home-link' expr:href='data:blog.homepageUrl'>
+    <data:messages.home/>
+  </a>
+</b:includable>
+    <b:includable id='iframeComments' var='post'>
+  <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
+</b:includable>
+    <b:includable id='inlineAd' var='post'>
+  <b:if cond='!data:view.isPreview'>
+    <b:if cond='data:this.adCode or data:this.adClientId or data:blog.adsenseClientId'>
+      <!-- Ad -->
+      <div class='inline-ad'>
+        <b:if cond='data:this.adCode != &quot;&quot;'>
+          <data:this.adCode/>
+        <b:else/>
+          <b:include cond='data:this.adClientId or data:blog.adsenseClientId' name='defaultAdUnit'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <div class='inline-ad'>
+      <div class='inline-ad-placeholder'>
+        <span><b:message name='messages.adsGoHere'/></span>
+      </div>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='nextPageLink'>
+  <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:messages.olderPosts'>
+    <data:messages.olderPosts/>
+  </a>
+</b:includable>
+    <b:includable id='post' var='post'>
+<article class='post-full'>
+<div class='breadcrumb'><a expr:href='data:blog.homepageUrl'>Beranda</a> &#187; <span><data:post.title/></span></div>
+<b:if cond='data:post.labels'><b:loop values='data:post.labels' var='label'><span class='label-kat'><data:label.name/></span> </b:loop></b:if>
+<h1><data:post.title/></h1>
+<div class='meta'><span>📅 <data:post.timestamp/></span><span>&#9998; <data:post.author/></span></div>
+<!-- SLOT IKLAN 2 (Dalam artikel): tempel kode AdSense di dalam div ini; otomatis pindah setelah paragraf ke-2 -->
+<div class='slot-iklan slot-artikel' id='iklan-artikel'>
+</div>
+<div class='post-body' id='post-body'>
+<data:post.body/>
+</div>
+<div class='share'>Bagikan:
+<a expr:href='&quot;https://www.facebook.com/sharer/sharer.php?u=&quot; + data:post.url' target='_blank'>Facebook</a>
+<a expr:href='&quot;https://twitter.com/intent/tweet?url=&quot; + data:post.url + &quot;&amp;text=&quot; + data:post.title' target='_blank'>X</a>
+<a expr:href='&quot;https://wa.me/?text=&quot; + data:post.title + &quot; &quot; + data:post.url' target='_blank'>WhatsApp</a>
+</div>
+<b:if cond='data:post.labels'>
+<div class='post-label'>Label:
+<b:loop values='data:post.labels' var='label'>
+<a expr:href='data:label.url' rel='tag'><data:label.name/></a>
+</b:loop>
+</div>
+</b:if>
+<!-- SLOT IKLAN 3 (Bawah artikel): tempel kode AdSense di dalam div ini -->
+<div class='slot-iklan slot-artikel'>
+</div>
+<div class='terkait'>
+<h3>Berita Terkait</h3>
+<ul id='berita-terkait'><li>Memuat...</li></ul>
+</div>
+</article>
+<div class='komentar'>
+<b:include data='post' name='comments'/>
+</div>
+</b:includable>
+    <b:includable id='postBody' var='post'>
+  <!-- If metaDescription is empty, use the post body as the schema.org description too, for G+/FB snippeting. -->
+  <div class='post-body entry-content float-container' expr:id='&quot;post-body-&quot; + data:post.id'>
+    <data:post.body/>
+  </div>
+</b:includable>
+    <b:includable id='postBodySnippet' var='post'>
+  <b:include data='post' name='postBody'/>
+</b:includable>
+    <b:includable id='postCommentsAndAd' var='post'>
+  <article class='post-outer-container'>
+    <!-- Post title and body -->
+    <div class='post-outer'>
+      <b:include data='post' name='post'/>
+    </div>
+
+    <!-- Comments -->
+    <b:include cond='data:view.isSingleItem' data='post' name='commentPicker'/>
+
+    <!-- Show ad inside post container, after comments, if single item. -->
+    <b:include cond='data:view.isSingleItem and data:post.includeAd' data='post' name='inlineAd'/>
+  </article>
+
+  <!-- Show ad outside post container (between posts) for feed pages. -->
+  <b:include cond='data:view.isMultipleItems and data:post.includeAd' data='post' name='inlineAd'/>
+</b:includable>
+    <b:includable id='postCommentsLink'>
+  <b:if cond='data:view.isMultipleItems'>
+    <span class='byline post-comment-link container'>
+      <b:include cond='data:post.commentSource != 1' name='commentsLink'/>
+    </span>
+  </b:if>
+</b:includable>
+    <b:includable id='postFooter' var='post'>
+  <div class='post-footer'>
+    <b:include name='footerBylines'/>
+    <b:include data='post' name='postFooterAuthorProfile'/>
+  </div>
+</b:includable>
+    <b:includable id='postFooterAuthorProfile' var='post'>
+  <b:if cond='data:post.author.aboutMe and data:view.isPost'>
+    <div class='author-profile'>
+      <b:if cond='data:post.author.authorPhoto.url'>
+        <img class='author-image' expr:src='data:post.author.authorPhoto.url' width='50px'/>
+        <div class='author-about'>
+          <b:include data='post' name='aboutPostAuthor'/>
+        </div>
+      <b:else/>
+        <b:include data='post' name='aboutPostAuthor'/>
+      </b:if>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='postHeader' var='post'>
+  <b:include name='headerByline'/>
+</b:includable>
+    <b:includable id='postMeta' var='post'>
+  <b:include data='post' name='postMetadataJSON'/>
+</b:includable>
+    <b:includable id='postPagination'>
+  <div class='blog-pager container' id='blog-pager'>
+    <b:include cond='data:newerPageUrl' name='previousPageLink'/>
+    <b:include cond='data:olderPageUrl' name='nextPageLink'/>
+    <b:include cond='data:view.url != data:blog.homepageUrl' name='homePageLink'/>
+  </div>
+</b:includable>
+    <b:includable id='postTitle' var='post'>
+  <a expr:name='data:post.id'/>
+  <b:if cond='data:post.title != &quot;&quot;'>
+    <h3 class='post-title entry-title'>
+      <b:if cond='data:post.link or (data:post.url and data:view.url != data:post.url)'>
+        <a expr:href='data:post.link ?: data:post.url'><data:post.title/></a>
+      <b:else/>
+        <data:post.title/>
+      </b:if>
+    </h3>
+  </b:if>
+</b:includable>
+    <b:includable id='previousPageLink'>
+  <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:messages.newerPosts'>
+    <data:messages.newerPosts/>
+  </a>
+</b:includable>
+    <b:includable id='threadedCommentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+    <b:includable id='threadedCommentJs' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+  <b:template-script inline='true' name='threaded_comments'/>
+  <script type='text/javascript'>
+    blogger.widgets.blog.initThreadedComments(
+        <data:post.commentJso/>,
+        <data:post.commentMsgs/>,
+        <data:post.commentConfig/>);
+  </script>
+</b:includable>
+    <b:includable id='threadedComments' var='post'>
+  <section class='comments threaded' expr:data-embed='data:post.embedCommentForm' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+
+    <b:include name='commentsTitle'/>
+
+    <div class='comments-content'>
+      <b:if cond='data:post.embedCommentForm'>
+        <b:include data='post' name='threadedCommentJs'/>
+      </b:if>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threadedCommentForm'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+      <b:if cond='data:post.showManageComments'>
+        <b:include data='post' name='manageComments'/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+  </section>
+</b:includable>
+    <b:includable id='tooltipCss'>
+  <!-- LINT.IfChange -->
+  <style>
+    .post-body a.b-tooltip-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .post-body a.b-tooltip-container .b-tooltip {
+      display: block !important;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-20%, 1px);
+      visibility: hidden;
+      opacity: 0;
+      z-index: 1;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    .post-body a.b-tooltip-container .b-tooltip iframe {
+      width: 200px;
+      height: 198px;
+      max-width: none;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (hover: hover) {
+      .post-body a.b-tooltip-container:hover .b-tooltip {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  </style>
+  <!-- LINT.ThenChange(//depot/google3/java/com/google/blogger/b2/layouts/widgets/v2-style.css) -->
+</b:includable>
+  </b:widget>
+</b:section>
+</div>
+
+<!-- ===== Sidebar ===== -->
+<aside class='sidebar'>
+<b:section class='side' id='sidebar' maxwidgets='6' showaddelement='yes'>
+  <b:widget id='BlogSearch1' locked='false' title='Cari Berita' type='BlogSearch' version='2' visible='true'>
+    <b:includable id='main' var='top'>
+<div class='widget'>
+<b:if cond='data:title != &quot;&quot;'><div class='side-judul'><data:title/></div></b:if>
+<form class='cari' expr:action='data:blog.homepageUrl + &quot;search&quot;'>
+<input name='q' placeholder='Cari berita...' type='text'/>
+<button type='submit'>Cari</button>
+</form>
+</div>
+</b:includable>
+    <b:includable id='content'>
+  <div class='widget-content' role='search'>
+    <b:include name='searchForm'/>
+  </div>
+</b:includable>
+    <b:includable id='searchForm'>
+  <form expr:action='data:blog.searchUrl'>
+    <b:attr cond='not data:view.isPreview' name='target' value='_top'/>
+    <b:include name='urlParamsAsFormInput'/>
+    <div class='search-input'>
+      <input autocomplete='off' expr:aria-label='data:messages.searchThisBlog' expr:placeholder='data:messages.searchThisBlog' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q'/>
+    </div>
+    <b:include name='searchSubmit'/>
+  </form>
+</b:includable>
+    <b:includable id='searchSubmit'>
+  <input class='search-action' expr:value='data:messages.search.escaped' type='submit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML1' locked='false' title='' type='HTML' version='2' visible='true'>
+    <b:includable id='main' var='top'>
+<div class='slot-iklan slot-sidebar'>
+</div>
+</b:includable>
+  </b:widget>
+  <b:widget id='PopularPosts1' locked='false' title='Terpopuler' type='PopularPosts' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='numItemsToShow'>3</b:widget-setting>
+      <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+      <b:widget-setting name='showSnippets'>true</b:widget-setting>
+      <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main' var='top'>
+<div class='widget'>
+<div class='side-judul'>Terpopuler</div>
+<ul class='pop'>
+<b:loop values='data:posts' var='post'>
+<li><a expr:href='data:post.href'><data:post.title/></a></li>
+</b:loop>
+</ul>
+</div>
+</b:includable>
+  </b:widget>
+  <b:widget id='Label1' locked='false' title='Kategori' type='Label' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+      <b:widget-setting name='display'>LIST</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'/>
+      <b:widget-setting name='showType'>ALL</b:widget-setting>
+      <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main' var='top'>
+<div class='widget'>
+<div class='side-judul'>Kategori</div>
+<ul class='daftar-label'>
+<b:loop values='data:labels' var='label'>
+<li><a expr:href='data:label.url'><data:label.name/></a></li>
+</b:loop>
+</ul>
+</div>
+</b:includable>
+    <b:includable id='cloud'>
+  <b:loop values='data:labels' var='label'>
+    <span class='label-size'>
+      <b:class expr:name='&quot;label-size-&quot; + data:label.cssSize'/>
+      <a class='label-name' expr:href='data:label.url'>
+        <data:label.name/>
+        <b:if cond='data:this.showFreqNumbers'>
+          <span class='label-count'><data:label.count/></span>
+        </b:if>
+      </a>
+    </span>
+  </b:loop>
+</b:includable>
+    <b:includable id='content'>
+  <div class='widget-content'>
+    <b:class expr:name='data:this.display + &quot;-label-widget-content&quot;'/>
+    <b:include cond='data:this.display == &quot;list&quot;' name='list'/>
+    <b:include cond='data:this.display == &quot;cloud&quot;' name='cloud'/>
+  </div>
+</b:includable>
+    <b:includable id='list'>
+  <ul>
+    <b:loop values='data:labels' var='label'>
+      <li>
+        <a class='label-name' expr:href='data:label.url'>
+          <data:label.name/>
+          <b:if cond='data:this.showFreqNumbers'>
+            <span class='label-count'><data:label.count/></span>
+          </b:if>
+        </a>
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+  </b:widget>
+  <b:widget id='PageList2' locked='false' title='Halaman' type='PageList'>
+    <b:widget-settings>
+      <b:widget-setting name='pageListJson'><![CDATA[{"link0":{"href":"http://kabarviralterkiniterbaru.blogspot.com/","position":0,"title":"Beranda"}}]]></b:widget-setting>
+      <b:widget-setting name='homeTitle'>Beranda</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <b:if cond='data:mobile'>
+      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+        <b:if cond='data:showPlaceholder'>
+          <option disabled='disabled' hidden='hidden' value=''>
+            <b:attr cond='!data:hasCurrentPage' name='selected' value='selected'/>
+            <b:message name='messages.moveToPage'/>
+          </option>
+        </b:if>
+        <b:loop values='data:links' var='link'>
+          <option expr:value='data:link.href'>
+            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
+            <data:link.title/>
+          </option>
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+          <li>
+            <b:class cond='data:link.isCurrentPage' name='selected'/>
+            <a expr:href='data:link.href'><data:link.title/></a>
+          </li>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='PageList5' locked='false' title='Halaman' type='PageList'>
+    <b:widget-settings>
+      <b:widget-setting name='pageListJson'><![CDATA[{"9156290028003484084":{"href":"https://kabarviralterkiniterbaru.blogspot.com/p/kebijakan-privasi.html","position":2,"title":"KEBIJAKAN PRIVASI"},"2279544019667577451":{"href":"https://kabarviralterkiniterbaru.blogspot.com/p/disclaimer.html","position":4,"title":"Disclaimer"},"9160495926318005978":{"href":"https://kabarviralterkiniterbaru.blogspot.com/p/tentang-kami.html","position":1,"title":"TENTANG KAMI"},"link0":{"href":"http://kabarviralterkiniterbaru.blogspot.com/","position":0,"title":"Beranda"},"6171056228932486839":{"href":"https://kabarviralterkiniterbaru.blogspot.com/p/kontak.html","position":3,"title":"KONTAK"}}]]></b:widget-setting>
+      <b:widget-setting name='homeTitle'>Beranda</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <b:if cond='data:mobile'>
+      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+        <b:if cond='data:showPlaceholder'>
+          <option disabled='disabled' hidden='hidden' value=''>
+            <b:attr cond='!data:hasCurrentPage' name='selected' value='selected'/>
+            <b:message name='messages.moveToPage'/>
+          </option>
+        </b:if>
+        <b:loop values='data:links' var='link'>
+          <option expr:value='data:link.href'>
+            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
+            <data:link.title/>
+          </option>
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+          <li>
+            <b:class cond='data:link.isCurrentPage' name='selected'/>
+            <a expr:href='data:link.href'><data:link.title/></a>
+          </li>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+</b:section>
+</aside>
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class='site-footer'>
+<div class='wrap footer-grid'>
+<div>
+<h4>Tentang Kami</h4>
+<p><b><data:blog.title/></b> menyajikan kabar viral terkini dari berbagai topik: nasional, teknologi, hiburan, dan olahraga. Diperbarui setiap hari.</p>
+</div>
+<div>
+<h4>Navigasi</h4>
+<ul>
+<li><a expr:href='data:blog.homepageUrl'>Beranda</a></li>
+<li><a expr:href='data:blog.homepageUrl + &quot;search/label/Nasional&quot;'>Nasional</a></li>
+<li><a expr:href='data:blog.homepageUrl + &quot;search/label/Teknologi&quot;'>Teknologi</a></li>
+<li><a expr:href='data:blog.homepageUrl + &quot;search/label/Hiburan&quot;'>Hiburan</a></li>
+<li><a expr:href='data:blog.homepageUrl + &quot;search/label/Olahraga&quot;'>Olahraga</a></li>
+</ul>
+</div>
+<div>
+<h4>Info</h4>
+<ul>
+<li><a expr:href='data:blog.homepageUrl + &quot;p/tentang-kami.html&quot;'>Tentang Kami</a></li>
+<li><a expr:href='data:blog.homepageUrl + &quot;p/kebijakan-privasi.html&quot;'>Kebijakan Privasi</a></li>
+<li><a expr:href='data:blog.homepageUrl + &quot;p/kontak.html&quot;'>Kontak</a></li>
+<li><a expr:href='data:blog.homepageUrl + &quot;p/disclaimer.html&quot;'>Disclaimer</a></li>
+</ul>
+</div>
+</div>
+<div class='copyright'>
+<div class='wrap'>&#169; <span id='tahun'/> <data:blog.title/>. Seluruh hak cipta dilindungi.</div>
+</div>
+</footer>
+
+<button aria-label='Ke atas' class='totop' id='totop'>&#8593;</button>
+
+<script>
+//<![CDATA[
+(function(){
+  "use strict";
+  var blogUrl = document.querySelector("link[rel='canonical']") ?
+    document.querySelector("link[rel='canonical']").href.replace(/\/$/,'') :
+    location.origin;
+  /* Tanggal Indonesia di bilah atas */
+  try {
+    var hari = ["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
+    var bulan = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+    var t = new Date();
+    document.getElementById("tgl-hari-ini").textContent =
+      hari[t.getDay()] + ", " + t.getDate() + " " + bulan[t.getMonth()] + " " + t.getFullYear();
+    document.getElementById("tahun").textContent = t.getFullYear();
+  } catch(e){}
+  /* Menu mobile */
+  var toggle = document.getElementById("menu-toggle");
+  if (toggle) toggle.addEventListener("click", function(){
+    document.querySelector("ul.menu").classList.toggle("buka");
+  });
+  /* Tombol ke atas */
+  var keatas = document.getElementById("totop");
+  window.addEventListener("scroll", function(){
+    keatas.style.display = window.scrollY > 400 ? "block" : "none";
+  });
+  keatas.addEventListener("click", function(){ window.scrollTo({top:0, behavior:"smooth"}); });
+  /* Ticker: ambil 8 postingan terbaru */
+  function isiTicker(){
+    var el = document.getElementById("ticker-items");
+    if(!el) return;
+    fetch(blogUrl + "/feeds/posts/default?alt=json&max-results=8")
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        var items = (d.feed.entry || []).map(function(e){
+          var link = (e.link || []).filter(function(l){ return l.rel === "alternate"; })[0];
+          return '<a href="' + (link ? link.href : "#") + '">' + e.title.$t + "</a>";
+        }).join("");
+        if(items){ el.innerHTML = items + items; } /* ganda untuk animasi mulus */
+        else { el.innerHTML = "<span>Belum ada berita.</span>"; }
+      })
+      .catch(function(){ el.innerHTML = "<span>Selamat datang di " + document.title + "</span>"; });
+  }
+  isiTicker();
+  /* Pindahkan slot iklan artikel ke setelah paragraf ke-2 */
+  try {
+    var slot = document.getElementById("iklan-artikel");
+    var body = document.getElementById("post-body");
+    if (slot && body) {
+      var ps = body.querySelectorAll("p");
+      if (ps.length > 2) { ps[1].after(slot); }
+    }
+  } catch(e){}
+  /* Berita terkait: ambil berdasarkan label pertama */
+  try {
+    var katEl = document.querySelector(".post-full .label-kat");
+    var box = document.getElementById("berita-terkait");
+    if (katEl && box) {
+      var kat = encodeURIComponent(katEl.textContent.trim());
+      fetch(blogUrl + "/feeds/posts/default/-/" + kat + "?alt=json&max-results=4")
+        .then(function(r){ return r.json(); })
+        .then(function(d){
+          var html = (d.feed.entry || []).filter(function(e){
+            return e.link && e.link.some(function(l){ return l.rel==="alternate" && l.href !== location.href; });
+          }).slice(0,3).map(function(e){
+            var link = e.link.filter(function(l){ return l.rel === "alternate"; })[0];
+            var img = (e.media$thumbnail) ? e.media$thumbnail.url.replace(/\/s72-c\//, "/s300/") : "";
+            return '<li><a href="' + link.href + '">' +
+              (img ? '<img src="' + img + '" alt="" loading="lazy"/>' : "") +
+              "<span>" + e.title.$t + "</span></a></li>";
+          }).join("");
+          box.innerHTML = html || "<li>Tidak ada berita terkait.</li>";
+        })
+        .catch(function(){ box.innerHTML = "<li>Tidak ada berita terkait.</li>"; });
+    } else if (box) { box.innerHTML = ""; }
+  } catch(e){}
+})();
+ //]]>
+</script>
+</body>
+</html>

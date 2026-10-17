@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta charset='UTF-8'/>
+<title><data:blog.pageTitle/></title>
+<b:include data='blog' name='all-head-content'/>
+<b:skin><![CDATA[/* tema tes minimal */]]></b:skin>
+</head>
+<body>
+<!-- ===== Bilah atas ===== -->
+<div class='topbar'>
+<div class='wrap'>
+<span class='tgl' id='tgl-hari-ini'>Memuat tanggal...</span>
+<span>Kabar viral terkini, terupdate setiap hari</span>
+</div>
+</div>
+
+<!-- ===== Header ===== -->
+<header class='site-header'>
+<div class='wrap header-in'>
+<div class='logo'>
+<a expr:href='data:blog.homepageUrl'><data:blog.title/></a>
+<p>Berita viral terkini: nasional, teknologi, hiburan, olahraga</p>
+</div>
+<!-- SLOT IKLAN 1 (Header 728x90): tempel kode AdSense di dalam div ini setelah disetujui -->
+<div class='slot-iklan ad-leaderboard'>
+</div>
+</div>
+</header>
+
+<!-- ===== Navigasi ===== -->
+<nav class='navbar'>
+<div class='wrap'>
+<button class='menu-toggle' id='menu-toggle' aria-label='Menu'>&#9776;</button>
+<b:section class='nav-section' id='nav' maxwidgets='1' showaddelement='no'>
+<b:widget id='LinkList1' locked='false' title='Menu Navigasi' type='LinkList' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<ul class='menu' id='menu-utama'>
+<li><a expr:href='data:blog.homepageUrl'>Beranda</a></li>
+<b:loop values='data:links' var='link'>
+<li><a expr:href='data:link.target'><data:link.name/></a></li>
+</b:loop>
+</ul>
+</b:includable>
+</b:widget>
+</b:section>
+</div>
+</nav>
+
+<!-- ===== Ticker berita terkini ===== -->
+<div class='ticker'>
+<div class='wrap'>
+<span class='ticker-label'>Terkini</span>
+<div class='ticker-view'><div class='ticker-items' id='ticker-items'><span>Memuat berita terbaru...</span></div></div>
+</div>
+</div>
+
+<!-- ===== Konten utama ===== -->
+<main class='wrap konten'>
+<div class='konten-utama'>
+<b:section class='main' id='main' maxwidgets='1' showaddelement='no'>
+<b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<b:if cond='data:blog.pageType == "index"'>
+  <h2 class='section-judul'>Berita Terbaru</h2>
+  <div class='grid'>
+  <b:loop values='data:posts' var='post'>
+  <!-- Kartu berita: kartu pertama otomatis tampil besar sebagai headline via CSS -->
+  <article class='kartu'>
+    <b:if cond='data:post.featuredImage'>
+    <a class='gambar' expr:href='data:post.url'><img expr:alt='data:post.title' expr:src='data:post.featuredImage'/></a>
+    </b:if>
+    <div class='isi'>
+      <b:if cond='data:post.labels'>
+      <b:loop values='data:post.labels' var='label'><span class='label-kat'><data:label.name/></span> </b:loop>
+      </b:if>
+      <h3><a expr:href='data:post.url'><data:post.title/></a></h3>
+      <div class='meta'><data:post.timestamp/></div>
+      <p class='ringkasan'><data:post.snippet/></p>
+    </div>
+  </article>
+  </b:loop>
+  </div>
+  <div class='pagenav'>
+    <b:include name='nextprev'/>
+  </div>
+<b:elseif cond='data:blog.pageType == "item"'/>
+  <b:loop values='data:posts' var='post'>
+  <b:include data='post' name='post'/>
+  </b:loop>
+<b:else/>
+  <h2 class='section-judul'><data:blog.pageName/></h2>
+  <div class='grid'>
+  <b:loop values='data:posts' var='post'>
+  <article class='kartu'>
+    <b:if cond='data:post.featuredImage'>
+    <a class='gambar' expr:href='data:post.url'><img expr:alt='data:post.title' expr:src='data:post.featuredImage'/></a>
+    </b:if>
+    <div class='isi'>
+      <h3><a expr:href='data:post.url'><data:post.title/></a></h3>
+      <div class='meta'><data:post.timestamp/></div>
+      <p class='ringkasan'><data:post.snippet/></p>
+    </div>
+  </article>
+  </b:loop>
+  </div>
+  <div class='pagenav'>
+    <b:include name='nextprev'/>
+  </div>
+</b:if>
+</b:includable>
+
+<b:includable id='post' var='post'>
+<article class='post-full'>
+<div class='breadcrumb'><a expr:href='data:blog.homepageUrl'>Beranda</a> &#187; <span><data:post.title/></span></div>
+<b:if cond='data:post.labels'><b:loop values='data:post.labels' var='label'><span class='label-kat'><data:label.name/></span> </b:loop></b:if>
+<h1><data:post.title/></h1>
+<div class='meta'><span>&#128197; <data:post.timestamp/></span><span>&#9998; <data:post.author/></span></div>
+<!-- SLOT IKLAN 2 (Dalam artikel): tempel kode AdSense di dalam div ini; otomatis pindah setelah paragraf ke-2 -->
+<div class='slot-iklan slot-artikel' id='iklan-artikel'>
+</div>
+<div class='post-body' id='post-body'>
+<data:post.body/>
+</div>
+<div class='share'>Bagikan:
+<a expr:href='"https://www.facebook.com/sharer/sharer.php?u=" + data:post.url' target='_blank'>Facebook</a>
+<a expr:href='"https://twitter.com/intent/tweet?url=" + data:post.url + "&amp;text=" + data:post.title' target='_blank'>X</a>
+<a expr:href='"https://wa.me/?text=" + data:post.title + " " + data:post.url' target='_blank'>WhatsApp</a>
+</div>
+<b:if cond='data:post.labels'>
+<div class='post-label'>Label:
+<b:loop values='data:post.labels' var='label'>
+<a expr:href='data:label.url' rel='tag'><data:label.name/></a>
+</b:loop>
+</div>
+</b:if>
+<!-- SLOT IKLAN 3 (Bawah artikel): tempel kode AdSense di dalam div ini -->
+<div class='slot-iklan slot-artikel'>
+</div>
+<div class='terkait'>
+<h3>Berita Terkait</h3>
+<ul id='berita-terkait'><li>Memuat...</li></ul>
+</div>
+</article>
+<div class='komentar'>
+<b:include data='post' name='comments'/>
+</div>
+</b:includable>
+</b:widget>
+</b:section>
+</div>
+
+<!-- ===== Sidebar ===== -->
+<aside class='sidebar'>
+<b:section class='side' id='sidebar' maxwidgets='6' showaddelement='yes'>
+<b:widget id='BlogSearch1' locked='false' title='Cari Berita' type='BlogSearch' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='widget'>
+<b:if cond='data:title != ""'><div class='side-judul'><data:title/></div></b:if>
+<form class='cari' expr:action='data:blog.homepageUrl + "search"'>
+<input name='q' placeholder='Cari berita...' type='text'/>
+<button type='submit'>Cari</button>
+</form>
+</div>
+</b:includable>
+</b:widget>
+<!-- SLOT IKLAN 4 (Sidebar 300x250): tempel kode AdSense di dalam div ini -->
+<b:widget id='HTML1' locked='false' title='' type='HTML' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='slot-iklan slot-sidebar'>
+</div>
+</b:includable>
+</b:widget>
+<b:widget id='PopularPosts1' locked='false' title='Terpopuler' type='PopularPosts' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='widget'>
+<div class='side-judul'>Terpopuler</div>
+<ul class='pop'>
+<b:loop values='data:posts' var='post'>
+<li><a expr:href='data:post.href'><data:post.title/></a></li>
+</b:loop>
+</ul>
+</div>
+</b:includable>
+</b:widget>
+<b:widget id='Label1' locked='false' title='Kategori' type='Label' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='widget'>
+<div class='side-judul'>Kategori</div>
+<ul class='daftar-label'>
+<b:loop values='data:labels' var='label'>
+<li><a expr:href='data:label.url'><data:label.name/></a></li>
+</b:loop>
+</ul>
+</div>
+</b:includable>
+</b:widget>
+</b:section>
+</aside>
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class='site-footer'>
+<div class='wrap footer-grid'>
+<div>
+<h4>Tentang Kami</h4>
+<p><b><data:blog.title/></b> menyajikan kabar viral terkini dari berbagai topik: nasional, teknologi, hiburan, dan olahraga. Diperbarui setiap hari.</p>
+</div>
+<div>
+<h4>Navigasi</h4>
+<ul>
+<li><a expr:href='data:blog.homepageUrl'>Beranda</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Nasional"'>Nasional</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Teknologi"'>Teknologi</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Hiburan"'>Hiburan</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Olahraga"'>Olahraga</a></li>
+</ul>
+</div>
+<div>
+<h4>Info</h4>
+<ul>
+<li><a expr:href='data:blog.homepageUrl + "p/tentang-kami.html"'>Tentang Kami</a></li>
+<li><a expr:href='data:blog.homepageUrl + "p/kebijakan-privasi.html"'>Kebijakan Privasi</a></li>
+<li><a expr:href='data:blog.homepageUrl + "p/kontak.html"'>Kontak</a></li>
+<li><a expr:href='data:blog.homepageUrl + "p/disclaimer.html"'>Disclaimer</a></li>
+</ul>
+</div>
+</div>
+<div class='copyright'>
+<div class='wrap'>&#169; <span id='tahun'></span> <data:blog.title/>. Seluruh hak cipta dilindungi.</div>
+</div>
+</footer>
+
+<button class='keatas' id='keatas' aria-label='Ke atas'>&#8593;</button>
+
+<script>
+//<![CDATA[
+(function(){
+  "use strict";
+  var blogUrl = document.querySelector("link[rel='canonical']") ?
+    document.querySelector("link[rel='canonical']").href.replace(/\/$/,'') :
+    location.origin;
+  /* Tanggal Indonesia di bilah atas */
+  try {
+    var hari = ["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
+    var bulan = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+    var t = new Date();
+    document.getElementById("tgl-hari-ini").textContent =
+      hari[t.getDay()] + ", " + t.getDate() + " " + bulan[t.getMonth()] + " " + t.getFullYear();
+    document.getElementById("tahun").textContent = t.getFullYear();
+  } catch(e){}
+  /* Menu mobile */
+  var toggle = document.getElementById("menu-toggle");
+  if (toggle) toggle.addEventListener("click", function(){
+    document.getElementById("menu-utama").classList.toggle("buka");
+  });
+  /* Tombol ke atas */
+  var keatas = document.getElementById("keatas");
+  window.addEventListener("scroll", function(){
+    keatas.style.display = window.scrollY > 400 ? "block" : "none";
+  });
+  keatas.addEventListener("click", function(){ window.scrollTo({top:0, behavior:"smooth"}); });
+  /* Ticker: ambil 8 postingan terbaru */
+  function isiTicker(){
+    var el = document.getElementById("ticker-items");
+    if(!el) return;
+    fetch(blogUrl + "/feeds/posts/default?alt=json&max-results=8")
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        var items = (d.feed.entry || []).map(function(e){
+          var link = (e.link || []).filter(function(l){ return l.rel === "alternate"; })[0];
+          return '<a href="' + (link ? link.href : "#") + '">' + e.title.$t + "</a>";
+        }).join("");
+        if(items){ el.innerHTML = items + items; } /* ganda untuk animasi mulus */
+        else { el.innerHTML = "<span>Belum ada berita.</span>"; }
+      })
+      .catch(function(){ el.innerHTML = "<span>Selamat datang di " + document.title + "</span>"; });
+  }
+  isiTicker();
+  /* Pindahkan slot iklan artikel ke setelah paragraf ke-2 */
+  try {
+    var slot = document.getElementById("iklan-artikel");
+    var body = document.getElementById("post-body");
+    if (slot && body) {
+      var ps = body.querySelectorAll("p");
+      if (ps.length > 2) { ps[1].after(slot); }
+    }
+  } catch(e){}
+  /* Berita terkait: ambil berdasarkan label pertama */
+  try {
+    var katEl = document.querySelector(".post-full .label-kat");
+    var box = document.getElementById("berita-terkait");
+    if (katEl && box) {
+      var kat = encodeURIComponent(katEl.textContent.trim());
+      fetch(blogUrl + "/feeds/posts/default/-/" + kat + "?alt=json&max-results=4")
+        .then(function(r){ return r.json(); })
+        .then(function(d){
+          var html = (d.feed.entry || []).filter(function(e){
+            return e.link && e.link.some(function(l){ return l.rel==="alternate" && l.href !== location.href; });
+          }).slice(0,3).map(function(e){
+            var link = e.link.filter(function(l){ return l.rel === "alternate"; })[0];
+            var img = (e.media$thumbnail) ? e.media$thumbnail.url.replace(/\/s72-c\//, "/s300/") : "";
+            return '<li><a href="' + link.href + '">' +
+              (img ? '<img src="' + img + '" alt="" loading="lazy"/>' : "") +
+              "<span>" + e.title.$t + "</span></a></li>";
+          }).join("");
+          box.innerHTML = html || "<li>Tidak ada berita terkait.</li>";
+        })
+        .catch(function(){ box.innerHTML = "<li>Tidak ada berita terkait.</li>"; });
+    } else if (box) { box.innerHTML = ""; }
+  } catch(e){}
+})();
+ //]]>
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+ {
+  "judul": "...",
+  "slug": "...",
+  "meta_deskripsi": "...",
+  "label": [
+   "...",
+   "..."
+  ],
+  "artikel_html": "<p>...</p><h2>...</h2>...<p>Sumber: Kontan-Investasi</p>",
+  "varian_judul": [
+   "...",
+   "...",
+   "..."
+  ],
+  "faq_html": "<h2>Pertanyaan Umum</h2>...",
+  "alt_gambar": "...",
+  "link_sumber": "https://investasi.kontan.co.id/news/hingga-september-2026-bitget-mencatatkan-rasio-proof-of-reserves-131",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "gambar": "https://foto.kontan.co.id/uYIELk1qBW054sxXV-PNr_gOJPw=/smart/2025/04/10/856398133p.jpg"
+ }
+]

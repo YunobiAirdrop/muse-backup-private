@@ -1,0 +1,19 @@
+{
+ "channel": "kisahdharma",
+ "handle": "@KisahDharma",
+ "channel_id": "UCAhInkFRxF3xkxW8kgFOrJA",
+ "days": 28,
+ "source": "youtube_data_api_v3_fallback (Analytics API timeout)",
+ "channel_stats": {
+  "viewCount": "0",
+  "subscriberCount": "0",
+  "hiddenSubscriberCount": false,
+  "videoCount": "0"
+ },
+ "summary": {
+  "total_videos_fetched": 0,
+  "total_views_channel_lifetime": "0",
+  "subscriberCount": "0"
+ },
+ "videos": []
+}

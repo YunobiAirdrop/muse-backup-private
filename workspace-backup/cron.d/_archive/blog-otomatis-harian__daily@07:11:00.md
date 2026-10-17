@@ -1,0 +1,31 @@
+---
+id: blog-otomatis-harian
+title: Berita otomatis harian multi-blog
+enabled: true
+owner: goal:kabarviral-automated-news-blog
+mode: task
+schedule:
+  kind: daily
+  timezone: Asia/Jakarta
+  time: 07:11:00
+timeout_secs: 36000
+delivery:
+  - chat_id: 7382e6cd-7263-4ede-983e-939bf507ecbf
+metadata:
+  tags: [cron:flexible-time]
+  originating_chat_context_json: '{"chat_id":"7382e6cd-7263-4ede-983e-939bf507ecbf","binding_epoch":1,"origin_provider":"whatsapp","original_reply_target_id":"whatsapp_channel","chat_kind":"direct","message_id":"AC35D48CCD16AF57AA0DAC40EB81FEDA","conversation_id":"whatsapp_channel","delivery_target_id":"whatsapp_channel","event_kind":"message","require_mention":false}'
+  presentation_locale: id-ID
+---
+Jalankan pipeline blog otomatis harian MULTI-BLOG (4 blog: KabarViral, CuanPintar, TeknoGebrakan, SehatBugar).
+
+Perintah: `cd ~/workspace/blog-otomatis && ./jalan.sh` — script ini otomatis: fetch semua blog → trending.py (riset topik viral) → per blog: tulis_ulang.py (10 artikel berita) → evergreen.py (2 panduan timeless) → digest.py (1 artikel rekap harian) → baca_juga.py (internal link) → posting.py. Total ~13 artikel/blog/hari.
+
+LANGKAH INI LAMBAT: tulis ulang tiap artikel bisa 2-10 menit via model gratis OpenRouter (langsung, bukan via 9Router; rotasi 9 API key), total bisa 5-8 jam. Jangan dibatalkan, tunggu sampai selesai. Jika satu blog/artikel gagal, script lanjut ke berikutnya (jangan gagalkan seluruh run).
+
+Catatan penting:
+- Jangan edit MEMORY.md; observasi run tulis ke ~/memory/YYYY-MM-DD.md (daily log).
+- Jika model gratis sedang error (429/503), catat di laporan dan JANGAN spam retry — laporkan saja.
+- Jika tidak ada berita baru untuk suatu blog (semua sudah di seen), itu normal.
+- Jangan membuat file laporan per-run di workspace; cukup sampaikan hasil akhir lewat pesan.
+
+Laporan akhir ke user (Bahasa Indonesia, singkat): per blog berapa artikel berhasil terposting + judul-judulnya, atau alasan jika tidak ada yang terposting.

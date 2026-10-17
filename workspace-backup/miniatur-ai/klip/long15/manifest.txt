@@ -1,0 +1,95 @@
+# MANIFEST klip long15 — video AI miniatur 15 menit
+# Dibuat: 2026-10-07 06:31 UTC
+# Total klip valid: 87/87, gagal: 0
+
+## VALID (durasi detik):
+clip-01.mp4 | 10.000000s | 4526480 bytes
+clip-02.mp4 | 10.000000s | 5056458 bytes
+clip-03.mp4 | 10.000000s | 5015294 bytes
+clip-04.mp4 | 10.000000s | 7401510 bytes
+clip-05.mp4 | 10.000000s | 2040976 bytes
+clip-06.mp4 | 10.000000s | 6907209 bytes
+clip-07.mp4 | 10.000000s | 3376598 bytes
+clip-08.mp4 | 10.000000s | 3025379 bytes
+clip-09.mp4 | 10.000000s | 3601129 bytes
+clip-10.mp4 | 10.000000s | 6689054 bytes
+clip-11.mp4 | 10.000000s | 5866381 bytes
+clip-12.mp4 | 10.000000s | 4516298 bytes
+clip-13.mp4 | 10.000000s | 5114014 bytes
+clip-14.mp4 | 10.000000s | 4297832 bytes
+clip-15.mp4 | 10.000000s | 5098217 bytes
+clip-16.mp4 | 10.000000s | 5703170 bytes
+clip-17.mp4 | 10.000000s | 6398678 bytes
+clip-18.mp4 | 10.000000s | 6004270 bytes
+clip-19.mp4 | 10.000000s | 5274822 bytes
+clip-20.mp4 | 10.000000s | 5314461 bytes
+clip-21.mp4 | 10.000000s | 5333991 bytes
+clip-22.mp4 | 10.000000s | 6633469 bytes
+clip-23.mp4 | 10.000000s | 4899867 bytes
+clip-24.mp4 | 10.000000s | 6112932 bytes
+clip-25.mp4 | 10.000000s | 4782614 bytes
+clip-26.mp4 | 10.000000s | 4650894 bytes
+clip-27.mp4 | 10.000000s | 4169839 bytes
+clip-28.mp4 | 10.000000s | 4187327 bytes
+clip-29.mp4 | 10.000000s | 4317030 bytes
+clip-30.mp4 | 10.000000s | 3849482 bytes
+clip-31.mp4 | 10.000000s | 8341978 bytes
+clip-32.mp4 | 10.000000s | 5247368 bytes
+clip-33.mp4 | 10.000000s | 7525593 bytes
+clip-34.mp4 | 10.000000s | 7437711 bytes
+clip-35.mp4 | 10.000000s | 4438950 bytes
+clip-36.mp4 | 10.000000s | 5816893 bytes
+clip-37.mp4 | 10.000000s | 4744876 bytes
+clip-38.mp4 | 10.000000s | 4532382 bytes
+clip-39.mp4 | 10.000000s | 5171107 bytes
+clip-40.mp4 | 10.000000s | 4374136 bytes
+clip-41.mp4 | 10.000000s | 3396471 bytes
+clip-42.mp4 | 10.000000s | 2878520 bytes
+clip-43.mp4 | 10.000000s | 4292453 bytes
+clip-44.mp4 | 10.000000s | 5864022 bytes
+clip-45.mp4 | 10.000000s | 4041384 bytes
+clip-46.mp4 | 10.000000s | 5122466 bytes
+clip-47.mp4 | 10.000000s | 3855589 bytes
+clip-48.mp4 | 10.000000s | 3293465 bytes
+clip-49.mp4 | 10.000000s | 5275533 bytes
+clip-50.mp4 | 10.000000s | 5754842 bytes
+clip-51.mp4 | 10.000000s | 7383021 bytes
+clip-52.mp4 | 10.000000s | 4578615 bytes
+clip-53.mp4 | 10.000000s | 5221372 bytes
+clip-54.mp4 | 10.000000s | 4285775 bytes
+clip-55.mp4 | 10.000000s | 6728649 bytes
+clip-56.mp4 | 10.000000s | 3517022 bytes
+clip-57.mp4 | 10.000000s | 5512001 bytes
+clip-58.mp4 | 10.000000s | 3948770 bytes
+clip-59.mp4 | 10.000000s | 8036740 bytes
+clip-60.mp4 | 10.000000s | 8193342 bytes
+clip-61.mp4 | 10.000000s | 4981130 bytes
+clip-62.mp4 | 10.000000s | 6979099 bytes
+clip-63.mp4 | 10.000000s | 9803397 bytes
+clip-64.mp4 | 10.000000s | 5233472 bytes
+clip-65.mp4 | 10.000000s | 5548011 bytes
+clip-66.mp4 | 10.000000s | 4270434 bytes
+clip-67.mp4 | 10.000000s | 4887554 bytes
+clip-68.mp4 | 10.000000s | 5812123 bytes
+clip-69.mp4 | 10.000000s | 4771524 bytes
+clip-70.mp4 | 10.000000s | 4180385 bytes
+clip-71.mp4 | 10.000000s | 5283698 bytes
+clip-72.mp4 | 10.000000s | 8163197 bytes
+clip-73.mp4 | 10.000000s | 4564833 bytes
+clip-74.mp4 | 10.000000s | 3822782 bytes
+clip-75.mp4 | 10.000000s | 3489040 bytes
+clip-76.mp4 | 10.000000s | 10071796 bytes
+clip-77.mp4 | 10.000000s | 7472514 bytes
+clip-78.mp4 | 10.000000s | 8132174 bytes
+clip-79.mp4 | 10.000000s | 5069961 bytes
+clip-80.mp4 | 10.000000s | 6897083 bytes
+clip-81.mp4 | 10.000000s | 7526248 bytes
+clip-82.mp4 | 10.000000s | 8122887 bytes
+clip-83.mp4 | 10.000000s | 8709708 bytes
+clip-84.mp4 | 10.000000s | 5755887 bytes
+clip-85.mp4 | 10.000000s | 6006036 bytes
+clip-86.mp4 | 10.000000s | 4306594 bytes
+clip-87.mp4 | 10.000000s | 5179909 bytes
+
+## GAGAL:
+(tidak ada)

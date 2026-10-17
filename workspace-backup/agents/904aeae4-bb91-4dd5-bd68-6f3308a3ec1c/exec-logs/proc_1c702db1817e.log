@@ -1,0 +1,17 @@
+frame=    1 fps=0.5 q=5.7 Lsize=N/A time=00:00:00.03 bitrate=N/A speed=0.0171x elapsed=0:00:01.94    
+frame-n01 exit=0
+frame=    1 fps=0.4 q=8.1 Lsize=N/A time=00:00:00.03 bitrate=N/A speed=0.0132x elapsed=0:00:02.53    
+frame-n02 exit=0
+frame=    1 fps=0.7 q=6.0 Lsize=N/A time=00:00:00.03 bitrate=N/A speed=0.0225x elapsed=0:00:01.48    
+frame-n03 exit=0
+frame=    1 fps=0.0 q=7.8 Lsize=N/A time=00:00:00.03 bitrate=N/A speed=0.0554x elapsed=0:00:00.60    
+frame-n04 exit=0
+frame=    1 fps=0.0 q=5.9 Lsize=N/A time=00:00:00.03 bitrate=N/A speed=0.038x elapsed=0:00:00.87    
+frame-n05 exit=0
+frame=    1 fps=0.7 q=6.7 Lsize=N/A time=00:00:00.03 bitrate=N/A speed=0.0241x elapsed=0:00:01.38    
+frame-n06 exit=0
+frame=    1 fps=0.8 q=4.9 Lsize=N/A time=00:00:00.03 bitrate=N/A speed=0.026x elapsed=0:00:01.28    
+frame-n07 exit=0
+frame=    1 fps=0.6 q=5.9 Lsize=N/A time=00:00:00.03 bitrate=N/A speed=0.0197x elapsed=0:00:01.69    
+frame-n08 exit=0
+FRAMES-DONE

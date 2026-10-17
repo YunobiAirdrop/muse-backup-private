@@ -1,0 +1,115 @@
+{
+ "tanggal": "2026-10-04",
+ "posting": [
+  {
+   "produk": "Alat Rebus Telur Elektrik",
+   "video": "presenter-20s",
+   "akun": {
+    "IG": {
+     "status": "ok",
+     "info": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a1030656a773c188a019151c3d470f\"},\"media_fbid\":\"18081460985706539\"}\n"
+    },
+    "Threads-beritaviraldotcom": {
+     "status": "menunggu persetujuan",
+     "info": "timeout 150 dtk menunggu approval user"
+    },
+    "Threads-ngewebyuk": {
+     "status": "ok",
+     "info": "{\"post_id\":\"18112027475609281\"}\n"
+    },
+    "FB-BeritaViraldotcom": {
+     "status": "ok",
+     "info": "{\"_meta\":{\"data\":{\"fbids\":[61592661515070,1347201611814398,27930327196646058,122099705559498449],\"message_ids\":[]},\"tool_call_id\":\"call_01a1030656a773c188a019151c3d470f\"},\"acting_account_id\":\"61592661"
+    }
+   }
+  },
+  {
+   "produk": "New Balance Fresh Foam X 2025",
+   "video": "presenter-20s",
+   "akun": {
+    "IG": {
+     "status": "ok",
+     "info": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a1030656a773c188a019151c3d470f\"},\"media_fbid\":\"17956965288240489\"}\n"
+    },
+    "Threads-beritaviraldotcom": {
+     "status": "ok",
+     "info": "{\"post_id\":\"18483450151129838\"}\n"
+    },
+    "Threads-ngewebyuk": {
+     "status": "ok",
+     "info": "{\"post_id\":\"17940851388098142\"}\n"
+    },
+    "FB-BeritaViraldotcom": {
+     "status": "menunggu persetujuan",
+     "info": "timeout 150 dtk menunggu approval user"
+    }
+   }
+  },
+  {
+   "produk": "New Balance Fuelcell Rebel V5",
+   "video": "presenter-20s",
+   "akun": {
+    "IG": {
+     "status": "menunggu persetujuan",
+     "info": "timeout 150 dtk menunggu approval user"
+    },
+    "Threads-beritaviraldotcom": {
+     "status": "menunggu persetujuan",
+     "info": "timeout 150 dtk menunggu approval user"
+    },
+    "Threads-ngewebyuk": {
+     "status": "menunggu persetujuan",
+     "info": "timeout 150 dtk menunggu approval user"
+    },
+    "FB-BeritaViraldotcom": {
+     "status": "menunggu persetujuan",
+     "info": "timeout 150 dtk menunggu approval user"
+    }
+   }
+  },
+  {
+   "produk": "Spion Koso Lipat Universal Motor",
+   "video": "presenter-20s",
+   "akun": {
+    "IG": {
+     "status": "menunggu persetujuan",
+     "info": "timeout 150 dtk menunggu approval user"
+    },
+    "Threads-beritaviraldotcom": {
+     "status": "menunggu persetujuan",
+     "info": "timeout 150 dtk menunggu approval user"
+    },
+    "Threads-ngewebyuk": {
+     "status": "menunggu persetujuan",
+     "info": "timeout 150 dtk menunggu approval user"
+    },
+    "FB-BeritaViraldotcom": {
+     "status": "gagal",
+     "info": "\u001b[2m2026-10-03T19:00:22.912591Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mhatch_tool_sdk::media_artifact\u001b[0m\u001b[2m:\u001b[0m Sentinel rejected media artifact registration \u001b[3merror\u001b[0m\u001b[2m=\u001b[0mmedia artifact runtime context is"
+    }
+   }
+  },
+  {
+   "produk": "Knalpot Racing All Motor",
+   "video": "presenter-20s",
+   "akun": {
+    "IG": {
+     "status": "menunggu persetujuan",
+     "info": "timeout 150 dtk menunggu approval user"
+    },
+    "Threads-beritaviraldotcom": {
+     "status": "menunggu persetujuan",
+     "info": "timeout 150 dtk menunggu approval user"
+    },
+    "Threads-ngewebyuk": {
+     "status": "menunggu persetujuan",
+     "info": "timeout 150 dtk menunggu approval user"
+    },
+    "FB-BeritaViraldotcom": {
+     "status": "gagal",
+     "info": "\u001b[2m2026-10-03T19:08:53.703151Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mhatch_tool_sdk::media_artifact\u001b[0m\u001b[2m:\u001b[0m Sentinel rejected media artifact registration \u001b[3merror\u001b[0m\u001b[2m=\u001b[0mmedia artifact runtime context is"
+    }
+   }
+  }
+ ]
+}

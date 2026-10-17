@@ -1,0 +1,92 @@
+{
+ "channel": "horror-en",
+ "handle": "@TalesOfDreadTV",
+ "channel_id": "UCR7uhocCg9YZM7-Qoi1sVGA",
+ "days": 28,
+ "source": "youtube_data_api_v3_fallback (Analytics API timeout)",
+ "channel_stats": {
+  "viewCount": "99",
+  "subscriberCount": "1",
+  "hiddenSubscriberCount": false,
+  "videoCount": "6"
+ },
+ "summary": {
+  "total_videos_fetched": 6,
+  "total_views_channel_lifetime": "99",
+  "subscriberCount": "1"
+ },
+ "videos": [
+  {
+   "video_id": "W-9_kjVUpuI",
+   "title": "The Last Bus to Black Hollow — A Horror Story",
+   "published": "2026-10-06",
+   "description": "Every night, Marcus Cole drives the last bus out of Harlow Creek. Route Nine. But some passengers were never meant to reach their stop...\n\nAn original horror story from Midnight Dread Tales. New nightmares every night — subscribe if you dare.\n\nThis is an original work of fiction. All characters, places, and events are imagined. This video was created with the assistance of AI tools (voiceover, illustrations).\n\n#horror #scarystories #horrorstories #creepypasta #ghoststories",
+   "tags": [
+    "horror stories",
+    "scary stories",
+    "creepypasta",
+    "horror narration",
+    "ghost stories"
+   ],
+   "views": 1,
+   "likes": 1,
+   "comments": 0,
+   "duration": "PT9M14S"
+  },
+  {
+   "video_id": "CBTJEyMykQI",
+   "title": "He Wouldn't Open the Doors #shorts #horror #scarystories",
+   "published": "2026-10-07",
+   "description": "His hand hovers over the door lever. One living soul waits at the stop... From \"The Last Bus to Black Hollow\".\n\n#shorts #horror #scarystories",
+   "tags": [],
+   "views": 58,
+   "likes": 3,
+   "comments": 0,
+   "duration": "PT48S"
+  },
+  {
+   "video_id": "LYjw4nTlwUE",
+   "title": "She Had NO Reflection #shorts #horror #scarystories",
+   "published": "2026-10-07",
+   "description": "She boards the last bus... but the mirror shows an empty seat. From \"The Last Bus to Black Hollow\".\n\n#shorts #horror #scarystories",
+   "tags": [],
+   "views": 6,
+   "likes": 1,
+   "comments": 1,
+   "duration": "PT42S"
+  },
+  {
+   "video_id": "u-GqEcijwIk",
+   "title": "I Was Dead for 52 Years... #shorts #horror #scarystories",
+   "published": "2026-10-07",
+   "description": "Marcus looks at the windshield... and realizes the terrible truth. From \"The Last Bus to Black Hollow\".\n\n#shorts #horror #scarystories",
+   "tags": [],
+   "views": 34,
+   "likes": 3,
+   "comments": 0,
+   "duration": "PT29S"
+  },
+  {
+   "video_id": "jhDzosY_vj8",
+   "title": "She Had NO Reflection 😱 #shorts #horror #scarystories",
+   "published": "2026-10-08",
+   "description": "She boards the last bus... but the mirror shows an empty seat. From \"The Last Bus to Black Hollow\".\n\nWatch the full story: https://www.youtube.com/watch?v=W-9_kjVUpuI",
+   "tags": [],
+   "views": 0,
+   "likes": 1,
+   "comments": 1,
+   "duration": "PT42S"
+  },
+  {
+   "video_id": "7mkgmONd89o",
+   "title": "I Was Dead for 52 Years... #shorts #horror #scarystories",
+   "published": "2026-10-08",
+   "description": "Marcus looks at the windshield... and realizes the terrible truth. From \"The Last Bus to Black Hollow\". Watch the full story: https://www.youtube.com/watch?v=W-9_kjVUpuI",
+   "tags": [],
+   "views": 0,
+   "likes": 1,
+   "comments": 1,
+   "duration": "PT29S"
+  }
+ ]
+}

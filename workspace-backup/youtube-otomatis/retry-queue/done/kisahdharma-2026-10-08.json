@@ -1,0 +1,8 @@
+{
+ "channel": "kisahdharma",
+ "video_path": "/home/hatch/workspace/kisah-dharma/2026-10-08/kisah-dharma-2026-10-08-long-small.mp4",
+ "instruksi_path": "/home/hatch/workspace/kisah-dharma/2026-10-08/upload-instruksi.md",
+ "slot_target": "2026-10-09 19:00 WIB",
+ "gagal_pada": "2026-10-10T20:40:00+07:00",
+ "sebab": "Batas upload harian masih tercapai saat retry watchdog 10 Okt 20:40 WIB (task 4/6)"
+}

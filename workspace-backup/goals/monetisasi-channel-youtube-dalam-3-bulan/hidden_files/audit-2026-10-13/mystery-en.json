@@ -1,0 +1,146 @@
+{
+ "slug": "mystery-en",
+ "handle": "@MysteryShadowsTV",
+ "date": "2026-10-13",
+ "analytics": {
+  "channel": "mystery-en",
+  "handle": "@MysteryShadowsTV",
+  "channel_id": "UCjxESFWyFPOkGTSpajK69Lw",
+  "days": 28,
+  "summary": {
+   "views": 161,
+   "watch_minutes": 24,
+   "subs_gained": 0
+  },
+  "videos": [
+   {
+    "video_id": "bmcSYyeN6Vs",
+    "views": 104,
+    "likes": 2,
+    "watch_minutes": 20,
+    "avg_view_sec": 32,
+    "title": "Their Tent Was Slashed Open From INSIDE | Dyatlov Pass Mystery #shorts #mystery #unsolved #foryou",
+    "published": "2026-10-06",
+    "description": "Watch the full story on Unsolved Shadows.\n\n#shorts #mystery #unsolved #dyatlovpass\n\n🎬 Watch the full story: https://youtu.be/g900Smffbuo",
+    "tags": [
+     "creepy mystery",
+     "dyatlov pass",
+     "mystery",
+     "mystery shadows",
+     "true mystery",
+     "unsolved cases",
+     "unsolved mystery"
+    ],
+    "duration_iso": "PT46S",
+    "views_lt": 106,
+    "likes_lt": 2,
+    "comments_lt": 0,
+    "duration_sec": 46,
+    "retention_pct": 69.6
+   },
+   {
+    "video_id": "FZZpx8dT-Xc",
+    "views": 40,
+    "likes": 3,
+    "watch_minutes": 2,
+    "avg_view_sec": 15,
+    "title": "Her Tongue Was Missing. Their Clothes Were Radioactive. #shorts #mystery #unsolved #foryou",
+    "published": "2026-10-07",
+    "description": "Watch the full story on Unsolved Shadows.\n\n#shorts #mystery #unsolved #dyatlovpass\n\n🎬 Watch the full story: https://youtu.be/g900Smffbuo",
+    "tags": [
+     "creepy mystery",
+     "dyatlov pass",
+     "mystery",
+     "mystery shadows",
+     "true mystery",
+     "unsolved cases",
+     "unsolved mystery"
+    ],
+    "duration_iso": "PT37S",
+    "views_lt": 41,
+    "likes_lt": 3,
+    "comments_lt": 1,
+    "duration_sec": 37,
+    "retention_pct": 40.5
+   },
+   {
+    "video_id": "teVuCq5mvqM",
+    "views": 15,
+    "likes": 1,
+    "watch_minutes": 0,
+    "avg_view_sec": 7,
+    "title": "Glowing Orbs Were Seen Over the Mountain That Night #shorts #mystery #unsolved #foryou",
+    "published": "2026-10-07",
+    "description": "Watch the full story on Unsolved Shadows.\n\n#shorts #mystery #unsolved #dyatlovpass\n\n🎬 Watch the full story: https://youtu.be/g900Smffbuo",
+    "tags": [
+     "creepy mystery",
+     "dyatlov pass",
+     "mystery",
+     "mystery shadows",
+     "true mystery",
+     "unsolved cases",
+     "unsolved mystery"
+    ],
+    "duration_iso": "PT46S",
+    "views_lt": 17,
+    "likes_lt": 1,
+    "comments_lt": 1,
+    "duration_sec": 46,
+    "retention_pct": 15.2
+   },
+   {
+    "video_id": "g900Smffbuo",
+    "views": 1,
+    "likes": 1,
+    "watch_minutes": 0,
+    "avg_view_sec": 24,
+    "title": "The Dyatlov Pass Incident: 9 Hikers, 1 Mountain, Zero Answers",
+    "published": "2026-10-06",
+    "description": "In February 1959, nine experienced hikers died on the slopes of Kholat Syakhl — the \"Dead Mountain\" — in Russia's Ural Mountains. Their tent was slashed open FROM THE INSIDE. They fled barefoot into minus-thirty cold. Their bodies showed injuries like a car crash, yet their skin was unmarked. Their clothing was radioactive. And one victim's tongue was missing.\n\nWhat really happened on the Dead Mountain that night? An avalanche? Secret military tests? Or something no science has named?\n\nSubscribe to Unsolved Shadows for more unsolved mysteries: https://www.youtube.com/@MysteryShadowsTV\n\n#mystery #unsolved #viral #foryou",
+    "tags": [
+     "dyatlov pass",
+     "unsolved mystery",
+     "dyatlov pass incident",
+     "true crime",
+     "mystery documentary",
+     "kholat syakhl",
+     "unsolved mysteries",
+     "ural mountains",
+     "cold case",
+     "what happened at dyatlov pass"
+    ],
+    "duration_iso": "PT8M30S",
+    "views_lt": 1,
+    "likes_lt": 1,
+    "comments_lt": 0,
+    "duration_sec": 510,
+    "retention_pct": 4.7
+   }
+  ]
+ },
+ "enrich": {
+  "channel_id": "UCjxESFWyFPOkGTSpajK69Lw",
+  "stats": {
+   "viewCount": "165",
+   "subscriberCount": "0",
+   "hiddenSubscriberCount": false,
+   "videoCount": "5"
+  },
+  "reader": "mystery-en"
+ },
+ "playlists": [
+  {
+   "id": "PLXVUpp0AzPiE",
+   "title": "Unsolved Mysteries & Strange Cases | Unsolved Shadows",
+   "count": 3
+  }
+ ],
+ "videos_in_playlists": [
+  "FZZpx8dT-Xc",
+  "g900Smffbuo",
+  "teVuCq5mvqM"
+ ],
+ "videos_no_playlist": [
+  "bmcSYyeN6Vs"
+ ]
+}

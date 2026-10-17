@@ -1,0 +1,48 @@
+TUGAS: Upload 1 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Kerjakan BERURUTAN. Nama file UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 39 ===
+FILE: 39-horror-en-2026-10-10.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: The Watcher of 657 Boulevard: The True Story
+DESKRIPSI: In 2014, Derek and Maria Broaddus bought their $1.35M dream home at 657 Boulevard, Westfield NJ. Then the letters from "The Watcher" started arriving. This true story still has no ending. 
+  
+ When I first read the actual Watcher letters, one sentence stopped me cold: "Who has the bedrooms facing the street? I will know as soon as you move in. Then I can plan better." This isn't a ghost story. It's something worse — a real family, real letters, and a writer who was never caught. 
+  
+ In June 2014, Derek and Maria Broaddus bought 657 Boulevard in Westfield, New Jersey for $1.35 million. Before they even moved in, the first letter arrived, signed "The Watcher." It knew about their renovations. It asked which bedrooms faced the street. It wanted the names of their children. 
+  
+ The police investigated. A private investigator dug deeper. The previous owners admitted they'd received a letter too — and never told anyone. In 2019 the Broadduses sold at a nearly $400,000 loss. Reportedly, the new owners got a letter as well. 
+  
+ I still think about this one every time I pass a for sale sign. If you love real unsolved horror, you're in the right place. 
+  
+ CHAPTERS: 
+ 0:00 The Letter That Terrified New Jersey 
+ 0:20 A $1.35M Dream Home in Westfield 
+ 0:43 The First Letter From The Watcher 
+ 1:47 The Second Letter Knew Their Secrets 
+ 2:38 Who Has the Bedrooms Facing the Street 
+ 3:19 The Secret the Previous Owners Hid 
+ 3:56 The Third Letter and Prime Suspects 
+ 5:10 The House That Watched Back 
+ 5:42 Who Was The Watcher? Theories Explained 
+ 7:15 Check Which Bedrooms Face the Street 
+  
+ If this one got under your skin, subscribe to Midnight Dread Tales for a new true horror story every day. Tell me in the comments: which letter creeped you out the most? 
+  
+ More true horror: https://www.youtube.com/@TalesOfDreadTV 
+  
+ #horrorstories #truehorror #scarystories
+TAGS: the watcher, 657 boulevard, watcher house, westfield new jersey, true horror story, unsolved mystery, real scary stories, stalker letters, haunted house, scary stories, creepypasta, midnight dread tales, horror narration, true crime, mystery, unsolved case, the watcher netflix, home invasion horror, creepy true stories, dread
+VISIBILITAS: PUBLIKASI SEKARANG
+THUMB: 39-horror-en-thumb.jpg
+
+LAPORAN AKHIR: tiap nomor -> SUKSES + URL, atau GAGAL + alasan singkat.

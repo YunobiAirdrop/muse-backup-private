@@ -1,0 +1,8 @@
+{
+ "channel": "limamisteri",
+ "video_path": "/home/hatch/workspace/lima-misteri/shorts/2026-10-09-s1.mp4",
+ "instruksi_path": "/home/hatch/workspace/lima-misteri/upload-instruksi-2026-10-09.md",
+ "slot_target": "2026-10-11 20:00 WIB",
+ "gagal_pada": "2026-10-10T16:22:45+07:00",
+ "sebab": "Shorts s1 'Bayangan Ini Menoleh ke Kamera, Rekaman Langsung Terputus' (produksi 2026-10-09). DITUNDA (bukan gagal upload): hari ini giliran SHORTS, tapi batas upload harian channel @LimaMisteri masih aktif (terakhir kena 2026-10-09 18:14 WIB; antrean sudah berisi limamisteri-2026-10-08-s3 dan limamisteri-2026-10-09-long slot 19:00). Upload sekarang hampir pasti gagal + berisiko mereset countdown rolling 24 jam dan membuang ketukan persetujuan. Watchdog 20:00 WIB yang mengerjakan sesuai budget harian (~1/hari). Instruksi lengkap (judul, deskripsi, AI disclosure, jadwal) di BAGIAN SHORTS upload-instruksi-2026-10-09.md."
+}

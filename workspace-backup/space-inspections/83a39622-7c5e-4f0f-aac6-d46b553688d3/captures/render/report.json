@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "url": "https://artifact-capture.invalid/spaces/v2/hatch-audit-4e71dada-e38b-49ff-8ad3-15a7d2697efa/",
+  "duration_ms": 5939.929859,
+  "output_dir": "/home/hatch/workspace/space-inspections/83a39622-7c5e-4f0f-aac6-d46b553688d3/captures/render",
+  "nav_status": 200,
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 900,
+      "screenshot_path": "/home/hatch/workspace/space-inspections/83a39622-7c5e-4f0f-aac6-d46b553688d3/captures/render/screenshot.png",
+      "fullpage_screenshot_path": "/home/hatch/workspace/space-inspections/83a39622-7c5e-4f0f-aac6-d46b553688d3/captures/render/screenshot-full.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "screenshot_path": "/home/hatch/workspace/space-inspections/83a39622-7c5e-4f0f-aac6-d46b553688d3/captures/render/screenshot-mobile.png"
+    }
+  },
+  "mobile_layout": {
+    "viewport_width": 390,
+    "scroll_width": 390,
+    "overflow_px": 0,
+    "widest_selector": null,
+    "verdict": "pass"
+  },
+  "horizontal_scrollers": [],
+  "unreachable_controls": {
+    "desktop": [],
+    "mobile": []
+  },
+  "clipped": {
+    "desktop": [],
+    "mobile": []
+  },
+  "images": {
+    "total": 0,
+    "broken": [],
+    "duplicate": [],
+    "unstable": [],
+    "failed_requests": [],
+    "external_blocked": {
+      "count": 0,
+      "sample": []
+    },
+    "sample_urls": [],
+    "verdict": "pass"
+  },
+  "text_issues": [],
+  "console_errors": [],
+  "console_warnings": [],
+  "external_fetch_failures": 0,
+  "external_fetch_failure_samples": [],
+  "blocked_requests": [],
+  "external_requests": [],
+  "external_requests_dropped": 0,
+  "external_requests_dropped_data_bearing": 0,
+  "transport_ledger_active": true,
+  "egress_lockdown": false,
+  "transport_connections": [
+    {
+      "host": "artifact-capture.invalid",
+      "port": 443,
+      "connects": 2,
+      "bytes_up": 4100,
+      "bytes_down": 2485
+    }
+  ],
+  "transport_udp_attempts": 0,
+  "transport_overflow": 0,
+  "unexplained_transport_hosts": [],
+  "broken_assets": [],
+  "blocked_affordances": [],
+  "interactive_nodes": 27,
+  "aria_snapshot": "- main:\n  - heading \"🛒 Rekomendasi Produk Pilihan\" [level=1]\n  - paragraph: Klik produk untuk beli via Shopee\n  - searchbox \"Cari produk\"\n  - paragraph: 36 produk\n  - list:\n    - listitem:\n      - link \"Beli Cream JRG Original BPOM 30gr seharga Rp28.000 di Shopee\":\n        - /url: https://s.shopee.co.id/9V1w99dZY0\n        - text: \"01\"\n        - strong: Cream JRG Original BPOM 30gr\n        - text: \"#skincare #pemutihwajah Rp28.000\"\n    - listitem:\n      - link \"Beli Paket Cream JRG Glowing BPOM seharga Rp76.000 di Shopee\":\n        - /url: https://s.shopee.co.id/4fwgOHU4Q8\n        - text: \"02\"\n        - strong: Paket Cream JRG Glowing BPOM\n        - text: \"#skincare #paketskincare Rp76.000\"\n    - listitem:\n      - link \"Beli ThePods Gen 4 TWS Bluetooth ANC seharga Rp339.520 di Shopee\":\n        - /url: https://s.shopee.co.id/8AWYYltgKB\n        - text: \"03\"\n        - strong: ThePods Gen 4 TWS Bluetooth ANC\n        - text: \"#tws #earphone Rp339.520\"\n    - listitem:\n      - link \"Beli ThePods Pro 3 TWS ANC Original seharga Rp339.520 di Shopee\":\n        - /url: https://s.shopee.co.id/8AWYYmXYQW\n        - text: \"04\"\n        - strong: ThePods Pro 3 TWS ANC Original\n        - text: \"#tws #headset Rp339.520\"\n    - listitem:\n      - link \"Beli Panci Wajan Cast Iron Pancaguna seharga Rp364.100 di Shopee\":\n        - /url: https://s.shopee.co.id/7faHxkFSgS\n        - text: \"05\"\n        - strong: Panci Wajan Cast Iron Pancaguna\n        - text: \"#alatmasak #dapur Rp364.100\"\n    - listitem:\n      - link \"Beli Alat Rebus Telur Elektrik seharga Rp155.100 di Shopee\":\n        - /url: https://s.shopee.co.id/40gzb1K9Fi\n        - text: \"06\"\n        - strong: Alat Rebus Telur Elektrik\n        - text: \"#dapur #alatdapur Rp155.100\"\n    - listitem:\n      - link \"Beli New Balance Fresh Foam X 2025 seharga Rp850.000 di Shopee\":\n        - /url: https://s.shopee.co.id/1gJ4onHvca\n        - text: \"07\"\n        - strong: New Balance Fresh Foam X 2025\n        - text: \"#sepatu #sepatulari Rp850.000\"\n    - listitem:\n      - link \"Beli New Balance Fuelcell Rebel V5 seharga Rp850.000 di Shopee\":\n        - /url: https://s.shopee.co.id/6VOKZgYrb7\n        - text: \"08\"\n        - strong: New Balance Fuelcell Rebel V5\n        - text: \"#sepatu #sepatuolahraga Rp850.000\"\n    - listitem:\n      - link \"Beli Spion Koso Lipat Universal Motor seharga Rp59.999 di Shopee\":\n        - /url: https://s.shopee.co.id/3qNZOxWSZe\n        - text: \"09\"\n        - strong: Spion Koso Lipat Universal Motor\n        - text: \"#aksesorismotor #spion Rp59.999\"\n    - listitem:\n      - link \"Beli Knalpot Racing All Motor seharga Rp1.500.000 di Shopee\":\n        - /url: https://s.shopee.co.id/9zyCkJDjgO\n        - text: \"10\"\n        - strong: Knalpot Racing All Motor\n        - text: \"#knalpot #racing Rp1.500.000\"\n    - listitem:\n      - link \"Beli English for Health Professionals seharga Rp46.400 di Shopee\":\n        - /url: https://s.shopee.co.id/6L4uNaqnMe\n        - text: \"11\"\n        - strong: English for Health Professionals\n        - text: \"#buku #bukukesehatan Rp46.400\"\n    - listitem:\n      - link \"Beli Ilmu Kesehatan Lingkungan 2026 seharga Rp58.400 di Shopee\":\n        - /url: https://s.shopee.co.id/7ptiAMGV9s\n        - text: \"12\"\n        - strong: Ilmu Kesehatan Lingkungan 2026\n        - text: \"#buku #kesehatanlingkungan Rp58.400\"\n    - listitem:\n      - link \"Beli Kantong Sepatu Travelling Serut seharga Rp8.800 di Shopee\":\n        - /url: https://s.shopee.co.id/8AWYYqwPC8\n        - text: \"13\"\n        - strong: Kantong Sepatu Travelling Serut\n        - text: \"#travel #traveling Rp8.800\"\n    - listitem:\n      - link \"Beli Pouch Travel Organizer Serut seharga Rp2.550 di Shopee\":\n        - /url: https://s.shopee.co.id/113O1h9k26\n        - text: \"14\"\n        - strong: Pouch Travel Organizer Serut\n        - text: \"#travel #organizer Rp2.550\"\n    - listitem:\n      - link \"Beli Vitamin Minyak Ikan Kucing Omega 3&6 seharga Rp32.305 di Shopee\":\n        - /url: https://s.shopee.co.id/7Ae1MyngRM\n        - text: \"15\"\n        - strong: Vitamin Minyak Ikan Kucing Omega 3&6\n        - text: \"#kucing #pecintakucing Rp32.305\"\n    - listitem:\n      - link \"Beli Vitamin Pencernaan Kucing seharga Rp65.339 di Shopee\":\n        - /url: https://s.shopee.co.id/50ZWn0PyQm\n        - text: \"16\"\n        - strong: Vitamin Pencernaan Kucing\n        - text: \"#kucing #kesehatanhewan Rp65.339\"\n    - listitem:\n      - link \"Beli Sabun Cuci Piring 5 Liter Premium seharga Rp12.000 di Shopee\":\n        - /url: https://s.shopee.co.id/2gBc2APRvk\n        - text: \"17\"\n        - strong: Sabun Cuci Piring 5 Liter Premium\n        - text: \"#rumahtangga #sabun Rp12.000\"\n    - listitem:\n      - link \"Beli Impact Wrench Cordless Brushless 700NM seharga Rp459.000 di Shopee\":\n        - /url: https://s.shopee.co.id/2LYldbPmWS\n        - text: \"18\"\n        - strong: Impact Wrench Cordless Brushless 700NM\n        - text: \"#perkakas #otomotif Rp459.000\"\n    - listitem:\n      - link \"Beli Tumbler 900ml Stainless Steel seharga Rp63.990 di Shopee\":\n        - /url: https://s.shopee.co.id/3LRIpS3LxT\n        - text: \"19\"\n        - strong: Tumbler 900ml Stainless Steel\n        - text: \"#tumbler #botolminum Rp63.990\"\n    - listitem:\n      - link \"Beli Gamis Mewah Karina Dress Ceruty seharga Rp125.000 di Shopee\":\n        - /url: https://s.shopee.co.id/5LCND9LjY8\n        - text: \"20\"\n        - strong: Gamis Mewah Karina Dress Ceruty\n        - text: \"#gamis #fashionmuslim Rp125.000\"\n    - listitem:\n      - link \"Beli Gamis Kondangan Kayla Dress Viral seharga Rp80.000 di Shopee\":\n        - /url: https://s.shopee.co.id/5LCND9vTuL\n        - text: \"21\"\n        - strong: Gamis Kondangan Kayla Dress Viral\n        - text: \"#gamis #kondangan Rp80.000\"\n    - listitem:\n      - link \"Beli Aura Midi Dress Jumbo Busui Friendly seharga Rp66.644 di Shopee\":\n        - /url: https://s.shopee.co.id/gQXeagX5M\n        - text: \"22\"\n        - strong: Aura Midi Dress Jumbo Busui Friendly\n        - text: \"#dress #fashion Rp66.644\"\n    - listitem:\n      - link \"Beli Mainan Edukasi Sains Kayu Anak seharga Rp98.000 di Shopee\":\n        - /url: https://s.shopee.co.id/9AP5mEEVt2\n        - text: \"23\"\n        - strong: Mainan Edukasi Sains Kayu Anak\n        - text: \"#mainan #edukasi Rp98.000\"\n    - listitem:\n      - link \"Beli Puzzle Kayu Edukasi Montessori seharga Rp21.890 di Shopee\":\n        - /url: https://s.shopee.co.id/9pemZScr45\n        - text: \"24\"\n        - strong: Puzzle Kayu Edukasi Montessori\n        - text: \"#mainan #puzzle Rp21.890\"\n    - listitem:\n      - link \"Beli LCD Drawing Tablet 8.5 inci Anak seharga Rp17.575 di Shopee\":\n        - /url: https://s.shopee.co.id/6q1AzxJlFm\n        - text: \"25\"\n        - strong: LCD Drawing Tablet 8.5 inci Anak\n        - text: \"#mainan #gambaranak Rp17.575\"\n    - listitem:\n      - link \"Beli Taiyo LCD Drawing Tablet Anak seharga Rp21.900 di Shopee\":\n        - /url: https://s.shopee.co.id/2LYldh5grV\n        - text: \"26\"\n        - strong: Taiyo LCD Drawing Tablet Anak\n        - text: \"#mainan #drawingtablet Rp21.900\"\n    - listitem:\n      - link \"Beli Armrest Pad USB Tisu Mobil Premium seharga Rp117.900 di Shopee\":\n        - /url: https://s.shopee.co.id/4B0Pp5Rw85\n        - text: \"27\"\n        - strong: Armrest Pad USB Tisu Mobil Premium\n        - text: \"#aksesorismobil #interiormobil Rp117.900\"\n    - listitem:\n      - link \"Beli Tongkat Tol Telescopic Portable seharga Rp10.659 di Shopee\":\n        - /url: https://s.shopee.co.id/1qcV2o5cKQ\n        - text: \"28\"\n        - strong: Tongkat Tol Telescopic Portable\n        - text: \"#aksesorismobil #tol Rp10.659\"\n    - listitem:\n      - link \"Beli Perface Tone Up Cream BPOM Halal seharga Rp38.800 di Shopee\":\n        - /url: https://s.shopee.co.id/4VdGDiznxx\n        - text: \"29\"\n        - strong: Perface Tone Up Cream BPOM Halal\n        - text: \"#skincare #toneup Rp38.800\"\n    - listitem:\n      - link \"Beli HANASUI Power Bright Expert Serum seharga Rp36.429 di Shopee\":\n        - /url: https://s.shopee.co.id/20vvF8eG2l\n        - text: \"30\"\n        - strong: HANASUI Power Bright Expert Serum\n        - text: \"#serum #skincare Rp36.429\"\n    - listitem:\n      - link \"Beli Royal Kludge RK R65 Gaming Keyboard seharga Rp632.900 di Shopee\":\n        - /url: https://s.shopee.co.id/W77SOnHCS\n        - text: \"31\"\n        - strong: Royal Kludge RK R65 Gaming Keyboard\n        - text: \"#keyboard #gaming Rp632.900\"\n    - listitem:\n      - link \"Beli Rexus SH600 Keyboard Gaming Mechanical seharga Rp229.000 di Shopee\":\n        - /url: https://s.shopee.co.id/5q8doCxlr9\n        - text: \"32\"\n        - strong: Rexus SH600 Keyboard Gaming Mechanical\n        - text: \"#keyboard #gaming Rp229.000\"\n    - listitem:\n      - link \"Beli Kue Wijen Renyah 500g seharga Rp34.999 di Shopee\":\n        - /url: https://s.shopee.co.id/5fpDbv3qSA\n        - text: \"33\"\n        - strong: Kue Wijen Renyah 500g\n        - text: \"#camilan #kue Rp34.999\"\n    - listitem:\n      - link \"Beli Kentang Mustofa Renyah Gurih seharga Rp33.740 di Shopee\":\n        - /url: https://s.shopee.co.id/7KxRazSZaC\n        - text: \"34\"\n        - strong: Kentang Mustofa Renyah Gurih\n        - text: \"#camilan #kentang Rp33.740\"\n    - listitem:\n      - link \"Beli Cutter Mini Portable Pastel Lucu seharga Rp5.678 di Shopee\":\n        - /url: https://s.shopee.co.id/1gJ4qaqd3A\n        - text: \"35\"\n        - strong: Cutter Mini Portable Pastel Lucu\n        - text: \"#stationery #alattulis Rp5.678\"\n    - listitem:\n      - link \"Beli Kalender Abadi Meja + Tempat Pensil seharga Rp30.000 di Shopee\":\n        - /url: https://s.shopee.co.id/2BFLRWOP8E\n        - text: \"36\"\n        - strong: Kalender Abadi Meja + Tempat Pensil\n        - text: \"#stationery #kantor Rp30.000\"\n  - text: Harga dan ketersediaan dapat berubah di Shopee.",
+  "audit_session_id": "b500ed98-11fe-4f77-920f-d91da9430d7c",
+  "readiness": {
+    "desktop": {
+      "settled": true,
+      "settle_ms": 287,
+      "in_flight": null,
+      "network_idle": true,
+      "retried": false
+    },
+    "mobile": {
+      "settled": true,
+      "settle_ms": 439,
+      "in_flight": null,
+      "network_idle": true,
+      "retried": false
+    }
+  },
+  "color_scheme": {
+    "declared": "light dark",
+    "media_dependent": null,
+    "dark_frame": false
+  },
+  "cold_launch_ms": 1428.873228,
+  "desktop_ms": 3482.748626,
+  "mobile_ms": 3507.6349149999996,
+  "browser_launches": 1,
+  "audit_path": "shared-concurrent",
+  "diagnostics": {
+    "audit_path": "shared-concurrent",
+    "concurrent_ran": true,
+    "concurrent_desktop_retry": false,
+    "concurrent_mobile_retry": false,
+    "shared_launch_failed": false,
+    "nav_retries": 0,
+    "settle_retries": 0
+  }
+}

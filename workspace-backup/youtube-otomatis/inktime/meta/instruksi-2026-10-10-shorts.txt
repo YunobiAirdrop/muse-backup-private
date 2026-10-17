@@ -1,0 +1,45 @@
+INSTRUKSI UPLOAD — InkTime Shorts (3 video)
+Channel: InkTime (@InkTime-d3t, akun khususstokyunobi@gmail.com)
+WAJIB: verifikasi channel aktif benar di YouTube Studio SEBELUM upload.
+AI DISCLOSURE: wajib centang "Altered content" untuk tiap upload.
+SLOT: "Terjadwal" 2026-10-11 07:00 WIB untuk ketiga video.
+Sumber video: /home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-09-long.mp4
+
+================================================================
+SHORTS 1
+Judul: The Sun Went Out for 18 Months #shorts #history #explainer
+Deskripsi:
+In 536 AD, a mysterious dust veil darkened the sun for eighteen months — and modern science has uncovered what caused it. Think about that for a second: the sun dimmed, crops failed, and the world shivered through one of the coldest years in recorded history.
+
+Sources: Gibbons, A. (2018). "Eruption made 536 'the worst year to be alive'." Science, 362(6416), 733–734. | Sigl, M. et al. (2015). "Timing and climate forcing of volcanic eruptions for the past 2,500 years." Nature, 523, 543–549. | Büntgen, U. et al. (2016). "Cooling and societal change during the Late Antique Little Ice Age from 536 to around 660 AD." Nature Geoscience, 9, 231–236. | Procopius, History of the Wars (trans. H.B. Dewing, Loeb).
+
+Tags: 536 ad, worst year to be alive, volcanic winter, dark ages, history shorts, ancient history, climate history, byzantine empire, procopius, explainer
+
+Video:     /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-10-s1.mp4
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-10-s1.jpg
+
+================================================================
+SHORTS 2
+Judul: A Volcano Caused the Plague? #shorts #history #explainer
+Deskripsi:
+What if the Plague of Justinian — which killed millions — was made worse by a volcanic eruption? Scientists now connect a massive eruption in 536 AD to the climate chaos that followed, setting the stage for one of history's deadliest pandemics. What fascinates me about this is how a volcano on the other side of the world helped bring down an empire.
+
+Sources: Harper, K. (2017). The Fate of Rome. Princeton University Press. | Büntgen, U. et al. (2016). "Cooling and societal change during the Late Antique Little Ice Age from 536 to around 660 AD." Nature Geoscience, 9, 231–236. | Sigl, M. et al. (2015). "Timing and climate forcing of volcanic eruptions for the past 2,500 years." Nature, 523, 543–549. | Procopius, History of the Wars (trans. H.B. Dewing, Loeb).
+
+Tags: plague of justinian, volcanic eruption 536, fall of rome, volcanic winter, worst year to be alive, ancient history, history shorts, byzantine empire, climate and disease, explainer
+
+Video:     /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-10-s2.mp4
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-10-s2.jpg
+
+================================================================
+SHORTS 3
+Judul: Scientists Found It Buried in Ice #shorts #history #explainer
+Deskripsi:
+The mystery of 536 AD was solved by scientists drilling deep into ancient ice. Ice cores from Greenland trapped tiny volcanic particles — chemical fingerprints proving a massive eruption darkened the world. It's detective work, frozen in ice for over a thousand years.
+
+Sources: Larsen, L.B. et al. (2008). "New ice core evidence for a volcanic cause of the A.D. 536 dust veil." Geophysical Research Letters, 35(4). | Sigl, M. et al. (2015). "Timing and climate forcing of volcanic eruptions for the past 2,500 years." Nature, 523, 543–549. | Gibbons, A. (2018). "Eruption made 536 'the worst year to be alive'." Science, 362(6416), 733–734.
+
+Tags: ice core science, 536 ad, volcanic winter, worst year to be alive, climate science, ancient history, history shorts, greenland ice cores, volcanic eruption, explainer
+
+Video:     /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-10-s3.mp4
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-10-s3.jpg

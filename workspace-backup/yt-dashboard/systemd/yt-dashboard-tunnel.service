@@ -1,0 +1,19 @@
+[Unit]
+Description=YT Dashboard cloudflared tunnel
+After=network-online.target yt-dashboard-backend.service
+Wants=network-online.target
+Requires=yt-dashboard-backend.service
+
+[Service]
+Type=simple
+User=root
+Environment=HOME=/home/hatch
+WorkingDirectory=/home/hatch/workspace/yt-dashboard
+ExecStart=/bin/bash /home/hatch/workspace/yt-dashboard/tunnel.sh
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/hatch/workspace/yt-dashboard/tunnel.log
+StandardError=append:/home/hatch/workspace/yt-dashboard/tunnel.log
+
+[Install]
+WantedBy=multi-user.target

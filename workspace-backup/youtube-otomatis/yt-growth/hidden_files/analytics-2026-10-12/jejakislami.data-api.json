@@ -1,0 +1,101 @@
+{
+ "channel": "jejakislami",
+ "handle": "@JejakIslami-h3d",
+ "channel_id": "UC81zPJnIJbKU5lhTKx-6Hyg",
+ "days": 28,
+ "source": "youtube_data_api_v3_fallback (Analytics API timeout)",
+ "channel_stats": {
+  "viewCount": "6",
+  "subscriberCount": "0",
+  "hiddenSubscriberCount": false,
+  "videoCount": "4"
+ },
+ "summary": {
+  "total_videos_fetched": 4,
+  "total_views_channel_lifetime": "6",
+  "subscriberCount": "0"
+ },
+ "videos": [
+  {
+   "video_id": "8LdS1kmxEjg",
+   "title": "Dibuang ke Sumur, Difitnah, Lalu Jadi Penguasa Mesir",
+   "published": "2026-10-09",
+   "description": "Satu surah penuh di Al-Quran didedikasikan untuknya. Allah menyebut kisah Nabi Yusuf sebagai kisah terbaik (QS Yusuf: 3). Dari sumur gelap, fitnah keji, hingga penjara bertahun-tahun — sampai akhirnya Allah angkat menjadi penguasa Mesir. Ini kisah nyata tentang kesabaran dan keyakinan.\n\nYang paling menyentuh saya: Yusuf memaafkan saudara-saudaranya tanpa dendam sedikit pun. Pelajaran besar buat kita semua.\n\nSumber: Al-Quran Surah Yusuf (surah ke-12), ayat 3-101; sirah nabawiyah (Ibnu Hisyam).\nKo",
+   "tags": [
+    "cerita islami",
+    "cerita nabi",
+    "dakwah islam",
+    "hikmah kisah nabi",
+    "islam",
+    "kajian islam",
+    "kesabaran dalam islam",
+    "kisah islami",
+    "kisah nabi yusuf",
+    "kisah para nabi",
+    "mukjizat nabi",
+    "nabi yusuf alaihis salam",
+    "sejarah islam",
+    "surah yusuf",
+    "tafsir surah yusuf"
+   ],
+   "views": 1,
+   "likes": 1,
+   "comments": 0,
+   "duration": "PT8M57S"
+  },
+  {
+   "video_id": "bltnidaQ0ms",
+   "title": "Mimpi Sebelas Bintang Jadi Kenyataan #shorts #islami #kisahnabi",
+   "published": "2026-10-10",
+   "description": "Tonton kisah lengkap Nabi Yusuf di channel ini. Sumber: QS Yusuf.",
+   "tags": [
+    "cerita nabi",
+    "kisah islami",
+    "kisah nabi",
+    "kisah nabi yusuf",
+    "nabi yusuf",
+    "shorts islami"
+   ],
+   "views": 0,
+   "likes": 1,
+   "comments": 0,
+   "duration": "PT52S"
+  },
+  {
+   "video_id": "AjKco8l2Hf0",
+   "title": "Difitnah Lalu Dipenjara Tanpa Bersalah #shorts #islami #kisahnabi",
+   "published": "2026-10-10",
+   "description": "Tonton kisah lengkap Nabi Yusuf di channel ini. Sumber: QS Yusuf.",
+   "tags": [
+    "cerita nabi",
+    "kisah islami",
+    "kisah nabi",
+    "kisah nabi yusuf",
+    "nabi yusuf",
+    "shorts islami"
+   ],
+   "views": 0,
+   "likes": 1,
+   "comments": 0,
+   "duration": "PT46S"
+  },
+  {
+   "video_id": "l3G0yeRWSN8",
+   "title": "Dibuang ke Sumur oleh Saudaranya Sendiri #shorts #islami #kisahnabi",
+   "published": "2026-10-10",
+   "description": "Tonton kisah lengkap Nabi Yusuf di channel ini. Sumber: QS Yusuf.",
+   "tags": [
+    "cerita nabi",
+    "kisah islami",
+    "kisah nabi",
+    "kisah nabi yusuf",
+    "nabi yusuf",
+    "shorts islami"
+   ],
+   "views": 3,
+   "likes": 1,
+   "comments": 0,
+   "duration": "PT46S"
+  }
+ ]
+}

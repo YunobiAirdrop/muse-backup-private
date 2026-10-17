@@ -1,0 +1,148 @@
+{
+ "slug": "space-en",
+ "handle": "@CosmosUnknownTV",
+ "date": "2026-10-13",
+ "analytics": {
+  "channel": "space-en",
+  "handle": "@CosmosUnknownTV",
+  "channel_id": "UCQnUeh4-2AKgCsV_cjgUv4w",
+  "days": 28,
+  "summary": {
+   "views": 193,
+   "watch_minutes": 180,
+   "subs_gained": 3
+  },
+  "videos": [
+   {
+    "video_id": "qWsiDK-QWZM",
+    "views": 87,
+    "likes": 2,
+    "watch_minutes": 134,
+    "avg_view_sec": 195,
+    "title": "Rogue Planets: The Dark Worlds Drifting Between Stars",
+    "published": "2026-10-07",
+    "description": "Imagine a world where the sun never rises — not because it is night, but because there is no sun at all. Astronomers believe trillions of these sunless worlds, called rogue planets, are drifting through our galaxy right now. In this episode of Cosmic Unknown, we explore how planets lose their stars, how we detect invisible worlds with gravitational microlensing, NASA's upcoming Roman Space Telescope mission, the mysterious JuMBO planet pairs found by James Webb, and the thrilling question: could life exist in hidden oceans beneath the ice of a world that has never seen daylight?\n\nCHAPTERS:\n0:00 A World With No Sunrise\n0:32 What Is a Rogue Planet?\n1:01 Billions of Dark Worlds\n1:27 How Planets Lose Their Stars\n1:56 The Smallest Rogue Ever Found\n2:24 Seeing the Invisible\n2:58 NASA's Roman Telescope\n3:30 The Mystery of the JuMBOs\n4:06 Standing on a Sunless World\n4:38 Fire Beneath the Ice\n5:10 Hidden Oceans\n5:41 Could Life Exist?\n6:11 Warmth Without a Star\n6:40 The Interstellar Ark\n7:10 Could One Visit Us?\n7:40 What Webb Has Seen\n8:09 A Message in the Dark\n8:41 Subscribe for More Mysteries\n\nSubscribe to Cosmic Unknown for a new cosmic mystery every day!\n\n#space #universe #cosmos #rogueplanet #astronomy\n#foryou #viral",
+    "tags": [
+     "astronomy",
+     "cosmos",
+     "cosmos unknown",
+     "space",
+     "space documentary",
+     "space mysteries",
+     "universe"
+    ],
+    "duration_iso": "PT9M8S",
+    "views_lt": 86,
+    "likes_lt": 2,
+    "comments_lt": 1,
+    "duration_sec": 548,
+    "retention_pct": 35.6
+   },
+   {
+    "video_id": "IMBKjW8_uEE",
+    "views": 57,
+    "likes": 3,
+    "watch_minutes": 35,
+    "avg_view_sec": 83,
+    "title": "How We Find INVISIBLE Planets 🔭 #shorts #space #universe #foryou",
+    "published": "2026-10-09",
+    "description": "Watch the full episode: https://youtu.be/qWsiDK-QWZM\n\n#shorts #space #universe #foryou",
+    "tags": [
+     "astronomy",
+     "cosmos",
+     "cosmos unknown",
+     "how we find invisible planets",
+     "space",
+     "space documentary",
+     "space mysteries",
+     "universe"
+    ],
+    "duration_iso": "PT35S",
+    "views_lt": 53,
+    "likes_lt": 3,
+    "comments_lt": 0,
+    "duration_sec": 35,
+    "retention_pct": 237.1
+   },
+   {
+    "video_id": "5S1A7qDZj0M",
+    "views": 28,
+    "likes": 4,
+    "watch_minutes": 2,
+    "avg_view_sec": 15,
+    "title": "A Planet With NO Sun Exists?! 😱 #shorts #space #universe #foryou",
+    "published": "2026-10-09",
+    "description": "Watch the full episode: https://youtu.be/qWsiDK-QWZM\n\n#shorts #space #universe #foryou",
+    "tags": [
+     "a planet with no sun exists",
+     "astronomy",
+     "cosmos",
+     "cosmos unknown",
+     "space",
+     "space documentary",
+     "space mysteries",
+     "universe"
+    ],
+    "duration_iso": "PT33S",
+    "views_lt": 27,
+    "likes_lt": 4,
+    "comments_lt": 0,
+    "duration_sec": 33,
+    "retention_pct": 45.5
+   },
+   {
+    "video_id": "4buKqLS1-DA",
+    "views": 20,
+    "likes": 2,
+    "watch_minutes": 7,
+    "avg_view_sec": 44,
+    "title": "Could Life Survive With NO Sunlight? 👽 #shorts #space #universe #foryou",
+    "published": "2026-10-09",
+    "description": "Watch the full episode: https://youtu.be/qWsiDK-QWZM\n\n#shorts #space #universe #foryou",
+    "tags": [
+     "astronomy",
+     "cosmos",
+     "cosmos unknown",
+     "could life survive with no sunlight",
+     "space",
+     "space documentary",
+     "space mysteries",
+     "universe"
+    ],
+    "duration_iso": "PT31S",
+    "views_lt": 19,
+    "likes_lt": 2,
+    "comments_lt": 1,
+    "duration_sec": 31,
+    "retention_pct": 141.9
+   }
+  ]
+ },
+ "enrich": {
+  "channel_id": "UCQnUeh4-2AKgCsV_cjgUv4w",
+  "stats": {
+   "viewCount": "185",
+   "subscriberCount": "2",
+   "hiddenSubscriberCount": false,
+   "videoCount": "7"
+  },
+  "reader": "space-en"
+ },
+ "playlists": [
+  {
+   "id": "PLbwZ4EeVKmcs",
+   "title": "Space Mysteries & the Unknown Universe | Cosmic Unknown",
+   "count": 5
+  }
+ ],
+ "videos_in_playlists": [
+  "4buKqLS1-DA",
+  "5S1A7qDZj0M",
+  "Cn6AYK_fvag",
+  "I-fJeXXkgn8",
+  "qWsiDK-QWZM"
+ ],
+ "videos_no_playlist": [
+  "IMBKjW8_uEE"
+ ]
+}

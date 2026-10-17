@@ -1,0 +1,18 @@
+CARA PASANG TEMPLATE KABARVIRAL
+==============================
+
+1. Buka blogger.com → pilih blog kabarviralterkiniterbaru.blogspot.com
+2. Menu "Tema" → klik panah bawah di samping tombol "Sesuaikan" → "Pulihkan"
+3. Klik "Upload" → pilih file kabarviral-template.xml → "Upload"
+   (Sebaiknya klik "Cadangkan" dulu untuk menyimpan tema lama.)
+
+CATATAN PENTING
+- Slot iklan: di tema ini ada 5 slot bertuliskan "tempel kode AdSense di sini"
+  (atas, dalam artikel ×2, tengah artikel otomatis, sidebar 300×250).
+  Ganti tulisan itu dengan kode unit iklan AdSense setelah akun kamu
+  disetujui Google. Sebelum disetujui, slot tampil sebagai bingkai putus-putus.
+- Menu navigasi (Nasional/Teknologi/Hiburan/Olahraga) memakai label Blogger.
+  Buat label tersebut saat memposting agar menu berfungsi.
+- Hero slider, ticker "TERKINI", berita terpopuler & terkait terisi OTOMATIS
+  dari postingan blog — jadi posting dulu beberapa artikel biar tampil penuh.
+- Tombol bulan/matahari di header = mode gelap/terang.

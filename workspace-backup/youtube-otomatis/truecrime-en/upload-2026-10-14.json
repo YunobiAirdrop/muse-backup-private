@@ -1,0 +1,24 @@
+{
+ "tanggal": "2026-10-14",
+ "channel": "Dark Case Files",
+ "channel_id": "UC2df1xY_WqWdX33oLqeXE2w",
+ "video_id": "MsvOo6y4Bko",
+ "url": "https://youtu.be/MsvOo6y4Bko",
+ "judul": "The Gardner Heist: $500M Stolen in 81 Minutes, Still Unsolved",
+ "status": "private",
+ "publishAt": "2026-10-15T00:00:00Z",
+ "jadwal_tayang": "2026-10-15 07:00 WIB",
+ "uploadStatus": "processed",
+ "catatan": "Diupload oleh subagent run cron 16:11 yang timeout (11:19 UTC); subagent pengganti (18:07) memverifikasi via API: judul/deskripsi/durasi (9:11) cocok dengan produksi lokal. Anti-duplikat mencegah upload ganda. Video lokal video/2026-10-14.mp4 (550s) disimpan sebagai backup.",
+ "shorts_bank": [
+  "shorts/2026-10-14-s1.mp4",
+  "shorts/2026-10-14-s2.mp4",
+  "shorts/2026-10-14-s3.mp4"
+ ],
+ "shorts_titles": {
+  "2026-10-14-s1": "Two Fake Cops Stole $500M in 81 Minutes #shorts #truecrime #mystery #foryou",
+  "2026-10-14-s2": "They Cut Rembrandt Right Out of the Frame #shorts #truecrime #artheist #foryou",
+  "2026-10-14-s3": "The FBI Knows WHO \u2014 But Not WHERE #shorts #truecrime #unsolved #foryou"
+ },
+ "pending": "AI disclosure 'Altered content' dicentang menyusul via browser Studio (butuh browser task)"
+}

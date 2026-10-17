@@ -1,0 +1,53 @@
+INSTRUKSI UPLOAD — InkTime (@InkTime-d3t) — LONG VIDEO
+Tanggal produksi: 2026-10-09 | Slot: Terjadwal 2026-10-10 07:00 WIB
+
+=== CEK SEBELUM UPLOAD ===
+- Pastikan channel aktif di YouTube Studio = "InkTime" (@InkTime-d3t, khususstokyunobi@gmail.com)
+- AI DISCLOSURE: WAJIB centang "Altered content" (konten dibuat/diubah AI)
+
+=== FILE ===
+Video:     /home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-09-long.mp4
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-09.jpg
+Durasi:    ~7:38 (457.6 detik), 1280x720, 30fps
+
+=== JUDUL (pilih varian terkuat) ===
+Varian A (DIPILIH): Why 536 Was the Worst Year to Be Alive
+Varian B: The Year the Sun Went Out: 536 AD
+Varian C: 536 AD: The Darkest Year in Human History
+Varian D: When the Sun Died: The Mystery of 536
+
+=== DESKRIPSI ===
+In 536 AD, the sun went dark for 18 months. Crops failed, snow fell in summer, and famine swept the ancient world. Scientists now call it the worst year to be alive — here is the real story, from eyewitness accounts to ice-core science.
+
+Chapters:
+0:00 The sun went out
+0:44 Witnesses around the world
+1:31 Ice cores: the smoking gun
+2:21 Tree rings: the coldest summer
+3:06 The second eruption of 540
+3:46 Famine: when the harvest died
+4:44 The Plague of Justinian
+5:27 A century of cold
+6:33 The volcano that vanished
+7:02 The year the sun went out
+
+Honestly, what amazes me most is that one volcano, half a world away, could bring entire civilizations to their knees — no war, no invasion, just ash and a dimmed sun.
+
+Sources:
+- Gibbons, A. (2018). "Eruption made 536 'the worst year to be alive'." Science, 362(6416), 733–734.
+- Sigl, M. et al. (2015). "Timing and climate forcing of volcanic eruptions for the past 2,500 years." Nature, 523, 543–549.
+- Büntgen, U. et al. (2016). "Cooling and societal change during the Late Antique Little Ice Age from 536 to around 660 AD." Nature Geoscience, 9, 231–236.
+- Larsen, L.B. et al. (2008). "New ice core evidence for a volcanic cause of the A.D. 536 dust veil." Geophysical Research Letters, 35(4).
+- Harper, K. (2017). The Fate of Rome. Princeton University Press.
+- Procopius, History of the Wars (trans. H.B. Dewing, Loeb).
+
+#history #ancienthistory #explainer
+
+=== TAGS (20) ===
+year 536, worst year to be alive, 536 AD, volcanic winter, dark ages, Procopius, Plague of Justinian, Late Antique Little Ice Age, ancient history, history documentary, whiteboard explainer, volcano eruption, ice core science, tree rings, famine history, Justinian, Byzantine Empire, mystery of 536, ancient humans, history explained
+
+=== CATATAN ===
+- Bahasa: English | Voiceover: TTS English (avocado_v2:miles)
+- Visual: whiteboard explainer sketch + draw-reveal; film grain anti-AI look
+- AI clips: GAGAL total (media.generate_video: "video_not_available" region 403, 4/4 gagal) — video dirakit 100% dari 10 gambar sketsa + draw-reveal wipe. Tidak ada retry (sesuai aturan).
+- Jadwal: set "Terjadwal" 2026-10-10 07:00 WIB (= 19:00 US Eastern, prime time USA)

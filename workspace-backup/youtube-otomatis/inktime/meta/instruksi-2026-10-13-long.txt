@@ -1,0 +1,78 @@
+INSTRUKSI UPLOAD — InkTime (@InkTime-d3t) — LONG VIDEO
+Tanggal produksi: 2026-10-13 | Slot: Terjadwal 2026-10-14 07:00 WIB (= 2026-10-13 19:00 US Eastern, prime time USA)
+
+=== 0. VERIFIKASI CHANNEL DULU (WAJIB, SEBELUM UPLOAD) ===
+- Buka YouTube Studio. PASTIKAN channel aktif = "InkTime".
+- Verifikasi via CHANNEL ID (bukan cuma nama!): URL Studio HARUS mengandung
+  UCoZl5OaqjXSVkE4S96RY8_g
+  Contoh: https://studio.youtube.com/channel/UCoZl5OaqjXSVkE4S96RY8_g
+- Kalau ID tidak cocok -> JANGAN upload, hentikan dan laporkan.
+- Cek sekilas tab Inspirasi/Analytics untuk konteks channel (opsional, cepat).
+
+=== 1. UPLOAD ===
+- Upload sebagai TIDAK PUBLIK (Unlisted) dulu.
+- File video: /home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-13-long.mp4
+  Durasi: ~8:41 (521.5 detik), 1280x720, 30fps, ada video+audio (voiceover EN + bumper suara owner).
+- AI DISCLOSURE: WAJIB centang "Altered content" (konten dibuat/diubah AI).
+- JANGAN set "made for kids". Komentar: ON (jangan pernah dimatikan).
+- Izinkan embedding: YA. Lisensi: Standar YouTube. Auto-chapters: ON.
+- Bahasa video: English. Kategori: Education.
+- Auto-dubbing: aktifkan EN -> ID dan EN -> ES.
+
+=== 2. JUDUL (FINAL) ===
+The Bronze Age Collapse: History's Greatest Mystery
+
+=== 3. DESKRIPSI (template 6 bagian — paste apa adanya) ===
+Three thousand two hundred years ago, the entire civilized world collapsed — in about fifty years. Every great kingdom. Every palace. Every trading port. Burned, abandoned, forgotten. And historians STILL don't know exactly who did it. Invaders? Drought? Economic crash? This is the greatest unsolved mystery in all of history — backed by real research.
+
+Chapters:
+0:00 Intro - The Bronze Age Collapse
+0:02 The world ended in 50 years
+0:40 A golden, global world
+1:37 The last letters of Ugarit
+2:44 The Sea Peoples
+3:40 A perfect storm
+4:47 No simple answer
+5:25 A civilizational hard reset
+6:12 From ashes: the Iron Age
+7:12 Are we the Bronze Age?
+7:57 History can go backward
+
+What fascinates me most is that the Bronze Age didn't fall to one great enemy — it fell because it was too connected, too specialized, too dependent on a system nobody could control. If stories where real history refuses to give you a simple answer are your thing, subscribe to InkTime.
+
+Watch next: our video on the year 536 — when the sun went dark and the world nearly ended AGAIN (link video long "Why 536 Was the Worst Year to Be Alive" dari tab Konten channel ini). History rhymes.
+
+Sources:
+- Cline, Eric H. (2014). 1177 B.C.: The Year Civilization Collapsed. Princeton University Press. (systems-collapse / "perfect storm" theory)
+- Drews, Robert (1993). The End of the Bronze Age: Changes in Warfare and the Catastrophe ca. 1200 B.C. Princeton University Press. (warfare revolution / infantry vs chariots)
+- Kaniewski, D. et al. (2013). "Environmental Roots of the Late Bronze Age Crisis." PLOS ONE 8(8): e71004. (worst drought in 3,000 years in the eastern Mediterranean)
+- Medinet Habu inscriptions of Ramesses III, c. 1177 BC (the Sea Peoples, battles of Djahy and the Delta).
+- Ugarit archives — final correspondence of King Ammurapi (e.g. RS 20.238, the "enemy ships" letter).
+
+#history #bronzeage #ancienthistory #explainer #foryou
+
+=== 4. TAGS (20) ===
+bronze age collapse, 1177 BC, Eric Cline, Sea Peoples, Ugarit, Ramesses III, ancient history, history documentary, whiteboard explainer, ancient civilizations, Late Bronze Age, Mycenaean, Hittites, Hattusa, Iron Age, ancient mysteries, history explained, collapse of civilization, archaeology, InkTime
+
+=== 5. THUMBNAIL (Test & Compare — upload 3, biarkan YouTube uji) ===
+Utama:   /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-13.jpg    ("EVERYTHING COLLAPSED")
+Varian 2: /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-13-v2.jpg ("WHO DESTROYED IT")
+Varian 3: /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-13-v3.jpg ("CIVILIZATION ENDED")
+
+=== 6. SETELAH METADATA RAPI ===
+- Masukkan ke 1 playlist bertema (buat "Ancient History" bila belum ada).
+- End screen: 1 video spesifik (video 536 "Why 536 Was the Worst Year to Be Alive") + 1 elemen playlist.
+- Set "Terjadwal": 2026-10-14 07:00 WIB.
+- Pinned comment (paste setelah tayang):
+  "Invaders? Drought? Trade collapse? What is YOUR theory for the Bronze Age Collapse? Drop it below — chapters in the description."
+- Review akurasi auto-caption (perbaiki istilah: Amarna, Ugarit, Medinet Habu, Ramesses, Peleset bila salah).
+
+=== 7. CATATAN PRODUKSI ===
+- Bahasa: English | Voiceover: TTS avocado_v2:miles | Persona: "Pak Guru Ink"
+- Visual: 10 gambar sketsa whiteboard + draw-reveal wipe + burned captions + film grain (anti-AI look). Semua 10 gambar dicek visual manual — sesuai narasi per beat, tidak ada citra budaya salah.
+- AI clips: TIDAK DIPAKAI (aturan tetap: jangan retry media.generate_video yang ditolak region 403) — fallback ke gambar untuk semua beat, sesuai aturan.
+- Bumper suara owner (bumper-inktime.wav, 4.6 dtk) diselipkan di jeda natural antara beat 5 dan 6 (~4:47), dengan kartu putih + teks "InkTime" tengah.
+- Naskah: 1353 kata (10 beat), hook 3 detik cold open, pertanyaan pancing komentar di detik pertama, 3 kalimat refleksi narator, 2 jeda dramatis.
+- File final: /home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-13-long.mp4 (521.56 dtk, 26 MB, h264+aac, terverifikasi).
+- CTA: verbal + overlay "SUBSCRIBE!" 3 dtk di ~50% (beat 6, ~5:28) + CTA akhir + pitch end-screen ke video 536.
+- Komentar: pastikan ON. AI disclosure: WAJIB centang.

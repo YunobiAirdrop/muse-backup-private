@@ -1,0 +1,358 @@
+POV: Kamu Jadi Prajurit Sparta di Thermopylae
+88 beat | Tokoh: Damos, 19 tahun, prajurit Sparta | Setting: Sparta dan celah Thermopylae, Yunani, 480 SM, di bawah Raja Leonidas melawan Persia Xerxes
+KARAKTER VISUAL: Damos, a young Spartan soldier, 19 years old, lean muscular build, olive skin, dark curly hair, short beard stubble, bronze Corinthian helmet with red crest, red wool cloak, bronze cuirass, large round bronze shield with lambda symbol, short iron sword and long spear. King Leonidas, Spartan king in his late 40s, full dark beard streaked with grey, bronze Corinthian helmet with tall red crest, red cloak, bronze cuirass, round bronze shield, calm fearless face. Xerxes, Persian king, tall, black beard, golden crown and luxurious purple-gold robes, seated on a golden throne. Thermopylae: extremely narrow rocky pass between steep cliffs and the Aegean sea, hot springs, an old stone wall across the gap.
+GAYA GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text
+CATATAN: hindari darah/kekerasan eksplisit di narasi maupun prompt gambar. Angka di naskah sudah dieja agar TTS natural. [JEDA] = tambah silence 0.8 detik di akhir beat (sebelum twist/momen kunci).
+OVERLAY TEKS (drawtext, 5 momen): beat 2 "THERMOPYLAE 480 SM" | beat 25 "CELAH SATU KERETA" | beat 44 "SUBSCRIBE!" (3 detik) | beat 65 "LEONIDAS GUGUR" | beat 85 "SPARTA TIDAK LUPA"
+
+BEAT 1:
+Hujan panah menutupi matahari. Ribuan anak panah Persia jatuh ke arahku — dan aku cuma punya satu perisai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, sky blackened by thousands of falling Persian arrows, Spartan soldiers raising round bronze shields overhead in a narrow mountain pass, Damos looking up in terror, arrows raining down, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 2:
+Di depanku, celah sempit Thermopylae. Di belakangku, seluruh Yunani yang belum tahu mereka akan diselamatkan — atau dijajah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the narrow pass of Thermopylae between steep cliffs and the sea, a tiny line of red-cloaked Spartan soldiers blocking the pass, vast Persian army camp stretching to the horizon behind them, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 3:
+Perisaiku bergetar menahan tombak musuh. Tanganku gemetar. Dan aku cuma punya satu pilihan: maju, atau mati di sini. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, extreme close-up of Damos, terrified wide-eyed face, sweat on his brow, gripping a trembling bronze shield as enemy spear points press against it, dramatic light, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 4:
+Tapi tunggu — biar kuceritakan dari awal, bagaimana aku sampai berdiri di celah kematian ini.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, peaceful ancient Sparta at dawn, stone houses, Mount Taygetus behind, olive groves, calm wide establishing shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 5:
+Namaku Damos. Sembilan belas tahun, prajurit Sparta termuda di pasukanku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, portrait of Damos, young Spartan soldier, 19, lean muscular, olive skin, dark curly hair, short beard stubble, bronze Corinthian helmet with red crest under his arm, red wool cloak, bronze cuirass, round bronze shield with lambda symbol, standing in Sparta, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 6:
+Sparta bukan kota biasa. Sejak umur tujuh tahun, anak laki-laki diambil dari ibunya untuk dilatih perang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, a young Spartan boy of seven being led away from his mother by a stern trainer in ancient Sparta, the mother standing tall holding back tears, stone street, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 7:
+Latihan itu bernama agoge. Tidur di lantai batu, makan sedikit, dipukul kalau mengeluh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, young Spartan boys training harshly at dawn, running with wooden spears, sleeping on stone floors in a bare barracks, stern trainers watching, gritty wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 8:
+Kedengarannya kejam? Di Sparta, itu namanya dibesarkan. Yang lemah tersingkir, yang kuat bertahan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, older Spartan youths wrestling and training with spears in a dusty training ground, the weakest boy sitting exhausted aside, determined mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 9:
+Ibu melepas aku dulu cuma dengan satu pesan: pulanglah dengan perisaimu — atau di atasnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, a Spartan mother handing a large round bronze shield to her young son Damos at the door of a stone house, her face proud and stern, morning light, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 10:
+Jujur, bagian ini yang bikin saya merinding — ibu Sparta lebih takut anaknya pengecut daripada anaknya gugur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, close-up of the Spartan mother's proud tearless face, hand resting firmly on the bronze shield, Damos blurred beside her, reflective mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 11:
+Kami tidak menulis puisi. Kami tidak berdagang. Hidup Sparta cuma untuk satu hal: perang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Spartan soldiers drilling in perfect formation in a dusty plain, spears and round shields aligned, red cloaks, Mount Taygetus behind, disciplined wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 12:
+Dan perang terbesar dalam sejarah kami... sedang menyeberangi laut menuju Yunani.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, a vast Persian fleet of warships with purple sails crossing the Aegean sea toward Greece, hundreds of ships to the horizon, ominous wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 13:
+Dari timur datang Xerxes, raja Persia, dengan pasukan terbesar yang pernah dilihat manusia.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, King Xerxes of Persia on a golden throne carried by servants, tall crown, black beard, luxurious robes, an endless army marching behind him, imperial wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 14:
+Kata para pengintai, jumlah mereka ratusan ribu — tanah bergetar saat mereka berjalan. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, an endless Persian army marching across a plain, dust clouds rising, banners and spears without end, two Greek scouts watching in shock from a hill, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 15:
+Xerxes ingin membalas kekalahan ayahnya di Marathon, sepuluh tahun sebelumnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Xerxes studying a map of Greece in his royal tent, finger pointing at Marathon, vengeful expression, oil lamps, generals around him, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 16:
+Kota-kota Yunani gemetar. Banyak yang langsung menyerah dan memberi tanah dan air.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Greek city elders kneeling and offering bowls of earth and water to a Persian herald on horseback, citizens watching in fear, city gate behind, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 17:
+Tapi Sparta tidak menyerah. Dan Athena juga tidak.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Spartan and Athenian envoys standing tall and defiant before a Persian herald, refusing to kneel, red cloaks and bronze helmets, proud medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 18:
+Raja kami, Leonidas, memilih tiga ratus prajurit terbaik untuk menahan celah Thermopylae.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, King Leonidas, bearded Spartan king in his late 40s, bronze helmet with tall red crest, red cloak, bronze cuirass, inspecting a line of elite Spartan soldiers, authoritative medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 19:
+Syaratnya aneh: semua yang dipilih harus sudah punya anak laki-laki. Agar garis keturunan tidak putus.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Leonidas placing a hand on a soldier's shoulder while the soldier's young son watches proudly beside his mother, emotional selection scene in Sparta, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 20:
+Aku yang termuda hampir tidak lolos seleksi. Tapi Leonidas menatapku dan berkata: kamu ikut.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, young Damos standing nervous before King Leonidas who studies him with piercing eyes, other soldiers watching, tense close medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 21:
+Kalau menurut saya, Leonidas sudah tahu kami tidak akan pulang — dan dia tetap berangkat paling depan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, close-up of Leonidas's calm weathered face at dusk, eyes distant and resolute, red crest silhouetted against the sunset, reflective mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 22:
+Kami berbaris meninggalkan Sparta tanpa musik, tanpa tangisan. Hanya bunyi langkah yang serempak.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, three hundred Spartan soldiers marching out of Sparta in silent perfect step, red cloaks, women and elders watching silently from the roadside, somber wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 23:
+Di perjalanan, pasukan dari kota-kota Yunani lain bergabung. Total kami sekitar tujuh ribu orang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Greek allied soldiers from different cities joining the Spartan column on a mountain road, varied shields and helmets, growing army, hopeful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 24:
+Tujuh ribu melawan ratusan ribu. Kedengarannya gila — sampai kami melihat celahnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the Greek army arriving at the narrow pass of Thermopylae, steep cliff on one side and the sea on the other, soldiers exchanging amazed looks, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 25:
+Thermopylae artinya gerbang panas. Celah sempit di antara gunung dan laut, lebarnya cuma cukup untuk satu kereta.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, an extremely narrow rocky pass squeezed between a towering cliff and the sea, a single wooden cart showing its width, steam from hot springs, dramatic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 26:
+Di celah sesempit itu, jumlah besar tidak ada gunanya. Mereka cuma bisa maju sedikit demi sedikit.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, overhead view of the narrow pass, a dense Persian column funnelling into the tight gap while a small Spartan line waits at the exit, strategic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 27:
+Leonidas tersenyum saat melihatnya. Di sini, katanya, Persia akan berdesakan seperti domba. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Leonidas smiling grimly as he surveys the narrow pass, hand on the cliff wall, Damos and soldiers behind him gaining confidence, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 28:
+Kami membangun kembali tembok tua bangsa Phocis di tengah celah. Posisi kami sempurna.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Greek soldiers rebuilding an old stone wall across the narrow pass, stacking rocks, Leonidas directing, sea beside them, busy wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 29:
+Malam pertama, seorang pengintai Persia mengintip perkemahan kami. Ia melapor dengan wajah bingung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, a Persian scout spying at night from rocks above the Greek camp, Greek soldiers below calmly combing their long hair and exercising by firelight, curious wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 30:
+Katanya kami cuma menata rambut dan berolahraga. Xerxes tertawa mendengarnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Xerxes laughing on his golden throne in a luxurious tent as the scout reports, courtiers smiling, oil lamps, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 31:
+Dia tidak tahu: menata rambut sebelum perang adalah adat Sparta. Kami berdandan untuk mati dengan gagah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Spartan soldiers carefully combing each other's long dark hair before battle, calm and ritualistic, dawn light, intimate medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 32:
+Xerxes mengirim utusan: serahkan senjata kalian. Jawaban Leonidas cuma dua kata: datang dan ambil sendiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, a Persian herald on horseback before Leonidas who stands with arms crossed, defiant, Spartan soldiers lined behind him at the pass, tense medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 33:
+Lalu Xerxes menunggu empat hari. Ia pikir kami akan takut dan lari sendiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the vast Persian camp waiting under a hot sun, Xerxes watching the distant pass impatiently from a hill, four days of tense stillness, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 34:
+Kami tidak lari. Hari kelima, ia kehilangan sabar — dan perang pun dimulai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Persian trumpets sounding at dawn, the first wave of Median soldiers advancing toward the pass, Xerxes watching from afar, dramatic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 35:
+Gelombang pertama yang dikirim adalah pasukan Media. Perisai mereka dari anyaman rotan. Ringan sekali.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Median soldiers with woven wicker shields and colorful robes advancing into the narrow pass, spears ready, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 36:
+Kami menahan mereka dengan dinding perisai — phalanx. Tombak kami lebih panjang, perisai kami dari perunggu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the Spartan phalanx, a solid wall of overlapping round bronze shields and long spears, red cloaks, holding the narrow pass, low-angle heroic shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 37:
+Mereka datang seperti ombak, dan pecah seperti ombak menabrak karang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Median soldiers breaking and falling back against the unmoving Spartan shield wall like waves on rocks, Damos in the front line bracing, dynamic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 38:
+Setiap kali mereka mundur, gelombang baru datang. Dan kami tetap berdiri di tempat yang sama.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, fresh Persian troops advancing over the pass while the Spartan line stands in exactly the same place, shields locked, relentless wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 39:
+Jujur, di jam-jam pertama itu saya merasa kami tidak terkalahkan. Rasanya seperti dewa perang sendiri yang memegang perisaiku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, close-up of Damos in the phalanx, exhilarated and fierce, bronze shield gleaming, sunlight on his helmet crest, comrades shoulder to shoulder, heroic mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 40:
+Lalu Xerxes mengirim pasukan elitnya: sepuluh ribu Pasukan Abadi, penjaga pribadi sang raja.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the Persian Immortals marching in perfect order, ornate robes, silver and gold spear butts, elite and intimidating, entering the pass, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 41:
+Namanya Abadi karena setiap yang jatuh langsung diganti. Mereka yang terbaik dari seluruh Persia. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, an Immortal soldier falling as another immediately steps into his place in the ranks, seamless and chilling, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 42:
+Pertarungan melawan mereka jauh lebih berat. Perisaiku penyok, lenganku seperti terbakar.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Damos straining with a dented bronze shield, arm shaking with effort, clashing against Immortal soldiers in the pass, intense medium shot, no gore, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 43:
+Tapi celah itu tetap milik kami. Bahkan Pasukan Abadi pun mundur dengan kepala tertunduk.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the Immortals retreating with bowed heads out of the pass while the Spartan line stands victorious, evening light, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 44:
+Eh sebentar — kalau pertempuran kayak gini bikin kamu tegang, tekan subscribe ya! Bagian paling gilanya belum mulai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Damos turning to face the viewer with a grin, thumb pointing back at the pass and the standing Spartan line behind him, inviting medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 45:
+Malam itu kami makan dengan tenang. Leonidas berkeliling, menyapa kami satu per satu seperti ayah sendiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Leonidas walking among his soldiers at night camp, hand on shoulders, sharing bread, campfires glowing, warm medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 46:
+Hari kedua, pola yang sama berulang. Gelombang demi gelombang pecah di dinding perisai kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, second day battle, wave after wave of Persian troops breaking against the Spartan shield wall in the pass, morning light, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 47:
+Xerxes sampai berdiri dari singgasananya tiga kali, marah melihat pasukannya gagal.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Xerxes rising furiously from his golden throne on a hill overlooking the pass, courtiers flinching, dramatic medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 48:
+Sementara itu, di belakang sana, Yunani sedang bersiap. Setiap hari yang kami tahan, adalah hari untuk mereka bernapas.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Athenian workers hurriedly building warships and city defenses far away, triremes being launched, hopeful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 49:
+Tapi sore hari kedua, seorang pengintai berlari masuk dengan wajah pucat. Ada kabar buruk.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, a Greek scout running into camp at dusk with a pale terrified face, soldiers including Damos rising in alarm, tense medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 50:
+Seorang pengkhianat Yunani bernama Ephialtes membocorkan jalan setapak rahasia di gunung kepada Persia.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, a Greek traitor in plain clothes secretly showing Persian officers a hidden mountain path by torchlight, pointing up the goat trail, sinister medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 51:
+Jalan itu bisa membawa pasukan Persia muncul di belakang kami. Kami akan dikepung dari dua arah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, a hidden narrow goat path winding over the mountain at night, a Persian column with torches snaking along it above the pass, ominous wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 52:
+Leonidas memanggil kami semua. Wajahnya tenang — terlalu tenang untuk kabar seburuk itu. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Leonidas addressing the gathered Spartans at night by firelight, his face eerily calm, soldiers listening in grave silence, Damos in front, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 53:
+Subuh hari ketiga, penjaga di gunung mendengar gemerisik daun. Pasukan Persia sudah mendaki dalam gelap.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Greek sentries on the mountain path at dawn freezing as they hear rustling leaves, Persian torches appearing through the trees below, tense wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 54:
+Leonidas memutuskan: pasukan Yunani lain boleh mundur dan menyelamatkan diri. Tapi tiga ratus Sparta tetap tinggal.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Greek allied troops marching away at dawn while the three hundred Spartans stand still facing the pass, Leonidas at their head, solemn wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 55:
+Ia bilang: hukum Sparta melarang mundur. Dan ramalan bilang, Sparta hanya selamat jika rajanya gugur. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Leonidas speaking solemnly to the three hundred, hand over his heart, an old oracle scroll in his other hand, dawn light, grave medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 56:
+Sebagian sekutu kami tetap memilih tinggal — tujuh ratus orang Thespiae yang menolak pergi.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Thespian soldiers shaking hands with Spartans and taking their place in the line, refusing to leave, brotherhood mood, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 57:
+Pagi itu kami sarapan bersama untuk terakhir kalinya. Leonidas berkata: makanlah yang kenyang — malam ini kita makan di dunia orang mati.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the Spartans sharing a quiet final breakfast together at dawn, bread and olives, Leonidas speaking calmly in their midst, bittersweet wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 58:
+Kata-kata itu terdengar menakutkan. Tapi entah kenapa, kami semua justru tertawa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Spartan soldiers laughing together around the breakfast fire despite the grim words, Damos laughing with tears in his eyes, warm medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 59:
+Kami meminyaki badan, menata rambut, mengasah pedang. Persiapan terakhir orang-orang yang sudah berdamai dengan maut.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Spartans preparing for the final battle, oiling their bodies, combing long hair, sharpening short swords on stones, calm ritual, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 60:
+Kalau menurut saya, keberanian sejati itu bukan tidak takut — tapi tetap menata rambut dan bercanda, padahal kamu tahu hari ini harimu terakhir.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, close-up of Damos combing his hair with a faint brave smile, mirror-like bronze shield reflecting his face, reflective mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 61:
+Lalu suara terompet Persia menggema dari dua arah. Depan dan belakang. Kepungan selesai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Persian trumpeters sounding horns both in front of the pass and behind it on the mountain path, Spartans looking both ways, surrounded, dramatic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 62:
+Kami maju keluar dari celah sempit untuk terakhir kalinya, menyerang langsung ke jantung pasukan mereka.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the Spartans charging out of the pass in a wedge formation straight toward the Persian host, red cloaks flying, Leonidas leading, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 63:
+Tombakku patah. Aku cabut pedang pendekku dan terus maju di samping Leonidas.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Damos dropping a broken spear and drawing his short iron sword, charging beside Leonidas in the melee, dynamic medium shot, no gore, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 64:
+Di tengah kekacauan itu, aku melihat Leonidas mengangkat pedangnya tinggi-tinggi, berteriak memanggil nama Sparta.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Leonidas raising his sword high and shouting amid the battle chaos, red crest towering, soldiers rallying around him, heroic low-angle shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 65:
+Lalu raja kami jatuh. Di tengah lautan musuh, perisai perunggunya akhirnya tertembus. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Leonidas falling to his knees amid a sea of enemies, his round bronze shield dropping beside him, Spartans crying out and rushing toward him, tragic wide shot, no gore, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 66:
+Kami bertarung memperebutkan jasad rajanya seperti singa memperebutkan mangsa. Empat kali bolak-balik, jasad raja berganti tangan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Spartans fiercely shielding the fallen Leonidas covered by a red cloak, pushing back Persian soldiers in a tug of war around him, desperate wide shot, no gore, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 67:
+Akhirnya kami berhasil menariknya ke tengah barisan kami. Raja tidak boleh ditinggalkan. Tidak akan pernah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Spartans carrying Leonidas on his bronze shield into the center of their shrinking circle, protecting him with their bodies, solemn medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 68:
+Satu per satu kawanku berjatuhan di sekelilingku. Barisan yang tujuh ribu, kini tinggal hitungan jari. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, a tiny remaining circle of Spartans standing back to back, fallen comrades' shields on the ground around them, Damos among the last, grim wide shot, no gore, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 69:
+Perisaiku sudah tidak berbentuk. Lenganku tidak terasa lagi. Tapi kakiku masih menolak mundur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, close-up of Damos, exhausted, holding a badly dented shapeless bronze shield, arm trembling, feet planted defiantly in the dust, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 70:
+Sisa dari kami mundur ke sebuah bukit kecil di dalam celah, berdiri melingkar, punggung bertemu punggung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the last Spartans standing in a tight circle back to back on a small hill inside the pass, shields outward, surrounded by a vast army, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 71:
+Dari bukit itu aku bisa melihat laut berkilau untuk terakhir kalinya. Indah sekali pagi itu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, view from the small hill over the sparkling Aegean sea in the morning light, Damos's silhouette gazing at it, peaceful and sad wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 72:
+Persia bahkan tidak berani mendekat lagi. Mereka memilih menghabisi kami dari jauh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Persian archers drawing their bows in long lines at a distance from the hill, officers ordering them forward, tense wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 73:
+Dan lalu langit menghitam. Hujan panah terakhir turun menutupi matahari, persis seperti ramalan orang bijak kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the sky turning black with a final storm of Persian arrows descending on the small hill, Spartans raising shields overhead, Damos looking up, dramatic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 74:
+Dulu seorang peramal berkata: panah Persia akan menghitamkan langit. Jawaban kawan kami waktu itu: bagus — kami akan bertarung di tempat teduh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, flashback of a Spartan soldier laughing as he delivers the famous line to a worried messenger, comrades grinning, camp scene, lighter mood, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 75:
+Aku mengangkat perisaiku ke atas kepala. Suara panah menghantam perunggu seperti hujan menghantam atap.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Damos holding his bronze shield overhead as arrows hammer onto it, close shot of arrows bouncing off bronze, tense medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 76:
+Dalam gelap buatan manusia itu, aku teringat wajah ibuku. Dan pesannya tentang perisai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, in the shadow of falling arrows, a soft vision of Damos's mother smiling appears above him in warm light, dreamlike emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 77:
+Ibu, aku tidak pulang dengan perisaiku. Aku pulang di atasnya — seperti yang Ibu minta. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Damos lying still on his bronze shield carried by the wind of battle, eyes closed peacefully, red cloak spread beneath him, poetic wide shot, no gore, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 78:
+Tiga ratus Sparta gugur di celah itu. Tidak satu pun menyerah. Tidak satu pun lari.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the quiet pass at sunset, three hundred red cloaks still on the small hill, Persian soldiers standing in respectful silence, solemn epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 79:
+Tapi dengar ini baik-baik: kematian kami bukan kekalahan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, a Greek messenger riding fast through Greek villages spreading the news of Thermopylae, villagers rising with fists raised, fire of resolve, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 80:
+Kabar Thermopylae menyebar ke seluruh Yunani seperti api. Kota-kota yang tadinya gemetar, kini bangkit serempak. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Greek cities rising together, citizens taking up arms, blacksmiths forging swords, fleets assembling, dawn of resistance, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 81:
+Beberapa minggu kemudian, armada Yunani menghancurkan kapal Persia di Salamis.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the sea battle of Salamis, Greek triremes ramming Persian ships in a narrow strait, oars and spray, victorious wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 82:
+Setahun setelahnya, pasukan Yunani memukul mundur Xerxes untuk selamanya di Plataea.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the Greek army triumphantly driving the Persians back at Plataea, banners raised, Xerxes's forces retreating to the horizon, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 83:
+Yunani selamat. Dan semua orang tahu, itu dimulai dari tiga ratus orang yang menolak mundur di sebuah celah sempit.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, peaceful free Greece at golden sunset, children playing in Sparta, the narrow pass of Thermopylae quiet in the distance, hopeful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 84:
+Di Thermopylae kini berdiri sebuah prasasti. Isinya perintah untuk setiap orang yang lewat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, a simple stone memorial stele standing in the empty pass of Thermopylae, a lone traveler stopping to read it, wind in the grass, solemn wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 85:
+Bunyinya: wahai orang asing yang lewat, sampaikan kepada Sparta — bahwa kami terbaring di sini, karena taat pada perintahnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, close view of the stone memorial in the pass at sunset, the traveler placing a hand on the stone in respect, olive branch beside it, emotional medium shot, no readable text, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 86:
+Dua ribu lima ratus tahun kemudian, orang masih menceritakan celah sempit itu. Masih menceritakan kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, the pass of Thermopylae in warm evening light, modern-day visitors standing small in the vast landscape looking at the memorial, timeless wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 87:
+Jadi kalau suatu hari kamu merasa sendirian melawan sesuatu yang jauh lebih besar, ingat Thermopylae. Jumlah bukan segalanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, Damos in spirit standing tall on the small hill at sunset, spear planted in the ground, looking toward the viewer with quiet strength, heroic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 88:
+Tulis di komentar: kalau kamu jadi aku, bertahan sampai akhir, atau mundur selagi bisa? Dan jangan lupa subscribe — minggu depan, POV besar lainnya menanti. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (dusty ochre, bronze, stone grey, deep red, Aegean blue), dramatic cinematic composition, not photorealistic, no text, final frame, Damos standing alone on the hill at sunset facing the sea, red cloak in the wind, spear and shield planted beside him, contemplative heroic wide shot, dramatic cinematic composition, not photorealistic, no text

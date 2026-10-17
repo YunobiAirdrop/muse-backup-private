@@ -1,0 +1,52 @@
+{
+ "date": "2026-10-04",
+ "run_scheduled": "14:11 WIB",
+ "started_wib": "2026-10-04T14:15:00+07:00",
+ "status": {
+  "impact-wrench": "blocked_qr_verification",
+  "pouch-travel": "blocked_qr_verification",
+  "sabun-piring": "blocked_qr_verification",
+  "vitamin-cerna": "blocked_qr_verification",
+  "vitamin-ikan": "blocked_qr_verification"
+ },
+ "videos": {
+  "impact-wrench": {
+   "caption": "Buat yang hobi otomotif atau punya bengkel — ini beast! Impact wrench cordless brushless 700NM, buka baut roda semudah itu. Tenaganya gila, baterai awet, tanpa kabel ribet. Rp459.000 untuk spek segini worth it parah. Checkout di keranjang kuning! 👇 https://s.shopee.co.id/2LYldbPmWS #racunshopee #otomotif",
+   "file": "video_final_impact-wrench.mp4",
+   "harga": "Rp459.000",
+   "link": "https://s.shopee.co.id/2LYldbPmWS",
+   "nama": "Impact Wrench Cordless Brushless 700NM"
+  },
+  "pouch-travel": {
+   "caption": "Pouch travel serut ini ternyata kepake banget! Semua barang kecil — kabel, charger, kosmetik — rapi dalam satu pouch. Serutannya kenceng, bahannya oke. Harganya cuma Rp2.550, murah banget! Yang sering jalan-jalan wajib punya satu. Checkout sekarang sebelum kehabisan! 👇 https://s.shopee.co.id/113O1h9k26 #racunshopee #shopeehaul #travel",
+   "file": "video_final_pouch-travel.mp4",
+   "harga": "Rp2.550",
+   "link": "https://s.shopee.co.id/113O1h9k26",
+   "nama": "Pouch Travel Organizer Serut"
+  },
+  "sabun-piring": {
+   "caption": "Ibu-ibu wajib tahu! Sabun cuci piring 5 liter cuma Rp12.000 — jatuhnya super hemat buat stok berbulan-bulan. Busanya melimpah, minyak dan bau amis hilang seketika, udah aku buktiin di video. Stok terbatas, checkout sekarang! 👇 https://s.shopee.co.id/2gBc2APRvk #racunshopee #hemat",
+   "file": "video_final_sabun-piring.mp4",
+   "harga": "Rp12.000",
+   "link": "https://s.shopee.co.id/2gBc2APRvk",
+   "nama": "Sabun Cuci Piring 5 Liter Premium"
+  },
+  "vitamin-cerna": {
+   "caption": "Review buat cat lovers! Vitamin pencernaan ini ngebantu banget buat kucing yang pencernaannya sensitif. Sejak rutin dikasih, pup anabul jadi bagus dan nggak rewel lagi. Rp65.339 untuk kesehatan pencernaan anabul — worth it! Checkout sekarang 👇 https://s.shopee.co.id/50ZWn0PyQm #racunshopee #kucing",
+   "file": "video_final_vitamin-cerna.mp4",
+   "harga": "Rp65.339",
+   "link": "https://s.shopee.co.id/50ZWn0PyQm",
+   "nama": "Vitamin Pencernaan Kucing"
+  },
+  "vitamin-ikan": {
+   "caption": "Buat yang pelihara kucing, wajib coba! Vitamin minyak ikan Omega 3&6 bikin bulu anabul makin halus dan berkilau, nafsu makan juga bagus. Cuma Rp32.305 — investasi kecil buat kesehatan anabul kesayangan. Checkout di keranjang kuning! 👇 https://s.shopee.co.id/7Ae1MyngRM #racunshopee #kucing",
+   "file": "video_final_vitamin-ikan.mp4",
+   "harga": "Rp32.305",
+   "link": "https://s.shopee.co.id/7Ae1MyngRM",
+   "nama": "Vitamin Minyak Ikan Kucing Omega 3&6"
+  }
+ },
+ "finished_wib": "2026-10-04T14:20:00+07:00",
+ "blocker": "Upload via web HANYA bisa lewat Seller Center (https://seller.shopee.co.id/creator-center/video-upload/manage/posted), tapi setiap akses dialihkan paksa ke verifikasi QR perangkat: https://seller.shopee.co.id/portal/id-onboarding/qr-code (scan kode QR dengan aplikasi Shopee di HP). Sesi browser login normal sebagai 'yunobiafilate' — bukan masalah login. Jalur shopee.co.id (/shopee-video 404, tidak ada menu upload) dan dashboard Shopee Affiliate (tidak ada fungsi upload video) TIDAK menyediakan upload.",
+ "next_step": "User perlu scan QR di aplikasi Shopee (buka halaman verifikasi di browser bila perlu refresh QR), lalu beri tahu agen — browser task yang sedang parkir bisa di-steer untuk melanjutkan upload 5 video dengan jeda 30-45 menit."
+}

@@ -1,0 +1,456 @@
+{
+ "batch1": [
+  {
+   "num": "001",
+   "tts": "A twenty-five-foot wave of sticky molasses tore through a city at thirty-five miles an hour. Nobody outran it.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a giant dark brown wave of molasses taller than houses crashing down a city street, terrified cartoon people running",
+   "overlay": "A WAVE OF MOLASSES KILLED 21 PEOPLE"
+  },
+  {
+   "num": "002",
+   "tts": "Real meat once rained from a clear blue sky. People picked it up. Some of them TASTED it.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, chunks of raw meat falling from a bright blue sky onto a farmyard, a shocked cartoon farmer looking up",
+   "overlay": "MEAT RAINED FROM THE SKY"
+  },
+  {
+   "num": "003",
+   "tts": "Welcome to Weird World Daily. I am Bo, and I hunt the weirdest true stories on Earth.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cheerful cartoon explorer with a safari hat holding a magnifying glass, channel-style logo space",
+   "overlay": null
+  },
+  {
+   "num": "004",
+   "tts": "Today: seven real events so bizarre, they sound made up. We score each one out of ten for weirdness.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, seven glowing golden scorecards numbered 1 to 7 floating in a row",
+   "overlay": null
+  },
+  {
+   "num": "005",
+   "tts": "At the end, one gets crowned the weirdest moment in history. Place your bets now.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a golden championship trophy with a big question mark on it, confetti falling",
+   "overlay": null
+  },
+  {
+   "num": "006",
+   "tts": "Starting with the one that made me say: wait, WHAT?!",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a stunned cartoon face with jaw dropped and eyes bulging, exclamation marks",
+   "overlay": null
+  },
+  {
+   "num": "007",
+   "tts": "ROUND ONE. Strasbourg, year fifteen eighteen. A woman named Frau Troffea steps outside, and starts dancing.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a medieval woman in old clothing dancing alone in an empty cobblestone street",
+   "overlay": "ROUND 1: THE DANCING PLAGUE, 1518"
+  },
+  {
+   "num": "008",
+   "tts": "Alone. No music. No party. Just dancing in the street like the floor was on fire.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a lone medieval woman dancing frantically in a quiet old town street at dawn",
+   "overlay": null
+  },
+  {
+   "num": "009",
+   "tts": "Within a week, thirty-four people had joined her. Within a month, HUNDREDS.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a growing crowd of medieval people dancing uncontrollably in a town square",
+   "overlay": null
+  },
+  {
+   "num": "010",
+   "tts": "They could not stop. Dancing through blistered feet, through exhaustion, through collapse.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, exhausted medieval dancers with blistered feet still dancing, some collapsing",
+   "overlay": null
+  },
+  {
+   "num": "011",
+   "tts": "Some of them danced until their hearts gave out. Days of nonstop dancing.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a medieval dancer collapsing from exhaustion while others keep dancing around",
+   "overlay": "DANCED UNTIL THEY DROPPED"
+  },
+  {
+   "num": "012",
+   "tts": "Doctors back then said the cure was MORE dancing. So the city built a stage. Seriously.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a medieval wooden stage built in a town square with a confused doctor pointing at it",
+   "overlay": null
+  },
+  {
+   "num": "013",
+   "tts": "Modern scientists think it was mass hysteria, or maybe a fungus in the rye bread. A natural hallucinogen.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a scientist examining a loaf of rye bread with glowing green fungus under a magnifying glass",
+   "overlay": null
+  },
+  {
+   "num": "014",
+   "tts": "Whatever it was, the dancing plague lasted about two months. A whole city, dancing against its will.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, an aerial view of a medieval city with crowds dancing in every street",
+   "overlay": null
+  },
+  {
+   "num": "015",
+   "tts": "WEIRDNESS SCORE: nine out of ten. Two months of compulsory dancing? I had to read that twice.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a giant golden scorecard showing 9 out of 10 with dancing silhouettes",
+   "overlay": "9 OUT OF 10"
+  },
+  {
+   "num": "016",
+   "tts": "ROUND TWO. March third, eighteen seventy-six. Bath County, Kentucky. Clear blue sky.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a peaceful Kentucky farm under a bright clear blue sky in the 1870s",
+   "overlay": "ROUND 2: THE MEAT SHOWER, 1876"
+  },
+  {
+   "num": "017",
+   "tts": "And then, out of nowhere: meat. Chunks of raw meat, falling from the sky like hail.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, chunks of raw meat falling from a clear sky onto a farm, a farmer shielding his head",
+   "overlay": "MEAT FELL FROM A CLEAR SKY"
+  },
+  {
+   "num": "018",
+   "tts": "Witnesses said the pieces were up to four inches across. Raining down for several minutes.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, close-up of meat chunks of various sizes scattered on farm grass",
+   "overlay": null
+  }
+ ],
+ "batch2": [
+  {
+   "num": "019",
+   "tts": "And here is the part that breaks me. Some people tasted it. TASTED. IT.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon farmer holding a piece of sky-meat near his mouth, horrified onlookers",
+   "overlay": null
+  },
+  {
+   "num": "020",
+   "tts": "Two brave souls told reporters it tasted like lamb or venison. I need a minute.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, two 1870s reporters with notebooks interviewing a farmer holding meat",
+   "overlay": null
+  },
+  {
+   "num": "021",
+   "tts": "The best explanation scientists have? Vultures. A flock flying overhead, projectile-vomiting mid-flight.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a flock of cartoon vultures flying in a V formation over a farm, motion lines",
+   "overlay": null
+  },
+  {
+   "num": "022",
+   "tts": "That is right. It was probably raining regurgitated meat. Somehow that makes it WORSE.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon vulture with a queasy face, meat chunks falling in dotted lines below",
+   "overlay": null
+  },
+  {
+   "num": "023",
+   "tts": "Meat shower gets a ten out of ten for pure chaos. Nobody beats raining dinner.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a giant golden scorecard showing 10 out of 10 with meat chunks raining",
+   "overlay": "10 OUT OF 10"
+  },
+  {
+   "num": "024",
+   "tts": "Which brings our scorecard to: dancing plague nine, meat shower ten.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a scoreboard showing Dancing Plague 9 and Meat Shower 10, trophy between them",
+   "overlay": null
+  },
+  {
+   "num": "025",
+   "tts": "ROUND THREE. London, October eighteen fourteen. A brewery vat the size of a house bursts open.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a massive wooden brewery vat exploding in 1814 London, beer bursting out",
+   "overlay": "ROUND 3: THE BEER FLOOD, 1814"
+  },
+  {
+   "num": "026",
+   "tts": "One point four MILLION liters of dark porter beer flooded the streets of St. Giles.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a tidal wave of dark beer surging through narrow London streets, people fleeing",
+   "overlay": "A 15-FOOT WAVE OF BEER"
+  },
+  {
+   "num": "027",
+   "tts": "The wave was fifteen feet tall. It tore through homes, smashed walls, and lifted furniture.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a fifteen-foot beer wave smashing through a brick house wall, furniture floating",
+   "overlay": null
+  },
+  {
+   "num": "028",
+   "tts": "Cellar dwellers woke up to beer pouring through their windows. Eight people died that day.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, beer pouring through a basement window onto a shocked family in 1814",
+   "overlay": null
+  },
+  {
+   "num": "029",
+   "tts": "Hundreds showed up with buckets, pots, even bathtubs, scooping free beer off the street.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a crowd of 1814 Londoners with buckets and pots scooping beer from the street",
+   "overlay": null
+  },
+  {
+   "num": "030",
+   "tts": "One man died days later after drinking too much of the floodwater. No joke.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon caution scene of a man drinking from a bucket with a warning sign",
+   "overlay": null
+  },
+  {
+   "num": "031",
+   "tts": "The brewery called it an Act of God and paid nothing. The court agreed. Beer: one, people: zero.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a stern 1814 judge banging a gavel beside a giant beer barrel",
+   "overlay": null
+  },
+  {
+   "num": "032",
+   "tts": "WEIRDNESS SCORE: seven. Deadly, yes. But compared to raining meat? Beer behaves.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a golden scorecard showing 7 out of 10 with a foamy beer mug",
+   "overlay": "7 OUT OF 10"
+  },
+  {
+   "num": "033",
+   "tts": "Still, a beer tsunami through London is not something I expected to say today.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon explorer shrugging in front of a London street with beer waves",
+   "overlay": null
+  },
+  {
+   "num": "034",
+   "tts": "ROUND FOUR. Boston, January nineteen nineteen. A steel tank holding two point three MILLION gallons of molasses.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a giant steel molasses tank looming over Boston's North End in 1919",
+   "overlay": "ROUND 4: THE MOLASSES FLOOD, 1919"
+  },
+  {
+   "num": "035",
+   "tts": "At lunchtime, with a sound like machine-gun fire, the tank exploded.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, the steel tank bursting open with a deafening crack, metal plates flying",
+   "overlay": null
+  },
+  {
+   "num": "036",
+   "tts": "A wave of molasses twenty-five feet tall surged through the North End at thirty-five miles an hour.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a towering dark brown molasses wave engulfing 1919 Boston streets",
+   "overlay": "25 FEET TALL, 35 MILES AN HOUR"
+  }
+ ],
+ "batch3": [
+  {
+   "num": "037",
+   "tts": "It crushed buildings, flipped a firehouse, and threw a truck into the harbor. Twenty-one people died.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a firehouse crushed by a molasses wave, a truck flying toward the harbor",
+   "overlay": null
+  },
+  {
+   "num": "038",
+   "tts": "The cleanup took WEEKS. The harbor stayed brown until summer. Locals said you could smell it for decades.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, workers shoveling thick brown molasses off a Boston street, brown harbor water",
+   "overlay": null
+  },
+  {
+   "num": "039",
+   "tts": "Quick pause: if history this weird is your thing, hit subscribe. We do this every single day.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cheerful cartoon explorer pointing at a big red subscribe button",
+   "overlay": "SUBSCRIBE!"
+  },
+  {
+   "num": "040",
+   "tts": "Molasses is thicker than water and twice as deadly. Boston learned that the sticky way.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon explorer stuck waist-deep in molasses, struggling comically",
+   "overlay": null
+  },
+  {
+   "num": "041",
+   "tts": "WEIRDNESS SCORE: ten out of ten. A killer wave of pancake syrup. There are no words.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a giant golden scorecard showing 10 out of 10 dripping with molasses",
+   "overlay": "10 OUT OF 10"
+  },
+  {
+   "num": "042",
+   "tts": "Tied with the meat shower at ten. This championship is getting SPICY.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a scoreboard showing Meat Shower 10 and Molasses 10 tied, flames around",
+   "overlay": null
+  },
+  {
+   "num": "043",
+   "tts": "ROUND FIVE. New Zealand, the nineteen thirties. Farmers spray weeds with a chemical called sodium chlorate.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a 1930s New Zealand farmer spraying weeds with a hand pump sprayer",
+   "overlay": "ROUND 5: EXPLODING TROUSERS, 1930s"
+  },
+  {
+   "num": "044",
+   "tts": "It dries into their clothes. Their trousers. Then someone lights a cigarette, or walks past a fire.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a farmer's trousers with invisible chemical residue glowing faintly, a match nearby",
+   "overlay": null
+  },
+  {
+   "num": "045",
+   "tts": "And their PANTS burst into flames. Spontaneously. Exploding trousers.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon 1930s farmer with his trousers on fire, jumping in shock",
+   "overlay": "HIS PANTS EXPLODED"
+  },
+  {
+   "num": "046",
+   "tts": "Farmers were walking around with clothes that could combust at any second.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, several farmers tiptoeing nervously in a field, trousers smoking slightly",
+   "overlay": null
+  },
+  {
+   "num": "047",
+   "tts": "One man reported his trousers igniting while riding his horse. The horse was fine, by the way.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a 1930s farmer on a horse with flaming trousers, the horse looking annoyed",
+   "overlay": null
+  },
+  {
+   "num": "048",
+   "tts": "It took YEARS before anyone connected the dots to the weedkiller. Years of surprise flaming pants.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a calendar flipping through years while trousers keep bursting into flames",
+   "overlay": null
+  },
+  {
+   "num": "049",
+   "tts": "WEIRDNESS SCORE: eight. Points for comedy, but nobody died, so it loses to the floods.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a golden scorecard showing 8 out of 10 with flaming trousers",
+   "overlay": "8 OUT OF 10"
+  },
+  {
+   "num": "050",
+   "tts": "Still, my pants exploded has to be the greatest excuse in human history.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon farmer shrugging innocently beside a pile of burnt trousers",
+   "overlay": null
+  },
+  {
+   "num": "051",
+   "tts": "ROUND SIX. Siberia, June nineteen oh eight. Seven in the morning.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a quiet Siberian forest at dawn in 1908, birds flying",
+   "overlay": "ROUND 6: TUNGUSKA, 1908"
+  },
+  {
+   "num": "052",
+   "tts": "A fireball tears across the sky, brighter than the sun. Then the biggest explosion in recorded history.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a blazing fireball streaking across the Siberian sky, blinding white light",
+   "overlay": null
+  },
+  {
+   "num": "053",
+   "tts": "Eighty MILLION trees flattened. An area bigger than some countries, just gone.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, an endless field of flattened trees radiating outward from a blast center",
+   "overlay": "80 MILLION TREES FLATTENED"
+  },
+  {
+   "num": "054",
+   "tts": "The shockwave circled the planet TWICE. Windows shattered hundreds of miles away.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a shockwave ripple circling a cartoon Earth twice, windows cracking far away",
+   "overlay": null
+  }
+ ],
+ "batch4": [
+  {
+   "num": "055",
+   "tts": "For days after, nights were so bright across Europe that people read newspapers outdoors at midnight.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, Europeans reading newspapers outside at midnight under a glowing bright sky",
+   "overlay": null
+  },
+  {
+   "num": "056",
+   "tts": "And here is the wildest part: there is no crater. The leading theory is a meteor that exploded MID-AIR.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a meteor exploding in mid-air above Siberia with no crater on the ground below",
+   "overlay": null
+  },
+  {
+   "num": "057",
+   "tts": "A cosmic bomb that never even touched the ground. Space said hello, and Siberia felt it.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon Earth waving at a meteor, Siberia with a bump on its head",
+   "overlay": null
+  },
+  {
+   "num": "058",
+   "tts": "WEIRDNESS SCORE: nine. Cosmic-scale weirdness, but at least physics has an explanation.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a golden scorecard showing 9 out of 10 with a meteor",
+   "overlay": "9 OUT OF 10"
+  },
+  {
+   "num": "059",
+   "tts": "Which means the meat shower still holds the crown. Barely.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a scoreboard with Meat Shower 10 on top, Tunguska 9 below",
+   "overlay": null
+  },
+  {
+   "num": "060",
+   "tts": "FINAL ROUND. Yoro, Honduras. Every single year, after the first heavy rains of the season.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a small Honduran town under dark storm clouds, rain pouring",
+   "overlay": "FINAL ROUND: THE FISH RAIN"
+  },
+  {
+   "num": "061",
+   "tts": "Fish. Hundreds of small silver fish, scattered across the fields. Raining from the sky.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, hundreds of small silver fish scattered across a green field after a storm",
+   "overlay": "FISH FALL FROM THE SKY"
+  },
+  {
+   "num": "062",
+   "tts": "The locals call it the Lluvia de Peces. The Rain of Fish. And it has happened for OVER a century.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, Honduran villagers collecting silver fish from a field, celebrating",
+   "overlay": null
+  },
+  {
+   "num": "063",
+   "tts": "Scientists say underground rivers probably flood and wash the fish up through caves.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon cross-section of underground rivers pushing fish up through cave tunnels",
+   "overlay": null
+  },
+  {
+   "num": "064",
+   "tts": "But nobody has ever actually SEEN it happen. The fish just appear. After the storm.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, an empty field during a storm, then the same field covered in fish, a detective shrugging",
+   "overlay": null
+  },
+  {
+   "num": "065",
+   "tts": "There is even a festival for it now. A parade. Celebrating fish that fall from heaven.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a colorful Honduran parade with fish floats and dancing villagers",
+   "overlay": null
+  },
+  {
+   "num": "066",
+   "tts": "WEIRDNESS SCORE: eight. Annual sky-fish is amazing, but science has a decent theory.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a golden scorecard showing 8 out of 10 with raining fish",
+   "overlay": "8 OUT OF 10"
+  },
+  {
+   "num": "067",
+   "tts": "Final scoreboard: meat shower ten, molasses ten, dancing plague nine, Tunguska nine, trousers eight, fish rain eight, beer flood seven.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a full scoreboard listing all seven events with their scores",
+   "overlay": null
+  },
+  {
+   "num": "068",
+   "tts": "But the rules of the Weirdness Face-Off say there can only be ONE champion.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, the golden championship trophy glowing, seven event icons around it",
+   "overlay": null
+  },
+  {
+   "num": "069",
+   "tts": "So I break the tie with one question: which one would you LEAST want to live through?",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon explorer thinking hard, molasses wave on one side, meat rain on the other",
+   "overlay": null
+  },
+  {
+   "num": "070",
+   "tts": "A sticky wave you cannot outrun, or meat falling on your breakfast? My crown goes to the MOLASSES FLOOD.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, the golden trophy placed on a wave of molasses, confetti and crown",
+   "overlay": "THE CHAMPION: MOLASSES FLOOD"
+  },
+  {
+   "num": "071",
+   "tts": "Twenty-one lives, a city smelling sweet for decades, a wave taller than a house. Unbeatable.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a memorial scene of 1919 Boston with a giant molasses wave statue",
+   "overlay": null
+  },
+  {
+   "num": "072",
+   "tts": "Disagree? GOOD. That is the point. Drop your champion in the comments and defend it.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon explorer reading a giant stack of comment cards and grinning",
+   "overlay": null
+  }
+ ],
+ "batch5": [
+  {
+   "num": "073",
+   "tts": "And if reality being stranger than fiction is your thing, my last video toured seven places that look completely fake. Watch it next.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a mirror salt flat and pink lake with an arrow pointing to a play button",
+   "overlay": null
+  },
+  {
+   "num": "074",
+   "tts": "New weirdness every single day on Weird World Daily. Subscribe, stay weird, see you tomorrow.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cheerful cartoon explorer waving goodbye under a sunset of bizarre landscapes",
+   "overlay": "STAY WEIRD!"
+  }
+ ]
+}

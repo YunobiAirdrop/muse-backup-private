@@ -1,0 +1,170 @@
+{
+ "slug": "strangetales",
+ "handle": "@StrangeTales-g6n",
+ "date": "2026-10-13",
+ "analytics": {
+  "channel": "strangetales",
+  "handle": "@StrangeTales-g6n",
+  "channel_id": "UCAVSqZjG8Af_pm_1uD5wRzA",
+  "days": 28,
+  "summary": {
+   "views": 1099,
+   "watch_minutes": 260,
+   "subs_gained": 3
+  },
+  "videos": [
+   {
+    "video_id": "DrHpIVfwIv8",
+    "views": 702,
+    "likes": 12,
+    "watch_minutes": 208,
+    "avg_view_sec": 39,
+    "title": "Scientists Found a Miniature Stonehenge in the Amazon — But WHO Built #shorts #weirdfacts #foryou",
+    "published": "2026-10-05",
+    "description": "In 2013, researchers in Peru discovered a tiny silk structure that looks exactly like Stonehenge — only 2 cm wide. The strangest part? No one has ever seen its builder. Nature's strangest mystery!\n\n#shorts #weirdfacts #nature #mystery #strangetales",
+    "tags": [
+     "bizarre facts",
+     "mystery",
+     "strange phenomena",
+     "strange tales",
+     "unsolved mysteries",
+     "weird facts"
+    ],
+    "duration_iso": "PT31S",
+    "views_lt": 706,
+    "likes_lt": 13,
+    "comments_lt": 1,
+    "duration_sec": 31,
+    "retention_pct": 125.8
+   },
+   {
+    "video_id": "vXcTCbO_THk",
+    "views": 260,
+    "likes": 5,
+    "watch_minutes": 30,
+    "avg_view_sec": 14,
+    "title": "Nobody Can Read This 600-Year-Old Book — WHY?! #shorts #mystery #strangetales #foryou",
+    "published": "2026-10-11",
+    "description": "The Voynich manuscript has baffled the world's best codebreakers for 600 years. A new strange tale every day.\n\nManuscript images: Beinecke Rare Book & Manuscript Library, Yale University (public domain) via Wikimedia Commons.\n\n#shorts #weirdfacts #mystery #foryou",
+    "tags": [
+     "bizarre facts",
+     "mystery",
+     "nobody can read this 600-year-old book why",
+     "strange phenomena",
+     "strange tales",
+     "unsolved mysteries",
+     "weird facts"
+    ],
+    "duration_iso": "PT31S",
+    "views_lt": 539,
+    "likes_lt": 14,
+    "comments_lt": 0,
+    "duration_sec": 31,
+    "retention_pct": 45.2
+   },
+   {
+    "video_id": "vr9XcFC2dPA",
+    "views": 113,
+    "likes": 7,
+    "watch_minutes": 16,
+    "avg_view_sec": 18,
+    "title": "This Animal Survived OUTER SPACE — But HOW?! #shorts #weirdfacts #mystery #foryou",
+    "published": "2026-10-07",
+    "description": "The tardigrade survived the vacuum of space itself. A new strange tale every day.\n\n#shorts #weirdfacts #strangetales #tardigrade #animals",
+    "tags": [
+     "bizarre facts",
+     "mystery",
+     "strange phenomena",
+     "strange tales",
+     "this animal survived outer space but how",
+     "unsolved mysteries",
+     "weird facts"
+    ],
+    "duration_iso": "PT41S",
+    "views_lt": 117,
+    "likes_lt": 8,
+    "comments_lt": 0,
+    "duration_sec": 41,
+    "retention_pct": 43.9
+   },
+   {
+    "video_id": "q4QBPEqE3UU",
+    "views": 17,
+    "likes": 1,
+    "watch_minutes": 3,
+    "avg_view_sec": 36,
+    "title": "In 1518, People Danced Until They DIED — But WHY?! #shorts #weirdfacts #mystery #foryou",
+    "published": "2026-10-08",
+    "description": "The dancing plague of 1518: hundreds danced for days until they collapsed. A new strange tale every day.\n\n#shorts #weirdfacts #strangetales #history #mystery",
+    "tags": [
+     "bizarre facts",
+     "in 1518 people danced until they died but why",
+     "mystery",
+     "strange phenomena",
+     "strange tales",
+     "unsolved mysteries",
+     "weird facts"
+    ],
+    "duration_iso": "PT35S",
+    "views_lt": 21,
+    "likes_lt": 1,
+    "comments_lt": 1,
+    "duration_sec": 35,
+    "retention_pct": 102.9
+   },
+   {
+    "video_id": "Y5nf99683ZE",
+    "views": 0,
+    "likes": 1,
+    "watch_minutes": 0,
+    "avg_view_sec": 0,
+    "title": "This Jellyfish Can Live FOREVER — What's the Secret?! #shorts #weirdfacts #mystery #foryou",
+    "published": "2026-10-08",
+    "description": "Meet the immortal jellyfish — the animal that restarts its own life. A new strange tale every day.\n\n#shorts #weirdfacts #strangetales #jellyfish #ocean",
+    "tags": [
+     "bizarre facts",
+     "mystery",
+     "strange phenomena",
+     "strange tales",
+     "unsolved mysteries",
+     "weird facts"
+    ],
+    "duration_iso": "PT37S",
+    "views_lt": 3,
+    "likes_lt": 2,
+    "comments_lt": 1,
+    "duration_sec": 37,
+    "retention_pct": 0.0
+   }
+  ]
+ },
+ "enrich": {
+  "channel_id": "UCAVSqZjG8Af_pm_1uD5wRzA",
+  "stats": {
+   "viewCount": "1314",
+   "subscriberCount": "8",
+   "hiddenSubscriberCount": false,
+   "videoCount": "14"
+  },
+  "reader": "strangetales"
+ },
+ "playlists": [
+  {
+   "id": "PLJgzAVOFgbeQ",
+   "title": "Strangest Tales & Weird True Stories | Strange Tales",
+   "count": 5
+  }
+ ],
+ "videos_in_playlists": [
+  "Pn6JCkju1zs",
+  "Up9w_QKjrTg",
+  "Y5nf99683ZE",
+  "_I_NbyyTiFM",
+  "q4QBPEqE3UU"
+ ],
+ "videos_no_playlist": [
+  "DrHpIVfwIv8",
+  "vXcTCbO_THk",
+  "vr9XcFC2dPA"
+ ]
+}

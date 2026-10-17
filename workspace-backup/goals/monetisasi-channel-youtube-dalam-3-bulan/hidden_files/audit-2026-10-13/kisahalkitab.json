@@ -1,0 +1,40 @@
+{
+ "slug": "kisahalkitab",
+ "handle": "@KisahAlkitab-k9j",
+ "date": "2026-10-13",
+ "analytics": {
+  "channel": "kisahalkitab",
+  "handle": "@KisahAlkitab-k9j",
+  "channel_id": "UCGCXDPx3vSHTUOkNiuLezdw",
+  "days": 28,
+  "summary": {
+   "views": 0,
+   "watch_minutes": 0,
+   "subs_gained": 0
+  },
+  "videos": []
+ },
+ "enrich": {
+  "channel_id": "UCGCXDPx3vSHTUOkNiuLezdw",
+  "stats": {
+   "viewCount": "0",
+   "subscriberCount": "0",
+   "hiddenSubscriberCount": false,
+   "videoCount": "8"
+  },
+  "reader": "kisahalkitab"
+ },
+ "playlists": [
+  {
+   "id": "PLLY238h0zhrA",
+   "title": "Kisah Alkitab & Tokoh Iman | Kisah Alkitab",
+   "count": 3
+  }
+ ],
+ "videos_in_playlists": [
+  "NwQSkmd0XR4",
+  "loFcWFwCh6E",
+  "notjBtPaDYg"
+ ],
+ "videos_no_playlist": []
+}

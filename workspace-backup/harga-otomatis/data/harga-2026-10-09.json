@@ -1,0 +1,76 @@
+{
+ "tanggal": "2026-10-09",
+ "diambil": "2026-10-09T15:11:37.646664+07:00",
+ "items": {
+  "Beras Medium": {
+   "tanggal": "09/10/2026",
+   "harga": 16650,
+   "harga_kemarin": 16600,
+   "satuan": "kg",
+   "sumber": "PIHPS-BI"
+  },
+  "Telur Ayam": {
+   "tanggal": "09/10/2026",
+   "harga": 29700,
+   "harga_kemarin": 29700,
+   "satuan": "kg",
+   "sumber": "PIHPS-BI"
+  },
+  "Cabai Merah Keriting": {
+   "tanggal": "09/10/2026",
+   "harga": 84300,
+   "harga_kemarin": 84150,
+   "satuan": "kg",
+   "sumber": "PIHPS-BI"
+  },
+  "Bawang Merah": {
+   "tanggal": "09/10/2026",
+   "harga": 37050,
+   "harga_kemarin": 36950,
+   "satuan": "kg",
+   "sumber": "PIHPS-BI"
+  },
+  "Bawang Putih": {
+   "tanggal": "09/10/2026",
+   "harga": 38800,
+   "harga_kemarin": 38800,
+   "satuan": "kg",
+   "sumber": "PIHPS-BI"
+  },
+  "Minyak Goreng Curah": {
+   "tanggal": "09/10/2026",
+   "harga": 20300,
+   "harga_kemarin": 20400,
+   "satuan": "liter",
+   "sumber": "PIHPS-BI"
+  },
+  "Gula Pasir": {
+   "tanggal": "09/10/2026",
+   "harga": 19250,
+   "harga_kemarin": 19200,
+   "satuan": "kg",
+   "sumber": "PIHPS-BI"
+  },
+  "Daging Ayam": {
+   "tanggal": "09/10/2026",
+   "harga": 41350,
+   "harga_kemarin": 41450,
+   "satuan": "kg",
+   "sumber": "PIHPS-BI"
+  },
+  "Daging Sapi": {
+   "tanggal": "09/10/2026",
+   "harga": 152650,
+   "harga_kemarin": 152550,
+   "satuan": "kg",
+   "sumber": "PIHPS-BI"
+  },
+  "Emas Antam 1gr": {
+   "tanggal": "2026-10-09",
+   "harga": 2572000,
+   "harga_kemarin": 2565000,
+   "satuan": "gram",
+   "sumber": "logam-mulia-api"
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "skincare-jrg": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_skincare-jrg.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_skincare-jrg_wa.mp4",
+  "durasi": 30.8,
+  "seg1": "AI",
+  "seg2": "AI"
+ },
+ "gamis-karina": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_gamis-karina.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_gamis-karina_wa.mp4",
+  "durasi": 28.0,
+  "seg1": "AI",
+  "seg2": "AI"
+ },
+ "gamis-kayla": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_gamis-kayla.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_gamis-kayla_wa.mp4",
+  "durasi": 24.5,
+  "seg1": "AI",
+  "seg2": "AI"
+ },
+ "dress-midi": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_dress-midi.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_dress-midi_wa.mp4",
+  "durasi": 25.2,
+  "seg1": "AI",
+  "seg2": "AI"
+ },
+ "mainan-sains": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_mainan-sains.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_mainan-sains_wa.mp4",
+  "durasi": 25.2,
+  "seg1": "AI",
+  "seg2": "AI"
+ }
+}

@@ -1,0 +1,56 @@
+INSTRUKSI UPLOAD — InkTime (@InkTime-d3t) — 3 SHORTS
+Tanggal produksi: 2026-10-12 | Slot: Terjadwal BESOK 2026-10-13 07:00 WIB (= 2026-10-12 19:00 US Eastern, prime time USA)
+Sumber: potongan long 2026-10-11 "You Work MORE Than a Medieval Peasant"
+
+=== 0. VERIFIKASI CHANNEL DULU (WAJIB, SEBELUM UPLOAD) ===
+- Buka YouTube Studio. PASTIKAN channel aktif = "InkTime".
+- Verifikasi via CHANNEL ID (bukan cuma nama!): URL Studio HARUS mengandung
+  UCoZl5OaqjXSVkE4S96RY8_g
+  Contoh: https://studio.youtube.com/channel/UCoZl5OaqjXSVkE4S96RY8_g
+- Kalau ID tidak cocok -> JANGAN upload, hentikan dan laporkan.
+- PENTING: sesi browser sudah login & persisten (terverifikasi 12 Okt pagi).
+  JANGAN login ulang / JANGAN ubah setelan akun apa pun. Kalau ketemu halaman
+  login Google -> BERHENTI, laporkan (jangan isi password).
+
+=== 1. ATURAN TIAP UPLOAD ===
+- Upload sebagai TIDAK PUBLIK (Unlisted) dulu, rapikan metadata, baru ubah ke "Terjadwal" 2026-10-13 07:00 WIB.
+- AI DISCLOSURE: WAJIB centang "Altered content" (Yes, content is altered/AI-generated).
+- JANGAN set "made for kids".
+- KOMENTAR WAJIB ON: Details -> Show more -> Comments -> set EKSPLISIT "Allow all comments" (jangan andalkan default).
+- Izinkan embedding: YA. Lisensi: Standard YouTube.
+- Bahasa video: English. Kategori: Education.
+- Auto-dubbing: aktifkan EN -> ID dan EN -> ES bila tersedia.
+- Masukkan ke playlist "Medieval History" (buat bila belum ada).
+- Thumbnail kustom: upload bila YouTube mengizinkan (channel belum verifikasi HP — bila ditolak, lewati & catat, JANGAN lakukan verifikasi HP).
+
+=== SHORTS 1 ===
+File: /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-12-s1.mp4 (29.7 dtk, 720x1280)
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-12-s1.jpg
+Judul (persis, hashtag di akhir judul ditutup #foryou):
+You Work MORE Than a Medieval Peasant #shorts #history #explainer #foryou
+Deskripsi (tanpa hashtag):
+You work more hours than a medieval peasant. Economists did the math — a 14th-century farmhand clocked fewer hours per year than the average modern office worker. Full story in the long video "You Work MORE Than a Medieval Peasant" on the InkTime channel. Sources: Schor, J.B. (1991) The Overworked American; OECD "Hours worked" data.
+Pinned comment (setelah tayang): "How many hours did YOU work last week? Drop the number — then watch the full video to see the medieval number."
+
+=== SHORTS 2 ===
+File: /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-12-s2.mp4 (49.0 dtk, 720x1280)
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-12-s2.jpg
+Judul (persis):
+Medieval Peasants Got 130 Days Off #shorts #history #explainer #foryou
+Deskripsi (tanpa hashtag):
+52 Sundays plus about 80 holy days: medieval workers had around 130 days off a year, enforced by the church calendar. So why were they still so poor? The full answer is in the long video on the InkTime channel. Sources: Schor, J.B. (1991) The Overworked American; Clark, G. (2007) A Farewell to Alms, Princeton University Press.
+Pinned comment (setelah tayang): "130 days off — would you trade your vacation days for a peasant's calendar? Yes or no, and why?"
+
+=== SHORTS 3 ===
+File: /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-12-s3.mp4 (54.9 dtk, 720x1280)
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-12-s3.jpg
+Judul (persis):
+Fewer Hours, But Dead by 45 #shorts #history #explainer #foryou
+Deskripsi (tanpa hashtag):
+Peasant life was brutal: 16-hour harvest days, no sick days, and most people dead by their mid-forties. They had time, but no safety. We have safety, but no time. Full story in the long video "You Work MORE Than a Medieval Peasant" on the InkTime channel. Sources: Hatcher, J., research on medieval English peasantry and harvest labor; Schor, J.B. (1991) The Overworked American.
+Pinned comment (setelah tayang): "Time but no safety, or safety but no time — which deal would you take?"
+
+=== CATATAN ===
+- CTA: overlay teks "SUBSCRIBE!" 3 detik terakhir di tiap shorts (sudah terbakar di video) + teks hook 4 detik pertama.
+- Subtitle/caption: teks on-screen mengikuti narasi sudah terbakar dari long asalnya.
+- Bila kena "Batas upload harian telah tercapai": BERHENTI, jangan retry — video masuk antrean retry-queue (watchdog).

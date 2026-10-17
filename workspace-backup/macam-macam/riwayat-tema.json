@@ -1,0 +1,30 @@
+[
+ {
+  "catatan": "Video perdana — diproduksi 2026-10-10, upload manual oleh user (disetujui 'nah udah oke')",
+  "judul": "Macam-macam Jenis Truk (Part 1)",
+  "part": 1,
+  "tanggal": "2026-10-10",
+  "tema": "truk"
+ },
+ {
+  "tema": "hewan",
+  "part": 1,
+  "judul": "Macam-macam Jenis Hewan (Part 1)",
+  "tanggal": "2026-10-14",
+  "catatan": "Produksi lanjutan run 2026-10-13 (mati di tengah); selesai 2026-10-14, keyframe terverifikasi, siap upload"
+ },
+ {
+  "tema": "mobil",
+  "part": 1,
+  "judul": "Macam-macam Jenis Mobil (Part 1)",
+  "tanggal": "2026-10-15",
+  "catatan": "8 foto Wikimedia Commons (lisensi CC0/PD/CC BY/CC BY-SA, kredit per file); cutout rembg perlu downscale max 1280px (full-res timeout); keyframe terverifikasi; 64 dtk"
+ },
+ {
+  "tema": "motor",
+  "part": 1,
+  "judul": "Macam-macam Jenis Motor (Part 1)",
+  "tanggal": "2026-10-17",
+  "catatan": "8 foto (6 Pexels + 2 Commons pengganti cutout-gagal item04/item07); stiker item04 dibersihkan manual dari sisa truk; keyframe terverifikasi; 49 dtk"
+ }
+]

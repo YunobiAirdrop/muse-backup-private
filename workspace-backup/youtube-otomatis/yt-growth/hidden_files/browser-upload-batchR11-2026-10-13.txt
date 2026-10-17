@@ -1,0 +1,74 @@
+TUGAS: Upload 3 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Kerjakan BERURUTAN. Nama file UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 31 ===
+FILE: 31-kisahalkitab-kisah-alkitab-2026-10-08-long-upload.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: 5 Batu Licin yang Menumbangkan Raksasa Goliat
+DESKRIPSI: Kisah Daud melawan Goliat (1 Samuel 17) — bagaimana seorang gembala muda menumbangkan raksasa Filistin setinggi hampir 3 meter hanya dengan ketapel dan lima batu licin dari sungai. 
+  
+ Kisah ini selalu membuat saya takjub: kemenangan Daud bukan karena senjatanya lebih canggih, tapi karena ia tahu siapa yang berperang bersamanya. 
+  
+ Tonton sampai habis untuk hikmah yang bisa kita bawa pulang hari ini. 
+  
+ 0:00 Anak gembala vs raksasa 3 meter 
+ 0:47 Israel ketakutan 40 hari 
+ 2:38 Daud datang dengan 5 batu licin 
+ 4:57 Satu batu menumbangkan Goliat 
+ 6:28 Hikmah: pertempuran ini milik TUHAN 
+  
+ #kisahalkitab #daudvangoliat #renungankristen #alkitab #rohanikristen #firmantuhan
+TAGS: kisah alkitab, daud dan goliat, 1 samuel 17, renungan kristen, cerita alkitab, firman tuhan, rohani kristen, kisah daud, goliat, alkitab perjanjian lama, inspirasi kristen, saat teduh, iman kristen, tokoh alkitab, renungan harian, kristen indonesia, bible story indonesia, kisah nyata alkitab, perjanjian lama, kekuatan iman
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 32 ===
+FILE: 32-inktime-inktime-2026-10-09-long.mp4
+CHANNEL: InkTime | ID: (pilih via handle @InkTime-d3t)
+JUDUL: Why 536 Was the Worst Year to Be Alive
+DESKRIPSI: In 536 AD, the sun went dark for 18 months. Crops failed, snow fell in summer, and famine swept the ancient world. Scientists now call it the worst year to be alive — here is the real story, from eyewitness accounts to ice-core science. 
+  
+ Chapters: 
+ 0:00 The sun went out 
+ 0:44 Witnesses around the world 
+ 1:31 Ice cores: the smoking gun 
+ 2:21 Tree rings: the coldest summer 
+ 3:06 The second eruption of 540 
+ 3:46 Famine: when the harvest died 
+ 4:44 The Plague of Justinian 
+ 5:27 A century of cold 
+ 6:33 The volcano that vanished 
+ 7:02 The year the sun went out 
+  
+ Honestly, what amazes me most is that one volcano, half a world away, could bring entire civilizations to their knees — no war, no invasion, just ash and a dimmed sun. 
+  
+ Sources: 
+ - Gibbons, A. (2018). "Eruption made 536 'the worst year to be alive'." Science, 362(6416), 733–734. 
+ - Sigl, M. et al. (2015). "Timing and climate forcing of volcanic eruptions for the past 2,500 years." Nature, 523, 543–549. 
+ - Büntgen, U. et al. (2016). "Cooling and societal change during the Late Antique Little Ice Age from 536 to around 660 AD." Nature Geoscience, 9, 231–236. 
+ - Larsen, L.B. et al. (2008). "New ice core evidence for a volcanic cause of the A.D. 536 dust veil." Geophysical Research Letters, 35(4). 
+ - Harper, K. (2017). The Fate of Rome. Princeton University Press. 
+ - Procopius, History of the Wars (trans. H.B. Dewing, Loeb). 
+  
+ #history #ancienthistory #explainer
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+THUMB: 32-inktime-thumb.jpg
+
+=== VIDEO 33 ===
+FILE: 33-weird-en-2026-10-10-s2.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: Your Stomach Could Dissolve METAL?! #shorts #facts #weirdfacts
+DESKRIPSI: Your stomach acid is strong enough to dissolve solid METAL — and the only reason you're not digesting yourself alive is that your stomach builds a brand-new protective lining every 3-4 days. Twice a week! A metal-melting acid bath that rebuilds itself like it's absolutely nothing. Nature is unhinged. Full 7-fact battle on the channel!
+TAGS: (kosong)
+VISIBILITAS: JADWAL 2026-10-14 07:00 WIB
+
+LAPORAN AKHIR: tiap nomor -> SUKSES + URL, atau GAGAL + alasan singkat.

@@ -1,0 +1,146 @@
+[
+ {
+  "kind": "blogger#blog",
+  "id": "3309326452444173317",
+  "status": "LIVE",
+  "name": "olahraga terbaru",
+  "description": "",
+  "published": "2026-10-02T11:22:30-07:00",
+  "updated": "2026-10-02T11:22:32-07:00",
+  "url": "https://olahraga-terbaru-terbaik.blogspot.com/",
+  "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3309326452444173317",
+  "posts": {
+   "totalItems": 0,
+   "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3309326452444173317/posts"
+  },
+  "pages": {
+   "totalItems": 0,
+   "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3309326452444173317/pages"
+  },
+  "locale": {
+   "language": "id",
+   "country": "",
+   "variant": ""
+  }
+ },
+ {
+  "kind": "blogger#blog",
+  "id": "6262982910681826900",
+  "status": "LIVE",
+  "name": "Gaya Hidup Kekinian",
+  "description": "",
+  "published": "2026-10-02T11:21:36-07:00",
+  "updated": "2026-10-02T11:21:37-07:00",
+  "url": "https://gaya-hidup-kekikinan.blogspot.com/",
+  "selfLink": "https://www.googleapis.com/blogger/v3/blogs/6262982910681826900",
+  "posts": {
+   "totalItems": 0,
+   "selfLink": "https://www.googleapis.com/blogger/v3/blogs/6262982910681826900/posts"
+  },
+  "pages": {
+   "totalItems": 0,
+   "selfLink": "https://www.googleapis.com/blogger/v3/blogs/6262982910681826900/pages"
+  },
+  "locale": {
+   "language": "id",
+   "country": "",
+   "variant": ""
+  }
+ },
+ {
+  "kind": "blogger#blog",
+  "id": "3837990085079931876",
+  "status": "LIVE",
+  "name": "ekonomi bisnis info",
+  "description": "",
+  "published": "2026-10-02T11:20:52-07:00",
+  "updated": "2026-10-02T11:20:53-07:00",
+  "url": "https://ekonomi-bisnis-info-terbaru.blogspot.com/",
+  "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3837990085079931876",
+  "posts": {
+   "totalItems": 0,
+   "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3837990085079931876/posts"
+  },
+  "pages": {
+   "totalItems": 0,
+   "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3837990085079931876/pages"
+  },
+  "locale": {
+   "language": "id",
+   "country": "",
+   "variant": ""
+  }
+ },
+ {
+  "kind": "blogger#blog",
+  "id": "4472618985643360981",
+  "status": "LIVE",
+  "name": "info kesehatan hari ini",
+  "description": "",
+  "published": "2026-10-02T11:20:08-07:00",
+  "updated": "2026-10-02T11:20:08-07:00",
+  "url": "https://infokesehatan-hari-ini.blogspot.com/",
+  "selfLink": "https://www.googleapis.com/blogger/v3/blogs/4472618985643360981",
+  "posts": {
+   "totalItems": 0,
+   "selfLink": "https://www.googleapis.com/blogger/v3/blogs/4472618985643360981/posts"
+  },
+  "pages": {
+   "totalItems": 0,
+   "selfLink": "https://www.googleapis.com/blogger/v3/blogs/4472618985643360981/pages"
+  },
+  "locale": {
+   "language": "id",
+   "country": "",
+   "variant": ""
+  }
+ },
+ {
+  "kind": "blogger#blog",
+  "id": "7454786879662803920",
+  "status": "LIVE",
+  "name": "TEKNO PEDIA",
+  "description": "",
+  "published": "2026-10-02T11:19:17-07:00",
+  "updated": "2026-10-02T11:19:18-07:00",
+  "url": "https://teknopedia-terbaru-dotcom.blogspot.com/",
+  "selfLink": "https://www.googleapis.com/blogger/v3/blogs/7454786879662803920",
+  "posts": {
+   "totalItems": 0,
+   "selfLink": "https://www.googleapis.com/blogger/v3/blogs/7454786879662803920/posts"
+  },
+  "pages": {
+   "totalItems": 0,
+   "selfLink": "https://www.googleapis.com/blogger/v3/blogs/7454786879662803920/pages"
+  },
+  "locale": {
+   "language": "id",
+   "country": "",
+   "variant": ""
+  }
+ },
+ {
+  "kind": "blogger#blog",
+  "id": "2214484859238970994",
+  "status": "LIVE",
+  "name": "KabarViral",
+  "description": "",
+  "published": "2026-09-30T20:31:15-07:00",
+  "updated": "2026-10-02T07:57:13-07:00",
+  "url": "https://kabarviralterkiniterbaru.blogspot.com/",
+  "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2214484859238970994",
+  "posts": {
+   "totalItems": 2,
+   "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2214484859238970994/posts"
+  },
+  "pages": {
+   "totalItems": 4,
+   "selfLink": "https://www.googleapis.com/blogger/v3/blogs/2214484859238970994/pages"
+  },
+  "locale": {
+   "language": "id",
+   "country": "",
+   "variant": ""
+  }
+ }
+]

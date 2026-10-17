@@ -1,0 +1,10 @@
+name: local_taisly_agent
+title: Local taisly agent
+description: Free AI-first short-form video publishing to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook from AI agents through Taisly.
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  needs_review: true

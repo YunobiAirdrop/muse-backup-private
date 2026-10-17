@@ -1,0 +1,27 @@
+[
+ {
+  "slug": "gamis-karina",
+  "ok": true,
+  "out": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a10cdd498273a9b97d771eb8959859\"},\"media_fbid\":\"18488443498106084\"}\n"
+ },
+ {
+  "slug": "gamis-kayla",
+  "ok": true,
+  "out": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a10cdd498273a9b97d771eb8959859\"},\"media_fbid\":\"17910103302493627\"}\n"
+ },
+ {
+  "slug": "dress-midi",
+  "ok": true,
+  "out": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a10cdd498273a9b97d771eb8959859\"},\"media_fbid\":\"18244720561313743\"}\n"
+ },
+ {
+  "slug": "mainan-sains",
+  "ok": true,
+  "out": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a10cdd498273a9b97d771eb8959859\"},\"media_fbid\":\"18135598456733066\"}\n"
+ },
+ {
+  "slug": "puzzle-kayu",
+  "ok": true,
+  "out": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a10cdd498273a9b97d771eb8959859\"},\"media_fbid\":\"17993954505050883\"}\n"
+ }
+]

@@ -1,0 +1,31 @@
+{
+ "ai_disclosure": "PENDING — must be checked manually in YouTube Studio (Altered content) by main agent; API cannot set it",
+ "categoryId": "27",
+ "channel": "Weird World Daily (@BizarreWorldDaily)",
+ "channel_id": "UCJ6KqdYvVJ-PaxhGLfTFVhA",
+ "language": "en",
+ "note": "Upload run 2026-10-16 (terlambat dieksekusi 2026-10-17 10:05 WIB) — pola selang-seling: kemarin long, hari ini 3 shorts. Terjadwal tayang 2026-10-18 07:00 WIB.",
+ "publishAt": "2026-10-18T00:00:00.000Z",
+ "shorts": [
+  {
+   "description": "Your brain lives about 80 milliseconds in the past — your \"right now\" is a delayed replay. Signals from your eyes take time to reach your brain, so it buffers reality like a livestream with a tiny delay. Everything you see already happened.\n\nWhich fact broke YOUR brain? Comment below!\n\nSubscribe to Weird World Daily for a new mind-bending fact every day.",
+   "file": "/home/hatch/workspace/youtube-otomatis/weird-en/shorts/2026-10-15-s1.mp4",
+   "title": "Your Brain Lives 80 Milliseconds in the Past #shorts #facts #weirdfacts #foryou"
+  },
+  {
+   "description": "On Venus, a single day (243 Earth days) is LONGER than an entire year (224.7 Earth days). The planet spins backwards, super slowly. If you lived there, you'd celebrate your birthday before finishing one day!\n\nFollow Weird World Daily for more reality-breaking facts.",
+   "file": "/home/hatch/workspace/youtube-otomatis/weird-en/shorts/2026-10-15-s2.mp4",
+   "title": "On Venus, a Day Is Longer Than a Year #shorts #facts #weirdfacts #foryou"
+  },
+  {
+   "description": "Your phone's GPS only works because Einstein was right. GPS satellites' clocks tick 38 microseconds faster per day (speed slows them, low gravity speeds them up). Without correcting for relativity, your maps would drift by kilometers within hours.\n\nSubscribe to Weird World Daily — new weirdness every day.",
+   "file": "/home/hatch/workspace/youtube-otomatis/weird-en/shorts/2026-10-15-s3.mp4",
+   "title": "Your GPS Only Works Because of Einstein #shorts #facts #weirdfacts #foryou"
+  }
+ ],
+ "tags": [
+  "weird facts",
+  "shorts",
+  "did you know"
+ ]
+}

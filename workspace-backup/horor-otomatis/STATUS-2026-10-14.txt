@@ -1,0 +1,44 @@
+STATUS RUN horor-harian 2026-10-14 16:11 WIB (ditulis 16:3x, diupdate saat selesai)
+
+KONTEKS: Produksi 2026-10-13 ("CCTV Apartemen Ini Rekam Sosok Aneh Tiap Jam 02.47")
+terputus kemarin SETELAH script+audio+78 gambar jadi, SEBELUM assembly.
+Run ini MELANJUTKAN (bukan rebuild — video final belum pernah ada).
+
+PROGRES:
+[ ] Assembly 78 segmen -> video/2026-10-13.mp4 (assembly_20261013.py, background proc_02f8f51ab652;
+    resume otomatis dari video/_tmp_segs_20261013/sNN.mp4 yg valid)
+[ ] Text overlay 5 momen -> video/2026-10-13-youtube.mp4 (bagian skrip yg sama)
+[ ] 3 shorts -> shorts/2026-10-13-s1/s2/s3.mp4 (bagian skrip yg sama)
+[x] Thumbnail -> thumbnail-2026-10-13.jpg ("SOSOK DI CCTV")
+[x] riwayat-cerita.json += entri 2026-10-13
+[x] upload-2026-10-13.json -> publish_at 2026-10-15T12:00:00Z (Terjadwal 2026-10-15 19:00 WIB)
+[x] Skrip upload API siap: upload_api_20261013.py (cek duplikat judul + verifikasi channel)
+[ ] Upload via API (kuota OK, channel terverifikasi Kisah Horor UCUEHu-nQXxGuru5Bviy4DKQ)
+[ ] AI disclosure via browser task Studio (wajib centang Altered content) + pin komentar + end screen
+[ ] upload-terakhir.txt -> "long:2026-10-13"
+
+JIKA RUN INI MATI SEBELUM SELESAI:
+- Assembly resumable: jalankan ulang `python3 assembly_20261013.py` (skip segmen valid).
+- Lalu `venv/bin/python upload_api_20261013.py` (ada cek duplikat).
+- Lalu browser task disclosure (brief di upload-instruksi-2026-10-13.md).
+- Upload-terakhir.txt masih "shorts:2026-10-12" -> run berikutnya tetap upload LONG ini.
+
+UPDATE 17:43 WIB:
+[x] Assembly SELESAI (78/78 segmen, video 703 dtk terverifikasi)
+[x] Overlay 5 momen + 3 shorts SELESAI
+[x] Upload API SELESAI: https://youtu.be/-k5qqlU3JR8 (Kisah Horor, terjadwal 2026-10-15 19:00 WIB)
+[x] Thumbnail terpasang (200)
+[x] upload-terakhir.txt = long:2026-10-13
+[ ] AI disclosure (Altered content) via browser task Studio <- SELANJUTNYA
+[ ] Pin komentar + end screen -> https://youtu.be/U6F-BbZ1Lns
+
+UPDATE 17:47 WIB — browser task Studio SELESAI:
+[x] Channel terverifikasi BENAR: Kisah Horor UCUEHu-nQXxGuru5Bviy4DKQ (task sempat buka
+    Weird World Daily, diganti sebelum bertindak; @ceritarakyat862 tak tersentuh)
+[x] AI disclosure "Altered content" = Ya, TERSIMPAN
+[x] Komentar Aktif; bukan made-for-kids; visibilitas Terjadwal (tak diubah)
+[x] End screen TERPASANG: elemen Video -> https://youtu.be/U6F-BbZ1Lns (20 dtk terakhir)
+[ ] Pin komentar GAGAL: video masih Terjadwal -> YouTube kunci kolom komentar
+    ("tidak didukung pada video pribadi"). HARUS dilakukan SETELAH tayang
+    2026-10-15 19:00 WIB. Teks pin: "Kalau kamu jadi Aldo malam itu — tetap pantengin
+    CCTV atau langsung lari? Tulis di komentar 👇"

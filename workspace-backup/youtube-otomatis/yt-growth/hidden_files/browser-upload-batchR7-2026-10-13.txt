@@ -1,0 +1,43 @@
+TUGAS: Upload 2 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Kerjakan BERURUTAN. Nama file UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 18 ===
+FILE: 18-jejakbuddha-jejak-buddha-2026-10-08-upload.mp4
+CHANNEL: Jejak Buddha | ID: UC1PNEzhOmAH08p75vwp7n0A
+JUDUL: Bayi yang Berjalan 7 Langkah Saat Lahir
+DESKRIPSI: Kelahiran Pangeran Siddhartha Gautama di Taman Lumbini — dari mimpi gajah putih Ratu Maya hingga tujuh langkah suci di atas bunga teratai. Kisah takzim yang diperingati jutaan umat Buddha setiap Waisak. 
+  
+ Bab: 
+ 0:00 Bayi yang melangkah tujuh langkah 
+ 0:33 Mimpi gajah putih Ratu Maya 
+ 2:21 Kelahiran di Taman Lumbini 
+ 4:02 Tujuh langkah suci 
+ 5:03 Tangis Pertapa Asita 
+ 6:25 Nama Siddhartha & kepergian Ratu Maya 
+ 7:31 Cahaya bagi dunia 
+ 8:15 Penutup 
+  
+ Bagi saya pribadi, bagian paling mengharukan adalah tangis Pertapa Asita — seumur hidup mencari kebenaran, lalu sadar tak akan sempat mendengar ajaran Sang Buddha. Kisah ini mengingatkan kita: terang sejati lahir dari welas asih, bukan dari kemewahan. 
+  
+ #buddha #kisahbuddha #lumbini #siddharthagautama #waisak #jejakbuddha #agamabuddha #ceritabuddha
+TAGS: kelahiran buddha, sang buddha, siddhartha gautama, taman lumbini, ratu maya, mimpi gajah putih, tujuh langkah suci, bunga teratai, kisah buddha, cerita buddha, waisak, jejak buddha, agama buddha, sejarah buddha, pertapa asita, kapilavastu, kisah inspiratif, spiritual, renungan, buddhisme
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 19 ===
+FILE: 19-jejakbuddha-short1-tujuh-langkah.mp4
+CHANNEL: Jejak Buddha | ID: UC1PNEzhOmAH08p75vwp7n0A
+JUDUL: Baru Lahir Langsung Berjalan 7 Langkah! #shorts #buddha #kebijaksanaan
+DESKRIPSI: Kisah yang paling masyhur dari kelahiran Pangeran Siddhartha: bayi yang baru lahir berdiri, melangkah tujuh langkah, dan di setiap tapaknya mekar sekuntum bunga teratai. Cerita penuh takzim ini diperingati ratusan juta umat Buddha setiap Waisak. Semoga semua makhluk berbahagia. — Jejak Buddha
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+LAPORAN AKHIR: tiap nomor -> SUKSES + URL, atau GAGAL + alasan singkat.

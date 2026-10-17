@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<title><data:blog.pageTitle/></title>
+<b:include data='blog' name='all-head-content'/>
+<b:skin><![CDATA[
+body{font-family:sans-serif;margin:40px}
+h1{color:#333}
+]]></b:skin>
+</head>
+<body>
+<h1><data:blog.title/></h1>
+<b:section id='main' class='main' maxwidgets='1' showaddelement='no'>
+<b:widget id='Blog1' type='Blog' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<b:loop values='data:posts' var='post'>
+<h2><a expr:href='data:post.url'><data:post.title/></a></h2>
+<div><data:post.body/></div>
+<hr/>
+</b:loop>
+</b:includable>
+</b:widget>
+</b:section>
+</body>
+</html>

@@ -1,0 +1,6 @@
+file '/home/hatch/workspace/kendaraan-anak-demo/work/seg0.mp4'
+file '/home/hatch/workspace/kendaraan-anak-demo/work/seg1.mp4'
+file '/home/hatch/workspace/kendaraan-anak-demo/work/seg2.mp4'
+file '/home/hatch/workspace/kendaraan-anak-demo/work/seg3.mp4'
+file '/home/hatch/workspace/kendaraan-anak-demo/work/seg4.mp4'
+file '/home/hatch/workspace/kendaraan-anak-demo/work/seg5.mp4'

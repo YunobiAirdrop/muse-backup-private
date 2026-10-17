@@ -1,0 +1,27 @@
+{
+ "skincare-paket": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_skincare-paket.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_skincare-paket_wa.mp4",
+  "durasi": 24.9
+ },
+ "tws-gen4": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_tws-gen4.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_tws-gen4_wa.mp4",
+  "durasi": 25.7
+ },
+ "tws-pro3": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_tws-pro3.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_tws-pro3_wa.mp4",
+  "durasi": 26.9
+ },
+ "panci-castiron": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_panci-castiron.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_panci-castiron_wa.mp4",
+  "durasi": 25.3
+ },
+ "rebus-telur": {
+  "final": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_rebus-telur.mp4",
+  "wa": "/home/hatch/workspace/blog-otomatis/promo_out/video_final_rebus-telur_wa.mp4",
+  "durasi": 21.7
+ }
+}

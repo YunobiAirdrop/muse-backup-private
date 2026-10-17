@@ -1,0 +1,359 @@
+POV: Kamu Jadi Pilot Kamikaze Jepang
+88 beat | Tokoh: Kenji, 19 tahun, mahasiswa sastra jadi pilot | Setting: Tokyo, Pangkalan Chiran Kyushu, langit Okinawa, 1945
+KARAKTER VISUAL: Kenji, a young Japanese kamikaze pilot, 19 years old, short black hair, white headband with red circle emblem, dark green flight jacket, white scarf
+GAYA GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), dramatic cinematic composition, not photorealistic, no text
+CATATAN: hindari darah/kekerasan eksplisit di narasi maupun prompt gambar. [JEDA] = tambah silence 0.8 detik di akhir beat (sebelum twist/momen kunci).
+OVERLAY TEKS (drawtext, 4 momen): beat 2 "TAK ADA JALAN PULANG" | beat 19 "SURAT TERAKHIR UNTUK IBU" | beat 51 "PANGGILAN TERAKHIR" | beat 71 "SEHELAI RAMBUT DALAM AMPLOP"
+
+
+BEAT 1:
+Mesin menderu di bawahku. Di depan, kapal-kapal perang musuh memenuhi lautan sampai ke cakrawala.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), Kenji, a young Japanese kamikaze pilot, 19 years old, short black hair, white headband with red circle emblem, dark green flight jacket, white scarf, gripping the control stick in a vintage airplane cockpit, engine roaring, enemy warships dotting the ocean horizon below, first-person cockpit view, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 2:
+Tanganku bergetar di tuas kemudi. Penerbangan ini tidak menyediakan tiket pulang. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), extreme close-up of a young pilot's trembling hand on an airplane control stick, white headband with red circle visible, dramatic cockpit interior, Dutch angle, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 3:
+Namaku Kenji, sembilan belas tahun. Dan ini hari terakhir dalam hidupku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), Kenji, a young Japanese kamikaze pilot, 19 years old, short black hair, white headband with red circle emblem, dark green flight jacket, white scarf, solemn face staring ahead in cockpit, wind in scarf, close-up portrait, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 4:
+Tiga bulan lalu, aku cuma mahasiswa sastra di Tokyo — lebih akrab dengan puisi daripada senjata.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), a young Japanese university student in 1940s Tokyo reading poetry under a cherry blossom tree, books stacked beside him, peaceful campus, soft flashback glow, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 5:
+Aku suka menulis puisi tentang hujan. Tentang bau tanah setelah hujan pertama. Hal-hal kecil yang paling kurindukan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), close-up of handwritten Japanese poetry on paper with ink brush, rain drops on a window beside, nostalgic warm tones, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 6:
+Tahun 1945. Setiap malam sirene meraung, pesawat musuh melintas di atas kota.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), 1945 Tokyo at night under air raid, searchlights sweeping dark sky, distant bomber silhouettes, families hurrying below, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 7:
+Lalu surat panggilan datang di pagi yang dingin. Tangan ibuku gemetar saat membacanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), an elderly Japanese mother in kimono holding a military draft letter with trembling hands, morning light through wooden house window, Kenji watching worriedly, emotional close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 8:
+"Kamu tidak harus pergi," bisiknya. Tapi kami berdua tahu: tidak ada pilihan lain.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), mother embracing her teenage son tightly in a traditional Japanese home interior, tears, warm lantern light, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 9:
+Maka aku berbohong. "Aku cuma jadi mekanik, Bu. Aman, jauh dari garis depan." Bohong pertama — dan terakhirku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), a young man in civilian clothes smiling reassuringly while lying to his worried mother at a train station platform, 1940s Japan, bittersweet farewell, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 10:
+Pangkalan Chiran, Kyushu. Barak kayu, bau minyak tanah, puluhan pemuda seusiaku dengan sorot mata yang sama: takut.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), rows of young Japanese pilot trainees standing at attention on a 1945 airbase, wooden barracks, vintage fighter planes parked behind, morning mist, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 11:
+Pelatihan kami singkat. Terbang lurus, menyelam tajam — dan tidak ada pelajaran cara mendarat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), vintage Japanese fighter plane practicing a steep dive over the airfield, instructor watching with binoculars from the ground, dynamic action shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 12:
+"Kalian bukan pilot," kata Kapten Sato dingin. "Kalian adalah panah yang ditembakkan sekali."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), a stern middle-aged Japanese officer with scarred cheek addressing young pilots, arms crossed, harsh sunlight, low-angle shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 13:
+Malam-malam di barak, kami tak bicara soal misi. Kami bicara soal rumah, masakan ibu, gadis yang ditinggalkan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), young pilots sitting on bunk beds in a dim wooden barracks at night, sharing photos and laughing softly, warm lantern glow, intimate medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 14:
+Jujur, bagian ini bikin saya merinding — anak sembilan belas tahun ngobrolin masakan ibu, padahal besok terbang untuk tak kembali.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), Kenji, a young Japanese kamikaze pilot, 19 years old, short black hair, white scarf, lying on a bunk bed staring at the ceiling holding a small family photo, moonlight through barracks window, melancholic close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 15:
+Seminggu sebelum hari-H, kami disuruh menulis surat terakhir. Tanganku basah oleh keringat. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), close-up of a young pilot's hand writing a farewell letter with ink brush on white paper, cherry blossom petals on the desk, candlelight, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 16:
+"Ibu, maafkan aku berbohong soal jadi mekanik..." — kutulis sampai tintanya habis.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), Kenji, a young Japanese kamikaze pilot, 19 years old, short black hair, white scarf, writing intensely at a wooden desk, ink bottle and letters around, fellow pilot handing him ink, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 17:
+Aku selipkan sehelai rambutku ke dalam amplop. "Supaya ibu masih punya sebagian dariku."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), extreme close-up of a sealed envelope with a single strand of black hair tucked inside, handwritten Japanese characters, soft emotional lighting, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 18:
+Malam perpisahan, kami diberi semangkuk sake. Diminum dalam diam — tak ada yang berani saling menatap.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), young pilots in flight jackets solemnly drinking sake from small cups in a dim hall, heads bowed, ceremonial atmosphere, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 19:
+Ibuku mengirim ikat kepala putih lewat pos. Lingkaran merah di tengahnya dijahit tangannya sendiri, semalaman.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), close-up of a white headband with a hand-stitched red circle emblem, needle and thread beside it, warm home lighting, emotional still life, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 20:
+"Kembalilah dengan selamat," tulisnya. Kulipat rapi, kusimpan di saku dekat jantung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), Kenji, a young Japanese kamikaze pilot, 19 years old, short black hair, white headband with red circle emblem, dark green flight jacket, white scarf, folding a small note and placing it in his breast pocket over his heart, tender close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 21:
+Fajar itu dingin menusuk. Kabut tipis menyelimuti ujung landasan pacu Chiran.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), vintage fighter planes lined up on a misty runway at dawn, Mount Sakurajima volcano silhouette in distance, cold blue morning light, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 22:
+Tiga belas pesawat berbaris. Mesin dinyalakan satu per satu — raungannya seperti binatang buas.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), row of vintage Japanese fighter planes with spinning propellers kicking up dust at dawn, pilots climbing in, dynamic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 23:
+Aku memanjat ke kokpit. Bau bensin, oli, kulit jok usang. Semua terasa terlalu nyata untuk sebuah perpisahan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), Kenji, a young Japanese kamikaze pilot, 19 years old, short black hair, white headband with red circle emblem, dark green flight jacket, white scarf, climbing into a vintage cockpit, ground crew waving, dawn light, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 24:
+Kapten Sato menatap setiap pilot. Saat giliranku, ia hanya mengangguk pelan. Itu sudah cukup.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), a stern middle-aged Japanese officer nodding solemnly to a young pilot in a cockpit, mutual respect, dawn backlight, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 25:
+Pesawatku melaju, roda terangkat. Di bawah, tanah airku mengecil — sawah, rumah kayu, gunung berapi.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), vintage fighter plane taking off from runway at dawn, Japanese countryside with rice fields and wooden houses shrinking below, aerial wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 26:
+"Selamat tinggal," bisikku. Entah pada ibu, pada Tokyo, atau pada diriku sendiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), view from cockpit window showing Japanese coastline receding below, pilot's reflection faint in glass, wistful mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 27:
+Kami terbang berformasi ke selatan, menuju Okinawa. Samudra Pasifik membentang biru tak berujung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), formation of vintage fighter planes flying over vast blue Pacific Ocean, white clouds below, serene aerial wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 28:
+Awan putih seperti kapas. Sesaat aku lupa soal misi — rasanya seperti terbang dalam mimpi.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), lone vintage plane gliding through soft cotton-like clouds, sunlight streaming, peaceful dreamlike mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 29:
+Kalau menurut saya, momen tenang kayak gini justru paling menusuk — dia sempat merasakan indahnya dunia, tepat sebelum meninggalkannya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), Kenji, a young Japanese kamikaze pilot, 19 years old, short black hair, white headband with red circle emblem, white scarf flowing, peaceful expression gazing at clouds from cockpit, serene close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 30:
+Aku teringat puisi terakhirku. Tentang hujan. Tentang hal-hal kecil yang tak sempat kuselesaikan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), translucent overlay vision of rain falling on a Tokyo street beside the flying plane, memory blending with reality, poetic double exposure, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 31:
+Radio berdesis. "Armada musuh terlihat. Tiga puluh kapal, barat daya." Jantungku berhenti sesaat. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), close-up of a vintage airplane radio crackling, pilot's tense face lit by instrument glow, dramatic cockpit interior, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 32:
+Titik-titik hitam muncul di cakrawala. Semakin dekat, semakin jelas — dan lututku lemas.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), distant enemy naval fleet appearing as dark silhouettes on the ocean horizon seen from above, ominous scale, aerial wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 33:
+Kapal induk. Kapal perang. Kapal perusak. Armada terbesar yang pernah kulihat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), massive WWII naval fleet from above, aircraft carrier at center surrounded by battleships and destroyers, ocean waves, imposing aerial wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 34:
+Dan kami? Tiga belas pesawat kecil dari kayu dan kanvas. Seperti kunang-kunang menantang badai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), tiny formation of small vintage planes approaching a gigantic naval fleet below, dramatic scale contrast, high aerial shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 35:
+"Bubar formasi! Serang sesukamu!" Suara Kapten Sato tenang — terlalu tenang untuk orang yang akan mati.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), fighter planes breaking formation and scattering across the sky, contrails crossing, urgent dynamic shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 36:
+Langit meledak. Tembakan anti-pesawat mekar di sekeliling kami seperti bunga-bunga hitam.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), anti-aircraft flak bursts blooming as dark puffs around vintage planes in the sky, dramatic aerial battle, stylized, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 37:
+Pesawatku berguncang hebat. Pecahan peluru merobek sayap — tapi mesin masih meraung. Masih setia.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), vintage plane shaking amid flak bursts, small holes in wing, pilot gripping controls determined, cockpit view, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 38:
+Di kananku, pesawat Takeshi — teman sebangkuku — oleng. Asap mengepul dari mesinnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), two vintage planes flying side by side, one trailing dark smoke, pilots visible in cockpits, tense moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 39:
+Ia menoleh, tersenyum, mengacungkan jempol — persis seperti malam terakhir di barak. Lalu ia menukik duluan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), pilot giving a thumbs up from a smoking cockpit, brave smile, another plane diving below, emotional farewell moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 40:
+"Sampai jumpa di sisi lain, kawan," bisikku. Tenggorokanku tercekat. Tapi belum ada waktu berduka.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), Kenji, a young Japanese kamikaze pilot, 19 years old, short black hair, white headband with red circle emblem, white scarf, whispering with tearful determined eyes in cockpit, close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 41:
+Satu per satu kawanku menukik. Langit sore dipenuhi siluet yang jatuh seperti daun berguguran.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), multiple small plane silhouettes diving toward the fleet at sunset like falling leaves, poetic stylized scene, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 42:
+Jujur saya nggak kuat membayangkan jadi orang terakhir yang masih terbang — melihat semua teman pergi duluan, tahu giliranmu tinggal hitungan detik.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), lone vintage plane flying above clouds at sunset, empty sky around, solitary melancholic mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 43:
+Sekarang giliranku. Di bawah, sebuah kapal perusak berlayar agak terpisah — targetku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), aerial view of a lone WWII destroyer ship separated from the fleet, small plane circling high above, hunter's perspective, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 44:
+Aku menarik napas dalam. Mengingat wajah ibu. Bau tanah setelah hujan. Semua puisi yang tak sempat kutulis. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), Kenji, a young Japanese kamikaze pilot, 19 years old, short black hair, white headband with red circle emblem, white scarf, eyes closed taking a deep breath in cockpit, peaceful expression, close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 45:
+Lalu kudorong tuas ke depan. Hidung pesawat menunduk. Dunia mulai berputar.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), vintage plane beginning a steep dive, nose pointing down toward the ocean, dramatic tilted angle, motion energy, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 46:
+Angin meraung. Tiga ribu meter. Dua ribu. Air mataku tertiup ke belakang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), first-person view from diving plane cockpit, ocean rushing closer, speed lines, intense motion, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 47:
+Tembakan makin rapat. Tapi anehnya aku tak takut lagi — rasa takutku tertinggal di ketinggian tiga ribu meter.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), plane diving through dense flak bursts unafraid, calm pilot face contrasting chaotic sky, stylized dramatic, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 48:
+Seribu meter. Kapal itu membesar cepat. Aku bisa melihat benderanya, orang-orang kecil berlarian di dek.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), destroyer ship growing large below a diving plane, tiny crew figures on deck, flag waving, dramatic downward perspective, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 49:
+Lima ratus meter. Tanganku mantap, tak gemetar lagi. Seumur hidup aku tak pernah sefokus ini.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), extreme close-up of steady hands gripping the control stick firmly, determined pilot eyes reflected, intense focus, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 50:
+Yang kupikirkan bukan perang, bukan kaisar. Hanya: ibu pasti bangga... sekaligus hancur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), translucent vision of an elderly Japanese mother smiling through tears superimposed over the diving plane view, emotional double exposure, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 51:
+Seratus meter. Kubuka mulut dan berteriak — bukan teriakan perang, tapi teriakan anak sembilan belas tahun memanggil ibunya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), Kenji, a young Japanese kamikaze pilot, 19 years old, short black hair, white headband with red circle emblem, white scarf whipping, shouting with raw emotion in the diving cockpit, powerful close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 52:
+"IBUUU!"
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), stylized silhouette of a small plane diving toward a warship at golden sunset, sound-wave-like visual energy, symbolic not graphic, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 53:
+Dunia menjadi putih. Sunyi. Lalu hangat — seperti pelukan ibu di pagi musim dingin.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), brilliant white light blooming softly over the ocean at dawn, cherry blossom petals drifting through the light, dreamlike symbolic scene, no gore, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 54:
+Aku tak merasakan apa-apa lagi. Hanya ringan. Seperti akhirnya bisa terbang tanpa pesawat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), white scarf floating upward through soft white clouds toward bright light, cherry blossoms swirling, serene symbolic ascension, no gore, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 55:
+Tiga minggu kemudian, suratku sampai di rumah kayu kecil di Tokyo. Ibuku membacanya sambil menggenggam sehelai rambutku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), elderly Japanese mother reading a farewell letter at home, clutching a strand of black hair, tears falling on paper, warm lamp light, emotional close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 56:
+"Ibu, maafkan aku berbohong..." — ia membaca ulang berkali-kali sampai kertasnya lecek.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), close-up of wrinkled hands holding a worn farewell letter, tear stains on Japanese handwriting, intimate emotional detail, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 57:
+Ikat kepala jahitannya ia simpan di kotak kayu — bersama foto wisuda yang tak pernah terjadi, dan puisiku tentang hujan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), open wooden memory box containing a white headband with red circle, a young man's photo, and handwritten poems, nostalgic still life, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 58:
+Setiap musim semi, ia menanam pohon sakura di halaman. "Supaya Kenji bisa melihat bunga mekar," katanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), elderly woman planting a young cherry tree in a small garden, spring blossoms around, hopeful peaceful mood, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 59:
+Tahun berganti tahun, pohon itu tumbuh besar. Setiap kelopak yang jatuh... ia kumpulkan satu per satu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), large blooming cherry tree in a garden, elderly woman collecting fallen petals in a basket, petals drifting in wind, poetic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 60:
+"Seribu kelopak untuk seribu hari merindukanmu," bisiknya setiap musim semi tiba.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), close-up of aged hands releasing cherry blossom petals into the wind, petals scattering toward the sky, bittersweet beauty, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 61:
+Kembali ke masa kini. Chiran kini jadi museum. Ribuan surat terakhir dipajang di sana — termasuk suratku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), interior of a war memorial museum with walls covered in framed farewell letters and young pilots' photos, visitors reading quietly, solemn wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 62:
+Lebih dari seribu pilot muda berangkat dari landasan itu. Rata-rata umur mereka sembilan belas tahun. Seusiaku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), memorial wall with rows of black-and-white portraits of very young pilots, a single white flower laid below, somber close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 63:
+Di foto-foto itu mereka tersenyum, melambaikan tangan — seolah mau piknik, bukan pergi selamanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), group photo of cheerful young pilots in flight jackets waving at camera beside a vintage plane, 1940s, genuine smiles, bittersweet medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 64:
+Kalau menurut saya, foto-foto itulah yang paling berat dilihat. Senyum mereka tulus. Mereka tahu... dan tetap tersenyum.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), close-up of one young pilot's smiling portrait photo with a crack across the glass frame, single cherry petal resting on it, emotional detail, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 65:
+Sejarah mencatat mereka sebagai senjata. Buat saya, mereka cuma anak-anak yang kangen rumah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), Kenji, a young Japanese kamikaze pilot, 19 years old, short black hair, white headband with red circle emblem, white scarf, young face looking homesick gazing at the moon from barracks window, tender close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 66:
+Takeshi suka menggambar. Di barak ia pernah menggambar wajah ibunya dari ingatan — ia tak punya fotonya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), young pilot sketching his mother's face from memory on paper in a dim barracks, pencil drawing half-finished, warm lantern light, intimate medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 67:
+Kapten Sato yang tak pernah tersenyum — malam sebelum hari-H, kulihat ia menangis diam-diam di ruangannya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), stern middle-aged officer seen through a half-open door, head bowed, silently wiping his eyes, dim office light, tasteful emotional moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 68:
+Bahkan orang sekeras itu pun manusia. Ternyata perang tak pernah hanya soal menang atau kalah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), officer's cap and white gloves placed neatly on an empty desk, cherry blossom branch in a vase beside, quiet symbolic still life, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 69:
+Perang adalah soal ibu yang menunggu surat yang takkan pernah dibalas.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), elderly Japanese mother sitting by a window holding an unopened return letter, waiting expression, rain outside, melancholic medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 70:
+Perang adalah soal puisi tentang hujan yang tak sempat selesai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), unfinished handwritten poem on paper, ink brush laid down mid-sentence, rain drops on window, poetic still life, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 71:
+Dan perang adalah soal sehelai rambut dalam amplop — satu-satunya bagian anaknya yang masih bisa ia peluk.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), elderly mother's hands gently holding a sealed envelope against her cheek, eyes closed, profound tenderness, emotional close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 72:
+Musim semi 1946, setahun setelah aku pergi, sakura pertama ibuku akhirnya berbunga.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), small cherry tree blooming for the first time in a modest Japanese garden, spring morning light, hopeful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 73:
+Ia duduk di bawahnya seharian. Kata tetangga, hari itu ia tersenyum — pertama kalinya setelah berbulan-bulan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), elderly woman sitting peacefully under a blooming cherry tree, soft genuine smile, petals falling around her, healing mood, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 74:
+Mungkin ia membayangkanku duduk di sampingnya. Mungkin itu sudah cukup.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), translucent gentle vision of a young pilot sitting beside his elderly mother under cherry blossoms, both smiling, dreamlike double exposure, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 75:
+Aku tak tahu apa yang terjadi setelah itu. Kesadaranku berhenti di cahaya putih sore itu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), vast peaceful Pacific Ocean at golden sunset seen from high above, soft white light on the horizon, tranquil wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 76:
+Tapi aku suka membayangkan: ibuku baik-baik saja. Pohon sakuranya tumbuh besar dan rindang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), majestic fully-grown cherry tree in full bloom beside a traditional Japanese house, elderly woman tending it happily, warm afternoon, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 77:
+Dan salah satu kelopaknya terbang melintasi samudra — sampai ke tempatku berada sekarang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), single cherry blossom petal drifting on wind across the vast ocean toward bright light, poetic journey, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 78:
+Jujur, saya bikin video ini bukan buat ngajak kalian kagum sama perang. Justru sebaliknya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), storyteller's hand placing a white flower on a memorial stone engraved with cherry blossoms, quiet remembrance, respectful close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 79:
+Saya bikin ini biar kita ingat: di balik setiap angka korban, ada nama. Ada ibu. Ada puisi yang belum selesai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), pages of handwritten poems scattered with cherry petals on a wooden desk, ink brush resting, legacy theme, still life, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 80:
+Dan ada sehelai rambut dalam amplop — yang mungkin sampai hari ini masih disimpan seseorang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), aged envelope tied with string inside an old wooden box, cherry petal on top, timeless keepsake, emotional still life, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 81:
+Kalau kisah Kenji menyentuh hatimu, tekan SUBSCRIBE. Tiap hari saya bawakan satu perjalanan waktu yang bikin kamu mikir ulang soal sejarah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), vintage airplane flying into a beautiful sunrise sky with cherry blossom petals trailing, hopeful uplifting wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 82:
+Tulis di komentar: kalau kamu jadi Kenji, apa yang kamu tulis di surat terakhirmu?
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), blank white letter paper with ink brush beside it on a wooden desk, cherry petals, inviting the viewer to imagine, close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 83:
+Pertanyaan itu tak punya jawaban salah. Setiap jawaban adalah cerminan betapa berharganya hidup.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), sunrise breaking through clouds over the ocean, light rays illuminating drifting cherry petals, life-affirming wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 84:
+Terima kasih sudah terbang bersamaku hari ini. Sampai jumpa di perjalanan waktu berikutnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), small vintage plane silhouette flying toward a glowing horizon, farewell mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 85:
+Satu hal terakhir: jaga orang-orang yang kamu sayangi — selagi masih bisa. Jangan tunggu sampai tinggal surat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), young man hugging his elderly mother tightly in a warm home, genuine love, golden light, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 86:
+Karena pada akhirnya, bukan misi besar yang kita ingat. Tapi hal-hal kecil: bau tanah setelah hujan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), rain falling on fresh earth with tiny sprouts, macro poetic detail, renewal theme, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 87:
+Masakan ibu. Dan suara seseorang yang memanggil nama kita di pagi hari.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), steaming bowl of miso soup on a family table, morning sunlight, mother's hands placing it down, warm nostalgic close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 88:
+Sampai jumpa besok. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, slate blue, deep brown), cherry blossom petals drifting across a calm twilight sky, peaceful ending, wide shot, dramatic cinematic composition, not photorealistic, no text

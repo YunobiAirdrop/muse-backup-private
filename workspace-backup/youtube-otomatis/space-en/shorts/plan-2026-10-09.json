@@ -1,0 +1,23 @@
+[
+ {
+  "id": "s1",
+  "file": "2026-10-09-s1.mp4",
+  "ss": 25.0,
+  "dur": 40.0,
+  "hook": "500 MILLION SUNS IN 1 MILLISECOND"
+ },
+ {
+  "id": "s2",
+  "file": "2026-10-09-s2.mp4",
+  "ss": 248.0,
+  "dur": 42.0,
+  "hook": "CAUGHT RED-HANDED IN OUR GALAXY"
+ },
+ {
+  "id": "s3",
+  "file": "2026-10-09-s3.mp4",
+  "ss": 380.0,
+  "dur": 40.0,
+  "hook": "COSMIC SCREAMS WEIGH THE UNIVERSE"
+ }
+]

@@ -1,0 +1,3 @@
+file '/home/hatch/workspace/youtube-otomatis/macammacam/work/2026-10-12/shorts/s2/seg/segA.mp4'
+file '/home/hatch/workspace/youtube-otomatis/macammacam/work/2026-10-12/shorts/s2/seg/segBumper.mp4'
+file '/home/hatch/workspace/youtube-otomatis/macammacam/work/2026-10-12/shorts/s2/seg/segB.mp4'

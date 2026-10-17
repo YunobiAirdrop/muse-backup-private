@@ -1,0 +1,358 @@
+POV: Kamu Jadi Pelaut Viking Menyeberangi Atlantik
+88 beat | Tokoh: Einar, 19 tahun, pelaut muda Viking | Setting: Brattahlid Greenland, Samudra Atlantik Utara, Vinland (Amerika), ~tahun 1000
+KARAKTER VISUAL: Einar, a young Viking sailor, 19 years old, lean build, shoulder-length dirty-blond hair, light stubble, windburned skin, blue wool tunic, fur-lined cloak, leather bracers. Leif Erikson, Viking chieftain in his late 20s, tall and broad, red-blond braided beard, green cloak with round gold brooch, plain iron helmet without horns, commanding presence. Longship: wooden drakkar with red-and-white striped sail and carved dragon prow.
+GAYA GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), dramatic cinematic composition, not photorealistic, no text
+CATATAN: hindari darah/kekerasan eksplisit di narasi maupun prompt gambar. Angka di naskah sudah dieja agar TTS natural. [JEDA] = tambah silence 0.8 detik di akhir beat (sebelum twist/momen kunci).
+OVERLAY TEKS (drawtext, 4 momen): beat 2 "BADAI ATLANTIK" | beat 49 "VINLAND DITEMUKAN" | beat 69 "MEREKA KEMBALI" | beat 87 "500 TAHUN SEBELUM COLUMBUS"
+
+BEAT 1:
+Ombak setinggi rumah menghantam lambung kapal. Air asin menyengat mataku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), a Viking longship with red-and-white striped sail tossed by a giant Atlantic wave at night, Einar the young sailor with dirty-blond hair clinging to the railing, spray everywhere, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 2:
+Layar robek berkibar liar. Tiang kapal berderit seperti mau patah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), torn striped sail of a Viking longship whipping in a storm, mast bending under wind, dark churning sea, lightning-lit clouds, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 3:
+Detik itu aku yakin: Atlantik akan jadi kuburanku. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), close-up of Einar the young Viking sailor, terrified face lit by lightning, gripping a rope on a storm-tossed longship deck, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 4:
+Tapi tunggu — biar kuceritakan dari awal semuanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), a peaceful Greenland fjord at dawn with grass-roofed wooden longhouses, calm water, soft morning light, wide establishing shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 5:
+Namaku Einar. Sembilan belas tahun, anak petani dari Brattahlid, Greenland.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), portrait of Einar, a young Viking sailor, 19, lean, shoulder-length dirty-blond hair, blue wool tunic, fur-lined cloak, standing in a Greenland farmstead, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 6:
+Di Greenland, bertani artinya berperang melawan es sembilan bulan setahun.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), a Viking farmer struggling to plow rocky frozen soil in Greenland, icy wind, grey sky, sheep nearby, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 7:
+Pemimpin kami Erik si Merah — dibuang dari Islandia karena membunuh dua orang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Erik the Red, a fierce Viking chieftain with long red hair and beard, fur cloak, standing on a Greenland cliff overlooking the fjord, imposing, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 8:
+Tapi dialah yang menemukan tanah ini. Greenland — "tanah hijau".
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Viking longships landing on a green Greenland shore, settlers unloading goods, mountains behind, hopeful atmosphere, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 9:
+Suatu malam musim dingin, pelaut tua bernama Bjarni bercerita di aula panjang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), inside a Viking longhouse at night, an old sailor telling stories by a central fire, Vikings listening around long tables, warm firelight, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 10:
+Kapalnya tersesat dalam kabut. Dia melihat daratan di barat — tapi tak pernah mendarat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), a Viking longship lost in thick fog at sea, faint dark shoreline barely visible through mist, eerie mysterious mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 11:
+Semua orang tertawa. Kecuali satu: Leif, putra Erik, yang hanya diam menatap api.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Leif Erikson, late 20s, red-blond braided beard, green cloak, sitting apart in the longhouse staring into the fire with intense eyes while others laugh, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 12:
+"Kalau tanah itu ada," katanya pelan, "akulah yang akan menginjaknya pertama."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), close-up of Leif Erikson's determined face in firelight, red-blond braided beard, eyes burning with ambition, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 13:
+Musim semi tiba. Leif membeli kapal Bjarni. Tiga puluh lima awak dipilih — termasuk aku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Leif Erikson inspecting a wooden longship on a Greenland beach at spring, crew of Vikings loading barrels and supplies, busy preparation, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 14:
+Ibuku menangis saat aku naik kapal. Ayah hanya menepuk bahuku. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), emotional farewell on a Greenland shore, a Viking mother hugging her young son Einar, father placing a hand on his shoulder, longship waiting behind, soft morning light, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 15:
+Kami berlayar ke barat. Fjord Greenland menyusut jadi garis tipis di belakang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), a Viking longship with striped sail sailing away from Greenland fjords into the open Atlantic, small wake, vast sea, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 16:
+Hari pertama penuh semangat. Hari kelima tersisa hanya laut dan kebosanan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), bored Viking sailors sitting on the deck of a longship in the middle of an endless grey ocean, one mending a net, flat calm sea to the horizon, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 17:
+Viking tak punya kompas. Kami bernavigasi dengan matahari, bintang, dan burung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), a Viking navigator on a longship holding a sun-compass disc toward the sky, seabirds flying overhead, open ocean, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 18:
+Tiap fajar Leif berdiri di haluan, menatap cakrawala seperti membaca surat para dewa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Leif Erikson standing at the prow of the longship at dawn, green cloak flowing in wind, gazing at the horizon, golden sunrise over the Atlantic, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 19:
+Aku mulai bertanya: jangan-jangan Bjarni cuma bermimpi?
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Einar the young sailor sitting alone on the deck at dusk, doubtful expression, staring at the empty horizon, moody twilight, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 20:
+Hari kedua belas, penjaga berteriak: burung darat terbang ke barat!
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), a Viking lookout high on the mast pointing excitedly at land birds flying westward, crew looking up with hope, bright sky, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 21:
+Kami ubah haluan mengikutinya. Jantungku berdebar untuk pertama kalinya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), the longship turning its striped sail to follow the birds, crew rushing to ropes, hopeful energy, dynamic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 22:
+Kabut turun tebal. Kami berlayar buta mengikuti suara burung yang menjauh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), the longship sailing blind through dense white fog, ghostly shapes, tense crew peering into the mist, eerie wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 23:
+Tiba-tiba kabut terbelah — dan ombak membesar dengan cara yang tak wajar.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), fog splitting open to reveal unnaturally swelling dark waves ahead of the longship, ominous mood, crew alarmed, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 24:
+Langit menghitam dalam hitungan menit. Leif berteriak: "BADAI!" [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), the sky turning black over the Atlantic, Leif Erikson shouting orders on deck, crew scrambling, first huge wave rising behind the ship, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 25:
+Ombak pertama menghantam bagai palu raksasa. Kapal terangkat, lalu jatuh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), a massive wave crashing over the Viking longship, the ship lifted high then slamming down, water exploding over the deck, dramatic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 26:
+Air membanjiri dek. Kami menimba dengan ember, tangan mati rasa kedinginan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Viking sailors bailing water with wooden buckets on a flooded storm deck, rain lashing, desperate effort, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 27:
+Tiang berderit mengerikan. Layar robek berkibar seperti bendera kematian.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), the longship's mast groaning and bending in the storm, torn sail whipping violently, dark storm clouds swirling, dramatic low angle, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 28:
+Seorang awak terseret ombak — untung tangannya meraih tali di detik terakhir.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), a Viking sailor sliding across the wet deck toward the sea, his hand grabbing a rope at the last moment, another crewman reaching for him, tense action, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 29:
+Jujur, bagian ini yang bikin saya merinding: di tengah kekacauan itu, Leif tertawa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Leif Erikson laughing defiantly at the helm in the middle of the raging storm, rain streaming down his bearded face, gripping the steering oar, dramatic close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 30:
+Bukan tawa gila. Tapi tawa orang yang berdamai: kalau mati, mati sebagai Viking.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Einar rowing hard at his oar, inspired expression, storm waves around the longship, newfound courage on his young face, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 31:
+"Pegang dayung kalian! Laut boleh mengambil kapal ini — tapi tidak malam ini!"
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Leif Erikson standing tall shouting orders, arm raised, crew rowing furiously through towering waves, spray and rain, dynamic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 32:
+Kami mendayung melawan ombak berjam-jam. Bahuku seperti mau copot.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), exhausted Viking rowers pulling oars in unison on the storm deck, muscles straining, water pouring over them, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 33:
+Lalu badai reda tiba-tiba. Laut tenang, seolah tak terjadi apa-apa. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), calm sea after the storm at sunrise, the battered longship floating peacefully, exhausted crew resting on deck, soft golden light, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 34:
+Pagi harinya kabut menipis. Di cakrawala: garis gelap. Daratan!
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), the longship sailing toward a dark line of land on the horizon through thinning morning mist, crew pointing excitedly, hopeful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 35:
+Kami mendekat. Tapi ini bukan yang kami bayangkan: datar, berbatu, tanpa pohon.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), a flat barren rocky coastline with slabs of stone, no trees, grey sky, the longship anchored offshore, desolate mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 36:
+Leif menamainya Helluland — tanah batu pipih. Kami lanjut berlayar ke selatan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Vikings walking on flat stone slabs of Helluland beach, Leif Erikson surveying the barren land, then the longship sailing south away from it, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 37:
+Dua hari kemudian: garis hijau. Hutan sejauh mata memandang!
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), a lush green forested coastline appearing on the horizon, tall trees, the longship approaching, crew cheering, vibrant wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 38:
+Markland — tanah hutan. Di Greenland, kayu lebih berharga dari emas.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Vikings felling tall trees on a forested shore, axes swinging, logs piled on the beach, the longship anchored nearby, busy scene, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 39:
+Kami tebang beberapa pohon, muat ke kapal. Para awak bersorak.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Vikings loading heavy timber logs onto the longship, laughing and cheering crew, forest behind them, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 40:
+Tapi Leif menggeleng. "Bukan ini yang kucari. Terus ke selatan."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Leif Erikson shaking his head at the celebrating crew, pointing south toward the open sea, serious expression, the loaded longship behind him, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 41:
+Kalau menurut saya, saat itulah saya paham: Leif mencari sesuatu yang lebih besar.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Einar the young sailor watching Leif from the deck with a thoughtful expression, the chieftain silhouetted against the southern horizon, contemplative medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 42:
+Sesuatu yang bahkan dia sendiri belum tahu namanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), the longship sailing into a glowing southern horizon at sunset, vast unknown sea ahead, sense of mystery and destiny, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 43:
+Kami berlayar lagi. Aku mulai percaya dia akan menemukannya. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), the longship under full striped sail cutting through calm blue water, crew working ropes with renewed spirit, seagulls above, hopeful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 44:
+Eh sebentar — kalau kamu suka perjalanan waktu kayak gini, tekan subscribe ya!
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Einar the young Viking sailor turning to face the viewer with a friendly grin, gesturing invitingly, longship deck behind him, playful fourth-wall-break medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 45:
+Hari kesekian — aku lupa hitungan — penjaga berteriak lagi. Nadanya berbeda.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), the lookout on the mast shouting with wide eyes and urgent gestures, crew rushing to the rails, tense excitement, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 46:
+Pantai pasir putih, padang rumput hijau, sungai besar bermuara ke laut.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), breathtaking new coastline: white sandy beach, green meadows, a wide river meeting the sea, the longship approaching, paradise-like, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 47:
+Kami mendarat. Pasir hangat. Rumput hijau. Udara tidak menggigit.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Vikings wading ashore onto a warm sandy beach, Einar kneeling to touch the sand in wonder, green meadow behind, joyful discovery, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 48:
+Ini bukan Greenland. Demi para dewa — ini surga.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Einar standing on the beach with arms spread wide, overwhelmed with joy, lush green land and river behind him, bright warm light, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 49:
+Leif berlutut menggenggam tanah. "Vinland," bisiknya. Tanah anggur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Leif Erikson kneeling on the new shore, both hands clutching dark fertile soil, emotional reverent expression, crew gathered behind him, historic moment, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 50:
+Kami susuri sungai ke pedalaman. Yang kami lihat membuat kami terdiam.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Vikings poling a small boat up a clear river into lush green wilderness, towering trees on both banks, sense of wonder, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 51:
+Salmon! Ratusan salmon sebesar pahaku di air jernih. Tak pernah kulihat sebesar itu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), crystal-clear river teeming with huge salmon, Einar leaning over the boat staring in disbelief, sunlight sparkling on water, close view, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 52:
+Tyrkir, orang Jerman pengasuh Leif, berlari ke semak sambil tertawa-tawa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Tyrkir, an older German man with grey beard and eccentric clothes, running laughing into bushes, Vikings watching puzzled, riverside meadow, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 53:
+Dia kembali membawa buah ungu. "Anggur liar!" Di Greenland, buah hanyalah dongeng.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Tyrkir triumphantly holding up bunches of wild purple grapes, amazed Vikings crowding around, sunlit meadow, joyful medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 54:
+Kami bangun rumah dari kayu dan tanah. Leifsbudir — rumah-rumah Leif.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Vikings building turf-and-timber longhouses on the Vinland shore, construction in progress, smoke rising, settlement taking shape, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 55:
+Musim dingin tiba. Aneh: tanpa salju. Rumput tetap hijau. Ternak makin gemuk.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), green winter pasture in Vinland with fat cattle grazing, no snow, Vikings in light cloaks looking amazed, mild sunny winter day, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 56:
+Di Greenland musim dingin adalah musuh. Di sini ia seperti tamu yang sopan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), split scene: left a blizzard battering a Greenland farm, right the peaceful green Vinland shore in gentle winter sun, comic-panel style contrast, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 57:
+Malam-malam kami makan salmon panggang di sekitar api, mencoba membuat anggur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Vikings feasting around a fire at night, roasted salmon on spits, wooden cups raised, laughter and warmth, starry sky, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 58:
+Untuk pertama kalinya aku berpikir: aku bisa tinggal di sini selamanya. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Einar lying in green grass at sunset, hands behind his head, peaceful dreaming expression, the Vinland river and settlement behind him, serene wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 59:
+Sampai suatu pagi penjaga berlari pucat: "Perahu! Banyak perahu dari sungai!"
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), a pale-faced Viking guard running into the settlement shouting alarm, pointing toward the river, Vikings grabbing weapons, tense morning, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 60:
+Perahu-perahu kulit muncul dari tikungan. Orang berpakaian bulu menatap kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), small skin-covered boats rounding the river bend, indigenous people in fur clothing staring at the Viking settlement, first contact, tense wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 61:
+Mereka menatap kami. Kami menatap mereka. Tak ada yang bergerak.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), tense standoff on the riverbank: indigenous people in skin boats and armed Vikings facing each other across the water, nobody moving, held breath moment, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 62:
+Leif mengangkat tangan kosong. Pemimpin mereka membalas. Mereka mendekat perlahan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Leif Erikson raising an empty hand in peace, the indigenous leader mirroring the gesture, both groups cautiously approaching, hopeful tension, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 63:
+Kami tukar kain merah dengan bulu. Mereka kagum melihat pedang berkilat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), friendly trade on the beach: Vikings offering red cloth, indigenous people offering furs, one marveling at a gleaming sword, smiles all around, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 64:
+Hari-hari berikutnya mereka sering datang. Damai. Hampir bersahabat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Vikings and indigenous people sitting together around a fire sharing food, children playing nearby, warm peaceful coexistence, sunset light, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 65:
+Tapi aku perhatikan: mereka selalu menghitung jumlah kami. Selalu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Einar noticing with narrowed eyes: an indigenous scout in the treeline silently counting the Viking settlement, subtle suspicion, foreground Einar watching, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 66:
+Suatu malam, salah satu awak kami ketahuan mencoba mencuri dari mereka.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), night scene: a Viking crewman caught red-handed taking goods from an indigenous camp, angry confronting faces in torchlight, shame and tension, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 67:
+Mereka pergi marah. Sejak itu perahu kulit tak pernah datang lagi.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), indigenous skin boats paddling away into the morning mist, backs turned, the Viking settlement watching from shore, melancholic farewell, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 68:
+Leif murka: "Kita tamu di tanah mereka!" Tapi nasi sudah jadi bubur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), furious Leif Erikson scolding his crew in the longhouse, fist slammed on the table, shamed Vikings looking down, firelight, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 69:
+Tiga hari kemudian mereka kembali. Bukan berdagang — ratusan perahu penuhi sungai. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), the river filled with hundreds of indigenous skin boats approaching at dawn, a formidable silent fleet, Vikings on shore realizing the danger, ominous wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 70:
+Di tangan mereka bukan bulu binatang — melainkan tombak dan busur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), close view of indigenous warriors in boats raising spears, bows and arrows, determined faces, dawn light glinting on weapon tips, threatening medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 71:
+Mereka menyerang saat fajar. Panah melesat dari pepohonan seperti hujan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), arrows raining from the treeline onto the Viking settlement at dawn, Vikings scrambling for shields, chaos and motion, dynamic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 72:
+Kami bertahan di balik dinding kayu. Perisai bergetar menahan hujan panah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Vikings crouched behind a wooden palisade wall, round shields raised overhead, arrows thudding into wood, dust and splinters, tense medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 73:
+Lalu terdengar teriakan. Thorvald, adik Leif, terhuyung — panah menancap di ketiaknya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Thorvald, a younger Viking warrior resembling Leif, staggering with an arrow in his side, shocked Einar rushing toward him, battle chaos around, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 74:
+Dia menatapku, tersenyum aneh. "Tanah yang indah," katanya. "Sayang sekali."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), close-up of wounded Thorvald smiling faintly at Einar who holds him, soft sad light, poignant farewell moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 75:
+Thorvald pergi sebelum matahari terbit penuh. Kami menguburkannya di Vinland.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), solemn Viking burial on a Vinland hill at sunrise, crew standing around a stone cairn, Leif with bowed head, somber respectful mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 76:
+Leif berdiri lama di depan makam. Viking tak menangis di depan awaknya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Leif Erikson standing alone before his brother's stone cairn, back to viewer, shoulders heavy with grief, wind moving his cloak, solitary figure, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 77:
+Tapi malam itu kudengar ia bicara sendiri di tepi sungai. Suaranya hancur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Leif Erikson alone by the moonlit river at night, head in hands, broken silhouette, Einar watching from a distance with sympathy, quiet grief, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 78:
+Esoknya Leif mengumpulkan kami. "Kita pulang. Tanah ini indah, tapi bukan milik kita."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Leif Erikson addressing his assembled crew on the beach, resolute sad expression, the longship ready behind him, crew listening solemnly, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 79:
+Jujur, kalau menurut saya, itu keputusan tersulit seorang pemimpin.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Einar looking back at the beautiful Vinland shore from the departing longship, conflicted emotional face, paradise receding behind, poignant medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 80:
+Pergi dari surga — karena surga itu sudah berpenghuni. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), the longship sailing away from the green Vinland coast, indigenous figures watching from the beach, bittersweet departure, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 81:
+Pelayaran pulang terasa lebih pendek. Mungkin karena kami tenggelam dalam diam.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), the longship sailing a calm grey Atlantic, silent somber crew, low clouds, reflective melancholic mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 82:
+Di tengah jalan kami temukan kapal karam. Lima belas orang selamat kami angkut.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Vikings hauling shivering shipwreck survivors aboard from a broken wreck in the open sea, rescue ropes, compassionate action, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 83:
+Mereka menangis memeluk kaki Leif. Sejak itu ia dipanggil Leif si Beruntung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), rescued survivors kneeling gratefully before Leif Erikson on the deck, Leif helping one to his feet with a humble smile, warm emotional moment, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 84:
+Greenland menyambut dengan fjord dinginnya. Ibuku memelukku sampai susah napas.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), joyful homecoming on a Greenland shore, Einar's mother embracing him tightly, father smiling beside them, the longship anchored behind, warm reunion, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 85:
+Kuceritakan semuanya: badai, salmon raksasa, anggur liar... dan Thorvald.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Einar telling his tale in the longhouse at night, family and villagers listening spellbound around the fire, animated storytelling, warm firelight, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 86:
+Kadang aku masih memimpikan Vinland. Pantainya. Dan wajah Thorvald yang tersenyum.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Einar sleeping in a Greenland longhouse, dream bubble showing the sunny Vinland beach and Thorvald's smiling face, soft dreamlike glow, tender medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 87:
+Lima ratus tahun sebelum Columbus "menemukan" Amerika — kami sudah di sana.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), epic wide shot: the Viking longship planted flag on the Vinland shore at sunrise, crew behind Leif Erikson, new world stretching before them, triumphant historic moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 88:
+Keberanian bukan soal tidak takut. Tapi soal tetap mendayung meski takut. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (slate grey, deep sea blue, ochre, driftwood brown, moss green), Einar rowing alone at dawn on a calm sea, determined peaceful face, sunrise ahead, oar cutting golden water, inspiring closing shot, dramatic cinematic composition, not photorealistic, no text

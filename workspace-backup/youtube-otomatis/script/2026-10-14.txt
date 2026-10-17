@@ -1,0 +1,358 @@
+POV: Kamu Jadi Ksatria Templar di Perang Salib
+88 beat | Tokoh: Etienne, 24 tahun, ksatria-biarawan Ordo Templar | Setting: Acre (Akko), Tanah Suci, tahun 1291, pengepungan terakhir oleh pasukan Mamluk Sultan Al-Asyraf Khalil
+KARAKTER VISUAL: Etienne, young Templar brother-knight, 24 years old, lean build, sun-tanned face, short dark brown hair, earnest blue-grey eyes, white surcoat with bold red cross over chainmail, steel helmet, longsword at his hip. Guillaume de Beaujeu, Grand Master of the Templars, man in his 60s, weathered stern face, white beard, white mantle with red cross, calm commanding presence. Mamluk soldiers, turbanned warriors in dark lamellar armor with curved sabres and round shields, black-and-gold banners, siege engines and catapults. Setting: the great walled port city of Acre, stone towers and crenellated walls, the Templar fortress by the sea, desert plains, siege camps with hundreds of tents, Greek fire and burning siege towers at night.
+GAYA GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text
+CATATAN: hindari darah/kekerasan eksplisit di narasi maupun prompt gambar. Angka di naskah sudah dieja agar TTS natural. [JEDA] = tambah silence 0.8 detik di akhir beat (sebelum twist/momen kunci).
+OVERLAY TEKS (drawtext, 5 momen): beat 2 "AKRE 1291" | beat 20 "TRIPOLI JATUH" | beat 44 "SUBSCRIBE!" (3 detik) | beat 48 "SERANGAN TERAKHIR" | beat 65 "BENTENG RUNTUH"
+SHORTS: s1 = beat 1-6 (detik 0-45, cold open) | s2 = beat 48-56 (serangan fajar 18 Mei) | s3 = beat 65-72 (benteng runtuh, kabur lewat laut)
+
+BEAT 1:
+Dinding di bawah kakiku bergetar. Di bawah sana, sepuluh ribu prajurit musuh menerjang gerbang kami — dan aku cuma pegang satu pedang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, first-person view from top of a stone city wall at night, thousands of enemy soldiers with torches and black-gold banners charging toward the gates below, a young Templar knight in white surcoat with red cross gripping a longsword, terrified determined face, siege towers burning in the distance, extremely tense, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 2:
+Api Yunani menyambar menara pengepung mereka. Bau asap menusuk hidungku. Di sampingku, Grand Master mengangkat pedangnya — dan malam ini, kami tidak boleh mundur selangkah pun.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Grand Master Guillaume de Beaujeu, old man with white beard in white Templar mantle with red cross, raising his sword on a burning city wall at night, beside him young Templar Etienne in white surcoat, Greek fire bursting over enemy siege towers, embers flying, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 3:
+Dua ratus ribu tentara mengepung satu kota. Di dalam tembok ini, kami tinggal lima belas ribu. Malam ini, aku cuma punya satu pilihan: bertahan sampai akhir, atau mati sebagai pengkhianat sumpahku. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, extreme close-up of young Templar Etienne's terrified face, sweat dripping, gripping his longsword, massive enemy army with torches stretching to the horizon behind him at night, hopeless odds, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 4:
+Tapi tunggu — biar kuceritakan dari awal. Bagaimana seorang anak petani dari Prancis bisa berdiri di malam terakhir Acre ini.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, peaceful French countryside village at dawn, green fields, a stone church, farmers working, calm wide establishing shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 5:
+Namaku Etienne. Dua puluh empat tahun. Anak bungsu seorang petani di Champagne, Prancis.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, portrait of young Etienne, 24, lean, sun-tanned face, short dark brown hair, simple brown peasant tunic, standing in a French wheat field holding a wooden rake, warm morning light, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 6:
+Dua kakakku mewarisi tanah ayah. Aku tidak dapat apa-apa — kecuali satu jalan keluar yang dibicarakan semua orang di desaku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne as a poor peasant boy watching from a field as two older brothers receive farmland from their father near a farmhouse, Etienne empty-handed looking wistful, village priests and knights passing on a road in the distance, medium wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 7:
+Para Ksatria Templar. Biarawan sekaligus prajurit. Mereka menjaga para peziarah di Tanah Suci — dan mereka butuh orang-orang sepertiku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, a group of Templar knights in white mantles with red crosses riding white horses past a French village, protecting a column of pilgrims with walking staffs, villagers watching in awe, Etienne among the onlookers with wide eyes, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 8:
+Ibuku menangis waktu aku pamit. Tapi ayahku cuma bilang satu kalimat: jangan pulang sebelum kau jadi orang yang berguna.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, emotional farewell at a French farmhouse door at dawn, Etienne with a small cloth bundle hugging his crying mother, his stern farmer father placing a hand on his shoulder, rooster and fields behind, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 9:
+Aku berjalan tiga minggu ke Paris. Di sana, di sebuah kapel batu yang dingin, aku mengucapkan sumpahku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne kneeling on cold stone floor of a dim medieval chapel in Paris, hands clasped, taking the Templar oath before a Templar commander in white mantle with red cross holding a sword over his shoulders, candlelight, solemn medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 10:
+Kemiskinan. Kesucian. Ketaatan. Tiga sumpah yang mengikatku seumur hidup. Tidak boleh punya harta, tidak boleh menikah, tidak boleh kabur dari medan perang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of Etienne's hands receiving a plain white Templar mantle with red cross draped over his shoulders by the commander, his peasant clothes and small bundle of belongings being set aside on a bench, symbolic solemn moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 11:
+Mereka memberiku mantel putih bersalib merah. Katanya, putih itu kemurnian. Merah itu darah yang siap kutumpahkan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne standing proudly in his new white Templar surcoat with bold red cross over chainmail, holding a longsword, other young recruits in white mantles behind him in a stone courtyard, morning light, heroic medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 12:
+Latihannya brutal. Bangun sebelum fajar, doa, lalu latihan pedang sampai tanganku berdarah kapalan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne and fellow recruits training with wooden practice swords in a dusty Templar training yard at dawn, an instructor knight correcting stances, sweat and dust, determined faces, dynamic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 13:
+Setahun kemudian, aku bukan lagi anak petani. Aku ksatria. Dan perintah pertamaku datang: berlayar ke Tanah Suci.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne in full Templar white surcoat with red cross and helmet boarding a large medieval sailing ship at a French port, holding his sword and shield, seagulls and waving crowds, sense of departure, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 14:
+Pelayaran tiga bulan. Badai dua kali. Setengah perbekalan busuk. Tapi waktu daratan terlihat di kejauhan — semua penderitaan itu hilang seketika. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, medieval ship battling huge storm waves at sea, then a second view of the same ship approaching a golden coastline with the walled city of Acre on the horizon at sunrise, Etienne at the bow gazing in awe, split mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 15:
+Acre. Kota pelabuhan terbesar milik orang Kristen di Tanah Suci. Temboknya setinggi tiga rumah. Menaranya tak terhitung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, sweeping panoramic view of the walled port city of Acre at midday, massive stone walls and towers, busy harbor with medieval ships, white sails, Templar fortress by the sea, Etienne on the ship deck staring wide-eyed, epic wide establishing shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 16:
+Di sinilah markas kami. Benteng Templar raksasa di tepi laut — separuh istana, separuh gudang senjata.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, the massive Templar fortress of Acre by the sea, thick stone walls, tall square towers, Templar banners with red crosses flying, knights drilling in the courtyard, waves crashing against the seaward wall, Etienne arriving at the gate, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 17:
+Hidup di Acre ternyata tidak seperti yang kubayangkan. Pasar ramai, pedagang dari tiga benua, dan bau rempah di mana-mana.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, bustling medieval market street inside Acre, merchants of many nations selling spices, silks and fruits, Etienne in white Templar surcoat walking patrol with two brother-knights, colorful awnings, lively wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 18:
+Tugasku: mengawal karavan peziarah dari pelabuhan ke Yerusalem. Jalan gurun yang penuh perampok dan panas yang membakar kulit.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne on horseback in white Templar surcoat escorting a caravan of pilgrims with camels across a scorching desert road, distant hills, heat haze, vultures circling, determined patrol mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 19:
+Dua tahun berlalu. Aku mulai percaya perang sudah selesai. Ternyata aku salah besar.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne relaxing with fellow Templar knights sharing bread on the fortress rooftop at sunset, laughing, peaceful golden light over Acre harbor, unaware of the dark storm clouds gathering far on the horizon, bittersweet wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 20:
+Kabar buruk datang dari utara: Tripoli jatuh. Kota Kristen terakhir sebelum Acre — direbut Sultan dalam hitungan minggu. Sekarang giliran kami. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, a breathless messenger on horseback arriving at Acre's gate at dusk with dire news, Etienne and guards listening in shock, in the far distance a coastal city burning on the horizon, ominous red sky, tense wide shot, dramatic cinematic composition, not photorealistic, no text
+BEAT 21:
+Sultan Al-Asyraf Khalil dari Mesir memimpin sendiri pasukannya. Kabarnya dua ratus ribu orang. Jumlah yang bahkan sulit kubayangkan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, vast Mamluk army camp on the desert plain outside Acre at dawn, thousands of tents, black-and-gold banners, Sultan Al-Ashraf Khalil in ornate armor on horseback surveying his endless troops, dust rising, intimidating wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 22:
+Grand Master Guillaume de Beaujeu memanggil semua ksatria. Wajahnya tenang, tapi tangannya gemetar waktu memegang tongkat komandonya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Grand Master Guillaume de Beaujeu addressing hundreds of Templar knights in a torch-lit great hall, old white-bearded commander gripping his staff, Etienne among the rows listening intently, tense solemn atmosphere, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 23:
+Katanya begini: kita tidak mempertahankan kota. Kita mempertahankan dua ratus tahun sejarah ordo ini.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of Grand Master de Beaujeu's weathered stern face speaking passionately, white beard, white mantle with red cross, rows of Templar knights with raised swords behind him in torchlight, inspiring dramatic moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 24:
+Di dalam tembok Acre, kami cuma lima belas ribu. Templar, Hospitaller, tentara bayaran, dan warga yang nekat angkat senjata.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, defenders of Acre preparing on the city walls at dawn, Templar knights in white, Hospitaller knights in black with white crosses, crossbowmen and ordinary citizens carrying spears, Etienne checking his sword, determined faces, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 25:
+Pengepungan dimulai awal April. Setiap hari, batu-batu raksasa dari katapel mereka menghantam tembok kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, massive Mamluk catapults hurling huge stones at Acre's walls, stones smashing into the battlements, dust exploding, Etienne and defenders ducking behind the parapet, chaotic bombardment, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 26:
+Mereka menggali terowongan di bawah tembok. Kami menggali terowongan balasan. Perang di bawah tanah — gelap, sempit, dan mematikan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Templar sappers with pickaxes digging a dark narrow counter-tunnel beneath Acre's walls by torchlight, Etienne among them sweating, wooden support beams, claustrophobic tense atmosphere, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 27:
+Suatu malam, terowongan kami bertemu terowongan mereka. Pertarungan dalam kegelapan total. Aku tidak akan pernah lupa suara malam itu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, brutal close-quarters fight in a pitch-dark underground tunnel, Etienne with sword clashing against Mamluk sappers by flickering torchlight, dust and shadows, terrifying confined combat, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 28:
+Kami menang malam itu. Tapi setiap minggu, tembok kami makin retak. Dan bantuan dari Eropa tidak kunjung datang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne standing on Acre's cracked battlements at sunset looking out to the empty sea, no rescue ships on the horizon, cracked stones and makeshift repairs around him, weary hopeful face, melancholic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 29:
+Raja-raja Eropa sibuk berperang satu sama lain. Kami ditinggalkan. Jujur, bagian ini yang bikin saya merinding — ditinggalkan oleh orang yang kamu bela.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne reading a crumpled letter by candlelight in the fortress, face falling as he learns no reinforcements are coming, fellow knights with bowed heads around a war table with a map of Acre, somber mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 30:
+Lalu datang kabar yang mengubah segalanya: Menara Raja — menara terkuat di tembok utara — runtuh diledakkan dari terowongan musuh. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, the great King's Tower of Acre collapsing in a massive explosion of stone and dust as enemy sappers detonate their mine beneath it, Etienne and defenders watching in horror from nearby walls, debris raining, catastrophic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 31:
+Lubang menganga di tembok utara. Musuh menyerbu seperti air bah. Kami menahannya dengan tubuh kami sendiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, desperate melee at the breached north wall of Acre, Etienne and Templar knights forming a shield wall in the rubble-filled gap, waves of Mamluk soldiers pouring through dust and smoke, heroic desperate stand, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 32:
+Tiga hari tiga malam kami tidak tidur. Makan roti kering di atas tembok. Minum air yang rasanya seperti debu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, exhausted Etienne slumped against the battlements at dawn, chewing dry bread, hollow eyes, fellow knights sleeping sitting up with weapons in hand, smoky orange sky over Acre, weary wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 33:
+Sahabatku, Brother Renaud, gugur di sampingku hari keempat. Aku bahkan tidak sempat menutup matanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne kneeling beside his fallen friend Brother Renaud, a young Templar lying still in white surcoat among rubble on the wall, Etienne's grief-stricken face, battle raging blurred behind, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 34:
+Malam itu aku menulis surat untuk ibuku. Surat yang mungkin tidak akan pernah sampai. Tanganku gemetar memegang pena.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne writing a farewell letter by candlelight in a stone fortress chamber at night, trembling hand, tear-stained parchment, his helmet and sword resting beside him, distant battle sounds through the window, intimate emotional shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 35:
+Tanggal tujuh belas Mei malam. Grand Master mengumpulkan kami di kapel benteng. Doa terakhir bersama.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Templar knights kneeling in prayer inside the fortress chapel at night, Grand Master de Beaujeu leading prayers before the altar, candles flickering, Etienne with bowed head among them, solemn sacred atmosphere, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 36:
+Besok fajar, musuh akan menyerang total. Semua orang tahu. Tidak ada yang bicara. Kami cuma saling menatap — dan itu sudah cukup.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, silent Templar knights sitting in the fortress courtyard the night before the final assault, sharpening swords, checking armor, exchanging wordless looks, Etienne staring into the campfire, moonlit tense calm, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 37:
+Aku naik ke tembok untuk terakhir kalinya malam itu. Kota Acre tidur — atau berpura-pura tidur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne alone on Acre's moonlit walls at midnight, looking over the sleeping city with its church spires and houses, enemy campfires twinkling like stars across the plain, peaceful before the storm, melancholic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 38:
+Kalau menurut saya, malam-malam seperti inilah yang membentuk manusia. Bukan kemenangan — tapi keputusan untuk tetap berdiri saat kalah sudah pasti.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of Etienne's resolute face in moonlight on the wall, gripping his sword, white surcoat with red cross fluttering in night wind, stars above, quiet heroic determination, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 39:
+Aku turun ke benteng. Para sersan membagikan panah terakhir. Seorang pendeta memberkati pedang kami satu per satu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, a priest blessing Templar swords one by one in the fortress armory at night, Etienne kneeling with his longsword held up, fellow knights waiting in line, torchlight gleaming on steel, solemn ritual, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 40:
+Lalu aku mendengar sesuatu yang membuat darahku berhenti: bunyi genderang perang musuh. Dari kejauhan. Perlahan mendekat. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Mamluk war drummers and horn blowers advancing in the pre-dawn darkness toward Acre, rows of torch-bearing soldiers emerging from the mist, Etienne on the wall hearing them approach, dread-filled wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 41:
+Fajar delapan belas Mei. Langit merah seperti bara. Dan mereka datang — gelombang manusia yang tidak ada habisnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, dawn of May 18th, endless waves of Mamluk soldiers charging Acre's walls under a blood-red sky, siege ladders and towers rolling forward, Etienne on the battlements raising his sword to rally defenders, epic terrifying wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 42:
+Panah menghujani kami seperti hujan. Aku berlindung di balik perisai, tapi di sekelilingku orang-orang berjatuhan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, rain of arrows falling on Acre's defenders, Etienne crouching behind his shield on the wall as arrows thud into wood and stone around him, comrades falling, chaos and smoke, intense wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 43:
+Grand Master memimpin serangan balasan sendiri. Umurnya enam puluhan — tapi dia bertarung seperti singa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Grand Master de Beaujeu leading a Templar countercharge at the breached wall, old white-bearded commander fighting fiercely with sword, Etienne fighting beside him, dust and fury, heroic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 44:
+Tapi kemudian — aku melihatnya jatuh. Tombak menembus ketiaknya, celah di balik perisainya. Grand Master kami tumbang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Grand Master de Beaujeu falling wounded at the breached wall, clutching his side, Etienne rushing to catch him in horror, Templar knights rallying around their fallen leader, dust swirling, tragic dramatic moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 45:
+Dia masih sempat bicara. Katanya: jangan biarkan mereka merebut benteng. Selamatkan yang bisa diselamatkan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne cradling the dying Grand Master de Beaujeu in his arms amid the battle at the breached wall, old commander's hand gripping Etienne's shoulder as he speaks his last order, knights fighting around them, heartbreaking close shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 46:
+Kami membawanya ke benteng. Dia meninggal di ruang perawatan — dan bersamanya, seolah seluruh harapan Acre ikut padam.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Templar knights carrying their fallen Grand Master on a stretcher through the fortress corridors, Etienne walking with bowed head behind, mourning brothers lining the walls with torches, somber procession, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 47:
+Komandan pengganti memberi perintah: mundur ke benteng tepi laut. Pertahankan benteng sampai titik darah terakhir. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, surviving Templar knights retreating in good order through Acre's burning streets toward the seaside fortress, Etienne looking back at the city falling to the enemy, flames and smoke, desperate withdrawal, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 48:
+Serangan total tidak berhenti. Musuh merebut menara demi menara. Jalan-jalan kota berubah jadi medan perang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, street-by-street fighting inside Acre, Mamluk soldiers advancing through burning streets, Templar knights making desperate stands at barricades, Etienne fighting at a toppled cart barricade, chaos of the falling city, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 49:
+Kami menutup gerbang benteng tepat saat gelombang terakhir pasukan kami masuk. Di luar, kota sudah jatuh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, massive fortress gates slamming shut as the last Templar defenders rush inside, Etienne among them, through the closing gap the burning city of Acre and advancing enemy visible, dust and panic, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 50:
+Di dalam benteng: tiga ratus ksatria. Di luar: seluruh pasukan Sultan. Kami terkepung di dalam benteng kami sendiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, three hundred weary Templar knights inside the fortress courtyard preparing a last defense, Etienne among them, through the arrow slits the endless Mamluk army surrounding the fortress, hopeless siege within a siege, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 51:
+Musuh menawarkan perundingan. Syaratnya: serahkan benteng, dan kami boleh pergi dengan kapal. Komandan kami setuju.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, parley under a white flag at the fortress gate, Templar commander negotiating with Mamluk officers, Etienne watching anxiously from the wall, tense diplomatic standoff, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 52:
+Seratus prajurit musuh masuk untuk mengawasi evakuasi. Tapi mereka mulai mengganggu para wanita dan anak-anak yang berlindung di benteng.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Mamluk soldiers inside the fortress courtyard harassing frightened women and children sheltering there, Etienne stepping forward angrily with hand on sword, Templar knights tensing, confrontation brewing, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 53:
+Kesabaran kami habis. Pedang terhunus. Seratus prajurit itu tumbang dalam hitungan menit. Perundingan batal total.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, sudden violent clash erupting in the fortress courtyard, Etienne and Templar knights driving back the treacherous enemy soldiers, dust and fury, broken truce, dynamic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 54:
+Sultan murka. Dia memerintahkan serangan habis-habisan ke benteng. Tidak ada ampun lagi. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Sultan Al-Ashraf Khalil on horseback furiously ordering an all-out assault on the Templar fortress, siege engines and thousands of soldiers surging forward, Etienne watching from the fortress wall as the final storm begins, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 55:
+Mereka menggali di bawah benteng — lagi. Kami mendengar bunyi cangkul dari bawah lantai. Hitungan mundur dimulai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne pressing his ear to the cold stone floor of the fortress hearing faint digging sounds from enemy sappers below, fellow knights with worried faces gathering around, dread of the coming mine explosion, tense close shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 56:
+Perempuan dan anak-anak kami turunkan ke kapal lewat pintu laut rahasia. Aku membantu menggendong seorang bocah kecil ke perahu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, secret sea gate of the Templar fortress at night, Etienne carrying a small child down stone steps to a waiting boat, women and children evacuating onto ships by torchlight, waves lapping, emotional rescue scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 57:
+Kapal-kapal penuh sesak berlayar ke Siprus. Aku menatap mereka pergi — dan aku memilih bertahan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, crowded evacuation ships sailing away from Acre toward the horizon at dawn, Etienne standing on the fortress seawall watching them go, white surcoat fluttering, bittersweet farewell, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 58:
+Bukan karena aku berani. Tapi karena sumpahku bilang: seorang Templar tidak meninggalkan bentengnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne alone on the fortress wall at sunrise, hand on the red cross of his white surcoat, taking his oath of resolve, empty battlements stretching behind him, quiet heroic moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 59:
+Tinggal kami bertiga ratus. Tiga ratus melawan lautan manusia. Tapi tidak satu pun yang bicara soal menyerah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, three hundred Templar knights standing shoulder to shoulder in the fortress courtyard at dawn, Etienne in the front rank, grim determined faces, white mantles with red crosses, last-stand brotherhood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 60:
+Serangan datang dari semua sisi. Tangga-tangga pengepung menempel di tembok. Kami mendorongnya jatuh satu per satu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, furious assault on the fortress walls, Etienne and knights pushing away enemy siege ladders with poles, Mamluk soldiers climbing, stones and arrows flying, desperate defense, dynamic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 61:
+Tengah hari, suara di bawah lantai makin keras. Kayu-kayu penyangga mereka pasti hampir selesai dipasang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne and knights in the fortress lower hall, dust falling from the ceiling as enemy sappers work beneath, cracks spreading across stone, everyone looking up in dread, tense interior shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 62:
+Komandan memberi perintah terakhir: yang masih bisa berjalan, ke pintu laut. Sekarang. Itu perintah. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Templar commander shouting the final evacuation order in the shaking fortress hall, Etienne hesitating, knights rushing toward the sea gate stairs, dust raining from above, urgent dramatic moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 63:
+Aku berlari menuruni tangga batu. Di belakangku, aku mendengar suara yang tidak akan pernah kulupakan: ledakan dari bawah tanah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne sprinting down a stone staircase inside the fortress as a massive underground explosion erupts behind him, fire and stone debris bursting through floors above, desperate escape, dynamic shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 64:
+Benteng Templar — markas dua ratus tahun — runtuh seperti istana pasir. Aku melihatnya dari perahu, dengan mata berkaca-kaca.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, the great Templar fortress of Acre collapsing into rubble in a colossal cloud of dust, seen from a small boat on the sea, Etienne in the boat watching with tearful eyes, fellow survivors rowing, catastrophic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 65:
+Ratusan saudaraku terkubur di bawah reruntuhan itu. Termasuk komandan kami. Aku selamat — dan rasa bersalah itu menghantuiku bertahun-tahun.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne in the boat staring back at the smoking ruins of the fortress, guilt and grief on his face, a fellow knight placing a comforting hand on his shoulder, sea spray and grey sky, emotional wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 66:
+Kami berlayar tiga hari ke Siprus. Tidak ada yang bicara. Cuma suara ombak dan dayung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, small boat of Templar survivors sailing silently across the open sea toward Cyprus, Etienne gazing at the horizon, exhausted knights resting on oars, seagulls, quiet mournful mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 67:
+Di Siprus, kami disambut para pengungsi. Para janda, anak yatim, dan luka-luka dari Acre. Kami kalah — tapi kami tidak punah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Templar survivors landing on the beach of Cyprus, greeted by refugees, widows and orphans from Acre, Etienne helping an old woman ashore, emotional reunion, hopeful dawn light, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 68:
+Kalau menurut saya, inilah pelajaran terbesar dari Acre: kekalahan bukan akhir cerita. Yang penting apa yang kamu lakukan setelahnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne standing on a Cyprus cliff at sunrise looking back across the sea toward the Holy Land, white surcoat torn but red cross still visible, wind in his hair, reflective hopeful close shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 69:
+Ordo Templar tidak mati di Acre. Kami membangun markas baru. Melatih ksatria baru. Menjaga api tetap menyala.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne now as an instructor training young Templar recruits in swordsmanship in a Cyprus fortress courtyard, new white mantles with red crosses, rebuilding the order, hopeful determined wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 70:
+Tapi sejarah punya rencana lain. Dua puluh tahun kemudian, raja Prancis yang berutang pada kami memutuskan menghancurkan ordo ini.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, older Etienne in a French Templar commandery hearing shocking news from a messenger, knights arrested in chains in the background courtyard, ominous mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 71:
+Hari Jumat, tanggal tiga belas, tahun seribu tiga ratus tujuh. Semua Templar di Prancis ditangkap serentak. Termasuk Grand Master terakhir kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, dawn raid on a French Templar commandery on Friday the 13th 1307, royal soldiers arresting Templar knights, Etienne escaping through a back gate on horseback, chaos and betrayal, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 72:
+Mereka menuduh kami sesat. Menyita harta kami. Membakar pemimpin kami di tiang. Aku kabur dan bersembunyi. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne as a fugitive hiding in a remote mountain chapel, burning his white Templar mantle in a small fire to avoid recognition, sorrowful determined face, moonlight through broken window, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 73:
+Tapi sumpahku tidak ikut terbakar. Kemiskinan, kesucian, ketaatan — aku menjalaninya sampai akhir hayatku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Etienne as a humble monk-like hermit tending a small chapel garden, simple robes, peaceful face, red cross pendant hidden under his shirt, serene sunset, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 74:
+Orang-orang masih membicarakan kami sampai hari ini. Harta karun Templar yang hilang. Misteri yang tidak terpecahkan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, mysterious montage of Templar legends, an ancient treasure chest with red cross in a dark vault, old maps and seals, Etienne's weathered journal, intriguing wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 75:
+Jujur — kalau kamu tanya aku, harta terbesar Templar bukan emas. Tapi persaudaraan orang-orang yang rela mati satu sama lain.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne's memory vision, Templar brothers standing shoulder to shoulder with raised swords at Acre, white mantles glowing in golden light, brotherhood and loyalty, warm heroic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 76:
+Aku menulis semua ini di buku harianku. Supaya suatu hari, seseorang tahu apa yang sebenarnya terjadi di Acre.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Etienne writing in a leather-bound journal by candlelight, quill in hand, pages filled with sketches of Acre's walls and the red cross, intimate warm shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 77:
+Dua ratus tahun ordo kami berdiri. Berakhir dalam empat puluh hari pengepungan. Sejarah memang kejam — tapi juga jujur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, symbolic image of a great white banner with red cross slowly sinking beneath desert sands, Etienne's hand reaching toward it, time passing, melancholic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 78:
+Kalau aku bisa kembali ke malam terakhir itu, aku tidak akan mengubah apa pun. Karena di sanalah aku belajar arti kata setia.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne's vision of his younger self standing on Acre's wall at night with sword raised, older Etienne's translucent figure watching proudly behind, full circle moment, emotional wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 79:
+Mungkin kamu bertanya: untuk apa semua pengorbanan itu, kalau akhirnya kalah juga?
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne looking directly toward the viewer, breaking the fourth wall, questioning expression, ruins of Acre blurred behind him, intimate confronting shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 80:
+Jawabanku: kami tidak berjuang untuk menang. Kami berjuang karena ada hal yang lebih besar dari hidup kami sendiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne raising his sword toward the sunrise on the fortress wall, white surcoat with red cross glowing in golden light, transcendent heroic moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 81:
+Dan tujuh ratus tahun kemudian, orang masih menceritakan kisah kami. Itu artinya — kami tidak benar-benar kalah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, modern storyteller's hands opening Etienne's ancient journal, the tale continuing through centuries, ghostly images of Templar knights rising from the pages, legacy living on, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 82:
+Inilah akhir kisahku. Dari anak petani Champagne — sampai ksatria terakhir yang menyaksikan jatuhnya Acre.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, final portrait of Etienne, young Templar knight in white surcoat with red cross standing before the walls of Acre at sunset, sword planted in the ground, epic closing shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 83:
+Kalau kisah ini membuatmu merinding seperti aku waktu mengalaminya — kamu tahu harus apa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne giving a knowing slight smile toward the viewer, pointing subtly downward, warm friendly closing mood, Acre harbor golden behind him, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 84:
+Tekan subscribe, dan nyalakan loncengnya. Masih banyak kisah sejarah yang belum kuceritakan. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne gesturing invitingly toward the viewer with open hand, ancient scrolls and maps of future stories spread on a table beside him, warm torchlight, inviting wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 85:
+Besok, aku akan membawamu ke tempat lain. Ke zaman lain. Ke kulit orang lain.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, mysterious teaser collage, shadowy silhouettes of different historical eras, a Viking ship, a pyramid, a samurai, swirling mist, Etienne's hand reaching into the mist, intriguing wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 86:
+Tapi untuk malam ini — tidurlah dengan tenang. Bentengmu aman. Aku yang berjaga.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne standing guard on a peaceful moonlit wall at night, sword resting on shoulder, calm protective expression, stars and quiet city below, soothing final image, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 87:
+Sampai jumpa di kisah berikutnya. Aku Etienne — ksatria Templar terakhir dari Acre.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, Etienne walking away into the golden sunrise along the Cyprus shore, white surcoat with red cross, sword on back, new beginning, hopeful farewell wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 88:
+Dua ratus tahun kejayaan, empat puluh hari pengepungan, satu sumpah yang tak pernah patah. Inilah kisah kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (desert sand, burnt sienna, dusty gold, weathered white, ember orange), dramatic cinematic composition, not photorealistic, no text, epic final montage, the red cross banner flying over Acre's walls at sunrise, Etienne saluting, birds soaring, legendary closing frame, dramatic cinematic composition, not photorealistic, no text

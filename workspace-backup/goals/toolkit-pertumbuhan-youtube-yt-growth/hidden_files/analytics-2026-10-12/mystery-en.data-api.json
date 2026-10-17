@@ -1,0 +1,93 @@
+{
+ "channel": "mystery-en",
+ "handle": "@MysteryShadowsTV",
+ "channel_id": "UCjxESFWyFPOkGTSpajK69Lw",
+ "days": 28,
+ "source": "youtube_data_api_v3_fallback (Analytics API timeout)",
+ "channel_stats": {
+  "viewCount": "160",
+  "subscriberCount": "0",
+  "hiddenSubscriberCount": false,
+  "videoCount": "4"
+ },
+ "summary": {
+  "total_videos_fetched": 4,
+  "total_views_channel_lifetime": "160",
+  "subscriberCount": "0"
+ },
+ "videos": [
+  {
+   "video_id": "bmcSYyeN6Vs",
+   "title": "Their Tent Was Slashed Open From INSIDE | Dyatlov Pass Mystery",
+   "published": "2026-10-06",
+   "description": "Watch the full story on Unsolved Shadows.\n\n#shorts #mystery #unsolved #dyatlovpass",
+   "tags": [
+    "dyatlov pass",
+    "unsolved mystery",
+    "mystery",
+    "shorts",
+    "unsolved"
+   ],
+   "views": 106,
+   "likes": 2,
+   "comments": 0,
+   "duration": "PT46S"
+  },
+  {
+   "video_id": "g900Smffbuo",
+   "title": "The Dyatlov Pass Incident: 9 Hikers, 1 Mountain, Zero Answers",
+   "published": "2026-10-06",
+   "description": "In February 1959, nine experienced hikers died on the slopes of Kholat Syakhl — the \"Dead Mountain\" — in Russia's Ural Mountains. Their tent was slashed open FROM THE INSIDE. They fled barefoot into minus-thirty cold. Their bodies showed injuries like a car crash, yet their skin was unmarked. Their clothing was radioactive. And one victim's tongue was missing.\n\nWhat really happened on the Dead Mountain that night? An avalanche? Secret military tests? Or something no science has named?\n\nSubscribe",
+   "tags": [
+    "dyatlov pass",
+    "unsolved mystery",
+    "dyatlov pass incident",
+    "true crime",
+    "mystery documentary",
+    "kholat syakhl",
+    "unsolved mysteries",
+    "ural mountains",
+    "cold case",
+    "what happened at dyatlov pass"
+   ],
+   "views": 1,
+   "likes": 1,
+   "comments": 0,
+   "duration": "PT8M30S"
+  },
+  {
+   "video_id": "FZZpx8dT-Xc",
+   "title": "Her Tongue Was Missing. Their Clothes Were Radioactive.",
+   "published": "2026-10-07",
+   "description": "Watch the full story on Unsolved Shadows.\n\n#shorts #mystery #unsolved #dyatlovpass",
+   "tags": [
+    "dyatlov pass",
+    "unsolved mystery",
+    "mystery",
+    "shorts",
+    "unsolved"
+   ],
+   "views": 41,
+   "likes": 3,
+   "comments": 1,
+   "duration": "PT37S"
+  },
+  {
+   "video_id": "teVuCq5mvqM",
+   "title": "Glowing Orbs Were Seen Over the Mountain That Night",
+   "published": "2026-10-07",
+   "description": "Watch the full story on Unsolved Shadows.\n\n#shorts #mystery #unsolved #dyatlovpass",
+   "tags": [
+    "dyatlov pass",
+    "unsolved mystery",
+    "mystery",
+    "shorts",
+    "unsolved"
+   ],
+   "views": 17,
+   "likes": 1,
+   "comments": 1,
+   "duration": "PT46S"
+  }
+ ]
+}

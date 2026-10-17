@@ -1,0 +1,52 @@
+{
+ "channel": "jejakbuddha",
+ "handle": "@JejakBuddha",
+ "channel_id": "UC1PNEzhOmAH08p75vwp7n0A",
+ "days": 28,
+ "source": "youtube_data_api_v3_fallback (Analytics API timeout)",
+ "channel_stats": {
+  "viewCount": "0",
+  "subscriberCount": "0",
+  "hiddenSubscriberCount": false,
+  "videoCount": "0"
+ },
+ "summary": {
+  "total_videos_fetched": 1,
+  "total_views_channel_lifetime": "0",
+  "subscriberCount": "0"
+ },
+ "videos": [
+  {
+   "video_id": "zva_d8KCm8I",
+   "title": "Ternyata Penderitaan Ini yang Mengubah Pangeran Buddha",
+   "published": "2026-10-10",
+   "description": "Dari sebuah istana megah tanpa satu pun bayangan duka, Pangeran Siddhartha keluar dan melihat empat hal yang mengguncang seluruh hidupnya: orang tua yang renta, orang sakit yang menderita, jenazah yang diusung, dan seorang petapa yang begitu tenang. Kisah masyhur dari riwayat hidup Sang Buddha ini adalah titik balik yang membuatnya meninggalkan segalanya untuk mencari jalan pembebasan. Saya menuturkannya kembali dengan penuh takzim, untuk kita renungkan bersama.\n\nBab:\n0:00 Empat pemandangan yang",
+   "tags": [
+    "empat pemandangan",
+    "sang buddha",
+    "siddhartha gautama",
+    "jejak buddha",
+    "kisah buddha",
+    "cerita buddha",
+    "orang tua renta",
+    "orang sakit",
+    "jenazah",
+    "petapa yang tenang",
+    "malam keberangkatan agung",
+    "agama buddha",
+    "sejarah buddha",
+    "kebijaksanaan buddha",
+    "raja suddhodana",
+    "channa",
+    "kanthaka",
+    "kapilavastu",
+    "kisah inspiratif",
+    "renungan spiritual"
+   ],
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "duration": "PT8M53S"
+  }
+ ]
+}

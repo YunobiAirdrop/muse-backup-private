@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<title><data:blog.pageTitle/></title>
+<b:include data='blog' name='all-head-content'/>
+<b:skin><![CDATA[
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--aksen:#e11d2e;--gelap:#0f172a;--teks:#1e293b;--latar:#f1f5f9}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--latar);color:var(--teks);line-height:1.6}
+a{color:var(--aksen);text-decoration:none}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+/* Header */
+.header{background:linear-gradient(135deg,#0f172a,#1e293b);color:#fff;padding:28px 0;text-align:center}
+.logo a{font-size:42px;font-weight:900;color:#fff;letter-spacing:1px}
+.logo span{color:#f59e0b}
+.tagline{color:#cbd5e1;font-size:15px;margin-top:6px}
+/* Nav */
+.navbar{background:#e11d2e;position:sticky;top:0;z-index:100}
+ul.menu{list-style:none;display:flex;justify-content:center;flex-wrap:wrap}
+ul.menu li a{display:block;color:#fff;font-weight:700;padding:14px 22px;font-size:15px;transition:.2s}
+ul.menu li a:hover{background:rgba(0,0,0,.2)}
+/* Ticker */
+.ticker{background:#0f172a;color:#fff;padding:10px 0;overflow:hidden;white-space:nowrap}
+.ticker span{background:#e11d2e;padding:4px 14px;border-radius:4px;font-weight:800;font-size:13px;margin-right:14px}
+/* Layout */
+.konten{display:flex;gap:28px;padding:28px 0}
+.konten-utama{flex:1;min-width:0}
+.sidebar{width:320px;flex-shrink:0}
+/* Kartu artikel (homepage) */
+.judul-section{font-size:24px;font-weight:900;color:var(--gelap);margin-bottom:20px;display:flex;align-items:center;gap:12px}
+.judul-section::before{content:'';width:6px;height:28px;background:linear-gradient(180deg,#e11d2e,#f59e0b);border-radius:3px}
+.kartu{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.07);margin-bottom:24px;transition:.3s;animation:fadeUp .5s ease}
+.kartu:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.12)}
+.kartu .gbr{display:block;position:relative;overflow:hidden}
+.kartu .gbr img{width:100%;height:220px;object-fit:cover;transition:.4s}
+.kartu:hover .gbr img{transform:scale(1.05)}
+.kartu .kat{position:absolute;top:14px;left:14px;background:linear-gradient(135deg,#e11d2e,#f59e0b);color:#fff;padding:5px 14px;border-radius:20px;font-size:12px;font-weight:700}
+.kartu .isi{padding:22px}
+.kartu h3{font-size:20px;font-weight:800;line-height:1.4;margin-bottom:10px}
+.kartu h3 a{color:var(--gelap)}
+.kartu h3 a:hover{color:var(--aksen)}
+.kartu .meta{font-size:13px;color:#888;margin-bottom:10px}
+.kartu .ringkasan{font-size:15px;color:#555}
+/* Halaman artikel */
+.artikel-full{background:#fff;border-radius:16px;padding:38px;box-shadow:0 4px 24px rgba(0,0,0,.08)}
+.breadcrumb{font-size:13px;color:#888;margin-bottom:18px}
+.breadcrumb a{color:var(--aksen);font-weight:600}
+.judul-artikel{font-size:32px;font-weight:900;line-height:1.3;color:var(--gelap);margin-bottom:14px}
+.meta-artikel{font-size:14px;color:#888;margin-bottom:24px;padding-bottom:18px;border-bottom:2px solid #f0f0f0}
+.meta-artikel .kat{background:linear-gradient(135deg,#e11d2e,#f59e0b);color:#fff;padding:4px 14px;border-radius:20px;font-size:12px;font-weight:700}
+.isi-artikel{font-size:17px;line-height:1.85;color:#333}
+.isi-artikel p{margin-bottom:18px}
+.isi-artikel h2{font-size:24px;font-weight:800;margin:28px 0 14px;color:var(--gelap)}
+.isi-artikel h3{font-size:20px;font-weight:700;margin:24px 0 12px;color:var(--gelap)}
+.isi-artikel img{max-width:100%;height:auto;border-radius:12px;margin:18px 0}
+.isi-artikel ul,.isi-artikel ol{margin:0 0 18px 24px}
+.isi-artikel blockquote{border-left:4px solid var(--aksen);background:#fef2f2;padding:14px 20px;border-radius:0 10px 10px 0;margin:20px 0;font-style:italic}
+/* Sidebar */
+.widget{background:#fff;border-radius:14px;padding:22px;margin-bottom:22px;box-shadow:0 2px 12px rgba(0,0,0,.05)}
+.side-judul{font-size:17px;font-weight:800;margin-bottom:14px;padding-bottom:10px;border-bottom:3px solid var(--aksen)}
+.cari{display:flex;gap:8px}
+.cari input{flex:1;padding:10px 14px;border:2px solid #e2e8f0;border-radius:10px;font-size:14px}
+.cari button{background:var(--aksen);color:#fff;border:none;padding:10px 18px;border-radius:10px;font-weight:700;cursor:pointer}
+/* Footer */
+.footer{background:#0f172a;color:#cbd5e1;text-align:center;padding:32px 0;margin-top:20px}
+.footer a{color:#f59e0b}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+.loading{text-align:center;padding:60px 20px;color:#888}
+.spin{width:40px;height:40px;border:4px solid #f0f0f0;border-top-color:var(--aksen);border-radius:50%;margin:0 auto 16px;animation:putar 1s linear infinite}
+@keyframes putar{to{transform:rotate(360deg)}}
+@media(max-width:768px){.konten{flex-direction:column}.sidebar{width:100%}.artikel-full{padding:22px}.judul-artikel{font-size:24px}.logo a{font-size:32px}}
+]]></b:skin>
+</head>
+<body>
+<header class='header'>
+<div class='wrap'>
+<div class='logo'><a expr:href='data:blog.homepageUrl'><data:blog.title/></a></div>
+<div class='tagline'>Gebrakan teknologi terbaru setiap hari</div>
+</div>
+</header>
+<nav class='navbar'>
+<div class='wrap'>
+<ul class='menu'>
+<li><a expr:href='data:blog.homepageUrl'>Beranda</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Berita"'>Berita</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Keuangan"'>Keuangan</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Teknologi"'>Teknologi</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Kesehatan"'>Kesehatan</a></li>
+</ul>
+</div>
+</nav>
+<div class='ticker'><div class='wrap'><span>TERKINI</span><b:section id='ticker' class='ticker-sec' maxwidgets='1' showaddelement='no'><b:widget id='HTMLTicker' type='HTML' version='2' visible='true'><b:includable id='main' var='top'><data:content/></b:includable></b:widget></b:section></div></div>
+<main class='wrap konten'>
+<div class='konten-utama'>
+<b:section id='main' class='main-sec' maxwidgets='1' showaddelement='no'>
+<b:widget id='Blog1' type='Blog' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<b:if cond='data:blog.pageType == "index"'>
+<div class='judul-section'>Berita Terbaru</div>
+<b:loop values='data:posts' var='post'>
+<article class='kartu'>
+<b:if cond='data:post.featuredImage'>
+<a class='gbr' expr:href='data:post.url'><img expr:alt='data:post.title' expr:src='data:post.featuredImage'/><span class='kat'><b:if cond='data:post.labels'><data:post.labels.first.name/><b:else/>Berita</b:if></span></a>
+<b:else/>
+<a class='gbr' expr:href='data:post.url'><span class='kat'><b:if cond='data:post.labels'><data:post.labels.first.name/><b:else/>Berita</b:if></span></a>
+</b:if>
+<div class='isi'>
+<h3><a expr:href='data:post.url'><data:post.title/></a></h3>
+<div class='meta'><data:post.timestamp/></div>
+<p class='ringkasan'><data:post.snippet/></p>
+</div>
+</article>
+</b:loop>
+<b:else/>
+<b:loop values='data:posts' var='post'>
+<article class='artikel-full'>
+<div class='breadcrumb'><a expr:href='data:blog.homepageUrl'>Beranda</a> &#187; <b:if cond='data:post.labels'><data:post.labels.first.name/><b:else/>Berita</b:if></div>
+<h1 class='judul-artikel'><data:post.title/></h1>
+<div class='meta-artikel'><span class='kat'><b:if cond='data:post.labels'><data:post.labels.first.name/><b:else/>Berita</b:if></span> &#8226; <data:post.timestamp/></div>
+<div class='isi-artikel'><data:post.body/></div>
+</article>
+</b:loop>
+</b:if>
+</b:includable>
+</b:widget>
+</b:section>
+</div>
+<aside class='sidebar'>
+<b:section id='sidebar' class='side-sec' maxwidgets='6' showaddelement='yes'>
+<b:widget id='BlogSearch1' type='BlogSearch' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='widget'>
+<div class='side-judul'>Cari Berita</div>
+<form class='cari' expr:action='data:blog.homepageUrl + "search"'>
+<input name='q' placeholder='Ketik kata kunci...' type='text'/>
+<button type='submit'>Cari</button>
+</form>
+</div>
+</b:includable>
+</b:widget>
+<b:widget id='PopularPosts1' type='PopularPosts' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='widget'>
+<div class='side-judul'>Terpopuler</div>
+<b:loop values='data:posts' var='post'>
+<div style='margin-bottom:12px'><a expr:href='data:post.url'><data:post.title/></a></div>
+</b:loop>
+</div>
+</b:includable>
+</b:widget>
+<b:widget id='Label1' type='Label' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='widget'>
+<div class='side-judul'>Kategori</div>
+<b:loop values='data:labels' var='label'>
+<div style='margin-bottom:8px'><a expr:href='data:label.url'><data:label.name/></a> (<data:label.count/>)</div>
+</b:loop>
+</div>
+</b:includable>
+</b:widget>
+</b:section>
+</aside>
+</main>
+<footer class='footer'>
+<div class='wrap'>
+<p>&#169; 2026 <data:blog.title/>. All rights reserved.</p>
+</div>
+</footer>
+</body>
+</html>

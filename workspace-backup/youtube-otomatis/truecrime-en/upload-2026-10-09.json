@@ -1,0 +1,23 @@
+{
+ "ai_disclosure": "ALTERED CONTENT: AI-generated TTS narration + AI-generated illustrations. 'Altered content' checkbox MUST be ticked at upload.",
+ "audience": "Not made for kids",
+ "channel": "Dark Case Files (@TrueCaseFilesTV, UC2df1xY_WqWdX33oLqeXE2w, login khususstokyunobi@gmail.com)",
+ "channel_terverifikasi": "Dark Case Files (@TrueCaseFilesTV, UC2df1xY_WqWdX33oLqeXE2w); Studio awalnya di Tiny Builders, diganti via halaman Semua channel",
+ "context": "Hari LONG (upload-terakhir.txt = shorts:2026-10-08). Long Sodder diproduksi 2026-10-06 (547.1s) dan antre untuk hari LONG berikutnya — inilah videonya (aturan anti-mogok: video yang sudah diproduksi WAJIB tayang). Tidak ada produksi baru hari ini.",
+ "description": "Christmas morning, 1945. A farmhouse in Fayetteville, West Virginia burns to the ground — and five Sodder children vanish without a trace. No bones, no remains, nothing. The official story said 'accidental fire.' But the phone line was cut before the blaze, the ladder was missing, and witnesses swore they saw the children alive afterwards.\n\nIn this documentary, Dark Case Files walks through every strange detail: the sabotage, the sightings across the country, the billboard the family kept up for decades — and the mysterious photograph that arrived 23 years later. Honestly, the deeper I went into this case, the less the official story held together. In my opinion, this was never just a fire.\n\nDark Case Files brings you America's most baffling unsolved crimes — carefully researched, documentary-style. Subscribe so you never miss a case.\n\nAI Disclosure: Narration and illustrations in this video are AI-generated. Content is presented for educational and documentary purposes.\n\n#truecrime #sodderchildren #unsolvedmystery #coldcase #documentary",
+ "hasil_upload": "GAGAL — batas upload harian YouTube 2026-10-09 16:18 WIB: \"Batas upload harian telah tercapai\" / \"Upload lebih banyak video setiap hari setelah verifikasi satu kali atau tunggu 24 jam.\" Tidak retry saat itu juga. Video masuk antrean retry-queue (watchdog 20:00 WIB proses setelah >=23 jam, slot target 2026-10-11 07:00 WIB).",
+ "language": "English",
+ "schedule_target": "2026-10-10 07:00 Asia/Jakarta (= 2026-10-09 19:00 US Eastern, US prime time)",
+ "stop_condition": "Jika YouTube menampilkan 'Batas upload harian telah tercapai' (daily upload limit) -> STOP total, jangan coba lagi, laporkan persis pesannya. JANGAN retry saat itu juga (limit ±24 jam).",
+ "thumbnail": null,
+ "thumbnail_note": "Channel cannot set custom thumbnails yet (phone unverified) — use auto thumbnail. No custom thumbnail upload needed.",
+ "title": "The Sodder Children: 5 Kids Vanished in a Christmas Fire | True Crime",
+ "topic": "Sodder children disappearance — Fayetteville, West Virginia, Christmas 1945 (5 children vanished in house fire, no remains found, unsolved)",
+ "upload_day_type": "long (alternating pattern; 2026-10-08 was shorts day)",
+ "upload_terakhir_txt": "TIDAK ditulis (upload gagal) — tetap shorts:2026-10-08",
+ "urls": null,
+ "video": "/home/hatch/workspace/youtube-otomatis/truecrime-en/video/2026-10-06.mp4",
+ "video_duration_sec": 547.1,
+ "visibility": "Scheduled (Terjadwal) — NOT public immediately",
+ "retry_queue": "/home/hatch/workspace/youtube-otomatis/retry-queue/truecrime-en-2026-10-09.json"
+}

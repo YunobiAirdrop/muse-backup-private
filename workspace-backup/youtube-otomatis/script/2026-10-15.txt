@@ -1,0 +1,359 @@
+POV: Kamu Jadi Pejuang Aceh Melawan Belanda
+88 beat | Tokoh: Ahmad, 22 tahun, anak nelayan Ulee Lheue yang jadi pejuang gerilya | Setting: Pesisir & hutan Aceh, 1873-1904, Perang Aceh melawan Belanda
+KARAKTER VISUAL: Ahmad, young Acehnese fighter, 22 years old, lean muscular build, sun-darkened skin, short black hair, sharp determined eyes, often wearing a black kopiah cap or headband, dark sarong wrapped at waist, worn earth-tone long-sleeve shirt, always carrying a rencong (curved Acehnese dagger) at his waist and a klewang (long sword) in battle. Teungku: old ulama with white beard, white peci cap, white sarong, wooden staff. Ibu: elderly Acehnese woman in black headscarf. Dutch KNIL soldiers: colonial troops in dark blue uniforms, white pith helmets, rifles with bayonets, cannons, smoking warships offshore. Cut Nyak Dhien: female Acehnese fighter in long black hijab holding a rencong. Teuku Umar: mustached Acehnese commander with headband, klewang in hand. Setting: coastal Aceh 1873, wooden stilt houses, coconut palms, rice fields, Baiturrahman Grand Mosque with black domes, dense jungle, mountain passes, Dutch warships on the horizon.
+GAYA GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text
+CATATAN: hindari darah/kekerasan eksplisit di narasi maupun prompt gambar. Angka di naskah sudah dieja agar TTS natural. [JEDA] = tambah silence 0.8 detik SEBELUM beat (sebelum twist/momen kunci).
+OVERLAY TEKS (drawtext, 5 momen): beat 2 "ACEH 1873" | beat 24 "BANDA ACEH JATUH" | beat 44 "SUBSCRIBE!" (3 detik) | beat 48 "MARECHAUSSEE DATANG" | beat 65 "GERILYA TERAKHIR"
+SHORTS: s1 = beat 1-6 (detik 0-45, cold open) | s2 = beat 48-56 (kepungan Marechaussee) | s3 = beat 65-72 (perang usai, rencong digantung)
+
+BEAT 1:
+Bedil mereka berdentum memecah fajar. Di depan, tiga ratus serdadu Belanda maju dengan bayonet terhunus — dan aku cuma menggenggam satu rencong warisan ayahku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, first-person view at dawn among coconut palms, three hundred Dutch colonial soldiers in dark blue uniforms and white pith helmets advancing with rifles and fixed bayonets through morning mist, a young Acehnese fighter in the foreground gripping a curved rencong dagger, terrified determined face, muzzle smoke in the air, extremely tense, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 2:
+Asap mesiu mengepul di antara pohon kelapa. Di sampingku, Teungku mengangkat tongkatnya dan berteriak satu kalimat: hari ini, tidak ada yang mundur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, old Acehnese ulama with white beard and white peci cap raising a wooden staff beside young fighter Ahmad at dawn, gunpowder smoke drifting between coconut palms, Acehnese guerrillas with klewang swords taking positions behind bamboo barricades, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 3:
+Tiga ratus lawan dua puluh. Di belakang kami cuma ada gampong — ibu-ibu, anak-anak, rumah-rumah kayu kami. Malam ini aku cuma punya satu pilihan: berdiri, atau kehilangan segalanya. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, extreme close-up of young Acehnese fighter Ahmad's terrified face, sweat dripping, gripping his rencong dagger, behind him a small wooden stilt-house village with women and children hiding, enemy soldiers advancing in the mist beyond, hopeless odds, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 4:
+Tapi tunggu — biar kuceritakan dari awal. Bagaimana seorang anak nelayan bisa berdiri di pagi berdarah ini.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, peaceful Acehnese coastal village at dawn, wooden stilt houses, fishing boats on calm sea, coconut palms swaying, fishermen casting nets, calm wide establishing shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 5:
+Namaku Ahmad. Dua puluh dua tahun. Anak seorang nelayan di Ulee Lheue, pesisir Aceh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, portrait of young Ahmad, 22, lean muscular, sun-darkened skin, short black hair, simple worn fisherman shirt, standing on a beach holding a fishing net beside a wooden boat, warm morning light, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 6:
+Hidupku dulu sederhana: melaut sebelum subuh, pulang membawa ikan, makan bersama ibu dan ayah di rumah panggung kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad rowing a small wooden fishing boat at sunrise with his elderly father, nets full of fish, their stilt house visible on the shore, seagulls, warm peaceful mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 7:
+Aceh waktu itu negeri yang makmur. Lada dan pinang kami dibeli pedagang dari seluruh dunia. Kami merdeka, dan kami bangga.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, bustling Acehnese harbor market, traders from many nations buying sacks of pepper and areca nuts, wooden ships with sails at anchor, Ahmad carrying a sack among the crowd, lively prosperous wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 8:
+Sampai suatu pagi di tahun seribu delapan ratus tujuh puluh tiga, perahu-perahu kami melihat sesuatu di cakrawala: kapal-kapal perang berasap.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad and fishermen in small boats staring in alarm at the horizon where three huge Dutch warships with smoking funnels approach the Aceh coast, ominous dark clouds, tense wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 9:
+Kapal Belanda. Mereka menuntut Aceh tunduk di bawah bendera mereka. Sultan kami menolak. Kalau kamu jadi aku malam itu — lari, atau angkat rencong? Tulis di komentar, aku baca semua.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, a Dutch officer in colonial uniform handing an ultimatum letter to Acehnese elders in front of a wooden palace, Ahmad watching anxiously from the crowd, tense standoff, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 10:
+Tanggal dua puluh enam Maret seribu delapan ratus tujuh puluh tiga, Belanda menyatakan perang kepada Aceh. Perang terbesar yang pernah mereka mulai di Nusantara.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, symbolic image of a torn proclamation nailed to a village notice board, Acehnese villagers gathering around reading it with angry worried faces, Dutch flag and warships painted in the background sky, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 11:
+Ayahku berkata: laut memberi kita makan, tapi tanah ini memberi kita nama. Kalau tanah ini dirampas, kita bukan siapa-siapa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad's elderly fisherman father placing a weathered hand on his son's shoulder inside their stilt house at dusk, speaking with grave expression, fishing nets hanging behind them, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 12:
+Aku yang tidak pernah memegang senjata selain dayung, malam itu pertama kali menggenggam rencong ayah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of Ahmad's young hands receiving an ornate curved rencong dagger from his father by oil lamp light, the blade gleaming, solemn symbolic moment, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 13:
+Rencong itu bukan sekadar belati. Kata orang tua, bentuknya menyerupai lafaz basmalah — ia mengingatkan untuk apa kita berjuang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, artistic close-up of the curved rencong dagger held up against lamplight, its elegant curved shape prominent, Ahmad gazing at it with reverence, warm intimate shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 14:
+April seribu delapan ratus tujuh puluh tiga: tiga ribu serdadu Belanda mendarat di pantai kami. Dipimpin Jenderal Kohler yang sombong.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Dutch landing boats storming an Aceh beach, rows of colonial soldiers with rifles wading ashore, a stern Dutch general with plumed hat directing them, Acehnese villagers fleeing toward the palms, dramatic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 15:
+Mereka menyerbu Masjid Raya Baiturrahman, masjid kebanggaan kami. Tapi para pejuang Aceh menghadang di setiap gang dan setiap jembatan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, the grand Baiturrahman mosque with black domes, Dutch soldiers advancing toward it while Acehnese fighters ambush from alleys and a bridge with klewang swords and spears, chaotic street battle, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 16:
+Di tengah pertempuran itu, Jenderal Kohler tumbang — tewas di depan masjid yang ingin direbutnya. Pasukannya kalang kabut.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, a Dutch general in ornate uniform falling from his horse before the Baiturrahman mosque, his plumed hat tumbling, Acehnese fighters charging forward with klewangs raised, colonial soldiers retreating in panic, dramatic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 17:
+Ekspedisi pertama Belanda gagal total. Mereka pulang dengan kapal-kapal setengah kosong. Kami berpesta di gampong.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, joyful Acehnese villagers celebrating in their gampong at sunset, dancing around a bonfire, fighters returning with captured rifles held high, Ahmad among the cheering crowd, festive wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 18:
+Aku yang waktu itu cuma menjaga perbekalan, melihat para pejuang pulang membawa bedil rampasan. Mataku berbinar.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, young Ahmad wide-eyed watching battle-worn Acehnese fighters marching past carrying captured Dutch rifles, supply baskets at his feet, admiration on his face, golden evening light, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 19:
+Tapi Teungku berkata pelan: jangan sombong, Nak. Mereka akan kembali — dengan jumlah sepuluh kali lipat.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, old Teungku with white beard speaking quietly to Ahmad amid the celebration, his expression grave while others dance blurred behind, a warning mood, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 20:
+Dan Teungku benar. November seribu delapan ratus tujuh puluh tiga, armada raksasa muncul lagi di laut kami. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, a massive Dutch naval armada on the horizon at dawn, dozens of warships with smoking funnels, Ahmad on the beach staring in dread, dark stormy sky, ominous wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 21:
+Tiga belas ribu serdadu. Dipimpin Jenderal van Swieten. Meriam-meriam kapal mereka menghujani pantai kami siang dan malam.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Dutch warships bombarding the Aceh coast, cannon fire and explosions erupting along the beach, palm trees splintering, Acehnese villagers running for cover, terrifying wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 22:
+Jujur, bagian ini yang bikin saya merinding — membayangkan anak-anak kecil berlindung di bawah rumah panggung sementara langit runtuh di atas mereka.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Acehnese mothers huddling with small children under a wooden stilt house as cannon explosions light up the sky above, Ahmad shielding a little boy, fear and tenderness, emotional wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 23:
+Januari seribu delapan ratus tujuh puluh empat: Banda Aceh jatuh. Kraton dibakar. Sultan Mahmud Syah wafat karena sakit di pengungsian.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, the wooden palace of Banda Aceh engulfed in flames at night, Dutch soldiers raising their flag, Acehnese courtiers fleeing with the body of their sultan on a stretcher, smoke and embers, tragic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 24:
+Sultan baru masih anak-anak: Muhammad Daud Syah. Tapi perang tidak berhenti — ia baru saja berubah bentuk.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, a young Acehnese boy sultan in royal attire being crowned in a forest hideout by elderly ulama, fighters kneeling around with klewangs, torchlight, solemn ceremony, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 25:
+Kami tidak lagi bertempur di lapangan terbuka. Kami masuk hutan. Perang gerilya dimulai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad and a column of Acehnese guerrilla fighters disappearing into dense jungle with klewangs and spears, mist between giant trees, determined faces, adventurous wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 26:
+Aku resmi jadi pejuang. Sumpahku sederhana: selama satu jengkal tanah Aceh masih diinjak sepatu lars mereka, rencongku tidak akan masuk sarung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad kneeling before old Teungku in a jungle clearing, raising his rencong dagger as he takes the fighter's oath, fellow guerrillas witnessing with raised klewangs, dappled sunlight, solemn wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 27:
+Kami membangun benteng-benteng bambu di tengah hutan. Dari sana kami menyergap patroli Belanda malam-malam.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Acehnese fighters constructing a hidden bamboo fortress deep in the jungle, sharpened stakes and watchtowers, Ahmad hauling bamboo poles, moonlight filtering through canopy, secretive wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 28:
+Taktik kami: pukul dan hilang. Serang saat mereka lengah, lenyap sebelum meriam mereka sempat diarahkan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, night ambush in the jungle, Acehnese guerrillas with klewangs swooping down on a surprised Dutch patrol on a forest path, chaos and motion, Ahmad leading the charge, dynamic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 29:
+Malam itu kami merebut dua peti mesiu dari gudang mereka — tanpa satu pun korban di pihak kami. Itu operasi paling bersih yang pernah kulakukan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Acehnese fighters silently hauling two wooden gunpowder crates out of a Dutch supply depot at night, a sleeping guard slumped nearby, Ahmad signaling silence with finger to lips, stealthy tense shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 30:
+Belanda frustrasi. Mereka membakar gampong-gampong, berharap kami menyerah. Yang terjadi justru sebaliknya. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, a coastal Acehnese village burning at dusk set alight by retreating Dutch troops, villagers watching with clenched fists, Ahmad among them with burning eyes, smoke rising, defiant mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 31:
+Setiap rumah yang dibakar melahirkan sepuluh pejuang baru. Termasuk adikku sendiri, yang waktu itu baru lima belas tahun.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, a teenage Acehnese boy picking up a klewang from the ashes of his burned home, Ahmad placing a hand on his little brother's shoulder, new recruits gathering behind them with torches, resolve in young faces, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 32:
+Ibu menangis melepas kami berdua ke hutan. Tapi ia menyelipkan kain kafan putih di tasku — katanya: kalau mati syahid, kuburkan aku dengan ini.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, emotional farewell at a stilt house door at dawn, elderly Acehnese mother in black headscarf hugging Ahmad and his teenage brother, secretly tucking a folded white shroud cloth into his bag, tears and resolve, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 33:
+Delapan tahun perang berjalan. Lalu muncul seorang ulama kharismatik: Teungku Cik di Tiro. Seruannya membakar seluruh Aceh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, charismatic Acehnese ulama Teungku Cik di Tiro in white robes addressing a massive crowd of fighters in a jungle clearing, hundreds of raised klewangs glinting, Ahmad among the roaring crowd, inspiring wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 34:
+Di bawah pimpinannya, perlawanan jadi terorganisir. Gampong-gampong punya benteng, punya jadwal jaga, punya kode rahasia.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, organized Acehnese guerrilla camp in the jungle, sentries on bamboo watchtowers, fighters drilling with klewangs in formation, Ahmad studying a hand-drawn map with commanders, disciplined wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 35:
+Aku pernah berdiri tiga meter di belakangnya saat ia berpidato. Suaranya bergetar — dan seribu orang serentak mengangkat klewang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, over-the-shoulder view from behind Ahmad toward Teungku Cik di Tiro speaking passionately on a wooden platform, a sea of a thousand Acehnese fighters raising klewangs in unison, goosebump moment, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 36:
+Tapi tahun seribu delapan ratus sembilan puluh satu, Teungku Cik di Tiro wafat. Kami kehilangan kompas kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, solemn funeral procession in the jungle, Acehnese fighters carrying a white-shrouded bier, Ahmad with bowed head among mourners, banners lowered, grey mournful light, somber wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 37:
+Belanda mencium kelemahan. Mereka membentuk pasukan khusus yang kejam: Korps Marechaussee. Dipimpin van Daalen yang haus darah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, menacing Dutch Marechaussee special troops in dark uniforms with carbines moving silently through jungle mist, their stern commander van Daalen with binoculars pointing forward, predatory mood, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 38:
+Kalau menurut saya, inilah titik tergelap perang ini — ketika musuh berhenti berperang seperti tentara, dan mulai berburu seperti pemburu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of Ahmad's grim face half-hidden in jungle shadow, watching Marechaussee patrol lights moving in the dark distance, tension and dread, intimate tense shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 39:
+Marechaussee bergerak cepat, senyap, dan tidak kenal ampun. Benteng demi benteng kami jatuh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, a bamboo fortress overrun at dawn, Dutch Marechaussee troops storming through broken gates, Acehnese fighters retreating into the jungle, Ahmad looking back in anguish, desperate wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 40:
+Di tengah kegelapan itu, muncul dua nama yang menyalakan harapan: Teuku Umar dan istrinya, Cut Nyak Dhien. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, heroic reveal of Teuku Umar, mustached Acehnese commander with headband and klewang, beside his wife Cut Nyak Dhien in long black hijab holding a rencong, standing on a hill above their guerrilla army, sunrise breaking behind them, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 41:
+Teuku Umar — komandan pemberani berkumis tebal. Cut Nyak Dhien — perempuan yang memimpin pasukan dengan rencong di tangan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, dual portrait of Teuku Umar and Cut Nyak Dhien side by side, commander with klewang and noblewoman fighter with rencong, jungle camp behind them, proud heroic medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 42:
+Aku pernah bertempur satu barisan dengan pasukan Teuku Umar. Disiplinnya luar biasa — seperti tentara profesional.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad fighting shoulder to shoulder with Teuku Umar's disciplined troops in a jungle battle, synchronized klewang charge against Dutch soldiers, dust and motion, dynamic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 43:
+Cut Nyak Dhien terkenal tidak pernah mundur. Katanya, ia menyimpan rencong pemberian suaminya — untuk dirinya sendiri kalau tertangkap.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Cut Nyak Dhien in long black hijab standing firm on a battlefield, enemies approaching, her hand on the rencong at her waist, fearless defiant expression, wind in her veil, heroic medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 44:
+Perang ini mengajarkan kami satu hal: kemerdekaan tidak gratis. Kalau kisah ini menyentuhmu, tekan subscribe — biar kisah para pejuang ini tidak mati. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad looking directly toward the viewer with earnest expression, gesturing invitingly, tattered Acehnese flag and jungle camp behind him, warm torchlight, inviting medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 45:
+Tahun seribu delapan ratus sembilan puluh sembilan, kabar duka: Teuku Umar gugur di Meulaboh. Seluruh Aceh berkabung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, grieving Acehnese fighters gathered around a fallen commander's bier draped with a cloth, Ahmad kneeling with head bowed, Teuku Umar's klewang laid on top, rain falling, mournful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 46:
+Aku menangis malam itu — pertama kalinya sejak perang dimulai. Rasanya seperti kehilangan ayah untuk kedua kalinya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad alone at night sitting by a campfire, tears on his face, holding his rencong, fellow fighters sleeping around him, stars above, quiet grief, intimate shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 47:
+Tapi Cut Nyak Dhien tidak berhenti. Ia terus memimpin gerilya, meski usianya menua dan matanya mulai rabun. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Cut Nyak Dhien in black hijab leading a column of guerrilla fighters through mountain mist, leaning on a staff but walking tall, Ahmad's group joining from the side, inspiring wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 48:
+Marechaussee mengepung hutan kami dari tiga arah. Van Daalen bersumpah akan menangkap kami hidup atau mati.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Dutch Marechaussee columns converging on a jungle valley from three directions at dawn, seen from above through the canopy, tiny Acehnese campfires trapped in the middle, encirclement, tense aerial wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 49:
+Tiga hari tiga malam kami tidak tidur. Makan umbi-umbian mentah. Minum air kubangan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, exhausted Ahmad slumped against a tree root at night, chewing a raw tuber, hollow eyes, fellow fighters dozing with klewangs in hand, fireflies in the dark jungle, weary shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 50:
+Sahabatku, Usman, gugur di sampingku hari keempat. Aku bahkan tidak sempat menutup matanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad kneeling beside his fallen friend Usman, a young Acehnese fighter lying still among ferns, Ahmad's grief-stricken face, jungle battle blurred behind, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 51:
+Malam itu aku menulis surat untuk ibu. Surat yang mungkin tidak akan pernah sampai. Tanganku gemetar memegang arang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad writing a farewell letter with a charcoal stick on bark paper by campfire light, trembling hand, his klewang resting beside him, distant patrol sounds, intimate emotional shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 52:
+Adikku yang lima belas tahun itu kini dua puluh lima — dan malam itu ia yang menyemangatiku, bukan sebaliknya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad's younger brother, now a grown fighter of 25, gripping Ahmad's shoulder encouragingly by the campfire, role reversal, both smiling through exhaustion, warm brotherly medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 53:
+Fajar hari kelima, kami menerobos kepungan. Dua puluh orang melawan dua ratus. Kami lolos — tinggal dua belas.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, desperate dawn breakout, twenty Acehnese fighters charging through a gap in the Dutch encirclement, klewangs flashing, Ahmad in front, enemies scattering, explosive dynamic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 54:
+Kami bersembunyi di gua pegunungan. Dari sana aku bisa melihat asap gampong kami yang dibakar. Lagi. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad and surviving fighters hiding at a mountain cave mouth, looking down at their distant village with smoke columns rising, his face hardened with pain, melancholic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 55:
+Ibu... aku tidak tahu kabar ibu. Itu yang paling menyiksa — bukan luka di lenganku, tapi tidak tahu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of Ahmad's anguished face in the cave, clutching the white shroud cloth his mother gave him, a bandaged arm, fellow fighters resting behind, emotional close shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 56:
+Tiga bulan kemudian, seorang kurir datang membawa kabar: ibu selamat. Ia ditampung Cut Nyak Dhien di markasnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, a breathless young courier arriving at the cave with news, Ahmad leaping up with joy, Cut Nyak Dhien's mountain hideout with elderly women being cared for visible in his imagination overlay, hopeful shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 57:
+Aku menangis lagi — kali ini karena lega. Cut Nyak Dhien merawat ibu seperti ibunya sendiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Cut Nyak Dhien in black hijab gently tending to Ahmad's elderly mother in a mountain hut, serving her food, warm maternal care, soft morning light, tender medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 58:
+Tahun seribu sembilan ratus tiga: Sultan Muhammad Daud Syah menyerah. Istana jatuh untuk kedua kalinya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, a young Acehnese sultan in royal dress surrendering his keris to Dutch officers before a ruined palace, fighters watching in despair from the jungle edge, Ahmad among them with clenched jaw, tragic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 59:
+Banyak yang patah semangat. Tapi para ulama berkata: Sultan boleh menyerah, tapi Aceh tidak.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly ulama rallying disheartened fighters in a jungle clearing, raising a staff, Ahmad and others rising to their feet with renewed fire, defiant wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 60:
+Perang terus berlanjut — kini dipimpin para Teungku dan Cut Nyak Dhien yang tak kenal lelah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, small bands of Acehnese guerrillas continuing hit-and-run attacks on Dutch patrols in the mountains, Cut Nyak Dhien directing from a ridge, Ahmad's squad moving below, persistent resistance, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 61:
+Tahun seribu sembilan ratus empat: Belanda menyatakan Aceh telah ditaklukkan. Tapi di hutan, kami masih mengangkat klewang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, a Dutch proclamation poster nailed to a tree declaring victory, while in the background Acehnese guerrillas with raised klewangs melt into the jungle, irony and defiance, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 62:
+Pasukanku tinggal sembilan orang. Sembilan orang melawan sebuah kekaisaran. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, nine weary Acehnese fighters standing shoulder to shoulder in a mountain clearing at dawn, Ahmad in front, grim determined faces, klewangs and rencongs ready, last-stand brotherhood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 63:
+Suatu malam, kami disergap. Aku terkena peluru di bahu. Adikku menyeretku ke dalam hutan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, night ambush reversed, Ahmad's younger brother dragging wounded Ahmad into the dark jungle as Marechaussee troops advance with lanterns behind, desperate escape, dynamic shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 64:
+Tiga hari aku demam. Dalam mimpi, aku melihat ayah memanggilku dari perahunya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, fever dream sequence, Ahmad lying delirious in a jungle hut while his deceased fisherman father appears in a glowing vision rowing a boat toward him, surreal warm light, dreamlike shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 65:
+Aku selamat — tapi perangku selesai. Bahuku tidak akan pernah bisa mengangkat klewang lagi.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad with a bandaged shoulder trying to lift his klewang and failing, his brother gently lowering his arm, sorrowful acceptance, campfire light, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 66:
+Tahun seribu sembilan ratus lima: Cut Nyak Dhien tertangkap. Dibuang ke Sumedang, jauh dari tanah Aceh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Cut Nyak Dhien in black hijab being led away by Dutch soldiers toward a waiting ship, head held high, Acehnese villagers watching in tears from the shore, heartbreaking wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 67:
+Kabar itu menghancurkan hatiku. Perempuan sekuat itu, diasingkan di tanah orang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad hearing the news from a courier, collapsing to his knees in the jungle, face in hands, his brother kneeling beside him, devastating grief, emotional wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 68:
+Kalau menurut saya, Cut Nyak Dhien adalah bukti bahwa keberanian tidak mengenal jenis kelamin — ia memimpin saat para lelaki sudah menyerah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, symbolic tribute portrait of Cut Nyak Dhien in black hijab with rencong, standing tall among ghostly images of her guerrilla fighters, golden light, legendary reverent shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 69:
+Aku pulang ke Ulee Lheue. Gampongku tinggal puing. Tapi ibu masih ada — menungguku di gubuk bambu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad returning to the ruins of Ulee Lheue, burned stilt houses, his elderly mother waiting in a small bamboo hut doorway, emotional reunion embrace, bittersweet wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 70:
+Ia memelukku lama. Kain kafan putih yang dulu diselipkannya, ia simpan kembali — katanya: belum saatnya, Nak.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, tender scene of elderly mother folding the white shroud cloth back into a chest, smiling through tears at Ahmad, warm lamplight in the bamboo hut, intimate emotional shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 71:
+Adikku tidak pulang. Ia gugur setahun kemudian dalam penyergapan terakhir. Aku menguburkannya di bawah pohon kelapa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad digging a grave under a coconut palm at sunset, his brother's klewang planted as a marker, mother praying beside him, solemn farewell, melancholic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 72:
+Tiga puluh satu tahun perang. Tiga puluh satu tahun! Dari aku dua puluh dua sampai aku lima puluh tiga. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, symbolic montage of time passing, young Ahmad the fisherman transforming into an aged weathered veteran, calendar pages and seasons swirling, thirty-one years of war, poignant wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 73:
+Belanda mengklaim menang. Tapi coba lihat: bahasa kami masih ada, masjid kami masih berdiri, anak-anak kami masih bernama Cut dan Teuku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, modern-day Aceh coming alive, children named Cut and Teuku playing near the Baiturrahman mosque, Acehnese language signs, cultural survival and pride, hopeful wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 74:
+Mereka memenangkan pertempuran. Tapi mereka tidak pernah memenangkan hati orang Aceh.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Ahmad looking directly toward the viewer with quiet defiance, ruins of a Dutch fort overgrown by jungle behind him, proud unbroken spirit, intimate confronting shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 75:
+Rencong ayahku kini kugantung di dinding. Ia berkarat — tapi setiap kali kupandang, aku ingat untuk apa kami berjuang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, close-up of the old rusted rencong dagger hanging on a bamboo wall, elderly Ahmad's weathered hand touching it gently, memories reflected in his eyes, nostalgic intimate shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 76:
+Aku menulis semua ini supaya anak cucuku tahu: kemerdekaan yang mereka nikmati dibayar dengan darah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Ahmad writing in a worn journal by oil lamp, pages filled with sketches of the war, his grandchildren peeking curiously over his shoulder, warm legacy mood, intimate shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 77:
+Jujur — kalau kamu tanya aku, harta terbesar para pejuang Aceh bukan tanah. Tapi keberanian untuk berkata tidak kepada yang zalim.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, Ahmad's memory vision, Acehnese fighters standing shoulder to shoulder with raised klewangs against a tyrannical force, golden light, courage and brotherhood, warm heroic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 78:
+Mungkin kamu bertanya: untuk apa semua pengorbanan itu, kalau akhirnya Belanda tetap berkuasa puluhan tahun?
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Ahmad looking directly toward the viewer, questioning expression, the long timeline of occupation stretching behind him, intimate confronting shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 79:
+Jawabanku: kami tidak berjuang untuk menang cepat. Kami berjuang supaya api itu tidak padam — dan puluhan tahun kemudian, api itu menyala jadi kemerdekaan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, symbolic image of a small flame in Ahmad's cupped hands growing into a great torch of independence, silhouettes of future freedom fighters rising behind, transcendent hopeful shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 80:
+Dan benar — tahun seribu sembilan ratus empat puluh lima, Indonesia merdeka. Api dari hutan-hutan Aceh ikut menyalakannya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, jubilant proclamation of Indonesian independence 1945, red and white flag rising, ghostly images of Acehnese guerrillas saluting from the clouds above, legacy fulfilled, epic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 81:
+Inilah akhir kisahku. Dari anak nelayan Ulee Lheue — sampai pejuang yang meletakkan klewangnya dengan kepala tegak.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, final portrait of elderly Ahmad in traditional Acehnese attire standing before the sea at Ulee Lheue at sunset, klewang planted in the sand, epic closing shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 82:
+Kalau kisah ini membuatmu merinding seperti aku waktu mengalaminya — kamu tahu harus apa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Ahmad giving a knowing slight smile toward the viewer, pointing subtly downward, warm friendly closing mood, Aceh coast golden behind him, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 83:
+Tekan subscribe, dan nyalakan loncengnya. Masih banyak kisah sejarah Nusantara yang belum kuceritakan. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Ahmad gesturing invitingly toward the viewer with open hand, ancient maps and journals of future stories spread on a table beside him, warm lamplight, inviting wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 84:
+Besok, aku akan membawamu ke tempat lain. Ke zaman lain. Ke kulit orang lain.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, mysterious teaser collage, shadowy silhouettes of different Nusantara eras, a Borobudur stupa, a phinisi ship, a Majapahit warrior, swirling mist, Ahmad's hand reaching into the mist, intriguing wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 85:
+Tapi untuk malam ini — tidurlah dengan tenang. Tanahmu aman. Aku yang berjaga.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Ahmad standing guard on a peaceful moonlit beach at night, klewang resting on shoulder, calm protective expression, stars and quiet sea, soothing final image, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 86:
+Sampai jumpa di kisah berikutnya. Aku Ahmad — pejuang Aceh yang tidak pernah menyerah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, elderly Ahmad walking away into the golden sunrise along the Ulee Lheue shore, rencong at his waist, new beginning, hopeful farewell wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 87:
+Tiga puluh satu tahun perang, satu rencong warisan ayah, dan satu janji yang tak pernah patah. Inilah kisah kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, epic final montage, the Acehnese flag flying over the coast at sunrise, Ahmad saluting, birds soaring, legendary closing frame, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 88:
+Merdeka itu bukan hadiah. Merdeka itu direbut — dengan keberanian orang-orang biasa sepertiku dan sepertimu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (tropical green, burnt sienna, dusty gold, weathered wood, ember orange), dramatic cinematic composition, not photorealistic, no text, powerful closing image, a young modern Indonesian boy holding a small wooden rencong toy looking up at the towering ghostly figure of Ahmad the veteran, torch of freedom passing between generations, inspiring wide shot, dramatic cinematic composition, not photorealistic, no text

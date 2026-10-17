@@ -1,0 +1,8 @@
+{
+ "channel": "history-en",
+ "instruksi_path": "/home/hatch/workspace/youtube-otomatis/history-en/upload-instruksi-2026-10-09-shorts.md",
+ "slot_target": "2026-10-11 07:00 WIB",
+ "gagal_pada": "2026-10-10T20:31:00+07:00",
+ "video_path": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-07-s1.mp4",
+ "sebab": "Batas upload harian masih tercapai saat retry watchdog 10 Okt 20:31 WIB (task 2/6)"
+}

@@ -1,0 +1,267 @@
+[
+  {
+    "mulai": 0.0,
+    "selesai": 20.04,
+    "durasi": 20.04,
+    "skor": 1,
+    "teks": "Mas Ari nih, selanjutnya makanan umum yang derotmentah. Jadi, digarusnya. Bagaimana terbus? Jadi, jadi cemilan pembuka sebelum buk kapam makan pagi pertama. Bukan pagi, siang. Jendela makan pertama di hari itu ya. Ini biasanya nyemilin ini dulu. Atau di sore, ketika udah",
+    "kata": [
+      {
+        "m": 0.0,
+        "s": 0.16,
+        "t": "Mas",
+        "ss": 0
+      },
+      {
+        "m": 0.16,
+        "s": 0.36,
+        "t": "Ari",
+        "ss": 0
+      },
+      {
+        "m": 0.36,
+        "s": 0.58,
+        "t": "nih,",
+        "ss": 0
+      },
+      {
+        "m": 0.66,
+        "s": 1.02,
+        "t": "selanjutnya",
+        "ss": 0
+      },
+      {
+        "m": 1.02,
+        "s": 1.12,
+        "t": "makanan",
+        "ss": 0
+      },
+      {
+        "m": 1.12,
+        "s": 1.4,
+        "t": "umum",
+        "ss": 0
+      },
+      {
+        "m": 1.4,
+        "s": 1.48,
+        "t": "yang",
+        "ss": 0
+      },
+      {
+        "m": 1.48,
+        "s": 1.9,
+        "t": "derotmentah.",
+        "ss": 0
+      },
+      {
+        "m": 2.54,
+        "s": 2.54,
+        "t": "Jadi,",
+        "ss": 0
+      },
+      {
+        "m": 2.54,
+        "s": 3.52,
+        "t": "digarusnya.",
+        "ss": 0
+      },
+      {
+        "m": 4.04,
+        "s": 4.38,
+        "t": "Bagaimana",
+        "ss": 0
+      },
+      {
+        "m": 4.38,
+        "s": 4.82,
+        "t": "terbus?",
+        "ss": 0
+      },
+      {
+        "m": 5.4,
+        "s": 5.7,
+        "t": "Jadi,",
+        "ss": 0
+      },
+      {
+        "m": 5.9,
+        "s": 6.18,
+        "t": "jadi",
+        "ss": 0
+      },
+      {
+        "m": 6.18,
+        "s": 7.08,
+        "t": "cemilan",
+        "ss": 0
+      },
+      {
+        "m": 7.08,
+        "s": 7.98,
+        "t": "pembuka",
+        "ss": 0
+      },
+      {
+        "m": 7.98,
+        "s": 9.02,
+        "t": "sebelum",
+        "ss": 0
+      },
+      {
+        "m": 9.02,
+        "s": 9.5,
+        "t": "buk",
+        "ss": 0
+      },
+      {
+        "m": 9.5,
+        "s": 9.94,
+        "t": "kapam",
+        "ss": 0
+      },
+      {
+        "m": 9.94,
+        "s": 10.42,
+        "t": "makan",
+        "ss": 0
+      },
+      {
+        "m": 10.42,
+        "s": 10.84,
+        "t": "pagi",
+        "ss": 0
+      },
+      {
+        "m": 10.84,
+        "s": 11.24,
+        "t": "pertama.",
+        "ss": 0
+      },
+      {
+        "m": 11.52,
+        "s": 11.82,
+        "t": "Bukan",
+        "ss": 0
+      },
+      {
+        "m": 11.82,
+        "s": 12.1,
+        "t": "pagi,",
+        "ss": 0
+      },
+      {
+        "m": 12.32,
+        "s": 12.96,
+        "t": "siang.",
+        "ss": 0
+      },
+      {
+        "m": 13.36,
+        "s": 13.64,
+        "t": "Jendela",
+        "ss": 0
+      },
+      {
+        "m": 13.64,
+        "s": 14.12,
+        "t": "makan",
+        "ss": 0
+      },
+      {
+        "m": 14.12,
+        "s": 14.62,
+        "t": "pertama",
+        "ss": 0
+      },
+      {
+        "m": 14.62,
+        "s": 15.06,
+        "t": "di",
+        "ss": 0
+      },
+      {
+        "m": 15.06,
+        "s": 15.32,
+        "t": "hari",
+        "ss": 0
+      },
+      {
+        "m": 15.32,
+        "s": 15.78,
+        "t": "itu",
+        "ss": 0
+      },
+      {
+        "m": 15.78,
+        "s": 16.16,
+        "t": "ya.",
+        "ss": 0
+      },
+      {
+        "m": 16.16,
+        "s": 16.44,
+        "t": "Ini",
+        "ss": 0
+      },
+      {
+        "m": 16.44,
+        "s": 17.08,
+        "t": "biasanya",
+        "ss": 0
+      },
+      {
+        "m": 17.08,
+        "s": 17.6,
+        "t": "nyemilin",
+        "ss": 0
+      },
+      {
+        "m": 17.6,
+        "s": 17.78,
+        "t": "ini",
+        "ss": 0
+      },
+      {
+        "m": 17.78,
+        "s": 18.12,
+        "t": "dulu.",
+        "ss": 0
+      },
+      {
+        "m": 18.68,
+        "s": 18.82,
+        "t": "Atau",
+        "ss": 0
+      },
+      {
+        "m": 18.82,
+        "s": 19.06,
+        "t": "di",
+        "ss": 0
+      },
+      {
+        "m": 19.06,
+        "s": 19.34,
+        "t": "sore,",
+        "ss": 0
+      },
+      {
+        "m": 19.48,
+        "s": 19.76,
+        "t": "ketika",
+        "ss": 0
+      },
+      {
+        "m": 19.76,
+        "s": 20.04,
+        "t": "udah",
+        "ss": 0
+      }
+    ],
+    "alasan": [
+      "kalimat tanya (x1)"
+    ],
+    "id": 1
+  }
+]

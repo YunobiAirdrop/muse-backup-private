@@ -1,0 +1,94 @@
+ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.3.0-6ubuntu2~24.04.1)
+  configuration: --prefix=/usr --extra-version= --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-pocketsphinx --disable-libcaca --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-ladspa --enable-libbluray --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libjxl --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --disable-libplacebo --enable-frei0r --enable-sdl2 --enable-librav1e --enable-librsvg --enable-shared
+  libavutil      60. 26.102 / 60. 26.102
+  libavcodec     62. 28.102 / 62. 28.102
+  libavformat    62. 12.102 / 62. 12.102
+  libavdevice    62.  3.102 / 62.  3.102
+  libavfilter    11. 14.102 / 11. 14.102
+  libswscale      9.  5.102 /  9.  5.102
+  libswresample   6.  3.102 /  6.  3.102
+Input #0, concat, from '/home/hatch/workspace/youtube-otomatis/history-en/work-2026-10-11/audiolist2.txt':
+  Duration: N/A, start: -0.025057, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 128 kb/s, start -0.025057
+    Metadata:
+      encoder         : Lavc62.28
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to '/home/hatch/workspace/youtube-otomatis/history-en/audio/2026-10-11/gabungan-fix-2026-10-11.mp3':
+  Metadata:
+    TSSE            : Lavf62.12.102
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : Lavc62.28.102 libmp3lame
+[mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+[af#0:0 @ 0x5611ae9cf280] Reconfiguring filter graph because audio parameters changed to 44100 Hz, mono, fltp
+[af#0:0 @ 0x5611ae9cf280] Reconfiguring filter graph because audio parameters changed to 24000 Hz, mono, fltp
+size=     144KiB time=00:00:09.20 bitrate= 127.9kbits/s speed=18.4x elapsed=0:00:00.50    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=     256KiB time=00:00:18.61 bitrate= 112.7kbits/s speed=18.6x elapsed=0:00:01.00    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=     256KiB time=00:00:28.53 bitrate=  73.5kbits/s speed=  19x elapsed=0:00:01.50    size=     256KiB time=00:00:31.82 bitrate=  65.9kbits/s speed=15.9x elapsed=0:00:02.00    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=     512KiB time=00:00:37.02 bitrate= 113.3kbits/s speed=14.8x elapsed=0:00:02.50    size=     512KiB time=00:00:44.00 bitrate=  95.3kbits/s speed=14.6x elapsed=0:00:03.00    size=     768KiB time=00:00:51.55 bitrate= 122.0kbits/s speed=14.7x elapsed=0:00:03.50    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=     768KiB time=00:01:01.76 bitrate= 101.9kbits/s speed=15.4x elapsed=0:00:04.00    size=    1024KiB time=00:01:09.02 bitrate= 121.5kbits/s speed=15.3x elapsed=0:00:04.50    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    1024KiB time=00:01:15.03 bitrate= 111.8kbits/s speed=  15x elapsed=0:00:05.00    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    1024KiB time=00:01:20.88 bitrate= 103.7kbits/s speed=14.7x elapsed=0:00:05.50    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    1280KiB time=00:01:27.83 bitrate= 119.4kbits/s speed=14.6x elapsed=0:00:06.01    size=    1280KiB time=00:01:32.51 bitrate= 113.3kbits/s speed=14.2x elapsed=0:00:06.51    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    1536KiB time=00:01:42.14 bitrate= 123.2kbits/s speed=14.6x elapsed=0:00:07.01    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    1536KiB time=00:01:49.41 bitrate= 115.0kbits/s speed=14.6x elapsed=0:00:07.51    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    1792KiB time=00:01:55.52 bitrate= 127.1kbits/s speed=14.4x elapsed=0:00:08.01    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    1792KiB time=00:02:04.01 bitrate= 118.4kbits/s speed=14.6x elapsed=0:00:08.51    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    2048KiB time=00:02:15.56 bitrate= 123.8kbits/s speed=  15x elapsed=0:00:09.01    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=    2048KiB time=00:02:26.92 bitrate= 114.2kbits/s speed=15.4x elapsed=0:00:09.51    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    2304KiB time=00:02:34.34 bitrate= 122.3kbits/s speed=15.4x elapsed=0:00:10.01    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    2560KiB time=00:02:47.29 bitrate= 125.4kbits/s speed=15.9x elapsed=0:00:10.51    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    2816KiB time=00:03:01.84 bitrate= 126.9kbits/s speed=16.5x elapsed=0:00:11.01    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=    3072KiB time=00:03:17.83 bitrate= 127.2kbits/s speed=17.2x elapsed=0:00:11.51    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=    3328KiB time=00:03:35.20 bitrate= 126.7kbits/s speed=17.9x elapsed=0:00:12.01    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=    3584KiB time=00:03:54.17 bitrate= 125.4kbits/s speed=18.7x elapsed=0:00:12.51    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=    3840KiB time=00:04:08.61 bitrate= 126.5kbits/s speed=19.1x elapsed=0:00:13.01    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    3840KiB time=00:04:17.68 bitrate= 122.1kbits/s speed=19.1x elapsed=0:00:13.51    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    4096KiB time=00:04:25.12 bitrate= 126.6kbits/s speed=18.9x elapsed=0:00:14.01    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    4096KiB time=00:04:34.71 bitrate= 122.1kbits/s speed=18.9x elapsed=0:00:14.51    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    4352KiB time=00:04:41.89 bitrate= 126.5kbits/s speed=18.8x elapsed=0:00:15.01    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    4352KiB time=00:04:53.15 bitrate= 121.6kbits/s speed=18.9x elapsed=0:00:15.51    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    4608KiB time=00:04:59.79 bitrate= 125.9kbits/s speed=18.7x elapsed=0:00:16.01    size=    4608KiB time=00:05:06.66 bitrate= 123.1kbits/s speed=18.6x elapsed=0:00:16.51    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    4864KiB time=00:05:13.19 bitrate= 127.2kbits/s speed=18.4x elapsed=0:00:17.02    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    4864KiB time=00:05:18.91 bitrate= 124.9kbits/s speed=18.2x elapsed=0:00:17.52    size=    4864KiB time=00:05:23.25 bitrate= 123.3kbits/s speed=17.9x elapsed=0:00:18.02    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    5120KiB time=00:05:28.42 bitrate= 127.7kbits/s speed=17.7x elapsed=0:00:18.52    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    5120KiB time=00:05:34.90 bitrate= 125.2kbits/s speed=17.6x elapsed=0:00:19.02    size=    5120KiB time=00:05:41.77 bitrate= 122.7kbits/s speed=17.5x elapsed=0:00:19.52    size=    5376KiB time=00:05:45.63 bitrate= 127.4kbits/s speed=17.3x elapsed=0:00:20.02    size=    5376KiB time=00:05:53.36 bitrate= 124.6kbits/s speed=17.2x elapsed=0:00:20.52    size=    5376KiB time=00:05:57.26 bitrate= 123.3kbits/s speed=  17x elapsed=0:00:21.02    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    5632KiB time=00:06:05.98 bitrate= 126.1kbits/s speed=  17x elapsed=0:00:21.52    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    5632KiB time=00:06:10.40 bitrate= 124.6kbits/s speed=16.8x elapsed=0:00:22.03    size=    5632KiB time=00:06:14.65 bitrate= 123.1kbits/s speed=16.6x elapsed=0:00:22.53    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    5888KiB time=00:06:22.10 bitrate= 126.2kbits/s speed=16.6x elapsed=0:00:23.03    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    5888KiB time=00:06:27.77 bitrate= 124.4kbits/s speed=16.5x elapsed=0:00:23.53    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    6144KiB time=00:06:34.27 bitrate= 127.7kbits/s speed=16.4x elapsed=0:00:24.03    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    6144KiB time=00:06:39.86 bitrate= 125.9kbits/s speed=16.3x elapsed=0:00:24.53    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    6144KiB time=00:06:49.42 bitrate= 122.9kbits/s speed=16.4x elapsed=0:00:25.03    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    6400KiB time=00:06:57.34 bitrate= 125.6kbits/s speed=16.3x elapsed=0:00:25.53    size=    6400KiB time=00:07:04.18 bitrate= 123.6kbits/s speed=16.3x elapsed=0:00:26.04    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=    6656KiB time=00:07:20.09 bitrate= 123.9kbits/s speed=16.6x elapsed=0:00:26.54    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=    6912KiB time=00:07:29.55 bitrate= 126.0kbits/s speed=16.6x elapsed=0:00:27.04    size=    7168KiB time=00:07:40.88 bitrate= 127.4kbits/s speed=16.7x elapsed=0:00:27.54    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    7168KiB time=00:07:50.89 bitrate= 124.7kbits/s speed=16.8x elapsed=0:00:28.04    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=    7424KiB time=00:08:02.96 bitrate= 125.9kbits/s speed=16.9x elapsed=0:00:28.54    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    7680KiB time=00:08:14.14 bitrate= 127.3kbits/s speed=  17x elapsed=0:00:29.04    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    7936KiB time=00:08:31.04 bitrate= 127.2kbits/s speed=17.3x elapsed=0:00:29.54    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=    8192KiB time=00:08:46.50 bitrate= 127.5kbits/s speed=17.5x elapsed=0:00:30.05    size=    8192KiB time=00:08:54.03 bitrate= 125.7kbits/s speed=17.5x elapsed=0:00:30.56    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    8448KiB time=00:09:05.05 bitrate= 127.0kbits/s speed=17.5x elapsed=0:00:31.06    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    8448KiB time=00:09:13.46 bitrate= 125.0kbits/s speed=17.5x elapsed=0:00:31.56    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=    8704KiB time=00:09:22.68 bitrate= 126.7kbits/s speed=17.6x elapsed=0:00:32.06    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    8704KiB time=00:09:31.54 bitrate= 124.8kbits/s speed=17.6x elapsed=0:00:32.56    size=    8960KiB time=00:09:42.38 bitrate= 126.0kbits/s speed=17.6x elapsed=0:00:33.06    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    9216KiB time=00:09:51.78 bitrate= 127.6kbits/s speed=17.6x elapsed=0:00:33.56    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+size=    9216KiB time=00:10:00.87 bitrate= 125.6kbits/s speed=17.6x elapsed=0:00:34.06    [mp3 @ 0x5611ae9b9580] Estimating duration from bitrate, this may be inaccurate
+    Last message repeated 1 times
+size=    9472KiB time=00:10:16.94 bitrate= 125.8kbits/s speed=17.8x elapsed=0:00:34.59    [out#0/mp3 @ 0x5611ae9c24c0] video:0KiB audio:9679KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.004661%
+size=    9679KiB time=00:10:19.44 bitrate= 128.0kbits/s speed=17.8x elapsed=0:00:34.71    

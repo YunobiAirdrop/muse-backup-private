@@ -1,0 +1,56 @@
+[
+ {
+  "category": "weird-facts",
+  "date": "2026-10-05",
+  "status": "UPLOAD TERTUNDA 2026-10-06 — login Google khususstokyunobi@gmail.com ditolak (password tersimpan salah, berulang sejak 2026-10-03 & 2026-10-05). Browser task diparkir di halaman password Google, menunggu kata sandi benar via secure card.",
+  "topic": "The Great Emu War of 1932 — When Australia Lost a War to Birds"
+ },
+ {
+  "date": "2026-10-07",
+  "topic": "Real Animals With Actual Superpowers",
+  "category": "weird-facts",
+  "status": "DIPRODUKSI+UPLOAD 2026-10-08 — video 9.6 mnt (72 gambar, VO Inggris) diupload ke @BizarreWorldDaily, terjadwal 2026-10-09 07:00 WIB, menunggu ketukan user 20:00-22:00. Text overlay 4 momen dilewati (antrean render penuh)."
+ },
+ {
+  "date": "2026-10-09",
+  "topic": "3 SHORTS dari long Real Animals With Actual Superpowers (tardigrade hook REBUILD, pistol shrimp, mantis shrimp)",
+  "category": "weird-facts",
+  "status": "DIPRODUKSI 2026-10-09 — upload 3 shorts ke @BizarreWorldDaily GAGAL 17:01 WIB: batas upload harian YouTube. Masuk retry-queue (weird-en-2026-10-09-s1/s2/s3.json), slot target 2026-10-11 07:00 WIB. Verifikasi channel Studio OK sebelum upload."
+ },
+ {
+  "date": "2026-10-10",
+  "topic": "Your Body Is Lying To You — 7 weird human body facts (battle: which body part is the WEIRDEST?)",
+  "category": "weird-facts",
+  "status": "UPLOAD GAGAL 2026-10-10 18:40 WIB — 'Batas upload harian telah tercapai' (channel @BizarreWorldDaily terverifikasi OK). Video 9.6 mnt siap; masuk retry-queue (retry-queue/weird-en-2026-10-10.json), slot target 2026-10-12 07:00 WIB. Watchdog 20:00 WIB mengerjakan jika umur >=23 jam. Thumbnail kustom perlu diunggah manual saat retry (otomasi gagal: tombol terhalang)."
+ },
+ {
+  "date": "2026-10-10",
+  "topic": "Your Body Is Lying To You — 7 Weird Human Body Facts (battle ranking)",
+  "category": "weird-facts",
+  "status": "UPLOAD GAGAL 2026-10-10 18:40 WIB — 'Batas upload harian telah tercapai' (channel @BizarreWorldDaily terverifikasi OK). Video 9.6 mnt siap; masuk retry-queue (retry-queue/weird-en-2026-10-10.json), slot target 2026-10-12 07:00 WIB. Watchdog 20:00 WIB mengerjakan jika umur >=23 jam. Thumbnail kustom perlu diunggah manual saat retry (otomasi gagal: tombol terhalang)."
+ },
+ {
+  "date": "2026-10-11",
+  "topic": "3 SHORTS dari long 'Your Body Is Lying To You' (s1: brain eats itself when you skip sleep; s2: stomach acid dissolves metal + rebuilds lining 2x/week; s3: DNA reaches the sun and back 200x)",
+  "category": "weird-facts",
+  "status": "DIPRODUKSI 2026-10-11 — 3 shorts vertikal 720x1280 (s1 57.5s, s2 48.08s, s3 42.05s), hook overlay 3 detik + 2 text overlay + CTA overlay 3 detik terakhir tiap short, gambar disinkronkan ulang ke narasi per beat. Upload TIDAK dicoba (limit harian @BizarreWorldDaily terkonfirmasi 07:18 WIB); masuk retry-queue (weird-en-2026-10-11-s1/s2/s3.json), slot staggered 2026-10-13/14/15 07:00 WIB. Instruksi: data/webpost/instruksi-weird-en-2026-10-11.json."
+ },
+ {
+  "date": "2026-10-12",
+  "topic": "7 Places on Earth That Look Completely FAKE (Socotra, Sailing Stones, Danakil, Naica, Lake Hillier, Salar de Uyuni, Catatumbo — grouping by zone)",
+  "category": "weird-facts",
+  "status": "DIPRODUKSI 2026-10-12 — video 573.1s/9.55mnt 1280x720 (73 beats, 1120 kata, TTS Miles EN, 73 gambar storybook, single-pass + grain + 8 overlay, thumbnail 'PLACES THAT LOOK FAKE'). Upload browser task: channel belum sempat diverifikasi karena Google meminta 2-Step Verification — task parkir needs_user menunggu persetujuan 2FA user (aturan login: bilang dulu). BUKAN gagal limit harian. Target Terjadwal 2026-10-13 07:00 WIB setelah 2FA disetujui; instruksi lengkap di upload-2026-10-12.json."
+ },
+ {
+  "date": "2026-10-13",
+  "category": "weird-facts",
+  "topic": "7 Times Real History Went Completely BONKERS (Dancing Plague 1518, Kentucky Meat Shower 1876, London Beer Flood 1814, Molasses Flood 1919, Exploding Trousers NZ 1930s, Tunguska 1908, Fish Rain Honduras - format BARU 'Weirdness Face-Off' scored rounds + champion verdict)",
+  "status": "DIPRODUKSI+UPLOAD 2026-10-13 via API yt-growth (slug weird-en) - videoId 6y6gU0GvHLs, private terjadwal publishAt 2026-10-14T00:00:00Z (14 Okt 07:00 WIB), channel UCJ6KqdYvVJ-PaxhGLfTFVhA terverifikasi, anti-dobel lolos. Video 656s/10.9mnt 1280x720 (74 beats, 1114 kata, TTS Miles EN, 74 gambar storybook, bumper user disisipkan setelah beat 59 + overlay WEIRD WORLD DAILY, single-pass + grain + 8 overlay + CTA 50% durasi). SEO audit 100/100. Thumbnail kustom DITOLAK API 403 (belum verifikasi HP) -> thumbnail otomatis. AI disclosure Studio MASIH PERLU dicentang manual (tindak lanjut agen induk). 8 gambar diganti salinan tetangga se-scene (integrity check menolak: 3 gambar trousers terbakar + 5 gambar beer flood)."
+ },
+ {
+  "date": "2026-10-15",
+  "category": "weird-facts",
+  "topic": "7 Mind-Bending Things About TIME That Will Break Your Brain (grouped: Time on Earth / Time in Space / Time Inside Your Brain — host Bo)",
+  "status": "DIPRODUKSI+UPLOAD 2026-10-15 via API yt-growth (slug weird-en) - videoId vXdKJC7sDZg, https://youtu.be/vXdKJC7sDZg, private terjadwal publishAt 2026-10-16T00:00:00Z (16 Okt 07:00 WIB), channel UCJ6KqdYvVJ-PaxhGLfTFVhA terverifikasi, anti-dobel lolos. Video 593s/9.9mnt 1280x720 (74 beats, 1154 kata, TTS Miles EN, 74 gambar storybook, bumper user disisipkan setelah beat 42 + overlay WEIRD WORLD DAILY, single-pass + grain + vignette + 10 overlay + CTA 50% durasi). Thumbnail kustom DITOLAK API 403 (belum verifikasi HP) -> thumbnail otomatis. AI disclosure Studio MASIH PERLU dicentang manual (tindak lanjut agen induk). 3 shorts bank untuk besok: shorts/2026-10-15-s1/s2/s3.mp4."
+ }
+]

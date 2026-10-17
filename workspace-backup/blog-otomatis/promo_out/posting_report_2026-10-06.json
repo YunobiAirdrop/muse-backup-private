@@ -1,0 +1,125 @@
+{
+ "tanggal": "2026-10-06",
+ "hasil": [
+  {
+   "produk": "Paket Cream JRG Glowing BPOM",
+   "akun": "IG",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a110ba679d73fa9454da6ad6a98674\"},\"media_fbid\":\"18095606069395871\"}\n"
+  },
+  {
+   "produk": "Paket Cream JRG Glowing BPOM",
+   "akun": "Threads-1",
+   "status": "RATE_LIMIT",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write Rate Limit Reached: The daily limit for this Thre"
+  },
+  {
+   "produk": "Paket Cream JRG Glowing BPOM",
+   "akun": "Threads-2",
+   "status": "RATE_LIMIT",
+   "info": "diskip: rate limit Threads masih aktif, coba lagi lewat tengah malam"
+  },
+  {
+   "produk": "Paket Cream JRG Glowing BPOM",
+   "akun": "FB",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[61592661515070,1347201611814398,1633395108222123,122101972605498449],\"message_ids\":[]},\"tool_call_id\":\"call_01a110ba679d73fa9454da6ad6a98674\"},\"acting_account_id\":\"615926615"
+  },
+  {
+   "produk": "ThePods Gen 4 TWS Bluetooth ANC",
+   "akun": "IG",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "ThePods Gen 4 TWS Bluetooth ANC",
+   "akun": "Threads-1",
+   "status": "RATE_LIMIT",
+   "info": "diskip: rate limit Threads masih aktif, coba lagi lewat tengah malam"
+  },
+  {
+   "produk": "ThePods Gen 4 TWS Bluetooth ANC",
+   "akun": "Threads-2",
+   "status": "RATE_LIMIT",
+   "info": "diskip: rate limit Threads masih aktif, coba lagi lewat tengah malam"
+  },
+  {
+   "produk": "ThePods Gen 4 TWS Bluetooth ANC",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "ThePods Pro 3 TWS ANC Original",
+   "akun": "IG",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "ThePods Pro 3 TWS ANC Original",
+   "akun": "Threads-1",
+   "status": "RATE_LIMIT",
+   "info": "diskip: rate limit Threads masih aktif, coba lagi lewat tengah malam"
+  },
+  {
+   "produk": "ThePods Pro 3 TWS ANC Original",
+   "akun": "Threads-2",
+   "status": "RATE_LIMIT",
+   "info": "diskip: rate limit Threads masih aktif, coba lagi lewat tengah malam"
+  },
+  {
+   "produk": "ThePods Pro 3 TWS ANC Original",
+   "akun": "FB",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[61592661515070,1098662445885517,1347201611814398,122101984263498449],\"message_ids\":[]},\"tool_call_id\":\"call_01a110ba679d73fa9454da6ad6a98674\"},\"acting_account_id\":\"615926615"
+  },
+  {
+   "produk": "Panci Wajan Cast Iron Pancaguna",
+   "akun": "IG",
+   "status": "RATE_LIMIT",
+   "info": "Error: publish Instagram reel_with_feed media\n\nCaused by:\n    instagram cli failed with HTTP 429 Too Many Requests\n"
+  },
+  {
+   "produk": "Panci Wajan Cast Iron Pancaguna",
+   "akun": "Threads-1",
+   "status": "RATE_LIMIT",
+   "info": "diskip: rate limit Threads masih aktif, coba lagi lewat tengah malam"
+  },
+  {
+   "produk": "Panci Wajan Cast Iron Pancaguna",
+   "akun": "Threads-2",
+   "status": "RATE_LIMIT",
+   "info": "diskip: rate limit Threads masih aktif, coba lagi lewat tengah malam"
+  },
+  {
+   "produk": "Panci Wajan Cast Iron Pancaguna",
+   "akun": "FB",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[61592661515070,1092976597040629,1347201611814398,122101984773498449],\"message_ids\":[]},\"tool_call_id\":\"call_01a110ba679d73fa9454da6ad6a98674\"},\"acting_account_id\":\"615926615"
+  },
+  {
+   "produk": "Alat Rebus Telur Elektrik",
+   "akun": "IG",
+   "status": "RATE_LIMIT",
+   "info": "Error: publish Instagram reel_with_feed media\n\nCaused by:\n    instagram cli failed with HTTP 429 Too Many Requests\n"
+  },
+  {
+   "produk": "Alat Rebus Telur Elektrik",
+   "akun": "Threads-1",
+   "status": "RATE_LIMIT",
+   "info": "diskip: rate limit Threads masih aktif, coba lagi lewat tengah malam"
+  },
+  {
+   "produk": "Alat Rebus Telur Elektrik",
+   "akun": "Threads-2",
+   "status": "RATE_LIMIT",
+   "info": "diskip: rate limit Threads masih aktif, coba lagi lewat tengah malam"
+  },
+  {
+   "produk": "Alat Rebus Telur Elektrik",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  }
+ ]
+}

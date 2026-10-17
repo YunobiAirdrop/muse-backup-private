@@ -1,0 +1,6 @@
+file '/home/hatch/workspace/youtube-otomatis/history-en/work-2026-10-11/chunk-c1.mp3'
+file '/home/hatch/workspace/youtube-otomatis/history-en/work-2026-10-11/chunk-c2.mp3'
+file '/home/hatch/workspace/youtube-otomatis/history-en/work-2026-10-11/chunk-c3.mp3'
+file '/home/hatch/workspace/youtube-otomatis/history-en/work-2026-10-11/chunk-c4.mp3'
+file '/home/hatch/workspace/youtube-otomatis/history-en/work-2026-10-11/chunk-c5.mp3'
+file '/home/hatch/workspace/youtube-otomatis/history-en/work-2026-10-11/chunk-c6.mp3'

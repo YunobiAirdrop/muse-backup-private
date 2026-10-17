@@ -1,0 +1,543 @@
+TUGAS: Upload 40 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Kerjakan BERURUTAN nomor 1-40. Nama file di bawah UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 1/40 ===
+FILE: 01-tinybuilders-dola-shorts-2026-10-10.mp4
+CHANNEL: tinybuilders | ID: UCjy7bWJU5gULDIYjPmTg9xg
+JUDUL: Tiny Workers Pour a PERFECT Concrete Foundation! #shorts #miniature #diy
+DESKRIPSI: Watch these tiny construction workers pour a flawless concrete foundation for their miniature build. Every detail is perfect down to the last drop! 
+  
+ Full build on Tiny Builders
+TAGS: miniature, diy miniature, tiny build, shorts, concrete, construction
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 2/40 ===
+FILE: 02-kisahalkitab-kisah-alkitab-2026-10-10-long-upload-720p.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: Dijual Saudara Sendiri, Malah Jadi Penguasa Mesir — Kisah Yusuf
+DESKRIPSI: Dilempar ke sumur kering oleh kakak-kakaknya sendiri, dijual sebagai budak seharga 20 syikal perak, difitnah, dijebloskan ke penjara — lalu dalam SEHARI diangkat menjadi penguasa kedua di seluruh Mesir. Kisah Yusuf (Kejadian 37–50) adalah salah satu kisah paling dramatis dalam Alkitab. 
+  
+ Yang membuat saya takjub: di setiap titik terendah hidupnya, Alkitab selalu menulis kalimat yang sama — TUHAN menyertai Yusuf. Bahkan di dalam penjara yang pengap, penyertaan itu tidak pernah pergi. 
+  
+ Pelajaran yang saya ambil: luka yang paling dalam justru bisa menjadi jalan bagi rencana yang paling indah — kalau kita percaya ada tangan yang lebih besar yang sedang bekerja, bahkan di sumur yang paling gelap sekalipun. 
+  
+ 0:00 Air mata di istana Mesir 
+ 0:50 Anak kesayangan dan jubah warna-warni 
+ 3:05 Sumur, perbudakan, dan penjara 
+ 5:55 Mimpi Firaun dan kebangkitan 
+ 8:30 Pengampunan: "Allah mereka-rekakannya untuk kebaikan" 
+  
+ #kisahalkitab #yusuf #renungankristen #alkitab #rohanikristen #firmantuhan #kejadian #kisahyusuf
+TAGS: kisah alkitab, kisah yusuf, kejadian 37, yusuf dan saudara-saudaranya, renungan kristen, cerita alkitab, firman tuhan, rohani kristen, tokoh alkitab, perjanjian lama, inspirasi kristen, saat teduh, iman kristen, renungan harian, kristen indonesia, bible story indonesia, yusuf di mesir, pengampunan, kisah nyata alkitab
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 3/40 ===
+FILE: 03-weird-en-2026-10-10-final.mp4
+CHANNEL: @BizarreWorldDaily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: Your Body Is LYING to You (7 Facts That Prove It)
+DESKRIPSI: Your body has been lying to you your whole life — and I have the receipts. 🧠 From a brain that eats itself when you skip sleep, to a stomach that rebuilds itself twice a week, these 7 weird human body facts sound fake but are 100% real science. 
+  
+ I ranked every body part by weirdness — brain, stomach, eyes, skin, bones, DNA, and your secret second brain — and the winner genuinely broke my brain. Which body part do YOU think is the weirdest? Tell me in the comments! 
+  
+ CHAPTERS: 
+ 0:02 Hook: Your Body Is Lying 
+ 0:57 Round 1: Brain 
+ 2:26 Round 2: Stomach 
+ 3:31 Round 3: Eyes 
+ 4:43 Round 4: Skin 
+ 5:51 Round 5: Bones 
+ 6:54 Round 6: DNA 
+ 8:01 Final Round: Gut 
+ 9:32 Verdict 
+  
+ Personally, the brain-eating-itself fact keeps me up at night. Which is ironic, because that's exactly what causes it. 😅 
+  
+ #weirdfacts #humanbody #didyouknow #sciencefacts #weirdworld #bodyfacts #amazingfacts #mindblown
+TAGS: weird facts, human body facts, body facts, weird human body, did you know, science facts, amazing facts, human anatomy, brain facts, mind blowing facts, interesting facts, weird world, bizarre facts, unbelievable facts, strange facts, biology facts, psychology facts, educational, facts video, wow facts
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 4/40 ===
+FILE: 04-lima-misteri-2026-10-07-s3.mp4
+CHANNEL: Lima Misteri | ID: UCQ0vHTsTqVeYy3zLno6pVfQ
+JUDUL: Pocong Terekam CCTV di Kebun Pisang! | Lima Misteri #shorts #misteri #penampakan
+DESKRIPSI: (kosong)
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 5/40 ===
+FILE: 05-lima-misteri-video-2026-10-09-final.mp4
+CHANNEL: lima-misteri | ID: UCQ0vHTsTqVeYy3zLno6pVfQ
+JUDUL: 5 Kejadian Aneh Paling Ngeri, Nomor 1 Bikin Merinding
+DESKRIPSI: Lima kejadian aneh yang benar-benar terdokumentasi — dari penampakan di rumah sakit tua sampai desa yang hilang dari peta. Nomor 1 paling bikin merinding, aku sampai kebawa mimpi waktu riset ceritanya. 
+  
+ Jujur, episode kali ini beda. Biasanya aku masih bisa cari penjelasan logisnya, tapi rekaman CCTV rumah sakit tua itu... aku ulang nonton berkali-kali tetap nggak nemu jawabannya. Kalau kalian punya teori, aku pengen banget baca. 
+  
+ Menurut kalian kejadian nomor berapa yang paling nggak masuk akal? Tulis di komentar — komentar paling menarik aku pin! 👇 
+  
+ Bab: 
+ 0:00 Intro 
+ 0:53 Nomor 1: Rumah Sakit Tua 
+ 3:07 Nomor 2: Sosok Putih di Jalan Tol 
+ 4:47 Nomor 3: Cahaya Misterius di Langit Kota 
+ 6:05 Nomor 4: Desa yang Hilang dari Peta 
+ 7:38 Nomor 5: Laut Surut Tiba-tiba 
+ 8:45 Penutup 
+  
+ 🛒 Paket Cream JRG Glowing BPOM (Rp76.000): https://s.shopee.co.id/4fwgOHU4Q8 
+ 🛒 Panci Wajan Cast Iron Pancaguna (Rp364.100): https://s.shopee.co.id/7faHxkFSgS 
+  
+ #misteri #penampakan #kejadiananeh #indonesia #rumahsakitangker #misteriindonesia
+TAGS: misteri indonesia, kejadian aneh, penampakan hantu, rumah sakit angker, sosok putih jalan tol, ufo indonesia, cahaya misterius, desa hilang, desa gaib, laut surut misterius, kisah misteri, cerita horor, misteri dunia, fenomena aneh, hantu indonesia, legenda urban, lima misteri, kejadian misterius, misteri terbaru, penampakan nyata
+VISIBILITAS: PUBLIKASI SEKARANG
+THUMB: 05-lima-misteri-thumb.jpg
+
+=== VIDEO 6/40 ===
+FILE: 06-history-en-2026-10-07.mp4
+CHANNEL: Echoes of History Channel | ID: UCCBGIbsfMo2TmyhbUzHxD0A
+JUDUL: 1816: The Year Summer Never Came
+DESKRIPSI: Have you ever wondered how a mountain exploding on a tropical island could make it snow in July, half a world away? This is the story that has haunted me ever since I first heard it. 
+  
+ In April 1815, Mount Tambora erupted with the loudest sound in recorded human history, erasing two kingdoms and even a language. A year later, its ash veiled the sun, crops failed across the globe, and in a darkened Swiss villa, an eighteen-year-old girl dreamed of a monster called Frankenstein. 
+  
+ CHAPTERS: 
+ 0:03 Snow in July 
+ 1:35 The Mountain That Roared 
+ 3:27 A Kingdom Erased 
+ 5:04 The Veil Around the World 
+ 6:44 Monsters Born of Darkness 
+ 8:27 The Warning 
+ 9:50 Echoes 
+  
+ If you love epic stories from world history, subscribe to Echoes of History Channel for a new documentary every day. 
+  
+ #history #documentary #tambora #1816 #volcano
+TAGS: mount tambora 1815, year without a summer, 1816, mary shelley frankenstein, volcano eruption documentary, world history documentary, echoes of history
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 7/40 ===
+FILE: 07-history-en-2026-10-07-s1.mp4
+CHANNEL: Echoes of History Channel | ID: UCCBGIbsfMo2TmyhbUzHxD0A
+JUDUL: It Snowed in July 1816 #shorts #history #documentary
+DESKRIPSI: In July 1816, it snowed in New England. Crops rotted, families starved, and an 18-year-old girl dreamed of a monster. All because a mountain exploded on the other side of the planet. 
+  
+ Watch the full story on Echoes of History Channel.
+TAGS: year without a summer, 1816, mary shelley, history shorts
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 8/40 ===
+FILE: 08-history-en-2026-10-07-s2.mp4
+CHANNEL: Echoes of History Channel | ID: UCCBGIbsfMo2TmyhbUzHxD0A
+JUDUL: The Loudest Sound in History #shorts #history #documentary
+DESKRIPSI: Mount Tambora's 1815 eruption was heard 2,600 kilometers away. To this day, it remains the loudest sound in recorded human history. 
+  
+ Watch the full story on Echoes of History Channel.
+TAGS: tambora eruption, loudest sound, volcano, history shorts
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 9/40 ===
+FILE: 09-history-en-2026-10-07-s3.mp4
+CHANNEL: Echoes of History Channel | ID: UCCBGIbsfMo2TmyhbUzHxD0A
+JUDUL: A Volcano Invented Frankenstein #shorts #history #documentary
+DESKRIPSI: A volcano darkened the sun in 1816, and in the gloom of Lake Geneva, Mary Shelley dreamed of a monster. Frankenstein was born from a volcanic winter. 
+  
+ Watch the full story on Echoes of History Channel.
+TAGS: frankenstein, mary shelley, tambora, history shorts
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 10/40 ===
+FILE: 10-horror-en-2026-10-08.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: The Trail That Whispers Back — A Horror Story
+DESKRIPSI: A hiker walks out of the Appalachian Trail screaming — because for six days, something in the woods had been calling his name in his own voice. 
+  
+ This one genuinely scared me. I've told a lot of scary stories on this channel, and I still think about this one when the house goes quiet at night. 
+  
+ An original horror story from Midnight Dread Tales. New nightmares every night — subscribe if you dare. 
+  
+ This is an original work of fiction. All characters, places, and events are imagined. This video was created with the assistance of AI tools (voiceover, illustrations). 
+  
+ #horror #scarystories #horrorstories #creepypasta #ghoststories
+TAGS: horror stories, scary stories, creepypasta, horror narration, ghost stories, urban legend, haunted, midnight dread tales
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 11/40 ===
+FILE: 11-horror-en-2026-10-09-s1.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: The Stranger in the Shelter Knew His Name 😱 #shorts #horror #scarystories
+DESKRIPSI: A motionless stranger in a rain-soaked shelter called Elias by name — a name he never told him. From "The Trail That Whispers Back", a Midnight Dread Tales original.
+TAGS: horror, scary stories, creepypasta, short horror, ghost stories, midnight dread tales
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 12/40 ===
+FILE: 12-horror-en-2026-10-09-s2.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: Something Unzipped His Tent at Midnight 😱 #shorts #horror #scarystories
+DESKRIPSI: At midnight, a whisper circled his tent in his own voice… then the zipper began to move down by itself. From "The Trail That Whispers Back", a Midnight Dread Tales original.
+TAGS: horror, scary stories, creepypasta, short horror, ghost stories, midnight dread tales
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 13/40 ===
+FILE: 13-horror-en-2026-10-09-s3.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: I Zoomed In on the Photo… and Saw WARDEN 😱 #shorts #horror #scarystories
+DESKRIPSI: I zoomed in on the day-two photo. Behind the rock, half-hidden in the fog, stood a figure — and on the back of his jacket, one word: WARDEN. From "The Trail That Whispers Back", a Midnight Dread Tales original.
+TAGS: horror, scary stories, creepypasta, short horror, ghost stories, midnight dread tales
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 14/40 ===
+FILE: 14-kisahdharma-kisah-dharma-2026-10-08-long-small.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Pangeran yang Menolak Takhta Demi Ayahnya
+DESKRIPSI: Malam sebelum penobatannya sebagai raja, Rama justru diminta meninggalkan segalanya. Bukan karena kalah perang, bukan karena berkhianat — melainkan karena janji sang ayah yang harus ditepati. 
+  
+ Inilah kisah masyhur dari epos Ramayana: tentang Kaikeyi dan dua janji lamanya, tentang senyum ikhlas Rama saat menerima pengasingan empat belas tahun ke hutan, tentang Shinta dan Laksmana yang menolak ditinggalkan, dan tentang Bharata yang lebih memilih sepasang sandal kayu daripada duduk di singgasana. 
+  
+ Saya merinding setiap kali membaca ulang bagian ini. Kadang, kekuatan terbesar bukanlah merebut — melainkan merelakan. Semoga kisah ini menginspirasi kita semua untuk berbakti kepada orang tua dan teguh memegang janji. 
+  
+ #ramayana #hindu #kisahdharma
+TAGS: ramayana, kisah ramayana, epos hindu, rama shinta laksmana, kisah dharma
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 15/40 ===
+FILE: 15-kisahdharma-kisah-dharma-2026-10-09-short1.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Pangeran Ini Tersenyum Saat Takhtanya Direbut #shorts #ramayana #hindu
+DESKRIPSI: Bayangkan: besok pagi dinobatkan jadi raja, malam ini malah diminta pergi ke hutan empat belas tahun. Reaksi Rama bikin saya merinding — tidak marah, tidak melawan, justru tersenyum ikhlas. 
+  
+ Kisah lengkap dari epos Ramayana ada di video long channel ini. Sampai jumpa di kisah berikutnya.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 16/40 ===
+FILE: 16-kisahdharma-kisah-dharma-2026-10-09-short2.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Di Titik Terendah Hidupnya, Ia Malah Tersenyum #shorts #ramayana #hindu
+DESKRIPSI: Di saat paling hancur dalam hidupnya, Rama justru tersenyum tulus. "Empat belas tahun di hutan bukanlah hukuman bagi saya. Ini kesempatan untuk berbakti." Saya sendiri merinding membayangkan keteguhan seperti itu. 
+  
+ Kisah lengkap dari epos Ramayana ada di video long channel ini.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 17/40 ===
+FILE: 17-kisahdharma-kisah-dharma-2026-10-09-short3.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Takhta Kerajaan Diduduki Sepasang Sandal #shorts #ramayana #hindu
+DESKRIPSI: Bharata menolak takhta yang diperoleh dengan cara licik. Ia meletakkan sepasang sandal kayu milik kakaknya di singgasana — empat belas tahun takhta diduduki sandal, bukan manusia. Dan saya pun bertanya pada diri sendiri: sanggupkah saya melepas segalanya, demi sebuah janji? 
+  
+ Kisah lengkap dari epos Ramayana ada di video long channel ini.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 18/40 ===
+FILE: 18-jejakbuddha-jejak-buddha-2026-10-08-upload.mp4
+CHANNEL: Jejak Buddha | ID: UC1PNEzhOmAH08p75vwp7n0A
+JUDUL: Bayi yang Berjalan 7 Langkah Saat Lahir
+DESKRIPSI: Kelahiran Pangeran Siddhartha Gautama di Taman Lumbini — dari mimpi gajah putih Ratu Maya hingga tujuh langkah suci di atas bunga teratai. Kisah takzim yang diperingati jutaan umat Buddha setiap Waisak. 
+  
+ Bab: 
+ 0:00 Bayi yang melangkah tujuh langkah 
+ 0:33 Mimpi gajah putih Ratu Maya 
+ 2:21 Kelahiran di Taman Lumbini 
+ 4:02 Tujuh langkah suci 
+ 5:03 Tangis Pertapa Asita 
+ 6:25 Nama Siddhartha & kepergian Ratu Maya 
+ 7:31 Cahaya bagi dunia 
+ 8:15 Penutup 
+  
+ Bagi saya pribadi, bagian paling mengharukan adalah tangis Pertapa Asita — seumur hidup mencari kebenaran, lalu sadar tak akan sempat mendengar ajaran Sang Buddha. Kisah ini mengingatkan kita: terang sejati lahir dari welas asih, bukan dari kemewahan. 
+  
+ #buddha #kisahbuddha #lumbini #siddharthagautama #waisak #jejakbuddha #agamabuddha #ceritabuddha
+TAGS: kelahiran buddha, sang buddha, siddhartha gautama, taman lumbini, ratu maya, mimpi gajah putih, tujuh langkah suci, bunga teratai, kisah buddha, cerita buddha, waisak, jejak buddha, agama buddha, sejarah buddha, pertapa asita, kapilavastu, kisah inspiratif, spiritual, renungan, buddhisme
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 19/40 ===
+FILE: 19-jejakbuddha-short1-tujuh-langkah.mp4
+CHANNEL: Jejak Buddha | ID: UC1PNEzhOmAH08p75vwp7n0A
+JUDUL: Baru Lahir Langsung Berjalan 7 Langkah! #shorts #buddha #kebijaksanaan
+DESKRIPSI: Kisah yang paling masyhur dari kelahiran Pangeran Siddhartha: bayi yang baru lahir berdiri, melangkah tujuh langkah, dan di setiap tapaknya mekar sekuntum bunga teratai. Cerita penuh takzim ini diperingati ratusan juta umat Buddha setiap Waisak. Semoga semua makhluk berbahagia. — Jejak Buddha
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 20/40 ===
+FILE: 20-jejakbuddha-short2-mimpi-gajah-putih.mp4
+CHANNEL: Jejak Buddha | ID: UC1PNEzhOmAH08p75vwp7n0A
+JUDUL: Gajah Putih Turun dari Langit ke dalam Mimpi Ratu Maya #shorts #buddha #kebijaksanaan
+DESKRIPSI: Sebelum kelahiran Sang Buddha, Ratu Maya bermimpi seekor gajah putih agung turun dari langit dan memasuki rahimnya. Para brahmana menafsirkan: akan lahir putra luar biasa — raja agung, atau Buddha yang tercerahkan sempurna. Semoga semua makhluk berbahagia. — Jejak Buddha
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 21/40 ===
+FILE: 21-jejakbuddha-short3-pertapa-asita.mp4
+CHANNEL: Jejak Buddha | ID: UC1PNEzhOmAH08p75vwp7n0A
+JUDUL: Pertapa Tua Ini Menangis Saat Menggendong Bayi Buddha #shorts #buddha #kebijaksanaan
+DESKRIPSI: Pertapa Asita tersenyum bahagia melihat bayi Siddhartha — ia akan menjadi Buddha. Lalu ia menangis: usianya terlalu tua untuk mendengar ajarannya. Bagian kisah yang selalu mengharukan. Semoga semua makhluk berbahagia. — Jejak Buddha
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 22/40 ===
+FILE: 22-mystery-en-2026-10-07.mp4
+CHANNEL: Unsolved Shadows | ID: UCjxESFWyFPOkGTSpajK69Lw
+JUDUL: The Ghost Ship With No Crew: What Really Happened to the Mary Celeste?
+DESKRIPSI: In December 1872, the Mary Celeste was found drifting in the Atlantic — perfectly intact, fully stocked... but her entire crew of 10 had vanished without a trace. No distress signal. No lifeboats. No answers. For over 150 years, this remains one of history's most chilling unsolved mysteries. 
+  
+ What do YOU think happened? Drop your theory in the comments. 
+  
+ Subscribe to Unsolved Shadows for a new unsolved mystery every day. 
+  
+ #unsolvedmystery #maryceleste #ghostship #mystery #unsolved
+TAGS: mary celeste, ghost ship, unsolved mystery, mystery, disappearances, unsolved
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 23/40 ===
+FILE: 23-strangetales-strange-tales-2026-10-07-mantis-shrimp-sm.mp4
+CHANNEL: strangetales | ID: UCAVSqZjG8Af_pm_1uD5wRzA
+JUDUL: This Shrimp Punches Faster Than a BULLET — But HOW?! #shorts #weirdfacts #strangetales
+DESKRIPSI: The mantis shrimp strikes faster than a bullet and sees colors we can't even imagine. A new strange tale every day.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 24/40 ===
+FILE: 24-strangetales-strange-tales-2026-10-07-blood-falls-sm.mp4
+CHANNEL: strangetales | ID: UCAVSqZjG8Af_pm_1uD5wRzA
+JUDUL: This Glacier Is BLEEDING — Scientists Found What's Inside?! #shorts #weirdfacts #strangetales
+DESKRIPSI: Blood Falls in Antarctica pours red water from a two-million-year-old hidden sea. A new strange tale every day.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 25/40 ===
+FILE: 25-strangetales-strange-tales-2026-10-07-mary-celeste-sm.mp4
+CHANNEL: strangetales | ID: UCAVSqZjG8Af_pm_1uD5wRzA
+JUDUL: A Ship Found Sailing With NO CREW — What Happened?! #shorts #mystery #strangetales
+DESKRIPSI: The Mary Celeste: a ghost ship adrift in 1872 with untouched cargo and a vanished crew. A new strange tale every day.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 26/40 ===
+FILE: 26-strangetales-strange-tales-2026-10-09-axolotl.mp4
+CHANNEL: strangetales | ID: UCAVSqZjG8Af_pm_1uD5wRzA
+JUDUL: This Animal Can REGROW Its Own Brain — But How?! #shorts #weirdfacts #strangetales
+DESKRIPSI: The axolotl can regrow its brain, heart, and spine — and it never grows up. A new strange tale every day. 
+  
+ Footage: Wikimedia Commons contributors — Axolotl (Tierpark Zittau) CC BY-SA 4.0, Axolotl (Ambystoma mexicanum) CC BY 2.0, Ambystoma mexicanum CC BY-SA 4.0.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 27/40 ===
+FILE: 27-weird-en-2026-10-07-fixed.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: 7 Real Animals With ACTUAL Superpowers (Unbelievable)
+DESKRIPSI: Okay, I genuinely thought these were made up. A tiny animal that survived OUTER SPACE? A jellyfish that can't die of old age?! A shrimp that punches harder than a bullet and makes temperatures hotter than the sun's surface?? Nature is absolutely unhinged and I love it. 
+  
+ Meet 7 real animals with actual superpowers — INVINCIBLE, IMMORTAL, SUPER STRENGTH, REGENERATION, SUPER SENSES, the FASTEST WEAPON in the ocean, and one that's basically PAIN-PROOF. Which superpower would YOU pick? Tell me below! 👇 
+  
+ #weirdfacts #animals #superpowers #nature
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+THUMB: 27-weird-en-thumb.jpg
+
+=== VIDEO 28/40 ===
+FILE: 28-weird-en-2026-10-07-s1.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: This Animal Survived OUTER SPACE (No Suit, No Helmet!) #shorts #facts #weirdfacts
+DESKRIPSI: Okay, I had to read this twice. The tardigrade — a tiny water bear smaller than a grain of sand — has literally survived the vacuum of OUTER SPACE. No suit, no helmet, just... chilling. Scientists exposed them to open space and they came back alive. Nature is absolutely unhinged. Which animal superpower would YOU want? More unbelievable real facts on the channel!
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 29/40 ===
+FILE: 29-weird-en-2026-10-07-s2.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: This Shrimp Is HOTTER Than the Sun?! #shorts #facts #weirdfacts
+DESKRIPSI: Wait, WHAT?! This two-inch pistol shrimp's claw snap hits 8,000°F — that's HOTTER than the surface of the sun. Plus a 218-decibel shockwave, louder than a gunshot. Submarines literally used colonies of these shrimps to hide from sonar. I love this planet. More unbelievable real animal facts on the channel!
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 30/40 ===
+FILE: 30-weird-en-2026-10-07-s3.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: This Shrimp Punches Harder Than a BULLET #shorts #facts #weirdfacts
+DESKRIPSI: A four-inch mantis shrimp that punches at 50 MILES PER HOUR underwater — 100x faster than you can blink, with the force of a .22 caliber bullet. It can literally crack aquarium glass. And the punch moves so fast it BOILS the water around it. Excuse me?? More real animal superpowers on the channel!
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 31/40 ===
+FILE: 31-kisahalkitab-kisah-alkitab-2026-10-08-long-upload.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: 5 Batu Licin yang Menumbangkan Raksasa Goliat
+DESKRIPSI: Kisah Daud melawan Goliat (1 Samuel 17) — bagaimana seorang gembala muda menumbangkan raksasa Filistin setinggi hampir 3 meter hanya dengan ketapel dan lima batu licin dari sungai. 
+  
+ Kisah ini selalu membuat saya takjub: kemenangan Daud bukan karena senjatanya lebih canggih, tapi karena ia tahu siapa yang berperang bersamanya. 
+  
+ Tonton sampai habis untuk hikmah yang bisa kita bawa pulang hari ini. 
+  
+ 0:00 Anak gembala vs raksasa 3 meter 
+ 0:47 Israel ketakutan 40 hari 
+ 2:38 Daud datang dengan 5 batu licin 
+ 4:57 Satu batu menumbangkan Goliat 
+ 6:28 Hikmah: pertempuran ini milik TUHAN 
+  
+ #kisahalkitab #daudvangoliat #renungankristen #alkitab #rohanikristen #firmantuhan
+TAGS: kisah alkitab, daud dan goliat, 1 samuel 17, renungan kristen, cerita alkitab, firman tuhan, rohani kristen, kisah daud, goliat, alkitab perjanjian lama, inspirasi kristen, saat teduh, iman kristen, tokoh alkitab, renungan harian, kristen indonesia, bible story indonesia, kisah nyata alkitab, perjanjian lama, kekuatan iman
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 32/40 ===
+FILE: 32-inktime-inktime-2026-10-09-long.mp4
+CHANNEL: InkTime | ID: (pilih via handle @InkTime-d3t)
+JUDUL: Why 536 Was the Worst Year to Be Alive
+DESKRIPSI: In 536 AD, the sun went dark for 18 months. Crops failed, snow fell in summer, and famine swept the ancient world. Scientists now call it the worst year to be alive — here is the real story, from eyewitness accounts to ice-core science. 
+  
+ Chapters: 
+ 0:00 The sun went out 
+ 0:44 Witnesses around the world 
+ 1:31 Ice cores: the smoking gun 
+ 2:21 Tree rings: the coldest summer 
+ 3:06 The second eruption of 540 
+ 3:46 Famine: when the harvest died 
+ 4:44 The Plague of Justinian 
+ 5:27 A century of cold 
+ 6:33 The volcano that vanished 
+ 7:02 The year the sun went out 
+  
+ Honestly, what amazes me most is that one volcano, half a world away, could bring entire civilizations to their knees — no war, no invasion, just ash and a dimmed sun. 
+  
+ Sources: 
+ - Gibbons, A. (2018). "Eruption made 536 'the worst year to be alive'." Science, 362(6416), 733–734. 
+ - Sigl, M. et al. (2015). "Timing and climate forcing of volcanic eruptions for the past 2,500 years." Nature, 523, 543–549. 
+ - Büntgen, U. et al. (2016). "Cooling and societal change during the Late Antique Little Ice Age from 536 to around 660 AD." Nature Geoscience, 9, 231–236. 
+ - Larsen, L.B. et al. (2008). "New ice core evidence for a volcanic cause of the A.D. 536 dust veil." Geophysical Research Letters, 35(4). 
+ - Harper, K. (2017). The Fate of Rome. Princeton University Press. 
+ - Procopius, History of the Wars (trans. H.B. Dewing, Loeb). 
+  
+ #history #ancienthistory #explainer
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+THUMB: 32-inktime-thumb.jpg
+
+=== VIDEO 33/40 ===
+FILE: 33-weird-en-2026-10-10-s2.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: Your Stomach Could Dissolve METAL?! #shorts #facts #weirdfacts
+DESKRIPSI: Your stomach acid is strong enough to dissolve solid METAL — and the only reason you're not digesting yourself alive is that your stomach builds a brand-new protective lining every 3-4 days. Twice a week! A metal-melting acid bath that rebuilds itself like it's absolutely nothing. Nature is unhinged. Full 7-fact battle on the channel!
+TAGS: (kosong)
+VISIBILITAS: JADWAL 2026-10-14 07:00 WIB
+
+=== VIDEO 34/40 ===
+FILE: 34-weird-en-2026-10-10-s1.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: Your Brain EATS ITSELF When You Skip Sleep?! #shorts #facts #weirdfacts
+DESKRIPSI: Wait, WHAT?! I had to read that twice. When you skip sleep, your brain's cleanup crew goes rogue and starts chewing up HEALTHY brain connections. Your own brain. Eating itself. Because you stayed up scrolling. Twenty watts of pure chaos sitting in your skull right now. Which body part do YOU think is the weirdest? Full 7-fact battle on the channel!
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 35/40 ===
+FILE: 35-weird-en-2026-10-10-s3.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: Your DNA Reaches the Sun... 200 TIMES?! #shorts #facts #weirdfacts
+DESKRIPSI: Okay, this broke my brain. Unwind the DNA from ONE cell and it stretches about 2 meters. Do it for all 37 trillion cells and it reaches the SUN and back... more than 200 times. Your personal space program, hiding in every cell. And you share 99.9% of it with every stranger you pass on the street. Awkward. Full 7-fact battle on the channel!
+TAGS: (kosong)
+VISIBILITAS: JADWAL 2026-10-15 07:00 WIB
+
+=== VIDEO 36/40 ===
+FILE: 36-kisahalkitab-short1-hook.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: Anak Gembala Tantang Raksasa 3 Meter?! #shorts #alkitab #rohani
+DESKRIPSI: Bayangkan: anak gembala belasan tahun berjalan sendirian ke tengah lembah pertempuran, menghadapi raksasa setinggi hampir 3 meter. Kisah Daud melawan Goliat (1 Samuel 17) — kok bisa ia seberani itu? 
+  
+ Kisah lengkapnya ada di video long channel ini.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 37/40 ===
+FILE: 37-kisahalkitab-short2-klimaks.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: Satu Batu Kecil Tumbangkan Raksasa Goliat #shorts #alkitab #rohani
+DESKRIPSI: "Engkau mendatangi aku dengan pedang dan tombak — tetapi aku mendatangi engkau dengan nama TUHAN semesta alam." 
+  
+ Satu batu dari ketapel Daud melesat tepat mengenai dahi Goliat. Raksasa yang 40 hari menakuti satu pasukan penuh tumbang seketika. (1 Samuel 17)
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 38/40 ===
+FILE: 38-kisahalkitab-short3-hikmah.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: Keberanian Sejati Bukan Tanpa Rasa Takut #shorts #alkitab #rohani
+DESKRIPSI: Pelajaran yang saya ambil dari kisah Daud: keberanian sejati bukanlah ketiadaan rasa takut — melainkan berani melangkah maju justru ketika rasa takut itu ada, karena kita percaya ada yang lebih besar yang menyertai kita. (1 Samuel 17) 
+  
+ Dan satu hal lagi yang menyentuh saya: Tuhan tidak menunggu Daud menjadi prajurit dulu untuk memakainya.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 39/40 ===
+FILE: 39-horror-en-2026-10-10.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: The Watcher of 657 Boulevard: The True Story
+DESKRIPSI: In 2014, Derek and Maria Broaddus bought their $1.35M dream home at 657 Boulevard, Westfield NJ. Then the letters from "The Watcher" started arriving. This true story still has no ending. 
+  
+ When I first read the actual Watcher letters, one sentence stopped me cold: "Who has the bedrooms facing the street? I will know as soon as you move in. Then I can plan better." This isn't a ghost story. It's something worse — a real family, real letters, and a writer who was never caught. 
+  
+ In June 2014, Derek and Maria Broaddus bought 657 Boulevard in Westfield, New Jersey for $1.35 million. Before they even moved in, the first letter arrived, signed "The Watcher." It knew about their renovations. It asked which bedrooms faced the street. It wanted the names of their children. 
+  
+ The police investigated. A private investigator dug deeper. The previous owners admitted they'd received a letter too — and never told anyone. In 2019 the Broadduses sold at a nearly $400,000 loss. Reportedly, the new owners got a letter as well. 
+  
+ I still think about this one every time I pass a for sale sign. If you love real unsolved horror, you're in the right place. 
+  
+ CHAPTERS: 
+ 0:00 The Letter That Terrified New Jersey 
+ 0:20 A $1.35M Dream Home in Westfield 
+ 0:43 The First Letter From The Watcher 
+ 1:47 The Second Letter Knew Their Secrets 
+ 2:38 Who Has the Bedrooms Facing the Street 
+ 3:19 The Secret the Previous Owners Hid 
+ 3:56 The Third Letter and Prime Suspects 
+ 5:10 The House That Watched Back 
+ 5:42 Who Was The Watcher? Theories Explained 
+ 7:15 Check Which Bedrooms Face the Street 
+  
+ If this one got under your skin, subscribe to Midnight Dread Tales for a new true horror story every day. Tell me in the comments: which letter creeped you out the most? 
+  
+ More true horror: https://www.youtube.com/@TalesOfDreadTV 
+  
+ #horrorstories #truehorror #scarystories
+TAGS: the watcher, 657 boulevard, watcher house, westfield new jersey, true horror story, unsolved mystery, real scary stories, stalker letters, haunted house, scary stories, creepypasta, midnight dread tales, horror narration, true crime, mystery, unsolved case, the watcher netflix, home invasion horror, creepy true stories, dread
+VISIBILITAS: PUBLIKASI SEKARANG
+THUMB: 39-horror-en-thumb.jpg
+
+=== VIDEO 40/40 ===
+FILE: 40-kisahdharma-kisah-dharma-2026-10-10-long-small.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Shinta Diculik Rahwana! Ini Kisah Lengkapnya
+DESKRIPSI: Penculikan Shinta adalah salah satu episode paling menggetarkan dalam Ramayana. Bagaimana Rahwana menipu dengan kijang kencana, bagaimana Jatayu yang renta berani melawannya sampai titik darah penghabisan, dan bagaimana Rama memakamkan sang burung pahlawan dengan tangannya sendiri — semua saya ceritakan dengan takzim di video ini. 
+  
+ Kisah ini saya bawakan dari Aranyakanda, kitab Ramayana, dengan penuh hormat pada tradisi Hindu. Bagian Jatayu selalu membuat saya merinding — seekor burung tua yang berani berdiri melawan kezaliman demi dharma. 
+  
+ Bagian mana yang paling menyentuh hatimu? Tulis di komentar ya — saya baca semua komentar. 
+  
+ 00:00 Jeritan di Hutan Dandaka 
+ 00:53 Kedamaian Sebelum Badai 
+ 01:43 Kijang Kencana yang Misterius 
+ 02:51 Tipu Daya Marica 
+ 04:10 Rahwana Menyamar 
+ 05:30 Refleksi: Keberanian Shinta 
+ 06:10 Jatayu Melawan Rahwana 
+ 07:37 Jejak Perhiasan Shinta 
+ 08:28 Rama Menemukan Jatayu 
+ 09:44 Hikmah: Dharma di Atas Segalanya 
+  
+ Kalau kamu suka kisah dharma seperti ini, subscribe channel Kisah Dharma dan aktifkan loncengnya biar nggak ketinggalan episode berikutnya. 
+  
+ Tonton episode sebelumnya: Rama Menolak Takhta — kisah pengasingan Rama ke hutan. 
+  
+ #ramayana #hindu #kisahdharma #shinta #rahwana #ceritarakyat #mitologi
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+THUMB: 40-kisahdharma-thumb.jpg
+
+LAPORAN AKHIR: tiap nomor 1-40 -> SUKSES + URL, atau GAGAL + alasan singkat.

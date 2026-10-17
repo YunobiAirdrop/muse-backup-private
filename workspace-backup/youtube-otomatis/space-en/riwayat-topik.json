@@ -1,0 +1,48 @@
+[
+ {
+  "date": "2026-10-05",
+  "title": "Rogue Planets: The Dark Worlds Drifting Between Stars",
+  "topic": "rogue planets",
+  "video": "video/2026-10-05.mp4"
+ },
+ {
+  "date": "2026-10-07",
+  "title": "The Boötes Void — The Emptiest Place in the Universe",
+  "topic": "bootes void",
+  "video": "video/2026-10-07.mp4"
+ },
+ {
+  "date": "2026-10-09",
+  "title": "Fast Radio Bursts: Millisecond Screams From Deep Space",
+  "topic": "fast radio bursts",
+  "video": "video/2026-10-09.mp4"
+ },
+ {
+  "date": "2026-10-11",
+  "title": "What Happens If You Fall Into a Black Hole?",
+  "topic": "black holes (falling in)",
+  "video": "video/2026-10-11.mp4",
+  "note": "Produksi dimulai 2026-10-11, dirakit selesai 2026-10-12 (oneshot) — antrean ffmpeg jenuh. Slot upload target 2026-10-14 07:00 WIB."
+ },
+ {
+  "date": "2026-10-13",
+  "title": "Oumuamua: The Alien Visitor That Broke Every Rule?",
+  "topic": "oumuamua (interstellar object)",
+  "video": "video/2026-10-13.mp4",
+  "note": "Produksi 2026-10-13 (script+TTS+180 gambar); assembly tertunda antrean ffmpeg, dilanjut 2026-10-14. Slot upload target 2026-10-16 07:00 WIB."
+ },
+ {
+  "date": "2026-10-15",
+  "title": "The Fermi Paradox: Where Is Everybody?",
+  "topic": "fermi paradox (great filter, drake equation, zoo hypothesis, dark forest)",
+  "video": "video/2026-10-15.mp4",
+  "note": "Produksi 2026-10-15 (script 18 beat/1192 kata + TTS miles speed 78 + 72 gambar + 3 thumbnail). Assembly: antrean ffmpeg-queue jenuh ~70 mnt; render pertama gagal assert (slides speech-only 531 dtk vs audio 563 dtk) -> slides dihitung ulang dari gap timeline audio, render ulang OK. Shorts: 3 file (34.7/36.2/40.2 dtk) + ekor CTA. Slot upload target 2026-10-17 07:00 WIB."
+ },
+ {
+  "date": "2026-10-16",
+  "title": "The Great Attractor: Something Invisible Is Pulling Our Galaxy",
+  "topic": "great attractor (Laniakea, dark flow, zone of avoidance)",
+  "video": "video/2026-10-16.mp4",
+  "note": "Produksi 2026-10-16 (eksekusi 2026-10-17): script 18 beat/1251 kata + TTS miles speed 78 (18 beat) + 72 gambar storybook 2D webp + 3 thumbnail jpg 16:9. Assembly rakit_oneshot_20261016.py: video 548.4 dtk (audio 546.1 dtk, diff 2.3 dtk) -> video/2026-10-16.mp4 TERVERIFIKASI. Jeda dramatis 2.5 dtk + bumper setelah beat-010; title card dtk 1-5; CTA verbal+overlay tengah&akhir; SRT 136 cues. Shorts: s1 37.7 dtk, s2 39.0 dtk, s3 34.3 dtk (+ekor CTA). Instruksi: instruksi-upload-2026-10-18-long.md. Slot upload target 2026-10-18 07:00 WIB."
+ }
+]

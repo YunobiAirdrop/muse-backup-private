@@ -1,0 +1,59 @@
+TUGAS: Upload 5 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Kerjakan BERURUTAN. Nama file UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 34 ===
+FILE: 34-weird-en-2026-10-10-s1.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: Your Brain EATS ITSELF When You Skip Sleep?! #shorts #facts #weirdfacts
+DESKRIPSI: Wait, WHAT?! I had to read that twice. When you skip sleep, your brain's cleanup crew goes rogue and starts chewing up HEALTHY brain connections. Your own brain. Eating itself. Because you stayed up scrolling. Twenty watts of pure chaos sitting in your skull right now. Which body part do YOU think is the weirdest? Full 7-fact battle on the channel!
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 35 ===
+FILE: 35-weird-en-2026-10-10-s3.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: Your DNA Reaches the Sun... 200 TIMES?! #shorts #facts #weirdfacts
+DESKRIPSI: Okay, this broke my brain. Unwind the DNA from ONE cell and it stretches about 2 meters. Do it for all 37 trillion cells and it reaches the SUN and back... more than 200 times. Your personal space program, hiding in every cell. And you share 99.9% of it with every stranger you pass on the street. Awkward. Full 7-fact battle on the channel!
+TAGS: (kosong)
+VISIBILITAS: JADWAL 2026-10-15 07:00 WIB
+
+=== VIDEO 36 ===
+FILE: 36-kisahalkitab-short1-hook.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: Anak Gembala Tantang Raksasa 3 Meter?! #shorts #alkitab #rohani
+DESKRIPSI: Bayangkan: anak gembala belasan tahun berjalan sendirian ke tengah lembah pertempuran, menghadapi raksasa setinggi hampir 3 meter. Kisah Daud melawan Goliat (1 Samuel 17) — kok bisa ia seberani itu? 
+  
+ Kisah lengkapnya ada di video long channel ini.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 37 ===
+FILE: 37-kisahalkitab-short2-klimaks.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: Satu Batu Kecil Tumbangkan Raksasa Goliat #shorts #alkitab #rohani
+DESKRIPSI: "Engkau mendatangi aku dengan pedang dan tombak — tetapi aku mendatangi engkau dengan nama TUHAN semesta alam." 
+  
+ Satu batu dari ketapel Daud melesat tepat mengenai dahi Goliat. Raksasa yang 40 hari menakuti satu pasukan penuh tumbang seketika. (1 Samuel 17)
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 38 ===
+FILE: 38-kisahalkitab-short3-hikmah.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: Keberanian Sejati Bukan Tanpa Rasa Takut #shorts #alkitab #rohani
+DESKRIPSI: Pelajaran yang saya ambil dari kisah Daud: keberanian sejati bukanlah ketiadaan rasa takut — melainkan berani melangkah maju justru ketika rasa takut itu ada, karena kita percaya ada yang lebih besar yang menyertai kita. (1 Samuel 17) 
+  
+ Dan satu hal lagi yang menyentuh saya: Tuhan tidak menunggu Daud menjadi prajurit dulu untuk memakainya.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+LAPORAN AKHIR: tiap nomor -> SUKSES + URL, atau GAGAL + alasan singkat.

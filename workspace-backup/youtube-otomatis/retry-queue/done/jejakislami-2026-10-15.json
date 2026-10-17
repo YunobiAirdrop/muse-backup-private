@@ -1,0 +1,11 @@
+{
+  "channel": "Jejak Islami (@JejakIslami-h3d)",
+  "gagal_pada": "2026-10-15T21:30:00+07:00",
+  "instruksi_path": "/home/hatch/workspace/kisah-islami/work/2026-10-14/instruksi-upload-2026-10-15.md",
+  "sebab": "TEKNIS teratasi 2026-10-17: re-encode CRF 28 selesai (487 dtk, 90MB, terverifikasi). Siap upload via browser task sesuai instruksi_path. Token API masih expired.",
+  "slot_target": "2026-10-18 19:00 WIB",
+  "video_path": "/home/hatch/workspace/kisah-islami/work/2026-10-14/jejak-islami-2026-10-15-long-upload.mp4",
+  "status": "DONE via API 2026-10-17",
+  "videoId": "2jWafMm6Fkg",
+  "url": "https://youtu.be/2jWafMm6Fkg"
+}

@@ -1,0 +1,21 @@
+{
+ "slug": "macammacam",
+ "handle": "@MacamMacamID",
+ "date": "2026-10-13",
+ "analytics": {
+  "error": "analytics gagal: Belum ada token untuk 'macammacam'. Jalankan: python auth.py auth-url macammacam\n"
+ },
+ "enrich": {
+  "channel_id": "UC5ld2qCo0wKeuRKCA1-dbow",
+  "stats": {
+   "viewCount": "1",
+   "subscriberCount": "0",
+   "hiddenSubscriberCount": false,
+   "videoCount": "2"
+  },
+  "reader": "lima-misteri"
+ },
+ "playlists": [],
+ "videos_in_playlists": [],
+ "videos_no_playlist": []
+}

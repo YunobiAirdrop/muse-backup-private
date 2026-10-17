@@ -1,0 +1,148 @@
+[
+ {
+  "judul": "Pecel Madiun Segar, Kuah Kacang Pedas & Gurih",
+  "deskripsi": "Rasakan kesegaran sayuran segar dengan bumbu kacang kental yang enak pedas. Hidangan sempurna untuk makan siang sehat dan menggugah selera.",
+  "bahan": [
+   "300 gr kacang panjang, potong 5 cm",
+   "200 gr kacang tanah, rebus",
+   "100 gr terong ungu, iris tipis",
+   "200 gr kol, iris tipis",
+   "100 gr bayam, daun dipisah",
+   "1 buah labu Siam, potong",
+   "2 sdm kacang tanah, sangrai",
+   "3 sdm gula aren",
+   "1 sdt garam",
+   "1/2 sdt merica",
+   "500 ml air",
+   "2 sdm kecap manis",
+   "1 sdm cabai merah, haluskan",
+   "5 siung bawang merah",
+   "3 siung bawang putih",
+   "1 buah jeruk nipis, perasan",
+   "50 ml minyak goreng"
+  ],
+  "bumbu_halus": [
+   "5 siung bawang merah",
+   "3 siung bawang putih",
+   "1 buah jeruk nipis",
+   "1 sdm cabai merah",
+   "50 ml minyak goreng",
+   "2 sdm kacang tanah, sangrai"
+  ],
+  "langkah": [
+   "1. Rebus kacang panjang, terong, dan labu Siam hingga setengah matang, tiriskan dan sisihkan.",
+   "2. Goreng kacang tanah dalam minyak hingga berwarna keemasan, tiriskan, lalu haluskan bersama bumbu halus (bawang merah, bawang putih, cabai, jeruk nipis) dengan blender, tambahkan sedikit air.",
+   "3. Panaskan wajan, tuang campuran bumbu halus, tumis hingga harum dan mengental, tambahkan gula aren, garam, merica, kecap manis, aduk rata.",
+   "4. Masukkan sayuran yang sudah direbus (kacang panjang, terong, labu Siam, kol, bayam) ke dalam wajan, aduk perlahan hingga semua terlapisi bumbu kacang.",
+   "5. Angkat pecel, letakkan di piring, beri taburan kacang tanah yang sudah dihaluskan, perasan jeruk nipis di atasnya.",
+   "6. Sajikan hangat dengan nasi putih atau sebagai lauk pendamping."
+  ],
+  "tips": [
+   "Gunakan kacang tanah yang sudah disangrai untuk rasa lebih kaya.",
+   "Jangan memasak terlalu lama agar sayuran tetap renyah.",
+   "Sesuaikan tingkat kepedasan dengan menambah atau mengurangi cabai."
+  ],
+  "waktu": "60 menit",
+  "porsi": "4 porsi",
+  "kesulitan": "Mudah",
+  "prompt_gambar": "Pecel Madiun berwarna cerah dengan sayuran segar, kacang tanah taburan, disajikan di piring keramik putih di atas meja kayu hangat.",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "nama_pool": "Pecel Madiun",
+  "kategori": "sayur"
+ },
+ {
+  "judul": "Rendang Daging Sapi Empuk, Bumbu Kaya Rempah",
+  "deskripsi": "Daging sapi lembut meresap bumbu rempah kuat, kuah kental kecokelatan gurih manis — hidangan istimewa untuk hari istimewa.",
+  "bahan": [
+   "500 gr daging sapi bagian paha, potong kotak 3 cm",
+   "400 ml santan kental (dari 2 butir kelapa)",
+   "200 ml santan encer",
+   "3 lembar daun kunyit",
+   "2 lembar daun salam",
+   "2 batang serai, memarkan",
+   "1 sdt asam jawa, larutkan",
+   "3 sdm minyak kelapa",
+   "2 sdm gula merah, iris",
+   "1 sdt garam, sesuaikan",
+   "5 butir bawang merah",
+   "3 siung bawang putih",
+   "10 buah cabai merah keriting",
+   "2 cm jahe",
+   "2 cm lengkuas",
+   "2 cm kunyit",
+   "5 butir kemiri"
+  ],
+  "bumbu_halus": [
+   "5 siung bawang merah",
+   "3 siung bawang putih",
+   "10 cabai merah keriting",
+   "2 cm jahe",
+   "2 cm lengkuas",
+   "2 cm kunyit",
+   "5 kemiri"
+  ],
+  "langkah": [
+   "1. Tumis bumbu halus, serai, daun kunyit, daun salam hingga harum dan minyak keluar, ±5 menit.",
+   "2. Masukkan daging sapi, aduk rata hingga berubah warna, 3–4 menit.",
+   "3. Tuang santan encer, asam jawa, gula merah, garam. Aduk, lalu rebus dengan api kecil.",
+   "4. Tutup panci, masak 1,5 jam sesekali aduk, tambahkan sedikit air jika terlalu kering.",
+   "5. Setelah daging empuk, tuang santan kental, teruskan mengaduk pelan agar tidak gosong.",
+   "6. Masak api kecil sambil sering diaduk hingga kuah menyusut, bumbu menempel, dan berwarna gelap kecokelatan, ±20–30 menit.",
+   "7. Koreksi rasa, angkat, dinginkan sebentar. Rendang makin nikmat setelah 1–2 jam atau keesokan harinya."
+  ],
+  "tips": [
+   "Jangan lupa sering diaduk bagian bawah agar tidak gosong saat santan kental menyusut.",
+   "Gunakan api kecil dan sabar — rendang empuk sejati butuh waktu lama meresap.",
+   "Sisa rendang tahan seminggu di kulkas; rasa makin pekat setelah didinginkan semalam."
+  ],
+  "waktu": "2,5 jam",
+  "porsi": "4–5 porsi",
+  "kesulitan": "Sedang",
+  "prompt_gambar": "Rendang daging sapi berwarna gelap mengkilap di atas piring hitam kayu, ditemani nasi putih dan daun salam, pencahayaan alami hangat, food photography overhead.",
+  "model": "inclusionai/ling-3.0-flash-sante:free",
+  "nama_pool": "Rendang Daging Sapi",
+  "kategori": "lauk"
+ },
+ {
+  "judul": "Misro Manis: Snack Kue Tradisional Berbumbu Aromatik",
+  "deskripsi": "Rasa manis alami dan tekstur lembut khas kue tradisional, cocok untuk camilan sore yang menggugah selera.",
+  "bahan": [
+   "200 gr tepung beras",
+   "150 ml santan kental",
+   "100 gr gula merah, cair",
+   "1 buah pisang muda, matang",
+   "1 sdt baking powder",
+   "1/4 sdt garam",
+   "1 sdm minyak sayur (untuk menggoreng)",
+   "1 daun pandan, simpul"
+  ],
+  "bumbu_halus": [
+   "3 siung bawang merah",
+   "2 siung bawang putih",
+   "1 cm jahe, parut",
+   "1 cm kunyit, parut",
+   "1 sdt ketumbar bubuk"
+  ],
+  "langkah": [
+   "1. Haluskan bawang merah, bawang putih, jahe, dan kunyit dengan sedikit garam hingga menjadi pasta halus.",
+   "2. Campurkan tepung beras, baking powder, dan gula merah dalam mangkuk besar, aduk rata.",
+   "3. Tambahkan santan, pisang yang sudah dipotong, dan daun pandan ke campuran kering, aduk hingga menjadi adonan lembut.",
+   "4. Panaskan minyak dalam wajan datar, bentuk adonan menjadi bola‑bola kecil sekitar 2 cm diameter.",
+   "5. Goreng misro pada minyak panas dengan api sedang hingga berwarna keemasan dan mengapung, sekitar 3‑4 menit.",
+   "6. Angkat misro, tiriskan dengan kertas dapur, lalu sajikan hangat dengan kedelai manis atau sirup gula aren.",
+   "7. Nikmati misro dalam keluarga, disajikan dengan teh atau kopi hangat."
+  ],
+  "tips": [
+   "Pilih pisang yang benar‑benar manis; rasa gula alami akan mengurangi kebutuhan gula tambahan.",
+   "Jangan terlalu panas minyak; suhu sedang‑sedang membuat misro menjadi renyah luar tanpa menjadi keras.",
+   "Sebelum menggoreng, sempatkan adonan selama 10 menit di lemari es agar tekstur lebih stabil."
+  ],
+  "waktu": "70 menit",
+  "porsi": "4 porsi",
+  "kesulitan": "Sedang",
+  "prompt_gambar": "Sebuah piringan kecil berisi 6 buah misro renyah berwarna keemasan, disajikan di atas daun pandan hijau dengan latar belakang wooden kitchen table, cahaya alami yang hangat.",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "nama_pool": "Misro",
+  "kategori": "jajanan"
+ }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "s1",
+    "beat_start": "beat-024",
+    "beat_end": "beat-028",
+    "title": "The Cannon That Broke a 1,000-Year Empire",
+    "description": "Mehmed the Second built the largest cannon the world had ever seen and aimed it at the strongest walls on Earth.\n\nWatch the full story on Echoes of History Channel.\n\n#shorts #history #documentary",
+    "tags": [
+      "constantinople 1453",
+      "ottoman empire",
+      "mehmed the second",
+      "giant cannon",
+      "history shorts"
+    ]
+  },
+  {
+    "id": "s2",
+    "beat_start": "beat-043",
+    "beat_end": "beat-047",
+    "title": "He Dragged Warships Over a Mountain",
+    "description": "Seventy Ottoman warships sailed over land and into the Golden Horn overnight, behind the city's defenses.\n\nWatch the full story on Echoes of History Channel.\n\n#shorts #history #documentary",
+    "tags": [
+      "constantinople 1453",
+      "golden horn",
+      "ottoman empire",
+      "naval history",
+      "history shorts"
+    ]
+  },
+  {
+    "id": "s3",
+    "beat_start": "beat-057",
+    "beat_end": "beat-061",
+    "title": "The Last Emperor Died Fighting",
+    "description": "Constantine the Eleventh tore off his imperial robes and charged into the final battle of Constantinople.\n\nWatch the full story on Echoes of History Channel.\n\n#shorts #history #documentary",
+    "tags": [
+      "constantine the eleventh",
+      "fall of constantinople",
+      "byzantine empire",
+      "last stand",
+      "history shorts"
+    ]
+  }
+]

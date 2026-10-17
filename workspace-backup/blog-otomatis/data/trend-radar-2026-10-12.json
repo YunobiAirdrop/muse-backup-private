@@ -1,0 +1,1577 @@
+{
+ "tanggal": "2026-10-12",
+ "window_hari": 7,
+ "niches": {
+  "horor_id": {
+   "label": "Kisah Horor (@KisahPOV) — cerita horor Indonesia",
+   "top_terms": [
+    {
+     "term": "cerita horor pendaki gunung",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita horor kisah nyata",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita horor gunung",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita horor sambil masak",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita horor terbaru",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita horor sopir ambulance",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita horor nadia omara",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita horor nyata",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita horor rumah sakit",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita horor moy bi nad",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita horor pocong",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita horor bergambar",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita horor alas roban",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "kisah horor pendaki gunung",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "kisah horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "kisah horor nyata di indonesia",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "kisah horor"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    }
+   ],
+   "celah_konten": [],
+   "video_channel_top_7hari": 0
+  },
+  "rakyat_id": {
+   "label": "Cerita Rakyat (@ceritarakyat862) — legenda & sejarah Indonesia",
+   "top_terms": [
+    {
+     "term": "cerita rakyat indonesia",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita rakyat nusantara",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita rakyat bali",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita rakyat pengantar tidur",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita rakyat papua",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita rakyat horor",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita rakyat legenda",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita rakyat bangka belitung",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita rakyat batu gantung",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita rakyat terbaru",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita rakyat malin kundang",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita rakyat asal usul danau toba",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "cerita rakyat asal usul",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "cerita rakyat"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "legenda indonesia rtv",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "legenda indonesia"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "legenda indonesia danau toba",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "legenda indonesia"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    }
+   ],
+   "celah_konten": [],
+   "video_channel_top_7hari": 0
+  },
+  "truecrime_en": {
+   "label": "Dark Case Files (@TrueCaseFilesTV) — true crime",
+   "top_terms": [
+    {
+     "term": "true crime documentary 2026",
+     "skor": 20,
+     "seed_hits": 2,
+     "dari_seed": [
+      "true crime",
+      "true crime documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": true
+    },
+    {
+     "term": "true crime makeup",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "true crime documentary",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "true crime stories",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "true crime podcast",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "true crime documentaries full episodes",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "true crime with kendall rae",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "true crime interrogation",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "true crime daily",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "true crime asmr",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "true crime movies",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "true crime streets of la",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": true
+    },
+    {
+     "term": "true crime recaps",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "true crime stories full episodes",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "true crime stories for sleep",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "true crime stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    }
+   ],
+   "celah_konten": [],
+   "video_channel_top_7hari": 0
+  },
+  "horror_en": {
+   "label": "Midnight Dread Tales (@TalesOfDreadTV) — English horror",
+   "top_terms": [
+    {
+     "term": "horror stories animated",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "horror stories appalachian trail",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "horror stories to fall asleep",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "horror stories reddit",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "horror stories no ads",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "horror stories podcast",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "horror stories party",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "horror stories in hindi",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "horror stories for sleep",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": true
+    },
+    {
+     "term": "horror stories mr nightmare",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "horror stories in telugu",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "horror stories reaction",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "horror stories real",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "horror stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "scary stories to tell in the dark audiobook",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "scary stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "scary stories animated",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "scary stories"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    }
+   ],
+   "celah_konten": [],
+   "video_channel_top_7hari": 0
+  },
+  "mystery_en": {
+   "label": "Unsolved Shadows (@MysteryShadowsTV) — unsolved mysteries",
+   "top_terms": [
+    {
+     "term": "unsolved mysteries full episodes",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unsolved mysteries theme",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unsolved mysteries theme song",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unsolved mysteries intro",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unsolved mysteries season 1",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unsolved mysteries ghosts",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unsolved mysteries jeepers creepers",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unsolved mysteries solved",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unsolved mysteries game",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unsolved mysteries robert stack",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unsolved mysteries ufo",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unsolved mysteries season 2",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unsolved mysteries season 3",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unsolved mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unexplained mysteries new",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unexplained mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "unexplained mysteries documentary",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "unexplained mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    }
+   ],
+   "celah_konten": [],
+   "video_channel_top_7hari": 0
+  },
+  "history_en": {
+   "label": "Echoes of History (@EchoesOfThePast-e9m) — world history",
+   "top_terms": [
+    {
+     "term": "world history for dummies",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "world history documentary",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "crash course world history",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "world history timeline",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "world history before 1200",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "world history ap",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "world history quiz",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "world history channel",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "world history i guess",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "world history for kids",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "world history map",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "world history unit 1",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "world history unit 3",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "world history"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": true
+    },
+    {
+     "term": "history documentary new",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "history documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "history documentary national geographic",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "history documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    }
+   ],
+   "celah_konten": [],
+   "video_channel_top_7hari": 0
+  },
+  "space_en": {
+   "label": "Cosmic Unknown (@CosmosUnknownTV) — space",
+   "top_terms": [
+    {
+     "term": "space documentary 2025",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "space documentary 2026",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "space documentary sleep",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "space documentary no ads",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "space documentary to fall asleep to",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "space documentary for kids",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "space documentary bbc",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "space documentary 2024",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "space documentary sleep no ads",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "space documentary live",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "space documentary 4k",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "space documentary black holes",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "space documentary neil degrasse tyson",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "space documentary"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "universe mysteries solved",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "universe mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "universe mysteries sleep",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "universe mysteries"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    }
+   ],
+   "celah_konten": [],
+   "video_channel_top_7hari": 0
+  },
+  "darkpsych_en": {
+   "label": "Dark Mind Files (@TheDarkMindFiles-s6i) — dark psychology",
+   "top_terms": [
+    {
+     "term": "dark psychology facts",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "dark psychology"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "dark psychology and manipulation",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "dark psychology"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "dark psychology coded",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "dark psychology"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "dark psychology books to read",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "dark psychology"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "dark psychology cringe",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "dark psychology"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "dark psychology podcast",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "dark psychology"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "dark psychology of franklin saint",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "dark psychology"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "dark psychology music",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "dark psychology"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "dark psychology audiobooks",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "dark psychology"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "dark psychology book",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "dark psychology"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "dark psychology playbook",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "dark psychology"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "psychology facts about human behavior",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "psychology facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "psychology facts to fall asleep to",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "psychology facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "psychology facts about love",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "psychology facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "psychology facts about crush",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "psychology facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": true
+    }
+   ],
+   "celah_konten": [],
+   "video_channel_top_7hari": 0
+  },
+  "weirdfacts_en": {
+   "label": "Weird World Daily (@BizarreWorldDaily) — weird facts",
+   "top_terms": [
+    {
+     "term": "weird facts you didn't know",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "weird facts about the male body",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "weird facts about me",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "weird facts about the female body",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "weird facts about the human body",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "weird facts about animals",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "weird facts about history",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "weird facts about presidents",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "weird facts about dance moms",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "weird facts to fall asleep to",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "weird facts about movies",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "weird facts that i know for some reason",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "weird facts about platypuses",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "weird facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "strange facts about the world",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "strange facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "strange facts about history",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "strange facts"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    }
+   ],
+   "celah_konten": [],
+   "video_channel_top_7hari": 0
+  },
+  "ancient_en": {
+   "label": "Lost Empires (@AncientEmpiresTV) — ancient civilizations",
+   "top_terms": [
+    {
+     "term": "ancient civilizations documentary",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "ancient civilizations for kids",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "ancient civilizations podcast",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "ancient civilizations mesopotamia",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "ancient civilizations iceberg",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "ancient civilizations joe rogan",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "ancient civilizations that disappeared",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "ancient civilizations gaia",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "ancient civilizations in america",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "ancient civilizations timeline",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "ancient civilizations antarctica",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "ancient civilizations history",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "ancient civilizations in the amazon rainforest",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "ancient civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "lost civilizations documentary",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "lost civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    },
+    {
+     "term": "lost civilizations podcast",
+     "skor": 10,
+     "seed_hits": 1,
+     "dari_seed": [
+      "lost civilizations"
+     ],
+     "juga_di_channel_top": false,
+     "baru_naik": false
+    }
+   ],
+   "celah_konten": [],
+   "video_channel_top_7hari": 0
+  }
+ }
+}

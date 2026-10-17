@@ -1,0 +1,121 @@
+[
+ {
+  "judul": "Tongseng Kambing Khas Jawa, Wangi Sederhana di Rumah",
+  "deskripsi": "Kuah santan kental dengan rempah hangat, daging kambing empuk tanpa prengus. Cocok buat makan malam bareng keluarga.",
+  "bahan": [
+   "500 gr daging kambing, potong kotak",
+   "400 ml santan kental (1 sachet)",
+   "3 buah tomat, iris dadu",
+   "3 lembar daun salam",
+   "2 batang serai, memarkan",
+   "3 lembar daun jeruk purut",
+   "2 tangkai seledri, iris",
+   "1 sdt garam",
+   "1 sdt gula pasir",
+   "1 buah jeruk nipis"
+  ],
+  "bumbu_halus": [
+   "8 siung bawang merah",
+   "4 siung bawang putih",
+   "3 cm jahe",
+   "2 cm kunyit",
+   "1 sdt ketumbar bubuk",
+   "1/2 sdt jintan",
+   "5 butir candlenut"
+  ],
+  "langkah": [
+   "1. Rendam daging kambing pakai perasan jeruk nipis & 1 sdm air, diamkan 15 menit, bilas.",
+   "2. Rebus daging 10 menit, buang airnya — ini kunci hilangnya prengus.",
+   "3. Haluskan semua bumbu halus, tumis sampai wangi & matang.",
+   "4. Masukkan daging, tomat, daun salam, serai, daun jeruk. Aduk rata.",
+   "5. Tuang santan, kecilkan api, masak 40 menit sambil sesekali diaduk.",
+   "6. Tambah garam & gula, koreksi rasa.",
+   "7. Matikan api, masukkan seledri. Angkat, tabur bawang goreng."
+  ],
+  "tips": [
+   "Pakai daging kambian paha/tenggiri lebih empuk, hindari bagian kaki.",
+   "Santan diaduk pelan-pelan biar nggak pecah, api kecil saja.",
+   "Jeruk nipis + rebus pertama = daging empuk & bau netral."
+  ],
+  "waktu": "75 menit",
+  "porsi": "4 porsi",
+  "kesulitan": "Sedang",
+  "prompt_gambar": "Mangkuk tongseng kambing berkuah kuning kecokelatan, daging empuk, seledri segar, bawang goreng, di atas talenan kayu dengan nasi hangat di samping, pencahayaan alami sore",
+  "model": "inclusionai/ling-3.0-flash-sante:free",
+  "nama_pool": "Tongseng Kambing",
+  "kategori": "lauk"
+ },
+ {
+  "judul": "Serabi Solo Lumer, Pinggiran Crispy & Gurih Santan",
+  "deskripsi": "Jajanan legendaris dengan tekstur lembut di tengah dan pinggiran garing yang wangi daun pandan. Cocok banget buat teman ngeteh di sore hari.",
+  "bahan": [
+   "250 gr tepung beras berkualitas",
+   "50 gr tepung tapioka",
+   "700 ml santan kental dari 1 butir kelapa",
+   "100 gr gula pasir",
+   "1/2 sdt garam",
+   "1/2 sdt vanili bubuk",
+   "2 butir telur ayam",
+   "2 lembar daun pandan, ikat simpul",
+   "1/2 sdt baking powder"
+  ],
+  "bumbu_halus": [],
+  "langkah": [
+   "Campur tepung beras, tepung tapioka, gula, garam, dan vanili dalam wadah besar.",
+   "Rebus santan bersama daun pandan hingga hangat kuku, lalu tuangkan sedikit demi sedikit ke campuran tepung sambil diaduk rata agar tidak menggumpal.",
+   "Masukkan telur ke dalam adonan, aduk kembali hingga benar-benar halus dan teksturnya cair namun lembut.",
+   "Diamkan adonan selama minimal 30 menit agar tepung terhidrasi sempurna, lalu tambahkan baking powder di akhir.",
+   "Panaskan wajan cekung kecil (teflon mini) dengan api sangat kecil, olesi sedikit minyak jika perlu.",
+   "Tuang satu sendok sayur adonan ke tengah wajan, biarkan pinggirannya menyebar membentuk renda tipis yang garing.",
+   "Tutup wajan dan masak hingga bagian tengahnya set (tidak cair lagi) dan muncul pori-pori kecil.",
+   "Angkat serabi dan sajikan hangat agar tekstur pinggirannya tetap renyah."
+  ],
+  "tips": [
+   "Pastikan santan sudah tidak panas saat dicampur ke tepung agar baking powder tidak rusak.",
+   "Gunakan api paling kecil agar bagian pinggir bisa garing tanpa membuat bagian tengah gosong.",
+   "Jangan terlalu sering membuka tutup wajan supaya uap panasnya stabil."
+  ],
+  "waktu": "45 menit",
+  "porsi": "10-12 buah",
+  "kesulitan": "Sedang",
+  "prompt_gambar": "Close-up serabi solo bertumpuk di atas piring keramik rustic, memperlihatkan tekstur pinggiran yang garing dan bagian tengah yang lembut, latar belakang kayu hangat dengan secangkir teh melati.",
+  "model": "google/gemma-4-26b-a4b-it:free",
+  "nama_pool": "Serabi Solo",
+  "kategori": "jajanan"
+ },
+ {
+  "judul": "Sop Buah Segar Lime & Mint Segar",
+  "deskripsi": "Rasanya friska dan manis, disemprotkan lime segar dan daun mint yang menghangatkan. Cocok untuk menghilangkan dahaga setelah berolahraga.",
+  "bahan": [
+   "300 gr mangga, potong dadu",
+   "2 buah apel hijau, iris tipis",
+   "2 buah pera, potong wedges",
+   "150 gr uvas merah, pisahkan biji",
+   "500 ml air kelapa murni",
+   "2 sdm madu",
+   "1 sdt air jeruk nipis",
+   "5 lembut daun mint segar"
+  ],
+  "bumbu_halus": [],
+  "langkah": [
+   "1. Siapkan semua buah: potong mangga, apel, pera, dan uvas, lalu taruh dalam mangkuk besar.",
+   "2. Tuang air kelapa murni ke dalam panci, panaskan dengan api kecil hingga mendekati mendidih, lalu angkat.",
+   "3. Masukkan madu dan air jeruk nipis ke dalam panci, aduk hingga larut.",
+   "4. Siram campuran air kelapa hangat ke atas buah dalam mangkuk, aduk perlahan agar buah tidak hancur.",
+   "5. Tambahkan daun mint segar, biarkan 2 menit agar aroma melekat.",
+   "6. Sajikan sop buah dalam mangkuk dengan sentuhan es kacang jika suka, dan nikmati segar."
+  ],
+  "tips": [
+   "Gunakan buah yang masih ada stok di kulkus untuk variasi rasa setiap hari.",
+   "Jika suka tekstur lebih kental, tambahkan sedikit yogurt plain atau es krim buah antes.",
+   "Kecilkan api saat mendidih agar buah tetap menahan rasa alisnya."
+  ],
+  "waktu": "20 menit",
+  "porsi": "4 porsi",
+  "kesulitan": "Mudah",
+  "prompt_gambar": "Segelas sop buah segar dengan potongan mangga, apel, pera, uvas, dan daun mint di atas es, di meja kayu dengan cahaya alami pagi.",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "nama_pool": "Sop Buah Segar",
+  "kategori": "minuman"
+ }
+]

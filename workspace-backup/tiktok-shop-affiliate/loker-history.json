@@ -1,0 +1,26 @@
+{
+  "posted": [
+    {
+      "tanggal": "2026-10-11",
+      "slug": "lowongan-kerja-luar-negeri-p2mi-2026",
+      "judul": "Lowongan Kerja Luar Negeri P2MI 2026 (73% posisi masih kosong)",
+      "file": "output/loker-lowongan-kerja-luar-negeri-p2mi-2026-20261011.mp4",
+      "durasi_dtk": 39.9,
+      "status": "SUCCESS",
+      "taisly_history_id": "6acb93bac22887490c1ecb3f",
+      "platform": "TikTok @ngeweb.yuk"
+    },
+    {
+      "tanggal": "2026-10-12",
+      "slug": "lowongan-kerja-management-trainee-indocement-2026",
+      "judul": "Lowongan Kerja Management Trainee Indocement 2026",
+      "file": "output/loker-lowongan-kerja-management-trainee-indocement-2026-20261012.mp4",
+      "file_upload": "output/loker-indocement-20261012-upload.mp4",
+      "durasi_dtk": 36.6,
+      "status": "GAGAL_POSTING_TAISLY_FETCH_FAILED_3X_VIDEO_SIAP",
+      "taisly_history_id": null,
+      "platform": "TikTok @ngeweb.yuk",
+      "catatan": "posts:create gagal 3x 'fetch failed' (file 17.9MB dan 1.78MB sama-sama gagal; auth/list/validate normal). History Taisly dicek 3x: tidak ada posting masuk (count tetap 4). Video final siap posting manual/retry."
+    }
+  ]
+}

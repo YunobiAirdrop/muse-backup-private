@@ -1,0 +1,996 @@
+{
+ "youtube-pov": {
+  "workspace": "~/workspace/youtube-otomatis",
+  "baru": [
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/empires-en/shorts/2026-10-08-s1.mp4",
+    "probe": {
+     "duration_s": 45.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 7.7
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-short-f3.jpg"
+    ],
+    "tipe": "short"
+   },
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/empires-en/shorts/2026-10-08-s2.mp4",
+    "probe": {
+     "duration_s": 40.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 7.1
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-short-f3.jpg"
+    ],
+    "tipe": "short"
+   },
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/empires-en/shorts/2026-10-08-s3.mp4",
+    "probe": {
+     "duration_s": 40.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 6.7
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-short-f3.jpg"
+    ],
+    "tipe": "short"
+   },
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/empires-en/video/maya-2026-10-08-upload.mp4",
+    "probe": {
+     "duration_s": 456.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 143.0
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   },
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/horror-en/video/2026-10-08.mp4",
+    "probe": {
+     "duration_s": 599.4,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 88.0
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   },
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/video/2026-10-08-raw.mp4",
+    "probe": {
+     "duration_s": 918.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 112.9
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   },
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/video/2026-10-08-upload.mp4",
+    "probe": {
+     "duration_s": 515.4,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 46.2
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   },
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/video/2026-10-08.mp4",
+    "probe": {
+     "duration_s": 918.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 143.8
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   }
+  ],
+  "pembanding": {
+   "short": {
+    "file": "/home/hatch/workspace/youtube-otomatis/weird-en/video/2026-10-07-fixed.mp4",
+    "probe": {
+     "duration_s": 39.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 5.4
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-lama-short-f3.jpg"
+    ]
+   },
+   "long": {
+    "file": "/home/hatch/workspace/youtube-otomatis/empires-en/video/maya-long-raw.mp4",
+    "probe": {
+     "duration_s": 456.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 179.3
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/youtube-pov-lama-long-f3.jpg"
+    ]
+   }
+  }
+ },
+ "horor": {
+  "workspace": "~/workspace/horor-otomatis",
+  "baru": [
+   {
+    "file": "/home/hatch/workspace/horor-otomatis/shorts/2026-10-08-s1.mp4",
+    "probe": {
+     "duration_s": 45.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 9.9
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-short-f3.jpg"
+    ],
+    "tipe": "short"
+   },
+   {
+    "file": "/home/hatch/workspace/horor-otomatis/shorts/2026-10-08-s2.mp4",
+    "probe": {
+     "duration_s": 45.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 9.6
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-short-f3.jpg"
+    ],
+    "tipe": "short"
+   },
+   {
+    "file": "/home/hatch/workspace/horor-otomatis/shorts/2026-10-08-s3.mp4",
+    "probe": {
+     "duration_s": 45.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 9.8
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-short-f3.jpg"
+    ],
+    "tipe": "short"
+   },
+   {
+    "file": "/home/hatch/workspace/horor-otomatis/video/2026-10-08-youtube-small.mp4",
+    "probe": {
+     "duration_s": 697.4,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 55.1
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   },
+   {
+    "file": "/home/hatch/workspace/horor-otomatis/video/2026-10-08-youtube.mp4",
+    "probe": {
+     "duration_s": 697.4,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 194.0
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   },
+   {
+    "file": "/home/hatch/workspace/horor-otomatis/video/2026-10-08.mp4",
+    "probe": {
+     "duration_s": 697.4,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 267.1
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   }
+  ],
+  "pembanding": {
+   "long": {
+    "file": "/home/hatch/workspace/horor-otomatis/video/2026-10-06-youtube.mp4",
+    "probe": {
+     "duration_s": 699.5,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 115.4
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-lama-long-f3.jpg"
+    ]
+   },
+   "short": {
+    "file": "/home/hatch/workspace/horor-otomatis/shorts/2026-10-06-s3.mp4",
+    "probe": {
+     "duration_s": 45.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 5.4
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horor-lama-short-f3.jpg"
+    ]
+   }
+  }
+ },
+ "lima-misteri": {
+  "workspace": "~/workspace/lima-misteri",
+  "baru": [],
+  "pembanding": {
+   "long": {
+    "file": "/home/hatch/workspace/lima-misteri/video/video-2026-10-07-final.mp4",
+    "probe": {
+     "duration_s": 619.2,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 66.1
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/lima-misteri-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/lima-misteri-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/lima-misteri-lama-long-f3.jpg"
+    ]
+   },
+   "short": {
+    "file": "/home/hatch/workspace/lima-misteri/shorts/2026-10-07-s3.mp4",
+    "probe": {
+     "duration_s": 45.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 6.1
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/lima-misteri-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/lima-misteri-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/lima-misteri-lama-short-f3.jpg"
+    ]
+   }
+  }
+ },
+ "strangetales": {
+  "workspace": "~/workspace/youtube-otomatis/strange-tales",
+  "baru": [],
+  "pembanding": {
+   "short": {
+    "file": "/home/hatch/workspace/youtube-otomatis/strange-tales/2026-10-07/strange-tales-2026-10-07-mary-celeste-sm.mp4",
+    "probe": {
+     "duration_s": 36.7,
+     "res": "1080x1920",
+     "audio": true,
+     "size_mb": 10.9
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/strangetales-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/strangetales-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/strangetales-lama-short-f3.jpg"
+    ]
+   }
+  }
+ },
+ "tinybuilders": {
+  "workspace": "~/workspace/miniatur-ai",
+  "baru": [
+   {
+    "file": "/home/hatch/workspace/miniatur-ai/shorts-2026-10-08/final/tb-short1-2026-10-08.mp4",
+    "probe": {
+     "duration_s": 40.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 27.4
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-baru-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-baru-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-baru-short-f3.jpg"
+    ],
+    "tipe": "short"
+   },
+   {
+    "file": "/home/hatch/workspace/miniatur-ai/shorts-2026-10-08/final/tb-short2-2026-10-08.mp4",
+    "probe": {
+     "duration_s": 50.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 43.1
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-baru-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-baru-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-baru-short-f3.jpg"
+    ],
+    "tipe": "short"
+   },
+   {
+    "file": "/home/hatch/workspace/miniatur-ai/shorts-2026-10-08/final/tb-short3-2026-10-08.mp4",
+    "probe": {
+     "duration_s": 30.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 27.1
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-baru-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-baru-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-baru-short-f3.jpg"
+    ],
+    "tipe": "short"
+   }
+  ],
+  "pembanding": {
+   "short": {
+    "file": "/home/hatch/workspace/miniatur-ai/shorts-2026-10-08/media-generation-tiny-builders-short3-2026-10-0-0-0801560f-a922-420d-96a4-fa1532fdecb1.mp4",
+    "probe": {
+     "duration_s": 10.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 9.8
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-lama-short-f3.jpg"
+    ]
+   },
+   "long": {
+    "file": "/home/hatch/workspace/miniatur-ai/tiny-builders-ep1-long-xs2.mp4",
+    "probe": {
+     "duration_s": 850.3,
+     "res": "960x540",
+     "audio": true,
+     "size_mb": 51.5
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/tinybuilders-lama-long-f3.jpg"
+    ]
+   }
+  }
+ },
+ "truecrime-en": {
+  "workspace": "~/workspace/youtube-otomatis/truecrime-en",
+  "baru": [],
+  "pembanding": {
+   "long": {
+    "file": "/home/hatch/workspace/youtube-otomatis/truecrime-en/video/2026-10-06.mp4",
+    "probe": {
+     "duration_s": 547.1,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 68.4
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/truecrime-en-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/truecrime-en-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/truecrime-en-lama-long-f3.jpg"
+    ]
+   },
+   "short": {
+    "file": "/home/hatch/workspace/youtube-otomatis/truecrime-en/shorts/2026-10-06-s3.mp4",
+    "probe": {
+     "duration_s": 57.4,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 6.3
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/truecrime-en-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/truecrime-en-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/truecrime-en-lama-short-f3.jpg"
+    ]
+   }
+  }
+ },
+ "horror-en": {
+  "workspace": "~/workspace/youtube-otomatis/horror-en",
+  "baru": [
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/horror-en/video/2026-10-08.mp4",
+    "probe": {
+     "duration_s": 599.4,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 88.0
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/horror-en-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horror-en-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horror-en-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   }
+  ],
+  "pembanding": {
+   "long": {
+    "file": "/home/hatch/workspace/youtube-otomatis/horror-en/video/2026-10-05.mp4",
+    "probe": {
+     "duration_s": 553.5,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 103.9
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/horror-en-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horror-en-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horror-en-lama-long-f3.jpg"
+    ]
+   },
+   "short": {
+    "file": "/home/hatch/workspace/youtube-otomatis/horror-en/shorts/2026-10-05-s3.mp4",
+    "probe": {
+     "duration_s": 47.0,
+     "res": "1080x1920",
+     "audio": true,
+     "size_mb": 11.9
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/horror-en-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horror-en-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/horror-en-lama-short-f3.jpg"
+    ]
+   }
+  }
+ },
+ "mystery-en": {
+  "workspace": "~/workspace/youtube-otomatis/mystery-en",
+  "baru": [],
+  "pembanding": {
+   "long": {
+    "file": "/home/hatch/workspace/youtube-otomatis/mystery-en/video/2026-10-07.mp4",
+    "probe": {
+     "duration_s": 527.9,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 65.8
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/mystery-en-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/mystery-en-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/mystery-en-lama-long-f3.jpg"
+    ]
+   },
+   "short": {
+    "file": "/home/hatch/workspace/youtube-otomatis/mystery-en/shorts/2026-10-05-s3.mp4",
+    "probe": {
+     "duration_s": 45.0,
+     "res": "1080x1920",
+     "audio": true,
+     "size_mb": 13.4
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/mystery-en-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/mystery-en-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/mystery-en-lama-short-f3.jpg"
+    ]
+   }
+  }
+ },
+ "history-en": {
+  "workspace": "~/workspace/youtube-otomatis/history-en",
+  "baru": [],
+  "pembanding": {
+   "long": {
+    "file": "/home/hatch/workspace/youtube-otomatis/history-en/video/2026-10-07.mp4",
+    "probe": {
+     "duration_s": 628.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 84.6
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/history-en-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/history-en-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/history-en-lama-long-f3.jpg"
+    ]
+   },
+   "short": {
+    "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-07-s3.mp4",
+    "probe": {
+     "duration_s": 70.7,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 11.1
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/history-en-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/history-en-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/history-en-lama-short-f3.jpg"
+    ]
+   }
+  }
+ },
+ "space-en": {
+  "workspace": "~/workspace/youtube-otomatis/space-en",
+  "baru": [],
+  "pembanding": {
+   "long": {
+    "file": "/home/hatch/workspace/youtube-otomatis/space-en/video/2026-10-07.mp4",
+    "probe": {
+     "duration_s": 549.9,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 81.1
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/space-en-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/space-en-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/space-en-lama-long-f3.jpg"
+    ]
+   },
+   "short": {
+    "file": "/home/hatch/workspace/youtube-otomatis/space-en/shorts/2026-10-07-s3.mp4",
+    "probe": {
+     "duration_s": 55.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 6.0
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/space-en-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/space-en-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/space-en-lama-short-f3.jpg"
+    ]
+   }
+  }
+ },
+ "mind-en": {
+  "workspace": "~/workspace/youtube-otomatis/mind-en",
+  "baru": [],
+  "pembanding": {
+   "long": {
+    "file": "/home/hatch/workspace/youtube-otomatis/mind-en/video/2026-10-05.mp4",
+    "probe": {
+     "duration_s": 556.1,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 58.9
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/mind-en-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/mind-en-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/mind-en-lama-long-f3.jpg"
+    ]
+   },
+   "short": {
+    "file": "/home/hatch/workspace/youtube-otomatis/mind-en/shorts/2026-10-08/short3-5rules-up.mp4",
+    "probe": {
+     "duration_s": 48.8,
+     "res": "1080x1920",
+     "audio": true,
+     "size_mb": 5.3
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/mind-en-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/mind-en-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/mind-en-lama-short-f3.jpg"
+    ]
+   }
+  }
+ },
+ "weird-en": {
+  "workspace": "~/workspace/youtube-otomatis/weird-en",
+  "baru": [],
+  "pembanding": {
+   "long": {
+    "file": "/home/hatch/workspace/youtube-otomatis/weird-en/video/2026-10-07.mp4",
+    "probe": {
+     "duration_s": 573.7,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 78.5
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/weird-en-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/weird-en-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/weird-en-lama-long-f3.jpg"
+    ]
+   },
+   "short": {
+    "file": "/home/hatch/workspace/youtube-otomatis/weird-en/video/2026-10-07-fixed.mp4",
+    "probe": {
+     "duration_s": 39.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 5.4
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/weird-en-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/weird-en-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/weird-en-lama-short-f3.jpg"
+    ]
+   }
+  }
+ },
+ "empires-en": {
+  "workspace": "~/workspace/youtube-otomatis/empires-en",
+  "baru": [
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/empires-en/shorts/2026-10-08-s1.mp4",
+    "probe": {
+     "duration_s": 45.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 7.7
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-baru-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-baru-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-baru-short-f3.jpg"
+    ],
+    "tipe": "short"
+   },
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/empires-en/shorts/2026-10-08-s2.mp4",
+    "probe": {
+     "duration_s": 40.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 7.1
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-baru-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-baru-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-baru-short-f3.jpg"
+    ],
+    "tipe": "short"
+   },
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/empires-en/shorts/2026-10-08-s3.mp4",
+    "probe": {
+     "duration_s": 40.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 6.7
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-baru-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-baru-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-baru-short-f3.jpg"
+    ],
+    "tipe": "short"
+   },
+   {
+    "file": "/home/hatch/workspace/youtube-otomatis/empires-en/video/maya-2026-10-08-upload.mp4",
+    "probe": {
+     "duration_s": 456.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 143.0
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   }
+  ],
+  "pembanding": {
+   "long": {
+    "file": "/home/hatch/workspace/youtube-otomatis/empires-en/video/maya-long-raw.mp4",
+    "probe": {
+     "duration_s": 456.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 179.3
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-lama-long-f3.jpg"
+    ]
+   },
+   "short": {
+    "file": "/home/hatch/workspace/youtube-otomatis/empires-en/shorts/2026-10-06-s3.mp4",
+    "probe": {
+     "duration_s": 42.0,
+     "res": "720x1280",
+     "audio": true,
+     "size_mb": 7.4
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/empires-en-lama-short-f3.jpg"
+    ]
+   }
+  }
+ },
+ "jejakislami": {
+  "workspace": "~/workspace/kisah-islami",
+  "baru": [
+   {
+    "file": "/home/hatch/workspace/kisah-islami/work/2026-10-08/jejak-islami-2026-10-08-long.mp4",
+    "probe": {
+     "duration_s": 536.8,
+     "res": "1920x1080",
+     "audio": true,
+     "size_mb": 2398.9
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakislami-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakislami-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakislami-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   }
+  ],
+  "pembanding": {
+   "long": {
+    "file": "/home/hatch/workspace/kisah-islami/work/2026-10-08/dasar.mp4",
+    "probe": {
+     "duration_s": 537.0,
+     "res": "1920x1080",
+     "audio": false,
+     "size_mb": 2675.1
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakislami-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakislami-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakislami-lama-long-f3.jpg"
+    ]
+   },
+   "short": {
+    "file": "/home/hatch/workspace/kisah-islami/work/2026-10-08/shorts/s3.mp4",
+    "probe": {
+     "duration_s": 51.0,
+     "res": "1080x1920",
+     "audio": true,
+     "size_mb": 102.4
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakislami-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakislami-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakislami-lama-short-f3.jpg"
+    ]
+   }
+  }
+ },
+ "kisahalkitab": {
+  "workspace": "~/workspace/kisah-alkitab",
+  "baru": [
+   {
+    "file": "/home/hatch/workspace/kisah-alkitab/work/2026-10-08/out/kisah-alkitab-2026-10-08-long-upload.mp4",
+    "probe": {
+     "duration_s": 467.8,
+     "res": "1920x1080",
+     "audio": true,
+     "size_mb": 93.3
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahalkitab-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahalkitab-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahalkitab-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   },
+   {
+    "file": "/home/hatch/workspace/kisah-alkitab/work/2026-10-08/out/kisah-alkitab-2026-10-08-long.mp4",
+    "probe": {
+     "duration_s": 467.8,
+     "res": "1920x1080",
+     "audio": true,
+     "size_mb": 2720.3
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahalkitab-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahalkitab-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahalkitab-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   }
+  ],
+  "pembanding": {
+   "short": {
+    "file": "/home/hatch/workspace/kisah-alkitab/work/2026-10-08/_segs/s17.mp4",
+    "probe": {
+     "duration_s": 29.8,
+     "res": "1920x1080",
+     "audio": false,
+     "size_mb": 8.1
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahalkitab-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahalkitab-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahalkitab-lama-short-f3.jpg"
+    ]
+   },
+   "long": {
+    "file": "/home/hatch/workspace/kisah-alkitab/work/2026-10-08/out/concat.mp4",
+    "probe": {
+     "duration_s": 467.8,
+     "res": "1920x1080",
+     "audio": false,
+     "size_mb": 274.2
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahalkitab-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahalkitab-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahalkitab-lama-long-f3.jpg"
+    ]
+   }
+  }
+ },
+ "kisahdharma": {
+  "workspace": "~/workspace/kisah-dharma",
+  "baru": [
+   {
+    "file": "/home/hatch/workspace/kisah-dharma/2026-10-08/kisah-dharma-2026-10-08-long-small.mp4",
+    "probe": {
+     "duration_s": 590.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 87.3
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahdharma-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahdharma-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahdharma-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   },
+   {
+    "file": "/home/hatch/workspace/kisah-dharma/2026-10-08/kisah-dharma-2026-10-08-long-upload.mp4",
+    "probe": {
+     "duration_s": 216.3,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 30.7
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahdharma-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahdharma-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahdharma-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   },
+   {
+    "file": "/home/hatch/workspace/kisah-dharma/2026-10-08/kisah-dharma-2026-10-08-long.mp4",
+    "probe": {
+     "duration_s": 590.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 1031.3
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahdharma-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahdharma-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/kisahdharma-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   }
+  ],
+  "pembanding": {}
+ },
+ "jejakbuddha": {
+  "workspace": "~/workspace/jejak-buddha",
+  "baru": [
+   {
+    "file": "/home/hatch/workspace/jejak-buddha/2026-10-08/jejak-buddha-2026-10-08-long.mp4",
+    "probe": {
+     "duration_s": 541.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 238.6
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakbuddha-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakbuddha-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakbuddha-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   },
+   {
+    "file": "/home/hatch/workspace/jejak-buddha/2026-10-08/jejak-buddha-2026-10-08-upload.mp4",
+    "probe": {
+     "duration_s": 541.0,
+     "res": "1280x720",
+     "audio": true,
+     "size_mb": 73.5
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakbuddha-baru-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakbuddha-baru-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakbuddha-baru-long-f3.jpg"
+    ],
+    "tipe": "long"
+   }
+  ],
+  "pembanding": {
+   "short": {
+    "file": "/home/hatch/workspace/jejak-buddha/2026-10-08/seg14.mp4",
+    "probe": {
+     "duration_s": 45.4,
+     "res": "1280x720",
+     "audio": false,
+     "size_mb": 11.2
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakbuddha-lama-short-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakbuddha-lama-short-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakbuddha-lama-short-f3.jpg"
+    ]
+   },
+   "long": {
+    "file": "/home/hatch/workspace/jejak-buddha/2026-10-08/concat.mp4",
+    "probe": {
+     "duration_s": 541.0,
+     "res": "1280x720",
+     "audio": false,
+     "size_mb": 231.8
+    },
+    "frames": [
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakbuddha-lama-long-f1.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakbuddha-lama-long-f2.jpg",
+     "/home/hatch/workspace/cek-1v1-output/frames/jejakbuddha-lama-long-f3.jpg"
+    ]
+   }
+  }
+ }
+}

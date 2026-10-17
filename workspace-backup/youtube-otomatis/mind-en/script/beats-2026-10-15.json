@@ -1,0 +1,379 @@
+{
+ "beats": [
+  {
+   "id": "beat-001",
+   "image": "A giant human brain looming over a tiny sleeping person, brain wires glowing with tiny lies, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Your brain is lying to you right now. And you will never catch it in the act."
+  },
+  {
+   "id": "beat-002",
+   "image": "Seven glowing trap cards floating in a dark void, one hand reaching toward them, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Tonight: seven tricks your own mind plays on you daily."
+  },
+  {
+   "id": "beat-003",
+   "image": "A person staring at a mirror that shows two different faces, one certain and one confused, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Quick question. Have you ever been totally sure about something, then learned you were completely wrong?"
+  },
+  {
+   "id": "beat-004",
+   "image": "Tangled brain circuits forming a knot, a small light bulb of understanding inside the knot, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Hold that moment. It was never your fault. It was your wiring."
+  },
+  {
+   "id": "beat-005",
+   "image": "An old psychology book with chapters glowing like chapters of the mind, pages floating in darkness, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Psychologists have mapped these glitches for decades. They are called cognitive biases."
+  },
+  {
+   "id": "beat-006",
+   "image": "A doctor, a judge, and a CEO all walking blindly into the same invisible trap, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Not flaws of stupid people. Doctors, judges, and CEOs fall for them daily."
+  },
+  {
+   "id": "beat-007",
+   "image": "A sharp businessman walking a tightrope while small invisible hooks pull at his suit, friend watching worried, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "A brilliant friend of mine got bent by these tricks. Number seven is the one nobody talks about."
+  },
+  {
+   "id": "beat-008",
+   "image": "A giant glowing chapter title CONFIRMATION BIAS burning in dark stone letters, a figure reading it, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Trick one. Confirmation bias. Running in your head right now."
+  },
+  {
+   "id": "beat-009",
+   "image": "A brain wearing a lawyer's wig arguing in a dark courtroom, judge asleep, evidence folders labeled with the same verdict, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Your brain is no detective. It is a lawyer defending a verdict already reached."
+  },
+  {
+   "id": "beat-010",
+   "image": "A huge glowing filter funnel sorting thoughts, green checkmarks on agreeable ones, red X on disagreeable ones falling away, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Decide something is true, and your mind filters reality. Agreement highlighted. Disagreement deleted."
+  },
+  {
+   "id": "beat-011",
+   "image": "Two friends arguing across a table, each holding a stack of papers proving their side, neither listening, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "This is why arguments go nowhere. Both sides finished collecting proof before the talk started."
+  },
+  {
+   "id": "beat-012",
+   "image": "Two people watching the same glowing video screen but seeing completely different scenes in it, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Two people watch one video and reach opposite conclusions. The video did not change. The bias did."
+  },
+  {
+   "id": "beat-013",
+   "image": "A man stubbornly holding a diet plan book while his doctor hands him medical studies he refuses to look at, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "I have done this myself. Defended a diet that clearly failed, ignoring my own doctor's studies."
+  },
+  {
+   "id": "beat-014",
+   "image": "A person proudly admiring their own reflection in a mirror that is labeled RESEARCH, but the mirror only shows themselves, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "It feels like thinking, like research. But it is your brain admiring its own reflection."
+  },
+  {
+   "id": "beat-015",
+   "image": "A hand writing on a dark wall the question WHAT WOULD CHANGE MY MIND, cracks of light through the wall, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "What evidence would change my mind? If nothing could, that is a bias, not a belief."
+  },
+  {
+   "id": "beat-016",
+   "image": "An empty wallet with moths flying out, coins slipping through cracks in a dark floor, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Now, the trick that empties bank accounts and traps people in miserable jobs."
+  },
+  {
+   "id": "beat-017",
+   "image": "A giant glowing chapter title SUNK COST FALLACY burning in dark stone letters over a pit of money, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Trick two. The sunk cost fallacy. You paid too much to quit, so you keep paying."
+  },
+  {
+   "id": "beat-018",
+   "image": "A bored man glued to a cinema seat watching a terrible movie, popcorn stale, clock ticking, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Ten minutes into an awful movie, you stay. Because leaving would waste the ticket."
+  },
+  {
+   "id": "beat-019",
+   "image": "A couple standing in a broken house, one holding a suitcase, the other pointing at years marked on the wall, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "People stay in dead relationships for years. As if one more year refunds the rest."
+  },
+  {
+   "id": "beat-020",
+   "image": "A businessman shoveling money into a burning furnace labeled FAILED PROJECT, smoke rising, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Executives pour millions into failing projects, because admitting loss feels worse than losing more."
+  },
+  {
+   "id": "beat-021",
+   "image": "A person looking at a mirror that shows FAILURE stamped on their forehead, but quitting the bad path is blocked by a wall of pride, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Quitting feels like failure. Your ego prefers losing more to admitting it lost."
+  },
+  {
+   "id": "beat-022",
+   "image": "A person staring at an unfinished project on a desk, papers stacked high, clock showing years passed, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "This one hit close to home. I once spent two years building something nobody wanted."
+  },
+  {
+   "id": "beat-023",
+   "image": "A gambler at a dark casino table pushing his last chips forward, dealer smiling, roulette wheel glowing red, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Casinos run on this. Every gambler thinks: I cannot leave now, I have already lost so much."
+  },
+  {
+   "id": "beat-024",
+   "image": "A person at a crossroads, one path labeled QUIT NOW and another STAY TRAPPED, a compass pointing to a fresh start, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Would you still choose this starting fresh? If not, the past is an excuse."
+  },
+  {
+   "id": "beat-025",
+   "image": "A heavy iron anchor labeled THE PAST sinking into dark water, a small boat labeled YOUR FUTURE sailing free above, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "The past is a sunk cost. The future is still negotiable."
+  },
+  {
+   "id": "beat-026",
+   "image": "A giant price tag with a number on it, glowing, and a tiny brain worshipping the number like an idol, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Trick three hijacks your sense of value itself. Before anyone even names a price."
+  },
+  {
+   "id": "beat-027",
+   "image": "A giant glowing chapter title ANCHORING burning in dark stone letters, a ship anchor dropping onto a price list, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Trick three. Anchoring. The first number you hear becomes the reference for everything after it."
+  },
+  {
+   "id": "beat-028",
+   "image": "A shop window with a crossed-out price tag ONE THOUSAND and a new tag TWO HUNDRED glowing, a shopper smiling, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Marked down from one thousand to two hundred, any jacket feels like a steal. Even one worth one fifty."
+  },
+  {
+   "id": "beat-029",
+   "image": "Two people negotiating across a table, the first speaker slamming down a huge number that ripples the air, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "In every negotiation, whoever names the first number wins. It bends the whole conversation around itself."
+  },
+  {
+   "id": "beat-030",
+   "image": "A job applicant sitting across a desk, a giant anchor dropping on the salary figure the interviewer wrote, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Job interviews run on this. The first offer sets the ceiling. Counteroffers just orbit their anchor."
+  },
+  {
+   "id": "beat-031",
+   "image": "A spinning carnival wheel of numbers, a confused bidder raising a paddle, price bubbles floating, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Even a random wheel spin changes what people pay. Your brain anchors to noise."
+  },
+  {
+   "id": "beat-032",
+   "image": "A red SALE sign glowing over a store entrance, crossed-out prices everywhere, shoppers rushing in like a wave, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Retailers plant anchors daily. The crossed-out price was never real. It exists to make the real price feel small."
+  },
+  {
+   "id": "beat-033",
+   "image": "A person holding a shield labeled MY NUMBER, blocking an incoming anchor thrown by a merchant, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Set your number before seeing theirs. Bring your own anchor, or swim in theirs."
+  },
+  {
+   "id": "beat-034",
+   "image": "A giant hand slamming a numbered gavel on a table, the number one glowing, ripples bending everything around it, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Whoever names the first number controls the table. Remember that."
+  },
+  {
+   "id": "beat-035",
+   "image": "A small coin labeled GAIN looking tiny next to a huge dark weight labeled LOSS crushing a scale, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Trick four: losing one hundred hurts more than winning one hundred feels good."
+  },
+  {
+   "id": "beat-036",
+   "image": "A giant glowing chapter title LOSS AVERSION burning in dark stone letters, a hand clutching money that is slipping away, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Trick four. Loss aversion. Losses feel twice as painful as equal gains feel pleasant."
+  },
+  {
+   "id": "beat-037",
+   "image": "Two scales in darkness, one with a small gold coin GAIN and one with a dark heavy LOSS weight tipping hard, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Find a hundred, smile for an hour. Lose a hundred, think about it for a week."
+  },
+  {
+   "id": "beat-038",
+   "image": "A free trial banner transforming into chains and a billing monster, a user trapped signing, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Free trials run on this brutally well. Once the trial ends, canceling feels like losing something you owned."
+  },
+  {
+   "id": "beat-039",
+   "image": "A glowing red subscribe button pulsing in darkness, a hand reaching toward it, bell icon ringing, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Past halfway. The next three run your social feed. Brain workout? Hit subscribe. Dark Mind Files, daily."
+  },
+  {
+   "id": "beat-040",
+   "image": "A crowd running toward a door labeled LIMITED OFFER, clocks ticking, a person swept along in the panic, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "FOMO is loss aversion in a party mask. Your brain hears: act now, or lose forever."
+  },
+  {
+   "id": "beat-041",
+   "image": "A panicked investor staring at a crashing red stock chart, finger hovering over a SELL button, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Investors panic-sell at the bottom, then buy back at the top. Loss aversion, charging a fee every time."
+  },
+  {
+   "id": "beat-042",
+   "image": "A person hoarding broken junk in a dark attic, boxes overflowing, labeled MIGHT NEED SOMEDAY, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Your closet proves it. You keep things you never use, because tossing them feels like losing."
+  },
+  {
+   "id": "beat-043",
+   "image": "A person calmly relabeling a LOSS box to CHANGED, light breaking through dark clouds, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Nothing lost, only changed. You are not losing a subscription. You are freeing money."
+  },
+  {
+   "id": "beat-044",
+   "image": "A brain treating a tiny paper cut like a battlefield wound, alarm bells ringing, but the person is safe in a calm room, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Your brain treats losses like threats. You are not in danger, just uncomfortable. Discomfort passes."
+  },
+  {
+   "id": "beat-045",
+   "image": "A television news screen showing a dramatic plane crash, while a calm car drives safely on a road below it, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Trick five decides what scares you and what you argue about. It starts with your news feed."
+  },
+  {
+   "id": "beat-046",
+   "image": "A giant glowing chapter title AVAILABILITY HEURISTIC burning in dark stone letters, memories floating like glowing orbs, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Trick five. The availability heuristic. Your brain judges likelihood by ease of recall."
+  },
+  {
+   "id": "beat-047",
+   "image": "A brain library where dramatic scary books glow on the front shelf, while boring statistics books gather dust in the back, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Your memory is not a database. It is a highlight reel. Drama gets front-row seats."
+  },
+  {
+   "id": "beat-048",
+   "image": "A terrified passenger gripping airplane armrests, while outside the window a calm highway full of cars stretches below, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "You fear planes more than cars, though the airport drive is deadlier. Memorable is not likely."
+  },
+  {
+   "id": "beat-049",
+   "image": "A giant shark with glowing teeth looming over a beach, while a small vending machine quietly tips over in the corner, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "You dread sharks, but vending machines kill more people. One makes movies. The other makes nothing."
+  },
+  {
+   "id": "beat-050",
+   "image": "A news anchor shouting dramatic headlines, the headlines turning into giant monsters that feel everywhere, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "The news manufactures availability. One rare tragedy, replayed for a week, feels like a daily event."
+  },
+  {
+   "id": "beat-051",
+   "image": "A person nervously avoiding flying, staring at a plane ticket, while a calm friend points at boring safety statistics on a board, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Smart people refuse to fly after one news cycle, then text while driving. Fear follows footage, not facts."
+  },
+  {
+   "id": "beat-052",
+   "image": "A glowing lottery ticket floating like a dream, millions of losing tickets raining down in darkness around it, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Lotteries sell availability. You see the one TV winner. Never the forty million losers."
+  },
+  {
+   "id": "beat-053",
+   "image": "A hand holding a magnifying glass over boring statistical charts, the charts glowing with truth, dramatic memories shrinking, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "The antidote is boring: ask what the numbers say. Boring numbers beat dramatic memories every time."
+  },
+  {
+   "id": "beat-054",
+   "image": "A glowing memorable movie scene labeled MEMORABLE shrinking, while a plain realistic scale labeled LIKELY grows larger beside it, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Memorable is not the same as likely. Tattoo that on the inside of your skull."
+  },
+  {
+   "id": "beat-055",
+   "image": "A massive crowd marching in one direction, one small person standing still looking the other way, spotlights on the crowd, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Trick six kept your ancestors alive. Today it sells tickets, trends, and political movements."
+  },
+  {
+   "id": "beat-056",
+   "image": "A giant glowing chapter title BANDWAGON EFFECT burning in dark stone letters, a crowd climbing onto a rolling wagon, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Trick six. The bandwagon effect. Everyone is doing it, so your brain reads safety."
+  },
+  {
+   "id": "beat-057",
+   "image": "A long line of people outside a restaurant, one person joining the line without knowing why, question marks above heads, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "You join the crowded restaurant. Not for the food. Forty strangers cannot be wrong. They can."
+  },
+  {
+   "id": "beat-058",
+   "image": "A hype crowd throwing money at a glowing crypto coin rocket, the rocket made of paper, flames of hype, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Every bubble is the bandwagon with money on it. Rising prices attract buyers. Then the music stops."
+  },
+  {
+   "id": "beat-059",
+   "image": "A fashion trend wave sweeping people along, everyone wearing the same glowing outfit, one confused person swept in the current, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Fashion, trends, viral opinions. Same mechanism. Popularity hijacks judgment before it wakes up."
+  },
+  {
+   "id": "beat-060",
+   "image": "Election poll charts glowing, a crowd shifting their vote toward the leading candidate like iron filings to a magnet, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "It bends elections. Polls pull undecided voters toward the leader. People want the winner, not the platform."
+  },
+  {
+   "id": "beat-061",
+   "image": "A social media mob with torches of comments piling onto one small figure, likes and shares raining like fire, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Online pile-ons? Nobody reads the original post. They read the outrage and add their stone."
+  },
+  {
+   "id": "beat-062",
+   "image": "A person standing alone in a quiet room making their own choice, the noisy crowd blurred behind glass, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "What would you choose if nobody knew? If the answer changes, the crowd chose for you."
+  },
+  {
+   "id": "beat-063",
+   "image": "A giant crowd of faceless figures labeled POPULARITY crumbling like a sand statue, one solid figure labeled PROOF standing firm, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Popularity is not proof. It is peer pressure wearing a costume."
+  },
+  {
+   "id": "beat-064",
+   "image": "A celebrity with a glowing halo, fans worshipping, while the halo casts a long dark shadow hiding flaws, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Trick seven is the quietest. You will spot it in every interview, date, and courtroom."
+  },
+  {
+   "id": "beat-065",
+   "image": "A giant glowing chapter title HALO EFFECT burning in dark stone letters, a golden halo floating over a shadowy figure, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Trick seven. The halo effect. One good trait, and your brain assumes the rest."
+  },
+  {
+   "id": "beat-066",
+   "image": "An attractive confident person being handed a gold star, while an equally skilled plain person is ignored in the corner, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Attractive people get judged kinder and smarter. Same resume, different face, different verdict."
+  },
+  {
+   "id": "beat-067",
+   "image": "A celebrity holding a glowing product, fans buying it blindly, the product box hiding warning labels, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Celebrities sell perfume and crypto alike. The halo of fame smears onto the product."
+  },
+  {
+   "id": "beat-068",
+   "image": "A job interview scene, the interviewer dazzled by a firm handshake and a smile, the candidate's empty resume glowing unnoticed, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "First impressions are halo factories. A firm handshake and a good suit outweigh an empty resume."
+  },
+  {
+   "id": "beat-069",
+   "image": "A manager shaking hands with a charming smooth-talking hire, while behind them the actual work desk sits empty and dusty, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "I once hired someone brilliant at discussing the work. Discussion was their only skill. The halo blinded me."
+  },
+  {
+   "id": "beat-070",
+   "image": "A dark horned shadow labeled HORN EFFECT, the reverse of a halo, one flaw darkening an entire good person, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Its evil twin, the horn effect: one bad trait paints everything dark. One awkward moment sinks a candidate."
+  },
+  {
+   "id": "beat-071",
+   "image": "A judge's gavel splitting a person into separate labeled traits, each trait weighed on its own scale, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Judge traits separately. Charm gets one score, competence another. Never average them."
+  },
+  {
+   "id": "beat-072",
+   "image": "A bright spotlight labeled CHARM, and a hand pulling the spotlight aside to reveal what hides in the shadows behind it, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Charm is a spotlight. Always check what is hiding in the shadows."
+  },
+  {
+   "id": "beat-073",
+   "image": "Seven glowing masks of the mind lined up on a dark wall, each labeled with a bias name, a viewer looking at them, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Seven tricks, now with names: confirmation bias, sunk cost, anchoring, loss aversion, availability, bandwagon, halo."
+  },
+  {
+   "id": "beat-074",
+   "image": "A person walking confidently through a dark maze, holding a lantern labeled AWARENESS, the maze walls made of brain folds, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "You cannot delete these glitches. But spot one in the act, and it loses its power."
+  },
+  {
+   "id": "beat-075",
+   "image": "A glowing red subscribe button and a bell in a dark void, the seven trick cards arranged behind like trophies, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "narration": "Rewired how you see your own mind? Subscribe to Dark Mind Files. Tomorrow: the seven tricks others use on you."
+  }
+ ]
+}

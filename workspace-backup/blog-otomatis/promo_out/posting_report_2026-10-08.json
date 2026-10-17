@@ -1,0 +1,125 @@
+{
+ "tanggal": "2026-10-08",
+ "hasil": [
+  {
+   "produk": "Cream JRG Original BPOM 30gr",
+   "akun": "IG",
+   "status": "GAGAL",
+   "info": "Error: instagram request was forbidden by the server (HTTP 403): this specific command is currently unavailable (likely disabled or gated server-side) — other commands may still work. It is not an aut"
+  },
+  {
+   "produk": "Cream JRG Original BPOM 30gr",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "\u001b[2m2026-10-08T11:01:22.414729Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mthreads_confirmation_label_lookup\u001b[0m\u001b[2m:\u001b[0m Threads confirmation label enrichment unavailable; continuing with sanitized preview \u001b[3mscope\u001b[0m"
+  },
+  {
+   "produk": "Cream JRG Original BPOM 30gr",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: \u001b[2m2026-10-08T13:25:17.664277Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mthreads_confirmation_label_lookup\u001b[0m\u001b[2m:\u001b[0m Threads confirmati"
+  },
+  {
+   "produk": "Cream JRG Original BPOM 30gr",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: Error: facebook request was forbidden by the server (HTTP 403): this specific command is currently unavailable (likely d"
+  },
+  {
+   "produk": "Gamis Mewah Karina Dress Ceruty",
+   "akun": "IG",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: Error: instagram request was forbidden by the server (HTTP 403): this specific command is currently unavailable (likely "
+  },
+  {
+   "produk": "Gamis Mewah Karina Dress Ceruty",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: \u001b[2m2026-10-08T13:28:43.153527Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mthreads_confirmation_label_lookup\u001b[0m\u001b[2m:\u001b[0m Threads confirmati"
+  },
+  {
+   "produk": "Gamis Mewah Karina Dress Ceruty",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: \u001b[2m2026-10-08T13:29:33.123420Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mthreads_confirmation_label_lookup\u001b[0m\u001b[2m:\u001b[0m Threads confirmati"
+  },
+  {
+   "produk": "Gamis Mewah Karina Dress Ceruty",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: Error: facebook request was forbidden by the server (HTTP 403): this specific command is currently unavailable (likely d"
+  },
+  {
+   "produk": "Gamis Kondangan Kayla Dress Viral",
+   "akun": "IG",
+   "status": "GAGAL",
+   "info": "Error: instagram request was forbidden by the server (HTTP 403): this specific command is currently unavailable (likely disabled or gated server-side) — other commands may still work. It is not an aut"
+  },
+  {
+   "produk": "Gamis Kondangan Kayla Dress Viral",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "\u001b[2m2026-10-08T11:25:54.980531Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mthreads_confirmation_label_lookup\u001b[0m\u001b[2m:\u001b[0m Threads confirmation label enrichment unavailable; continuing with sanitized preview \u001b[3mscope\u001b[0m"
+  },
+  {
+   "produk": "Gamis Kondangan Kayla Dress Viral",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: \u001b[2m2026-10-08T13:30:59.613221Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mthreads_confirmation_label_lookup\u001b[0m\u001b[2m:\u001b[0m Threads confirmati"
+  },
+  {
+   "produk": "Gamis Kondangan Kayla Dress Viral",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: Error: facebook request was forbidden by the server (HTTP 403): this specific command is currently unavailable (likely d"
+  },
+  {
+   "produk": "Aura Midi Dress Jumbo Busui Friendly",
+   "akun": "IG",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: Error: instagram request was forbidden by the server (HTTP 403): this specific command is currently unavailable (likely "
+  },
+  {
+   "produk": "Aura Midi Dress Jumbo Busui Friendly",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: \u001b[2m2026-10-08T13:33:45.075051Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mthreads_confirmation_label_lookup\u001b[0m\u001b[2m:\u001b[0m Threads confirmati"
+  },
+  {
+   "produk": "Aura Midi Dress Jumbo Busui Friendly",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: \u001b[2m2026-10-08T13:34:27.740976Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mthreads_confirmation_label_lookup\u001b[0m\u001b[2m:\u001b[0m Threads confirmati"
+  },
+  {
+   "produk": "Aura Midi Dress Jumbo Busui Friendly",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: Error: facebook request was forbidden by the server (HTTP 403): this specific command is currently unavailable (likely d"
+  },
+  {
+   "produk": "Mainan Edukasi Sains Kayu Anak",
+   "akun": "IG",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: Error: instagram request was forbidden by the server (HTTP 403): this specific command is currently unavailable (likely "
+  },
+  {
+   "produk": "Mainan Edukasi Sains Kayu Anak",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "\u001b[2m2026-10-08T11:52:49.480798Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mthreads_confirmation_label_lookup\u001b[0m\u001b[2m:\u001b[0m Threads confirmation label enrichment unavailable; continuing with sanitized preview \u001b[3mscope\u001b[0m"
+  },
+  {
+   "produk": "Mainan Edukasi Sains Kayu Anak",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: \u001b[2m2026-10-08T13:36:32.649593Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mthreads_confirmation_label_lookup\u001b[0m\u001b[2m:\u001b[0m Threads confirmati"
+  },
+  {
+   "produk": "Mainan Edukasi Sains Kayu Anak",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "retry: Error: facebook request was forbidden by the server (HTTP 403): this specific command is currently unavailable (likely d"
+  }
+ ]
+}

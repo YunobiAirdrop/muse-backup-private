@@ -1,0 +1,186 @@
+{
+ "dipakai": [
+  {
+   "cerita": "Silkhenge spider, Peru 2013",
+   "tanggal": "2026-10-05",
+   "video_url": "https://www.youtube.com/shorts/DrHpIVfwIv8"
+  },
+  {
+   "cerita": "Tardigrades (water bear survived outer space)",
+   "tanggal": "2026-10-06",
+   "video_url": "https://youtube.com/shorts/vr9XcFC2dPA"
+  },
+  {
+   "cerita": "Immortal jellyfish (Turritopsis dohrnii)",
+   "tanggal": "2026-10-06",
+   "video_url": "https://youtube.com/shorts/Y5nf99683ZE"
+  },
+  {
+   "cerita": "Dancing plague of 1518, Strasbourg",
+   "tanggal": "2026-10-06",
+   "video_url": "https://youtube.com/shorts/q4QBPEqE3UU"
+  },
+  {
+   "cerita": "Mantis shrimp (punches faster than a bullet)",
+   "tanggal": "2026-10-07",
+   "video_url": "PENDING_UPLOAD",
+   "status": "video produced OK; upload 2026-10-07 BLOCKED limit; retry 2026-10-08 16:57 WIB BLOCKED lagi (Batas upload harian telah tercapai) \u2014 antrean retry-queue/strangetales-mantis-shrimp-2026-10-08.json, slot 2026-10-09 21:00 WIB, watchdog 20:00"
+  },
+  {
+   "cerita": "Blood Falls, Antarctica (bleeding glacier)",
+   "tanggal": "2026-10-07",
+   "video_url": "PENDING_UPLOAD",
+   "status": "video produced OK; upload 2026-10-07 BLOCKED limit; retry 2026-10-08 16:57 WIB tidak dicoba (berhenti total aturan limit) \u2014 antrean retry-queue/strangetales-blood-falls-2026-10-08.json, slot 2026-10-10 03:00 WIB, watchdog 20:00"
+  },
+  {
+   "cerita": "The Mary Celeste (ghost ship, 1872)",
+   "tanggal": "2026-10-07",
+   "video_url": "PENDING_UPLOAD",
+   "status": "video produced OK; upload 2026-10-07 BLOCKED limit; retry 2026-10-08 16:57 WIB tidak dicoba (berhenti total aturan limit) \u2014 antrean retry-queue/strangetales-mary-celeste-2026-10-08.json, slot 2026-10-10 07:00 WIB, watchdog 20:00"
+  },
+  {
+   "cerita": "Axolotl (regrows brain, never grows up)",
+   "tanggal": "2026-10-09",
+   "video_url": "PENDING_UPLOAD",
+   "status": "video produced OK; upload 2026-10-09 ~16:57 WIB BLOCKED limit \u2014 antrean retry-queue, watchdog 20:00 (eligible \u00b12026-10-10 16:57 WIB)"
+  },
+  {
+   "cerita": "Voynich manuscript (unreadable for 600 years)",
+   "tanggal": "2026-10-09",
+   "video_url": "PENDING_UPLOAD",
+   "status": "video produced OK; upload 2026-10-09 ~16:57 WIB BLOCKED limit \u2014 antrean retry-queue, watchdog 20:00 (eligible \u00b12026-10-10 16:57 WIB)"
+  },
+  {
+   "cerita": "Lake Natron, Tanzania (turns animals to stone)",
+   "tanggal": "2026-10-09",
+   "video_url": "PENDING_UPLOAD",
+   "status": "video produced OK; upload 2026-10-09 ~16:57 WIB BLOCKED limit \u2014 antrean retry-queue, watchdog 20:00 (eligible \u00b12026-10-10 16:57 WIB)"
+  },
+  {
+   "cerita": "Catatumbo lightning, Venezuela (300 nights a year)",
+   "tanggal": "2026-10-10",
+   "video_url": "https://youtube.com/shorts/Up9w_QKjrTg",
+   "status": "UPLOADED & SCHEDULED 2026-10-11 21:00 WIB (not for kids, AI disclosure YA)"
+  },
+  {
+   "cerita": "The Bloop, 1997 (mystery ocean sound)",
+   "tanggal": "2026-10-10",
+   "video_url": "PENDING_UPLOAD",
+   "status": "video produced OK 2026-10-10 (36.0 dtk); upload 2026-10-10 18:03 WIB BLOCKED limit (setelah catatumbo lolos) \u2014 antrean retry-queue/strangetales-bloop-2026-10-10.json, slot 2026-10-12 03:00 WIB, watchdog 20:00"
+  },
+  {
+   "cerita": "Darvaza gas crater, Turkmenistan (Door to Hell)",
+   "tanggal": "2026-10-10",
+   "video_url": "PENDING_UPLOAD",
+   "status": "video produced OK 2026-10-10 (30.7 dtk); tidak dicoba (stop total aturan limit) \u2014 antrean retry-queue/strangetales-darvaza-2026-10-10.json, slot 2026-10-12 07:00 WIB, watchdog 20:00"
+  },
+  {
+   "cerita": "Glasswing butterfly (wings made of glass)",
+   "tanggal": "2026-10-11",
+   "video_url": "https://youtube.com/shorts/xiOswp2qmkE",
+   "status": "UPLOADED via API 2026-10-13 ~17:30 WIB; SCHEDULED 2026-10-13 21:00 WIB (private s/d publishAt; not for kids; AI disclosure WAJIB dicentang manual di Studio sebelum tayang)"
+  },
+  {
+   "cerita": "Zombie cicadas (Massospora fungus)",
+   "tanggal": "2026-10-11",
+   "video_url": "https://youtube.com/shorts/D3Oiwt5kqtA",
+   "status": "UPLOADED via API 2026-10-13 ~17:30 WIB; SCHEDULED 2026-10-14 03:00 WIB (private s/d publishAt; AI disclosure manual di Studio)"
+  },
+  {
+   "cerita": "The Tunguska event, 1908 (Siberia exploded, no crater)",
+   "tanggal": "2026-10-11",
+   "video_url": "https://youtube.com/shorts/vAiLW5Zpg3c",
+   "status": "UPLOADED via API 2026-10-13 ~17:30 WIB; SCHEDULED 2026-10-14 07:00 WIB (private s/d publishAt; AI disclosure manual di Studio)"
+  },
+  {
+   "cerita": "Sailing stones, Death Valley (rocks move by themselves)",
+   "tanggal": "2026-10-12",
+   "video_url": "https://youtube.com/shorts/gSMvSbMpJlo",
+   "status": "UPLOADED & SCHEDULED 2026-10-14 21:00 WIB (browser task selesai 2026-10-12 21:59 WIB; channel UCAVSqZjG8Af_pm_1uD5wRzA terverifikasi; not for kids, AI disclosure YES, komentar Allow all, kategori Entertainment, bahasa English; cek copyright/community bersih). Pinned comment BELUM bisa dipasang (video masih pribadi sampai tayang) \u2014 pasang+pin setelah publik 2026-10-14 21:00 WIB."
+  },
+  {
+   "cerita": "Eternal flame waterfall, New York (flame behind waterfall)",
+   "tanggal": "2026-10-12",
+   "video_url": "https://youtube.com/shorts/M3Mr-u8hwUs",
+   "status": "UPLOADED via API 2026-10-13 ~17:30 WIB; SCHEDULED 2026-10-15 03:00 WIB (private s/d publishAt; AI disclosure manual di Studio)"
+  },
+  {
+   "cerita": "Coconut crabs (claw stronger than lion's bite)",
+   "tanggal": "2026-10-12",
+   "video_url": "https://youtube.com/shorts/_scdtG3Y3mI",
+   "status": "UPLOADED via API 2026-10-13 ~17:30 WIB; SCHEDULED 2026-10-15 07:00 WIB (private s/d publishAt; AI disclosure manual di Studio)"
+  },
+  {
+   "cerita": "Ice discs (spinning ice circles in rivers)",
+   "tanggal": "2026-10-13",
+   "video_url": "https://youtube.com/shorts/qVJQuWUF9Nk",
+   "status": "UPLOADED via API 2026-10-13 ~18:45 WIB; SCHEDULED 2026-10-15 21:00 WIB (private s/d publishAt; not for kids; AI disclosure WAJIB dicentang manual di Studio sebelum tayang)"
+  },
+  {
+   "cerita": "Singing dunes (Badain Jaran, sand hums)",
+   "tanggal": "2026-10-13",
+   "video_url": "https://youtube.com/shorts/oWaR8NHiHpE",
+   "status": "UPLOADED via API 2026-10-13 ~18:45 WIB; SCHEDULED 2026-10-16 03:00 WIB (private s/d publishAt; AI disclosure manual di Studio)"
+  },
+  {
+   "cerita": "Bioluminescent Mosquito Bay, Puerto Rico (water glows when touched)",
+   "tanggal": "2026-10-13",
+   "video_url": "https://youtube.com/shorts/E6gy8i3IZ8E",
+   "status": "UPLOADED via API 2026-10-13 ~18:45 WIB; SCHEDULED 2026-10-16 07:00 WIB (private s/d publishAt; AI disclosure manual di Studio)"
+  },
+  {
+   "cerita": "Movile Cave, Romania (sealed 5.5M years, chemosynthesis ecosystem)",
+   "tanggal": "2026-10-14",
+   "video_url": "https://youtu.be/-qV0jMwbHJQ",
+   "status": "terjadwal 2026-10-16 21:00 WIB"
+  },
+  {
+   "cerita": "Dragon's blood trees, Socotra (Dracaena cinnabari, red sap)",
+   "tanggal": "2026-10-14",
+   "video_url": "https://youtu.be/YCkvzZeoiI8",
+   "status": "terjadwal 2026-10-17 03:00 WIB"
+  },
+  {
+   "cerita": "The green flash (optical phenomenon at sunset)",
+   "tanggal": "2026-10-14",
+   "video_url": "https://youtu.be/Sh9fyNe7w-Y",
+   "status": "terjadwal 2026-10-17 07:00 WIB"
+  },
+  {
+   "cerita": "The Hum (mysterious low-frequency hum, Bristol/Taos)",
+   "tanggal": "2026-10-15",
+   "video_url": "PENDING_UPLOAD",
+   "status": "video produced OK 2026-10-15 (28.60 dtk); upload oleh parent \u2014 slot 2026-10-15 21:00 WIB; file: 2026-10-15/strange-tales-2026-10-15-the-hum.mp4"
+  },
+  {
+   "cerita": "Lluvia de Peces, Yoro Honduras (fish rain)",
+   "tanggal": "2026-10-15",
+   "video_url": "PENDING_UPLOAD",
+   "status": "video produced OK 2026-10-15 (34.27 dtk); upload oleh parent \u2014 slot 2026-10-16 03:00 WIB; file: 2026-10-15/strange-tales-2026-10-15-lluvia-de-peces.mp4"
+  },
+  {
+   "cerita": "The Blob (Physarum polycephalum, brainless maze solver)",
+   "tanggal": "2026-10-15",
+   "video_url": "PENDING_UPLOAD",
+   "status": "video produced OK 2026-10-15 (29.71 dtk); upload oleh parent \u2014 slot 2026-10-16 07:00 WIB; file: 2026-10-15/strange-tales-2026-10-15-blob-slime.mp4"
+  },
+  {
+   "cerita": "The Hum (mysterious low-frequency drone, Bristol/Taos)",
+   "tanggal": "2026-10-15",
+   "video_url": "https://youtu.be/K0R-iFkBhUo",
+   "status": "UPLOADED via API 2026-10-15 ~18:40 WIB; SCHEDULED 2026-10-17 21:00 WIB (private s/d publishAt; not for kids; AI disclosure WAJIB dicentang manual di Studio sebelum tayang)"
+  },
+  {
+   "cerita": "Lluvia de Peces, Yoro Honduras (fish fall from the sky)",
+   "tanggal": "2026-10-15",
+   "video_url": "https://youtu.be/Jb5RsdcoDRk",
+   "status": "UPLOADED via API 2026-10-15 ~18:40 WIB; SCHEDULED 2026-10-18 03:00 WIB (private s/d publishAt; AI disclosure manual di Studio)"
+  },
+  {
+   "cerita": "The Blob (Physarum polycephalum, brainless slime mold solves mazes)",
+   "tanggal": "2026-10-15",
+   "video_url": "https://youtu.be/Qj-AboOOlZU",
+   "status": "UPLOADED via API 2026-10-15 ~18:40 WIB; SCHEDULED 2026-10-18 07:00 WIB (private s/d publishAt; AI disclosure manual di Studio)"
+  }
+ ]
+}

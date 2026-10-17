@@ -1,0 +1,65 @@
+# DRAFT METADATA — Lima Misteri — 2026-10-15 (produksi) → tayang 2026-10-16 19:00 WIB
+# JANGAN UPLOAD. Upload via API (yt-growth, slug lima-misteri) oleh agen induk.
+# Semua: private + publishAt 2026-10-16T12:00:00Z (= 19:00 WIB). AI disclosure ("Altered content") dicentang menyusul via Studio.
+
+## LONG
+- File: video/video-2026-10-15-final.mp4
+- Thumbnail: thumbnail-2026-10-15-long.jpg ("KAPAL BERHANTU")
+- Judul: Kapal Berhantu Ini Bikin Tamu Kabur Tengah Malam, Nomor 1 Paling Seram | Lima Misteri
+- Deskripsi:
+```
+Hari ini saya merangkum 5 kejadian aneh yang terdokumentasi tapi belum punya jawaban tuntas — dari kapal Queen Mary yang disebut paling berhantu di dunia, Spring-heeled Jack si manusia melompat misterius di London, pulau Poveglia yang dilarang dimasuki di Italia, benda jatuh dari langit di Kecksburg 1965, sampai air terjun darah di Antartika.
+
+Jujur, yang nomor 1 paling bikin saya merinding — ratusan saksi lintas generasi melaporkan hal yang sama. Kalau kalian, nomor berapa yang paling nggak masuk akal? Tulis di komentar ya.
+
+🛒 Rekomendasi hari ini:
+🛒 New Balance Fuelcell Rebel V5 (Rp850.000): https://s.shopee.co.id/6VOKZgYrb7
+🛒 Spion Koso Lipat Universal Motor (Rp59.999): https://s.shopee.co.id/3qNZOxWSZe
+(Link di atas adalah link afiliasi — saya dapat komisi kecil tanpa biaya tambahan untuk kamu. Terima kasih sudah mendukung channel ini.)
+
+⚠️ Video ini adalah penceritaan ulang orisinal atas peristiwa yang terdokumentasi, diilustrasikan dengan gambar buatan AI. Bukan footage asli peristiwa.
+
+#misteri #penampakan #kejadiananeh #indonesia #foryou #queenmary #springheeledjack
+```
+- Tags: misteri, penampakan, kejadian aneh, queen mary, spring-heeled jack, pulau poveglia, insiden kecksburg, blood falls, lima misteri, indonesia
+
+## SHORT 1 (Queen Mary, hook: KAPAL PALING BERHANTU)
+- File: shorts/2026-10-15-s1.mp4
+- Thumbnail: thumbnail-2026-10-15-s1.jpg ("KAPAL BERHANTU")
+- Judul: Kapal Ini Disebut Paling Berhantu di Dunia | Lima Misteri #shorts #misteri #hantu #foryou
+- Deskripsi:
+```
+Tonton versi lengkapnya: __LONG_URL__
+🛒 New Balance Fuelcell Rebel V5 (Rp850.000): https://s.shopee.co.id/6VOKZgYrb7
+⚠️ Video ini adalah penceritaan ulang orisinal atas peristiwa yang terdokumentasi, diilustrasikan dengan gambar buatan AI. Bukan footage asli peristiwa.
+```
+- Tags: queen mary, kapal hantu, penampakan, misteri, lima misteri, shorts
+
+## SHORT 2 (Spring-heeled Jack, hook: MANUSIA MELOMPAT)
+- File: shorts/2026-10-15-s2.mp4
+- Thumbnail: thumbnail-2026-10-15-s2.jpg ("MANUSIA MELOMPAT")
+- Judul: Manusia Ini Melompat Setinggi Atap Rumah | Lima Misteri #shorts #misteri #legenda #foryou
+- Deskripsi:
+```
+Tonton versi lengkapnya: __LONG_URL__
+🛒 Spion Koso Lipat Universal Motor (Rp59.999): https://s.shopee.co.id/3qNZOxWSZe
+⚠️ Video ini adalah penceritaan ulang orisinal atas peristiwa yang terdokumentasi, diilustrasikan dengan gambar buatan AI. Bukan footage asli peristiwa.
+```
+- Tags: spring-heeled jack, legenda urban, misteri london, lima misteri, shorts
+
+## SHORT 3 (Poveglia, hook: PULAU TERLARANG)
+- File: shorts/2026-10-15-s3.mp4
+- Thumbnail: thumbnail-2026-10-15-s3.jpg ("PULAU TERLARANG")
+- Judul: Pulau Ini Dilarang Dimasuki Manusia | Lima Misteri #shorts #misteri #pulauhantu #foryou
+- Deskripsi:
+```
+Tonton versi lengkapnya: __LONG_URL__
+🛒 New Balance Fuelcell Rebel V5 (Rp850.000): https://s.shopee.co.id/6VOKZgYrb7
+⚠️ Video ini adalah penceritaan ulang orisinal atas peristiwa yang terdokumentasi, diilustrasikan dengan gambar buatan AI. Bukan footage asli peristiwa.
+```
+- Tags: pulau poveglia, pulau berhantu, misteri italia, lima misteri, shorts
+
+## Catatan produksi
+- Produk afiliasi: indeks 7 (New Balance Fuelcell Rebel V5, terakhir dipakai 2026-10-07) dan indeks 8 (Spion Koso Lipat Universal Motor, 2026-10-07) — dua produk paling lama tidak dipakai per promo_history.json (rotasi setelah indeks 5-6 dipakai 2026-10-14).
+- Komentar: Allow all. Audiens: Tidak dibuat untuk anak-anak. AI disclosure: centang Ya (via Studio).
+- Slot tayang: 2026-10-16 19:00 WIB (publishAt 2026-10-16T12:00:00Z).

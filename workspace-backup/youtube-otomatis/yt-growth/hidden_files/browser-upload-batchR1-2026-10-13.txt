@@ -1,0 +1,33 @@
+TUGAS: Upload 1 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Kerjakan BERURUTAN. Nama file UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 2 ===
+FILE: 02-kisahalkitab-kisah-alkitab-2026-10-10-long-upload-720p.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: Dijual Saudara Sendiri, Malah Jadi Penguasa Mesir — Kisah Yusuf
+DESKRIPSI: Dilempar ke sumur kering oleh kakak-kakaknya sendiri, dijual sebagai budak seharga 20 syikal perak, difitnah, dijebloskan ke penjara — lalu dalam SEHARI diangkat menjadi penguasa kedua di seluruh Mesir. Kisah Yusuf (Kejadian 37–50) adalah salah satu kisah paling dramatis dalam Alkitab. 
+  
+ Yang membuat saya takjub: di setiap titik terendah hidupnya, Alkitab selalu menulis kalimat yang sama — TUHAN menyertai Yusuf. Bahkan di dalam penjara yang pengap, penyertaan itu tidak pernah pergi. 
+  
+ Pelajaran yang saya ambil: luka yang paling dalam justru bisa menjadi jalan bagi rencana yang paling indah — kalau kita percaya ada tangan yang lebih besar yang sedang bekerja, bahkan di sumur yang paling gelap sekalipun. 
+  
+ 0:00 Air mata di istana Mesir 
+ 0:50 Anak kesayangan dan jubah warna-warni 
+ 3:05 Sumur, perbudakan, dan penjara 
+ 5:55 Mimpi Firaun dan kebangkitan 
+ 8:30 Pengampunan: "Allah mereka-rekakannya untuk kebaikan" 
+  
+ #kisahalkitab #yusuf #renungankristen #alkitab #rohanikristen #firmantuhan #kejadian #kisahyusuf
+TAGS: kisah alkitab, kisah yusuf, kejadian 37, yusuf dan saudara-saudaranya, renungan kristen, cerita alkitab, firman tuhan, rohani kristen, tokoh alkitab, perjanjian lama, inspirasi kristen, saat teduh, iman kristen, renungan harian, kristen indonesia, bible story indonesia, yusuf di mesir, pengampunan, kisah nyata alkitab
+VISIBILITAS: PUBLIKASI SEKARANG
+
+LAPORAN AKHIR: tiap nomor -> SUKSES + URL, atau GAGAL + alasan singkat.

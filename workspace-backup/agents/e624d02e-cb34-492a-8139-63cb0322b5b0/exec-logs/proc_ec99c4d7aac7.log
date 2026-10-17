@@ -1,0 +1,12 @@
+beat 45: skip (exists)
+beat 46: OK attempt=1 size=849730
+beat 47: OK attempt=2 size=604574
+beat 48: OK attempt=1 size=640646
+beat 49: OK attempt=1 size=556890
+beat 50: OK attempt=1 size=685476
+beat 51: OK attempt=1 size=618662
+beat 52: FAILED_TOTAL
+beat 53: OK attempt=1 size=533312
+beat 54: OK attempt=1 size=801090
+beat 55: OK attempt=1 size=719822
+worker 45-55 done

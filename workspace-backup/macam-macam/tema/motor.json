@@ -1,0 +1,63 @@
+{
+ "items": [
+  {
+   "fakta": "Motor sehari-hari yang irit bensin!",
+   "nama": "Motor Bebek",
+   "pexels_query": "underbone motorcycle",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/motor-part1/tempel/item00.jpg",
+   "kredit": "Nguyễn Bin Exciter / Pexels"
+  },
+  {
+   "fakta": "Bentuknya sporty dan larinya kencang!",
+   "nama": "Motor Sport",
+   "pexels_query": "sport motorcycle",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/motor-part1/tempel/item01.jpg",
+   "kredit": "Андрей / Pexels"
+  },
+  {
+   "fakta": "Bentuknya lucu dan klasik, favorit banyak orang!",
+   "nama": "Vespa",
+   "pexels_query": "vespa scooter",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/motor-part1/tempel/item02.jpg",
+   "kredit": "Louis Sulejmanovic / Pexels"
+  },
+  {
+   "fakta": "Jagoan di jalan tanah dan gunung!",
+   "nama": "Motor Trail",
+   "pexels_query": "dirt bike",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/motor-part1/tempel/item03.jpg",
+   "kredit": "cottonbro studio / Pexels"
+  },
+  {
+   "fakta": "Motor gede bersuara gagah, broom broom!",
+   "nama": "Moge",
+   "pexels_query": "harley davidson motorcycle",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/motor-part1/tempel/item04.jpg",
+   "kredit": "Acabashi / Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  {
+   "fakta": "Dicas kayak HP, nggak perlu ke pom bensin!",
+   "nama": "Motor Listrik",
+   "pexels_query": "electric scooter",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/motor-part1/tempel/item05.jpg",
+   "kredit": "Nadin P / Pexels"
+  },
+  {
+   "fakta": "Raja balapan di sirkuit tanah!",
+   "nama": "Motor Cross",
+   "pexels_query": "motocross bike",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/motor-part1/tempel/item06.jpg",
+   "kredit": "Magaly Taboada / Pexels"
+  },
+  {
+   "fakta": "Motor jadul yang sekarang jadi barang antik!",
+   "nama": "Motor Antik",
+   "pexels_query": "vintage motorcycle",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/motor-part1/tempel/item07.jpg",
+   "kredit": "Yesterdays Antique Motorcycles / Wikimedia Commons (CC BY-SA 4.0)"
+  }
+ ],
+ "judul": "Motor",
+ "kategori": "jenis motor",
+ "part": 1
+}

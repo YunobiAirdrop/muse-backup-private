@@ -1,0 +1,74 @@
+STYLE (prepend to every prompt): Dark 2D storybook illustration, moody moonlit pine forest noir, deep blacks, cinematic lighting, hand-painted storybook texture, no text, no words, no letters, 16:9 widescreen.
+One literal image per beat (the object/action named in the narration):
+1: Truck dashboard dashcam view at night, empty dark highway ahead, small glowing dashcam lens
+2: Truck sleeper berth at night, man dead asleep under a blanket, mouth open, dim cab light
+3: Truck driver seat at night seen from the sleeper, a hooded figure's hands on the steering wheel, dark
+4: Close-up of a dashcam memory card beside a laptop showing paused night footage, dark motel room
+5: Night-shift trucker in flannel beside a big rig at a freight depot at night
+6: Big rig truck at a dark rest stop at night, trailer door forced open
+7: Empty pallet and a man's jacket lying on truck stop asphalt at night
+8: Mechanic installing a small dashcam on a truck windshield at night
+9: Three small camera lenses glowing red inside a dark truck cab
+10: Loading dock at night, forklift loading tall paper towel pallets into a trailer
+11: Dark highway fork at night: bright turnpike one way, narrow road into black pines the other
+12: Narrow road through towering black pine forest at night, truck headlights cutting through
+13: Glowing red eyes deep in a dark pine forest at night, spooky
+14: Skeptical trucker shaking his head inside a truck cab at night
+15: Green mile marker sign 41 on a dark rainy roadside at night
+16: Man in a soaked gray hoodie hitchhiking on a dark rainy roadside, thumb out, truck headlights
+17: Trucker driving past a hitchhiker at night without stopping, determined face
+18: Truck side mirror at night showing a motionless hooded figure on the roadside behind, head turned
+19: Green mile marker sign 48 glowing in a headlight beam at night
+20: The same gray-hooded hitchhiker again on a dark roadside, thumb out, night
+21: Truck dashboard at night, speedometer and clock, tense driver's eyes
+22: Exhausted trucker's face in the rearview mirror at night, rubbing his eyes
+23: Hooded figure standing in the middle of a dark highway lane, caught in truck headlights
+24: Truck headlights on an empty dark road at night, red brake lights glowing, trailer angled sideways
+25: Close-up of a trucker's chest, hand pressed over a pounding heart, dark cab
+26: Trucker with a shaking flashlight inspecting a truck front bumper at night
+27: Empty muddy roadside at night in a flashlight beam, no footprints anywhere
+28: Truck sleeper curtain swaying in a dark cab at night
+29: Trucker's hand pulling a sleeper curtain firmly closed in a dark cab
+30: Trucker gripping a steering wheel hard, white knuckles, dark cab at night
+31: Trucker climbing into a big rig cab at night, locking the door
+32: Old CB radio on a truck dashboard crackling to life at night, green glow
+33: Close-up of a CB radio speaker at night, ominous green light, sound distortion
+34: Big rig swerving on a dark pine road at night, headlights cutting through trees
+35: Trucker's trembling hand holding a crumpled checklist paper in a dark cab
+36: Trucker shining a flashlight into an empty truck sleeper berth at night
+37: Empty dark truck sleeper berth, blanket perfectly undisturbed, night
+38: Man watching dashcam footage on a laptop in a dark motel room, face pale in the screen glow
+39: Laptop screen showing a truck sleeper camera frame, curtain blurred mid-motion, dark room
+40: Truck cab at night with the dome light burning, nervous trucker hunched over the wheel
+41: Big rig backing into a warehouse dock in pre-dawn darkness
+42: Exhausted trucker handing paperwork to a dock worker at night, haunted face
+43: Close-up of a cut trailer seal lock hanging open on trailer doors at night
+44: Trailer back doors standing open at night, dark cargo inside, dock lights
+45: Close-up of a trailer door latch cut cleanly through, metal shavings, night
+46: Flashlight beam on a dusty trailer floor revealing fresh muddy boot prints, dark
+47: Muddy boot prints on a trailer floor ending abruptly at the back wall, flashlight beam, dark
+48: Pale dock worker pointing at open trailer doors at night, frightened
+49: Trucker staring at a small dashcam memory card in his palm at night
+50: Dark motel room, man plugging a memory card into a laptop, tense
+51: Laptop screen: truck cab camera frame, white-knuckled driver talking to nobody, night
+52: Laptop screen: truck sleeper camera, curtain moving, nothing else, dark
+53: Laptop screen: trailer cargo camera, doors swinging open by themselves, dark
+54: Laptop screen zoomed: shadowy hooded figure lurking behind stacked pallets, dark
+55: Terrifying close-up of a too-long face smiling wrong inside a gray hood, darkness
+56: Distressed trucker on a phone in a dark motel room at night
+57: Dispatcher at a night office desk watching a phone video, face turning serious
+58: Dark motel room, man asleep in bed, TV glowing with static
+59: Truck headlights passing a hitchhiker on a dark roadside without stopping, night
+60: Empty dark highway at night seen from a moving truck windshield
+61: Logistics office, worker handing a small hard drive to a trucker
+62: Trucker's finger hovering over a laptop delete button, hesitant, dark room
+63: Laptop screen showing four video thumbnails, the fourth one glowing ominously, dark
+64: Truck rearview mirror at night reflecting an empty sleeper berth, ominous
+65: Truck dashboard at night with an empty slot where a camera was never installed
+66: Night-vision green frame: sleeper berth, man asleep, hooded figure in the driver seat
+67: Hooded figure turning its head toward the camera inside a dark truck cab
+68: Extreme close-up of a too-long face smiling wrong, whispering, dark cab
+69: Uneasy man shrugging helplessly in a living room at night
+70: House interior at night with every single lamp switched on, man checking door locks
+71: Candle-lit storyteller desk with an open notebook, dark cozy horror mood, inviting
+72: Dark pine forest road at night, truck driving away from a motionless hooded figure, red taillights

@@ -1,0 +1,20 @@
+{
+  "dibuat": "2026-10-08",
+  "channel": "Midnight Dread Tales",
+  "handle": "@TalesOfDreadTV",
+  "channel_id": "UCR7uhocCg9YZM7-Qoi1sVGA",
+  "login": "khususstokyunobi@gmail.com (sesi login VM OK)",
+  "jenis": "long",
+  "judul": "The Trail That Whispers Back — A Horror Story",
+  "topik": "The Trail That Whispers Back (original creepypasta-style, Appalachian Trail)",
+  "file_video": "video/2026-10-08.mp4 (599.4 detik / 10.0 menit, 88 MB)",
+  "file_thumbnail": "thumbnail-2026-10-08.jpg (1280x720, teks 'DON'T ANSWER IT')",
+  "produksi": "SUKSES — script 1530 kata, voiceover EN, 74 gambar, assembly resume (title card + film grain + text overlay 4 momen + ambience bed)",
+  "hasil": "UPLOAD GAGAL — 'Batas upload harian telah tercapai' (YouTube: verifikasi satu kali atau tunggu 24 jam). Tidak ada retry saat itu juga.",
+  "antrean_retry": "retry-queue/horror-en-2026-10-08.json (watchdog 20:00 WIB, kerjakan jika umur >= 23 jam)",
+  "instruksi_upload": "upload-instruksi-2026-10-08.md",
+  "slot_target": "2026-10-09 07:00 WIB",
+  "ai_disclosure": "belum terisi (upload gagal di dialog upload)",
+  "verifikasi_channel": "Midnight Dread Tales @TalesOfDreadTV terverifikasi aktif; sempat aktif di 'Kisah Alkitab', dialihkan sebelum upload",
+  "upload_terakhir_txt": "long:2026-10-08 (produksi selesai; upload di antrean retry)"
+}

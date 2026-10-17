@@ -1,0 +1,145 @@
+[
+ {
+  "judul": "Soto Ayam Lamongan Lezat, Rasa Kuahnya Udah On!",
+  "deskripsi": "Kemarin aku coba soto ayam Lamongan yang benar-benar menggoda lidah. Kuah santan kelapa yang kental, rempah asli, dan daun bawang segar membuatnya tak tertandingi.",
+  "bahan": [
+   "500 gr ayam potong dadu",
+   "2 liter air",
+   "200 ml santan kental",
+   "3 sdm minyak goreng",
+   "3 daun jeruk",
+   "1 sdt merica bubuk",
+   "1 sdt ketumbar bubuk",
+   "2 sdm gula",
+   "1 sdt garam",
+   "3 siung bawang merah",
+   "2 siung bawang putih",
+   "3 cm jahe",
+   "3 cm kunyit",
+   "1 buah tomat",
+   "1 batang daun bawang",
+   "½ sdt kaldu jamur (opsional)"
+  ],
+  "bumbu_halus": [
+   "5 siung bawang merah",
+   "3 siung bawang putih",
+   "1 jempul jahe (3 cm)",
+   "1 jempul kunyit (3 cm)",
+   "½ sdt merica bubuk",
+   "½ sdt ketumbar bubuk",
+   "½ sdt garam",
+   "1 buah tomat"
+  ],
+  "langkah": [
+   "1. Bersihkan ayam, potong dadu, rebus dengan air, daun jeruk, jahe dan kunyit hingga terasa lembut, kemudian buang kotoran.",
+   "2. Panaskan minyak, tumis bumbu halus hingga harum dan berubah warna.",
+   "3. Masukkan bumbu tumis ke dalam rebusan ayam, aduk rata, lalu tambahkan air yang sudah mendidih.",
+   "4. Tambahkan santan, gula, garam, kaldu jamur, tomat, daun bawang, lada, masak dengan api sedang selama 30 menit.",
+   "5. Cicipi rasa, sesuaikan garam atau gula bila perlu, masak hingga kuah agak mengental.",
+   "6. Angkat ayam, suwir-suwir daging, lalu taruh di mangkuk, sirikan kuah di atasnya.",
+   "7. Sajikan soto dengan irisan lemon, bawang daun, sambal, dan acar sesuai selera."
+  ],
+  "tips": [
+   "Gunakan santan kental untuk kuah lebih kental dan gurih.",
+   "Rebus ayam dengan daun jeruk dan jahe agar aroma lebih segar.",
+   "Jangan terlalu lama menggoreng bumbu halus, agar tidak gosong."
+  ],
+  "waktu": "90 menit",
+  "porsi": "4 porsi",
+  "kesulitan": "Sedang",
+  "prompt_gambar": "Sebuah piringan soto ayam Lamongan berwarna kuning kecoklatan, dipajang di mangkuk keramik putih dengan irisan lemon dan bawang daun, di atas meja kayu hangat dengan cahaya alami pagi.",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "nama_pool": "Soto Ayam Lamongan",
+  "kategori": "sop"
+ },
+ {
+  "judul": "Pempek Palembang Khas, Kenyal & Gurih di Lidah!",
+  "deskripsi": "Rasa gurih, kenyalnya yang khas Palembang akan memikat lidahmu dalam satu gigit! Nikmati dengan cuka sambal kacang yang pedasnya menegangkan.",
+  "bahan": [
+   "500 gr daging ikan gabus, potong dadu kecil",
+   "200 gr tepung sagu",
+   "100 ml air es",
+   "1 sdt garam",
+   "1/2 sdt merica bubuk",
+   "1 sdm gula pasir",
+   "1 butir telur",
+   "2 siung bawang merah, cincang halus",
+   "1 sdt kayu manis bubuk",
+   "1 sdm kecap manis"
+  ],
+  "bumbu_halus": [
+   "5 siung bawang merah",
+   "3 siung bawang putih",
+   "2 cm jahe",
+   "1 cm kunyit",
+   "3 butir kemiri",
+   "1 sdt ketumbar bubuk",
+   "1 sdt merica bubuk",
+   "1 sdm gula merah"
+  ],
+  "langkah": [
+   "1. Haluskan semua bumbu halus dengan blender hingga halus.",
+   "2. Campurkan tepung sagu, garam, merica, gula, dan telur dalam mangkuk besar, aduk rata.",
+   "3. Masukkan daging ikan ke adonan, aduk hingga terlapisi merata.",
+   "4. Tambahkan air es sedikit-dikit sambil diaduk hingga adonan menjadi lembut dan tidak berdampak.",
+   "5. Bentuk adonan menjadi bola‑bola kecil, lalu gulung menjadi bentuk oblong atau silindris.",
+   "6. Panaskan minyak goreng berupa minyak sayur dengan suhu 170°C, goreng pempek hingga berwarna keemasan dan keren.",
+   "7. Angkat, tiriskan, sajikan dengan cuka sambal kacang hangat."
+  ],
+  "tips": [
+   "Gunakan air es kulkas untuk membuat tekstur lebih kenyal.",
+   "Jangan terlalu banyak mengorehkan adonan, cukup sampai lembut agar tidak hancur saat digoreng.",
+   "Goreng pempek pada minyak yang sudah panas, jangan terlalu ramai agar tidak menempel pada dasar wajan."
+  ],
+  "waktu": "90 menit",
+  "porsi": "4 porsi",
+  "kesulitan": "Sedang",
+  "prompt_gambar": "Pempek berwarna keemasan dengan cuka sambal kacang di atas piring, di atas papan kayu, latar belakang kitchen modern.",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "nama_pool": "Pempek Palembang",
+  "kategori": "jajanan"
+ },
+ {
+  "judul": "Ketoprak Sayur Jakarta: Rasa Asli, Kesegaran Mantap!",
+  "deskripsi": "Rahasia hidangan sehat khas Jakarta yang menggabungkan rasa pedas, asam, dan manis dari sayuran segar. Bikin ketagihan dengan setiap suapan!",
+  "bahan": [
+   "200 gr kangkung, potong-potong",
+   "150 gr bayam, rebus sebentar",
+   "200 gr labu siam, iris tipis",
+   "100 gr taoge, cuci bersih",
+   "3 siung bawang putih",
+   "5 buah cabe rawit",
+   "2 sdm kacang tanah, sangrai",
+   "1 sdm gula merah",
+   "2 sdm air asam jawa",
+   "50 ml santan kental",
+   "1 sdt garam",
+   "1/2 sdt merica"
+  ],
+  "bumbu_halus": [
+   "3 siung bawang putih",
+   "5 buah cabe rawit"
+  ],
+  "langkah": [
+   "Siapkan sayuran: cuci bersih kangkung, bayam, labu siam, dan taoge. Rebus bayam 1 menit, tiriskan. Iris labu siam tipis.",
+   "Haluskan bawang putih dan cabe rawit menjadi pasta halus.",
+   "Campur pasta bumbu dengan gula merah, air asam jawa, garam, merica, dan santan kental hingga rata.",
+   "Tambahkan kacang tanah sangrai ke dalam campuran bumbu, aduk hingga tercampur.",
+   "Masukkan semua sayuran ke dalam mangkuk besar, sirkan bumbu yang telah disiapkan.",
+   "Aduk rata dan biarkan 10 menit agar rasa meresap.",
+   "Sajikan hangat atau pada suhu ruang dengan nasi hangat."
+  ],
+  "tips": [
+   "Jangan terlalu lama meremas sayuran, agar tetap renyah dan tidak berantakan.",
+   "Sambal dapat ditambahkan sesuai selera, jika suka pedas lebih.",
+   "Gunakan santan kental agar saus tidak terlalu encer."
+  ],
+  "waktu": "90 menit",
+  "porsi": "4 porsi",
+  "kesulitan": "Sedang",
+  "prompt_gambar": "Ketoprak sayur Jakarta dengan sayuran segar seperti kangkung, labu siam, dan taoge, disajikan dalam piring besar dengan bumbu kental berwarna coklatnya, di atas meja kayu dengan latar belakang taman tropis.",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "nama_pool": "Ketoprak Jakarta",
+  "kategori": "sayur"
+ }
+]

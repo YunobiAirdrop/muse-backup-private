@@ -1,0 +1,24 @@
+{
+  "posted": [
+    {
+      "caption": "output/fyp-drama-20261008.txt",
+      "episode": 1,
+      "file": "output/fyp-drama-20261008.mp4",
+      "format": "mini drama bersambung",
+      "judul": "Drama Anak Kos — Kamar Sebelah yang Kosong 3 Bulan",
+      "series": "Drama Anak Kos",
+      "status": "SUCCESS",
+      "taisly_history_id": "6ac745a0572b2159e0a311a1",
+      "tanggal": "2026-10-08"
+    },
+    {
+      "tanggal": "2026-10-09",
+      "format": "tebak-tebakan",
+      "judul": "Tebak-tebakan 5 Detik — Semakin Diambil Semakin Besar",
+      "file": "output/fyp-tebak-20261009.mp4",
+      "caption": "output/fyp-tebak-20261009.txt",
+      "taisly_history_id": "6ac85c92572b2159e0a4096f",
+      "status": "SUCCESS"
+    }
+  ]
+}

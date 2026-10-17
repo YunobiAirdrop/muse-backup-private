@@ -1,0 +1,10 @@
+name: local_social_media_pro_max
+title: Local social media pro max
+description: 'State-of-the-art viral content + social design intelligence. Expert copywriting for X/Twitter, LinkedIn, Instagram and Substack PLUS viral visual design for carousels, LinkedIn post/article cover banners, and YouTube thumbnails. Actions: write, draft, create, rewrite, improve, optimize, hook, design, ghostwrite, repurpose, ideate, plan a content calendar, audit a post. Formats: tweet, thread, X post, LinkedIn post, LinkedIn article, carousel, newsletter, Substack essay, IG caption, Reel/Shorts script, YouTube thumbnail, LinkedIn banner, cover image, post cover. Topics: hooks, headlines, CTAs, storytelling frameworks (AIDA, PAS, BAB, 4U, hero''s journey), retention, algorithm best practices, engagement, growth, personal branding, viral loops, slide design, visual hierarchy, color/typography for social, text-on-image. Use whenever the user wants to write, design, grow, or critique social media content.'
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  needs_review: true

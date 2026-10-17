@@ -1,0 +1,140 @@
+{
+ "channel": "tinybuilders",
+ "handle": "@tinybuilders-d5z",
+ "channel_id": "UCjy7bWJU5gULDIYjPmTg9xg",
+ "days": 28,
+ "source": "youtube_data_api_v3_fallback (Analytics API timeout)",
+ "channel_stats": {
+  "viewCount": "1353",
+  "subscriberCount": "1",
+  "hiddenSubscriberCount": false,
+  "videoCount": "7"
+ },
+ "summary": {
+  "total_videos_fetched": 7,
+  "total_views_channel_lifetime": "1353",
+  "subscriberCount": "1"
+ },
+ "videos": [
+  {
+   "video_id": "GKvuJopBwcY",
+   "title": "Water GUSHING From a Miniature Pump! #shorts #miniature #satisfying",
+   "published": "2026-10-09",
+   "description": "Water gushing from a pump smaller than your hand! Full build on Tiny Builders.",
+   "tags": [
+    "miniature",
+    "diy miniature",
+    "shorts",
+    "satisfying"
+   ],
+   "views": 134,
+   "likes": 2,
+   "comments": 0,
+   "duration": "PT40S"
+  },
+  {
+   "video_id": "uiTYVHzYzjU",
+   "title": "PULL the Starter... The Mini Diesel ROARS to Life! #shorts #miniature #diy",
+   "published": "2026-10-09",
+   "description": "The moment the mini diesel engine roars to life! Watch the full 14-minute build on Tiny Builders.",
+   "tags": [
+    "miniature",
+    "diy miniature",
+    "shorts",
+    "engine start"
+   ],
+   "views": 1199,
+   "likes": 12,
+   "comments": 1,
+   "duration": "PT39S"
+  },
+  {
+   "video_id": "SbN_Xgr2jq8",
+   "title": "We Built a WORKING Mini Diesel Water Pump! (Miniature Farm Build)",
+   "published": "2026-10-09",
+   "description": "Two tiny farmers. One dry field. And a miniature diesel engine that actually works.\n\nWatch the full build: a brick water tank, a hand-assembled mini diesel engine, and an irrigation system — all in miniature, all by hand.\n\nSubscribe to Tiny Builders for a new tiny build every week!\n\nSound effects (CC BY 4.0, Freesound.org): Glen_Dorner, DanielMarais, datasoundsample, yfjesse, FreqMan, Kolezan\n\n#miniature #diy #tinybuilders #miniaturebuild #satisfying",
+   "tags": [
+    "miniature",
+    "diy miniature",
+    "tiny build",
+    "miniature build",
+    "satisfying video",
+    "irrigation"
+   ],
+   "views": 0,
+   "likes": 1,
+   "comments": 0,
+   "duration": "PT14M11S"
+  },
+  {
+   "video_id": "-iDVbSSaoHU",
+   "title": "This Bamboo Pump Moves REAL Water! #shorts #miniature #diy",
+   "published": "2026-10-10",
+   "description": "A traditional bamboo water pump moving real water into the rice paddy, all in miniature. Full build on Tiny Builders.",
+   "tags": [
+    "miniature",
+    "diy miniature",
+    "tiny build",
+    "shorts",
+    "bamboo pump",
+    "water pump miniature"
+   ],
+   "views": 1122,
+   "likes": 5,
+   "comments": 0,
+   "duration": "PT51S"
+  },
+  {
+   "video_id": "kCoM5sT9q40",
+   "title": "Real Hands Build a MINI Well in 40 Seconds! #shorts #miniature #diy",
+   "published": "2026-10-10",
+   "description": "A working miniature brick well with pulley and bucket, built by real hands. Full build on Tiny Builders.",
+   "tags": [
+    "miniature",
+    "diy miniature",
+    "tiny build",
+    "shorts",
+    "mini well",
+    "brick miniature"
+   ],
+   "views": 17,
+   "likes": 1,
+   "comments": 1,
+   "duration": "PT40S"
+  },
+  {
+   "video_id": "Xbdku0L_4Xw",
+   "title": "Laying BRICKS... One Tiny Brick at a Time #shorts #miniature #diy",
+   "published": "2026-10-10",
+   "description": "A real human hand building a miniature brick tank, brick by brick. Full build on Tiny Builders.",
+   "tags": [
+    "miniature",
+    "diy miniature",
+    "shorts",
+    "bricklaying"
+   ],
+   "views": 21,
+   "likes": 1,
+   "comments": 1,
+   "duration": "PT39S"
+  },
+  {
+   "video_id": "7BTL5lbpKnM",
+   "title": "They Built a Tiny DAM That Actually Works! #shorts #miniature #diy",
+   "published": "2026-10-11",
+   "description": "A tiny dam that really holds back water, built stone by stone. Full build on Tiny Builders.",
+   "tags": [
+    "miniature",
+    "diy miniature",
+    "tiny build",
+    "shorts",
+    "mini dam",
+    "miniature engineering"
+   ],
+   "views": 321,
+   "likes": 6,
+   "comments": 1,
+   "duration": "PT30S"
+  }
+ ]
+}

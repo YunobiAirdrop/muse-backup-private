@@ -1,0 +1,26 @@
+STATUS RUN horor-harian 2026-10-15 16:11 WIB
+
+POLA: upload-terakhir.txt = "long:2026-10-13" -> hari ini SHORTS day.
+3 shorts 2026-10-13-s1/s2/s3.mp4 sudah dipotong run kemarin (45 dtk, 404x720 vertikal).
+
+PROGRES:
+[x] Channel terverifikasi via API: Kisah Horor UCUEHu-nQXxGuru5Bviy4DKQ (@ceritarakyat862 tak tersentuh)
+[x] Cek duplikat judul: bersih (3x playlist scan)
+[x] Upload API 3 shorts SELESAI (run pertama; run kedua menemukan sbg duplikat -> anti-double-upload OK):
+    s1 https://youtube.com/shorts/N76GKq36LPQ "Wajah Sosok di CCTV Itu... Wajahku Sendiri?! | CCTV 02.47 #shorts #horor #ceritahoror #foryou"
+       desc: link long https://youtu.be/-k5qqlU3JR8 + Alat Rebus Telur Elektrik Rp155.100
+    s2 https://youtube.com/shorts/t9Y8URnq_vY "4 Satpam Tewas di Pos Ini, Semua Umur 29?! | CCTV 02.47 #shorts #horor #ceritahoror #foryou"
+       desc: link long + New Balance Fresh Foam X 2025 Rp850.000
+    s3 https://youtube.com/shorts/V1XVDiCeBtc "Mereka Bilang: Sekarang Giliranmu Patroli! | CCTV 02.47 #shorts #horor #ceritahoror #foryou"
+       desc: link long + New Balance Fuelcell Rebel V5 Rp850.000
+    publishAt 2026-10-16T12:00:00Z = Terjadwal BESOK 2026-10-16 19:00 WIB; privacy private; tag 6 keyword
+[x] upload-2026-10-15-shorts.json, upload-instruksi-2026-10-15-shorts.md
+[x] promo_history.json: indeks produk 5,6,7 -> 2026-10-15 (rotasi 7 hari OK)
+[x] upload-terakhir.txt = "shorts:2026-10-15"
+[ ] AI disclosure "Altered content" via Studio <- PENDING: browser.spawn_task GAGAL 3x
+    ("browser profile ownership timed out" - masalah lease profil runtime, bukan sesi login).
+    Instruksi lengkap di upload-instruksi-2026-10-15-shorts.md. Video masih private/terjadwal
+    sampai 2026-10-16 19:00 WIB -> masih ada jendela untuk dicentang via Studio sebelum tayang.
+    API YouTube TIDAK mendukung set altered-content (hanya via UI Studio).
+
+BESOK (run 2026-10-16): LONG day -> produksi long BARU (tema baru dari pool, cek riwayat 60 hari) + upload.

@@ -1,0 +1,31 @@
+{
+ "ai_disclosure": "belum terisi (upload diblokir sebelum pengisian metadata)",
+ "browser_task": "browser-task:873d3c5d (gagal-limit, stop benar); steer investigasi browser-task:26b8c6b5 memicu halaman verifikasi Google (red herring dari navigasi ulang) -> DITUTUP.",
+ "channel": "Midnight Dread Tales",
+ "channel_id": "UCR7uhocCg9YZM7-Qoi1sVGA",
+ "dibuat": "2026-10-11",
+ "handle": "@TalesOfDreadTV",
+ "hasil": "UPLOAD GAGAL — limit harian: \"Batas upload harian telah tercapai\" (2026-10-11 18:21 WIB). File sempat ter-attach ke dialog upload, lalu dialog menampilkan pesan limit. Tidak ada retry (aturan anti-mogok).",
+ "instruksi_upload": "upload-instruksi-2026-10-11.md",
+ "jadwal_tayang_rencana": "2026-10-12T07:00:00+07:00",
+ "jenis": "long (1 video)",
+ "judul": "The Watcher of 657 Boulevard: The True Story",
+ "login": "khususstokyunobi@gmail.com",
+ "penyebab": "Limit harian YouTube (channel belum verifikasi HP). Pesan: tunggu 24 jam atau verifikasi satu kali.",
+ "shorts_rencana": "shorts-rencana-2026-10-11.jsonl",
+ "shorts_untuk_besok": [
+  "shorts/2026-10-11-s1.mp4 (41.5 dtk)",
+  "shorts/2026-10-11-s2.mp4 (40.2 dtk)",
+  "shorts/2026-10-11-s3.mp4 (43.7 dtk)"
+ ],
+ "thumbnail": [
+  "thumbnail-2026-10-10.jpg (v1 HE WROTE LETTERS)",
+  "thumbnail-2026-10-10-v2.jpg (v2 HE MAPPED BEDROOMS)",
+  "thumbnail-2026-10-10-v3.jpg (v3 NEVER MOVED IN) -> Test & Compare"
+ ],
+ "upload_terakhir_txt": "BELUM DIUPDATE (tetap shorts:2026-10-09) — update ke long:2026-10-11 setelah upload terkonfirmasi",
+ "verifikasi_channel": "OK — Studio URL mengandung UCR7uhocCg9YZM7-Qoi1sVGA sebelum upload (cek via ID, bukan nama)",
+ "video": "video/2026-10-10.mp4 (470.7 dtk, 7.8 mnt, 1280x720, bumper suara user di 306.41 dtk, 4 text overlay, film grain, bed crickets)",
+ "antrean_retry": "retry-queue/horror-en-2026-10-11.json (eligible >= 2026-10-12 17:21 WIB; slot target 2026-10-13 07:00 WIB)",
+ "tindak_lanjut": "Watchdog 20:00 WIB mengerjakan antrean saat eligible (>=23 jam). Run besok: JANGAN upload long manual (sudah di antrean); fokus verifikasi status antrean."
+}

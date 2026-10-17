@@ -1,0 +1,155 @@
+{
+ "slug": "mind-en",
+ "handle": "@TheDarkMindFiles-s6i",
+ "date": "2026-10-13",
+ "analytics": {
+  "channel": "mind-en",
+  "handle": "@TheDarkMindFiles-s6i",
+  "channel_id": "UCAnSrJzQuePS1MJhfwlRJuQ",
+  "days": 28,
+  "summary": {
+   "views": 364,
+   "watch_minutes": 140,
+   "subs_gained": 6
+  },
+  "videos": [
+   {
+    "video_id": "Hh6TFHXJh_0",
+    "views": 283,
+    "likes": 17,
+    "watch_minutes": 102,
+    "avg_view_sec": 39,
+    "title": "Someone Is Controlling You Right Now #shorts #psychology #mindset #foryou",
+    "published": "2026-10-09",
+    "description": "Someone is controlling you and you don't even know it. Watch the full breakdown here: https://youtu.be/9s5iaAecFRw\n\n#shorts #psychology #mindset #foryou",
+    "tags": [
+     "body language",
+     "dark mind files",
+     "dark psychology",
+     "gaslighting",
+     "human behavior",
+     "manipulation",
+     "mindset",
+     "psychology",
+     "someone is controlling you right now"
+    ],
+    "duration_iso": "PT48S",
+    "views_lt": 283,
+    "likes_lt": 17,
+    "comments_lt": 0,
+    "duration_sec": 48,
+    "retention_pct": 81.2
+   },
+   {
+    "video_id": "9s5iaAecFRw",
+    "views": 46,
+    "likes": 1,
+    "watch_minutes": 29,
+    "avg_view_sec": 98,
+    "title": "7 Dark Psychology Tricks Manipulators Use to Control You",
+    "published": "2026-10-07",
+    "description": "What if someone in your life is controlling you right now — and you have no idea?\n\nDark psychology is real. In this video, we break down the 7 most dangerous manipulation tactics — love bombing, gaslighting, guilt-tripping, and more — and show you exactly how to defend yourself.\n\n⏱️ CHAPTERS:\n00:00 The hidden tactics manipulators use\n00:47 Trick #1: Love Bombing\n01:47 Trick #2: Gaslighting\n02:51 Trick #3: Foot in the Door\n03:46 Trick #4: Guilt-Tripping\n04:43 Trick #5: Manufactured Social Proof\n05:37 Trick #6: Intermittent Reinforcement\n06:41 Trick #7: Fear, Then Relief\n07:47 How to protect yourself\n\n⚠️ This video is for EDUCATIONAL purposes — to help you recognize manipulation and protect yourself. Never use these tactics to harm others.\n\n🔔 SUBSCRIBE to Dark Mind Files for daily deep dives into the hidden psychology shaping your life.\n\n#darkpsychology #psychology #mindset #manipulation #selfimprovement\n#foryou #viral",
+    "tags": [
+     "dark psychology",
+     "psychology",
+     "manipulation",
+     "gaslighting",
+     "love bombing",
+     "mind tricks",
+     "human behavior",
+     "self improvement",
+     "mental health awareness",
+     "body language",
+     "how to spot a manipulator",
+     "dark psychology tricks"
+    ],
+    "duration_iso": "PT9M14S",
+    "views_lt": 47,
+    "likes_lt": 1,
+    "comments_lt": 1,
+    "duration_sec": 554,
+    "retention_pct": 17.7
+   },
+   {
+    "video_id": "BAAtIR9AVeU",
+    "views": 30,
+    "likes": 5,
+    "watch_minutes": 6,
+    "avg_view_sec": 23,
+    "title": "5 Rules to Defend Against Manipulation #shorts #psychology #mindset #foryou",
+    "published": "2026-10-09",
+    "description": "Protect yourself from manipulators with these rules. Watch the full breakdown here: https://youtu.be/9s5iaAecFRw\n\n#shorts #psychology #mindset #foryou",
+    "tags": [
+     "5 rules to defend against manipulation",
+     "body language",
+     "dark mind files",
+     "dark psychology",
+     "gaslighting",
+     "human behavior",
+     "manipulation",
+     "mindset",
+     "psychology"
+    ],
+    "duration_iso": "PT49S",
+    "views_lt": 32,
+    "likes_lt": 5,
+    "comments_lt": 0,
+    "duration_sec": 49,
+    "retention_pct": 46.9
+   },
+   {
+    "video_id": "ffZFaSuDJdI",
+    "views": 5,
+    "likes": 1,
+    "watch_minutes": 2,
+    "avg_view_sec": 34,
+    "title": "Gaslighting: How They Destroy Your Reality #shorts #psychology #mindset #foryou",
+    "published": "2026-10-09",
+    "description": "Gaslighting destroys your reality slowly. Watch the full breakdown here: https://youtu.be/9s5iaAecFRw\n\n#shorts #psychology #mindset #foryou",
+    "tags": [
+     "body language",
+     "dark mind files",
+     "dark psychology",
+     "gaslighting",
+     "gaslighting how they destroy your reality",
+     "human behavior",
+     "manipulation",
+     "mindset",
+     "psychology"
+    ],
+    "duration_iso": "PT54S",
+    "views_lt": 5,
+    "likes_lt": 1,
+    "comments_lt": 1,
+    "duration_sec": 54,
+    "retention_pct": 63.0
+   }
+  ]
+ },
+ "enrich": {
+  "channel_id": "UCAnSrJzQuePS1MJhfwlRJuQ",
+  "stats": {
+   "viewCount": "365",
+   "subscriberCount": "10",
+   "hiddenSubscriberCount": false,
+   "videoCount": "6"
+  },
+  "reader": "mind-en"
+ },
+ "playlists": [
+  {
+   "id": "PLA8RVOHh5XLw",
+   "title": "Dark Psychology & Mind Tricks | Dark Mind Files",
+   "count": 4
+  }
+ ],
+ "videos_in_playlists": [
+  "9s5iaAecFRw",
+  "BAAtIR9AVeU",
+  "ffZFaSuDJdI",
+  "iKiyHMameGQ"
+ ],
+ "videos_no_playlist": [
+  "Hh6TFHXJh_0"
+ ]
+}

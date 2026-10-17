@@ -1,0 +1,94 @@
+Prompt Dola — Klip Intro Avatar Yunobi (19 Channel)
+
+Cara pakai: upload 1 foto kamu ke Dola, copy prompt visual per channel,
+tempel naskah ucapan sesuai bahasa channel. Durasi 5–8 detik per klip.
+Format: landscape 16:9 untuk video long (untuk Shorts, crop jadi vertikal di Dola).
+
+Konsep: kamu sebagai OWNER channel (bumper pembuka), bukan host persona.
+Persona host tetap membawakan isi video.
+
+---
+
+[1] @AncientEmpiresTV (English)
+Prompt: Talking-head video, medium close-up, same man wearing a khaki explorer vest, ancient stone ruins blurred in background, warm adventurous expression, looking directly at camera, natural daylight, photorealistic.
+Naskah: "Hi, I'm Yunobi. Welcome to Ancient Empires."
+
+[2] @EchoesOfThePast-e9m (English)
+Prompt: Talking-head video, medium close-up, same man wearing a navy blazer over white shirt, old library bookshelf blurred in background, calm storytelling expression, looking directly at camera, warm indoor lighting, photorealistic.
+Naskah: "Hi, I'm Yunobi. Welcome to Echoes of the Past."
+
+[3] @KisahPOV — Kisah Horor (Indonesia)
+Prompt: Talking-head video, medium close-up, same man wearing a black casual shirt, dark moody background with subtle fog, serious mysterious expression, looking directly at camera, dim cinematic lighting, photorealistic.
+Naskah: "Halo, saya Yunobi. Selamat datang di Kisah Horor."
+
+[4] @TalesOfDreadTV (English)
+Prompt: Talking-head video, medium close-up, same man wearing a dark coat, blurred night street background, intense serious expression, looking directly at camera, low-key dramatic lighting, photorealistic.
+Naskah: "Hi, I'm Yunobi. Welcome to Tales of Dread."
+
+[5] @JejakBuddha (Indonesia)
+Prompt: Talking-head video, medium close-up, same man wearing a simple cream-white shirt, serene temple garden blurred in background, calm gentle smile, looking directly at camera, soft morning light, photorealistic.
+Naskah: "Halo, saya Yunobi. Selamat datang di Jejak Buddha."
+
+[6] @JejakIslami-h3d (Indonesia)
+Prompt: Talking-head video, medium close-up, same man wearing a white baju koko and black peci cap, mosque interior softly blurred in background, warm respectful smile, looking directly at camera, soft lighting, photorealistic.
+Naskah: "Halo, saya Yunobi. Selamat datang di Jejak Islami."
+
+[7] @KisahAlkitab-k9j (Indonesia)
+Prompt: Talking-head video, medium close-up, same man wearing a neat light-blue shirt, warm wooden library blurred in background, kind sincere expression, looking directly at camera, warm lighting, photorealistic.
+Naskah: "Halo, saya Yunobi. Selamat datang di Kisah Alkitab."
+
+[8] @KisahDharma (Indonesia)
+Prompt: Talking-head video, medium close-up, same man wearing a simple earth-tone shirt, peaceful green garden blurred in background, wise calm expression, looking directly at camera, natural daylight, photorealistic.
+Naskah: "Halo, saya Yunobi. Selamat datang di Kisah Dharma."
+
+[9] @LimaMisteri (Indonesia)
+Prompt: Talking-head video, medium close-up, same man wearing a casual dark jacket, mysterious dark studio background with soft spotlight, curious intrigued expression, looking directly at camera, cinematic lighting, photorealistic.
+Naskah: "Halo, saya Yunobi. Selamat datang di Lima Misteri."
+
+[10] @TheDarkMindFiles-s6i (English)
+Prompt: Talking-head video, medium close-up, same man wearing a dark blazer, minimalist dark studio background, sharp intelligent expression, looking directly at camera, dramatic side lighting, photorealistic.
+Naskah: "Hi, I'm Yunobi. Welcome to Dark Mind Files."
+
+[11] @MysteryShadowsTV (English)
+Prompt: Talking-head video, medium close-up, same man wearing a grey jacket, foggy night background, investigative serious expression, looking directly at camera, moody cinematic lighting, photorealistic.
+Naskah: "Hi, I'm Yunobi. Welcome to Mystery Shadows."
+
+[12] @CosmosUnknownTV (English)
+Prompt: Talking-head video, medium close-up, same man wearing a black shirt, starry space nebula background, amazed inspired expression, looking directly at camera, cool cosmic lighting, photorealistic.
+Naskah: "Hi, I'm Yunobi. Welcome to Cosmos Unknown."
+
+[13] @StrangeTales-g6n (English)
+Prompt: Talking-head video, medium close-up, same man wearing a quirky patterned casual shirt, curious cabinet-of-wonders background blurred, playful surprised expression, looking directly at camera, bright lighting, photorealistic.
+Naskah: "Hi, I'm Yunobi. Welcome to Strange Tales."
+
+[14] @tinybuilders-d5z (Indonesia)
+Prompt: Talking-head video, medium close-up, same man wearing a brown workshop apron over a t-shirt, miniature workshop blurred in background, cheerful friendly smile, looking directly at camera, warm workshop lighting, photorealistic.
+Naskah: "Halo, saya Yunobi. Selamat datang di Tiny Builders."
+
+[15] @TrueCaseFilesTV (English)
+Prompt: Talking-head video, medium close-up, same man wearing a formal blazer and shirt, detective office desk blurred in background, serious professional expression, looking directly at camera, neutral office lighting, photorealistic.
+Naskah: "Hi, I'm Yunobi. Welcome to True Case Files."
+
+[16] @BizarreWorldDaily (English)
+Prompt: Talking-head video, medium close-up, same man wearing a colorful casual shirt, fun vibrant background, excited amazed expression, looking directly at camera, bright cheerful lighting, photorealistic.
+Naskah: "Hi, I'm Yunobi. Welcome to Bizarre World Daily."
+
+[17] @ceritarakyat862 (Indonesia)
+Prompt: Talking-head video, medium close-up, same man wearing an Indonesian batik shirt, traditional joglo house blurred in background, warm grandfatherly smile, looking directly at camera, warm afternoon light, photorealistic.
+Naskah: "Halo, saya Yunobi. Selamat datang di Cerita Rakyat."
+
+[18] @InkTime-d3t (Indonesia)
+Prompt: Talking-head video, medium close-up, same man wearing a casual neat shirt, whiteboard with doodles blurred in background, friendly teacher expression, looking directly at camera, bright classroom lighting, photorealistic.
+Naskah: "Halo, saya Yunobi. Selamat datang di InkTime."
+
+[19] @MacamMacamID (Indonesia)
+Prompt: Talking-head video, medium close-up, same man wearing a relaxed polo shirt, bright casual background, easygoing smile, looking directly at camera, natural daylight, photorealistic.
+Naskah: "Halo, saya Yunobi. Selamat datang di Macam Macam."
+
+---
+
+Tips
+* Pakai FOTO YANG SAMA untuk semua 19 klip biar wajah konsisten.
+* Kalau Dola ada opsi "expression/gesture": pilih subtle nod + smile.
+* Kirim klip jadi ke saya (19 file MP4) — saya yang tempel ke pipeline intro tiap channel.
+* Setelah klip dipakai, AI disclosure tetap dicentang otomatis saat upload (sudah di instruksi).

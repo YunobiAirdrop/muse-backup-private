@@ -1,0 +1,2 @@
+file '/home/hatch/workspace/blog-otomatis/promo_out/seg1v_gamis-karina.mp4'
+file '/home/hatch/workspace/blog-otomatis/promo_out/seg2v_gamis-karina.mp4'

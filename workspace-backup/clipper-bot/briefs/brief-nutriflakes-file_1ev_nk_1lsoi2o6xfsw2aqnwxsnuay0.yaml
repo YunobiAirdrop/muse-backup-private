@@ -1,0 +1,30 @@
+bahasa: id
+campaign: NUTRIFLAKES X ERY MAKMUR X LEO GIOVANNI
+caption_template: '{hook}
+
+
+  @official.nutriflakes @nutriflakes.official
+
+  {cta}
+
+  {hashtags}
+
+  '
+cta:
+  overlay_durasi_detik: 5
+  teks: Cek link di bio!
+durasi_klip_max: 60
+durasi_klip_min: 20
+hashtag_wajib:
+- '#nutriflakesxclippo'
+- '#nutriflakes'
+hook:
+  badge_durasi_detik: 3
+  maks_kata: 8
+jumlah_klip: 2
+platform:
+- tiktok
+- instagram
+- facebook
+rate_per_1000_views: 5000
+sumber_video: /home/hatch/workspace/clipper-bot/materi/nutriflakes/file_1EV_NK_1lSOI2o6Xfsw2aqNWxsnuaY0dc.mp4

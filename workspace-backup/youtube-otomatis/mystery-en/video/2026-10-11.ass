@@ -1,0 +1,81 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+[V1 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginV
+Style: Nar,DejaVu Sans,44,&H00FFFFFF,&H00000000,&H80000000,-1,0,1,2.5,0,2,60
+[Events]
+Format: Layer, Start, End, Style, Text
+Dialogue: 0,0:00:00.00,0:00:10.99,Nar,A healthy man is found dead on a beach. No\Ninjuries. No poison. No ID. But in his\Npocket... a scrap of paper, torn from\Nancient Persian poetry.
+Dialogue: 0,0:00:10.99,0:00:19.20,Nar,The paper had just two words on it. Tamam\NShud. In Persian, that means... it is\Nended.
+Dialogue: 0,0:00:19.20,0:00:28.99,Nar,This is the most famous unsolved death in\NAustralian history. And after nearly\Neighty years... nobody has cracked it.
+Dialogue: 0,0:00:28.99,0:00:45.62,Nar,Today, we walk through every clue\Ntogether. The strange code. The mysterious\Nwoman. The suitcase of dead ends. And at\Nthe end, my personal theory. But first,\None question. If you found a stranger dead\Non your beach, what is the first thing you\Nwould check? Remember your answer.
+Dialogue: 0,0:00:45.62,0:00:55.46,Nar,Adelaide, South Australia. December first,\Nnineteen forty-eight. Just before dawn,\NJohn Lyons and his wife spot something\Nstrange on Somerton Beach.
+Dialogue: 0,0:00:55.46,0:01:05.23,Nar,A man is lying against the sea wall. Head\Nresting on the sand. Legs crossed neatly.\NHe looks... peaceful. Almost like he is\Njust sleeping.
+Dialogue: 0,0:01:05.23,0:01:14.16,Nar,It is evening, so the couple walks on. But\Nthe next morning, the man is still there.\NIn exactly the same position.
+Dialogue: 0,0:01:14.16,0:01:23.71,Nar,The night before, another couple had seen\Nhim in that exact spot. They watched him\Nraise his arm... then let it drop, limp.\NThey thought he was just drunk.
+Dialogue: 0,0:01:23.71,0:01:34.22,Nar,Somebody goes to take a closer look. And\Nthe truth hits like a wave. He is dead.\NAnd from that moment... nothing about him\Nmakes sense.
+Dialogue: 0,0:01:34.22,0:01:46.15,Nar,He is around forty to forty-five. Five\Nfoot eleven. Well built. Dressed like a\Ngentleman. A brown double-breasted suit. A\Nwhite shirt. A red and blue tie. Polished\Nshoes.
+Dialogue: 0,0:01:46.15,0:01:56.04,Nar,Expensive clothes. Quality fabric. But\Nevery single label has been cut out. The\Ntailor's name. The maker's mark. Even the\Nlaundry tags. All gone.
+Dialogue: 0,0:01:56.04,0:02:04.44,Nar,His pockets hold a bus ticket, an aluminum\Ncomb, a half-empty pack of Army Club\Ncigarettes, some chewing gum, and a box of\Nmatches.
+Dialogue: 0,0:02:04.44,0:02:11.76,Nar,No wallet. No keys. No ID. Nothing that\Nsays who he was. As if somebody scrubbed\Nhim out of existence.
+Dialogue: 0,0:02:11.76,0:02:19.73,Nar,The autopsy is stranger still. A perfectly\Nhealthy man. A strong heart. Healthy\Norgans. No wounds. No disease.
+Dialogue: 0,0:02:19.73,0:02:28.44,Nar,But his stomach is congested. His spleen\Nis enlarged. The liver and kidneys show\Nthe exact signs you see in... poisoning.
+Dialogue: 0,0:02:28.44,0:02:37.32,Nar,Yet the lab finds no poison. Not a trace.\NTwo expert chemists are brought in. Both\Nreach the same chilling conclusion.
+Dialogue: 0,0:02:37.32,0:02:47.04,Nar,They believe he was killed by a drug so\Nrare, so fast-acting, it leaves almost\Nnothing behind. A poison that vanishes...\Nlike the man himself.
+Dialogue: 0,0:02:47.04,0:02:55.13,Nar,At the inquest, the coroner gives up. And\NI quote: "I am unable to say who the\Ndeceased was... and I am unable to say how\Nhe died."
+Dialogue: 0,0:02:55.13,0:02:59.88,Nar,Imagine that. An official death\Ncertificate. No name... no cause.
+Dialogue: 0,0:02:59.88,0:03:04.68,Nar,So the police take his fingerprints. They\Nsend them across Australia... and then\Naround the world.
+Dialogue: 0,0:03:04.68,0:03:13.03,Nar,America. Britain. Every database they can\Nreach. Every single time: no match. This\Nman exists... nowhere.
+Dialogue: 0,0:03:13.03,0:03:20.42,Nar,A plaster bust of his face is made. His\Nphoto is printed in every newspaper.\NThousands look at that face.
+Dialogue: 0,0:03:20.42,0:03:23.30,Nar,And nobody... knows him.
+Dialogue: 0,0:03:23.30,0:03:33.14,Nar,Months pass. Then, in January nineteen\Nforty-nine, a porter at Adelaide railway\Nstation finds a brown suitcase in the\Nluggage room, unclaimed.
+Dialogue: 0,0:03:33.14,0:03:38.90,Nar,Checked in months before the body was\Nfound. And nobody... ever claimed it.
+Dialogue: 0,0:03:38.90,0:03:53.54,Nar,Inside: clothes. Shirts. A shaving kit.\NSocks, underwear. Trousers with sand in\Nthe cuffs. And on three items... a name.\NT. Keane.
+Dialogue: 0,0:03:53.54,0:04:01.54,Nar,Among the oddities: a stencil brush. A\Ntable knife, cut down short. Tools of a\Ntradesman... or the kit of a killer?
+Dialogue: 0,0:04:01.54,0:04:08.86,Nar,Police search the whole country for a\Nmissing T. Keane. They find plenty of\NKeanes. None are missing. The name leads\Nnowhere.
+Dialogue: 0,0:04:08.86,0:04:16.94,Nar,But the suitcase hides something weirder.\NA reel of orange Barbour thread. The kind\Ntailors use to repair suit linings.
+Dialogue: 0,0:04:16.94,0:04:21.70,Nar,And that thread... was not sold anywhere\Nin Australia. It came from overseas.
+Dialogue: 0,0:04:21.70,0:04:31.82,Nar,Remember those cut-out clothing labels?\NSome were removed with this exact thread\Nstill in the seams. Somebody was secretly\Nre-tailoring this man's clothes.
+Dialogue: 0,0:04:31.82,0:04:42.55,Nar,Now. The pocket. Remember the dead man's\Ntiny fob pocket? Inside it, police find a\Nsmall scrap of paper, rolled up tight.
+Dialogue: 0,0:04:42.55,0:04:48.26,Nar,It has been torn from the last page of a\Nbook. And printed on it are two words.\NTamam Shud.
+Dialogue: 0,0:04:48.26,0:04:57.22,Nar,It is Persian. From the Rubaiyat of Omar\NKhayyam, a book of ancient Persian poetry.\NAnd Tamam Shud means... it is ended.
+Dialogue: 0,0:04:57.22,0:05:03.53,Nar,Let that sink in. A dead man. No name. And\Nin his pocket, a torn page whispering...\Nit is ended.
+Dialogue: 0,0:05:03.53,0:05:12.00,Nar,Before the strangest clue of all, if you\Nlove real unsolved mysteries, hit\Nsubscribe and ring that bell. Unsolved\NShadows brings you a new mystery every\Nday.
+Dialogue: 0,0:05:12.00,0:05:18.89,Nar,The police put out a call across\NAustralia. Has anyone seen a copy of the\NRubaiyat... with its last page missing?
+Dialogue: 0,0:05:18.89,0:05:25.68,Nar,And somebody comes forward. A man who had\Nleft his Rubaiyat on the back seat of his\Nunlocked car, parked near Glenelg beach.
+Dialogue: 0,0:05:25.68,0:05:34.20,Nar,When he opens it, the last page is gone.\NTorn out. And the scrap in the dead man's\Npocket... fits the gap. Perfectly.
+Dialogue: 0,0:05:34.20,0:05:43.03,Nar,The book is a rare nineteen forty-one\Nedition, printed in New Zealand. But this\Ncopy hides one more secret.
+Dialogue: 0,0:05:43.03,0:05:52.10,Nar,On the back page, in faint pencil,\Nsomebody has written... five lines of\Nletters. A code.
+Dialogue: 0,0:05:52.10,0:06:01.06,Nar,One line is crossed out. Two lines beneath\Nlook like a second attempt. Somebody was\Nworking on this code... carefully.
+Dialogue: 0,0:06:01.06,0:06:06.70,Nar,The police hand it to the military. Navy\Nand air force codebreakers study those\Nfive lines. And their verdict?
+Dialogue: 0,0:06:06.70,0:06:15.77,Nar,This code cannot be broken. Not without\Nthe key. For decades, amateurs tried.\NComputers tried. Nothing.
+Dialogue: 0,0:06:15.77,0:06:20.04,Nar,Those five lines of letters remain...\Nunreadable. To this day.
+Dialogue: 0,0:06:20.04,0:06:27.89,Nar,Now it gets personal. Inside that same\Nbook, police find something else. A phone\Nnumber. Written in pencil.
+Dialogue: 0,0:06:27.89,0:06:34.92,Nar,The number is unlisted. It belongs to a\Nwoman living just meters from where the\Nbody was found. Her name is Jessica\NThomson.
+Dialogue: 0,0:06:34.92,0:06:41.59,Nar,When police show her the plaster cast of\Nthe dead man's face... witnesses say she\Nalmost faints.
+Dialogue: 0,0:06:41.59,0:06:46.63,Nar,She looks away. Refuses to look again.\NTells police she does not know the man.
+Dialogue: 0,0:06:46.63,0:06:51.74,Nar,She says she once gave a copy of the\NRubaiyat... to someone else. Years\Nearlier, during the war.
+Dialogue: 0,0:06:51.74,0:07:02.11,Nar,The man she names is Alf Boxall. An army\Nlieutenant. Police track him down. He\Nstill has his Rubaiyat. Intact. Last\Npage... still there.
+Dialogue: 0,0:07:02.11,0:07:09.31,Nar,So Alf Boxall is cleared. But Jessica\Nnever explains that reaction. She takes\Nher secret... to the grave.
+Dialogue: 0,0:07:09.31,0:07:19.80,Nar,What really gets me is Jessica. That\Nreaction. You do not almost faint at the\Nface of a total stranger. She knew him. I\Nam convinced of it.
+Dialogue: 0,0:07:19.80,0:07:27.55,Nar,Now, the three theories people have argued\Nabout for almost eighty years. And then...\Nmy personal theory.
+Dialogue: 0,0:07:27.55,0:07:36.62,Nar,Theory one. He was a spy. Labels cut from\Nhis clothes. A thread not sold in\NAustralia. A code nobody can break. An\Nunlisted number near the scene.
+Dialogue: 0,0:07:36.62,0:07:42.94,Nar,And years later, when investigators ask\Nfor his intelligence files... they\Ndiscover those files have been destroyed.
+Dialogue: 0,0:07:42.94,0:07:55.70,Nar,It was nineteen forty-eight. The Cold War\Nis freezing over. Spies are everywhere. A\Nman who officially does not exist, dying\Nquietly on a beach? It fits. A little too\Nwell.
+Dialogue: 0,0:07:55.70,0:08:08.26,Nar,Theory two. Suicide. Some say he tore that\Npage himself, sat on the beach, and took\Nsomething untraceable. A broken heart. A\Nfinal message. It is ended.
+Dialogue: 0,0:08:08.26,0:08:20.50,Nar,But who kills himself and first removes\Nevery label from his clothes? What poison\Nleaves no trace at all? The suicide theory\Nhas... holes.
+Dialogue: 0,0:08:20.50,0:08:30.98,Nar,And then there are the cigarettes. The\Npacket says Army Club. But inside... a\Ndifferent, pricier brand. Somebody swapped\Nthe cigarettes into a fancier pack. Why?
+Dialogue: 0,0:08:30.98,0:08:39.34,Nar,Theory three. Murder. Someone wanted him\Ngone... and nameless. The poison. The\Nremoved labels. The missing identity. A\Nprofessional job.
+Dialogue: 0,0:08:39.34,0:08:48.26,Nar,And Jessica? Some researchers believe the\Ndead man fathered her child. That she knew\Nexactly who he was... and chose silence.
+Dialogue: 0,0:08:48.26,0:09:00.86,Nar,So. My personal theory? He was connected\Nto intelligence work. And Jessica knew\Nhim. Maybe even loved him. And whatever\Nhappened on that beach... was meant to\Nstay secret forever.
+Dialogue: 0,0:09:00.86,0:09:10.54,Nar,The removed labels. The foreign thread.\NThe unbreakable code. The destroyed files.\NThat is tradecraft. That is a man\Ntrained... to disappear.
+Dialogue: 0,0:09:10.54,0:09:17.93,Nar,And the Tamam Shud page? I think it was\Nhis message. Not to the police. To someone\Nelse. Someone who would understand: it is\Nended.
+Dialogue: 0,0:09:17.93,0:09:29.16,Nar,In twenty twenty-one, the body was\Nexhumed. Scientists finally got DNA. And\Nin twenty twenty-two, a researcher\Nannounced a name. Carl Webb. An engineer\Nfrom Melbourne.
+Dialogue: 0,0:09:29.16,0:09:37.15,Nar,But the police have never fully confirmed\Nit. And even if that IS his name... we\Nstill do not know how he died. Or why.
+Dialogue: 0,0:09:37.15,0:09:47.16,Nar,Jessica died in two thousand seven. Her\Nson died two years later. Both took their\Nanswers with them. Whatever they knew...\Nis buried.
+Dialogue: 0,0:09:47.16,0:09:49.73,Nar,The mystery is NOT solved.
+Dialogue: 0,0:09:49.73,0:10:04.80,Nar,Think about that. Almost eighty years.\NFingerprints around the world. An\Nexhumation. DNA. And the official record\Nstill says: unknown man... unknown cause.
+Dialogue: 0,0:10:04.80,0:10:15.31,Nar,So now I want to hear from you. What do\NYOU think happened on Somerton Beach that\Nnight? Spy? Suicide? Murder? Drop your\Ntheory below. I read every single one.
+Dialogue: 0,0:10:15.31,0:10:27.60,Nar,If this mystery gave you chills, the next\None will too. A brand-new unsolved case\Ndrops tomorrow, and you do not want to\Nmiss it. Subscribe, hit the bell... and I\Nwill see you... in the shadows.

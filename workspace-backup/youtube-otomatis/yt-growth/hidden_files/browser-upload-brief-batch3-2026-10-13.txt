@@ -1,0 +1,106 @@
+TUGAS: Upload 10 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Ini BATCH 3 dari 4: kerjakan BERURUTAN nomor 21-30 saja. Nama file di bawah UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 21/40 ====== VIDEO 21/40 ===
+FILE: 21-jejakbuddha-short3-pertapa-asita.mp4
+CHANNEL: Jejak Buddha | ID: UC1PNEzhOmAH08p75vwp7n0A
+JUDUL: Pertapa Tua Ini Menangis Saat Menggendong Bayi Buddha #shorts #buddha #kebijaksanaan
+DESKRIPSI: Pertapa Asita tersenyum bahagia melihat bayi Siddhartha — ia akan menjadi Buddha. Lalu ia menangis: usianya terlalu tua untuk mendengar ajarannya. Bagian kisah yang selalu mengharukan. Semoga semua makhluk berbahagia. — Jejak Buddha
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 22/40 ====== VIDEO 22/40 ===
+FILE: 22-mystery-en-2026-10-07.mp4
+CHANNEL: Unsolved Shadows | ID: UCjxESFWyFPOkGTSpajK69Lw
+JUDUL: The Ghost Ship With No Crew: What Really Happened to the Mary Celeste?
+DESKRIPSI: In December 1872, the Mary Celeste was found drifting in the Atlantic — perfectly intact, fully stocked... but her entire crew of 10 had vanished without a trace. No distress signal. No lifeboats. No answers. For over 150 years, this remains one of history's most chilling unsolved mysteries. 
+  
+ What do YOU think happened? Drop your theory in the comments. 
+  
+ Subscribe to Unsolved Shadows for a new unsolved mystery every day. 
+  
+ #unsolvedmystery #maryceleste #ghostship #mystery #unsolved
+TAGS: mary celeste, ghost ship, unsolved mystery, mystery, disappearances, unsolved
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 23/40 ====== VIDEO 23/40 ===
+FILE: 23-strangetales-strange-tales-2026-10-07-mantis-shrimp-sm.mp4
+CHANNEL: strangetales | ID: UCAVSqZjG8Af_pm_1uD5wRzA
+JUDUL: This Shrimp Punches Faster Than a BULLET — But HOW?! #shorts #weirdfacts #strangetales
+DESKRIPSI: The mantis shrimp strikes faster than a bullet and sees colors we can't even imagine. A new strange tale every day.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 24/40 ====== VIDEO 24/40 ===
+FILE: 24-strangetales-strange-tales-2026-10-07-blood-falls-sm.mp4
+CHANNEL: strangetales | ID: UCAVSqZjG8Af_pm_1uD5wRzA
+JUDUL: This Glacier Is BLEEDING — Scientists Found What's Inside?! #shorts #weirdfacts #strangetales
+DESKRIPSI: Blood Falls in Antarctica pours red water from a two-million-year-old hidden sea. A new strange tale every day.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 25/40 ====== VIDEO 25/40 ===
+FILE: 25-strangetales-strange-tales-2026-10-07-mary-celeste-sm.mp4
+CHANNEL: strangetales | ID: UCAVSqZjG8Af_pm_1uD5wRzA
+JUDUL: A Ship Found Sailing With NO CREW — What Happened?! #shorts #mystery #strangetales
+DESKRIPSI: The Mary Celeste: a ghost ship adrift in 1872 with untouched cargo and a vanished crew. A new strange tale every day.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 26/40 ====== VIDEO 26/40 ===
+FILE: 26-strangetales-strange-tales-2026-10-09-axolotl.mp4
+CHANNEL: strangetales | ID: UCAVSqZjG8Af_pm_1uD5wRzA
+JUDUL: This Animal Can REGROW Its Own Brain — But How?! #shorts #weirdfacts #strangetales
+DESKRIPSI: The axolotl can regrow its brain, heart, and spine — and it never grows up. A new strange tale every day. 
+  
+ Footage: Wikimedia Commons contributors — Axolotl (Tierpark Zittau) CC BY-SA 4.0, Axolotl (Ambystoma mexicanum) CC BY 2.0, Ambystoma mexicanum CC BY-SA 4.0.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 27/40 ====== VIDEO 27/40 ===
+FILE: 27-weird-en-2026-10-07-fixed.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: 7 Real Animals With ACTUAL Superpowers (Unbelievable)
+DESKRIPSI: Okay, I genuinely thought these were made up. A tiny animal that survived OUTER SPACE? A jellyfish that can't die of old age?! A shrimp that punches harder than a bullet and makes temperatures hotter than the sun's surface?? Nature is absolutely unhinged and I love it. 
+  
+ Meet 7 real animals with actual superpowers — INVINCIBLE, IMMORTAL, SUPER STRENGTH, REGENERATION, SUPER SENSES, the FASTEST WEAPON in the ocean, and one that's basically PAIN-PROOF. Which superpower would YOU pick? Tell me below! 👇 
+  
+ #weirdfacts #animals #superpowers #nature
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+THUMB: 27-weird-en-thumb.jpg
+
+=== VIDEO 28/40 ====== VIDEO 28/40 ===
+FILE: 28-weird-en-2026-10-07-s1.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: This Animal Survived OUTER SPACE (No Suit, No Helmet!) #shorts #facts #weirdfacts
+DESKRIPSI: Okay, I had to read this twice. The tardigrade — a tiny water bear smaller than a grain of sand — has literally survived the vacuum of OUTER SPACE. No suit, no helmet, just... chilling. Scientists exposed them to open space and they came back alive. Nature is absolutely unhinged. Which animal superpower would YOU want? More unbelievable real facts on the channel!
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 29/40 ====== VIDEO 29/40 ===
+FILE: 29-weird-en-2026-10-07-s2.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: This Shrimp Is HOTTER Than the Sun?! #shorts #facts #weirdfacts
+DESKRIPSI: Wait, WHAT?! This two-inch pistol shrimp's claw snap hits 8,000°F — that's HOTTER than the surface of the sun. Plus a 218-decibel shockwave, louder than a gunshot. Submarines literally used colonies of these shrimps to hide from sonar. I love this planet. More unbelievable real animal facts on the channel!
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 30/40 ====== VIDEO 30/40 ===
+FILE: 30-weird-en-2026-10-07-s3.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: This Shrimp Punches Harder Than a BULLET #shorts #facts #weirdfacts
+DESKRIPSI: A four-inch mantis shrimp that punches at 50 MILES PER HOUR underwater — 100x faster than you can blink, with the force of a .22 caliber bullet. It can literally crack aquarium glass. And the punch moves so fast it BOILS the water around it. Excuse me?? More real animal superpowers on the channel!
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+LAPORAN AKHIR: tiap nomor -> SUKSES + URL, atau GAGAL + alasan singkat.

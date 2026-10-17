@@ -1,0 +1,39 @@
+B = [53.88, 76.78, 85.97, 89.28, 61.82, 62.42, 67.08, 58.78]
+seg title ok
+seg b0 [kd-n01]: 13.23s ok
+seg b0 [kd-f02]: 19.22s ok
+seg b0 [kd-f06]: 21.43s ok
+seg b1 [kd-n04]: 16.03s ok
+seg b1 [kd-f03]: 16.30s ok
+seg b1 [kd-n05]: 44.45s ok
+seg b2 [kd-f04]: 16.90s ok
+seg b2 [kd-f05]: 16.84s ok
+seg b2 [kd-f01]: 52.23s ok
+seg b3 [kd-f07]: 15.36s ok
+seg b3 [kd-n04]: 15.53s ok
+seg b3 [kd-n05]: 58.39s ok
+seg bumper ok
+seg b4 [kd-f03]: 15.80s ok
+seg b4 [kd-n06]: 18.20s ok
+seg b4 [kd-f08]: 27.82s ok
+seg b5 [kd-f04]: 16.40s ok
+seg b5 [kd-f05]: 16.34s ok
+seg b5 [kd-f08]: 29.68s ok
+seg b6 [kd-f07]: 14.86s ok
+seg b6 [kd-n01]: 12.73s ok
+seg b6 [kd-f01]: 39.49s ok
+seg b7 [kd-f02]: 18.72s ok
+seg b7 [kd-n06]: 17.70s ok
+seg b7 [kd-f06]: 22.36s ok
+_vconcat: 567.40s
+T_B (bumper split): 305.90s
+_afull: 567.35s
+MASTER tmp: 567.35s
+SMALL: 567.36s, 146.4MB
+Traceback (most recent call last):
+  File "/home/hatch/workspace/kisah-dharma/2026-10-17/rakit.py", line 211, in <module>
+    main()
+  File "/home/hatch/workspace/kisah-dharma/2026-10-17/rakit.py", line 200, in main
+    assert sz < 100, "small > 100MB!"
+           ^^^^^^^^
+AssertionError: small > 100MB!

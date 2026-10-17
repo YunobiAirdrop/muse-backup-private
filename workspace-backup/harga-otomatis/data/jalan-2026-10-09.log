@@ -1,0 +1,38 @@
+=== 2026-10-09 08:11:09 mulai ===
+Ambil harga sembako (PIHPS BI)...
+  OK Beras Medium: Rp16,650/kg (09/10/2026)
+  OK Telur Ayam: Rp29,700/kg (09/10/2026)
+  OK Cabai Merah Keriting: Rp84,300/kg (09/10/2026)
+  OK Bawang Merah: Rp37,050/kg (09/10/2026)
+  OK Bawang Putih: Rp38,800/kg (09/10/2026)
+  OK Minyak Goreng Curah: Rp20,300/liter (09/10/2026)
+  OK Gula Pasir: Rp19,250/kg (09/10/2026)
+  OK Daging Ayam: Rp41,350/kg (09/10/2026)
+  OK Daging Sapi: Rp152,650/kg (09/10/2026)
+Ambil harga emas (Logam Mulia)...
+  OK Emas Antam 1gr: Rp2,572,000 (2026-10-09, via API)
+Tersimpan: /home/hatch/workspace/harga-otomatis/data/harga-2026-10-09.json (10 item)
+Infografis: /home/hatch/workspace/harga-otomatis/img/harga-2026-10-09.png
+Target: harga-2026-10-09
+--- caption ---
+HARGA HARI INI - 9 Okt 2026
+
+Beras Medium: Rp16.650/kg naik
+Telur Ayam: Rp29.700/kg
+Cabai Merah Keriting: Rp84.300/kg naik
+Bawang Merah: Rp37.050/kg naik
+Bawang Putih: Rp38.800/kg
+Minyak Goreng Curah: Rp20.300/liter turun
+Gula Pasir: Rp19.250/kg naik
+Daging Ayam: Rp41.350/kg turun
+Daging Sapi: Rp152.650/kg naik
+Emas Antam 1gr: Rp2.572.000/gram naik
+
+Sumber: PIHPS Bank Indonesia & Logam Mulia
+#hargahariini #sembako #hargapasar #hargapangan #infoharga
+---------------
+  IG: GAGAL/menunggu persetujuan
+    Error: instagram request was forbidden by the server (HTTP 403): this specific command is currently unavailable (likely disabled or gated server-side) — other commands may still work. It is not an aut
+  Threads: GAGAL/menunggu persetujuan
+    [2m2026-10-09T08:14:07.121146Z[0m [33m WARN[0m [2mthreads_confirmation_label_lookup[0m[2m:[0m Threads confirmation label enrichment unavailable; continuing with sanitized preview [3mscope[0m
+=== 2026-10-09 08:14:13 selesai (exit 0) ===

@@ -1,0 +1,63 @@
+SCRIPT: "The Bronze Age Collapse: History's Greatest Mystery"
+Channel: InkTime | Long video | ~9-10 min | English | Voice: avocado_v2:miles | Persona: "Pak Guru Ink"
+Notes: numbers written spoken-form for TTS. "~" = dramatic pause placement (strip before TTS).
+
+=== BEAT 1 (HOOK — cold open, no intro) ===
+NARRATION:
+Three thousand two hundred years ago, the entire civilized world collapsed — in about fifty years. Every great kingdom. Every palace. Every trading port. Burned, abandoned, forgotten. And here is the part that will blow your mind: historians STILL do not know exactly who did it. Was it an invasion? A climate disaster? A rebellion? An economic crash? The Bronze Age Collapse is the greatest unsolved mystery in all of history. Before I show you the evidence — drop your guess in the comments right now. Invaders? Drought? Something else? Write it down. Because by the end of this video... you might change your mind.
+
+VISUAL PLAN: IMAGE 1 — framework header "THE WORLD ENDED IN 50 YEARS" + bullets: ~1200 BC — every kingdom falls; palaces burned, cities abandoned; who did it? still unsolved.
+
+=== BEAT 2 ===
+NARRATION:
+To understand how shocking this was, you have to see what existed BEFORE. Around twelve hundred BC, the ancient world was not primitive at all. It was the closest humanity had ever come to a global civilization. Mycenaean Greece. The Hittite Empire in Anatolia. New Kingdom Egypt — the Egypt of the pharaohs at their peak. And wealthy merchant cities like Ugarit on the Syrian coast. These kingdoms wrote letters to each other. We have them — the Amarna Letters — where great kings address each other as "my brother." They traded copper from Cyprus, tin from as far away as Afghanistan, grain, glass, gold. Tin plus copper makes bronze — and bronze was the steel of its day: tools, weapons, everything. One historian, Eric Cline, calls it the first international world system. And then — within a single lifetime — almost all of it was gone.
+
+VISUAL PLAN: IMAGE 2 — framework header "A GOLDEN, GLOBAL WORLD" + bullets: kings wrote "my brother" (Amarna letters); copper + tin = bronze, the steel of its day; Cline: the first international system.
+
+=== BEAT 3 ===
+NARRATION:
+Now — the smoking gun. The city of Ugarit, on the coast of modern Syria, was one of the richest trading ports of the age. Around eleven ninety BC, it was destroyed so completely it was never rebuilt. But the archaeologists found something extraordinary: the city's archives — clay tablets — still sitting in the kilns where scribes had left them. And the last letters are terrifying. The final king, Ammurapi, writes that enemy ships are approaching, and begs a neighboring ruler for help. Another letter says the city's troops and chariots are away in Lukka, and the grain ships never arrived. ~ And here is the detail that gives me chills: some tablets were found UNFIRED — the scribes were still writing when the city started burning. Think about that for a second. The last words of a civilization, baked into clay by the very fire that destroyed it.
+
+VISUAL PLAN: IMAGE 3 — framework header "THE LAST LETTERS OF UGARIT" + bullets: city destroyed ~1190 BC, never rebuilt; Ammurapi's plea — "enemy ships approaching"; unfired tablets — scribes still writing.
+
+=== BEAT 4 ===
+NARRATION:
+So who attacked? Egypt gives us a name — carved in stone. The pharaoh Ramesses the Third, around eleven seventy-seven BC, left a giant inscription at his temple at Medinet Habu. It describes a terrifying confederation arriving from the sea. His words: "The foreign countries made a conspiracy in their islands... No land could stand before their arms." Egypt called them the Sea Peoples — the Peleset, the Shekelesh, the Sherden, the Denyen. Ramesses claims he stopped them in two epic battles: one on land, one at sea — the first naval battle in recorded history. Egypt survived. But here is the problem: nobody knows where the Sea Peoples came from. Were they invaders? Refugees fleeing some OTHER disaster? Pirates? Historians have argued about this for a hundred years. The Sea Peoples might not be the cause of the collapse at all — they might be its VICTIMS.
+
+VISUAL PLAN: IMAGE 4 — framework header "THE SEA PEOPLES" + bullets: Ramesses III, Medinet Habu inscription; first naval battle in history; invaders? or refugees?
+
+=== BEAT 5 ===
+NARRATION:
+And that is where the mystery gets deeper — because the newest research says there was no single cause. Eric Cline, in his famous book "Eleven Seventy-Seven BC: The Year Civilization Collapsed," argues for what he calls a "perfect storm" — a systems collapse. Listen to how many disasters hit AT ONCE. Climate scientists found evidence of the worst drought in three thousand years across the eastern Mediterranean — crops failed, famine spread. There was a storm of earthquakes — one study counts a whole series of quakes shaking city after city. The military historian Robert Drews argued that warfare itself changed: cheap infantry with javelins could now defeat the elite chariot armies the palaces depended on. And the trade network? Tin came from thousands of miles away. When the routes broke down, there was no tin — and without tin, no bronze. No bronze, no tools. No weapons. The whole economy was built on bronze, and bronze simply... ran out.
+
+VISUAL PLAN: IMAGE 5 — framework header "A PERFECT STORM" + bullets: worst drought in 3,000 years; earthquake storm + new infantry warfare (Drews); no tin = no bronze = no weapons.
+
+=== BEAT 6 (CTA ~50%) ===
+NARRATION:
+Years ago, a student asked me — completely serious — whether aliens destroyed the Bronze Age world. I laughed. Then I thought about it. And honestly? "Aliens" is not a worse theory than some of the ones historians have published. Earthquakes, drought, invaders, rebellions, trade collapse — every decade, the favorite theory changes. That is what makes this mystery so alive: the evidence keeps coming, and the story keeps shifting. Now — if mysteries like this, where real history refuses to give you a simple answer, are your thing — hit subscribe to InkTime. One video a week that makes you rethink the past. And stay with me — because what happened AFTER the collapse is just as shocking as the collapse itself...
+
+VISUAL PLAN: IMAGE 6 — framework header "NO SIMPLE ANSWER" + bullets: my student's alien theory; theories keep changing; evidence keeps coming. Overlay text: "SUBSCRIBE!" (3 seconds).
+
+=== BEAT 7 ===
+NARRATION:
+Here is what "collapse" actually looked like, and it is worse than you imagine. This was not a slow decline. Archaeologists find a layer of ash and burned rubble — a destruction layer — at site after site, all from the same generation. The Hittite capital, Hattusa, was burned and abandoned — never rebuilt. The Mycenaean palaces of Greece — Pylos, Mycenae, Tiryns — burned with their storerooms full. And then something chilling: the Greeks forgot how to write. Their script, Linear B, simply vanished. For four hundred years, Greece produced almost no written records at all. ~ Think about that for a second. An entire civilization that FORGOT HOW TO READ AND WRITE. The palaces were gone. The scribes were gone. The knowledge was gone. That is not a recession. That is a civilizational hard reset.
+
+VISUAL PLAN: IMAGE 7 — framework header "A CIVILIZATIONAL HARD RESET" + bullets: destruction layers, same generation; Hattusa burned, never rebuilt; Linear B lost — writing gone 400 years.
+
+=== BEAT 8 ===
+NARRATION:
+But here is the twist nobody expects: from the ashes came the world we live in. Greece entered a dark age that lasted centuries — but Egypt survived, wounded, never again the superpower it was. And the real winners? The survivors on the margins. The Phoenicians — master sailors from the Levantine coast — built a new trading world. And something even bigger changed: iron. Bronze needed tin from far away. Iron ore? It is practically everywhere. Iron tools and weapons were cheaper, and anyone could make them. Robert Drews and other historians argue this democratized warfare — and power — forever. The Bronze Age elite needed a global trade network to keep their bronze monopoly. Iron broke the monopoly. The collapse did not just destroy a world — it accidentally invented a new one.
+
+VISUAL PLAN: IMAGE 8 — framework header "FROM ASHES: THE IRON AGE" + bullets: Phoenicians rise from the margins; iron ore everywhere — no tin needed; bronze monopoly broken forever.
+
+=== BEAT 9 ===
+NARRATION:
+So why should YOU care about something that happened three thousand years ago? Because our world looks EXACTLY like the Late Bronze Age. Think about it: our entire civilization runs on global supply chains. Computer chips from one island. Rare earth metals from a handful of mines. One broken link — a pandemic, a war, a drought — and whole industries stop. Cline himself has said the parallels are uncomfortable. What fascinates me about this is the real lesson: the Bronze Age did not fall to one great enemy. It fell because it was TOO connected, TOO specialized, TOO dependent on a system nobody could control. Complexity was its superpower — and its fatal flaw. The palaces did not see it coming. The question is: would we?
+
+VISUAL PLAN: IMAGE 9 — framework header "ARE WE THE BRONZE AGE?" + bullets: chips, rare earths — one broken link; Cline: the parallels are uncomfortable; complexity = superpower and fatal flaw.
+
+=== BEAT 10 (CLOSING) ===
+NARRATION:
+Three thousand years later, the mystery is still open. New DNA studies, new excavations, new climate data — every year, the picture shifts a little. Maybe it really was the Sea Peoples. Maybe it was the drought. Maybe — most likely — it was everything, all at once. The Bronze Age Collapse reminds us that civilization is not a one-way road. It can go backward. It HAS gone backward. If this story gave you chills, subscribe to InkTime — and tell me in the comments: what is YOUR theory? Invaders, climate, or the perfect storm? And next, watch our video on the year five thirty-six — when the sun went dark and the world nearly ended AGAIN. History rhymes. See you there.
+
+VISUAL PLAN: IMAGE 10 — framework header "HISTORY CAN GO BACKWARD" + bullets: the mystery is still open; civilization is not a one-way road; YOUR theory? comment below.

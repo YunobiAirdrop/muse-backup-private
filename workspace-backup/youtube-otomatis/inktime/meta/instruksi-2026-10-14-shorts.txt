@@ -1,0 +1,52 @@
+INSTRUKSI UPLOAD — InkTime (@InkTime-d3t) — 3 SHORTS
+Tanggal produksi: 2026-10-14 | Slot: Terjadwal BESOK 2026-10-15 07:00 WIB (= 2026-10-14 19:00 US Eastern, prime time USA)
+Sumber: potongan long 2026-10-13 "The Bronze Age Collapse: History's Greatest Mystery"
+
+=== 0. VERIFIKASI CHANNEL DULU (WAJIB, SEBELUM UPLOAD) ===
+- Buka YouTube Studio. PASTIKAN channel aktif = "InkTime".
+- Verifikasi via CHANNEL ID (bukan cuma nama!): URL Studio HARUS mengandung
+  UCoZl5OaqjXSVkE4S96RY8_g
+  Contoh: https://studio.youtube.com/channel/UCoZl5OaqjXSVkE4S96RY8_g
+- Kalau ID tidak cocok -> JANGAN upload, hentikan dan laporkan.
+- PENTING: sesi browser sudah login & persisten (terverifikasi 13 Okt).
+  JANGAN login ulang / JANGAN ubah setelan akun apa pun. Kalau ketemu halaman
+  login Google -> BERHENTI, laporkan (jangan isi password).
+
+=== 1. ATURAN TIAP UPLOAD ===
+- Upload sebagai TIDAK PUBLIK (Unlisted) dulu, rapikan metadata, baru ubah ke "Terjadwal" 2026-10-15 07:00 WIB.
+- AI DISCLOSURE: WAJIB centang "Altered content" (Yes, content is altered/AI-generated).
+- JANGAN set "made for kids".
+- KOMENTAR WAJIB ON: Details -> Show more -> Comments -> set EKSPLISIT "Allow all comments" (jangan andalkan default).
+- Izinkan embedding: YA. Lisensi: Standard YouTube.
+- Bahasa video: English. Kategori: Education.
+- Masukkan ke playlist "Ancient History" (buat bila belum ada).
+- Thumbnail kustom: upload bila YouTube mengizinkan (channel belum verifikasi HP — bila ditolak, lewati & catat, JANGAN lakukan verifikasi HP).
+
+=== SHORTS 1 ===
+File: /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-14-s1.mp4 (38.4 dtk, 720x1280)
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-14-s1.jpg
+Judul (persis, hashtag di akhir judul ditutup #foryou):
+The Entire Civilized World Collapsed in 50 Years #shorts #history #explainer #foryou
+Deskripsi (tanpa hashtag):
+Around 1200 BC, every great kingdom of the ancient world — Mycenae, the Hittites, Ugarit, and more — burned, was abandoned, or fell within about fifty years. And historians STILL do not know exactly who did it. Invaders? Drought? A systems collapse? Comment your theory. Full story in the long video "The Bronze Age Collapse: History's Greatest Mystery" on the InkTime channel. Sources: Cline, E.H. (2014) 1177 BC: The Year Civilization Collapsed, Princeton University Press; Drews, R. (1993) The End of the Bronze Age, Princeton University Press.
+
+=== SHORTS 2 ===
+File: /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-14-s2.mp4 (58.0 dtk, 720x1280)
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-14-s2.jpg
+Judul (persis):
+The Last Letters of a Burning City #shorts #history #explainer #foryou
+Deskripsi (tanpa hashtag):
+The richest trading port of the Bronze Age, Ugarit, was destroyed around 1190 BC and never rebuilt. In its ruins, archaeologists found the city's clay tablets — and some were UNFIRED. The scribes were still writing when the city started burning. The last words of a civilization, baked into clay by the very fire that destroyed it. Full story in the long video on the InkTime channel. Sources: Cline, E.H. (2014) 1177 BC, Princeton University Press; Ugarit (Ras Shamra) archives, Syrian coastal excavations.
+
+=== SHORTS 3 ===
+File: /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-14-s3.mp4 (46.2 dtk, 720x1280)
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-14-s3.jpg
+Judul (persis):
+An Entire Civilization Forgot How to Write #shorts #history #explainer #foryou
+Deskripsi (tanpa hashtag):
+After the Bronze Age Collapse, Greece forgot how to write. Their script, Linear B, simply vanished — and for nearly four hundred years, Greece produced almost no written records at all. The palaces were gone. The scribes were gone. The knowledge was gone. Civilization is not a one-way road — it HAS gone backward. Full story in the long video on the InkTime channel. Sources: Cline, E.H. (2014) 1177 BC, Princeton University Press; Ventris, M. & Chadwick, J. (1973) Documents in Mycenaean Greek, Cambridge University Press.
+
+=== CATATAN ===
+- CTA: overlay teks "SUBSCRIBE!" 3 detik terakhir di tiap shorts (sudah terbakar di video) + teks hook 4 detik pertama.
+- Subtitle/caption: teks on-screen mengikuti narasi sudah terbakar dari long asalnya.
+- Bila kena "Batas upload harian telah tercapai": BERHENTI, jangan retry — tulis antrean JSON ke retry-queue/inktime-2026-10-14.json (format README.md), slot_target 2026-10-16 07:00 WIB.

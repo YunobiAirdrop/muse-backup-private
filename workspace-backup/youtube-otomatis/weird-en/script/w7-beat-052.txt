@@ -1,0 +1,1 @@
+BEAT-052: It creates tiny bubbles that collapse with an EXPLOSION.

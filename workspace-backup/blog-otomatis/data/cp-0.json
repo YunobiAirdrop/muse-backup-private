@@ -1,0 +1,22 @@
+[
+ {
+  "judul": "...",
+  "slug": "...",
+  "meta_deskripsi": "...",
+  "label": [
+   "...",
+   "..."
+  ],
+  "artikel_html": "<p>...</p><h2>...</h2><p>...</p>...<p>Sumber: CNBC-Market</p>",
+  "varian_judul": [
+   "...",
+   "...",
+   "..."
+  ],
+  "faq_html": "<h2>Pertanyaan Umum</h2><p><strong>Q1?</strong><br>Jawaban...</p>...",
+  "alt_gambar": "...",
+  "link_sumber": "https://www.cnbcindonesia.com/market/20261002115925-19-772829/video-as-perkuat-pasukan-di-timur-tengah-harga-emas-naik-tipis",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "gambar": "https://awsimages.detik.net.id/visual/2026/10/02/as-mau-tambah-pasukan-di-timur-tengah-harga-minyak-stabil-harga-emas-naik-tipis-1790917312128_169.png?w=1200&q=90"
+ }
+]

@@ -1,0 +1,8 @@
+{
+  "channel": "inktime",
+  "video_path": "/home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-14-s1.mp4",
+  "instruksi_path": "/home/hatch/workspace/youtube-otomatis/inktime/meta/instruksi-2026-10-14-shorts.txt",
+  "slot_target": "2026-10-16 07:00 WIB",
+  "gagal_pada": "2026-10-14T16:26:00+07:00",
+  "sebab": "Upload browser gagal 2x BUKAN limit harian — infra runtime: broker upload spool has insufficient live capacity (file tidak pernah mencapai YouTube, tidak ada video dibuat, channel terverifikasi benar UCoZl5OaqjXSVkE4S96RY8_g)"
+}

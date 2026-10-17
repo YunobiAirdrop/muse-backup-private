@@ -1,0 +1,81 @@
+channels:
+  empires-en:
+    handle: '@AncientEmpiresTV'
+    channel_id: UCd2wADmj47v3XCPcCpk-fSg
+    workspace: youtube-otomatis/empires-en
+  history-en:
+    handle: '@EchoesOfThePast-e9m'
+    channel_id: UCCBGIbsfMo2TmyhbUzHxD0A
+    workspace: youtube-otomatis/history-en
+  horor:
+    handle: '@KisahPOV'
+    channel_id: UCUEHu-nQXxGuru5Bviy4DKQ
+    workspace: youtube-otomatis/horor
+  horror-en:
+    handle: '@TalesOfDreadTV'
+    channel_id: UCR7uhocCg9YZM7-Qoi1sVGA
+    workspace: youtube-otomatis/horror-en
+  jejakbuddha:
+    handle: '@JejakBuddha'
+    channel_id: UC1PNEzhOmAH08p75vwp7n0A
+    workspace: jejak-buddha
+  jejakislami:
+    handle: '@JejakIslami-h3d'
+    channel_id: UC81zPJnIJbKU5lhTKx-6Hyg
+    workspace: kisah-islami
+  kisahalkitab:
+    handle: '@KisahAlkitab-k9j'
+    channel_id: UCGCXDPx3vSHTUOkNiuLezdw
+    workspace: kisah-alkitab
+  kisahdharma:
+    handle: '@KisahDharma'
+    channel_id: UCAhInkFRxF3xkxW8kgFOrJA
+    workspace: kisah-dharma
+  lima-misteri:
+    handle: '@LimaMisteri'
+    channel_id: UCQ0vHTsTqVeYy3zLno6pVfQ
+    workspace: lima-misteri
+  mind-en:
+    handle: '@TheDarkMindFiles-s6i'
+    channel_id: UCAnSrJzQuePS1MJhfwlRJuQ
+    workspace: youtube-otomatis/mind-en
+  mystery-en:
+    handle: '@MysteryShadowsTV'
+    channel_id: UCjxESFWyFPOkGTSpajK69Lw
+    workspace: youtube-otomatis/mystery-en
+  space-en:
+    handle: '@CosmosUnknownTV'
+    channel_id: UCQnUeh4-2AKgCsV_cjgUv4w
+    workspace: youtube-otomatis/space-en
+  strangetales:
+    handle: '@StrangeTales-g6n'
+    channel_id: UCAVSqZjG8Af_pm_1uD5wRzA
+    workspace: youtube-otomatis/strange-tales
+  tinybuilders:
+    handle: '@tinybuilders-d5z'
+    channel_id: UCjy7bWJU5gULDIYjPmTg9xg
+    workspace: miniatur-ai
+  inktime:
+    handle: '@InkTime-d3t'
+    channel_id: UCoZl5OaqjXSVkE4S96RY8_g
+    workspace: youtube-otomatis/inktime
+  macammacam:
+    handle: '@MacamMacamID'
+    channel_id: UC5ld2qCo0wKeuRKCA1-dbow
+    workspace: youtube-otomatis/macammacam
+  truecrime-en:
+    handle: '@TrueCaseFilesTV'
+    channel_id: UC2df1xY_WqWdX33oLqeXE2w
+    workspace: youtube-otomatis/truecrime-en
+  weird-en:
+    handle: '@BizarreWorldDaily'
+    channel_id: UCJ6KqdYvVJ-PaxhGLfTFVhA
+    workspace: youtube-otomatis/weird-en
+  youtube-pov:
+    handle: '@ceritarakyat862'
+    channel_id: UC1c8WpKGhFKpUOp5AqVueEg
+    workspace: youtube-otomatis/youtube-pov
+  fakta-bola-dunia:
+    handle: '@FaktaBolaDuniaID'
+    channel_id: UCU9QUVkWqqjnEFtrj6QACDA
+    workspace: fakta-bola-dunia

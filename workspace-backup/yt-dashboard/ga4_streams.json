@@ -1,0 +1,56 @@
+{
+ "property": "properties/559144316",
+ "account": "accounts/410404756",
+ "streams": {
+  "KabarViral": {
+   "measurement_id": "G-3L1FDNPG0G",
+   "url": "https://kabarviralterkiniterbaru.blogspot.com",
+   "stream": "properties/559144316/dataStreams/16135736812"
+  },
+  "TeknoPedia": {
+   "measurement_id": "G-C35LS33DZJ",
+   "url": "https://teknopedia-terbaru-dotcom.blogspot.com",
+   "stream": "properties/559144316/dataStreams/16135751203"
+  },
+  "InfoKesehatan": {
+   "measurement_id": "G-6L1C5ECJ6W",
+   "url": "https://infokesehatan-hari-ini.blogspot.com",
+   "stream": "properties/559144316/dataStreams/16135649965"
+  },
+  "EkonomiBisnis": {
+   "measurement_id": "G-D8N77WKK82",
+   "url": "https://ekonomi-bisnis-info-terbaru.blogspot.com",
+   "stream": "properties/559144316/dataStreams/16135736817"
+  },
+  "GayaHidup": {
+   "measurement_id": "G-K8N1MPD8E2",
+   "url": "https://gaya-hidup-kekikinan.blogspot.com",
+   "stream": "properties/559144316/dataStreams/16135489615"
+  },
+  "Olahraga": {
+   "measurement_id": "G-YD8N8P4SY5",
+   "url": "https://olahraga-terbaru-terbaik.blogspot.com",
+   "stream": "properties/559144316/dataStreams/16135722037"
+  },
+  "WisataIndo": {
+   "measurement_id": "G-6YN9NJ0D6T",
+   "url": "https://wisataindo-terbaru.blogspot.com",
+   "stream": "properties/559144316/dataStreams/16135678261"
+  },
+  "KulinerNusantara": {
+   "measurement_id": "G-55CYPJQP93",
+   "url": "https://kulinernusantara-terbaru.blogspot.com",
+   "stream": "properties/559144316/dataStreams/16135453263"
+  },
+  "OtomotifInfo": {
+   "measurement_id": "G-5SGTYL9C7T",
+   "url": "https://otomotifinfo-terbaru.blogspot.com",
+   "stream": "properties/559144316/dataStreams/16135758235"
+  },
+  "PendidikanCerdas": {
+   "measurement_id": "G-QV95J1LQWW",
+   "url": "https://pendidikancerdas-terbaru.blogspot.com",
+   "stream": "properties/559144316/dataStreams/16135699149"
+  }
+ }
+}

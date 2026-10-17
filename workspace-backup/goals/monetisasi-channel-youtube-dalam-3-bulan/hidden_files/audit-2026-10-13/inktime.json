@@ -1,0 +1,31 @@
+{
+ "slug": "inktime",
+ "handle": "@InkTime-d3t",
+ "date": "2026-10-13",
+ "analytics": {
+  "error": "analytics gagal: Belum ada token untuk 'inktime'. Jalankan: python auth.py auth-url inktime\n"
+ },
+ "enrich": {
+  "channel_id": "UCoZl5OaqjXSVkE4S96RY8_g",
+  "stats": {
+   "viewCount": "0",
+   "subscriberCount": "0",
+   "hiddenSubscriberCount": false,
+   "videoCount": "3"
+  },
+  "reader": "lima-misteri"
+ },
+ "playlists": [
+  {
+   "id": "PLF-VatuYuLr8",
+   "title": "Medieval History",
+   "count": 3
+  }
+ ],
+ "videos_in_playlists": [
+  "TT5gHE7IY94",
+  "WeDqUVTygCA",
+  "rQ5sEi_id-I"
+ ],
+ "videos_no_playlist": []
+}

@@ -1,0 +1,32 @@
+# INSTRUKSI UPLOAD — Tiny Builders Shorts (Dola AI)
+Tanggal gagal: 2026-10-10 18:10 WIB
+Sebab: Batas upload harian YouTube tercapai (channel Tiny Builders)
+
+## File video
+/home/hatch/workspace/miniatur-ai/dola-shorts-2026-10-10.mp4
+(720x1280 vertikal 9:16, 30 dtk, watermark Dola AI sudah dihapus, film grain ditambahkan)
+
+## Channel
+Tiny Builders (@tinybuilders-d5z, UCjy7bWJU5gULDIYjPmTg9xg)
+
+## Judul
+Tiny Workers Pour a PERFECT Concrete Foundation! #shorts #miniature #diy
+
+## Deskripsi
+Watch these tiny construction workers pour a flawless concrete foundation for their miniature build. Every detail is perfect down to the last drop!
+
+Full build on Tiny Builders
+
+## Tag
+miniature, diy miniature, tiny build, shorts, concrete, construction
+
+## Setting
+- Audiens: BUKAN untuk anak-anak
+- AI disclosure ("Konten yang diubah"): YA (video dibuat dengan bantuan AI)
+- Visibilitas: Terjadwal → 2026-10-11 21:00 WIB (Asia/Jakarta)
+
+## Catatan
+Upload pertama via browser task 2026-10-10 18:10 WIB terblokir batas harian
+di dialog upload (tombol "Berikutnya" tidak tersedia). Lanjutkan dari dialog
+upload: pilih file → isi judul/deskripsi → audiens → AI disclosure YA →
+Terjadwal 2026-10-11 21:00 WIB → berhenti di layar tinjauan untuk persetujuan user.

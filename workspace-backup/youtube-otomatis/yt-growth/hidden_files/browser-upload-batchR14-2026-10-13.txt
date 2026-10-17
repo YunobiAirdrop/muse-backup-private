@@ -1,0 +1,45 @@
+TUGAS: Upload 1 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Kerjakan BERURUTAN. Nama file UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 40 ===
+FILE: 40-kisahdharma-kisah-dharma-2026-10-10-long-small.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Shinta Diculik Rahwana! Ini Kisah Lengkapnya
+DESKRIPSI: Penculikan Shinta adalah salah satu episode paling menggetarkan dalam Ramayana. Bagaimana Rahwana menipu dengan kijang kencana, bagaimana Jatayu yang renta berani melawannya sampai titik darah penghabisan, dan bagaimana Rama memakamkan sang burung pahlawan dengan tangannya sendiri — semua saya ceritakan dengan takzim di video ini. 
+  
+ Kisah ini saya bawakan dari Aranyakanda, kitab Ramayana, dengan penuh hormat pada tradisi Hindu. Bagian Jatayu selalu membuat saya merinding — seekor burung tua yang berani berdiri melawan kezaliman demi dharma. 
+  
+ Bagian mana yang paling menyentuh hatimu? Tulis di komentar ya — saya baca semua komentar. 
+  
+ 00:00 Jeritan di Hutan Dandaka 
+ 00:53 Kedamaian Sebelum Badai 
+ 01:43 Kijang Kencana yang Misterius 
+ 02:51 Tipu Daya Marica 
+ 04:10 Rahwana Menyamar 
+ 05:30 Refleksi: Keberanian Shinta 
+ 06:10 Jatayu Melawan Rahwana 
+ 07:37 Jejak Perhiasan Shinta 
+ 08:28 Rama Menemukan Jatayu 
+ 09:44 Hikmah: Dharma di Atas Segalanya 
+  
+ Kalau kamu suka kisah dharma seperti ini, subscribe channel Kisah Dharma dan aktifkan loncengnya biar nggak ketinggalan episode berikutnya. 
+  
+ Tonton episode sebelumnya: Rama Menolak Takhta — kisah pengasingan Rama ke hutan. 
+  
+ #ramayana #hindu #kisahdharma #shinta #rahwana #ceritarakyat #mitologi
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+THUMB: 40-kisahdharma-thumb.jpg
+
+LAPORAN AKHIR: tiap nomor 1-40 -> SUKSES + URL, atau GAGAL + alasan singkat.
+
+LAPORAN AKHIR: tiap nomor -> SUKSES + URL, atau GAGAL + alasan singkat.

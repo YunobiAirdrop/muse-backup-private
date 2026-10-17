@@ -1,0 +1,59 @@
+[
+ {
+  "tanggal": "2026-10-05",
+  "topik": "The Fall of Constantinople 1453",
+  "kategori": "World History",
+  "status": "produksi"
+ },
+ {
+  "tanggal": "2026-10-06",
+  "topik": "Pompeii 79 AD: The Day Vesuvius Buried a Living City",
+  "kategori": "World History",
+  "status": "produksi"
+ },
+ {
+  "tanggal": "2026-10-07",
+  "topik": "Mount Tambora 1815: The Year Without a Summer",
+  "kategori": "World History",
+  "status": "produksi-selesai; UPLOAD GAGAL 2026-10-08 16:57 WIB: batas upload harian YouTube; masuk antrean retry-queue/history-en-2026-10-08.json (watchdog 20:00 WIB); SHORTS(3) GAGAL upload 2026-10-09 16:28 WIB: batas upload harian YouTube; masuk antrean retry-queue/history-en-2026-10-09-s{1,2,3}.json (watchdog 20:00 WIB 10 Okt, slot target 11 Okt 07:00 WIB)"
+ },
+ {
+  "tanggal": "2026-10-09",
+  "topik": "The Fall of Tenochtitlan 1521: The Last Days of the Aztec Empire",
+  "kategori": "World History",
+  "status": "UPLOAD BERHASIL 2026-10-10 ~16:56 WIB: https://youtu.be/0ZWVx_sDQRk (9:58, copyright check bersih), channel terverifikasi BENAR Echoes of History Channel (UCCBGIbsfMo2TmyhbUzHxD0A); AI disclosure Ya; Terjadwal 2026-10-11 07:00 WIB — klik Schedule final MENUNGGU ketukan persetujuan user 20:00-22:00 WIB. PENGECUALIAN: thumbnail kustom DITOLAK YouTube (butuh verifikasi nomor HP) — video pakai thumbnail otomatis. Koreksi: dialog upload pertama ternyata SUDAH di channel benar (draft-nya ditemukan & dihapus permanen dari Content list); URL mczHnrTxQWE SUDAH DIHAPUS, URL aktif = 0ZWVx_sDQRk.",
+  "video_url": "https://youtu.be/0ZWVx_sDQRk"
+ },
+ {
+  "tanggal": "2026-10-11",
+  "topik": "The Black Death 1347-1353: The Plague That Remade Europe",
+  "kategori": "World History",
+  "status": "produksi selesai 2026-10-12 (rescue run); siap upload long 2026-10-12, tayang 2026-10-13 07:00 WIB; shorts 3 siap untuk upload 2026-10-13"
+ },
+ {
+  "tanggal": "2026-10-13",
+  "topik": "Titanic 1912 — The Ship That Couldn't Sink… Until It Did",
+  "kategori": "World History",
+  "status": "UPLOAD BERHASIL via API 2026-10-13 ~19:27 WIB: https://youtu.be/0vmkyep-JnE (605.93 dtk, 1280x720); private + publishAt 2026-10-14 07:00 WIB; channel terverifikasi via API (UCCBGIbsfMo2TmyhbUzHxD0A); thumbnail kustom DITOLAK 403 (belum verifikasi HP) -> thumbnail otomatis; AI disclosure + pinned comment + end screen + cards via browser task Studio (menyusul)",
+  "video_url": "https://youtu.be/0vmkyep-JnE"
+ },
+ {
+  "tanggal": "2026-10-15",
+  "topik": "D-Day 1944: The Longest Day That Changed the World",
+  "kategori": "World History",
+  "status": "produksi selesai 2026-10-15; siap upload long (video/2026-10-15.mp4, 599.1s); shorts 3 siap untuk upload besok (shorts/2026-10-15-s1/s2/s3.mp4)"
+ },
+ {
+  "tanggal": "2026-10-15",
+  "topik": "D-Day 1944 — The Longest Day That Changed the World",
+  "kategori": "World History",
+  "status": "produksi selesai 2026-10-15; siap upload long; shorts siap untuk besok"
+ },
+ {
+  "tanggal": "2026-10-17",
+  "topik": "D-Day 1944 - 3 shorts (s1/s2/s3 dari long 2026-10-15)",
+  "kategori": "World History",
+  "status": "UPLOAD BERHASIL via API 2026-10-17 ~10:10 WIB: s1 KjhNfeUDgIA, s2 8AGtu8ZpZxY, s3 ZnRBZex_avc; Terjadwal 2026-10-18 07:00 WIB; channel terverifikasi UCCBGIbsfMo2TmyhbUzHxD0A. TERTUNDA: AI disclosure + komentar ON (browser Studio macet, wajib manual).",
+  "video_url": "https://youtu.be/KjhNfeUDgIA"
+ }
+]

@@ -1,0 +1,28 @@
+{
+ "channel": "Kisah Horor",
+ "channel_id": "UCUEHu-nQXxGuru5Bviy4DKQ",
+ "metode": "YouTube Data API v3",
+ "terjadwal": "2026-10-13 19:00 WIB",
+ "ai_disclosure": "manual via browser task (pending)",
+ "long_ref": "https://youtu.be/U6F-BbZ1Lns",
+ "shorts": [
+  {
+   "file": "/home/hatch/workspace/horor-otomatis/shorts/2026-10-10-s1.mp4",
+   "title": "Namaku Ada di Daftar Korban 2004! | Suster Ngesot #shorts #horor #ceritahoror #foryou",
+   "id": "m42ntYlIGSs",
+   "url": "https://youtube.com/shorts/m42ntYlIGSs"
+  },
+  {
+   "file": "/home/hatch/workspace/horor-otomatis/shorts/2026-10-10-s2.mp4",
+   "title": "Hantu Itu Selamatkan Pasienku! | Suster Ngesot #shorts #horor #ceritahoror #foryou",
+   "id": "-TgaQlLOdv8",
+   "url": "https://youtube.com/shorts/-TgaQlLOdv8"
+  },
+  {
+   "file": "/home/hatch/workspace/horor-otomatis/shorts/2026-10-10-s3.mp4",
+   "title": "Gantian Kamu Jaga Shift! Kata Suster Itu | Suster Ngesot #shorts #horor #ceritahoror #foryou",
+   "id": "vVdcMjV6MDs",
+   "url": "https://youtube.com/shorts/vVdcMjV6MDs"
+  }
+ ]
+}

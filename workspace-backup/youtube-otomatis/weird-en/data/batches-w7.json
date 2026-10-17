@@ -1,0 +1,804 @@
+{
+ "0": [
+  {
+   "num": "001",
+   "tts": "Stop scrolling. There is an animal right now that can survive OUTER SPACE.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a tiny cute tardigrade water bear floating in outer space among stars, astronaut-free. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "002",
+   "tts": "No suit. No helmet. No spacecraft. Just\u2026 chilling. In the vacuum of space.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a tardigrade water bear clinging to the outside of a satellite, stars behind. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "003",
+   "tts": "And that is only ONE of seven real animals with ACTUAL superpowers.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, lineup of seven animals with glowing outlines: tardigrade, jellyfish, mantis shrimp, axolotl, platypus, pistol shrimp, naked mole rat. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "004",
+   "tts": "Wait \u2014 one of them literally cannot DIE of old age.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a tardigrade water bear in a superhero cape flying through space toward Earth. No text, no watermark.",
+   "overlay": "SURVIVED OUTER SPACE"
+  },
+  {
+   "num": "005",
+   "tts": "Another one punches harder than a BULLET.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a mantis shrimp throwing a powerful punch with motion lines and shockwave. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "006",
+   "tts": "And one more regrows its own HEART.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an axolotl with a glowing pink heart regrowing inside its chest. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "007",
+   "tts": "These are not comic book heroes. These are REAL. And they are WILD.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, comic book panel collage of real animals drawn like superheroes. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "008",
+   "tts": "Let's meet the real superheroes of planet Earth.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, planet Earth with the seven animals orbiting it like heroes. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "009",
+   "tts": "Every single fact in this video is real. Checked by actual science.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a scientist stamping each animal fact with a big CHECKED seal. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "010",
+   "tts": "And trust me \u2014 the LAST animal is the weirdest one of all.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a mysterious dark silhouette of the seventh animal with question marks. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "011",
+   "tts": "CHAPTER ONE: INVINCIBLE.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a chubby tardigrade water bear standing like a hero with dramatic light behind it. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "012",
+   "tts": "Meet the tardigrade \u2014 also called the water bear.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a cute cartoon water bear tardigrade waving hello under a microscope view. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "013",
+   "tts": "It is smaller than a grain of sand. You have probably never even seen one.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a tiny tardigrade next to grains of sand and a ruler for scale. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "014",
+   "tts": "But this microscopic marshmallow is basically indestructible.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a tardigrade flexing cartoon muscles, sparkles around it. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "015",
+   "tts": "In two thousand and seven, scientists glued three thousand of them OUTSIDE a spacecraft.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, scientists gluing tiny tardigrades onto the outer hull of a spacecraft. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "016",
+   "tts": "They spent ten days in the open vacuum of space. No air. Blazing radiation.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, tardigrades exposed to open space vacuum with sun radiation beams hitting them. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "017",
+   "tts": "When they came home\u2026 sixty-eight percent were STILL ALIVE.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a scientist looking through a microscope at moving tardigrades, surprised. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "018",
+   "tts": "Wait, WHAT?! They laid healthy eggs after that. AFTER SPACE!",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, baby tardigrades hatching from eggs with a shocked funny cartoon expression. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "019",
+   "tts": "How? They curl into a tiny dry ball called a tun.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a tardigrade curling its legs into a dry round tun ball, diagram style. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "020",
+   "tts": "They shut their body down to point zero one percent.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a gauge dial dropping to almost zero next to a sleeping tardigrade. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "021",
+   "tts": "And they can stay like that for DECADES. One woke up after a hundred years in dried moss.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, old dried moss with a tardigrade waking up after a century. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "022",
+   "tts": "Scientists say tardigrades could outlive\u2026 the SUN. The actual sun.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a tardigrade standing calmly while the sun explodes behind it. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "023",
+   "tts": "They survived radiation levels that would melt electronics.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a tardigrade surviving a blast of cosmic radiation unharmed. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "024",
+   "tts": "Some even crashed onto the MOON in two thousand nineteen. They might still be there.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, tiny tardigrades scattered on the moon's surface near a crashed lander. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "025",
+   "tts": "They have been around for five hundred million years. Ultimate survivors.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a tardigrade walking past dinosaurs on a prehistoric timeline. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "026",
+   "tts": "CHAPTER TWO: IMMORTAL.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a glowing translucent jellyfish hovering like an immortal hero in moonlit water. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "027",
+   "tts": "This tiny jellyfish is called Turritopsis dohrnii.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a small transparent jellyfish with a bright red stomach, drifting. No text, no watermark.",
+   "overlay": null
+  }
+ ],
+ "1": [
+  {
+   "num": "028",
+   "tts": "It is smaller than your pinky nail. And it found the cheat code for death.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a tiny jellyfish next to a human pinky fingernail for scale. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "029",
+   "tts": "When it gets injured, starving, or just\u2026 old\u2026 it does the unthinkable.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an injured old jellyfish looking dramatic in dark water. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "030",
+   "tts": "It collapses into a blob. Sinks down. And RESTARTS ITS LIFE.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a jellyfish melting into a blob and sinking to the sea floor. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "031",
+   "tts": "Its adult cells turn back into baby cells. Scientists call it transdifferentiation.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, cells transforming backwards with reverse arrows, biology diagram style. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "032",
+   "tts": "It is like a butterfly turning back into a caterpillar.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a butterfly reversing mid-air back into a caterpillar, jellyfish glowing beside. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "033",
+   "tts": "Then it grows up all over again. Same jellyfish. New life.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a new polyp colony sprouting from the sea floor, fresh and glowing. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "034",
+   "tts": "In labs, one jellyfish reset ten times in two years. TEN.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a lab aquarium with a jellyfish life cycle repeating ten times, tally marks. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "035",
+   "tts": "In theory, it could live FOREVER.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an immortal jellyfish glowing like a divine being in deep blue water. No text, no watermark.",
+   "overlay": "BIOLOGICALLY IMMORTAL"
+  },
+  {
+   "num": "036",
+   "tts": "I had to read that twice\u2026 FOREVER. A tiny blob beat DEATH.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a jellyfish wearing a golden halo, angelic light. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "037",
+   "tts": "It can still be eaten. A predator can absolutely wreck it.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a fish predator eating a small jellyfish. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "038",
+   "tts": "But old age? Disease? It just hits the reset button and walks away.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a jellyfish pressing a giant red reset button underwater. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "039",
+   "tts": "Imagine restarting your life every time things go wrong.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a jellyfish daydreaming in a thought cloud about new beginnings. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "040",
+   "tts": "The trick lives in its genes \u2014 extra DNA repair and anti-aging toolkits.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, jellyfish DNA glowing with repair tools fixing broken strands. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "041",
+   "tts": "And it was discovered by ACCIDENT. In an aquarium. A century after it was found.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a surprised scientist discovering the jellyfish reset in an aquarium. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "042",
+   "tts": "One single jellyfish could outlive every empire, every civilization, ever.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a jellyfish floating over a timeline of rising and falling human empires. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "043",
+   "tts": "CHAPTER THREE: SUPER STRENGTH.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a colorful mantis shrimp standing like a boxer with glowing club arms. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "044",
+   "tts": "This four-inch shrimp is the ocean's heavyweight boxer.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a mantis shrimp wearing red boxing gloves in an underwater ring. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "045",
+   "tts": "Its punch moves at FIFTY miles per hour. Underwater.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a mantis shrimp punching with extreme speed lines underwater. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "046",
+   "tts": "The strike lands in under three MILLISECONDS.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a stopwatch showing milliseconds next to a striking mantis shrimp. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "047",
+   "tts": "That is a hundred times faster than you can blink.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a human eye blinking slowly next to a lightning-fast shrimp punch. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "048",
+   "tts": "The force? Over fifteen hundred newtons. Like a twenty-two caliber bullet.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a bullet and a mantis shrimp punch side by side, comparison chart. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "049",
+   "tts": "It can smash crab shells. Shatter clam shells. Even crack AQUARIUM GLASS.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a mantis shrimp punching a crack into an aquarium glass tank. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "050",
+   "tts": "And here is the crazy part \u2014 the punch isn't even the deadliest part.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a mantis shrimp punch releasing a visible shockwave underwater. No text, no watermark.",
+   "overlay": "50 MPH PUNCH"
+  },
+  {
+   "num": "051",
+   "tts": "The punch moves so fast it boils the water around it.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, water boiling and bubbling around a mantis shrimp's punch. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "052",
+   "tts": "It creates tiny bubbles that collapse with an EXPLOSION.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, cavitation bubbles collapsing in tiny explosions underwater. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "053",
+   "tts": "That collapse burns at forty-seven hundred degrees. Hot as the SUN'S SURFACE.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a fiery underwater explosion with the sun's surface shown for comparison. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "054",
+   "tts": "So the prey gets hit TWICE. The punch\u2026 and the shockwave.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a crab being hit twice by punch and shockwave, cartoon stars. No text, no watermark.",
+   "overlay": null
+  }
+ ],
+ "2": [
+  {
+   "num": "055",
+   "tts": "Even if the shrimp MISSES, the shockwave still stuns its dinner.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a mantis shrimp missing its punch but the prey still stunned by the wave. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "056",
+   "tts": "Okay, this one broke my brain. A shrimp. Making. EXPLOSIONS.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon brain exploding with a mantis shrimp grinning. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "057",
+   "tts": "Its clubs are built like bulletproof armor. Scientists study them for better body armor.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a mantis shrimp club shown as layered armor with scientists studying it. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "058",
+   "tts": "And get this \u2014 its EYES are an even bigger superpower.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an extreme close-up of mantis shrimp stalked eyes glowing. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "059",
+   "tts": "Sixteen color receptors. Humans have three. It sees colors we can't even imagine.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a rainbow explosion of impossible colors seen through mantis shrimp eyes. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "060",
+   "tts": "CHAPTER FOUR: REGENERATION.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an axolotl with a glowing newly regrown leg standing heroically. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "061",
+   "tts": "Meet the axolotl \u2014 a smiling Mexican salamander that never grows up.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a cute smiling pink axolotl in a Mexican lake with lily pads. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "062",
+   "tts": "And it has the most ridiculous healing power on Earth.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an axolotl with a bandage that is magically healing. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "063",
+   "tts": "Lose a leg? It grows back. Perfectly. Bone, nerves, five toes, no scar.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an axolotl leg regrowing step by step in stages. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "064",
+   "tts": "Lose its jaw? Grows back.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an axolotl jaw regenerating, close-up view. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "065",
+   "tts": "Part of its SPINE? Grows back.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an x-ray view of an axolotl spine regrowing. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "066",
+   "tts": "A chunk of its HEART? Yep. Grows back.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an axolotl heart rebuilding itself, glowing red. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "067",
+   "tts": "Even parts of its BRAIN. New neurons that actually WORK.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an axolotl brain with glowing new neurons firing. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "068",
+   "tts": "Scientists injured its brain, and the new neurons wired themselves right back in.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, neurons connecting like glowing cables inside an axolotl head. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "069",
+   "tts": "The tissue doesn't patch over with a scar. It REBUILDS. Like new.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, tiny construction workers rebuilding tissue inside an axolotl. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "070",
+   "tts": "It can do this its WHOLE LIFE. An old axolotl heals like a young one.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an old axolotl and a young axolotl both healing side by side. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "071",
+   "tts": "Humans form scars that block healing. This little guy just\u2026 doesn't.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a comparison of human scar tissue versus smooth axolotl healing. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "072",
+   "tts": "Scientists are studying it to unlock regeneration for US.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a scientist studying an axolotl in a bright laboratory. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "073",
+   "tts": "Sadly, it is nearly extinct in the wild. Fewer than a thousand remain.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a lonely axolotl in a shrinking canal near Mexico City. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "074",
+   "tts": "The Aztecs thought this little guy was a GOD.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an Aztec temple with a giant axolotl worshipped as a deity. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "075",
+   "tts": "It can even regrow parts of its EYES. Retina, lens, the works.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an axolotl eye regenerating its retina and lens. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "076",
+   "tts": "Scientists cut a young one's tail and spinal cord. Fifty days later \u2014 fully rebuilt.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an axolotl tail and spinal cord rebuilding over a fifty-day calendar. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "077",
+   "tts": "CHAPTER FIVE: SUPER SENSES.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a platypus standing heroically with its bill glowing electric blue. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "078",
+   "tts": "The platypus looks like someone mashed random animals together.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a funny collage showing duck bill, beaver tail, and otter feet combining into a platypus. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "079",
+   "tts": "Scientists in seventeen ninety-nine thought it was a FAKE. A prank.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a Victorian scientist examining a platypus specimen with a sewing kit nearby. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "080",
+   "tts": "A duck-billed, beaver-tailed, egg-laying\u2026 MAMMAL.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a platypus sitting next to its eggs in a burrow. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "081",
+   "tts": "Yes, it lays eggs. But feeds milk to its babies. Nature said why not both.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, platypus eggs next to baby platypuses drinking milk. No text, no watermark.",
+   "overlay": null
+  }
+ ],
+ "3": [
+  {
+   "num": "082",
+   "tts": "But its REAL superpower is in its bill.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, extreme close-up of a platypus bill with sensors. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "083",
+   "tts": "It hunts with its eyes CLOSED. Ears closed. Nose closed.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a platypus diving underwater with its eyes, ears, and nose shut. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "084",
+   "tts": "Because its bill senses ELECTRICITY.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a platypus bill detecting electric waves from hidden prey. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "085",
+   "tts": "Every muscle twitch of its prey makes tiny electric signals. The platypus FEELS them.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a small shrimp twitching with electric signals reaching the platypus bill. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "086",
+   "tts": "It hunts in the dark, blindfolded, and still catches dinner.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a platypus catching prey in dark water at night. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "087",
+   "tts": "AND the males have a venomous spur on their ankle. Ouch.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a close-up of a platypus hind leg spur injecting venom. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "088",
+   "tts": "The venom can't kill you, but the pain can last for MONTHS.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a person clutching their foot in pain next to a calendar showing months. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "089",
+   "tts": "So: electric sixth sense, venom, eggs, milk. Pick a lane, platypus!",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a platypus shrugging with a confused funny expression. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "090",
+   "tts": "One animal. Four superpowers. Australia wasn't playing around.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a platypus wearing a superhero cape on an Australian river. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "091",
+   "tts": "It has no nipples \u2014 babies drink milk that sweats from mom's skin.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a baby platypus lapping milk from its mother's belly fur. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "092",
+   "tts": "Mom lays one to three leathery eggs, then curls around them like a donut.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a mother platypus curled around her leathery eggs. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "093",
+   "tts": "And that venom spur? Mostly used against RIVAL males. Platypus drama.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, two male platypuses fighting with venom spurs during mating season. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "094",
+   "tts": "CHAPTER SIX: THE FASTEST WEAPON.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a pistol shrimp posing heroically with its giant glowing claw raised. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "095",
+   "tts": "This two-inch shrimp owns one of the loudest weapons in the ocean.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a tiny pistol shrimp with one oversized claw, dramatic lighting. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "096",
+   "tts": "Its claw snaps shut at sixty miles per hour. In just six hundred microseconds.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a pistol shrimp claw snapping shut with extreme speed lines. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "097",
+   "tts": "That snap fires a jet of water so fast it creates a\u2026 bubble.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a water jet shooting from the claw forming a cavitation bubble. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "098",
+   "tts": "But when that bubble COLLAPSES \u2014 oh boy.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a cavitation bubble collapsing with a massive underwater shockwave. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "099",
+   "tts": "The collapse hits EIGHT THOUSAND degrees Fahrenheit.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a thermometer exploding at eight thousand degrees Fahrenheit. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "100",
+   "tts": "Hotter than the surface of the SUN.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, the sun's surface compared with the tiny shrimp bubble temperature. No text, no watermark.",
+   "overlay": "HOTTER THAN THE SUN"
+  },
+  {
+   "num": "101",
+   "tts": "The bubble makes a flash of LIGHT. From pure violence.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an underwater flash of light from sonoluminescence. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "102",
+   "tts": "And a shockwave of two hundred and eighteen decibels. Louder than a GUNSHOT.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, sound wave ripples spreading underwater with a decibel meter maxing out. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "103",
+   "tts": "Small fish passing by? Stunned. Or straight-up done.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, small fish stunned floating near a snapping pistol shrimp. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "104",
+   "tts": "Colonies of these shrimps are SO loud, submarines used them to hide from SONAR.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a submarine hiding behind a noisy colony of pistol shrimp. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "105",
+   "tts": "In World War Two! Actual submarines. Hiding behind shrimp.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a World War Two submarine with pistol shrimp covering it. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "106",
+   "tts": "And the shrimp itself doesn't get burned. The heat vanishes in a blink.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a pistol shrimp unharmed as the heat dissipates around it. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "107",
+   "tts": "A two-inch animal carrying the power of a STAR.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a tiny shrimp holding a glowing miniature star. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "108",
+   "tts": "The snap fires a water jet at twenty-five meters per second.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a high-speed water jet blasting from the pistol shrimp claw. No text, no watermark.",
+   "overlay": null
+  }
+ ],
+ "4": [
+  {
+   "num": "109",
+   "tts": "Its claw is HALF its body length. Absurd proportions.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a pistol shrimp showing off its comically oversized claw. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "110",
+   "tts": "And the light flash? Scientists STILL can't fully explain it.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, scientists puzzled staring at the mysterious underwater light flash. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "111",
+   "tts": "CHAPTER SEVEN: PAIN-PROOF.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a naked mole rat standing heroically in an underground tunnel. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "112",
+   "tts": "The naked mole rat looks like a wrinkly sausage with teeth.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a wrinkly pink naked mole rat with big front teeth, funny look. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "113",
+   "tts": "But it is secretly one of the toughest animals alive.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a naked mole rat flexing tiny muscles underground. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "114",
+   "tts": "First: it can survive EIGHTEEN MINUTES with ZERO oxygen.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a naked mole rat inside an airtight chamber with a timer showing eighteen minutes. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "115",
+   "tts": "Its heart slows down. It goes still. Looks dead.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a naked mole rat lying perfectly still with a flat heart monitor line. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "116",
+   "tts": "Then oxygen comes back\u2026 and it just wakes up. Totally fine.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a naked mole rat waking up and stretching, all healthy. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "117",
+   "tts": "Its secret? It switches its body to run on FRUCTOSE. Like a plant.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, fructose sugar molecules fueling a naked mole rat's body. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "118",
+   "tts": "No other mammal on Earth can do that.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a naked mole rat holding a gold trophy labeled only mammal. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "119",
+   "tts": "Second: it basically cannot get CANCER.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a naked mole rat with a shield blocking attacking cancer cells. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "120",
+   "tts": "In forty years of lab studies, scientists found almost ZERO tumors.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a scientist's clipboard in a lab showing zero tumors found. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "121",
+   "tts": "Its cells just\u2026 refuse to pile up into tumors.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, cells neatly organized, refusing to form a tumor lump. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "122",
+   "tts": "Third: it feels NO pain from acid. Or chili peppers.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a naked mole rat splashed with acid and chili peppers, shrugging happily. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "123",
+   "tts": "It is missing the pain-signaling chemical in its skin.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a diagram showing pain nerve signals blocked in mole rat skin. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "124",
+   "tts": "A mouse lives two years. This guy lives THIRTY-SEVEN. Without aging badly.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a lifespan chart comparing a mouse at two years and a mole rat at thirty-seven. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "125",
+   "tts": "It is cold-blooded. The ONLY cold-blooded mammal on Earth.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a naked mole rat basking for warmth, thermometer beside it. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "126",
+   "tts": "It lives in giant underground colonies \u2014 like ants \u2014 with a single QUEEN.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, an underground colony of naked mole rats serving their queen. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "127",
+   "tts": "Its front teeth never stop growing. They can chew through CONCRETE.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a naked mole rat gnawing through a concrete wall with huge teeth. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "128",
+   "tts": "So\u2026 seven animals. Seven actual superpowers. No comic books needed.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, all seven animals together in a group photo like a superhero team. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "129",
+   "tts": "Which superpower would YOU pick? Tell me in the comments.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, the seven animals surrounded by question marks and a comment bubble. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "130",
+   "tts": "Subscribe for more real-world weirdness, and I'll see you tomorrow.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a big red subscribe button with the animals waving goodbye. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "131",
+   "tts": "Drop a comment with your pick \u2014 I read every single one.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, a YouTube comment section with viewers picking their favorite superpower. No text, no watermark.",
+   "overlay": null
+  },
+  {
+   "num": "132",
+   "tts": "Weird World Daily \u2014 where reality is stranger than fiction.",
+   "img": "Digital 2D storybook illustration, colorful, fun, 16:9, the Weird World Daily channel logo card with planet Earth. No text, no watermark.",
+   "overlay": null
+  }
+ ]
+}

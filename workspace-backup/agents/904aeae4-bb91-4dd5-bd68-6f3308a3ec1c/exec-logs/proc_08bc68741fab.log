@@ -1,0 +1,25 @@
+=== TRANSCODE kd-n01 ===
+[libx264 @ 0x62c07acc1cc0] kb/s:5473.16
+exit=0 size=9059996
+=== TRANSCODE kd-n02 ===
+[libx264 @ 0x593133e83580] kb/s:6071.00
+exit=0 size=42544578
+=== TRANSCODE kd-n03 ===
+[libx264 @ 0x59023e26fe80] kb/s:5101.31
+exit=0 size=19652925
+=== TRANSCODE kd-n04 ===
+[libx264 @ 0x56fed13f0f00] kb/s:1724.37
+exit=0 size=3463064
+=== TRANSCODE kd-n05 ===
+[libx264 @ 0x598727bef640] kb/s:1893.11
+exit=0 size=14158237
+=== TRANSCODE kd-n06 ===
+[libx264 @ 0x651592eb9cc0] kb/s:3810.59
+exit=0 size=8677310
+=== TRANSCODE kd-n07 ===
+[libx264 @ 0x5bac5a7f3d40] kb/s:3814.45
+exit=0 size=4152964
+=== TRANSCODE kd-n08 ===
+[libx264 @ 0x63c808388f00] kb/s:2849.49
+exit=0 size=1701102
+DONE

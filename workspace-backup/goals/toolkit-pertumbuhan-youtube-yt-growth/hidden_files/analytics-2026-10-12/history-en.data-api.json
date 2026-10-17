@@ -1,0 +1,75 @@
+{
+ "channel": "history-en",
+ "handle": "@EchoesOfThePast-e9m",
+ "channel_id": "UCCBGIbsfMo2TmyhbUzHxD0A",
+ "days": 28,
+ "source": "youtube_data_api_v3_fallback (Analytics API timeout)",
+ "channel_stats": {
+  "viewCount": "0",
+  "subscriberCount": "1",
+  "hiddenSubscriberCount": false,
+  "videoCount": "1"
+ },
+ "summary": {
+  "total_videos_fetched": 3,
+  "total_views_channel_lifetime": "0",
+  "subscriberCount": "1"
+ },
+ "videos": [
+  {
+   "video_id": "PFG-p8TNA4o",
+   "title": "Pompeii 79 AD: The Day Vesuvius Buried a Living City",
+   "published": "2026-10-08",
+   "description": "I have always been haunted by Pompeii, not by the volcano itself, but by the ordinary morning it destroyed. People were baking bread, planning weddings, and packing for voyages, never knowing the mountain above them was about to explode.\n\nThis is the dramatic true story of the eruption of Mount Vesuvius in 79 AD: the seventeen-year-old boy whose letters are our only eyewitness account, his heroic uncle who sailed into the ash cloud to save strangers, and the city that was frozen in time for near",
+   "tags": [
+    "pompeii 79 ad",
+    "vesuvius eruption",
+    "pliny the younger",
+    "ancient rome",
+    "roman empire",
+    "world history documentary",
+    "echoes of history"
+   ],
+   "views": 0,
+   "likes": 1,
+   "comments": 1,
+   "duration": "PT9M21S"
+  },
+  {
+   "video_id": "0ZWVx_sDQRk",
+   "title": "The Fall of Tenochtitlan: 93 Days That Ended an Empire",
+   "published": "2026-10-10",
+   "description": "How did 400 strangers bring down the greatest city the Americas had ever seen? This is the story of Tenochtitlan — and it has haunted me since I first stood where its temples once rose.\n\nIn 1519, Hernán Cortés marched into a floating metropolis of 200,000 people — bigger than London, richer than Seville. Within two years, it was starved, burned, and erased. This is the Night of Sorrows, the 93-day siege, the invisible killer that did what no army could, and the last emperor who refused to kneel.",
+   "tags": [
+    "fall of tenochtitlan",
+    "tenochtitlan 1521",
+    "aztec empire documentary",
+    "hernan cortes",
+    "la noche triste",
+    "cuauhtemoc last aztec emperor",
+    "moctezuma",
+    "93 day siege",
+    "spanish conquest of mexico",
+    "aztec history documentary",
+    "world history documentary",
+    "ancient civilizations",
+    "echoes of history"
+   ],
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "duration": "PT9M58S"
+  },
+  {
+   "video_id": "P8wVZLH-_8U",
+   "title": "The Greatest City on Earth Vanished in 93 Days #shorts #history #documentary",
+   "published": "2026-10-11",
+   "description": "On August 13, 1521, the largest city on the planet fell silent. Tenochtitlan — a floating metropolis of 300,000 souls — lay starved and broken. How did 400 strangers destroy the greatest empire the Americas had ever known?\n\nWatch the full story: https://youtu.be/0ZWVx_sDQRk",
+   "tags": [],
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "duration": "PT53S"
+  }
+ ]
+}

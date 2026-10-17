@@ -1,0 +1,19 @@
+{
+ "tanggal": "2026-10-04",
+ "blogs": [
+  "kabarviral",
+  "teknopedia",
+  "infokesehatan",
+  "ekonomibisnis",
+  "gayahidup",
+  "olahraga",
+  "wisata",
+  "kuliner",
+  "otomotif",
+  "pendidikan"
+ ],
+ "fetch_trending": "running",
+ "pipeline_selesai": [],
+ "browser_task_aktif": {},
+ "posting_selesai": []
+}

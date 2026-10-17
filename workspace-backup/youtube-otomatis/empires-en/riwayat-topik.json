@@ -1,0 +1,29 @@
+[
+  {
+    "status": "produksi",
+    "tanggal": "2026-10-05",
+    "topik": "Petra: The Lost Rose-Red City of the Nabataeans"
+  },
+  {
+    "status": "produksi",
+    "tanggal": "2026-10-06",
+    "topik": "Göbekli Tepe: The World's First Temple"
+  },
+  {
+    "status": "produksi",
+    "tanggal": "2026-10-08",
+    "topik": "The Fall of the Maya: What Really Happened"
+  },
+  {
+    "tanggal": "2026-10-10",
+    "topik": "Angkor Wat: The Megacity Swallowed by Jungle",
+    "status": "produksi"
+  },
+  {
+    "tanggal": "2026-10-11",
+    "topik": "Pompeii: The City Frozen in Time",
+    "status": "terupload",
+    "upload": "2026-10-15",
+    "video_id": "xN8si7OLEIc"
+  }
+]

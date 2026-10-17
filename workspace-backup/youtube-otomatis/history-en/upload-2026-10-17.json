@@ -1,0 +1,47 @@
+{
+ "ai_disclosure": "TERTUNDA: browser Studio macet (2x spawn gagal: profile ownership/route timeout pasca sesi rusak). API tidak mendukung Altered-content. Wajib dicentang manual di Studio sebelum/sesudah tayang 2026-10-18 07:00 WIB.",
+ "antidobel": "cek_duplikat.py history-en --judul (3x) -> AMAN semua (dicek 19 upload terakhir, tidak ada duplikat)",
+ "category": "Education",
+ "category_id": "27",
+ "channel_handle": "@EchoesOfThePast-e9m",
+ "channel_id": "UCCBGIbsfMo2TmyhbUzHxD0A",
+ "channel_name": "Echoes of History Channel",
+ "channel_terverifikasi": "API channels.list(mine=true) -> Echoes of History Channel UCCBGIbsfMo2TmyhbUzHxD0A BENAR (dicek di skrip upload)",
+ "comments": "TERTUNDA: sama seperti di atas (allow all via Studio, browser macet).",
+ "deskripsi_tanpa_hashtag": "ya (hashtag hanya di akhir judul, ditutup #foryou)",
+ "language": "en",
+ "made_for_kids": false,
+ "privacy": "private",
+ "publish_scheduled_wib": "2026-10-18 07:00 WIB",
+ "topic": "D-Day 1944 - 3 shorts dari long 2026-10-15 (run slot 2026-10-16 yang tidak jalan)",
+ "upload_method": "YouTube Data API v3 (yt-growth, slug history-en)",
+ "uploaded_at_wib": "2026-10-17T~10:10+0700",
+ "video_type": "shorts x3",
+ "videos": [
+  {
+   "deskripsi": "Ten thousand white crosses above the sea in Normandy. This is where the story of D-Day ends - and where our documentary begins. Full story on the channel.",
+   "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-15-s1.mp4",
+   "judul": "Ten Thousand Crosses: Where D-Day Ended #shorts #history #documentary #foryou",
+   "key": "s1",
+   "url": "https://youtu.be/KjhNfeUDgIA",
+   "video_id": "KjhNfeUDgIA"
+  },
+  {
+   "deskripsi": "Midnight, June 6, 1944: thirteen thousand paratroopers dropped into the dark over Normandy. Hours later, the ramps dropped on Omaha Beach. Full D-Day documentary on the channel.",
+   "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-15-s2.mp4",
+   "judul": "The Night 13,000 Men Fell From the Sky #shorts #history #documentary #foryou",
+   "key": "s2",
+   "url": "https://youtu.be/8AGtu8ZpZxY",
+   "video_id": "8AGtu8ZpZxY"
+  },
+  {
+   "deskripsi": "While 150,000 Allied troops stormed Normandy, Hitler's best tanks sat waiting near Calais - and no one dared wake him. Full D-Day documentary on the channel.",
+   "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-15-s3.mp4",
+   "judul": "Hitler Was ASLEEP During D-Day #shorts #history #documentary #foryou",
+   "key": "s3",
+   "url": "https://youtu.be/ZnRBZex_avc",
+   "video_id": "ZnRBZex_avc"
+  }
+ ],
+ "studio_browser_status": "GAGAL: task pertama berhenti di verifikasi channel (Studio aktif di 'Unsolved Shadows' UCjxESFWyFPOkGTSpajK69Lw, bukan target); steer switch-channel gagal (deep-link UCCBGIbsfMo2TmyhbUzHxD0A -> 'tidak diizinkan', sesi observasi rusak permanen); 2x spawn ulang gagal (profile ownership timeout, route eligibility timeout). TIDAK ADA perubahan apa pun di Studio."
+}

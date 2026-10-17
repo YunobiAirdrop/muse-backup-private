@@ -1,0 +1,70 @@
+{
+ "slug": "history-en",
+ "handle": "@EchoesOfThePast-e9m",
+ "date": "2026-10-13",
+ "analytics": {
+  "channel": "history-en",
+  "handle": "@EchoesOfThePast-e9m",
+  "channel_id": "UCCBGIbsfMo2TmyhbUzHxD0A",
+  "days": 28,
+  "summary": {
+   "views": 1,
+   "watch_minutes": 0,
+   "subs_gained": 1
+  },
+  "videos": [
+   {
+    "video_id": "PFG-p8TNA4o",
+    "views": 0,
+    "likes": 1,
+    "watch_minutes": 0,
+    "avg_view_sec": 0,
+    "title": "Pompeii 79 AD: The Day Vesuvius Buried a Living City",
+    "published": "2026-10-08",
+    "description": "I have always been haunted by Pompeii, not by the volcano itself, but by the ordinary morning it destroyed. People were baking bread, planning weddings, and packing for voyages, never knowing the mountain above them was about to explode.\n\nThis is the dramatic true story of the eruption of Mount Vesuvius in 79 AD: the seventeen-year-old boy whose letters are our only eyewitness account, his heroic uncle who sailed into the ash cloud to save strangers, and the city that was frozen in time for nearly two thousand years.\n\nCHAPTERS:\n0:00 Frozen in Time\n0:37 A City at Its Peak\n2:09 The Mountain That Smoked\n2:45 Pliny's Letters\n4:32 The Sky Turns Black\n6:13 Buried and Found\n7:35 Echoes of History\n\nIf you love epic stories from world history, subscribe to Echoes of History Channel for a new documentary every day.\n\n#history #documentary #pompeii #vesuvius #ancientrome\n#foryou #viral",
+    "tags": [
+     "pompeii 79 ad",
+     "vesuvius eruption",
+     "pliny the younger",
+     "ancient rome",
+     "roman empire",
+     "world history documentary",
+     "echoes of history"
+    ],
+    "duration_iso": "PT9M21S",
+    "views_lt": 0,
+    "likes_lt": 1,
+    "comments_lt": 1,
+    "duration_sec": 561,
+    "retention_pct": 0.0
+   }
+  ]
+ },
+ "enrich": {
+  "channel_id": "UCCBGIbsfMo2TmyhbUzHxD0A",
+  "stats": {
+   "viewCount": "0",
+   "subscriberCount": "5",
+   "hiddenSubscriberCount": false,
+   "videoCount": "5"
+  },
+  "reader": "history-en"
+ },
+ "playlists": [
+  {
+   "id": "PLDxveitJAnVY",
+   "title": "Echoes of History — World History",
+   "count": 1
+  },
+  {
+   "id": "PLIZVwlA70fnM",
+   "title": "History That Changed the World | Echoes of History Channel",
+   "count": 1
+  }
+ ],
+ "videos_in_playlists": [
+  "0vmkyep-JnE",
+  "PFG-p8TNA4o"
+ ],
+ "videos_no_playlist": []
+}

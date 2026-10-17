@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-2EKWMDG4B2'></script>
+<script>
+//<![CDATA[
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-2EKWMDG4B2');
+//]]>
+</script>
+
+<meta charset='UTF-8'/>
+<title><data:blog.pageTitle/></title>
+<b:include data='blog' name='all-head-content'/>
+<b:skin><![CDATA[*{margin:0;padding:0;box-sizing:border-box}
+:root{--aksen:#e11d2e;--gelap:#0f172a;--teks:#1e293b;--latar:#f1f5f9}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--latar);color:var(--teks);line-height:1.6}
+.wrap{max-width:1140px;margin:0 auto;padding:0 16px}
+a{color:var(--aksen);text-decoration:none}
+img{max-width:100%;height:auto}
+.topbar{background:linear-gradient(90deg,#0f172a,#1e293b);color:#cbd5e1;font-size:13px;padding:9px 0}
+.topbar .wrap{display:flex;justify-content:space-between;gap:12px}
+.topbar .tgl{font-weight:700;color:#fff}
+.site-header{background:#fff;padding:32px 0;text-align:center;border-bottom:1px solid #e2e8f0;position:relative;overflow:hidden}
+.site-header::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#e11d2e,#f59e0b,#e11d2e)}
+.logo a{font-size:42px;font-weight:900;color:var(--gelap);letter-spacing:-1.5px}
+.logo a span{color:var(--aksen)}
+.logo p{color:#64748b;font-size:15px;margin-top:8px}
+.navbar{background:var(--gelap);position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+.navbar .wrap{display:flex;align-items:center}
+.menu-toggle{display:none;background:none;border:none;color:#fff;font-size:24px;padding:12px;cursor:pointer}
+ul.menu{list-style:none;display:flex;gap:2px}
+ul.menu a{display:block;color:#e2e8f0;padding:15px 20px;font-weight:600;font-size:15px;transition:.25s;position:relative}
+ul.menu a::after{content:'';position:absolute;bottom:0;left:20px;right:20px;height:3px;background:var(--aksen);transform:scaleX(0);transition:.25s}
+ul.menu a:hover{color:#fff}
+ul.menu a:hover::after{transform:scaleX(1)}
+.ticker{background:#fff;border-bottom:1px solid #e2e8f0;padding:11px 0}
+.ticker .wrap{display:flex;align-items:center;gap:12px}
+.ticker-label{background:linear-gradient(135deg,#e11d2e,#b91c1c);color:#fff;font-weight:800;font-size:12px;padding:7px 16px;border-radius:20px;text-transform:uppercase;flex-shrink:0;box-shadow:0 2px 8px rgba(225,29,46,.3);animation:denyut 2s infinite}
+@keyframes denyut{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+.ticker-view{overflow:hidden;flex:1}
+.ticker-items{display:flex;gap:36px;white-space:nowrap;animation:geser 30s linear infinite}
+@keyframes geser{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.ticker-items a{color:#334155;font-size:14px;font-weight:500}
+.ticker-items a:hover{color:var(--aksen)}
+.konten{display:flex;gap:26px;padding:30px 16px;align-items:flex-start}
+.konten-utama{flex:1;min-width:0}
+.judul-section{font-size:24px;font-weight:900;color:var(--gelap);margin-bottom:20px;display:flex;align-items:center;gap:12px}
+.judul-section::before{content:'';width:6px;height:28px;background:linear-gradient(180deg,#e11d2e,#f59e0b);border-radius:3px}
+/* Kartu JS */
+#daftar-js{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:22px}
+.kartu-js{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(15,23,42,.08);transition:.3s cubic-bezier(.4,0,.2,1);opacity:0;transform:translateY(24px);animation:muncul .6s forwards}
+@keyframes muncul{to{opacity:1;transform:translateY(0)}}
+.kartu-js:hover{transform:translateY(-6px);box-shadow:0 12px 32px rgba(15,23,42,.15)}
+.kartu-js .gbr{display:block;aspect-ratio:16/9;overflow:hidden;background:linear-gradient(135deg,#e2e8f0,#cbd5e1);position:relative}
+.kartu-js .gbr img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.kartu-js:hover .gbr img{transform:scale(1.08)}
+.kartu-js .kat{position:absolute;top:12px;left:12px;background:var(--aksen);color:#fff;font-size:11px;font-weight:800;padding:5px 12px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px}
+.kartu-js .isi{padding:20px}
+.kartu-js h3{font-size:17px;line-height:1.5;margin-bottom:8px}
+.kartu-js h3 a{color:var(--gelap);transition:.2s}
+.kartu-js h3 a:hover{color:var(--aksen)}
+.kartu-js .meta{font-size:12px;color:#94a3b8;margin-bottom:10px}
+.kartu-js .ringkasan{font-size:14px;color:#475569;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+/* Loading */
+.loading{text-align:center;padding:60px 20px;color:#94a3b8}
+.loading .spin{width:48px;height:48px;border:4px solid #e2e8f0;border-top-color:var(--aksen);border-radius:50%;margin:0 auto 16px;animation:putar 1s linear infinite}
+@keyframes putar{to{transform:rotate(360deg)}}
+/* Artikel full JS */
+.artikel-js{background:#fff;border-radius:16px;padding:36px;box-shadow:0 4px 20px rgba(15,23,42,.08);animation:muncul .5s}
+.artikel-js h1{font-size:30px;line-height:1.35;color:var(--gelap);margin:14px 0}
+.artikel-js .meta{padding-bottom:18px;border-bottom:1px solid #e2e8f0;margin-bottom:22px}
+.artikel-js .konten-artikel{font-size:17px;line-height:1.85;color:#334155}
+.artikel-js .konten-artikel p{margin-bottom:18px}
+.artikel-js .konten-artikel img{border-radius:12px;margin:20px 0;box-shadow:0 4px 16px rgba(0,0,0,.1)}
+.breadcrumb{font-size:13px;color:#94a3b8}
+.sidebar{width:300px;flex-shrink:0;display:flex;flex-direction:column;gap:20px}
+.sidebar .widget{background:#fff;border-radius:16px;padding:22px;box-shadow:0 4px 20px rgba(15,23,42,.08)}
+.sidebar h2{font-size:16px;font-weight:800;margin-bottom:14px;color:var(--gelap);display:flex;align-items:center;gap:8px}
+.sidebar h2::before{content:'';width:4px;height:18px;background:var(--aksen);border-radius:2px}
+footer{background:linear-gradient(180deg,#0f172a,#020617);color:#94a3b8;margin-top:44px}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:36px;padding:48px 16px}
+footer h3{color:#fff;font-size:17px;margin-bottom:18px}
+footer p,footer a{font-size:14px;line-height:2}
+footer a:hover{color:#fff}
+.copyright{text-align:center;padding:22px;border-top:1px solid #1e293b;font-size:13px}
+.totop{position:fixed;bottom:24px;right:24px;width:52px;height:52px;background:linear-gradient(135deg,#e11d2e,#b91c1c);color:#fff;border:none;border-radius:50%;font-size:22px;cursor:pointer;box-shadow:0 4px 16px rgba(225,29,46,.4);opacity:0;pointer-events:none;transition:.3s;z-index:99}
+.totop.tampil{opacity:1;pointer-events:auto}
+.totop:hover{transform:translateY(-3px)}
+@media(max-width:768px){.konten{flex-direction:column}.sidebar{width:100%}ul.menu{display:none;flex-direction:column;width:100%}ul.menu.buka{display:flex}.menu-toggle{display:block}#daftar-js{grid-template-columns:1fr}.artikel-js{padding:22px}.artikel-js h1{font-size:23px}.logo a{font-size:32px}}/* ===== Halaman Artikel Individual ===== */
+.artikel-full{background:#fff;border-radius:16px;padding:38px;box-shadow:0 4px 24px rgba(0,0,0,.08);animation:fadeUp .5s ease}
+.breadcrumb{font-size:13px;color:#888;margin-bottom:18px}
+.breadcrumb a{color:#e11d2e;text-decoration:none;font-weight:600}
+.judul-artikel{font-size:32px;font-weight:900;line-height:1.3;color:#1a1a2e;margin-bottom:14px}
+.meta-artikel{font-size:14px;color:#888;margin-bottom:24px;padding-bottom:18px;border-bottom:2px solid #f0f0f0}
+.meta-artikel .kat{background:linear-gradient(135deg,#e11d2e,#f59e0b);color:#fff;padding:4px 14px;border-radius:20px;font-size:12px;font-weight:700}
+.isi-artikel{font-size:17px;line-height:1.85;color:#333}
+.isi-artikel p{margin-bottom:18px}
+.isi-artikel h2{font-size:24px;font-weight:800;margin:28px 0 14px;color:#1a1a2e}
+.isi-artikel h3{font-size:20px;font-weight:700;margin:24px 0 12px;color:#1a1a2e}
+.isi-artikel img{max-width:100%;height:auto;border-radius:12px;margin:18px 0}
+.isi-artikel ul,.isi-artikel ol{margin:0 0 18px 24px}
+.isi-artikel li{margin-bottom:8px}
+.isi-artikel blockquote{border-left:4px solid #e11d2e;background:#fef2f2;padding:14px 20px;border-radius:0 10px 10px 0;margin:20px 0;font-style:italic}
+.kembali{margin-top:32px;padding-top:20px;border-top:2px solid #f0f0f0}
+.kembali a{color:#e11d2e;font-weight:700;text-decoration:none;font-size:16px}
+@media(max-width:768px){.artikel-full{padding:22px}.judul-artikel{font-size:24px}.isi-artikel{font-size:16px}}]]></b:skin>
+</head>
+<body>
+<!-- KABARVIRAL-THEME v1.16-cuanpintar -->
+<!-- ===== Bilah atas ===== -->
+<div class='topbar'>
+<div class='wrap'>
+<span class='tgl' id='tgl-hari-ini'>Memuat tanggal...</span>
+<span>Kabar viral terkini, terupdate setiap hari</span>
+</div>
+</div>
+
+<!-- ===== Header ===== -->
+<header class='site-header'>
+<div class='wrap header-in'>
+<div class='logo'>
+<a expr:href='data:blog.homepageUrl'><data:blog.title/></a>
+<p>Berita keuangan, investasi &amp; tips cuan terkini</p>
+</div>
+<!-- SLOT IKLAN 1 (Header 728x90): tempel kode AdSense di dalam div ini setelah disetujui -->
+<div class='slot-iklan ad-leaderboard'>
+</div>
+</div>
+</header>
+
+<!-- ===== Navigasi ===== -->
+<nav class='navbar'>
+<div class='wrap'>
+<button class='menu-toggle' id='menu-toggle' aria-label='Menu'>&#9776;</button>
+<b:section class='nav-section' id='nav' maxwidgets='1' showaddelement='no'>
+<b:widget id='LinkList1' locked='false' title='Menu Navigasi' type='LinkList' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<ul class='menu' id='menu-utama'>
+<li><a expr:href='data:blog.homepageUrl'>Beranda</a></li>
+<b:loop values='data:links' var='link'>
+<li><a expr:href='data:link.target'><data:link.name/></a></li>
+</b:loop>
+</ul>
+</b:includable>
+</b:widget>
+</b:section>
+</div>
+</nav>
+
+<!-- ===== Ticker berita terkini ===== -->
+<div class='ticker'>
+<div class='wrap'>
+<span class='ticker-label'>Terkini</span>
+<div class='ticker-view'><div class='ticker-items' id='ticker-items'><span>Memuat berita terbaru...</span></div></div>
+</div>
+</div>
+
+<!-- ===== Konten utama ===== -->
+<main class='wrap konten'>
+<div class='konten-utama'>
+<b:section class='main' id='main' maxwidgets='1' showaddelement='no'>
+<b:if cond='data:blog.pageType == "item"'>
+<!-- ===== HALAMAN ARTIKEL INDIVIDUAL ===== -->
+<div id='artikel-js'>
+<div class='loading'><div class='spin'></div>Memuat artikel...</div>
+</div>
+<script>
+//<![CDATA[
+(function(){
+var cur = window.location.href.split('#')[0].split('?')[0].replace(/\/$/,'');
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function fmtDate(d){try{return new Date(d).toLocaleDateString('id-ID',{day:'numeric',month:'long',year:'numeric'})}catch(e){return ''}}
+fetch('/feeds/posts/default?alt=json&max-results=150').then(function(r){return r.json()}).then(function(j){
+  var box = document.getElementById('artikel-js');
+  var entries = (j.feed && j.feed.entry) || [];
+  var found = null;
+  entries.forEach(function(e){
+    (e.link||[]).forEach(function(l){
+      if(l.rel==='alternate' && l.href.split('#')[0].split('?')[0].replace(/\/$/,'')===cur) found = e;
+    });
+  });
+  if(!found){box.innerHTML='<div class="loading">Artikel tidak ditemukan. <a href="/">Kembali ke beranda</a>.</div>';return}
+  var t = found.title.$t;
+  var kat = (found.category && found.category[0] && found.category[0].term) || 'Berita';
+  var tgl = fmtDate(found.published.$t);
+  var isi = (found.content && found.content.$t) || '';
+  var html = '<article class="artikel-full">'
+    + '<div class="breadcrumb"><a href="/">Beranda</a> &raquo; '+esc(kat)+'</div>'
+    + '<h1 class="judul-artikel">'+esc(t)+'</h1>'
+    + '<div class="meta-artikel"><span class="kat">'+esc(kat)+'</span> &bull; '+tgl+'</div>'
+    + '<div class="isi-artikel">'+isi+'</div>'
+    + '<div class="kembali"><a href="/">&larr; Kembali ke Beranda</a></div>'
+    + '</article>';
+  box.innerHTML = html;
+  document.title = t + ' - ' + document.title.split('-').pop().trim();
+}).catch(function(){document.getElementById('artikel-js').innerHTML='<div class="loading">Gagal memuat artikel. <a href="/">Kembali ke beranda</a>.</div>'});
+})();
+//]]>
+</script>
+<b:else/>
+<!-- ===== HOMEPAGE: DAFTAR ARTIKEL ===== -->
+<div id='daftar-js'>
+<div class='loading'><div class='spin'></div>Memuat berita terkini...</div>
+</div>
+<script>
+//<![CDATA[
+(function(){
+var feedUrl = '/feeds/posts/default?alt=json&max-results=12';
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function fmtDate(d){try{return new Date(d).toLocaleDateString('id-ID',{day:'numeric',month:'long',year:'numeric'})}catch(e){return ''}}
+function imgOf(e){
+  if(e.media$thumbnail) return e.media$thumbnail.url.replace(/\/s72-c\//,'/s640/');
+  var c = (e.content && e.content.$t) || '';
+  var m = c.match(/<img[^>]+src="([^"]+)"/);
+  return m ? m[1] : '';
+}
+fetch(feedUrl).then(function(r){return r.json()}).then(function(j){
+  var box = document.getElementById('daftar-js');
+  var entries = (j.feed && j.feed.entry) || [];
+  if(!entries.length){box.innerHTML='<div class="loading">Belum ada berita.</div>';return}
+  var html = '<h2 class="judul-section">Berita Terbaru</h2><div id="daftar-js-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:22px">';
+  entries.forEach(function(e,i){
+    var t = e.title.$t;
+    var u = ''; (e.link||[]).forEach(function(l){if(l.rel==='alternate')u=l.href});
+    var img = imgOf(e);
+    var kat = (e.category && e.category[0] && e.category[0].term) || 'Berita';
+    var tgl = fmtDate(e.published.$t);
+    var ring = esc(((e.summary && e.summary.$t)||'').replace(/<[^>]+>/g,'').substring(0,140)) + '...';
+    html += '<article class="kartu-js" style="animation-delay:'+(i*0.08)+'s">'
+      + '<a class="gbr" href="'+u+'">' + (img?'<img src="'+img+'" alt="'+esc(t)+'" loading="lazy" onerror="this.style.display=\'none\'"/>':'') + '<span class="kat">'+esc(kat)+'</span></a>'
+      + '<div class="isi"><h3><a href="'+u+'">'+esc(t)+'</a></h3><div class="meta">'+tgl+'</div><p class="ringkasan">'+ring+'</p></div>'
+      + '</article>';
+  });
+  html += '</div>';
+  box.innerHTML = html;
+}).catch(function(){document.getElementById('daftar-js').innerHTML='<div class="loading">Gagal memuat. Coba refresh.</div>'});
+})();
+//]]>
+</script>
+</b:if>
+</b:section>
+</div>
+
+<!-- ===== Sidebar ===== -->
+<aside class='sidebar'>
+<b:section class='side' id='sidebar' maxwidgets='6' showaddelement='yes'>
+<b:widget id='BlogSearch1' locked='false' title='Cari Berita' type='BlogSearch' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='widget'>
+<b:if cond='data:title != ""'><div class='side-judul'><data:title/></div></b:if>
+<form class='cari' expr:action='data:blog.homepageUrl + "search"'>
+<input name='q' placeholder='Cari berita...' type='text'/>
+<button type='submit'>Cari</button>
+</form>
+</div>
+</b:includable>
+</b:widget>
+<!-- SLOT IKLAN 4 (Sidebar 300x250): tempel kode AdSense di dalam div ini -->
+<b:widget id='HTML1' locked='false' title='' type='HTML' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='slot-iklan slot-sidebar'>
+</div>
+</b:includable>
+</b:widget>
+<b:widget id='PopularPosts1' locked='false' title='Terpopuler' type='PopularPosts' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='widget'>
+<div class='side-judul'>Terpopuler</div>
+<ul class='pop'>
+<b:loop values='data:posts' var='post'>
+<li><a expr:href='data:post.href'><data:post.title/></a></li>
+</b:loop>
+</ul>
+</div>
+</b:includable>
+</b:widget>
+<b:widget id='Label1' locked='false' title='Kategori' type='Label' version='2' visible='true'>
+<b:includable id='main' var='top'>
+<div class='widget'>
+<div class='side-judul'>Kategori</div>
+<ul class='daftar-label'>
+<b:loop values='data:labels' var='label'>
+<li><a expr:href='data:label.url'><data:label.name/></a></li>
+</b:loop>
+</ul>
+</div>
+</b:includable>
+</b:widget>
+</b:section>
+</aside>
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class='site-footer'>
+<div class='wrap footer-grid'>
+<div>
+<h4>Tentang Kami</h4>
+<p><b><data:blog.title/></b> menyajikan berita keuangan, investasi, dan tips mengatur uang terkini. Diperbarui setiap hari.</p>
+</div>
+<div>
+<h4>Navigasi</h4>
+<ul>
+<li><a expr:href='data:blog.homepageUrl'>Beranda</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Nasional"'>Nasional</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Teknologi"'>Teknologi</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Hiburan"'>Hiburan</a></li>
+<li><a expr:href='data:blog.homepageUrl + "search/label/Olahraga"'>Olahraga</a></li>
+</ul>
+</div>
+<div>
+<h4>Info</h4>
+<ul>
+<li><a expr:href='data:blog.homepageUrl + "p/tentang-kami.html"'>Tentang Kami</a></li>
+<li><a expr:href='data:blog.homepageUrl + "p/kebijakan-privasi.html"'>Kebijakan Privasi</a></li>
+<li><a expr:href='data:blog.homepageUrl + "p/kontak.html"'>Kontak</a></li>
+<li><a expr:href='data:blog.homepageUrl + "p/disclaimer.html"'>Disclaimer</a></li>
+</ul>
+</div>
+</div>
+<div class='copyright'>
+<div class='wrap'>&#169; <span id='tahun'></span> <data:blog.title/>. Seluruh hak cipta dilindungi.</div>
+</div>
+</footer>
+
+<button class='totop' id='totop' aria-label='Ke atas'>&#8593;</button>
+
+<script>
+//<![CDATA[
+(function(){
+  "use strict";
+  var blogUrl = document.querySelector("link[rel='canonical']") ?
+    document.querySelector("link[rel='canonical']").href.replace(/\/$/,'') :
+    location.origin;
+  /* Tanggal Indonesia di bilah atas */
+  try {
+    var hari = ["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
+    var bulan = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+    var t = new Date();
+    document.getElementById("tgl-hari-ini").textContent =
+      hari[t.getDay()] + ", " + t.getDate() + " " + bulan[t.getMonth()] + " " + t.getFullYear();
+    document.getElementById("tahun").textContent = t.getFullYear();
+  } catch(e){}
+  /* Menu mobile */
+  var toggle = document.getElementById("menu-toggle");
+  if (toggle) toggle.addEventListener("click", function(){
+    document.querySelector("ul.menu").classList.toggle("buka");
+  });
+  /* Tombol ke atas */
+  var keatas = document.getElementById("totop");
+  window.addEventListener("scroll", function(){
+    keatas.style.display = window.scrollY > 400 ? "block" : "none";
+  });
+  keatas.addEventListener("click", function(){ window.scrollTo({top:0, behavior:"smooth"}); });
+  /* Ticker: ambil 8 postingan terbaru */
+  function isiTicker(){
+    var el = document.getElementById("ticker-items");
+    if(!el) return;
+    fetch(blogUrl + "/feeds/posts/default?alt=json&max-results=8")
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        var items = (d.feed.entry || []).map(function(e){
+          var link = (e.link || []).filter(function(l){ return l.rel === "alternate"; })[0];
+          return '<a href="' + (link ? link.href : "#") + '">' + e.title.$t + "</a>";
+        }).join("");
+        if(items){ el.innerHTML = items + items; } /* ganda untuk animasi mulus */
+        else { el.innerHTML = "<span>Belum ada berita.</span>"; }
+      })
+      .catch(function(){ el.innerHTML = "<span>Selamat datang di " + document.title + "</span>"; });
+  }
+  isiTicker();
+  /* Pindahkan slot iklan artikel ke setelah paragraf ke-2 */
+  try {
+    var slot = document.getElementById("iklan-artikel");
+    var body = document.getElementById("post-body");
+    if (slot && body) {
+      var ps = body.querySelectorAll("p");
+      if (ps.length > 2) { ps[1].after(slot); }
+    }
+  } catch(e){}
+  /* Berita terkait: ambil berdasarkan label pertama */
+  try {
+    var katEl = document.querySelector(".post-full .label-kat");
+    var box = document.getElementById("berita-terkait");
+    if (katEl && box) {
+      var kat = encodeURIComponent(katEl.textContent.trim());
+      fetch(blogUrl + "/feeds/posts/default/-/" + kat + "?alt=json&max-results=4")
+        .then(function(r){ return r.json(); })
+        .then(function(d){
+          var html = (d.feed.entry || []).filter(function(e){
+            return e.link && e.link.some(function(l){ return l.rel==="alternate" && l.href !== location.href; });
+          }).slice(0,3).map(function(e){
+            var link = e.link.filter(function(l){ return l.rel === "alternate"; })[0];
+            var img = (e.media$thumbnail) ? e.media$thumbnail.url.replace(/\/s72-c\//, "/s300/") : "";
+            return '<li><a href="' + link.href + '">' +
+              (img ? '<img src="' + img + '" alt="" loading="lazy"/>' : "") +
+              "<span>" + e.title.$t + "</span></a></li>";
+          }).join("");
+          box.innerHTML = html || "<li>Tidak ada berita terkait.</li>";
+        })
+        .catch(function(){ box.innerHTML = "<li>Tidak ada berita terkait.</li>"; });
+    } else if (box) { box.innerHTML = ""; }
+  } catch(e){}
+})();
+ //]]>
+</script>
+</body>
+</html>

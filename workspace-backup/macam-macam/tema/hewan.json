@@ -1,0 +1,63 @@
+{
+ "items": [
+  {
+   "fakta": "Raja hutan dengan suara mengaum yang keras!",
+   "nama": "Singa",
+   "pexels_query": "lion",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/hewan-part1/tempel/item00.jpg",
+   "kredit": "Kevin Pluck / Wikimedia Commons (CC BY 2.0)"
+  },
+  {
+   "fakta": "Hidungnya panjang, telinganya lebar, badannya besar!",
+   "nama": "Gajah",
+   "pexels_query": "elephant",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/hewan-part1/tempel/item01.jpg",
+   "kredit": "Charles J. Sharp / Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  {
+   "fakta": "Lehernya panjang banget buat makan daun tinggi!",
+   "nama": "Jerapah",
+   "pexels_query": "giraffe",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/hewan-part1/tempel/item02.jpg",
+   "kredit": "Rob Hooft / Wikimedia Commons (CC BY-SA 3.0)"
+  },
+  {
+   "fakta": "Larinya kencang, belangnya bikin kamuflase!",
+   "nama": "Harimau",
+   "pexels_query": "tiger",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/hewan-part1/tempel/item03.jpg",
+   "kredit": "Monika Betley / Wikimedia Commons (CC BY-SA 3.0)"
+  },
+  {
+   "fakta": "Beruang putih raksasa dari kutub utara!",
+   "nama": "Beruang Kutub",
+   "pexels_query": "polar bear",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/hewan-part1/tempel/item04.jpg",
+   "kredit": "Arturo de Frias Marques / Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  {
+   "fakta": "Moncongnya panjang, jalannya lucu waddle waddle!",
+   "nama": "Pinguin",
+   "pexels_query": "penguin",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/hewan-part1/tempel/item05.jpg",
+   "kredit": "David / Wikimedia Commons (CC BY 2.0)"
+  },
+  {
+   "fakta": "Paling pintar di lautan, suka melompat!",
+   "nama": "Lumba-lumba",
+   "pexels_query": "dolphin",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/hewan-part1/tempel/item06.jpg",
+   "kredit": "NASA / Wikimedia Commons (Public domain)"
+  },
+  {
+   "fakta": "Kantong di perutnya buat bawa anaknya!",
+   "nama": "Kanguru",
+   "pexels_query": "kangaroo",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/hewan-part1/tempel/item07.jpg",
+   "kredit": "Mark Wagner, based on image by User:Lilly M / Wikimedia Commons (CC BY-SA 3.0)"
+  }
+ ],
+ "judul": "Hewan",
+ "kategori": "jenis hewan",
+ "part": 1
+}

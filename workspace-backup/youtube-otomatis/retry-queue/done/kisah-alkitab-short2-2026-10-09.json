@@ -1,0 +1,8 @@
+{
+ "channel": "kisah-alkitab",
+ "gagal_pada": "2026-10-11T10:10:00+07:00",
+ "instruksi_path": "/home/hatch/workspace/kisah-alkitab/work/2026-10-09/upload-instruksi-shorts-2026-10-09.md",
+ "sebab": "Retry 2026-10-11 ~10:10 WIB: 'Batas upload harian telah tercapai' masih aktif di channel Kisah Alkitab (@KisahAlkitab-k9j); tidak ada draf dibuat. Retry berikutnya setelah limit rolling terbuka.",
+ "slot_target": "2026-10-10 19:00 WIB",
+ "video_path": "/home/hatch/workspace/kisah-alkitab/work/2026-10-09/shorts/short2-klimaks.mp4"
+}

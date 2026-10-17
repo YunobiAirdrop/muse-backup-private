@@ -1,0 +1,66 @@
+[
+ {
+  "query": "lion",
+  "nama": "Singa",
+  "file": "/home/hatch/workspace/macam-macam/work/hewan-part1/foto/item00.jpg",
+  "commons_title": "File:Lion waiting in Namibia.jpg",
+  "lisensi": "CC BY 2.0",
+  "kredit": "Kevin Pluck / Wikimedia Commons (CC BY 2.0)"
+ },
+ {
+  "query": "elephant",
+  "nama": "Gajah",
+  "file": "/home/hatch/workspace/macam-macam/work/hewan-part1/foto/item01.jpg",
+  "commons_title": "File:African elephant (Loxodonta africana) 2.jpg",
+  "lisensi": "CC BY-SA 4.0",
+  "kredit": "Charles J. Sharp / Wikimedia Commons (CC BY-SA 4.0)"
+ },
+ {
+  "query": "giraffe",
+  "nama": "Jerapah",
+  "file": "/home/hatch/workspace/macam-macam/work/hewan-part1/foto/item02.jpg",
+  "commons_title": "File:Giraffe-closeup-head.jpg",
+  "lisensi": "CC BY-SA 3.0",
+  "kredit": "Rob Hooft / Wikimedia Commons (CC BY-SA 3.0)"
+ },
+ {
+  "query": "tiger",
+  "nama": "Harimau",
+  "file": "/home/hatch/workspace/macam-macam/work/hewan-part1/foto/item03.jpg",
+  "commons_title": "File:Panthera tigris sumatran subspecies.jpg",
+  "lisensi": "CC BY-SA 3.0",
+  "kredit": "Monika Betley / Wikimedia Commons (CC BY-SA 3.0)"
+ },
+ {
+  "query": "polar bear",
+  "nama": "Beruang Kutub",
+  "file": "/home/hatch/workspace/macam-macam/work/hewan-part1/foto/item04.jpg",
+  "commons_title": "File:Polar Bear AdF.jpg",
+  "lisensi": "CC BY-SA 4.0",
+  "kredit": "Arturo de Frias Marques / Wikimedia Commons (CC BY-SA 4.0)"
+ },
+ {
+  "query": "penguin",
+  "nama": "Pinguin",
+  "file": "/home/hatch/workspace/macam-macam/work/hewan-part1/foto/item05.jpg",
+  "commons_title": "File:Magellanic penguin, Valdes Peninsula, e.jpg",
+  "lisensi": "CC BY 2.0",
+  "kredit": "David / Wikimedia Commons (CC BY 2.0)"
+ },
+ {
+  "query": "dolphin",
+  "nama": "Lumba-lumba",
+  "file": "/home/hatch/workspace/macam-macam/work/hewan-part1/foto/item06.jpg",
+  "commons_title": "File:Tursiops truncatus 01.jpg",
+  "lisensi": "Public domain",
+  "kredit": "NASA / Wikimedia Commons (Public domain)"
+ },
+ {
+  "query": "kangaroo",
+  "nama": "Kanguru",
+  "file": "/home/hatch/workspace/macam-macam/work/hewan-part1/foto/item07.jpg",
+  "commons_title": "File:Kangaroo Australia 01 11 2008 - retouch.JPG",
+  "lisensi": "CC BY-SA 3.0",
+  "kredit": "Mark Wagner, based on image by User:Lilly M / Wikimedia Commons (CC BY-SA 3.0)"
+ }
+]

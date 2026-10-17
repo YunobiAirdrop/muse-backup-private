@@ -1,0 +1,50 @@
+INSTRUKSI UPLOAD — InkTime (@InkTime-d3t) — 3 SHORTS
+Tanggal produksi: 2026-10-15 | Slot: Terjadwal 2026-10-19 07:00 WIB (= 2026-10-18 19:00 US Eastern, prime time USA)
+Sumber: potongan long 2026-10-15 "The Library of Alexandria: What We Actually Lost" (tayang 2026-10-18 07:00 WIB)
+
+=== 0. VERIFIKASI CHANNEL DULU (WAJIB, SEBELUM UPLOAD) ===
+- Buka YouTube Studio. PASTIKAN channel aktif = "InkTime".
+- Verifikasi via CHANNEL ID (bukan cuma nama!): URL Studio HARUS mengandung
+  UCoZl5OaqjXSVkE4S96RY8_g
+  Contoh: https://studio.youtube.com/channel/UCoZl5OaqjXSVkE4S96RY8_g
+- Kalau ID tidak cocok -> JANGAN upload, hentikan dan laporkan.
+- PENTING: sesi browser sudah login & persisten (terverifikasi 13 Okt).
+  JANGAN login ulang / JANGAN ubah setelan akun apa pun. Kalau ketemu halaman
+  login Google -> BERHENTI, laporkan (jangan isi password).
+
+=== 1. ATURAN TIAP UPLOAD ===
+- Upload sebagai TIDAK PUBLIK (Unlisted) dulu, rapikan metadata, baru ubah ke "Terjadwal" 2026-10-19 07:00 WIB.
+- AI DISCLOSURE: WAJIB centang "Altered content" (Yes, content is altered/AI-generated).
+- JANGAN set "made for kids".
+- KOMENTAR WAJIB ON: Details -> Show more -> Comments -> set EKSPLISIT "Allow all comments" (jangan andalkan default).
+- Izinkan embedding: YA. Lisensi: Standard YouTube.
+- Bahasa video: English. Kategori: Education.
+- Masukkan ke playlist "Ancient History".
+- Thumbnail kustom: upload bila YouTube mengizinkan (channel belum verifikasi HP — bila ditolak, lewati & catat, JANGAN lakukan verifikasi HP).
+
+=== SHORTS 1 ===
+File: /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-15-s1.mp4 (40.0 dtk, 720x1280)
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-15-s1.jpg
+Judul (persis, hashtag di akhir judul ditutup #foryou):
+The Library of Alexandria Never Burned Down #shorts #history #explainer #foryou
+Deskripsi (tanpa hashtag):
+The greatest library of the ancient world did NOT burn down in one dramatic night of flames — it died slowly, quietly, while almost nobody noticed. Hundreds of thousands of scrolls, gone piece by piece over centuries. Full story in the long video "The Library of Alexandria: What We Actually Lost" on the InkTime channel. Sources: Canfora, L. (1990) The Vanished Library, UC Press; El-Abbadi, M. (1992) The Life and Fate of the Ancient Library of Alexandria, UNESCO/UNDP.
+
+=== SHORTS 2 ===
+File: /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-15-s2.mp4 (47.0 dtk, 720x1280)
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-15-s2.jpg
+Judul (persis):
+He Measured the Earth With a Stick #shorts #history #explainer #foryou
+Deskripsi (tanpa hashtag):
+Over 2,200 years ago, a librarian in Alexandria measured the entire planet using nothing but a stick, a well, and shadows — and got it almost exactly right. His name was Eratosthenes, and he ran the greatest library on Earth. Full story in the long video "The Library of Alexandria: What We Actually Lost" on the InkTime channel. Sources: MacLeod, R. ed. (2000) The Library of Alexandria, I.B. Tauris; Casson, L. (2001) Libraries in the Ancient World, Yale UP.
+
+=== SHORTS 3 ===
+File: /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-15-s3.mp4 (44.0 dtk, 720x1280)
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-15-s3.jpg
+Judul (persis):
+90 Plays Written, Only 7 Survived #shorts #history #explainer #foryou
+Deskripsi (tanpa hashtag):
+The ancient playwright Sophocles wrote around 120 plays. Only 7 survived. Across the whole ancient world, countless masterpieces vanished — burned, rotted, or simply never copied again. What we lost at Alexandria is a warning: knowledge is not automatically safe. Full story in the long video "The Library of Alexandria: What We Actually Lost" on the InkTime channel. Sources: Canfora, L. (1990) The Vanished Library, UC Press; Strabo, Geography 17.1.8.
+
+=== 2. JIKA KENA "BATAS UPLOAD HARIAN TELAH TERCAPAI" ===
+- BERHENTI, jangan retry. Biarkan di antrean retry-queue (watchdog mengerjakan setelah ±23 jam).

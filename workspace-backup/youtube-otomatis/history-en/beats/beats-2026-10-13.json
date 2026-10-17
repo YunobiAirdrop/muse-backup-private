@@ -1,0 +1,506 @@
+[
+ {
+  "beat": "beat-001",
+  "chapter": "The Impact",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Giant ocean liner at night, a massive iceberg looming in moonlit fog directly ahead, ship's searchlights cutting the dark",
+  "overlay": "APRIL 14, 1912 — 11:40 PM",
+  "text": "Eleven forty at night, April fourteenth, nineteen twelve. A lookout scans the black Atlantic — and a mountain of ice looms dead ahead."
+ },
+ {
+  "beat": "beat-002",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Ship's lookout in the crow's nest high on the mast, ringing an alarm bell, pointing toward a dark shape on the water",
+  "overlay": null,
+  "text": "His shout tears through the freezing air: iceberg, right ahead."
+ },
+ {
+  "beat": "beat-003",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Massive ocean liner's bow turning sharply at night, white wake churning, iceberg scraping alongside",
+  "overlay": null,
+  "text": "Forty-six thousand tons of steel swerve in the dark. Not enough."
+ },
+ {
+  "beat": "beat-004",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Passengers on a grand ship deck at night looking toward a distant iceberg, faces uncertain, moonlit ocean",
+  "overlay": null,
+  "text": "Now, let me ask you something. What would you do if the unsinkable ship beneath you was already doomed?"
+ },
+ {
+  "beat": "beat-005",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A hooded storyteller figure holding an hourglass, standing before a swirling portal of historical scenes, mysterious",
+  "overlay": null,
+  "text": "I am the Keeper of Time, and this is Echoes of History."
+ },
+ {
+  "beat": "beat-006",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Swirling clock and calendar pages flying backward through time, a shipyard silhouette emerging from mist",
+  "overlay": null,
+  "text": "To understand how the grandest ship ever built met its end, we must go back. [JEDA] To Belfast, three years earlier."
+ },
+ {
+  "beat": "beat-007",
+  "chapter": "The Unsinkable Claim",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Vintage 1912 newspaper front page about a grand ocean liner, printing press, dramatic warm light",
+  "overlay": null,
+  "text": "The world called her the unsinkable ship. Newspapers printed it as if it were a law of nature."
+ },
+ {
+  "beat": "beat-008",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Proud 1912 ship crewman in white uniform standing before the towering steel hull of a great ocean liner",
+  "overlay": "GOD HIMSELF COULD NOT SINK THIS SHIP",
+  "text": "One crewman was even said to boast that God Himself could not sink this ship."
+ },
+ {
+  "beat": "beat-009",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Colossal ocean liner beside tiny dockworkers and tugboats, showing immense scale, golden daylight",
+  "overlay": null,
+  "text": "She was the largest moving object ever built — nine hundred feet of steel and pride."
+ },
+ {
+  "beat": "beat-010",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Edwardian gentlemen shipowners laughing confidently in a wood-paneled office, ship plans on the table",
+  "overlay": null,
+  "text": "What strikes me most about this is the confidence. Not recklessness — pure, absolute certainty nothing could go wrong."
+ },
+ {
+  "beat": "beat-011",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Grand ocean liner steaming across a calm moonlit Atlantic, smoke from four funnels, serene and ominous",
+  "overlay": null,
+  "text": "That certainty sailed with her into the North Atlantic."
+ },
+ {
+  "beat": "beat-012",
+  "chapter": "Birth of a Giant",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Early 1900s Belfast shipyard with giant gantry cranes, sparks flying, workers on scaffolding around a ship's frame",
+  "overlay": null,
+  "text": "Her story began at the Harland and Wolff shipyard in Belfast."
+ },
+ {
+  "beat": "beat-013",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Close view of riveters hammering red-hot rivets into a towering steel ship hull, sparks and smoke",
+  "overlay": null,
+  "text": "For three years, fifteen thousand workers drove three million rivets into her hull."
+ },
+ {
+  "beat": "beat-014",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Three giant ocean liner hulls under construction side by side in a shipyard at dusk",
+  "overlay": null,
+  "text": "Two sister ships rose beside her — the Olympic, and the future Britannic. Together they would rule the Atlantic."
+ },
+ {
+  "beat": "beat-015",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Distinguished Edwardian shipping chairman Bruce Ismay pointing at a giant ship blueprint in an office",
+  "overlay": null,
+  "text": "The White Star Line was behind it all, and chairman Bruce Ismay demanded the biggest ship the world had ever seen."
+ },
+ {
+  "beat": "beat-016",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Lavish Edwardian first-class dining saloon aboard an ocean liner, chandeliers and marble, opulent",
+  "overlay": null,
+  "text": "Not the fastest — the biggest. Luxury, they believed, would sell more tickets than speed."
+ },
+ {
+  "beat": "beat-017",
+  "chapter": "Southampton — April 10, 1912",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Grand ocean liner departing Southampton harbor in 1912, crowds waving from the docks, tugboats alongside",
+  "overlay": null,
+  "text": "On April tenth, nineteen twelve, the Titanic sailed from Southampton on her maiden voyage to New York."
+ },
+ {
+  "beat": "beat-018",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Bustling 1912 Southampton dock, Edwardian passengers boarding a grand ocean liner via gangways, luggage everywhere",
+  "overlay": null,
+  "text": "Over twenty-two hundred boarded that morning — millionaires, immigrants, and a crew of nine hundred."
+ },
+ {
+  "beat": "beat-019",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Elegant wealthy Edwardian gentleman with a young mother holding a child on a ship's promenade deck",
+  "overlay": null,
+  "text": "John Jacob Astor, the richest man in the world, was aboard — and mothers carrying small children toward a new life."
+ },
+ {
+  "beat": "beat-020",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Crowd waving handkerchiefs from a 1912 dock as a great ocean liner pulls away into golden light",
+  "overlay": null,
+  "text": "The crowds on the dock waved as if she would sail forever. They were wrong — [JEDA] and yet, somehow, right."
+ },
+ {
+  "beat": "beat-021",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Elderly dignified ship captain Edward Smith in full White Star Line uniform on the bridge, sea behind",
+  "overlay": null,
+  "text": "Her captain was Edward Smith — a forty-year veteran of the sea, on his final voyage before retirement."
+ },
+ {
+  "beat": "beat-022",
+  "chapter": "A Palace of Classes",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Cross-section view of a grand ocean liner showing lavish upper decks and crowded lower decks",
+  "overlay": null,
+  "text": "Inside, the Titanic was a floating palace divided into three worlds."
+ },
+ {
+  "beat": "beat-023",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Magnificent grand staircase of an ocean liner with carved wood, chandelier, elegantly dressed passengers descending",
+  "overlay": null,
+  "text": "First class strolled marble staircases, a Parisian café, a swimming pool — all at sea."
+ },
+ {
+  "beat": "beat-024",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Immigrant families with bundles and suitcases in the crowded lower decks of an ocean liner",
+  "overlay": null,
+  "text": "Second class was modest. Third class, deep in the hull, carried hundreds of immigrants chasing the American dream."
+ },
+ {
+  "beat": "beat-025",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Cutaway diagram of a ship's hull showing watertight compartments with heavy steel doors",
+  "overlay": null,
+  "text": "Sixteen watertight compartments split her hull. Engineers swore four flooded rooms could not drag her down."
+ },
+ {
+  "beat": "beat-026",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Confident ship officers laughing on the bridge at night, one pointing ahead, relaxed and carefree",
+  "overlay": null,
+  "text": "That promise became legend — and legends, as we shall see, make people careless."
+ },
+ {
+  "beat": "beat-027",
+  "chapter": "The Warnings Nobody Heeded",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: 1912 ship wireless operator at a Marconi radio set, headphones on, sparks from the transmitter, Morse key",
+  "overlay": null,
+  "text": "On the fourth day, the wireless room crackled with warnings."
+ },
+ {
+  "beat": "beat-028",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Ship's officer reading a wireless ice warning message slip on the bridge at night, concerned face",
+  "overlay": null,
+  "text": "Iceberg ahead. Field ice. Growlers in the lane — message after message reached the bridge."
+ },
+ {
+  "beat": "beat-029",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A pile of handwritten wireless message slips on a ship's bridge desk, storm lamp light",
+  "overlay": null,
+  "text": "At least five warnings arrived on April fourteenth alone."
+ },
+ {
+  "beat": "beat-030",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Ocean liner's engine room telegraph set to full speed, stokers shoveling coal into glowing furnaces",
+  "overlay": null,
+  "text": "But she never slowed, racing through the dark at full speed — nearly twenty-two knots."
+ },
+ {
+  "beat": "beat-031",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Wealthy Edwardian passengers handing telegrams to a wireless operator, stacks of paid messages, neglected warning slips",
+  "overlay": null,
+  "text": "The wireless operators were busy selling passenger telegrams to the rich. Commerce drowned out the warnings of danger."
+ },
+ {
+  "beat": "beat-032",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Angry wireless operator tearing off headphones at a radio desk, another ship's lights visible through the porthole",
+  "overlay": null,
+  "text": "That evening, the nearby steamer Californian radioed: stopped and surrounded by ice. The Titanic's operator snapped back — shut up."
+ },
+ {
+  "beat": "beat-033",
+  "chapter": "The Ship That Watched",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Small steamer stopped in a dark ice field at night, distant bright ocean liner's lights on the horizon",
+  "overlay": null,
+  "text": "The Californian lay only nineteen kilometers away — [JEDA] close enough to see the Titanic's lights."
+ },
+ {
+  "beat": "beat-034",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Tired wireless operator asleep at his desk, silent Marconi radio set, dark cabin",
+  "overlay": null,
+  "text": "Her wireless operator, exhausted, had switched off his set and gone to sleep."
+ },
+ {
+  "beat": "beat-035",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Ship officers on a dark deck watching white distress rockets bursting over the horizon",
+  "overlay": null,
+  "text": "After midnight, her officers watched rockets rise — eight white flares, one after another."
+ },
+ {
+  "beat": "beat-036",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Antique scroll and hourglass on a wooden desk, warm candlelight, inviting and historic",
+  "overlay": null,
+  "text": "If these stories move you, subscribe to Echoes of History Channel — a new true story, every single day."
+ },
+ {
+  "beat": "beat-037",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Ship captain in his cabin at night, hesitating, a lantern and charts on his desk, distant flares through the porthole",
+  "overlay": null,
+  "text": "Flares at sea mean distress. The Californian's captain chose to wait until morning."
+ },
+ {
+  "beat": "beat-038",
+  "chapter": "The Collision",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Young lookout Frederick Fleet in the crow's nest of a ship's mast at night, binoculars in hand, moonlit sea",
+  "overlay": null,
+  "text": "Back aboard the Titanic, lookout Frederick Fleet sat high in the crow's nest, scanning the dark."
+ },
+ {
+  "beat": "beat-039",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Massive dark iceberg emerging from black ocean at night, seen from a ship's crow's nest above",
+  "overlay": null,
+  "text": "At eleven forty he saw it — a black mass rising from black water. He rang the bell three times."
+ },
+ {
+  "beat": "beat-040",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Jagged iceberg grinding along the steel hull of a great ocean liner at night, sparks and ice shards",
+  "overlay": null,
+  "text": "The ship turned hard. [JEDA] Too late. The iceberg scraped her side, slicing the hull like a tin can."
+ },
+ {
+  "beat": "beat-041",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Ship designer Thomas Andrews in a flooding mail room below deck, water rising around his boots, grim face",
+  "overlay": null,
+  "text": "Below deck, the ship's designer, Thomas Andrews, inspected the flooding. Five compartments breached. His verdict: she will sink."
+ },
+ {
+  "beat": "beat-042",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Thomas Andrews standing alone in a corridor, pocket watch in hand, water creeping along the floor",
+  "overlay": null,
+  "text": "Andrews knew the numbers best. The Titanic had, at most, two hours left."
+ },
+ {
+  "beat": "beat-043",
+  "chapter": "The Band Plays On",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Edwardian passengers in evening dress laughing and kicking chunks of ice on a ship's deck at night",
+  "overlay": null,
+  "text": "On the decks above, most passengers felt only a shudder. Some played with chunks of ice, laughing."
+ },
+ {
+  "beat": "beat-044",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Eight Edwardian musicians with violins and cello performing in a grand ship saloon at night",
+  "overlay": null,
+  "text": "In the grand saloon, the ship's eight musicians lifted their instruments."
+ },
+ {
+  "beat": "beat-045",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Musicians playing on a visibly tilted ship deck at night, passengers gathering in fear behind them",
+  "overlay": null,
+  "text": "As fear spread, the band played on — waltzes and hymns, steady as the deck tilted beneath them."
+ },
+ {
+  "beat": "beat-046",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Silhouettes of violinists playing against a dark night sky, a sinking ship's lights behind them, somber",
+  "overlay": null,
+  "text": "Not one of the eight survived. Witnesses said they played to the very end."
+ },
+ {
+  "beat": "beat-047",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A violin resting on an empty deck chair, moonlight, ghostly calm, memorial mood",
+  "overlay": null,
+  "text": "Their final song is remembered as Nearer, My God, to Thee — though no one will ever know the truth of that last tune."
+ },
+ {
+  "beat": "beat-048",
+  "chapter": "Lifeboats at Midnight",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Crew lowering a wooden lifeboat from a ship's davits at night, women and children boarding",
+  "overlay": null,
+  "text": "Captain Smith gave the order: women and children first. The lifeboats swung out into the dark."
+ },
+ {
+  "beat": "beat-049",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Row of lifeboats on a ship's deck at night, a vast crowd of passengers stretching behind them",
+  "overlay": null,
+  "text": "Here was the cruelest arithmetic of the night — lifeboats for barely half of those aboard."
+ },
+ {
+  "beat": "beat-050",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Sixteen wooden lifeboats lined on the deck of a great ocean liner, moonlit, deceptively orderly",
+  "overlay": null,
+  "text": "The law required only sixteen boats, and the Titanic carried sixteen, plus four collapsibles. Considered generous."
+ },
+ {
+  "beat": "beat-051",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Half-empty lifeboat descending into darkness, reluctant passengers staying on the brightly lit ship deck above",
+  "overlay": null,
+  "text": "Worse, many boats were lowered half empty. Passengers refused to leave the warm, bright ship for a tiny boat on a freezing sea."
+ },
+ {
+  "beat": "beat-052",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Distinguished Edwardian gentleman in a lifeboat at night, head bowed in shame, rowers around him",
+  "overlay": null,
+  "text": "Bruce Ismay, the chairman who demanded the biggest ship in the world, slipped into one of the last boats. He was judged for it forever."
+ },
+ {
+  "beat": "beat-053",
+  "chapter": "The Breaking",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Ocean liner's stern rising vertically into the night sky, bow submerged, propellers visible, terrifying",
+  "overlay": null,
+  "text": "By two in the morning, the bow had vanished beneath the waves. [JEDA] The stern rose high into the night sky."
+ },
+ {
+  "beat": "beat-054",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Great ocean liner snapping in half at night, sparks and debris, two sections separating, dramatic",
+  "overlay": "2:20 AM — THE SHIP IS GONE",
+  "text": "Then, with a sound like thunder, the great ship broke in two."
+ },
+ {
+  "beat": "beat-055",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Ship's stern plunging vertically into black ocean, swirling water, distant lifeboats watching",
+  "overlay": null,
+  "text": "The stern hung for a moment — then plunged. Fifteen hundred souls went down with her."
+ },
+ {
+  "beat": "beat-056",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Calm moonlit ocean at night, floating debris and an empty lifeboat, haunting stillness",
+  "overlay": null,
+  "text": "The cries of the freezing rose and faded. Within an hour, the sea was silent."
+ },
+ {
+  "beat": "beat-057",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Sunken ship's grand chandelier and debris on the dark ocean floor, deep blue gloom",
+  "overlay": null,
+  "text": "The band, the chandeliers, the unsinkable steel — all of it two miles down, in water just above freezing."
+ },
+ {
+  "beat": "beat-058",
+  "chapter": "Carpathia at Dawn",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Wireless operator of the Carpathia at his radio set at night, urgent, captain rushing in behind him",
+  "overlay": null,
+  "text": "Seventy kilometers away, the liner Carpathia received the distress call — and her captain never hesitated."
+ },
+ {
+  "beat": "beat-059",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Captain Arthur Rostron on a dark bridge, ordering full speed, icebergs looming in the gloom ahead",
+  "overlay": null,
+  "text": "Captain Arthur Rostron raced through the ice field at full speed — a gamble that could have sunk them both."
+ },
+ {
+  "beat": "beat-060",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Rescue ship at dawn pulling survivors from lifeboats, blankets and stretchers, exhausted faces, pale light",
+  "overlay": null,
+  "text": "At four in the morning, the Carpathia reached the lifeboats — seven hundred and six people pulled from the cold."
+ },
+ {
+  "beat": "beat-061",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Captain handing blankets to shivering survivors on a rescue ship deck at dawn, compassionate, heroic",
+  "overlay": null,
+  "text": "What strikes me most about the Carpathia is this: heroism is not complicated. It is simply putting other lives before your own."
+ },
+ {
+  "beat": "beat-062",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Survivors in blankets on a ship deck at sunrise, staring at an empty ocean, poignant",
+  "overlay": null,
+  "text": "The survivors watched the sun rise over an empty sea — the sea where their ship had been."
+ },
+ {
+  "beat": "beat-063",
+  "chapter": "What Remains",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Tilted ocean liner deck at night, tiny musicians playing, distress rockets in the sky, distant sleeping ship",
+  "overlay": null,
+  "text": "Picture that night: a tilting deck, the band still playing, rockets bursting overhead — and the nearest ship asleep on the horizon."
+ },
+ {
+  "beat": "beat-064",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Memorial of candles and flowers before a ship's anchor at dusk, names remembered, solemn",
+  "overlay": "1,517 LIVES LOST",
+  "text": "One thousand five hundred and seventeen died — one of the worst peacetime disasters in maritime history."
+ },
+ {
+  "beat": "beat-065",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Modern ice patrol ship among icebergs, lifeboats lined on a deck, legacy of reform, bright daylight",
+  "overlay": null,
+  "text": "The inquiries changed the sea forever: lifeboats for all, round-the-clock wireless watches, and an ice patrol that still sails today."
+ },
+ {
+  "beat": "beat-066",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Close view of a 1912 wireless operator's regretful face in lamplight, Morse key silent before him",
+  "overlay": null,
+  "text": "I keep thinking about the operator who told the Californian to shut up. [JEDA] A few angry words — and the world lost its chance."
+ },
+ {
+  "beat": "beat-067",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Deep-sea submersible lights revealing the rusted bow of the sunken Titanic on the ocean floor",
+  "overlay": null,
+  "text": "The wreck was found in nineteen eighty-five, split in two, two miles down — exactly where the survivors said she broke."
+ },
+ {
+  "beat": "beat-068",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A single life ring floating on a calm sunrise sea, a ship's silhouette fading into light, symbolic",
+  "overlay": null,
+  "text": "Titanic taught the world a simple lesson: no ship is unsinkable, no pride unbreakable, no warning should ever go unheeded."
+ },
+ {
+  "beat": "beat-069",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Split scene: a sinking ocean liner and the erupting Vesuvius over Pompeii, a bridge of light between them",
+  "overlay": null,
+  "text": "If this story pulled you in, our documentary on the night Pompeii vanished will grip you too — linked on screen now."
+ },
+ {
+  "beat": "beat-070",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: The hooded Keeper of Time figure gesturing toward a glowing seal, inviting, warm light",
+  "overlay": null,
+  "text": "Subscribe to Echoes of History Channel, and never miss a journey through time."
+ },
+ {
+  "beat": "beat-071",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: An ancient hourglass with swirling galaxies inside, stars and history scenes, poetic finale",
+  "overlay": null,
+  "text": "This has been Echoes of History. Time remembers — so should we."
+ },
+ {
+  "beat": "beat-072",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A road winding toward a glowing horizon through historical landscapes, inviting, epic painterly",
+  "overlay": null,
+  "text": "Until our next journey through time — stay curious."
+ }
+]

@@ -1,0 +1,941 @@
+{
+  "associations": [
+    {
+      "association_id": "goal-file:workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-presenter-20s-small.mp4",
+      "association_type": "document",
+      "created_at": "",
+      "details": {
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-presenter-20s-small.mp4",
+        "title": "contoh-presenter-20s-small.mp4"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-presenter-20s-small.mp4",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-file:workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-presenter-20s-wa.mp4",
+      "association_type": "document",
+      "created_at": "",
+      "details": {
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-presenter-20s-wa.mp4",
+        "title": "contoh-presenter-20s-wa.mp4"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-presenter-20s-wa.mp4",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-file:workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-presenter-20s.mp4",
+      "association_type": "document",
+      "created_at": "",
+      "details": {
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-presenter-20s.mp4",
+        "title": "contoh-presenter-20s.mp4"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-presenter-20s.mp4",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-file:workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-presenter-tws.mp4",
+      "association_type": "document",
+      "created_at": "",
+      "details": {
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-presenter-tws.mp4",
+        "title": "contoh-presenter-tws.mp4"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-presenter-tws.mp4",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-file:workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-promo-pouch.jpg",
+      "association_type": "document",
+      "created_at": "",
+      "details": {
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-promo-pouch.jpg",
+        "title": "contoh-promo-pouch.jpg"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-promo-pouch.jpg",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-file:workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-promo-tws.jpg",
+      "association_type": "document",
+      "created_at": "",
+      "details": {
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-promo-tws.jpg",
+        "title": "contoh-promo-tws.jpg"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-promo-tws.jpg",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-file:workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-video-pouch.mp4",
+      "association_type": "document",
+      "created_at": "",
+      "details": {
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-video-pouch.mp4",
+        "title": "contoh-video-pouch.mp4"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-video-pouch.mp4",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-file:workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-video-tws.mp4",
+      "association_type": "document",
+      "created_at": "",
+      "details": {
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-video-tws.mp4",
+        "title": "contoh-video-tws.mp4"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "workspace/goals/radar-cuan-affiliate-product-automation/files/contoh-video-tws.mp4",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-file:workspace/goals/radar-cuan-affiliate-product-automation/files/final-tws-review-wa.mp4",
+      "association_type": "document",
+      "created_at": "",
+      "details": {
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/files/final-tws-review-wa.mp4",
+        "title": "final-tws-review-wa.mp4"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "workspace/goals/radar-cuan-affiliate-product-automation/files/final-tws-review-wa.mp4",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-file:workspace/goals/radar-cuan-affiliate-product-automation/files/presenter-tws-20s-voice-wa.mp4",
+      "association_type": "document",
+      "created_at": "",
+      "details": {
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/files/presenter-tws-20s-voice-wa.mp4",
+        "title": "presenter-tws-20s-voice-wa.mp4"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "workspace/goals/radar-cuan-affiliate-product-automation/files/presenter-tws-20s-voice-wa.mp4",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-file:workspace/goals/radar-cuan-affiliate-product-automation/files/shopee-qr-login.png",
+      "association_type": "document",
+      "created_at": "",
+      "details": {
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/files/shopee-qr-login.png",
+        "title": "shopee-qr-login.png"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "workspace/goals/radar-cuan-affiliate-product-automation/files/shopee-qr-login.png",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-file:workspace/goals/radar-cuan-affiliate-product-automation/files/test-suara-lumi.mp3",
+      "association_type": "document",
+      "created_at": "",
+      "details": {
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/files/test-suara-lumi.mp3",
+        "title": "test-suara-lumi.mp3"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "workspace/goals/radar-cuan-affiliate-product-automation/files/test-suara-lumi.mp3",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/promo-afiliasi-harian__daily@17:11:00.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "promo-afiliasi-harian",
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/promo-afiliasi-harian__daily@17:11:00.md",
+        "title": "promo-afiliasi-harian__daily@17:11:00.md"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "promo-afiliasi-harian",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/shopee-video-harian__daily@19:11:00.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "shopee-video-harian",
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/shopee-video-harian__daily@19:11:00.md",
+        "title": "shopee-video-harian__daily@19:11:00.md"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "shopee-video-harian",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/tiktok-affiliate-harian__daily@10:11:00_user_current.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "tiktok-affiliate-harian",
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/tiktok-affiliate-harian__daily@10:11:00_user_current.md",
+        "title": "tiktok-affiliate-harian__daily@10:11:00_user_current.md"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "tiktok-affiliate-harian",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/tiktok-fyp-harian__daily@19:11:00.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "tiktok-fyp-harian",
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/tiktok-fyp-harian__daily@19:11:00.md",
+        "title": "tiktok-fyp-harian__daily@19:11:00.md"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "tiktok-fyp-harian",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/tiktok-loker-harian__daily@19:11:00.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "tiktok-loker-harian",
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/tiktok-loker-harian__daily@19:11:00.md",
+        "title": "tiktok-loker-harian__daily@19:11:00.md"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "tiktok-loker-harian",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/tiktok-loker-siang__daily@12:11:00.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "tiktok-loker-siang",
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/tiktok-loker-siang__daily@12:11:00.md",
+        "title": "tiktok-loker-siang__daily@12:11:00.md"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "tiktok-loker-siang",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/tiktok-shop-review-harian__daily@09:11:00_user_current.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "tiktok-shop-review-harian",
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/crons/daily/tiktok-shop-review-harian__daily@09:11:00_user_current.md",
+        "title": "tiktok-shop-review-harian__daily@09:11:00_user_current.md"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "tiktok-shop-review-harian",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/radar-cuan-affiliate-product-automation/crons/hourly/tiktok-shop-ganti-produk__interval@336h.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "tiktok-shop-ganti-produk",
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/crons/hourly/tiktok-shop-ganti-produk__interval@336h.md",
+        "title": "tiktok-shop-ganti-produk__interval@336h.md"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "tiktok-shop-ganti-produk",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/radar-cuan-affiliate-product-automation/crons/runonce/retry-promo-gagal-sore__runonce@2026-10-04T19:11:00.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "retry-promo-gagal-sore",
+        "path": "workspace/goals/radar-cuan-affiliate-product-automation/crons/runonce/retry-promo-gagal-sore__runonce@2026-10-04T19:11:00.md",
+        "title": "retry-promo-gagal-sore__runonce@2026-10-04T19:11:00.md"
+      },
+      "goal_id": "goal_8a2478af7164",
+      "target_id": "retry-promo-gagal-sore",
+      "updated_at": ""
+    }
+  ],
+  "briefings": [],
+  "goal": {
+    "attention_kind": "user_action_required",
+    "attention_updated_at": "2026-10-11 18:13:31.554+00",
+    "created_at": "2026-10-02T21:13:21Z",
+    "current_state": "Night loker video posted October 11; the next one runs October 12.",
+    "description": "Yunobi's affiliate money-making project alongside the blog network. Shopee affiliate product links are matched to the niche blogs with promo boxes in articles, plus a daily promo system (professional images, 9:16 presenter videos with Indonesian voiceover, captions) posting 5 different products per day to Instagram, two Threads accounts, a Facebook Page, and Shopee Video. The Shopee login is complete and the catalog grew from 16 to 36 products with history-based rotation for 7 days without repeats; Yunobi deferred the payment and tax setup until commissions arrive.",
+    "emoji": "🎯",
+    "goal_id": "goal_8a2478af7164",
+    "icon_generation_status": "ready",
+    "last_activity_at": "2026-10-11T13:51:00Z",
+    "momentum": "",
+    "momentum_status": "on_track",
+    "pushable": true,
+    "slug": "radar-cuan-affiliate-product-automation",
+    "sort_order": 2,
+    "source": "assistant_tracking",
+    "status": "active",
+    "title": "Radar Cuan affiliate product automation",
+    "updated_at": "2026-10-11T18:13:31Z"
+  },
+  "ok": true,
+  "recent_briefing": null,
+  "suggestions": [],
+  "updates": [
+    {
+      "created_at": "2026-10-11T13:51:00Z",
+      "current_state": "Video loker malam ini tayang di TikTok @ngeweb.yuk (status SUCCESS).",
+      "description": "Video \"73% posisi kerja luar negeri MASIH KOSONG — Kementerian P2MI\" (39,9 detik) terposting sukses ke TikTok; history sudah diperbarui.",
+      "effective_at": "2026-10-11T13:51:00Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Video loker TikTok malam tayang",
+      "update_id": "goal_update_ce5118f50376",
+      "updated_at": "2026-10-11T13:51:00Z"
+    },
+    {
+      "created_at": "2026-10-11T12:13:26Z",
+      "current_state": "Judul bio kini 'Info Loker & Pilihan Produk' dengan pesan transparansi afiliasi; versi baru belum di-publish ke link publik.",
+      "description": "Judul tab diganti dari 'Rekomendasi Produk Pilihan' dan ditambahkan penjelasan jujur soal afiliasi; publish ulang ke link publik masih menunggu.",
+      "effective_at": "2026-10-11T09:48:48Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Bio link diperbaiki: judul baru + pesan transparansi",
+      "update_id": "goal_update_e2492ba9b7b7",
+      "updated_at": "2026-10-11T12:13:26Z"
+    },
+    {
+      "created_at": "2026-10-11T12:13:26Z",
+      "current_state": "Isi halaman bio sudah versi loker; Yunobi meminta bio diperbaiki agar pengunjung percaya dengan pesan khusus soal afiliasi.",
+      "description": "Yunobi menunjuk URL masih berslug affiliate; asisten memverifikasi tombol loker sudah ada di halamannya dan Yunobi meminta perbaikan bio plus pesan kepercayaan.",
+      "effective_at": "2026-10-11T09:44:19Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Yunobi minta bio diperbaiki dengan pesan kepercayaan",
+      "update_id": "goal_update_c1a39134647b",
+      "updated_at": "2026-10-11T12:13:26Z"
+    },
+    {
+      "created_at": "2026-10-11T12:13:25Z",
+      "current_state": "Link bio TikTok memang belum bisa di-tap (butuh 1000 followers); URL diucapkan verbal dan ditampilkan sebagai teks overlay di tiap video loker.",
+      "description": "Yunobi mengonfirmasi link bio tidak bisa di-tap dari HP-nya; asisten menjelaskan aturan TikTok 1000 followers dan menetapkan strategi sementara verbal + teks overlay URL.",
+      "effective_at": "2026-10-11T09:41:09Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Link bio dipastikan belum bisa di-tap",
+      "update_id": "goal_update_6043841819d5",
+      "updated_at": "2026-10-11T12:13:25Z"
+    },
+    {
+      "created_at": "2026-10-11T06:13:49Z",
+      "current_state": "TikTok links aren't clickable until 1000 followers (~5 now); videos will say and show the blog URL verbally and on-screen until then.",
+      "description": "Yunobi asked whether the link can be clicked; the assistant explained TikTok's rule (only bio links, and those need 1000 followers) and confirmed the interim workaround of verbal plus text-overlay URL.",
+      "effective_at": "2026-10-11T05:55:44Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Link clickability clarified: 1000 followers needed",
+      "update_id": "goal_update_3b3d0098fce1",
+      "updated_at": "2026-10-11T06:13:49Z"
+    },
+    {
+      "created_at": "2026-10-11T06:13:49Z",
+      "current_state": "Waiting on Yunobi to check from his phone whether the bio link is tappable, after TikTok's slider captcha blocked the assistant.",
+      "description": "Yunobi asked the assistant to make the bio link clickable, but TikTok threw a slider captcha the assistant can't pass; the assistant asked Yunobi to verify from his phone or take over the browser manually.",
+      "effective_at": "2026-10-11T05:49:15Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Bio link clickability check blocked by captcha",
+      "update_id": "goal_update_5cc530a02896",
+      "updated_at": "2026-10-11T06:13:49Z"
+    },
+    {
+      "created_at": "2026-10-11T06:13:49Z",
+      "current_state": "The TikTok bio link page now shows an 'Info Loker Terkini' button pointing at the loker blog, and video CTAs switched to 'link di bio'.",
+      "description": "Yunobi shared his TikTok credentials and approved; the assistant logged in (6 followers), found the bio link page already active so the earlier verbal-URL plan was dropped, added the loker blog button on top, and published it with Yunobi's approval.",
+      "effective_at": "2026-10-11T05:29:47Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Loker blog button added to TikTok bio link page",
+      "update_id": "goal_update_848d97315c5b",
+      "updated_at": "2026-10-11T06:13:49Z"
+    },
+    {
+      "created_at": "2026-10-11T06:13:49Z",
+      "current_state": "TikTok loker videos now use salary hooks in the first 3 seconds, keyword text overlays, comment-bait CTAs, and split 12:00/19:00 posting slots.",
+      "description": "At Yunobi's request the assistant researched 2026 TikTok FYP tactics and applied them to the loker videos; Yunobi was asked to reply to incoming comments manually since that can't be automated.",
+      "effective_at": "2026-10-11T05:15:20Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "FYP tactics researched and applied to loker videos",
+      "update_id": "goal_update_f25bb8c8f61a",
+      "updated_at": "2026-10-11T06:13:49Z"
+    },
+    {
+      "created_at": "2026-10-11T06:13:49Z",
+      "current_state": "TikTok @ngeweb.yuk now runs job-listings content, 2 videos a day; first video airs tonight; targeting 600 followers to unlock affiliate.",
+      "description": "Yunobi cancelled the YouTube plan and chose TikTok on the existing account to chase followers for affiliate access; the accidentally created Info Loker Terkini YouTube channel is kept idle with branding but no content.",
+      "effective_at": "2026-10-11T04:32:51Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "TikTok @ngeweb.yuk pivots to job-listings content",
+      "update_id": "goal_update_97d9103ecb98",
+      "updated_at": "2026-10-11T06:13:49Z"
+    },
+    {
+      "created_at": "2026-10-11T06:13:49Z",
+      "current_state": "Yunobi ordered the assistant to build it; the video format is settled as one job listing per video.",
+      "description": "After asking for new project ideas and checking the money potential, Yunobi told the assistant to build the job-listings content project based on his most active loker blog.",
+      "effective_at": "2026-10-11T04:26:29Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Job-listings content project approved",
+      "update_id": "goal_update_a7dd5c842926",
+      "updated_at": "2026-10-11T06:13:49Z"
+    },
+    {
+      "created_at": "2026-10-09T19:12:21Z",
+      "current_state": "Komisi menumpuk tapi tidak bisa ditarik sampai info pembayaran & pajak diisi.",
+      "description": "Pengisian manual di aplikasi Shopee Affiliate: foto KTP/NPWP dan data rekening dengan nama sama; verifikasi 1–3 hari kerja.",
+      "effective_at": "2026-10-09T12:46:07Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Komisi Shopee Affiliate tertahan",
+      "update_id": "goal_update_f178dd6c0e59",
+      "updated_at": "2026-10-09T19:12:21Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Eror verifikasi nomor muncul bahkan saat kolom nomor masih kosong — masalahnya di sisi Facebook yang belum membuka jalur verifikasi, bukan nomor yang dimasukkan.",
+      "description": "User menjelaskan via voice note bahwa KTP sudah diupload dan nama muncul tapi verifikasi nomor selalu eror; asisten menegaskan kemungkinan masih menunggu hasil tinjauan KTP dan meminta berhenti mencoba dulu sambil cek email berkala.",
+      "effective_at": "2026-10-09T08:53:31Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Klarifikasi eror verifikasi FB: bukan salah nomor",
+      "update_id": "goal_update_f8b2360d2c21",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Akun FB user dinonaktifkan; verifikasi nomor HP gagal terus dengan eror generik, KTP sudah diupload dan antre ditinjau manual 1–3 hari.",
+      "description": "Asisten menyarankan berhenti mencoba memasukkan nomor (tiap gagal menambah pembatasan) dan menunggu hasil tinjauan via email.",
+      "effective_at": "2026-10-09T08:51:26Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "FB dinonaktifkan, verifikasi nomor gagal — KTP antre tinjauan manual",
+      "update_id": "goal_update_711e0eddff4b",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Promo afiliasi, cross-promo Threads, resep/harga harian, Shopee Video, dan pengingat TikTok Shop dimatikan; yang jalan tinggal blog dan YouTube.",
+      "description": "User memerintahkan hentikan share sosmed dan fokus ke blog + YouTube karena akun FB dinonaktifkan; asisten mematikan 6 jadwal sosmed.",
+      "effective_at": "2026-10-09T08:49:02Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Share sosmed dihentikan, fokus blog + YouTube",
+      "update_id": "goal_update_1cafb03647f6",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Ide produk digital ditolak; asisten berhenti memberi ide project baru.",
+      "description": "Usulan produk digital (ebook, template, preset) ditolak user sebagai bakal sepi; asisten mengakui tidak ada cara otomatis, gratis, dan cepat cuan lalu menghentikan brainstorming.",
+      "effective_at": "2026-10-09T03:37:12Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Brainstorming project baru dihentikan",
+      "update_id": "goal_update_417bf9d093f3",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Brainstorming project pengganti TikTok berjalan; dua ide ditolak, kriteria diperjelas: otomatis dan cepat cuan tanpa nunggu berbulan-bulan.",
+      "description": "User kecewa dengan views TikTok dan meminta skip TikTok lalu carikan ide project baru yang cepat dapat cuan dan gratis; ide jasa setup automation YouTube dan jasa artikel SEO ditolak (soal token dan bukti traffic), user menegaskan maunya yang otomatis dan cepat cuan.",
+      "effective_at": "2026-10-09T03:35:50Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "User minta skip TikTok, cari ide project baru yang cepat cuan",
+      "update_id": "goal_update_feacb0b9b789",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Followers TikTok masih 5 dan video mentok ~5 views; jadwal FYP pindah ke 19:11 malam ini.",
+      "description": "User melaporkan followers masih 5 dan video sepi tidak masuk FYP; asisten memindahkan jadwal ke 19:11 dan jujur bilang 5 ke 600 followers organik normalnya butuh 1–3 bulan, menyarankan share tiap video ke status WA.",
+      "effective_at": "2026-10-09T03:21:17Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "TikTok FYP sepi: followers stuck di 5, jadwal pindah 19:11",
+      "update_id": "goal_update_5c16e5a5fa2c",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T03:17:20Z",
+      "current_state": "Video tebak-tebakan hari ini terposting di TikTok @ngeweb.yuk (status SUCCESS).",
+      "description": "Judul \"Tebak-tebakan 5 Detik — Semakin Diambil Semakin Besar\" (32 detik, voiceover Mudiwa) tayang via Taisly; generate klip video AI sedang diblokir regional sehingga dipakai gambar AI beranimasi Ken Burns.",
+      "effective_at": "2026-10-09T03:17:20Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Video FYP TikTok harian terposting",
+      "update_id": "goal_update_5639206a6b19",
+      "updated_at": "2026-10-09T03:17:20Z"
+    },
+    {
+      "created_at": "2026-10-09T03:13:13Z",
+      "current_state": "Posting produk TikTok dihentikan sementara; konten hiburan FYP yang berjalan hari ini.",
+      "description": "Jadwal harian TikTok affiliate tidak memposting produk hari ini sesuai keputusan kemarin, dan konten hiburan pengejar followers sedang diproduksi oleh cron FYP yang aktif. Terlihat dua jadwal TikTok aktif di jam yang sama, jadi salah satu perlu dinonaktifkan atau diperbarui.",
+      "effective_at": "2026-10-09T03:13:13Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "TikTok: mode review produk ditahan (pivot FYP)",
+      "update_id": "goal_update_729ca15cc068",
+      "updated_at": "2026-10-09T03:13:13Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Meta menolak langsung semua perintah posting (error 403); pengiriman dihentikan dan dicoba lagi besok.",
+      "description": "Kegagalan kali ini bukan karena ketukan terlewat — kartu persetujuan bahkan tidak sempat muncul, diduga imbas pengetatan Meta pasca-penangguhan akun FB.",
+      "effective_at": "2026-10-08T13:38:00Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "15 pengiriman ulang gagal total — Meta memblokir",
+      "update_id": "goal_update_4f3aae9eddea",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "15 kartu persetujuan dikirim ulang satu per satu ke aplikasi Muse atas permintaan user.",
+      "description": "Lima slot yang ditolak langsung server Meta (2 IG, 3 Threads) tidak ikut dikirim ulang karena dikirim ulang pun akan gagal lagi.",
+      "effective_at": "2026-10-08T13:25:19Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Pengiriman ulang 15 persetujuan promo dimulai",
+      "update_id": "goal_update_588b4d5db338",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-08T12:12:21Z",
+      "current_state": "Paket 5 video siap-upload disiapkan; video diproduksi (AI 2 segmen + voiceover Indonesia), run promo-afiliasi-harian masih memposting ke IG/Threads/FB.",
+      "description": "5 video vertikal 9:16 (24–31 detik) beserta caption siap-copy, harga, link afiliasi, dan hashtag untuk upload manual via aplikasi Shopee malam ini.",
+      "effective_at": "2026-10-08T12:12:21Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Paket 5 video Shopee harian 2026-10-08 siap",
+      "update_id": "goal_update_d1283b1a317c",
+      "updated_at": "2026-10-08T12:12:21Z"
+    },
+    {
+      "created_at": "2026-10-08T07:27:11Z",
+      "current_state": "Video hiburan perdana TikTok @ngeweb.yuk berhasil tayang hari ini.",
+      "description": "Video perdana \"Drama Anak Kos — Kamar Sebelah yang Kosong 3 Bulan\" (episode 1, 35 detik, cliffhanger) sudah diposting ke TikTok @ngeweb.yuk via Taisly dan terverifikasi status SUCCESS.",
+      "effective_at": "2026-10-08T07:27:11Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Video FYP perdana tayang",
+      "update_id": "goal_update_351757a3d852",
+      "updated_at": "2026-10-08T07:27:11Z"
+    },
+    {
+      "created_at": "2026-10-08T12:10:30Z",
+      "current_state": "5 video promo AI + voiceover Indonesia selesai; 15 dari 20 postingan menunggu ketukan persetujuan malam ini, 5 gagal (IG 403 + Threads-1 konsisten gagal, diduga terkait penegakan akun Meta hari ini).",
+      "description": "Lima produk hari ini (Cream JRG, Gamis Karina, Gamis Kayla, Dress Midi, Mainan Sains) diproduksi jadi video presenter AI 24–31 detik dengan voiceover Indonesia; posting ke 4 akun: 15 slot menunggu persetujuan user, 2 IG dan 3 Threads-1 gagal total kemungkinan karena penegakan akun Meta hari ini.",
+      "effective_at": "2026-10-08T00:00:00Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Promo harian 8 Okt: 5 video AI presenter selesai diproduksi",
+      "update_id": "goal_update_6ef9460fd570",
+      "updated_at": "2026-10-08T12:10:30Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "4 postingan promo Threads gagal terkirim karena limit harian Threads habis; dicoba lagi besok.",
+      "description": "2 ketukan sudah dipicu dan disetujui Yunobi tapi gagal terkirim karena rate limit harian Threads; 2 sisanya ditahan agar ketukan tidak terbuang, semuanya dicoba lagi besok setelah limit reset.",
+      "effective_at": "2026-10-07T16:31:23Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "4 promo Threads gagal kena rate limit harian",
+      "update_id": "goal_update_e88b4b14d7e1",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "4 postingan promo Threads (pouch travel organizer, 2 vitamin kucing, impact wrench) menunggu ketukan persetujuan malam ini.",
+      "description": "Malem ini tersisa 5 ketukan hingga 23:00: 4 di antaranya untuk postingan promo Threads yang sudah siap, 1 untuk upload video YouTube.",
+      "effective_at": "2026-10-07T15:32:11Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "4 postingan promo Threads menunggu ketukan malam ini",
+      "update_id": "goal_update_56759d3c2a24",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T12:12:20Z",
+      "current_state": "Paket 5 video siap diupload manual via aplikasi Shopee.",
+      "description": "Lima video afiliasi hari ini sudah terverifikasi valid (9:16, 23–31 detik) dan paket upload siap dengan caption, link afiliasi, dan hashtag.",
+      "effective_at": "2026-10-07T12:12:20Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Paket 5 video Shopee siap upload (2026-10-07)",
+      "update_id": "goal_update_3b9563be34b6",
+      "updated_at": "2026-10-07T12:12:20Z"
+    },
+    {
+      "created_at": "2026-10-07T11:15:22Z",
+      "current_state": "12 dari 20 postingan promo tayang; 8 sisanya menunggu ketukan persetujuan (4 Threads, 3 FB) atau retry setelah tengah malam (Threads rate limit).",
+      "description": "5 produk hari ini (Pouch Travel Organizer Serut, 2 vitamin kucing, Sabun Cuci Piring 5L, Impact Wrench) diproduksi lengkap: video AI presenter 2-segmen + voiceover Indonesia + gambar promo + caption. IG tayang semua 5. 3 postingan FB gagal karena error infrastruktur sementara; postingan Threads/FB yang belum tayang menunggu ketukan persetujuan user di sesi malam.",
+      "effective_at": "2026-10-07T11:15:22Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Promo afiliasi harian 2026-10-07: 12 dari 20 postingan tayang",
+      "update_id": "goal_update_8a3ca5043666",
+      "updated_at": "2026-10-07T11:15:22Z"
+    },
+    {
+      "created_at": "2026-10-06T15:03:49Z",
+      "current_state": "5 videos with captions, hashtags, and affiliate links sent for manual upload from the phone.",
+      "description": "The daily Shopee Video package (Cream JRG, ThePods Gen 4, ThePods Pro 3, cast-iron pan, egg boiler) was sent early with upload instructions: one video every 30-45 minutes via the Shopee app.",
+      "effective_at": "2026-10-06T12:12:08Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Shopee Video package sent",
+      "update_id": "goal_update_783d2a575f2c",
+      "updated_at": "2026-10-06T15:03:49Z"
+    },
+    {
+      "created_at": "2026-10-06T10:50:29Z",
+      "current_state": "5 video promo (presenter AI + voiceover Indonesia) selesai; 4 dari 20 postingan sosmed tayang, 4 menunggu ketukan persetujuan malam ini, 12 kena rate limit.",
+      "description": "Lima produk hari ini (Paket Cream JRG, ThePods Gen 4, ThePods Pro 3, Panci Cast Iron, Rebus Telur) sudah jadi video + gambar promonya; yang tayang: 1 IG dan 3 FB Page, sisanya 4 menunggu ketukan Yunobi dan 12 tertahan rate limit (10 Threads + 2 IG).",
+      "effective_at": "2026-10-06T10:50:29Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Promo afiliasi harian 6 Okt — 5 video jadi, 4 postingan tayang",
+      "update_id": "goal_update_713853f3c294",
+      "updated_at": "2026-10-06T10:50:29Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:16Z",
+      "current_state": "Paket 5 video Shopee disiapkan jam 19:11 tiap hari untuk upload manual dari HP mulai malam ini.",
+      "description": "Jadwal 14:11 tidak masuk akal karena video baru dibuat 17:11; jadwal baru 19:11 memastikan video sudah jadi sebelum paket disiapkan.",
+      "effective_at": "2026-10-06T07:14:03Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Jadwal Shopee Video pindah ke 19:11",
+      "update_id": "goal_update_ddcd933c1f0f",
+      "updated_at": "2026-10-06T09:17:16Z"
+    },
+    {
+      "created_at": "2026-10-06T07:12:45Z",
+      "current_state": "Upload Shopee Video hari ini tetap tidak jalan (hari ke-3 tertahan): verifikasi QR Seller Center jalan buntu untuk akun afiliasi, dan video baru belum ada karena jadwal produksi pindah ke 17:11.",
+      "description": "Jalur upload manual via aplikasi Shopee sudah disiapkan untuk 5 video kemarin, tapi belum ada konfirmasi upload dari Yunobi; perbaikan body cron menunggu dilakukan dari chat WhatsApp.",
+      "effective_at": "2026-10-06T07:12:45Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Upload Shopee Video tertahan (3 hari)",
+      "update_id": "goal_update_d90a3dc96a53",
+      "updated_at": "2026-10-06T07:12:45Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:16Z",
+      "current_state": "Retry Threads pagi dibatalkan karena rate limit masih aktif; rencana coba sekali via run 17:11.",
+      "description": "Rate limit Threads masih aktif (429 dari burst semalam), retry pagi dibatalkan agar tidak bakar ketukan persetujuan sia-sia.",
+      "effective_at": "2026-10-06T06:57:07Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Retry Threads dibatalkan — rate limit masih aktif",
+      "update_id": "goal_update_47c0e19ae1b2",
+      "updated_at": "2026-10-06T09:17:16Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:16Z",
+      "current_state": "IG 5/5 and FB 5/5 done; 2 puzzle-kayu Threads posts wait for the rate limit to reset.",
+      "description": "Yunobi can say 'lanjut' to retry the two pending Threads posts, or they ride along with tomorrow's 17:11 promo run.",
+      "effective_at": "2026-10-05T17:59:54Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Final tally: 18 of 20 live, 2 Threads posts pending",
+      "update_id": "goal_update_155e937637c4",
+      "updated_at": "2026-10-06T09:17:16Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:16Z",
+      "current_state": "12 of 15 posts live; 3 hit a Threads rate limit.",
+      "description": "Five videos were pushed to two Threads accounts and the FB Page with per-post approval taps, and the remaining tap count was reported to Yunobi at each stage.",
+      "effective_at": "2026-10-05T17:45:07Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "15 promo posts pushed to Threads and FB Page",
+      "update_id": "goal_update_b8349f190665",
+      "updated_at": "2026-10-06T09:17:16Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:16Z",
+      "current_state": "5/5 videos live on IG; no password reset was needed after all.",
+      "description": "Gamis Karina, Gamis Kayla, Aura Midi Dress, Mainan Sains, and Puzzle Kayu all published to IG; the account was still connected so the reset email went unused, and the IG username is now @beritaviraldotcom.",
+      "effective_at": "2026-10-05T16:43:10Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "All 5 promo videos live on IG @beritaviraldotcom",
+      "update_id": "goal_update_4b45ac010af1",
+      "updated_at": "2026-10-06T09:17:16Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:16Z",
+      "current_state": "Yunobi approved solving the Instagram CAPTCHA.",
+      "description": "The assistant asked for explicit written permission to solve the Instagram CAPTCHA and Yunobi replied 'ya boleh coba'.",
+      "effective_at": "2026-10-05T16:18:39Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Instagram CAPTCHA approval granted",
+      "update_id": "goal_update_70cc2de2cb30",
+      "updated_at": "2026-10-06T09:17:16Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:16Z",
+      "current_state": "Promo 5 produk siap; 5 video selesai dan posting menunggu ketukan persetujuan.",
+      "description": "Yunobi meminta affiliate sosmed dijalankan lagi; 5 produk (Gamis Karina, Gamis Kayla, Dress Midi, Mainan Sains, Puzzle Kayu) disiapkan lengkap dengan video.",
+      "effective_at": "2026-10-05T16:03:03Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Promo afiliasi sosmed dijalankan ulang",
+      "update_id": "goal_update_32617f86ea94",
+      "updated_at": "2026-10-06T09:17:16Z"
+    },
+    {
+      "created_at": "2026-10-05T08:35:38Z",
+      "current_state": "Upload Shopee Video tetap harus dari HP; emulator tidak bisa dipakai.",
+      "description": "Usulan memakai emulator Android diperiksa dan ditolak: VM tidak punya virtualisasi hardware dan sumber daya tidak cukup, dan Shopee biasanya memblokir emulator.",
+      "effective_at": "2026-10-05T07:23:10Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Opsi emulator Android dipastikan tidak memungkinkan",
+      "update_id": "goal_update_68529f0141ef",
+      "updated_at": "2026-10-05T08:35:38Z"
+    },
+    {
+      "created_at": "2026-10-05T08:35:38Z",
+      "current_state": "Verifikasi QR seller tidak diperlukan; upload langsung dari aplikasi Shopee di HP.",
+      "description": "Yunobi melaporkan QR kemarin mengarah ke unduhan aplikasi seller dan pendaftaran akun seller; asisten mengoreksi bahwa kreator affiliate cukup upload dari tab Video di aplikasi Shopee dan menegaskan upload hanya bisa dari HP.",
+      "effective_at": "2026-10-05T07:22:28Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "QR verifikasi dikoreksi — bukan jalur seller",
+      "update_id": "goal_update_bee5d71e22ae",
+      "updated_at": "2026-10-05T08:35:38Z"
+    },
+    {
+      "created_at": "2026-10-05T08:35:38Z",
+      "current_state": "5 video Shopee 5 Oktober beserta caption, hashtag, dan link afiliasi sudah di tangan Yunobi.",
+      "description": "Atas permintaan Yunobi, kelima video promo (gamis Karina, gamis Kayla, midi dress, mainan sains, puzzle kayu) dikirim siap upload beserta caption dan link afiliasi seperti pola kemarin.",
+      "effective_at": "2026-10-05T07:20:57Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "5 video Shopee + caption diserahkan untuk upload manual",
+      "update_id": "goal_update_0db85957bc4a",
+      "updated_at": "2026-10-05T08:35:38Z"
+    },
+    {
+      "created_at": "2026-10-05T07:14:46Z",
+      "current_state": "0 dari 5 video terupload — Seller Center masih meminta verifikasi QR perangkat.",
+      "description": "Lima video promo hari ini (Gamis Karina Rp125.000, Gamis Kayla Rp80.000, Midi Dress Rp66.644, Mainan Sains Rp98.000, Puzzle Kayu Rp21.890) sudah siap, tapi Shopee masih memblokir halaman upload sampai kode QR perangkat dipindai di aplikasi Shopee di HP.",
+      "effective_at": "2026-10-05T07:14:46Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Upload Shopee Video 5 Okt: terblokir verifikasi QR",
+      "update_id": "goal_update_7ff6bab0619c",
+      "updated_at": "2026-10-05T07:14:46Z"
+    },
+    {
+      "created_at": "2026-10-04T21:23:44Z",
+      "current_state": "Promo afiliasi (5 produk ke 4 akun) aktif lagi; produksi jam 17:11 dan semua ketukan muncul jam 20:00-22:00.",
+      "description": "Yunobi meminta semua ketukan persetujuan tetap jam 8-11 malam; jadwal baru menempatkan produksi promo afiliasi jam 17:11 dengan ketukan malam hari.",
+      "effective_at": "2026-10-04T17:02:36Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Promo afiliasi diaktifkan kembali",
+      "update_id": "goal_update_74ff5ba0c865",
+      "updated_at": "2026-10-04T21:23:44Z"
+    },
+    {
+      "created_at": "2026-10-04T12:48:35Z",
+      "current_state": "0 dari 7 postingan retry tayang — semua menunggu persetujuan yang tidak datang.",
+      "description": "Kirim ulang 7 promo yang gagal tadi siang dicoba lagi sore ini, tapi semuanya (Pouch Travel Organizer di Threads-2, Vitamin Minyak Ikan Kucing di Threads-1, Sabun Cuci Piring di Threads-1 & Threads-2, Impact Wrench di IG & Threads-1 & Threads-2) menunggu persetujuan yang tak kunjung datang; coba lagi besok pagi.",
+      "effective_at": "2026-10-04T12:48:35Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Retry 7 postingan promo gagal (sore)",
+      "update_id": "goal_update_b423f2906037",
+      "updated_at": "2026-10-04T12:48:35Z"
+    },
+    {
+      "created_at": "2026-10-04T14:33:26Z",
+      "current_state": "All 5 of today's Shopee videos uploaded manually by Yunobi; 7 retried promos still await approval.",
+      "description": "Yunobi confirmed the 5 Shopee videos were uploaded from the phone after receiving the shortened captions and affiliate links, so today's Shopee Video task is done.",
+      "effective_at": "2026-10-04T09:00:13Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Today's 5 Shopee videos uploaded manually",
+      "update_id": "goal_update_92f3547e0cca",
+      "updated_at": "2026-10-04T14:33:26Z"
+    },
+    {
+      "created_at": "2026-10-04T08:31:39Z",
+      "current_state": "All 5 videos re-encoded to 720p with direct download links valid until Oct 6.",
+      "description": "After the in-chat video files could not be downloaded, the videos were re-encoded to 720p and direct download links were issued for all five.",
+      "effective_at": "2026-10-04T08:20:51Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "720p videos reissued with direct download links",
+      "update_id": "goal_update_b68aa26b01b4",
+      "updated_at": "2026-10-04T08:31:39Z"
+    },
+    {
+      "created_at": "2026-10-04T08:31:39Z",
+      "current_state": "Shopee Video upload exists only in the mobile app; the 5 videos, captions, and affiliate links were sent and now await Yunobi's upload.",
+      "description": "After Yunobi insisted the assistant handle the upload, checks showed affiliate video upload is only available in the Shopee mobile app with no web option and no seller registration or KTP needed, so the 5 presenter videos with captions and affiliate links were handed over for manual upload from the phone.",
+      "effective_at": "2026-10-04T08:03:01Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Shopee Video upload moved to manual phone upload",
+      "update_id": "goal_update_34c27b8ec633",
+      "updated_at": "2026-10-04T08:31:39Z"
+    },
+    {
+      "created_at": "2026-10-04T07:17:08Z",
+      "current_state": "Upload 5 video Shopee Video hari ini tertunda — Shopee meminta verifikasi QR via aplikasi HP sebelum upload bisa dilakukan.",
+      "description": "Upload video via web ternyata hanya bisa lewat Seller Center, dan Seller Center mengharuskan scan kode QR dengan aplikasi Shopee di HP; setelah verifikasi ini selesai, kelima video siap diupload satu per satu dengan jeda natural.",
+      "effective_at": "2026-10-04T07:17:08Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Upload Shopee Video tertunda — butuh verifikasi QR",
+      "update_id": "goal_update_8f23446b470e",
+      "updated_at": "2026-10-04T07:17:08Z"
+    },
+    {
+      "created_at": "2026-10-04T05:40:31Z",
+      "current_state": "5 video presenter AI selesai; 2 dari 20 posting tayang di IG, 18 menunggu persetujuan user.",
+      "description": "Kelima video 20 detik (segmen review + pemakaian produk, voiceover Bahasa Indonesia) berhasil dibuat penuh tanpa fallback; hanya 2 posting IG yang tayang, sisanya menunggu ketukan persetujuan di HP user.",
+      "effective_at": "2026-10-04T05:40:31Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Promo afiliasi harian 2026-10-04",
+      "update_id": "goal_update_9ec9714b08be",
+      "updated_at": "2026-10-04T05:40:31Z"
+    },
+    {
+      "created_at": "2026-10-03T20:53:44Z",
+      "current_state": "6 posting promo tayang; 12 menunggu persetujuan, 2 gagal di FB Page, dan 3 produk belum diposting.",
+      "description": "Alat Rebus Telur tayang di IG, Threads @ngewebyuk, dan FB Page; New Balance Fresh Foam tayang di IG dan kedua akun Threads. 12 keburu timeout menunggu persetujuan, 2 gagal teknis di FB Page, dan 3 produk (Fuelcell Rebel, Spion Koso, Knalpot Racing) belum diposting.",
+      "effective_at": "2026-10-03T19:09:17Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Promo posting results: 6 live, 14 pending",
+      "update_id": "goal_update_87450aaa5670",
+      "updated_at": "2026-10-03T20:53:44Z"
+    },
+    {
+      "created_at": "2026-10-03T14:30:29Z",
+      "current_state": "The 5 Shopee Video uploads are the same videos produced for IG, Threads, and Facebook.",
+      "description": "Yunobi confirmed the videos should match the social batch, and the assistant set the single 12:11 production batch to serve all platforms including Shopee Video.",
+      "effective_at": "2026-10-03T09:24:24Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Same videos reused across every platform",
+      "update_id": "goal_update_1a16112f4af4",
+      "updated_at": "2026-10-03T14:30:29Z"
+    },
+    {
+      "created_at": "2026-10-03T14:30:29Z",
+      "current_state": "Shopee Video uploads start tomorrow at 14:11, 5 videos per day spaced 30-45 minutes apart via a real browser.",
+      "description": "The assistant created the daily 14:11 schedule using a real browser, randomized spacing, original content, and moderate volume, while noting honestly that no method guarantees evading detection.",
+      "effective_at": "2026-10-03T09:23:40Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Shopee Video schedule created",
+      "update_id": "goal_update_e0ee4dba31a3",
+      "updated_at": "2026-10-03T14:30:29Z"
+    },
+    {
+      "created_at": "2026-10-03T14:30:29Z",
+      "current_state": "Yunobi requested affiliate promos on Shopee Video: 5 video posts per day that avoid looking like bot activity.",
+      "description": "Yunobi asked for the affiliate promotion to extend beyond social media to Shopee Video, with five video posts per day that minimize bot-detection risk.",
+      "effective_at": "2026-10-03T09:23:22Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Shopee Video distribution requested",
+      "update_id": "goal_update_117d7ec0b46a",
+      "updated_at": "2026-10-03T14:30:29Z"
+    },
+    {
+      "created_at": "2026-10-03T08:54:00Z",
+      "current_state": "5 presenter videos for today's products are ready; posting to IG, Threads, and FB awaits approval.",
+      "description": "The videos cover Alat Rebus Telur Elektrik, two New Balance models, Spion Koso Lipat Motor, and Knalpot Racing; the assistant asked Yunobi to approve them in the Muse app so they go live.",
+      "effective_at": "2026-10-03T06:02:40Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Today's 5 presenter videos done; awaiting approval",
+      "update_id": "goal_update_fcba1d1f901f",
+      "updated_at": "2026-10-03T08:54:00Z"
+    },
+    {
+      "created_at": "2026-10-03T08:54:00Z",
+      "current_state": "Video format locked: 20-second review+usage with Indonesian voiceover.",
+      "description": "Yunobi approved the demo; starting today at 12:11, five videos per day ship in the review-plus-usage style with Indonesian voiceover.",
+      "effective_at": "2026-10-03T04:26:20Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Presenter video format locked",
+      "update_id": "goal_update_8375c0bf9668",
+      "updated_at": "2026-10-03T08:54:00Z"
+    },
+    {
+      "created_at": "2026-10-03T02:44:18Z",
+      "current_state": "Awaiting user's verdict on Indonesian voice quality.",
+      "description": "Assistant sent another Indonesian voice sample and asked the user to judge which sounds most natural before locking it in.",
+      "effective_at": "2026-10-03T02:13:02Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Voice quality test sent",
+      "update_id": "goal_update_3f8bafd24b12",
+      "updated_at": "2026-10-03T02:44:18Z"
+    },
+    {
+      "created_at": "2026-10-03T02:44:18Z",
+      "current_state": "Voiceover must be in Indonesian.",
+      "description": "User directly required the presenter video voiceover to be in Indonesian.",
+      "effective_at": "2026-10-03T02:12:50Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Indonesian voiceover insisted",
+      "update_id": "goal_update_e8f3ddb26cb0",
+      "updated_at": "2026-10-03T02:44:18Z"
+    },
+    {
+      "created_at": "2026-10-03T02:44:18Z",
+      "current_state": "New-format demo delivered; lip-sync limitation disclosed.",
+      "description": "Assistant sent the review-plus-usage demo and noted lip-sync is not perfectly synchronized on the free tool.",
+      "effective_at": "2026-10-03T01:46:47Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "New-format demo with lip-sync note",
+      "update_id": "goal_update_a8ae4f0680e8",
+      "updated_at": "2026-10-03T02:44:18Z"
+    },
+    {
+      "created_at": "2026-10-03T02:44:18Z",
+      "current_state": "Format set: review video plus usage video, professional style.",
+      "description": "User defined the format: video 1 shows a person reviewing the product, video 2 shows a person using it, in an attractive professional style, with the voice coming from the person on screen.",
+      "effective_at": "2026-10-03T01:43:25Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Video format defined: review plus usage",
+      "update_id": "goal_update_a85730084c73",
+      "updated_at": "2026-10-03T02:44:18Z"
+    },
+    {
+      "created_at": "2026-10-03T02:44:18Z",
+      "current_state": "Indonesian-voiced presenter demo delivered for review.",
+      "description": "Assistant sent a 20-second presenter demo with an Indonesian voiceover and proposed this format for the 5 daily videos.",
+      "effective_at": "2026-10-03T01:39:54Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Voiced demo with Indonesian voiceover",
+      "update_id": "goal_update_791e205ee92f",
+      "updated_at": "2026-10-03T02:44:18Z"
+    },
+    {
+      "created_at": "2026-10-03T02:44:18Z",
+      "current_state": "20-second demo shared; user reported it has no audio.",
+      "description": "A stitched 20-second demo was shared, the WhatsApp download problem was fixed, and the user reported the demo had no audio.",
+      "effective_at": "2026-10-03T01:39:22Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "20-second stitched demo and audio issue",
+      "update_id": "goal_update_d1c0e580a720",
+      "updated_at": "2026-10-03T02:44:18Z"
+    },
+    {
+      "created_at": "2026-10-03T02:44:18Z",
+      "current_state": "Presenter videos must use a free solution.",
+      "description": "User asked for a suitable social-media skill, then insisted the solution must be free.",
+      "effective_at": "2026-10-03T01:25:22Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Free-only direction confirmed",
+      "update_id": "goal_update_0aee89ba1cac",
+      "updated_at": "2026-10-03T02:44:18Z"
+    },
+    {
+      "created_at": "2026-10-03T02:44:18Z",
+      "current_state": "Seedance cannot be used; plan set to 5 AI presenter videos per day.",
+      "description": "Assistant reported the Seedance skill needs tools not available in the system, and the user corrected the scope to 5 videos (one per product), so the daily plan switched to 5 AI presenter videos starting 12:11.",
+      "effective_at": "2026-10-03T01:14:10Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Seedance unavailable; 5 presenter videos/day set",
+      "update_id": "goal_update_a20042ef5c7c",
+      "updated_at": "2026-10-03T02:44:18Z"
+    },
+    {
+      "created_at": "2026-10-03T02:44:18Z",
+      "current_state": "User requested human-like presenter videos via the Seedance 2.5 skill.",
+      "description": "User asked for human-style promo videos using the Seedance 2.5 skill.",
+      "effective_at": "2026-10-03T01:13:29Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Human-like presenter videos requested via Seedance 2.5",
+      "update_id": "goal_update_af94b45f71b7",
+      "updated_at": "2026-10-03T02:44:18Z"
+    },
+    {
+      "created_at": "2026-10-02T21:13:21Z",
+      "current_state": "36 products ready on a 7-day no-repeat rotation; daily 12:11 promos to 4 social accounts await your per-post approval.",
+      "description": "Yunobi's affiliate money-making project alongside the blog network. Shopee affiliate product links are matched to the niche blogs with promo boxes in articles, plus a daily social-media promo system (professional images, 9:16 videos, captions) posting 5 different products per day to Instagram, two Threads accounts, and a Facebook Page. The Shopee login is complete and the catalog grew from 16 to 36 products with history-based rotation for 7 days without repeats; Yunobi deferred the payment and tax setup until commissions arrive.",
+      "effective_at": "2026-10-02T21:13:21Z",
+      "goal_id": "goal_8a2478af7164",
+      "title": "Added Radar Cuan affiliate product automation",
+      "update_id": "goal_update_c8fa22a2215c",
+      "updated_at": "2026-10-02T21:13:21Z"
+    }
+  ]
+}

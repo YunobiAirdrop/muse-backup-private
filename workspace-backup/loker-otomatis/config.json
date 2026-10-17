@@ -1,0 +1,29 @@
+{
+ "_komentar": "Pipeline info lowongan kerja harian. blog_id diisi SETELAH parent agent membuat blog loker baru via browser. Pola posting: web UI (posting_web.py), sama seperti 10 blog utama.",
+ "blogs": [
+  {
+   "artikel_per_hari": 8,
+   "blog_id": "7121976229691283867",
+   "blogger_email": "",
+   "nama": "loker",
+   "niche": "loker",
+   "tampil": "LokerHarian",
+   "url": "https://lokerterkini2026.blogspot.com"
+  }
+ ],
+ "maks_artikel_per_hari": 10,
+ "sumber_rss": [
+  {
+   "nama": "gnews-loker",
+   "url": "https://news.google.com/rss/search?q=lowongan+kerja&hl=id&gl=ID&ceid=ID:id"
+  },
+  {
+   "nama": "gnews-rekrutmen-bumn",
+   "url": "https://news.google.com/rss/search?q=rekrutmen+BUMN+2026&hl=id&gl=ID&ceid=ID:id"
+  },
+  {
+   "nama": "gnews-loker-terbaru",
+   "url": "https://news.google.com/rss/search?q=loker+terbaru+jakarta+surabaya+medan&hl=id&gl=ID&ceid=ID:id"
+  }
+ ]
+}

@@ -1,0 +1,975 @@
+{
+  "associations": [
+    {
+      "association_id": "goal-cron:workspace/goals/channel-youtube-internasional-berbahasa-inggris/crons/daily/balas-komentar-youtube-malam__daily@21:11:00.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "balas-komentar-youtube-malam",
+        "path": "workspace/goals/channel-youtube-internasional-berbahasa-inggris/crons/daily/balas-komentar-youtube-malam__daily@21:11:00.md",
+        "title": "balas-komentar-youtube-malam__daily@21:11:00.md"
+      },
+      "goal_id": "goal_880cd93ac766",
+      "target_id": "balas-komentar-youtube-malam",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/channel-youtube-internasional-berbahasa-inggris/crons/daily/balas-komentar-youtube-pagi__daily@09:11:00.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "balas-komentar-youtube-pagi",
+        "path": "workspace/goals/channel-youtube-internasional-berbahasa-inggris/crons/daily/balas-komentar-youtube-pagi__daily@09:11:00.md",
+        "title": "balas-komentar-youtube-pagi__daily@09:11:00.md"
+      },
+      "goal_id": "goal_880cd93ac766",
+      "target_id": "balas-komentar-youtube-pagi",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/channel-youtube-internasional-berbahasa-inggris/crons/daily/tinybuilders-shorts-harian__daily@16:11:00.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "tinybuilders-shorts-harian",
+        "path": "workspace/goals/channel-youtube-internasional-berbahasa-inggris/crons/daily/tinybuilders-shorts-harian__daily@16:11:00.md",
+        "title": "tinybuilders-shorts-harian__daily@16:11:00.md"
+      },
+      "goal_id": "goal_880cd93ac766",
+      "target_id": "tinybuilders-shorts-harian",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/channel-youtube-internasional-berbahasa-inggris/crons/runonce/cek-blackdeath-2100__runonce@2026-10-12T21:00:00.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "cek-blackdeath-2100",
+        "path": "workspace/goals/channel-youtube-internasional-berbahasa-inggris/crons/runonce/cek-blackdeath-2100__runonce@2026-10-12T21:00:00.md",
+        "title": "cek-blackdeath-2100__runonce@2026-10-12T21:00:00.md"
+      },
+      "goal_id": "goal_880cd93ac766",
+      "target_id": "cek-blackdeath-2100",
+      "updated_at": ""
+    },
+    {
+      "association_id": "goal-cron:workspace/goals/channel-youtube-internasional-berbahasa-inggris/crons/runonce/retry-upload-5channel-2026-10-07__runonce@2026-10-07T15:11:00.md",
+      "association_type": "cron",
+      "created_at": "",
+      "details": {
+        "id": "retry-upload-5channel-2026-10-07",
+        "path": "workspace/goals/channel-youtube-internasional-berbahasa-inggris/crons/runonce/retry-upload-5channel-2026-10-07__runonce@2026-10-07T15:11:00.md",
+        "title": "retry-upload-5channel-2026-10-07__runonce@2026-10-07T15:11:00.md"
+      },
+      "goal_id": "goal_880cd93ac766",
+      "target_id": "retry-upload-5channel-2026-10-07",
+      "updated_at": ""
+    }
+  ],
+  "briefings": [],
+  "goal": {
+    "attention_kind": "does_not_need_attention",
+    "attention_updated_at": "2026-10-14 01:49:49.562+00",
+    "created_at": "2026-10-04T21:23:43Z",
+    "current_state": "Three shorts cancelled 13 Oct as the video tool's region block persisted; next Tiny Builders run today at 16:11 WIB.",
+    "description": "Delapan channel YouTube berbahasa Inggris untuk penonton luar negeri, terutama Amerika Serikat, demi RPM iklan yang jauh lebih tinggi. Channelnya: Dark Case Files (true crime), Midnight Dread Tales (horor), Unsolved Shadows (misteri), Echoes of History (sejarah dunia), Cosmic Unknown (luar angkasa), Dark Mind Files (psikologi gelap), Weird World Daily (fakta aneh), dan Lost Empires (peradaban kuno). Semua video dibuat dengan AI dan setiap channel mengaktifkan disclosure konten AI sesuai aturan YouTube.",
+    "emoji": "🎯",
+    "goal_id": "goal_880cd93ac766",
+    "icon_generation_status": "ready",
+    "last_activity_at": "2026-10-14T12:08:16Z",
+    "momentum": "",
+    "momentum_status": "on_track",
+    "pushable": true,
+    "slug": "channel-youtube-internasional-berbahasa-inggris",
+    "sort_order": 8,
+    "source": "assistant_tracking",
+    "status": "active",
+    "title": "Channel YouTube internasional berbahasa Inggris",
+    "updated_at": "2026-10-14T12:08:16Z"
+  },
+  "ok": true,
+  "recent_briefing": null,
+  "suggestions": [],
+  "updates": [
+    {
+      "created_at": "2026-10-14T12:08:16Z",
+      "current_state": "1 komentar penonton dibalas, 2 seed diskusi diposting, 1 masukan produksi berharga dicatat.",
+      "description": "Komentar @benbiddle1373 di @EchoesOfThePast-e9m mengoreksi kesalahan produksi (kata \"Narrator\" di naskah ikut terbaca TTS) — sudah dibalas dan dicatat untuk diterapkan ke semua channel.",
+      "effective_at": "2026-10-14T12:08:16Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Balas komentar YouTube malam 14 Okt",
+      "update_id": "goal_update_19552a3dd752",
+      "updated_at": "2026-10-14T12:08:16Z"
+    },
+    {
+      "created_at": "2026-10-13T09:12:58Z",
+      "current_state": "Produksi 3 shorts 13 Okt dibatalkan — tool video AI masih diblokir region (hari ke-4).",
+      "description": "Ketiga short (traktor mini, oven roti tanah liat, air mancur) gagal di-generate karena blokir region tool video; tidak ada video yang diupload dan ide disimpan untuk besok.",
+      "effective_at": "2026-10-13T09:12:58Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Tiny Builders: produksi 13 Okt gagal (blokir region video)",
+      "update_id": "goal_update_91db0eeb17ba",
+      "updated_at": "2026-10-13T09:12:58Z"
+    },
+    {
+      "created_at": "2026-10-13T12:12:28Z",
+      "current_state": "The 'Narrator:' voiceover bug is fixed and a TTS sanitizer now applies to all 19 channels.",
+      "description": "A viewer comment on the Echoes of History short 'A Volcano Invented Frankenstein' revealed the voiceover literally said 'Narrator:'; the label was stripped from the history-en TTS scripts and a sanitizer removing labels like 'Narrator:' and 'Scene 1:' was made mandatory for all channels.",
+      "effective_at": "2026-10-13T06:22:28Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Viewer comment led to a 'Narrator:' voiceover fix across all 19 channels",
+      "update_id": "goal_update_d24750928b8e",
+      "updated_at": "2026-10-13T12:12:28Z"
+    },
+    {
+      "created_at": "2026-10-12T18:38:57Z",
+      "current_state": "Dark Case Files Maura Murray video is uploading via API for Oct 13 at 07:00 WIB.",
+      "description": "The 9-minute 29-second Maura Murray long video was completed, but browser upload was blocked by a Google verification modal, so the upload moved to the API path for Oct 13 at 07:00 WIB with disclosure to follow in Studio.",
+      "effective_at": "2026-10-12T13:11:14Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Dark Case Files Maura Murray switched to API upload",
+      "update_id": "goal_update_21af19581ed7",
+      "updated_at": "2026-10-12T18:38:57Z"
+    },
+    {
+      "created_at": "2026-10-12T18:38:56Z",
+      "current_state": "Black Death re-render is still running; file verification is set for 21:00 WIB.",
+      "description": "Although its agent errored, the Black Death encode was verified still running to the correct file, with a 21:00 WIB check to verify completion, cut three Shorts, and upload for the Oct 13 07:00 WIB slot.",
+      "effective_at": "2026-10-12T12:58:54Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Black Death re-render confirmed still running",
+      "update_id": "goal_update_42c6a509d3f9",
+      "updated_at": "2026-10-12T18:38:56Z"
+    },
+    {
+      "created_at": "2026-10-12T18:38:56Z",
+      "current_state": "Weird World Daily video is uploading via API for Oct 13 at 07:00 WIB.",
+      "description": "The 9-minute 33-second Weird World Daily video was completed, but browser upload stalled on Google verification, so the upload moved to the API path for Oct 13 at 07:00 WIB with disclosure to follow in Studio.",
+      "effective_at": "2026-10-12T12:37:34Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Weird World Daily switched to API upload",
+      "update_id": "goal_update_bcae5f6eec37",
+      "updated_at": "2026-10-12T18:38:56Z"
+    },
+    {
+      "created_at": "2026-10-12T18:38:56Z",
+      "current_state": "Black Death re-render started after the final file was found missing from the main workspace.",
+      "description": "The completed Black Death package was ready for Oct 13 at 07:00 WIB, but a cross-check found the final video file missing from the main workspace, so a re-render was started from the same materials.",
+      "effective_at": "2026-10-12T12:24:58Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Black Death final file missing; re-render started",
+      "update_id": "goal_update_dd3fadfbe5a2",
+      "updated_at": "2026-10-12T18:38:56Z"
+    },
+    {
+      "created_at": "2026-10-12T12:23:35Z",
+      "current_state": "FRB long video is scheduled for Oct 13, 07:00 WIB with disclosure verified; the Black Hole video is held for a re-render.",
+      "description": "The AI disclosure for the Cosmos Unknown FRB video was checked, saved, and verified, leaving its Oct 13, 07:00 WIB schedule unchanged and complete.",
+      "effective_at": "2026-10-12T12:02:36Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Cosmos FRB disclosure verified",
+      "update_id": "goal_update_53e9d13c9099",
+      "updated_at": "2026-10-12T12:23:35Z"
+    },
+    {
+      "created_at": "2026-10-12T12:23:35Z",
+      "current_state": "Cosmos FRB is uploaded for Oct 13, 07:00 WIB; Dark Mind is only 2 of 75 segments rendered and Black Hole is held for a re-render.",
+      "description": "The API report confirmed the Cosmos FRB upload, corrected Dark Mind Files to 2 of 75 segments rendered with no final file yet, and held the Black Hole video as a bank item after QC found its key-moment overlay colliding with subtitles.",
+      "effective_at": "2026-10-12T11:54:04Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Cosmos FRB uploaded; Dark Mind render corrected and Black Hole held",
+      "update_id": "goal_update_e3ea547f1063",
+      "updated_at": "2026-10-12T12:23:35Z"
+    },
+    {
+      "created_at": "2026-10-12T12:23:35Z",
+      "current_state": "The Google verification prompt for Dark Mind Files expired unused; the login session itself is healthy.",
+      "description": "The 2-step prompt expired after about two minutes and the user reported it never appeared, so the upload was switched to the API path used for other channels.",
+      "effective_at": "2026-10-12T11:23:36Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Dark Mind Files verification prompt expired",
+      "update_id": "goal_update_1e428aa7b207",
+      "updated_at": "2026-10-12T12:23:35Z"
+    },
+    {
+      "created_at": "2026-10-12T12:23:35Z",
+      "current_state": "All assets are ready but the final render is unfinished, so today's upload is delayed until rendering completes.",
+      "description": "Script, voice, 72 images, and thumbnail are complete, but the final render is still running in the shared 2-slot queue and the upload will shift until it finishes.",
+      "effective_at": "2026-10-12T11:16:06Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Unsolved Shadows render unfinished, upload delayed",
+      "update_id": "goal_update_150a3da1271d",
+      "updated_at": "2026-10-12T12:23:35Z"
+    },
+    {
+      "created_at": "2026-10-12T09:20:15Z",
+      "current_state": "3 Shorts Tiny Builders hari ini tidak terproduksi karena generator video terblokir region (403).",
+      "description": "Tiga ide sudah dipilih dan judulnya dirancang, tapi semua generate gagal dengan pesan yang sama seperti 10–11 Okt; ide tidak dihabiskan dan akan dicoba lagi pada run berikutnya.",
+      "effective_at": "2026-10-12T09:20:15Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Tiny Builders 12 Okt — produksi terblokir region",
+      "update_id": "goal_update_00b5205ca832",
+      "updated_at": "2026-10-12T09:20:15Z"
+    },
+    {
+      "created_at": "2026-10-12T02:14:12Z",
+      "current_state": "Pagi 12 Okt: 0 komentar baru penonton di 13 channel; 3 seed diskusi baru terposting.",
+      "description": "Seed baru terpasang di video terbaru Lima Misteri, Dark Mind Files, dan Strange Tales; seed Kisah POV gagal 403 karena videonya baru tayang malam ini.",
+      "effective_at": "2026-10-12T02:14:12Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Balas komentar YouTube pagi — 12 Okt",
+      "update_id": "goal_update_47d62bea5d73",
+      "updated_at": "2026-10-12T02:14:12Z"
+    },
+    {
+      "created_at": "2026-10-11T14:20:30Z",
+      "current_state": "0 komentar baru penonton di 13 channel; 3 seed diskusi terposting, 4 video terbaru gagal seed karena kolom komentar dimatikan.",
+      "description": "Komentar penonton malam ini nihil di semua channel, jadi tidak ada balasan. Komentar diskusi baru terpasang di video terbaru @LimaMisteri, @TrueCaseFilesTV, dan @StrangeTales-g6n; 4 channel (@ceritarakyat862, @EchoesOfThePast-e9m, @CosmosUnknownTV, @TheDarkMindFiles-s6i) video terbarunya kolom komentarnya mati sehingga seed gagal — perlu dicek pipeline upload.",
+      "effective_at": "2026-10-11T14:20:30Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Balasan komentar YouTube — run malam",
+      "update_id": "goal_update_059567e28dca",
+      "updated_at": "2026-10-11T14:20:30Z"
+    },
+    {
+      "created_at": "2026-10-11T09:12:12Z",
+      "current_state": "Produksi 3 Shorts hari ini batal — tool video AI masih diblokir region (hari ke-2 berturut-turut); video kemarin yang tertahan batas upload ditangani watchdog malam ini.",
+      "description": "Percobaan generate Short #1 mengembalikan 403 \"video not available in your region\" yang tidak bisa di-retry, sehingga 3 Shorts hari ini semuanya dilewati; ide yang direncanakan tidak dicatat terpakai agar bisa dipakai besok.",
+      "effective_at": "2026-10-11T09:12:12Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Tiny Builders: produksi 3 Shorts batal (tool video masih region-block)",
+      "update_id": "goal_update_249a6fe615c0",
+      "updated_at": "2026-10-11T09:12:12Z"
+    },
+    {
+      "created_at": "2026-10-11T02:14:38Z",
+      "current_state": "Tidak ada komentar penonton baru pagi ini; 2 komentar pembuka diskusi dipasang di video terbaru.",
+      "description": "Cek otomatis pagi ke 13 channel menemukan 0 komentar penonton baru (tidak ada yang perlu dibalas). Dua komentar pemancing diskusi dipasang di video terbaru @AncientEmpiresTV dan @tinybuilders-d5z; pin tetap pending karena butuh verifikasi HP yang belum disetujui.",
+      "effective_at": "2026-10-11T02:14:38Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Cek komentar pagi: 0 komentar baru di 13 channel",
+      "update_id": "goal_update_bf7b9e60eacf",
+      "updated_at": "2026-10-11T02:14:38Z"
+    },
+    {
+      "created_at": "2026-10-10T18:29:41Z",
+      "current_state": "Four more videos with disabled comments (all in Cerita Rakyat) were enabled; every channel is now clean.",
+      "description": "On Yunobi's order to check every channel, the assistant audited 60 videos across 17 channels, found 4 more disabled (kamikaze and Sriwijaya videos in Cerita Rakyat), and enabled them.",
+      "effective_at": "2026-10-10T14:55:38Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Full audit of 17 channels finished - all comments on",
+      "update_id": "goal_update_e22b028d9201",
+      "updated_at": "2026-10-10T18:29:41Z"
+    },
+    {
+      "created_at": "2026-10-10T18:29:41Z",
+      "current_state": "All 9 videos now have comments enabled.",
+      "description": "The assistant reported comments disabled on recent videos across 6 channels; Yunobi ordered all comments turned on, and 8 were already on while the last one (POV Pilot Kamikaze on Cerita Rakyat) was switched on.",
+      "effective_at": "2026-10-10T14:45:41Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Disabled comments found on 9 latest videos, all enabled",
+      "update_id": "goal_update_044f8416e620",
+      "updated_at": "2026-10-10T18:29:41Z"
+    },
+    {
+      "created_at": "2026-10-10T14:19:23Z",
+      "current_state": "0 komentar baru di 13 channel; 4 seed diskusi terposting, 6 seed gagal karena komentar dimatikan di videonya.",
+      "description": "Cek malam 10 Okt: tidak ada komentar penonton yang perlu dibalas di semua 13 channel; 4 video terbaru dapat komentar pancingan diskusi, tapi 6 video terbaru lainnya ternyata komentarnya dimatikan (setting tidak diubah).",
+      "effective_at": "2026-10-10T14:19:23Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Balas komentar YouTube — cek malam 10 Okt",
+      "update_id": "goal_update_63a9e2b730da",
+      "updated_at": "2026-10-10T14:19:23Z"
+    },
+    {
+      "created_at": "2026-10-10T12:14:11Z",
+      "current_state": "Watermark removed; upload blocked by YouTube daily limit and queued for automatic retry.",
+      "description": "Yunobi sent the first Dola-generated clip; the assistant removed the Dola AI watermark, cut it to 9:16 for Shorts, and tried to upload it to Tiny Builders, but YouTube's daily upload limit blocked it so the video entered the automatic retry queue.",
+      "effective_at": "2026-10-10T11:10:47Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "First Dola clip received and queued",
+      "update_id": "goal_update_ab8ebc411ac3",
+      "updated_at": "2026-10-10T12:14:11Z"
+    },
+    {
+      "created_at": "2026-10-10T09:12:41Z",
+      "current_state": "3 shorts hari ini tidak diproduksi — tool video AI masih diblokir region (hari ke-2 berturut-turut).",
+      "description": "Percobaan generate short pertama ditolak dengan error \"video tidak tersedia di region ini\", jadi tidak ada klip baru untuk dirakit atau diupload hari ini; antrean upload 8 Okt sudah selesai diproses watchdog.",
+      "effective_at": "2026-10-10T09:12:41Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Tiny Builders: produksi 10 Okt gagal (blokir region berlanjut)",
+      "update_id": "goal_update_56e1b7deb0dd",
+      "updated_at": "2026-10-10T09:12:41Z"
+    },
+    {
+      "created_at": "2026-10-10T12:14:11Z",
+      "current_state": "Yunobi will generate clips in the Dola app and send them for assembly.",
+      "description": "Yunobi agreed to generate Tiny Builders clips himself in the free Dola app (9:16 for Shorts) and send them to the assistant, who will assemble them with title card, narration, SFX, and music to bypass the region-blocked AI video tool.",
+      "effective_at": "2026-10-10T08:52:07Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Dola clip workflow agreed for Tiny Builders",
+      "update_id": "goal_update_26c09097fa41",
+      "updated_at": "2026-10-10T12:14:11Z"
+    },
+    {
+      "created_at": "2026-10-10T02:13:37Z",
+      "current_state": "Tidak ada komentar baru dari penonton di 13 channel pagi ini; 2 komentar diskusi pemancing dipasang di video terbaru dan sudah tayang.",
+      "description": "Pengecekan komentar pagi 10 Oktober selesai — tidak ada komentar baru yang perlu dibalas di 13 channel, dan dua komentar pemancing diskusi baru sudah terpasang di video terbaru Lima Misteri dan Tiny Builders.",
+      "effective_at": "2026-10-10T02:13:37Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Balas komentar YouTube — cek pagi 10 Okt",
+      "update_id": "goal_update_a53c403bf430",
+      "updated_at": "2026-10-10T02:13:37Z"
+    },
+    {
+      "created_at": "2026-10-09T19:12:21Z",
+      "current_state": "Monitoring blokir region Meta; produksi video AI Tiny Builders jalan lagi otomatis begitu blokir dibuka.",
+      "description": "Yunobi diberitahu 3 shorts hari ini gagal dan produksi video baru ikut mati karena blokir region Meta; upload stok lama tetap jalan dan cron produksi lanjut otomatis begitu blokir dibuka.",
+      "effective_at": "2026-10-09T15:34:05Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Produksi video AI Tiny Builders berhenti karena blokir region",
+      "update_id": "goal_update_df6a52de8d7d",
+      "updated_at": "2026-10-09T19:12:21Z"
+    },
+    {
+      "created_at": "2026-10-09T14:18:02Z",
+      "current_state": "Run malam 9 Okt: 0 komentar baru di 13 channel; seed diskusi 2/4 OK, termasuk video pertama Tiny Builders.",
+      "description": "Tiny Builders akhirnya terbit — 3 shorts live hari ini dan saya pasang komentar pemancing diskusi pertama di video terbarunya; seed kedua OK di video terbaru Lima Misteri. Dua seed gagal karena komentar dimatikan di video (pengaturan tidak diubah), dan pin komentar tetap mustahil karena YouTube meminta verifikasi nomor HP yang tidak dilakukan. Tidak ada komentar penonton yang butuh perhatian.",
+      "effective_at": "2026-10-09T14:18:02Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Balas komentar YouTube — run malam 9 Okt",
+      "update_id": "goal_update_d6e83ad7babe",
+      "updated_at": "2026-10-09T14:18:02Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "3 shorts Midnight Dread Tales gagal upload kena batas harian; masuk antrean otomatis dicoba lagi besok.",
+      "description": "Videonya aman dan tidak hilang; retry otomatis yang mengerjakannya.",
+      "effective_at": "2026-10-09T10:02:47Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "3 shorts Midnight Dread Tales masuk antrean retry",
+      "update_id": "goal_update_7f9fd04b619b",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Video long Lost Empires 'What Really Killed the Maya?' berhasil keupload dan terjadwal besok 07:00.",
+      "description": "Upload kali ini lolos batas harian; tidak masuk antrean.",
+      "effective_at": "2026-10-09T09:56:10Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Long Lost Empires 'What Really Killed the Maya?' terupload terjadwal",
+      "update_id": "goal_update_a5a222fe8e32",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Video long Dark Case Files 'Sodder' gagal upload kena batas harian YouTube; masuk antrean retry otomatis besok.",
+      "description": "Videonya aman dan tidak hilang; retry otomatis yang mengerjakannya.",
+      "effective_at": "2026-10-09T09:25:18Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Long Dark Case Files 'Sodder' kena batas harian",
+      "update_id": "goal_update_8844aec19993",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Retry otomatis lolos: 3 shorts Tiny Builders terjadwal — sumur bata mini 10 Okt 21:00, pompa bambu 11 Okt 03:00, bendungan mini 11 Okt 07:00.",
+      "description": "Percobaan manual sempat kena limit harian, tapi retry otomatis 13 menit kemudian berhasil mengupload ketiganya; link YouTube terverifikasi.",
+      "effective_at": "2026-10-09T09:22:14Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Retry otomatis: 3 shorts Tiny Builders lolos",
+      "update_id": "goal_update_018a39814c25",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T09:12:22Z",
+      "current_state": "Produksi 3 shorts hari ini gagal — generator video tidak tersedia (blokir region), 0 klip dihasilkan.",
+      "description": "Percobaan generate ditolak region (403 video_not_available) dan tidak diulang agar tidak melanggar batas; ide tetap tersimpan untuk run berikutnya.",
+      "effective_at": "2026-10-09T09:12:22Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Tiny Builders: 3 shorts hari ini gagal diproduksi",
+      "update_id": "goal_update_a2a7ac54d436",
+      "updated_at": "2026-10-09T09:12:22Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "'Water GUSHING' tayang besok 03:00 dan 'Laying BRICKS' besok 07:00.",
+      "description": "Kedua shorts berhasil diupload atas perintah user dan terjadwal otomatis.",
+      "effective_at": "2026-10-09T08:38:13Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Dua shorts Tiny Builders terjadwal besok 03:00 dan 07:00",
+      "update_id": "goal_update_297a3e4880a3",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Video long Tiny Builders (14:10) PUBLIC: https://www.youtube.com/watch?v=SbN_Xgr2jq8; shorts terjadwal 21:00 malam ini.",
+      "description": "Atas perintah user 'upload ulang', shorts berhasil langsung dan terjadwal 21:00; video long sempat gagal teknis (file tidak kebaca browser) lalu berhasil di percobaan ulang.",
+      "effective_at": "2026-10-09T08:20:46Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Upload ulang Tiny Builders: long PUBLIC + shorts 21:00",
+      "update_id": "goal_update_9718ffcf39d3",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T02:32:13Z",
+      "current_state": "Pin 5/5 terblokir verifikasi HP — pin tertunda sampai user verifikasi nomor HP akun Google.",
+      "description": "Percobaan pin 5 komentar diskusi gagal semua: YouTube meminta verifikasi nomor HP di semua channel (termasuk @LimaMisteri yang baru kali ini terblokir); verifikasi tidak dilakukan sesuai aturan. Setelah nomor HP diverifikasi di pengaturan akun Google, pin bisa dilanjutkan.",
+      "effective_at": "2026-10-09T02:32:13Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Pin komentar — terblokir verifikasi HP",
+      "update_id": "goal_update_fa27ec045569",
+      "updated_at": "2026-10-09T02:32:13Z"
+    },
+    {
+      "created_at": "2026-10-09T02:31:30Z",
+      "current_state": "0 komentar baru di 13 channel; 5 komentar diskusi terposting di video-video terbaru, pin tertunda menunggu persetujuan user.",
+      "description": "Komentar pembuka diskusi pagi ini terpasang di 5 video terbaru (@LimaMisteri, @TrueCaseFilesTV, @CosmosUnknownTV, @TheDarkMindFiles-s6i, @AncientEmpiresTV) dan terverifikasi live via API; pin-nya tertunda karena butuh persetujuan. Dua video baru (@ceritarakyat862, @KisahPOV) punya komentar yang dimatikan — setting tidak diubah.",
+      "effective_at": "2026-10-09T02:31:30Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Balas komentar YouTube — pagi",
+      "update_id": "goal_update_50f70b0d1255",
+      "updated_at": "2026-10-09T02:31:30Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Video 'The Ghost Ship With No Crew' tetap di antrean; countdown direset dan dicoba otomatis lagi nanti.",
+      "description": "Atas perintah user 'upload ulang: mystery-en-2026-10-07.json', upload ke Unsolved Shadows dijadwalkan tayang 07:00 tetapi YouTube masih menolak karena batas harian; videonya aman di antrean.",
+      "effective_at": "2026-10-08T18:03:08Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Re-upload manual Unsolved Shadows gagal, tetap kena batas harian",
+      "update_id": "goal_update_838edaed7567",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "7 video Tiny Builders (6 shorts 30–50 detik + 1 long ~14 menit) aman di antrean; 4 video dicoba lagi besok 13:33, 3 video besok 15:26.",
+      "description": "Channel baru kena batas khusus 24 jam sehingga tidak bisa dipaksa malam ini; semuanya episode perdana dan sistem otomatis yang mencoba lagi.",
+      "effective_at": "2026-10-08T15:57:14Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "7 video Tiny Builders antre batas 24 jam",
+      "update_id": "goal_update_d1161d172f02",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "Retry Weird World mati lagi kena restart sistem; diserahkan ke jadwal otomatis besok.",
+      "description": "Sama seperti TalesOfDread dan POV Sejarah; dipaksa malam ini akan gagal terus.",
+      "effective_at": "2026-10-08T15:35:20Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Retry Weird World gagal lagi, otomatis besok",
+      "update_id": "goal_update_6dd8f117b0af",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-09T12:39:40Z",
+      "current_state": "3 shorts Gobekli Tepe terupload dan terjadwal tayang besok 07:00; video long 'What Really Killed the Maya?' sudah jadi dan diupload besok.",
+      "description": "Tiga shorts terverifikasi lewat link YouTube; tinggal Kisah Alkitab dan Weird World yang masih berjalan saat itu.",
+      "effective_at": "2026-10-08T14:39:31Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Ancient Empires: 3 shorts terupload terjadwal",
+      "update_id": "goal_update_63b63a92dec0",
+      "updated_at": "2026-10-09T12:39:40Z"
+    },
+    {
+      "created_at": "2026-10-08T14:38:18Z",
+      "current_state": "0 komentar baru malam ini; komentar diskusi diposting di 3 video terbaru, 1 berhasil di-pin.",
+      "description": "Auto-reply malam selesai: tidak ada komentar baru di 12 channel, komentar pertanyaan diskusi diposting di 3 video terbaru (KisahPOV, Lost Empires, Strange Tales) — milik KisahPOV berhasil disematkan, dua lainnya tetap butuh verifikasi HP sesuai pilihan Anda. 3 channel lain videonya masih terjadwal, komentar diskusinya akan diposting begitu videonya publik.",
+      "effective_at": "2026-10-08T14:38:18Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Balas komentar YouTube — run malam 8 Okt",
+      "update_id": "goal_update_4de243e1247f",
+      "updated_at": "2026-10-08T14:38:18Z"
+    },
+    {
+      "created_at": "2026-10-08T09:26:59Z",
+      "current_state": "3 shorts baru selesai diproduksi dan masuk antrean retry, menunggu batas upload harian pulih besok siang.",
+      "description": "Tiga shorts (sumur bata mini, pompa bambu, bendungan mini) sudah jadi dan siap — percobaan upload tidak dilakukan karena batas upload harian channel baru masih aktif, jadi video langsung diantrekan agar diunggah otomatis oleh watchdog.",
+      "effective_at": "2026-10-08T09:26:59Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Tiny Builders: 3 shorts baru masuk antrean retry",
+      "update_id": "goal_update_14bbb2011397",
+      "updated_at": "2026-10-08T09:26:59Z"
+    },
+    {
+      "created_at": "2026-10-08T07:35:27Z",
+      "current_state": "Upload 4 video Tiny Builders masih ditolak YouTube (batas harian channel baru); retry dijadwalkan ulang via antrean watchdog besok 9 Okt 20:00 WIB.",
+      "description": "Retry 14:30 gagal — YouTube masih menampilkan \"Batas upload harian telah tercapai\" meski 24 jam pertama sudah lewat; tidak ada verifikasi HP. Keempat video (1 long + 3 shorts) masuk antrean retry otomatis, instruksi upload lengkap sudah disiapkan.",
+      "effective_at": "2026-10-08T07:35:27Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Retry upload Tiny Builders gagal, masuk antrean otomatis",
+      "update_id": "goal_update_3aeaf4ae48c1",
+      "updated_at": "2026-10-08T07:35:27Z"
+    },
+    {
+      "created_at": "2026-10-08T02:33:20Z",
+      "current_state": "Tidak ada komentar baru di 13 channel; 6 komentar diskusi diposting ke video terbaru (tanpa pin — YouTube tetap minta verifikasi HP).",
+      "description": "Pagi ini tidak ada komentar penonton yang perlu dibalas di semua 13 channel. Enam pertanyaan pemancing diskusi dipasang di video-video terbaru, tapi pin komentar masih diblokir YouTube karena syarat verifikasi nomor HP; komentar di video terbaru Lima Misteri dan Cerita Rakyat ternyata dinonaktifkan.",
+      "effective_at": "2026-10-08T02:33:20Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Balas komentar YouTube — run pagi 8 Okt",
+      "update_id": "goal_update_3eaa83a213ea",
+      "updated_at": "2026-10-08T02:33:20Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "Tiny Builders assembly now has a preflight check, per-stage quality gates, and a per-episode production log.",
+      "description": "As part of the first skill batch Yunobi asked to apply immediately that night, the Tiny Builders assembly pipeline gained a preflight check (fast fail on missing files), per-stage quality gates, and per-episode production logs.",
+      "effective_at": "2026-10-07T19:07:16Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "OpenMontage added to Tiny Builders assembly",
+      "update_id": "goal_update_37b3b18007e6",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "Only a phone number unlocks the intermediate feature; video verification is for advanced features and stays locked — the 24-hour retry is the only path.",
+      "description": "Yunobi's screenshot proved there is no video option for the intermediate feature; the assistant corrected that video verification is not a substitute, and confirmed the 24-hour retry means a one-day delay but the video still fills the nearest empty slot.",
+      "effective_at": "2026-10-07T16:49:55Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Correction: video verification cannot replace phone verification",
+      "update_id": "goal_update_511a3789de85",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "Verification is per-channel (17 times), not per-account; options are 17 video verifications or staying with the 24-hour auto retry.",
+      "description": "After initially saying verification stuck to the Google account, it was corrected that verification status is per-channel, so 17 channels need 1:1 verification; Yunobi was given the choice of 17 video verifications or staying with auto retry.",
+      "effective_at": "2026-10-07T16:44:42Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "YouTube verification corrected: per-channel 1:1",
+      "update_id": "goal_update_a6db0d4b1059",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "YouTube blocked completion of the upload on the daily limit; the video is safe and auto retry is set for Oct 8 20:00.",
+      "description": "Although the file was received and processed, YouTube blocked completion due to the daily upload limit (account not phone-verified); the video is safe and an automatic retry was scheduled for tomorrow night at 20:00.",
+      "effective_at": "2026-10-07T16:31:23Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "'Mary Celeste' upload blocked by daily limit; retry Oct 8 20:00",
+      "update_id": "goal_update_1c61a824ab75",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "The 8.8-minute video is uploaded to Unsolved Shadows with AI disclosure, scheduled Oct 8 07:00; Yunobi approved clicking 'Schedule' via chat.",
+      "description": "Upload finished to YouTube Studio with title, description, and AI disclosure done (custom thumbnail failed 3 times); the tap came via chat not a card, and Yunobi approved the scheduling.",
+      "effective_at": "2026-10-07T16:25:30Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "'Mary Celeste' in Studio; 'Schedule' approved via chat",
+      "update_id": "goal_update_02db0c2e6290",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "The upload approval was never requested because the run stopped before the upload stage; Yunobi asked to resend it.",
+      "description": "After Yunobi asked about the missing 23:00 tap, the run was found to have stopped before the upload stage so approval was never requested; on Yunobi's request the tap was resent and the upload was run.",
+      "effective_at": "2026-10-07T16:13:50Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "'Mary Celeste' upload tap missing; resent",
+      "update_id": "goal_update_56bb13e5a34a",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "11 channels are back to images only; Tiny Builders stays full AI clips with sequential generation (about 60% more token-efficient).",
+      "description": "After calculating 1 AI clip at about 2 million tokens, Yunobi ordered 11 channels back to images to save tokens; Tiny Builders was exempted and stays full-clip with a token-saving sequential rule.",
+      "effective_at": "2026-10-07T16:04:30Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "AI clips rolled back for English channels; Tiny Builders stays full-clip",
+      "update_id": "goal_update_0a7da547c92c",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T15:34:52Z",
+      "current_state": "Run malam 7 Okt: 1 komentar dibalas, 8 komentar diskusi diposting (1 tersemat, 7 pin diblokir YouTube karena butuh verifikasi HP).",
+      "description": "Hanya 1 komentar penonton baru di seluruh 13 channel (dibalas di Lost Empires); komentar diskusi diposting di tiap video terbaru, tapi tombol pin kini diminta verifikasi nomor HP — komentar tetap tampil sebagai komentar teratas.",
+      "effective_at": "2026-10-07T15:34:52Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Auto-reply komentar YouTube malam 7 Okt",
+      "update_id": "goal_update_038fcfd9a497",
+      "updated_at": "2026-10-07T15:34:52Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "5 approval taps remained until 23:00; one for the 'Mary Celeste' long upload airing Oct 8 07:00.",
+      "description": "Yunobi asked for tonight's schedule; the assistant reported 5 remaining taps — 1 long mystery-en 'Mary Celeste' upload for tomorrow 07:00 and 4 Threads promo posts.",
+      "effective_at": "2026-10-07T15:32:11Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "5 approval taps left on Oct 7 evening",
+      "update_id": "goal_update_2c16e8ece3d4",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "3 Cosmic Unknown shorts failed on YouTube's daily limit; auto retry tomorrow, while the 'Rogue Planets' long video already aired.",
+      "description": "Three shorts failed to upload because the daily limit had not reset; retry is automatic tomorrow. The 'Rogue Planets' long video has aired since yesterday.",
+      "effective_at": "2026-10-07T10:00:51Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Cosmic Unknown: 3 shorts hit daily limit",
+      "update_id": "goal_update_425a78dcab74",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "The 8.8-minute 'The Mary Celeste' long video is finished and ready for upload; awaiting tonight's approval tap for Oct 8 07:00 airing.",
+      "description": "The Unsolved Shadows long video finished production and is ready for upload; airing was scheduled for tomorrow at 07:00 after tonight's approval (20:00-23:00).",
+      "effective_at": "2026-10-07T09:58:06Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Unsolved Shadows: 'The Mary Celeste' long video ready",
+      "update_id": "goal_update_b294c78e6a8e",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "3 'The Last Bus to Black Hollow' shorts are scheduled to air Oct 8 07:00.",
+      "description": "Three English horror shorts were uploaded with AI disclosure and scheduled for tomorrow morning.",
+      "effective_at": "2026-10-07T09:39:32Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Midnight Dread Tales: 3 shorts uploaded",
+      "update_id": "goal_update_aaa8a8abefc2",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T09:39:25Z",
+      "current_state": "3 shorts miniatur hari ini sudah jadi dan siap diupload besok setelah batas upload channel lepas.",
+      "description": "Video \"rumah bata mini\" (42 dtk), \"kandang sapi mini\" (41 dtk), dan \"roda air bambu\" (51 dtk) sudah diproduksi vertikal 9:16 dengan SFX rekaman asli tersinkron dan AI disclosure; upload ke @tinybuilders-d5z antre besok karena channel baru kena batas 24 jam.",
+      "effective_at": "2026-10-07T09:39:25Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "3 shorts Tiny Builders hari ini selesai diproduksi",
+      "update_id": "goal_update_9bc564afdf6b",
+      "updated_at": "2026-10-07T09:39:25Z"
+    },
+    {
+      "created_at": "2026-10-07T09:38:26Z",
+      "current_state": "Short roda air bambu selesai diproduksi (51 detik), siap dijadwalkan tayang 2026-10-08 21:00 WIB setelah batas upload 24 jam berakhir.",
+      "description": "Satu short vertikal 51 detik tentang roda air bambu miniatur yang benar-benar berputar, lengkap dengan SFX air asli dan film grain, lolos verifikasi resolusi 1080x1920, durasi, dan audio.",
+      "effective_at": "2026-10-07T09:38:26Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Short Tiny Builders: roda air bambu (2026-10-07)",
+      "update_id": "goal_update_96cbaee94e6e",
+      "updated_at": "2026-10-07T09:38:26Z"
+    },
+    {
+      "created_at": "2026-10-07T09:38:23Z",
+      "current_state": "Short \"Rumah bata mini\" (42 detik) siap di folder brick-house, menunggu upload setelah batas harian YouTube lepas ~14:21 WIB 2026-10-08.",
+      "description": "Satu short vertikal 1080x1920 (42 detik, 15,5MB) selesai dirakit: tangan asli membangun rumah bata mini bata demi bata, SFX rekaman asli disinkron ke gambar, film grain halus, dan metadata + atribusi CC BY sudah ditulis di metadata.txt — tinggal upload ke channel Tiny Builders dengan judul \"He Builds a Tiny Brick House! #shorts #miniature #diy\".",
+      "effective_at": "2026-10-07T09:38:23Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Short Tiny Builders: rumah bata mini selesai dirakit",
+      "update_id": "goal_update_efe42c414ffb",
+      "updated_at": "2026-10-07T09:38:23Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "3 Dark Case Files shorts failed to upload on YouTube's daily limit; auto retry tomorrow.",
+      "description": "Upload of 3 shorts was rejected because the daily limit from last night had not yet cleared 24 hours; retry is scheduled automatically for tomorrow.",
+      "effective_at": "2026-10-07T09:37:55Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Dark Case Files: 3 shorts hit daily limit",
+      "update_id": "goal_update_c4ef1c2344e3",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "Comment check and reply schedule runs twice daily (09:11 and 21:11) starting tonight at 21:11.",
+      "description": "At Yunobi's request, automatic checking and replying to genuine comments across all 13 channels was installed twice daily; spam, toxic, and SARA comments are skipped, serious complaints are reported first.",
+      "effective_at": "2026-10-07T09:28:11Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Auto comment replies installed twice daily",
+      "update_id": "goal_update_542e9132fbfd",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T09:27:43Z",
+      "current_state": "Short \"These Tiny Cows ACTUALLY Eat!\" selesai diproduksi (41 detik, 1080x1920, siap upload); dijadwalkan tayang 2026-10-08 07:00 WIB.",
+      "description": "Satu short miniatur kandang sapi dengan SFX rekaman asli dan AI disclosure selesai dibuat dan siap diupload ke @tinybuilders-d5z; batas upload harian channel berakhir ~14:21 WIB 2026-10-08 sehingga jadwal tayang mungkin perlu digeser.",
+      "effective_at": "2026-10-07T09:27:43Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Short Tiny Builders: \"These Tiny Cows ACTUALLY Eat!\"",
+      "update_id": "goal_update_2032ad58f5b6",
+      "updated_at": "2026-10-07T09:27:43Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "The Tiny Builders channel is clean, ready for the Oct 8 14:30 upload.",
+      "description": "One stray private draft found on the Tiny Builders channel was permanently deleted.",
+      "effective_at": "2026-10-07T08:33:07Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Stray Tiny Builders draft deleted",
+      "update_id": "goal_update_fe35aab363e7",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T08:30:24Z",
+      "current_state": "Keenam video yang tertahan batas upload kemarin sudah terjadwal tayang 8 Oktober 2026.",
+      "description": "Batas upload harian YouTube sudah reset; 1 short Lost Empires, 3 shorts Strange Tales, video panjang Lima Misteri, dan video panjang Echoes of History semuanya terjadwal dengan AI disclosure aktif — hanya thumbnail kustom 2 video panjang yang belum bisa dipasang karena akun belum verifikasi nomor telepon.",
+      "effective_at": "2026-10-07T08:30:24Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Retry upload 6 video berhasil — batas harian reset",
+      "update_id": "goal_update_49984af2723d",
+      "updated_at": "2026-10-07T08:30:24Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "The 14-minute long video plus 3 Tiny Builders shorts are safely stored; auto upload retries Thu Oct 8 14:30 after 24 hours.",
+      "description": "YouTube rejected the upload because a new channel cannot upload in its first 24 hours without phone verification; an automatic retry schedule was installed.",
+      "effective_at": "2026-10-07T07:21:12Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Tiny Builders upload rejected by 24-hour rule; retry Oct 8 14:30",
+      "update_id": "goal_update_3bc97bd224b6",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "For Shorts, hashtags (max 3) now go at the end of titles across all 13 channels; descriptions stay clean without hashtags.",
+      "description": "At Yunobi's request because hashtags in titles improve discoverability, the title-hashtag rule was applied to all 13 channels starting with the Oct 7 16:11 production.",
+      "effective_at": "2026-10-07T06:36:59Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Shorts hashtag rule: in titles, not descriptions",
+      "update_id": "goal_update_d3a0e67ca2be",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "Film grain, real recorded SFX, original storylines, human-style editing, and AI disclosure now apply to all 13 channels.",
+      "description": "After Yunobi pushed back on monetization risk and asked that the videos not look fully AI-made, five anti-AI measures were applied and he confirmed they should run on every channel.",
+      "effective_at": "2026-10-07T06:32:44Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Anti-AI look measures extended to all 13 channels",
+      "update_id": "goal_update_39cdba6b6193",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "27 real recorded SFX files are ready, and Tiny Builders has its profile photo, banner, and description installed.",
+      "description": "The realistic sound library (chicken, cow, tractor, diesel engine, water, hand tools) was completed, and at Yunobi's request the new channel received its profile picture and banner.",
+      "effective_at": "2026-10-07T06:20:45Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Real SFX library completed; Tiny Builders branding installed",
+      "update_id": "goal_update_70c619daa406",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-07T21:53:13Z",
+      "current_state": "Tiny Builders (youtube.com/@tinybuilders-d5z) is live, with a 15-minute long video and 3 shorts in production.",
+      "description": "Yunobi approved the miniature pump video but found its sounds disconnected, so he ordered realistic sounds plus a dedicated miniature channel; the channel was created and the first batch (87-scene long video plus 3 shorts with real recorded SFX) entered production.",
+      "effective_at": "2026-10-07T06:01:46Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Tiny Builders channel created; 15-min long plus 3 shorts ordered",
+      "update_id": "goal_update_847159ecc983",
+      "updated_at": "2026-10-07T21:53:13Z"
+    },
+    {
+      "created_at": "2026-10-06T15:03:49Z",
+      "current_state": "YouTube rejected further uploads today (12 videos already uploaded); auto retry scheduled tomorrow around 15:00 WIB.",
+      "description": "After the Google login was restored, YouTube blocked uploads for hitting the per-account daily limit; all ready videos will auto retry tomorrow around 15:00 WIB for Oct 8 airing.",
+      "effective_at": "2026-10-06T14:26:49Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Daily upload limit reached; auto retry tomorrow",
+      "update_id": "goal_update_29804561cb5d",
+      "updated_at": "2026-10-06T15:03:49Z"
+    },
+    {
+      "created_at": "2026-10-06T15:03:49Z",
+      "current_state": "Pompeii video (9.3 min) assembled and verified, awaiting upload.",
+      "description": "The Echoes of History long video finished rendering and passed verification; upload waits on the Google session and daily limit.",
+      "effective_at": "2026-10-06T14:25:16Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Echoes of History Pompeii video finished",
+      "update_id": "goal_update_6d35f4a24614",
+      "updated_at": "2026-10-06T15:03:49Z"
+    },
+    {
+      "created_at": "2026-10-06T15:03:49Z",
+      "current_state": "1:1 check found Echoes of History and Dark Case Files pending; reruns started.",
+      "description": "At Yunobi's request for a 1:1 upload check, 5 channels were found not yet uploaded; Echoes of History render and Dark Case Files manual production rerun were started.",
+      "effective_at": "2026-10-06T14:17:02Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Pending English channels identified; reruns started",
+      "update_id": "goal_update_ce3c6096c7ec",
+      "updated_at": "2026-10-06T15:03:49Z"
+    },
+    {
+      "created_at": "2026-10-06T15:03:49Z",
+      "current_state": "5 videos re-uploaded, scheduled Oct 7, 07:00 WIB.",
+      "description": "The Emu War video, three Unsolved Shadows shorts, and the Dark Mind Files psychology video were re-uploaded and scheduled; a Dyatlov Pass short that had published with the wrong description was fixed and rescheduled.",
+      "effective_at": "2026-10-06T09:55:58Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Weird World Daily, Unsolved Shadows, Dark Mind Files re-uploaded",
+      "update_id": "goal_update_b7259991fb62",
+      "updated_at": "2026-10-06T15:03:49Z"
+    },
+    {
+      "created_at": "2026-10-06T15:03:49Z",
+      "current_state": "2 shorts scheduled Oct 7, 07:00 WIB; 1 hit the daily upload limit and retries tomorrow around 12:11.",
+      "description": "Two Petra shorts were re-uploaded successfully; 'The Treasury's 2,000-Year-Old Secret' was rejected at YouTube's daily upload limit, with an automatic retry scheduled after the limit resets.",
+      "effective_at": "2026-10-06T09:55:54Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Lost Empires shorts partially re-uploaded",
+      "update_id": "goal_update_afb8d5ea5cbd",
+      "updated_at": "2026-10-06T15:03:49Z"
+    },
+    {
+      "created_at": "2026-10-06T15:03:49Z",
+      "current_state": "1 long video and 3 shorts re-uploaded, scheduled Oct 7, 07:00 WIB.",
+      "description": "'Rogue Planets' (9:08) and three Midnight Dread Tales shorts were re-uploaded with AI disclosure checked; the long video keeps an auto thumbnail because YouTube requires phone verification for custom thumbnails.",
+      "effective_at": "2026-10-06T09:41:09Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Cosmic Unknown and Midnight Dread Tales re-uploaded",
+      "update_id": "goal_update_ac3bda5dbb61",
+      "updated_at": "2026-10-06T15:03:49Z"
+    },
+    {
+      "created_at": "2026-10-06T15:03:49Z",
+      "current_state": "Failed uploads to be retried at once, even past schedule.",
+      "description": "After the morning upload failures on the expired Google session, Yunobi instructed to re-upload the failures immediately rather than wait, which drove the day's re-upload effort.",
+      "effective_at": "2026-10-06T09:21:38Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Yunobi ordered immediate retry of failed uploads",
+      "update_id": "goal_update_705fb57809c0",
+      "updated_at": "2026-10-06T15:03:49Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:15Z",
+      "current_state": "Google session in the browser still active; tonight's upload safe without re-login.",
+      "description": "The morning check had reported the session logged out, but a direct check showed khususstokyunobi@gmail.com still signed in with YouTube Studio opening normally.",
+      "effective_at": "2026-10-06T07:00:25Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "YouTube session confirmed active; tonight's upload safe",
+      "update_id": "goal_update_e660bc29bfe2",
+      "updated_at": "2026-10-06T09:17:15Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:15Z",
+      "current_state": "No phone verification for YouTube; the alternating long/Shorts pattern stays as the permanent upload-limit workaround.",
+      "description": "Yunobi said 'skip aja, saya ga ada nomor lagi' for YouTube phone verification and deferred the VPS to later; verification was logged as permanently skipped.",
+      "effective_at": "2026-10-06T00:09:10Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "YouTube phone verification skipped permanently; VPS deferred",
+      "update_id": "goal_update_55c34583e741",
+      "updated_at": "2026-10-06T09:17:15Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:15Z",
+      "current_state": "space-en, mind-en, weird-en (9+ min) ready; tomorrow 7 longs + 4x3 Shorts + Strange Tales 3 Shorts.",
+      "description": "All three assembled videos finished tonight; tomorrow's upload plan was set with schedules reactivating at 06:00 and production plus upload at 16:11.",
+      "effective_at": "2026-10-05T18:32:11Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "3 English videos finished; tomorrow's upload schedule set",
+      "update_id": "goal_update_e5bf6b8a7f4b",
+      "updated_at": "2026-10-06T09:17:15Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:15Z",
+      "current_state": "Renders now queue at max 2 with no approval taps; 17 scripts routed through the queue.",
+      "description": "Yunobi approved automatic alternating renders; a semaphore queue was installed across 17 video scripts and tested with 5 concurrent renders.",
+      "effective_at": "2026-10-05T18:28:07Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Render queue installed (max 2 concurrent)",
+      "update_id": "goal_update_a1265768ef51",
+      "updated_at": "2026-10-06T09:17:15Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:15Z",
+      "current_state": "Audit running; 3 videos assembling and 3 empires-en Shorts done for tomorrow.",
+      "description": "Yunobi required every channel to be upload-ready tomorrow after seeing some empty; space-en, mind-en, and weird-en videos are assembling, upload states were set for the requeued channels, and full production resumes at 16:11.",
+      "effective_at": "2026-10-05T18:13:35Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "12-channel audit and next-day prep",
+      "update_id": "goal_update_cd81e74714ec",
+      "updated_at": "2026-10-06T09:17:15Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:15Z",
+      "current_state": "Workers for the 4 channels not running; production folded into tomorrow's 16:11 run.",
+      "description": "The afternoon restart failed because the workers were not running, so the four channels will be produced fresh tomorrow instead of being forced through tonight.",
+      "effective_at": "2026-10-05T15:33:59Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "4-channel restart failed, rescheduled for tomorrow",
+      "update_id": "goal_update_ed1b1aaf710c",
+      "updated_at": "2026-10-06T09:17:15Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:15Z",
+      "current_state": "Scripts now use personal narrator opinions, varied structure, and text overlays.",
+      "description": "Yunobi asked to keep 11 channels with a human touch; all channel crons were updated with narrator opinions, varied structure and pacing, and more personal titles and descriptions starting tomorrow.",
+      "effective_at": "2026-10-05T15:28:43Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Human touch applied to all channels",
+      "update_id": "goal_update_af3b5e34f056",
+      "updated_at": "2026-10-06T09:17:15Z"
+    },
+    {
+      "created_at": "2026-10-06T09:17:15Z",
+      "current_state": "space-en, mind-en, weird-en, empires-en requeued and awaiting workers.",
+      "description": "After the 'coba' command, the four English channels that failed to start were requeued for production.",
+      "effective_at": "2026-10-05T15:18:13Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "4 English channels requeued",
+      "update_id": "goal_update_5ae9e351136d",
+      "updated_at": "2026-10-06T09:17:15Z"
+    },
+    {
+      "created_at": "2026-10-05T15:20:37Z",
+      "current_state": "All 11 channel crons now alternate daily between 1 long video and 3 Shorts starting tomorrow.",
+      "description": "The alternating upload pattern was applied to all 11 YouTube channel schedules, so each channel uploads 1 long video one day and 3 Shorts the next, automatically avoiding YouTube's daily upload limit.",
+      "effective_at": "2026-10-05T10:00:42Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Alternating upload pattern applied to all 11 channel crons",
+      "update_id": "goal_update_65b6f7365241",
+      "updated_at": "2026-10-05T15:20:37Z"
+    },
+    {
+      "created_at": "2026-10-05T15:20:37Z",
+      "current_state": "All channels now upload 1 long video per day with Shorts the following day to stay within limits.",
+      "description": "After learning unverified channels hit YouTube's daily upload limit and one phone number verifies only 2 channels per year, Yunobi decided on 1 long video per day and Shorts the next day so every channel keeps uploading without stalling.",
+      "effective_at": "2026-10-05T09:59:10Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Upload cadence reset to 1 long per day, Shorts the next day",
+      "update_id": "goal_update_2d20dc82793f",
+      "updated_at": "2026-10-05T15:20:37Z"
+    },
+    {
+      "created_at": "2026-10-05T15:20:37Z",
+      "current_state": "mystery-en long video and Short 1 are live; horror-en long video scheduled for Oct 6 07:00 WIB while its 3 Shorts hit YouTube's daily upload limit.",
+      "description": "mystery-en's long video and first Short published and history-en queued behind it, but horror-en's 3 Shorts were blocked by YouTube's daily upload limit for unverified channels, and mystery-en's Short 2 hit the same limit.",
+      "effective_at": "2026-10-05T09:55:44Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Repair results: long videos live, Shorts blocked by daily upload limit",
+      "update_id": "goal_update_3df029c30cc2",
+      "updated_at": "2026-10-05T15:20:37Z"
+    },
+    {
+      "created_at": "2026-10-05T15:20:37Z",
+      "current_state": "Repair underway: finished videos queued for upload, horror-en reassembling, and four channels restarting production.",
+      "description": "Yunobi ordered the 7 stalled English channels fixed until they work; mystery-en and history-en videos were already finished and queued for upload, horror-en was being assembled from its 192 finished images, and space-en, mind-en, weird-en, and empires-en production was restarted.",
+      "effective_at": "2026-10-05T09:37:47Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Repair of 7 stalled English channels ordered",
+      "update_id": "goal_update_e646d22f71b2",
+      "updated_at": "2026-10-05T15:20:37Z"
+    },
+    {
+      "created_at": "2026-10-05T08:35:38Z",
+      "current_state": "Video D.B. Cooper + 3 Shorts terjadwal tayang besok 07:00 WIB; thumbnail kustom tertahan verifikasi nomor HP channel.",
+      "description": "Video perdana Dark Case Files 'D.B. Cooper: The Skyjacker Who Vanished Mid-Air' beserta 3 Shorts sudah terupload dengan deklarasi AI, tetapi thumbnail kustom tidak bisa dipasang sebelum verifikasi nomor HP di YouTube Studio.",
+      "effective_at": "2026-10-05T07:59:16Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Video perdana Dark Case Files terupload; thumbnail kustom tertahan verifikasi HP",
+      "update_id": "goal_update_9ae2d0da5bfa",
+      "updated_at": "2026-10-05T08:35:38Z"
+    },
+    {
+      "created_at": "2026-10-04T21:23:43Z",
+      "current_state": "8 channel internasional aktif dengan branding dan jadwal harian; produksi bareng jam 16:11, persetujuan 20:00-23:00, tayang 07:00 WIB (prime time AS).",
+      "description": "Delapan channel YouTube berbahasa Inggris untuk penonton luar negeri, terutama Amerika Serikat, demi RPM iklan yang jauh lebih tinggi. Channelnya: Dark Case Files (true crime), Midnight Dread Tales (horor), Unsolved Shadows (misteri), Echoes of History (sejarah dunia), Cosmic Unknown (luar angkasa), Dark Mind Files (psikologi gelap), Weird World Daily (fakta aneh), dan Lost Empires (peradaban kuno). Semua video dibuat dengan AI dan setiap channel mengaktifkan disclosure konten AI sesuai aturan YouTube.",
+      "effective_at": "2026-10-04T21:23:43Z",
+      "goal_id": "goal_880cd93ac766",
+      "title": "Added Channel YouTube internasional berbahasa Inggris",
+      "update_id": "goal_update_85b9bb235d0e",
+      "updated_at": "2026-10-04T21:23:43Z"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+ "tag": "2026-10-09-pagi",
+ "summary": "0 komentar baru di 13 channel pada run pagi 2026-10-09. 7 video terbaru tanpa own-comment di-seed sebagai channel via YouTube Data API (commentThreads.insert): 5 OK (@LimaMisteri UgzGcWb76DY88830zD54AaABAg; @TrueCaseFilesTV Ugzmk6s3rE5Ey--tP8J4AaABAg; @CosmosUnknownTV Ugxda3QNdFtK_MoVjUJ4AaABAg; @TheDarkMindFiles-s6i UgywI1HFeoOLypmI3UR4AaABAg; @AncientEmpiresTV Ugz8E-hhwV_niDEi8I54AaABAg), 2 GAGAL 403 (@ceritarakyat862 epB4odp8Fhk, @KisahPOV iSIaj3nG_vk — komentar dinonaktifkan di video barunya, setting TIDAK diubah). Pin via browser task (berjalan). Seeds pending 8 Okt (cDji7o2q26U, BAAtIR9AVeU) dibuang: bukan lagi video terbaru. Tidak ada komentar perlu perhatian user.",
+ "note": "fetch via komentar.py fetch pagi (pakai venv python — system python3 kehilangan modul google); keputusan manual dari candidates-2026-10-09-pagi.json",
+ "decisions": []
+}

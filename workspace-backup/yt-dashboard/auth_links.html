@@ -1,0 +1,157 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Login OAuth — 18 Channel</title>
+<style>
+body{font-family:sans-serif;max-width:600px;margin:0 auto;padding:16px;background:#f0f0f0}
+h1{font-size:20px}.card{background:#fff;border-radius:12px;padding:14px;margin:10px 0;box-shadow:0 1px 3px #ccc}
+.card h3{margin:0 0 4px}.slug{color:#888;font-size:12px;margin-bottom:8px}
+.btn{display:block;background:#1a73e8;color:#fff;text-align:center;padding:12px;border-radius:8px;text-decoration:none;font-weight:bold}
+.code-row{display:flex;gap:6px;margin-top:10px}
+.code-row input{flex:1;padding:10px;border:1px solid #ccc;border-radius:8px;font-size:14px}
+.code-row button{background:#25D366;color:#fff;border:none;border-radius:8px;padding:10px 16px;font-weight:bold;font-size:16px}
+ol{font-size:14px;background:#fff;padding:12px 12px 12px 28px;border-radius:12px}
+.done{opacity:.45}.done .btn{background:#888;pointer-events:none}
+</style></head><body>
+<h1>🔑 Login Ulang OAuth (18 channel)</h1>
+<ol>
+<li>Klik tombol channel di bawah</li>
+<li>Pilih <b>channel yang sesuai namanya</b> (bukan email kamu!)</li>
+<li>Klik Setuju/Izinkan</li>
+<li>Tempel kode di kolom bawah, klik 📩 untuk kirim via WhatsApp</li>
+</ol>
+<div class="card" id="strangetales">
+<h3>Strange Tales</h3><div class="slug">strangetales</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=BR35CuB4Gtp2O7uMtggX8A6oglyiZn&amp;code_challenge=n3HXzXMXjRx-T1hHQ3mXDIH0_p5abyvL-xph5PF4ZyE&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Strange Tales</a>
+<div class="code-row">
+<input type="text" id="code-strangetales" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('strangetales')">📩</button>
+</div></div>
+<div class="card" id="kisahalkitab">
+<h3>Kisah Alkitab</h3><div class="slug">kisahalkitab</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=omfxXhQqse4pHIEKiLAwBpJnQ9ovhS&amp;code_challenge=PvaT5xE1s7nQ3_OAM5HVCo7C5RAago13Q1bDfRRtpFM&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Kisah Alkitab</a>
+<div class="code-row">
+<input type="text" id="code-kisahalkitab" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('kisahalkitab')">📩</button>
+</div></div>
+<div class="card" id="empires-en">
+<h3>Lost Empires</h3><div class="slug">empires-en</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=Ivk4JAT8PKgkdLqpOpS0M27C0v94HK&amp;code_challenge=aQCX3KQ9MzAfaBW65TkCr7BnjnbB3z8TmgpjaZvY0AY&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Lost Empires</a>
+<div class="code-row">
+<input type="text" id="code-empires-en" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('empires-en')">📩</button>
+</div></div>
+<div class="card" id="history-en">
+<h3>History EN</h3><div class="slug">history-en</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=m9LT2ubxMWdPlXQ6DNJLHjk2bz6Y8U&amp;code_challenge=BIhBBRM0ynh61ZUVuwBZ5E7qW6Qm9ifPGc0XgIPepAc&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login History EN</a>
+<div class="code-row">
+<input type="text" id="code-history-en" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('history-en')">📩</button>
+</div></div>
+<div class="card" id="horor">
+<h3>Kisah POV</h3><div class="slug">horor</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=qjGegSnaUSmN5vNTSdMQh5SWaC78UG&amp;code_challenge=oPZmQNxo-xbdICs-r12z2avtcL2yyRgGv16htxAxSbU&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Kisah POV</a>
+<div class="code-row">
+<input type="text" id="code-horor" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('horor')">📩</button>
+</div></div>
+<div class="card" id="horror-en">
+<h3>Tales of Dread</h3><div class="slug">horror-en</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=xxfHYY4Nm706PxJyglJHdTkJhb2hyK&amp;code_challenge=fOhhfIrVzr7pYCe3UxGQSuog7U_5JbbX5wgMytbtpCc&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Tales of Dread</a>
+<div class="code-row">
+<input type="text" id="code-horror-en" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('horror-en')">📩</button>
+</div></div>
+<div class="card" id="jejakbuddha">
+<h3>Jejak Buddha</h3><div class="slug">jejakbuddha</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=4zjSH4grHIWaptGgrStMaHeJnT1k2B&amp;code_challenge=TzqRuEhEoyFfVsnExWzGTVkZzWK6pVJJNgQkeXEs6mk&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Jejak Buddha</a>
+<div class="code-row">
+<input type="text" id="code-jejakbuddha" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('jejakbuddha')">📩</button>
+</div></div>
+<div class="card" id="jejakislami">
+<h3>Jejak Islami</h3><div class="slug">jejakislami</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=EgTXE629ta4nuJoVEY2IW656G2rSDe&amp;code_challenge=PNBV6WTU7-OR_MtdSlB-AyR6ZrrMJaHyCAb7XPBh2wc&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Jejak Islami</a>
+<div class="code-row">
+<input type="text" id="code-jejakislami" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('jejakislami')">📩</button>
+</div></div>
+<div class="card" id="kisahdharma">
+<h3>Kisah Dharma</h3><div class="slug">kisahdharma</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=A5bn4FpkWKkuXIHIgM3FlaVAIEVGeo&amp;code_challenge=HsAf4FQtKki98h1UNmVlfsVCOtLrC9-DXGkpJuvx85s&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Kisah Dharma</a>
+<div class="code-row">
+<input type="text" id="code-kisahdharma" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('kisahdharma')">📩</button>
+</div></div>
+<div class="card" id="mind-en">
+<h3>Dark Mind Files</h3><div class="slug">mind-en</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=XX4fDusWKeRx9Ce5J4XWh3NThOMWeA&amp;code_challenge=U20N2W6TexZKBmujln2kuWAyix16K0-K9VWAHKIov7U&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Dark Mind Files</a>
+<div class="code-row">
+<input type="text" id="code-mind-en" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('mind-en')">📩</button>
+</div></div>
+<div class="card" id="mystery-en">
+<h3>Mystery Shadows</h3><div class="slug">mystery-en</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=H3y6jAmyCX7cFx20DtU0lneURwdzuI&amp;code_challenge=cos71I13pjRzpQ0moHWPlpU7gcX5sDZLtgtIuaS6wds&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Mystery Shadows</a>
+<div class="code-row">
+<input type="text" id="code-mystery-en" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('mystery-en')">📩</button>
+</div></div>
+<div class="card" id="space-en">
+<h3>Cosmos Unknown</h3><div class="slug">space-en</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=rmb4DsPuptS3AqyV3ibCHZSI061IMW&amp;code_challenge=HmR9uIy2RwBXK9h8p81vKETuhUfEx6K-xBOEYMTgtts&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Cosmos Unknown</a>
+<div class="code-row">
+<input type="text" id="code-space-en" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('space-en')">📩</button>
+</div></div>
+<div class="card" id="tinybuilders">
+<h3>Tiny Builders</h3><div class="slug">tinybuilders</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=WATHz3DqcrGrneIUCdTqAcQC7fe80z&amp;code_challenge=PEEIKg2LRNhg0Gv7-Kb3slCE10GyRqIHGJpDTyQinM0&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Tiny Builders</a>
+<div class="code-row">
+<input type="text" id="code-tinybuilders" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('tinybuilders')">📩</button>
+</div></div>
+<div class="card" id="truecrime-en">
+<h3>True Case Files</h3><div class="slug">truecrime-en</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=kfX5ajeNGBrrH03WYqBFU0klFcnfKO&amp;code_challenge=Aj1fckFZFJttYxE-n-kHIKdiGXDS82dCpJm_9e4zekg&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login True Case Files</a>
+<div class="code-row">
+<input type="text" id="code-truecrime-en" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('truecrime-en')">📩</button>
+</div></div>
+<div class="card" id="weird-en">
+<h3>Bizarre World Daily</h3><div class="slug">weird-en</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=0TeciUk2aLczGAaJK4iVDTDla5nkuz&amp;code_challenge=RBgCFj6HgV8ojJ55_uJ_0C4v6nQnL3GArScHAm77w7Q&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Bizarre World Daily</a>
+<div class="code-row">
+<input type="text" id="code-weird-en" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('weird-en')">📩</button>
+</div></div>
+<div class="card" id="fakta-bola-dunia">
+<h3>Fakta Bola Dunia ⭐ BARU</h3><div class="slug">fakta-bola-dunia</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=4W2gsDpmU84hnqYB4lxtq2eYIsgdux&amp;code_challenge=73xoeWcLTChzF8GaXI12pYM8Vx-ZQezpftR0ES_1rwg&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Fakta Bola Dunia ⭐ BARU</a>
+<div class="code-row">
+<input type="text" id="code-fakta-bola-dunia" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('fakta-bola-dunia')">📩</button>
+</div></div>
+<div class="card" id="inktime">
+<h3>InkTime</h3><div class="slug">inktime</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=iW3pyMrGdGCfvtvzKKKvQbaGKQI7RW&amp;code_challenge=9QjH-aTYCZxGneOZunvMgtufPNrL6v9AbwcYAXdYXh4&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login InkTime</a>
+<div class="code-row">
+<input type="text" id="code-inktime" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('inktime')">📩</button>
+</div></div>
+<div class="card" id="macammacam">
+<h3>Macam Macam</h3><div class="slug">macammacam</div>
+<a class="btn" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;client_id=576217641407-s32aigghrm4kkst10p0oeidqeu7b78o9.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbxMIhDV-wppDDGVORAFfVZZfiI-tEMRHCaaiEBVh2bbE6CewPNTpzrVIGK3rArDv4F0XQ%2Fexec&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyt-analytics.readonly&amp;state=gV25hpFp5HsMKXqIBZHAG4ZBltItYv&amp;code_challenge=x4eiso_tfgCGcg_ITJFyOU510ljZOhw8pE6MXrM8Qqw&amp;code_challenge_method=S256&amp;access_type=offline&amp;prompt=consent+select_account" target="_blank">🔑 Login Macam Macam</a>
+<div class="code-row">
+<input type="text" id="code-macammacam" placeholder="Tempel kode OAuth di sini">
+<button onclick="kirimWA('macammacam')">📩</button>
+</div></div>
+<script>
+function kirimWA(slug){
+  var card=document.getElementById(slug);
+  var code=card.querySelector('input').value.trim();
+  var name=card.querySelector('h3').textContent;
+  if(!code){alert('Tempel dulu kodenya!');return;}
+  var text='OAUTH_CODE='+code+' untuk '+name;
+  card.classList.add('done');
+  window.open('https://wa.me/?text='+encodeURIComponent(text),'_blank');
+}
+</script></body></html>

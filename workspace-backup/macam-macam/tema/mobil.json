@@ -1,0 +1,63 @@
+{
+ "items": [
+  {
+   "fakta": "Mobil keluarga yang nyaman buat jalan-jalan bareng!",
+   "nama": "Sedan",
+   "pexels_query": "sedan car",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/mobil-part1/tempel/item00.jpg",
+   "kredit": "Retired electrician / Wikimedia Commons (CC0)"
+  },
+  {
+   "fakta": "Badannya besar dan gagah, bisa lewat jalan berbatu!",
+   "nama": "SUV",
+   "pexels_query": "suv car",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/mobil-part1/tempel/item01.jpg",
+   "kredit": "Kevauto / Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  {
+   "fakta": "Larinya super kencang, bunyinya vroom vroom!",
+   "nama": "Mobil Balap",
+   "pexels_query": "race car",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/mobil-part1/tempel/item02.jpg",
+   "kredit": "Steffen Prößdorf / Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  {
+   "fakta": "Bisa bawa banyak penumpang sekaligus, ayo naik!",
+   "nama": "Bus",
+   "pexels_query": "bus",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/mobil-part1/tempel/item03.jpg",
+   "kredit": "Zalasem1 / Wikimedia Commons (CC BY 4.0)"
+  },
+  {
+   "fakta": "Mobil penyelamat, bunyinya wiu wiu wiu!",
+   "nama": "Ambulans",
+   "pexels_query": "ambulance",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/mobil-part1/tempel/item04.jpg",
+   "kredit": "DaSupremo / Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  {
+   "fakta": "Mobil polisi yang menangkap penjahat di jalan!",
+   "nama": "Mobil Polisi",
+   "pexels_query": "police car",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/mobil-part1/tempel/item05.jpg",
+   "kredit": "George Chernilevsky / Wikimedia Commons (Public domain)"
+  },
+  {
+   "fakta": "Antar kamu pergi ke mana aja, tinggal naik!",
+   "nama": "Taksi",
+   "pexels_query": "taxi car",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/mobil-part1/tempel/item06.jpg",
+   "kredit": "Matt Kieffer / Wikimedia Commons (CC BY-SA 2.0)"
+  },
+  {
+   "fakta": "Nggak pakai bensin, ramah lingkungan dan tidak berisik!",
+   "nama": "Mobil Listrik",
+   "pexels_query": "electric car",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/mobil-part1/tempel/item07.jpg",
+   "kredit": "Carlquinn / Wikimedia Commons (CC BY-SA 4.0)"
+  }
+ ],
+ "judul": "Mobil",
+ "kategori": "jenis mobil",
+ "part": 1
+}

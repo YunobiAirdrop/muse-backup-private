@@ -1,0 +1,51 @@
+INTEGRASI FITUR EMBED VIDEO — TERAPKAN SETELAH RUN BLOG 2026-10-14 SELESAI
+================================================================================
+File target : ~/workspace/blog-otomatis/posting_web.py  (JANGAN edit selagi run jalan!)
+Cara        : tambahkan 6 baris di bawah (atau: patch -p1 < embed_video.patch)
+
+Lokasi: fungsi main(), loop "for art in artikels:", SETELAH blok try/except
+rakit_body dan SEBELUM out.append(...):
+
+    # 2. rakit body
+    out = []
+    for art in artikels:
+        try:
+            _judul, html = papi.rakit_body(art)
+        except Exception as e:
+            print(f"rakit_body gagal untuk {art.get('judul','')[:40]}: {e}")
+            continue
+        # >>> TAMBAHKAN 6 BARIS INI (fitur embed video, 2026-10-14) >>>
+        try:
+            from embed_video import sisipkan_embed
+            html = sisipkan_embed(html, art, nama)
+        except Exception as e:
+            print(f"embed_video dilewati: {e}")
+        # <<< AKHIR TAMBAHAN <<<
+        out.append({"judul": art.get("judul", ""), "html": html})
+
+Verifikasi setelah pasang:
+  cd ~/workspace/blog-otomatis && ./venv/bin/python -c "
+  import posting_web"  # pastikan tidak syntax error
+
+Efek: setiap artikel yang dirakit posting_web.py otomatis disisipi 1-2 embed
+video YouTube milik sendiri yang relevan (atau tidak disisipi apa pun bila
+tidak ada video yang cukup relevan — aman, tidak merusak HTML).
+
+Aktif mulai: run blog-otomatis-harian 2026-10-15 (atau manual run berikutnya).
+
+--- unified diff (untuk `patch`) ---
+--- a/posting_web.py
++++ b/posting_web.py
+@@ -124,6 +124,12 @@
+         except Exception as e:
+             print(f"rakit_body gagal untuk {art.get('judul','')[:40]}: {e}")
+             continue
++        # EMBED VIDEO YOUTUBE milik sendiri (fitur 2026-10-14)
++        try:
++            from embed_video import sisipkan_embed
++            html = sisipkan_embed(html, art, nama)
++        except Exception as e:
++            print(f"embed_video dilewati: {e}")
+         out.append({"judul": art.get("judul", ""), "html": html})
+     if not out:
+         print("Tidak ada artikel yang bisa dirakit")

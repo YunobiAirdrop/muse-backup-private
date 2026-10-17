@@ -1,0 +1,8 @@
+name: "local_yt_youtube_agent_skill"
+title: "Recovered skill notes"
+description: "Local skill notes preserved from the previous layout and awaiting review."
+category: "Learning and customization"
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  needs_review: true

@@ -1,0 +1,303 @@
+# Lima Misteri — 2026-10-09 — "5 Kejadian Aneh Paling Ngeri, Nomor 1 Bikin Merinding"
+# Format: BEAT n / NARASI / GAMBAR. NARASI [JEDA] = 2,5 detik hening.
+# Hook 3 detik: kalimat beat 1 + on-screen "TEREKAM KAMERA MALAM INI" + frame koridor RS.
+
+BEAT 1
+NARASI: Lorong rumah sakit ini sudah kosong dua puluh tahun. Tapi kamera pengawasnya merekam sesuatu... yang berjalan.
+GAMBAR: Dark abandoned hospital corridor at night, flickering ceiling lamp, faint translucent shadowy figure walking at far end, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 2
+NARASI: Ini rekaman yang bikin aku mikir dua kali sebelum matiin lampu kamar malam ini.
+GAMBAR: Silhouette of young man in dark bedroom hesitating before light switch, fearful expression, moonlight through window, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 3
+NARASI: Dan itu baru pemanasan. Di nomor satu nanti, ada yang jauh lebih bikin merinding.
+GAMBAR: Shadowy hand pressed against frosted glass of old hospital door, eerie blue light, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 4
+NARASI: Malam ini, lima kejadian aneh yang benar-benar terdokumentasi. Sampai sekarang, belum ada yang bisa menjelaskannya.
+GAMBAR: Old parchment world map with five glowing red question marks over different regions, candlelight, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 5
+NARASI: Ada penampakan di rumah sakit tua, sosok putih di jalan tol, cahaya misterius di langit kota, desa yang hilang dari peta, sampai laut yang surut tiba-tiba.
+GAMBAR: Collage of five eerie scenes: haunted hospital corridor, white figure on highway, glowing triangle lights over city, misty village, receded shoreline, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 6
+NARASI: Tonton sampai habis, karena nomor satu... jujur, aku sampai kebawa mimpi waktu riset ceritanya.
+GAMBAR: Narrator silhouette tossing in bed at night, nightmare shadows of hospital corridor on bedroom wall, moonlight, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 7
+NARASI: Selamat datang di Lima Misteri. Kita mulai... dari nomor satu.
+GAMBAR: Giant glowing number 1 in stormy night sky over Indonesian town rooftops, lightning, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 8
+NARASI: Nomor 1. Di sebuah rumah sakit tua di Jawa Timur, ada satu lorong yang ditutup sejak lama.
+GAMBAR: Abandoned hospital corridor with chained double doors and old sign, dust and cobwebs, dim emergency light, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 9
+NARASI: Perawat jaga malam bersumpah mendengar bunyi ranjang roda berderit... padahal lorong itu kosong.
+GAMBAR: Nurse in white uniform holding flashlight, startled, empty hospital corridor stretching behind her, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 10
+NARASI: Rekaman CCTV-nya bocor ke internet. Di tengah video, ada bayangan melintas... tanpa kaki.
+GAMBAR: Illustrated CCTV monitor frame showing empty corridor with translucent legless shadow gliding across, timestamp overlay style frame, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 11
+NARASI: Komentar netizen pecah. Ada yang bilang itu cuma pantulan cahaya... tapi bayangannya bergerak melawan arah lampu.
+GAMBAR: Split view of corridor lamp casting light one way while dark shadow moves opposite direction, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 12
+NARASI: Kamar nomor tujuh paling angker. Seorang pasien mengaku dibangunkan suster... yang wajahnya kosong. Tanpa mata, tanpa mulut.
+GAMBAR: Faceless nurse in old-fashioned uniform standing beside hospital bed, terrified patient pulling blanket, night, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 13
+NARASI: Yang nomor satu ini... jujur saya merinding nulisnya. Bayangin, kamu lagi sakit, terus yang bangunin kamu bukan manusia.
+GAMBAR: Extreme close-up of faceless nurse head, smooth blank face, dim corridor light, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 14
+NARASI: [JEDA]
+GAMBAR: Empty dark hospital room at night, moonlight through barred window, vacant bed with white sheet, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 15
+NARASI: Ruang bersalin di lantai dua sudah ditutup belasan tahun. Tapi tiap tengah malam, terdengar tangisan bayi dari balik pintunya.
+GAMBAR: Sealed old maternity ward door with rusted chain, faint baby crib silhouette visible through cracked door, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 16
+NARASI: Satpam yang berjaga pernah nekat membuka pintunya. Yang dia temukan... ruangan kosong berdebu. Dan tangisannya berhenti seketika.
+GAMBAR: Security guard pushing open dusty empty maternity ward, old crib overturned, moonlight beam, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 17
+NARASI: Sejak malam itu, satpamnya minta pindah jaga ke gerbang depan. Nggak berani lagi lewat lorong itu sendirian.
+GAMBAR: Security guard running down dark hospital corridor away from camera, flashlight beam shaking, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 18
+NARASI: Ada yang mencoba menjelaskan secara logis: angin, pipa tua, sugesti. Tapi tak satu pun bisa menjelaskan rekaman CCTV itu.
+GAMBAR: Old rusted hospital pipes and broken window with curtains moving, skeptical magnifying glass over CCTV frame, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 19
+NARASI: Di rekaman yang lebih panjang, terdengar langkah kaki... mendekat ke arah kamera. Makin lama, makin jelas.
+GAMBAR: CCTV corridor view with approaching translucent footprints appearing on dusty floor, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 20
+NARASI: Dan tepat saat bayangan itu menoleh ke kamera... rekamannya terputus sendiri.
+GAMBAR: Shadowy figure turning its head toward viewer inside CCTV frame, screen glitching to static, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 21
+NARASI: Aku ulang nonton berkali-kali. Tetap nggak nemu penjelasan logisnya. Kalian boleh coba cari sendiri.
+GAMBAR: Young man at desk replaying video on laptop at night, multiple paused frames on screen, puzzled, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 22
+NARASI: Pihak rumah sakit menolak berkomentar. Lorong itu tetap ditutup... tapi kameranya tetap merekam.
+GAMBAR: Old hospital building exterior at night, single lit window on upper floor, full moon, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 23
+NARASI: Kalau kalian jadi saksinya, berani nggak jaga malam sendirian di sana? Tulis jawaban kalian di komentar.
+GAMBAR: Empty security guard chair facing bank of flickering monitors showing dark corridor, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 24
+NARASI: Tapi tunggu, nomor dua nggak kalah aneh. Kali ini kejadiannya... di jalan tol, tengah malam.
+GAMBAR: Empty Indonesian toll road at night disappearing into fog, single street lamp, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 25
+NARASI: Nomor 2. Di sebuah ruas jalan tol, para pengemudi malam hari melaporkan hal yang sama, berulang-ulang.
+GAMBAR: Car driving on night toll road, headlights cutting through darkness, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 26
+NARASI: Sosok putih menyeberang tepat di depan mobil. Pengemudi mengerem mendadak... dan sosoknya hilang begitu saja.
+GAMBAR: Pale white humanoid figure crossing highway directly in front of car headlights at night, motion blur, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 27
+NARASI: Anehnya, laporan selalu datang dari titik yang sama. Kilometer yang sama, jam yang hampir sama.
+GAMBAR: Night highway map with glowing pin at one spot, multiple car icons converging, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 28
+NARASI: Seorang sopir truk bersumpah, sosok itu menatap tepat ke arahnya... sebelum lenyap ditelan gelap.
+GAMBAR: Truck driver gripping steering wheel, eyes wide, white figure staring through windshield, night, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 29
+NARASI: Warga sekitar percaya itu arwah korban kecelakaan bertahun-tahun lalu, di titik yang persis sama.
+GAMBAR: Small roadside memorial with flowers and candle at night highway shoulder, mist, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 30
+NARASI: Yang bikin bulu kuduk berdiri: rekaman dasbor salah satu mobil menangkap bayangan putih... yang tidak terlihat di kaca spion.
+GAMBAR: Car dashboard camera view at night showing white blur on road ahead, rearview mirror showing empty road, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 31
+NARASI: Kalau aku yang nyetir dan lihat itu... jujur aku nggak tahu bakal ngerem atau malah tancap gas.
+GAMBAR: Driver hands trembling on steering wheel, white figure faint in headlights ahead, night highway, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 32
+NARASI: [JEDA]
+GAMBAR: Deserted toll road at night, thick fog rolling across lanes, one distant lamp glowing, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 33
+NARASI: Polisi patroli tidak menemukan apa-apa. Tidak ada jejak kaki, tidak ada saksi lain, tidak ada yang terekam kamera tol.
+GAMBAR: Police patrol car with flashing red-blue lights on empty night highway, officers looking around, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 34
+NARASI: Tapi laporannya terus berdatangan, sampai pengelola tol akhirnya menambah lampu di ruas itu.
+GAMBAR: Highway workers installing bright new street lamps along dark toll road at dusk, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 35
+NARASI: Pernah lihat yang aneh di jalan malam-malam? Ceritain pengalaman kalian di kolom komentar.
+GAMBAR: Nervous driver glancing at dark roadside trees through car window at night, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 36
+NARASI: Dan nomor tiga... kali ini bukan hantu. Ratusan orang melihatnya, di langit sebuah kota besar.
+GAMBAR: Crowd of people on city street at night all pointing up at glowing sky, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 37
+NARASI: Oh iya, jeda sebentar. Kalau suka misteri kayak gini, subscribe biar nggak ketinggalan episode berikutnya.
+GAMBAR: Friendly narrator silhouette pointing at big glowing subscribe button, bell icon, dark studio background, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 38
+NARASI: Makasih banyak! Lanjut ke nomor tiga. Ini kejadian dengan saksi paling banyak malam ini.
+GAMBAR: Giant glowing number 3 in night sky over Indonesian city skyline, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 39
+NARASI: Nomor 3. Di atas sebuah kota besar Indonesia, ratusan warga melihat formasi cahaya misterius.
+GAMBAR: Indonesian city skyline at night with mysterious triangular formation of glowing lights hovering above, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 40
+NARASI: Cahayanya bergerak pelan, membentuk pola segitiga sempurna... tanpa suara sama sekali.
+GAMBAR: Close-up of three bright orbs forming perfect triangle in cloudy night sky, silent, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 41
+NARASI: Video amatirnya viral dalam hitungan jam. Ribuan komentar, semuanya bertanya hal yang sama: itu apa?
+GAMBAR: Hand holding smartphone recording glowing triangle lights in night sky, crowd silhouettes, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 42
+NARASI: Yang aneh, cahayanya bertahan cukup lama... lalu padam satu per satu, seperti ada yang mematikannya.
+GAMBAR: Triangle light formation with two orbs fading out leaving one glowing, night clouds, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 43
+NARASI: Aku sih pengen percaya ini cuma fenomena alam... tapi gerakannya terlalu rapi buat dibilang kebetulan.
+GAMBAR: Thoughtful young man looking up at night sky, triangle lights reflected in his eyes, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 44
+NARASI: [JEDA]
+GAMBAR: Dark night sky with single fading light orb among stars, wispy clouds, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 45
+NARASI: Beberapa saksi bersumpah, formasinya sempat berhenti tepat di atas gedung tertinggi kota.
+GAMBAR: Glowing triangle lights hovering motionless above tallest skyscraper, tiny people watching from rooftop, night, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 46
+NARASI: Sampai hari ini, belum ada penjelasan resmi yang memuaskan. Laporannya hanya disebut sebagai fenomena atmosfer.
+GAMBAR: Illustrated official document stamped with big red question mark, night city in background, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 47
+NARASI: Fenomena atmosfer yang membentuk segitiga sempurna dan diam lama di satu titik? Hmm, aku sih belum yakin.
+GAMBAR: Skeptical narrator silhouette with raised eyebrow looking at triangle lights diagram, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 48
+NARASI: Menurut kalian itu apa? Tulis teori kalian di komentar. Yang paling masuk akal, aku pin di atas.
+GAMBAR: Crowd of people pointing at glowing triangle in night sky, speech bubbles empty, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 49
+NARASI: Nomor empat... sebuah desa yang jelas ada di peta, tapi tidak ada di dunia nyata.
+GAMBAR: Old paper map with small village circled in red, compass and candle beside it, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 50
+NARASI: Nomor 4. Seorang pendaki tersesat di hutan. Saat hampir putus asa, dia melihat lampu-lampu sebuah desa.
+GAMBAR: Lost hiker with backpack seeing warm village lights through dark forest at night, relieved, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 51
+NARASI: Warga desa menyambutnya ramah. Ada warung yang masih buka, ada masjid, ada anak-anak bermain.
+GAMBAR: Warm misty mountain village at night, small food stall glowing, mosque silhouette, children playing, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 52
+NARASI: Pendaki itu bermalam di sana. Paginya dia pamit... dan turun gunung dengan selamat.
+GAMBAR: Hiker waving goodbye to villagers at village gate at dawn, mist, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 53
+NARASI: Di kaki gunung dia bercerita tentang desa itu. Warga menatapnya aneh... karena di sana tidak ada desa apa pun.
+GAMBAR: Hiker telling story to puzzled villagers at mountain base, one shaking head, daylight, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 54
+NARASI: Dicek lewat peta satelit: yang terlihat cuma hutan lebat. Tidak ada jalan, tidak ada atap rumah, tidak ada apa-apa.
+GAMBAR: Satellite-style view of dense green forest with red circle showing nothing but trees, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 55
+NARASI: Ini bagian yang bikin aku bingung. Pendakinya sempat memotret desa itu... tapi hasil fotonya cuma hutan kosong.
+GAMBAR: Hiker holding camera showing photo of empty forest where village should be, shocked face, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 56
+NARASI: [JEDA]
+GAMBAR: Misty empty forest clearing at dusk where village was seen, faint outlines of houses dissolving into fog, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 57
+NARASI: Ada yang bilang pendakinya halusinasi karena kelelahan. Tapi dia bisa menggambarkan warungnya sampai detail: warna catnya, menu makanannya.
+GAMBAR: Hiker describing village food stall in detail to skeptical listeners, gesturing vividly, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 58
+NARASI: Tetua di kaki gunung akhirnya buka suara. Katanya, dulu memang ada desa di sana... sebelum longsor puluhan tahun lalu.
+GAMBAR: Elderly villager telling story by campfire, young listeners wide-eyed, night, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 59
+NARASI: Merinding nggak? Seolah desa itu... pulang sesaat, menyambut tamu yang tersesat, lalu hilang lagi.
+GAMBAR: Ghostly translucent village houses fading into mountain mist at dawn, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 60
+NARASI: Kalian percaya ada desa gaib? Atau ini cuma cerita yang kebetulan mirip? Tulis pendapat kalian.
+GAMBAR: Forked path in misty forest, one path leading to faint village lights, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 61
+NARASI: Terakhir, nomor lima. Bukan hantu, bukan UFO... tapi alam yang bertingkah aneh.
+GAMBAR: Giant glowing number 5 over dramatic seascape at dawn, dark clouds, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 62
+NARASI: Nomor 5. Di sebuah desa nelayan, warga bangun pagi dan menemukan lautnya... surut ratusan meter.
+GAMBAR: Fishermen staring in shock at massively receded shoreline, boats stranded on wet sand at dawn, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 63
+NARASI: Ikan-ikan tergeletak di pasir basah. Perahu-perahu kandas miring. Sejauh mata memandang, cuma lumpur dan karang.
+GAMBAR: Fish flopping on exposed seabed, tilted stranded fishing boats, coral and mud flats stretching to horizon, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 64
+NARASI: Warga panik. Semua orang ingat satu kata: tsunami. Anak-anak digendong lari ke bukit.
+GAMBAR: Panicked villagers running uphill carrying children and belongings, empty sea behind them, dawn, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 65
+NARASI: Tapi gelombang besar itu tidak pernah datang. Perlahan, air laut kembali normal... seolah tidak terjadi apa-apa.
+GAMBAR: Calm sea returning to normal shoreline, gentle waves, villagers watching from hilltop, morning light, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 66
+NARASI: Syukurlah nggak terjadi apa-apa... tapi justru itu yang aneh. Surut sebesar itu, tanpa sebab yang jelas.
+GAMBAR: Puzzled fisherman scratching head looking at normal sea, stranded boat now floating, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 67
+NARASI: [JEDA]
+GAMBAR: Vast empty seabed at low tide under dramatic cloudy sky, single stranded boat, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 68
+NARASI: Pasang surut biasa tidak pernah seekstrem itu. Sampai sekarang, belum ada yang bisa menjelaskannya dengan pasti.
+GAMBAR: Scientist with clipboard examining tide chart showing abnormal dip, confused, beach background, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 69
+NARASI: Satu pesan penting: kalau kalian melihat laut surut tiba-tiba seperti ini, jangan mendekat. Lari ke tempat tinggi.
+GAMBAR: Warning sign on beach with person running uphill away from receded sea, red alert tone, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 70
+NARASI: Kadang yang paling misterius itu bukan hantu... tapi alam itu sendiri.
+GAMBAR: Powerful ocean wave under stormy sky, tiny human silhouette on cliff, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 71
+NARASI: Nah, itu dia lima kejadian aneh malam ini. Dari rumah sakit berhantu sampai laut yang surut misterius.
+GAMBAR: Five small eerie scene thumbnails floating around glowing number 5, dark background, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen
+
+BEAT 72
+NARASI: Jujur, yang paling bikin aku merinding tetap nomor satu. Rumah sakit tua itu... aku nggak berani nonton rekamannya sendirian lagi.
+GAMBAR: Narrator silhouette pulling blanket over head in bed, hospital corridor shadow on wall, night, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 73
+NARASI: Kalau kalian, kejadian nomor berapa yang paling bikin merinding? Tulis di komentar, aku baca semuanya.
+GAMBAR: Glowing comment section illustration with numbers 1 to 5 floating, dark background, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 74
+NARASI: Jangan lupa subscribe dan nyalain loncengnya, biar nggak ketinggalan lima misteri berikutnya.
+GAMBAR: Big red subscribe button with ringing bell, confetti of question marks, dark studio, 2D storybook digital illustration, dark moody, not photorealistic, no text, 16:9 widescreen
+
+BEAT 75
+NARASI: Sampai jumpa di episode berikutnya. Tetap waspada... dan jangan matiin semua lampu malam ini.
+GAMBAR: Single lamp glowing in dark room, long shadows, hand reaching for switch hesitating, 2D storybook digital illustration, dark moody painterly, not photorealistic, no text, 16:9 widescreen

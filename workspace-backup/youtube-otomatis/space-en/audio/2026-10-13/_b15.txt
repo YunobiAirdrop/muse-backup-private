@@ -1,0 +1,2 @@
+file '/home/hatch/workspace/youtube-otomatis/space-en/audio/2026-10-13/beat-015a.mp3'
+file '/home/hatch/workspace/youtube-otomatis/space-en/audio/2026-10-13/beat-015b4.mp3'

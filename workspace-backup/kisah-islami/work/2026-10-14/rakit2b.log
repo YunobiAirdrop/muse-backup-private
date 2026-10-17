@@ -1,0 +1,6 @@
+OK p12 (23 s)
+SKIP p12
+OK p13 (23 s)
+/home/hatch/workspace/kisah-islami/work/2026-10-14/rakit2b.sh: line 17: 91887 Killed                  $FF -hide_banner -loglevel error $loopopt -i "$src" -t "$dur" -vf "$VF" -c:v libx264 -preset veryfast -crf 20 -an -y "$W/segs/p$slot.mp4"
+SKIP p12
+SKIP p13

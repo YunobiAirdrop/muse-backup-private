@@ -1,0 +1,6 @@
+    main()
+  File "/home/hatch/workspace/kisah-dharma/2026-10-17/rakit.py", line 200, in main
+    assert sz < 100, "small > 100MB!"
+           ^^^^^^^^
+AssertionError: small > 100MB!
+DEAD

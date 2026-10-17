@@ -1,0 +1,166 @@
+[
+ {
+  "tanggal": "2026-10-03",
+  "topik": "POV: Kamu Jadi Prajurit Majapahit di Perang Bubat",
+  "kategori": "Nusantara",
+  "status": "produksi"
+ },
+ {
+  "tanggal": "2026-10-04",
+  "topik": "POV: Kamu Jadi Gladiator di Colosseum",
+  "kategori": "Dunia",
+  "status": "tayang",
+  "url_long": "https://www.youtube.com/watch?v=txLoIquT-Dg",
+  "url_shorts": [
+   "https://youtube.com/shorts/sLsyvHV4BVg",
+   "https://youtube.com/shorts/VlBBI1WSt_M",
+   "https://youtube.com/shorts/4xtnfzI3_Zg"
+  ]
+ },
+ {
+  "tanggal": "2026-10-05",
+  "topik": "POV: Kamu Jadi Awak Kapal Sriwijaya Melintasi Selat Malaka",
+  "kategori": "Nusantara",
+  "status": "selesai",
+  "catatan": "Produksi selesai 2026-10-05 sore: 88/88 gambar (81 generate asli + 7 stand-in: 001,012,039,057,058,059,082 diblokir kebijakan konten, tidak bisa di-retry). Video long 11 mnt + 3 shorts 45 dtk + thumbnail jadi. Voiceover Indonesia natural tidak diubah. BELUM UPLOAD: butuh browser + approval user.",
+  "file_long": "video/2026-10-05.mp4",
+  "file_shorts": [
+   "shorts/2026-10-05-s1.mp4",
+   "shorts/2026-10-05-s2.mp4",
+   "shorts/2026-10-05-s3.mp4"
+  ],
+  "file_thumbnail": "thumbnail-2026-10-05.jpg"
+ },
+ {
+  "tanggal": "2026-10-06",
+  "topik": "POV: Kamu Jadi Pilot Kamikaze Jepang",
+  "kategori": "Dunia",
+  "status": "tayang",
+  "file_long": "video/2026-10-06.mp4",
+  "file_shorts": [
+   "shorts/2026-10-06-s1.mp4",
+   "shorts/2026-10-06-s2.mp4",
+   "shorts/2026-10-06-s3.mp4"
+  ],
+  "file_thumbnail": "thumbnail-2026-10-06.jpg",
+  "catatan": "Long terupload 2026-10-06 ~17:01 WIB (menggantikan catatan upload-tertunda): AI disclosure ✓, thumbnail kustom ✓, terjadwal tayang 2026-10-07 19:00 WIB. 3 shorts (s1/s2/s3, 45 dtk vertikal) diupload 2026-10-07, terjadwal 2026-10-08 19:00 WIB. Shorts terupload & terjadwal 2026-10-08 19:00 WIB: https://youtube.com/shorts/avEG3PdEZyg, https://youtube.com/shorts/epB4odp8Fhk, https://youtube.com/shorts/uODVnY-U17o",
+  "url_long": "https://youtu.be/W--QaM2Mm2A",
+  "url_shorts": [
+   "https://youtube.com/shorts/avEG3PdEZyg",
+   "https://youtube.com/shorts/epB4odp8Fhk",
+   "https://youtube.com/shorts/uODVnY-U17o"
+  ]
+ },
+ {
+  "tanggal": "2026-10-08",
+  "topik": "POV: Kamu Jadi Prajurit Pattimura — Malam Benteng Jatuh",
+  "kategori": "Nusantara",
+  "status": "tayang",
+  "file_long": "video/2026-10-08.mp4",
+  "file_web": "video/2026-10-08-web.mp4",
+  "url_long": "https://www.youtube.com/watch?v=x3Mkp4cYc0g",
+  "catatan": "Produksi 10-08 (88 beat). Upload 10-08 GAGAL (runtime restart, bukan limit). Retry 10-09 BERHASIL: https://www.youtube.com/watch?v=x3Mkp4cYc0g. Entri ditambahkan 10-10 (gap bookkeeping)."
+ },
+ {
+  "tanggal": "2026-10-09",
+  "topik": "POV: Kamu Jadi Pelaut Viking Menyeberangi Atlantik",
+  "kategori": "Dunia",
+  "status": "tayang",
+  "file_long": "video/2026-10-09.mp4",
+  "file_web": "video/2026-10-09-web.mp4",
+  "file_shorts": [
+   "shorts/2026-10-09-s1.mp4",
+   "shorts/2026-10-09-s2.mp4",
+   "shorts/2026-10-09-s3.mp4"
+  ],
+  "file_thumbnail": "thumbnail-2026-10-09.jpg",
+  "catatan": "Long + 3 shorts TERUPLOAD 2026-10-11 (terverifikasi snapshot API 2026-10-12 pagi: long ESlXhONwvQY tayang 2026-10-11; shorts 5GSghwov0nI, cUtpnRpB9JU, HjdAB_44M30). Bookkeeping dilengkapi run 2026-10-12.",
+  "url_long": "https://www.youtube.com/watch?v=ESlXhONwvQY",
+  "url_shorts": [
+   "https://youtube.com/shorts/5GSghwov0nI",
+   "https://youtube.com/shorts/cUtpnRpB9JU",
+   "https://youtube.com/shorts/HjdAB_44M30"
+  ]
+ },
+ {
+  "tanggal": "2026-10-10",
+  "topik": "POV: Kamu Jadi Prajurit Mataram Menyerang Batavia 1628",
+  "kategori": "Nusantara",
+  "status": "produksi-selesai-upload-tertunda",
+  "file_long": "video/2026-10-10-web.mp4",
+  "file_thumbnail": "thumbnail-2026-10-10.jpg",
+  "catatan": "Long final 10:36 (88 beat, bumper voice-clone tengah, overlay, thumbnail) + 3 shorts 45 dtk vertikal SELESAI dipotong run 2026-10-12. Upload TERTUNDA: browser task 2026-10-12 ~16:43 WIB terhenti di layar verifikasi Google \"Verify it's you\" (khususstokyunobi@gmail.com) — login TIDAK dilakukan (aturan user: izin eksplisit dulu). Instruksi: upload-instruksi-pov-2026-10-10.md; slot target 2026-10-13 19:00 WIB; antrean anti-mogok: retry-queue/ceritarakyat862-2026-10-12-{long,s1,s2,s3}.json. Browser task terparkir menunggu user menyelesaikan verifikasi.",
+  "file_shorts": [
+   "shorts/2026-10-10-s1.mp4",
+   "shorts/2026-10-10-s2.mp4",
+   "shorts/2026-10-10-s3.mp4"
+  ]
+ },
+ {
+  "tanggal": "2026-10-12",
+  "topik": "POV: Kamu Jadi Prajurit Sparta di Thermopylae",
+  "kategori": "Dunia",
+  "status": "tayang",
+  "file_long": "video/2026-10-12-web.mp4",
+  "file_shorts": [
+   "shorts/2026-10-12-s1.mp4",
+   "shorts/2026-10-12-s2.mp4",
+   "shorts/2026-10-12-s3.mp4"
+  ],
+  "catatan": "Upload 2026-10-13; terverifikasi browser 2026-10-14: long + 3 shorts Terjadwal tayang 2026-10-14 19:00 WIB. AI disclosure ✓.",
+  "url_long": "https://www.youtube.com/watch?v=Z7RFFHWouKA",
+  "url_shorts": [
+   "https://youtube.com/shorts/gHlkf3ATZp8",
+   "https://youtube.com/shorts/xxTh712hubI",
+   "https://youtube.com/shorts/F1hg3SwqNqc"
+  ]
+ },
+ {
+  "tanggal": "2026-10-13",
+  "topik": "POV: Kamu Jadi Prajurit Diponegoro di Perang Jawa",
+  "kategori": "Nusantara",
+  "status": "terjadwal",
+  "file_long": "/home/hatch/workspace/youtube-otomatis/video/2026-10-13-web.mp4",
+  "file_final": "/home/hatch/workspace/youtube-otomatis/video/2026-10-13-final.mp4",
+  "file_shorts": [
+   "/home/hatch/workspace/youtube-otomatis/shorts/2026-10-13-s1.mp4",
+   "/home/hatch/workspace/youtube-otomatis/shorts/2026-10-13-s2.mp4",
+   "/home/hatch/workspace/youtube-otomatis/shorts/2026-10-13-s3.mp4"
+  ],
+  "file_thumbnail": "/home/hatch/workspace/youtube-otomatis/thumbnail-2026-10-13.jpg",
+  "instruksi": "/home/hatch/workspace/youtube-otomatis/upload-instruksi-pov-2026-10-14-diponegoro.md",
+  "catatan": "Long 11:31 (692s), 88 beat, bumper voice-clone @6:49. Durasi beat dikoreksi via warp (json header MP3 overstate ~2.8%). Upload via API 2026-10-17: long vJI4rXLfMSw + 3 shorts (Y7IJZ3M8OSQ, syLWsY3qAh4, bIVfpvA7FW8), slot Sel 2026-10-20 19:00 WIB. AI disclosure WAJIB centang manual via Studio."
+ },
+ {
+  "tanggal": "2026-10-14",
+  "topik": "POV: Kamu Jadi Ksatria Templar di Perang Salib",
+  "kategori": "Dunia",
+  "status": "terjadwal",
+  "file_long": "video/2026-10-14-web.mp4",
+  "file_shorts": [
+   "shorts/2026-10-14-s1.mp4",
+   "shorts/2026-10-14-s2.mp4",
+   "shorts/2026-10-14-s3.mp4"
+  ],
+  "file_thumbnail": "thumbnail-2026-10-14.jpg",
+  "instruksi": "upload-instruksi-pov-2026-10-14-templar.md",
+  "durasi_long_detik": 723,
+  "catatan": "Produksi 2026-10-14: 88 beat (1522 kata), cold open malam terakhir Acre, 88/88 gambar storybook (6 sempat diblokir kebijakan konten, retry prompt dilunakkan), TTS mudiwa, bumper voice-clone user sebelum beat 48, overlay 5 momen, thumbnail 'MALAM TERAKHIR!'. Upload LONG oleh browser task (slot Jumat 2026-10-16 19:00 WIB); 3 shorts untuk slot Sabtu 2026-10-17 19:00 WIB. Afiliasi: Cream JRG, Sabun Cuci Piring 5L, Cutter Mini. Upload via API 2026-10-17: long -2qLmaLbPZo + 3 shorts (F0Malo5MCoA, vkWKtzCUYQ4, 4qtGKOfpu9w), slot Sab 2026-10-17 19:00 WIB. AI disclosure WAJIB centang manual via Studio."
+ },
+ {
+  "tanggal": "2026-10-15",
+  "topik": "POV: Kamu Jadi Pejuang Aceh Melawan Belanda",
+  "kategori": "Nusantara",
+  "status": "terjadwal",
+  "file_long": "video/2026-10-15-final.mp4",
+  "file_shorts": [
+   "shorts/2026-10-15-s1.mp4",
+   "shorts/2026-10-15-s2.mp4",
+   "shorts/2026-10-15-s3.mp4"
+  ],
+  "file_thumbnail": "thumbnail-2026-10-15.jpg",
+  "instruksi": "upload-instruksi-pov-2026-10-15-aceh.md",
+  "durasi_long_detik": 721,
+  "catatan": "Long 12:01 (721s), 88 beat, 88 gambar (fallback copy: beat-023<-024, beat-030<-031; 17 beat prompt dilunakkan), bumper voice-clone @7:59 (sebelum beat 48). Title card 3 dtk + pad audio 3 dtk; skala segmen 0.9883 selaras narasi. Slot: long 2026-10-18 19:00, shorts 2026-10-19 19:00. Upload via API 2026-10-17: long RQLFNJnfQi8 (slot Min 2026-10-18 19:00) + 3 shorts (DuO4SK10Kr0, cbYxqOvGnGo, vBQf93ljy18; slot Sen 2026-10-19 19:00). AI disclosure WAJIB centang manual via Studio."
+ }
+]

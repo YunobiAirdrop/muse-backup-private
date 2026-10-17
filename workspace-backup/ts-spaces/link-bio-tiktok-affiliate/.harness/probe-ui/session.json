@@ -1,0 +1,8 @@
+{
+  "schema_version": "hatch.probe_ui_session.v1",
+  "socket": "/home/hatch/workspace/ts-spaces/link-bio-tiktok-affiliate/.harness/probe-ui/sock",
+  "slug": "link-bio-tiktok-affiliate",
+  "url": "https://artifact-capture.invalid/spaces/v2/hatch-audit-c0ca8f60-c4b9-4bb3-acbe-2adf95b6252d/",
+  "audit_session_id": "a2fec4c3-88e0-4aa9-b83d-8c455be2b8e8",
+  "pid": 30943
+}

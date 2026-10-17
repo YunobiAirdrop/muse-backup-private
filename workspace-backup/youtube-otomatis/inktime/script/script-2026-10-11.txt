@@ -1,0 +1,70 @@
+SCRIPT: "You Work MORE Than a Medieval Peasant"
+Channel: InkTime | Long video | ~9-10 min | English | Voice: avocado_v2:miles | Persona: "Pak Guru Ink"
+Notes: numbers written spoken-form for TTS. "~" = dramatic pause placement (strip before TTS).
+
+=== BEAT 1 (HOOK — cold open, no intro) ===
+NARRATION:
+You work more hours than a medieval peasant. Yes — really. A fourteenth-century farmhand, bent over wheat fields with no tractor, no coffee, and no phone... clocked FEWER working hours per year than the average modern office worker. And it is not even close. Economists have done the math, and in a second I am going to show you the numbers — because they are going to shock you. But first, drop a comment: how many hours did you work last week? Write it down, because this video is about to ruin your Monday. Stick around, though — because the twist here is wild. It is NOT what you think.
+
+VISUAL PLAN: AI clip 1 — whiteboard hand draws a medieval peasant resting in a wheat field next to a giant hourglass. Key text overlay: "YOU WORK MORE".
+
+=== BEAT 2 ===
+NARRATION:
+Here are the numbers. In nineteen ninety-one, the economist Juliet Schor published a famous book called The Overworked American. She dug through medieval work records — court rolls, manor accounts, church calendars — and estimated that the typical English worker in the thirteen hundreds worked about one thousand six hundred and twenty hours a year. Sixteen hundred and twenty. Now compare that to today. The OECD — the club of rich countries — reports that the average American worker puts in about one thousand seven hundred and ninety-one hours a year. That is nearly one hundred and seventy extra hours — more than four full working weeks — every single year. So the headline is true. Fewer hours, six hundred years ago. But before you start dreaming about trading your laptop for a pitchfork... think about that for a second.
+
+VISUAL PLAN: IMAGE 1 — framework header "THE SHOCKING MATH" + bullets: Schor 1991 — 1,620 hrs/year; OECD today — 1,791 hrs/year (USA); the gap: ~170 hours, 4+ extra weeks.
+
+=== BEAT 3 ===
+NARRATION:
+So why did they work so little? One word: holidays. And I do not mean beach vacations — I mean HOLY days. The medieval church calendar was absolutely packed. Besides the fifty-two Sundays, there were roughly eighty feast days a year when work was forbidden — saints' days, Easter week, the Christmas season, harvest festivals. Skip church or work on a feast day, and you could face punishment or a fine. So add it up: fifty-two Sundays plus eighty holy days — that is around one hundred and thirty days off a year. One hundred and thirty. More than a third of the year... without working. Think about that the next time you have to beg for two weeks of vacation. But here is the question nobody asks: if they worked so little... why were they so poor?
+
+VISUAL PLAN: AI clip 2 — whiteboard hand draws a church calendar with big X marks on feast days.
+
+=== BEAT 4 ===
+NARRATION:
+And then everything flipped. By the sixteen hundreds, people started working MORE — a lot more. The historian Jan de Vries, in a famous nineteen ninety-four study, called it the Industrious Revolution. And here is the crazy part: nobody forced them. People CHOSE to work longer hours. Why? Sugar. Tea. Coffee. Tobacco. Suddenly the shops were full of new, tempting little luxuries — and families wanted them. So husbands, wives, even children worked extra days to afford the good stuff. Sound familiar? It is the exact same engine running our modern lives: the new phone, the bigger car, the nicer kitchen. Work more, buy more. That deal was signed four hundred years ago — and we are still paying for it.
+
+VISUAL PLAN: AI clip 3 — whiteboard hand draws a coffee cup, coins, and a balance scale (industrious revolution).
+
+=== BEAT 5 ===
+NARRATION:
+But here is the part of this story nobody romanticizes: peasant life was BRUTAL. Yes — fewer total hours. But those hours were spent breaking their bodies. No sick days. No weekends like ours. And harvest season meant dawn-to-dusk labor, sometimes sixteen hours a day under a burning sun — because if the grain rotted in the field, people starved. The historian John Hatcher wrote about harvest workers laboring with terrifying intensity, knowing winter was watching. And the payoff for all those days off? Most peasants were dead by their mid-forties. Childbirth, infections, a bad tooth — things we fix with a single pill — killed them. What fascinates me about this is the trade-off: they had TIME, but they had no safety. We have safety... but we have no time. Neither deal is great.
+
+VISUAL PLAN: IMAGE 2 — framework header "THE BRUTAL TRADE-OFF" + bullets: harvest = 16-hour days, dawn to dusk; most dead by their mid-forties; no medicine, no safety net.
+
+=== BEAT 6 (CTA ~50%) ===
+NARRATION:
+Years ago, I was teaching a summer class, and a student asked me — completely straight-faced — whether I would rather live in the Middle Ages to work less. I laughed. Then I told him the truth: sure, you would work fewer hours — but you would be dead by forty-five. The whole room went quiet. Because here is what the motivational posters never say: fewer hours did NOT mean a better life. It meant a HARDER one. Now — if stories like this, where real history flips everything you thought you knew, are your thing — hit subscribe to InkTime. One video a week that makes you rethink the past. And stay with me, because the real question is not whether THEY worked less. It is why WE work so much...
+
+VISUAL PLAN: IMAGE 3 — framework header "FEWER HOURS, HARDER LIFE" + bullets: my student's question; dead by 45; hard — not romantic. Overlay text: "SUBSCRIBE!" (3 seconds).
+
+=== BEAT 7 ===
+NARRATION:
+Okay — here's what I think, honestly. The real difference is not the number of hours. It is who CONTROLS them. A medieval peasant could not choose to work more even if he wanted to. The sun set. The church bell rang. The feast day arrived — and work simply stopped. There was no email at midnight. No boss texting on a Sunday. Compare that to us: the modern worker is connected to work twenty-four seven. The factory whistle never blows anymore... because it lives in our pocket. We traded the tyranny of the harvest for the tyranny of the inbox. And I am honestly not sure we got the better deal. What fascinates me about this is that we invented every labor-saving machine in history... and somehow ended up working MORE than people with wooden plows.
+
+VISUAL PLAN: IMAGE 4 — framework header "IT'S ABOUT CONTROL" + bullets: sun set = work stopped; no email at midnight; the inbox replaced the harvest.
+
+=== BEAT 8 ===
+NARRATION:
+And here is the modern trap. Those sixteen-hundred-and-twenty-hour medieval workers had no retirement accounts, no health insurance, no weekends at the mall. But they also had no burnout, no hustle culture, no four a.m. email checks. Modern productivity made us richer — and more exhausted. Study after study finds that past about fifty hours a week, human output collapses — we are just warming chairs and calling it dedication. So maybe the real question is not "how do we work less, like peasants?" It is: why did all our brilliant machines fail to set us free? The answer is simpler than you think — and it has nothing to do with technology.
+
+VISUAL PLAN: AI clip 4 — whiteboard hand draws a cracked hourglass / a work-vs-life balance scale tipping over.
+
+=== BEAT 9 ===
+NARRATION:
+The numbers tell one last story. OECD data shows annual hours falling in countries like Germany and Denmark — under fourteen hundred a year — while Americans grind near eighteen hundred. Same technology, wildly different choices. Policies, unions, culture — THOSE decide your hours far more than any machine ever will. Medieval workers had the church calendar protecting their rest. Modern workers have... a calendar app full of meetings. The six-hundred-year lesson is this: free time is never handed down by progress. It is taken — by rules, by culture, by people deciding that enough is enough. Think about that for a second. Progress did not shorten the workweek. People did.
+
+VISUAL PLAN: IMAGE 5 — framework header "PROGRESS DOESN'T GIVE FREE TIME" + bullets: Germany <1,400 hrs; USA ~1,800 hrs; free time is TAKEN, not given.
+
+=== BEAT 10 (CLOSING) ===
+NARRATION:
+So yes — you really do work more than a medieval peasant. Fewer holy days, more emails. But before you envy them, remember the price tag: they paid for those days off with short lives and empty stomachs. The past was not better. It was just... different. If this flipped your brain a little, subscribe to InkTime — and tell me in the comments: would YOU trade your modern job for a peasant's calendar? I read every single one. And if you want another story where the past breaks your brain — yesterday's video, about the year five thirty-six, the year the sun went out — is waiting for you on the end screen. Trust me. It was the worst year to be alive.
+
+VISUAL PLAN: IMAGE 6 — framework header "YOU WORK MORE" + bullets: the peasant's calendar vs your inbox; comment: would YOU trade?; end screen: the year 536.
+
+SOURCES FOR DESCRIPTION:
+1. Schor, Juliet B. (1991). The Overworked American: The Unexpected Decline of Leisure. Basic Books. (medieval English workers estimated ~1,620 hrs/year)
+2. de Vries, Jan (1994). "The Industrial Revolution and the Industrious Revolution." The Journal of Economic History, 54(2), 249–270.
+3. Clark, Gregory (2007). A Farewell to Alms: A Brief Economic History of the World. Princeton University Press.
+4. Hatcher, John — research on medieval English peasantry and harvest labor intensity (Plague, Population and the English Economy; The Black Death: A Personal History).
+5. OECD. "Hours worked" — average annual hours actually worked per worker (USA ~1,791).

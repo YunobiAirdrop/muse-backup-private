@@ -1,0 +1,6 @@
+chunk0 exists ok
+render chunk1 beats 26-50 (204s)...
+chunk1 ok dur 204.0
+render chunk2 beats 51-73 (177s)...
+chunk2 ok dur 176.2
+ALL OK: /home/hatch/workspace/youtube-otomatis/truecrime-en/video/2026-10-12.mp4 dur 569.7s

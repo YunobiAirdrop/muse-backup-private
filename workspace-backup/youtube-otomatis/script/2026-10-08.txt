@@ -1,0 +1,358 @@
+POV: Kamu Jadi Prajurit Pattimura di Saparua 1817
+88 beat | Tokoh: Sani, 19 tahun, nelayan Haria jadi pejuang | Setting: Pulau Saparua, Maluku, Benteng Duurstede, Ambon, Mei-Desember 1817
+KARAKTER VISUAL: Sani, a young Maluku fisherman-turned-fighter, 19 years old, curly black hair, red ikat kepala headband, bare chest, simple woven sarong, bronze skin, holding a parang machete. Kapitan Pattimura (Thomas Matulessy), Maluku warrior leader in his 30s, curly black hair, red headband, bare chest, woven sarong, commanding presence, former British army sergeant bearing.
+GAYA GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), dramatic cinematic composition, not photorealistic, no text
+CATATAN: hindari darah/kekerasan eksplisit di narasi maupun prompt gambar. [JEDA] = tambah silence 0.8 detik di akhir beat (sebelum twist/momen kunci).
+OVERLAY TEKS (drawtext, 4 momen): beat 2 "MALAM BENTENG JATUH" | beat 31 "DUURSTEDE DIREBUT" | beat 58 "HARGA SEBUAH KEMENANGAN" | beat 79 "16 DESEMBER 1817"
+
+BEAT 1:
+Malam itu aku memanjat tembok benteng Belanda, parang terselip di pinggang, jantungku berdebar sampai ke telinga.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Sani, a young Maluku fighter, 19 years old, curly black hair, red ikat kepala headband, bare chest, woven sarong, climbing a stone fortress wall at night with a parang machete at his waist, moonlit tropical night, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 2:
+Di bawah sana, ratusan obor menyala. Dan di depan kami berdiri Benteng Duurstede — simbol kekuasaan yang tak pernah tersentuh. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a colonial stone fortress on a hill at night surrounded by hundreds of small torch lights of approaching fighters, palm trees silhouettes, dramatic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 3:
+Namaku Sani. Sembilan belas tahun. Dan malam itu, aku akan menyerbu benteng bersama Kapitan Pattimura sendiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Sani the young Maluku fighter portrait at night, determined face lit by torchlight, red headband, parang in hand, close-up portrait, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 4:
+Tapi tunggu. Biar kuceritakan dari awal — bagaimana seorang anak nelayan bisa sampai di tembok benteng malam itu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a peaceful Maluku fishing village at dawn, wooden houses on stilts, small boats on calm sea, soft morning light, wide establishing shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 5:
+Aku lahir di Haria, desa kecil di Pulau Saparua. Ayahku nelayan, kakekku nelayan, dan aku pikir hidupku juga akan begitu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a young Maluku fisherman pulling a fishing net from a small wooden boat at sunrise, tropical sea, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 6:
+Waktu kecil, aku sering mendengar cerita tentang Kapitan Pattimura — Thomas Matulessy, orang Haria juga, mantan sersan tentara Inggris yang disegani.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Kapitan Pattimura as a young British army sergeant in early 1800s uniform standing proudly, Maluku man in his 20s with curly black hair, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 7:
+Zaman Inggris, hidup kami lumayan tenang. Tapi tahun 1816, Belanda kembali. Dan semuanya berubah jadi neraka.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Dutch colonial soldiers with rifles marching into a Maluku village, villagers watching fearfully from wooden houses, tense atmosphere, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 8:
+Mereka memaksa kami menyerahkan cengkeh dan pala dengan harga seenaknya. Uang kertas mereka tak laku di mana-mana.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), sacks of cloves and nutmeg being loaded onto a Dutch ship by forced villagers under soldier guard, harbor scene, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 9:
+Ayahku dipaksa kerja rodi membangun jalan. Pulang dengan punggung luka dan tangan gemetar. Aku masih ingat wajahnya malam itu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), an exhausted elderly Maluku fisherman sitting in a dim wooden house at night, his son Sani bandaging his hands, warm lantern light, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 10:
+Sampai suatu sore di bulan Mei 1817, kabar menyebar dari mulut ke mulut: Pattimura mengumpulkan orang di Haria.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), villagers whispering to each other in a Maluku village at dusk, urgent hushed atmosphere, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 11:
+Aku datang dengan rasa penasaran. Yang kutemui: ratusan laki-laki bersenjata parang, tombak, dan kemarahan yang sama.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), hundreds of Maluku men with parang machetes and spears gathered at night around a large fire, determined faces, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 12:
+Lalu dia muncul. Pattimura. Berdiri di atas batu besar, obor di tangannya, suaranya menggelegar menembus malam.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Kapitan Pattimura standing on a large rock at night holding a torch high, addressing a crowd of fighters, powerful leader pose, dramatic low angle, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 13:
+"Saudara-saudaraku! Sampai kapan kita tunduk? Tanah ini tanah kita, laut ini laut kita!" Teriakannya disambut raungan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a crowd of Maluku fighters raising parang machetes in the air cheering at night, firelight, dynamic wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 14:
+Jujur, bagian ini yang bikin saya merinding sampai sekarang: di antara kerumunan itu, ada seorang gadis tujuh belas tahun bernama Martha Christina Tiahahu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a brave 17-year-old Maluku girl warrior with long black hair and red headband holding a spear among male fighters at night, firelight on her determined face, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 15:
+Dia bukan penonton. Dia ikut berperang. Di zaman itu, itu keputusan yang luar biasa berani.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), young Martha Christina Tiahahu practicing with a spear at dawn on a beach, focused expression, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 16:
+Malam itu kami bersumpah. Bukan sumpah biasa — sumpah untuk merebut kembali Saparua, atau mati mencoba. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Maluku fighters placing hands together over a fire in a solemn oath ceremony at night, serious faces, close-up on joined hands, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 17:
+Rencananya gila: menyerbu Benteng Duurstede di malam hari. Benteng batu dengan meriam dan tentara terlatih di dalamnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a colonial stone fortress with cannons on its walls seen from below at dusk, imposing and fortified, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 18:
+Kami cuma punya parang, tombak, dan bambu runcing. Tapi kami punya sesuatu yang mereka tidak punya: kami bertempur di tanah sendiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), close-up of weathered hands gripping a parang machete and a bamboo spear, night, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 19:
+Tanggal 15 Mei 1817. Tengah malam. Kami bergerak dalam senyap, berenang menyeberangi teluk, merayap di antara pohon kelapa.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Maluku fighters silently wading through shallow tropical water at night toward a fortress, moonlight on water, stealthy, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 20:
+Aku ditugaskan di regu pemanjat. Tanganku berkeringat. Satu suara saja, dan meriam mereka akan menyalak.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), young Sani climbing a rope up a stone fortress wall at night, tense expression, moonlight, close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 21:
+Teriakan pertama pecah dari dalam benteng. Itu tandanya: regu Pattimura sudah masuk lewat pintu belakang!
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Maluku fighters rushing through a fortress gate at night with torches, motion and urgency, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 22:
+Kekacauan total. Tentara Belanda terbangun dari tidur, bingung, berteriak dalam bahasa yang tak kami mengerti.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), confused Dutch colonial soldiers in nightshirts grabbing rifles inside a fortress courtyard at night, chaos, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 23:
+Aku melompat turun dari tembok, parang terhunus. Untuk pertama kalinya dalam hidupku, aku bukan nelayan. Aku prajurit.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), young Sani leaping down from a fortress wall at night with parang raised, dynamic action pose, torchlight, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 24:
+Pertempuran itu singkat tapi sengit. Saat fajar menyingsing, bendera Belanda di puncak benteng sudah tidak ada.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a fortress courtyard at dawn with an empty flagpole, Maluku fighters standing victorious among scattered equipment, morning light, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 25:
+Residen Van den Berg — penguasa Belanda di Saparua — tewas dalam serangan itu. Benteng Duurstede jatuh ke tangan kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Maluku fighters standing on fortress ramparts at dawn looking over the island, victorious, wind in headbands, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 26:
+Kabar kemenangan menyebar seperti api. Desa-desa di Saparua, Haruku, Nusalaut bangkit. Ribuan orang bergabung.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), villagers from neighboring islands arriving by boat to join the fighters, joyful determined crowd on a beach, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 27:
+Pattimura mengeluarkan maklumat perlawanan. Isinya sederhana: Maluku untuk orang Maluku. Titik.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Kapitan Pattimura reading a proclamation scroll to a large crowd of villagers in a village square, daytime, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 28:
+Aku ditugaskan menjaga pantai selatan. Setiap malam aku berjaga, menatap laut, menunggu kapal perang Belanda yang pasti datang.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), young Sani standing guard on a rocky Maluku coastline at night with a spear, watching the dark sea, moonlight, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 29:
+Dan mereka datang. Tanggal 20 Mei, pasukan Belanda di bawah Mayor Beetjes mendarat dengan senjata lengkap. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Dutch soldiers in colonial uniforms landing from rowboats onto a tropical beach, rifles ready, tense, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 30:
+Mereka meremehkan kami. "Cuma pemberontak kampung," kata mereka. Itu kesalahan terbesar mereka.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), an arrogant Dutch officer on horseback leading soldiers through a jungle path, unaware of hidden fighters in the foliage, dramatic irony, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 31:
+Kami menyergap mereka di jalan sempit dekat Hatawano. Dari kiri kanan hutan, parang dan tombak menghujam. Duurstede direbut, dan kini giliran mereka yang terjepit.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Maluku fighters ambushing Dutch soldiers on a narrow jungle road, dynamic battle scene without explicit gore, dust and motion, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 32:
+Mayor Beetjes tewas dalam penyergapan itu. Pasukannya kocar-kacir, lari tunggang-langgang kembali ke kapal.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Dutch soldiers retreating in panic to their rowboats on a beach, Maluku fighters watching from the treeline, daytime, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 33:
+Malam itu kami berpesta. Untuk pertama kalinya, aku merasa Maluku benar-benar milik kami lagi.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Maluku fighters celebrating around a bonfire on a beach at night, dancing and cheering, joyful, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 34:
+Tapi Pattimura tidak ikut berpesta. Dia duduk sendiri, menatap api. "Ini baru permulaan, Sani," katanya padaku.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Kapitan Pattimura sitting alone by a bonfire at night staring into the flames, thoughtful worried expression, young Sani approaching, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 35:
+"Belanda tidak akan diam. Mereka akan kembali dengan kapal yang lebih besar, meriam yang lebih banyak."
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a large Dutch warship with cannons sailing toward a tropical island at dawn, ominous, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 36:
+Dia benar. Berminggu-minggu kemudian, armada besar Belanda datang. Kami tidak bisa melawan mereka di laut terbuka.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), multiple Dutch warships anchored off a Maluku island, small fighter boats hiding among mangroves, tense standoff, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 37:
+Jadi kami mainkan permainan kami: perang gerilya. Serang cepat, hilang ke hutan, muncul lagi di desa lain.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Maluku guerrilla fighters moving swiftly through dense tropical jungle, stealthy, dappled light, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 38:
+Aku belajar tidur dengan parang di pelukan. Belajar makan apa saja yang hutan berikan. Belajar tidak takut pada gelap.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), young Sani sleeping in a jungle camp at night hugging his parang, other fighters resting around a small fire, moonlight through trees, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 39:
+Belanda membalas dengan kejam: desa-desa dibakar, perahu dihancurkan, siapa pun yang dicurigai ditangkap.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a Maluku village with burning wooden houses, villagers fleeing, Dutch soldiers in the background, smoke, no explicit gore, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 40:
+Desa Haria — desaku — ikut dibakar. Aku melihat asapnya dari bukit, dan kakiku gemetar bukan karena takut, tapi karena marah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), young Sani on a hill watching smoke rising from his burning village below, fists clenched, sunset, emotional medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 41:
+Kalau menurut saya, di sinilah letak kehebatan mereka: semakin ditekan, semakin mereka melawan. Bukan sebaliknya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Maluku fighters standing defiantly on a hilltop at sunset facing approaching enemy ships, silhouettes, heroic, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 42:
+Bulan berganti bulan. Kami menang di banyak pertempuran kecil, tapi kami kelelahan. Perbekalan menipis.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), weary Maluku fighters sharing a small meal of roasted tubers around a dim fire in a jungle camp, tired faces, night, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 43:
+Lalu datang kabar yang menghancurkan: ada pengkhianat di antara kami. Seseorang membocorkan posisi Pattimura. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a shadowy figure whispering to a Dutch officer in a dark room lit by a single candle, betrayal, close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 44:
+Oktober 1817. Pattimura tertangkap. Aku mendengar kabarnya sambil bersembunyi di hutan, dan rasanya seperti disambar petir.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), young Sani in a jungle hiding spot hearing terrible news from a fellow fighter, shocked devastated expression, dappled light, close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 45:
+Tanpa pemimpin, perlawanan kami goyah. Satu per satu desa menyerah. Satu per satu kawan tertangkap atau gugur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a small group of remaining Maluku fighters walking through a misty jungle at dawn, heads bowed, somber, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 46:
+Martha Christina juga tertangkap. Gadis tujuh belas tahun itu dibuang ke Jawa dengan kapal perang Evertsen.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), young Martha Christina Tiahahu in chains being led onto a Dutch warship, proud unbroken expression, other prisoners behind, harbor, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 47:
+Di atas kapal, dia menolak makan. Menolak tunduk sampai akhir. Dia gugur di tengah laut, dan jenazahnya dibuang ke Laut Banda.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a lone small boat on a vast calm sea at sunset with flower petals floating on the water, memorial mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 48:
+Jujur, bagian ini yang bikin saya merinding: umur tujuh belas tahun, dan dia memilih mati bermartabat daripada hidup berlutut.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), portrait of young Martha Christina Tiahahu at sea, wind in her long black hair, serene defiant face, sunset over ocean, close-up portrait, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 49:
+Sementara itu di Ambon, Pattimura diadili. Belanda berharap dia memohon ampun. Mereka salah besar.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Kapitan Pattimura standing tall in chains before Dutch judges in a colonial courtroom, proud unbowed posture, dramatic medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 50:
+Vonisnya: hukuman gantung. Bersama para pemimpin lain — Anthonie Rhebok, Philip Latumahina, Said Perintah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), four Maluku leaders standing together in a prison courtyard at dawn, chains, resolute faces, somber, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 51:
+Malam sebelum eksekusi, aku berhasil menyelinap ke dekat penjara. Aku ingin melihatnya, sekali saja, untuk terakhir kali.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), young Sani hiding behind barrels at night peering at a colonial prison building with barred windows, moonlight, tense, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 52:
+Dari jendela kecil itu, aku mendengar suaranya bernyanyi. Lagu perjuangan. Tenang, seperti orang yang tidak takut mati.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), silhouette of Pattimura behind prison bars at night singing, moonlight streaming through the window, peaceful defiant mood, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 53:
+Pagi itu tanggal enam belas Desember tahun delapan belas tujuh belas. Pagi yang cerah di Ambon — terlalu cerah untuk hari seperti itu. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), the town of Ambon in the morning with a gallows silhouette on a hill, bright clear sky, ominous contrast, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 54:
+Ribuan orang dipaksa menonton. Belanda ingin ini jadi pelajaran: beginilah nasib pemberontak.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a large crowd of Maluku villagers gathered on a field forced to watch, Dutch soldiers lining the perimeter, tense somber atmosphere, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 55:
+Pattimura berjalan ke tiang gantungan dengan kepala tegak. Tidak ada tangis, tidak ada permohonan. Hanya diam yang gagah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Kapitan Pattimura walking with head held high toward a gallows at dawn, dignified, crowd watching, low angle heroic, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 56:
+Konon, kata-kata terakhirnya adalah pesan untuk terus melawan. Aku tidak mendengarnya langsung — aku terlalu jauh, dan terlalu hancur.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), young Sani in the crowd with tears streaming down his face, fists clenched, other villagers around, emotional close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 57:
+Pattimura gugur hari itu. Umurnya tiga puluh empat tahun. Tiga puluh empat tahun, dan namanya abadi selamanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a red headband lying on tropical ground with morning light, symbolic memorial, close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 58:
+Belanda pikir dengan menggantung Pattimura, perlawanan selesai. Mereka salah. Harga sebuah kemenangan tidak pernah semurah itu. [JEDA]
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), comic panel split-screen: left panel Dutch soldiers celebrating, right panel Maluku villagers secretly sharpening parangs at night, storybook comic style, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 59:
+Api perlawanan menyebar ke pulau-pulau lain. Butuh bertahun-tahun bagi Belanda untuk benar-benar memadamkannya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a map-like illustration of Maluku islands with small fire beacons lighting up across islands at night, symbolic, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 60:
+Aku sendiri selamat. Bersembunyi, berpindah desa, dan akhirnya kembali melaut seperti ayahku dulu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), an older Sani fishing from a small boat at sunrise, calm sea, peaceful, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 61:
+Tapi setiap kali aku melewati Benteng Duurstede, aku tersenyum. Karena aku tahu: benteng itu pernah jatuh. Oleh kami.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), an old fisherman in a boat smiling as he passes a colonial stone fortress on the shore, nostalgic warm light, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 62:
+Orang bilang kami kalah. Tapi coba pikir: seorang sersan desa mengguncang seluruh kekuasaan Belanda di Maluku selama berbulan-bulan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Kapitan Pattimura heroic statue-like pose on a cliff overlooking the sea, red headband flowing in wind, epic, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 63:
+Dengan parang dan bambu runcing melawan meriam dan kapal perang. Kalau itu bukan keberanian, aku tidak tahu apa itu berani.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a parang machete and bamboo spear crossed against the backdrop of a warship silhouette, symbolic still life, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 64:
+Kalau menurut saya, Pattimura itu bukti bahwa sejarah tidak selalu ditulis oleh yang paling kuat senjatanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), an open old book with illustrations of Maluku fighters, quill pen beside, warm library light, symbolic, close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 65:
+Kadang sejarah ditulis oleh yang paling berani mempertaruhkan segalanya. Dan Pattimura mempertaruhkan segalanya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Kapitan Pattimura portrait with determined eyes, red headband, torchlight, heroic close-up portrait, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 66:
+Hari ini namanya jadi nama jalan, nama universitas, nama kapal perang TNI. Anak-anak sekolah menghafalnya tanpa tahu betapa mahal harganya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), an Indonesian street sign reading PATTIMURA with school children walking by in the morning, everyday life, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 67:
+Padahal harganya adalah: benteng yang direbut tengah malam, mayor Belanda yang tumbang, dan tiang gantungan di pagi yang terlalu cerah.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), comic panel split-screen with three small scenes: night fortress assault, jungle ambush, gallows at dawn, storybook comic style, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 68:
+Dan seorang gadis tujuh belas tahun yang memilih laut daripada lututnya ditekuk. Jangan lupakan Martha Christina.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), memorial flowers floating on calm Banda sea at sunset, peaceful tribute, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 69:
+Aku Sani. Nelayan Haria. Aku ada di sana malam benteng itu jatuh, dan aku akan menceritakannya sampai nafasku habis.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), old Sani telling stories to village children around a fire at night, animated gestures, warm firelight, heartwarming medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 70:
+Karena kisah seperti ini tidak boleh mati. Ia harus hidup — di setiap orang Maluku, di setiap orang Indonesia.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Indonesian flag waving beside a traditional Maluku boat at sunrise, proud patriotic mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 71:
+Sekarang giliranmu. Kalau kamu hidup di tahun 1817, apakah kamu akan ikut memanjat tembok benteng malam itu?
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a fortress wall at night with a rope hanging down, inviting the viewer to climb, first-person perspective, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 72:
+Atau kamu akan memilih aman di rumah, menunggu kabar seperti kebanyakan orang?
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a Maluku villager peeking through a wooden window at night watching distant torch lights, contemplative, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 73:
+Tidak ada jawaban yang salah. Tapi sejarah selalu berpihak pada mereka yang berani memilih.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), sunrise breaking over Saparua island with fighters silhouetted on a hill, hopeful epic, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 74:
+Tulis di komentar: kalau kamu jadi aku malam itu, apa yang kamu lakukan? Aku baca semua komentar kalian.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), young Sani smiling warmly at the viewer giving a thumbs up, friendly, beach background, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 75:
+Dan kalau kisah ini bikin kamu merinding seperti saya waktu pertama dengar, tekan subscribe. Besok kita perjalanan waktu lagi.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a magical portal of swirling light over the Maluku sea at night with a small boat sailing toward it, time travel mood, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 76:
+Oh iya, satu hal lagi yang jarang diceritakan: Pattimura itu mantan tentara Inggris. Dia tahu persis cara berpikir musuhnya.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Pattimura studying Dutch military maps by candlelight in a wooden house at night, strategic, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 77:
+Itulah kenapa penyergapan di Hatawano berhasil. Dia tidak melawan seperti pemberontak — dia melawan seperti seorang perwira.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Pattimura pointing at a hand-drawn battle plan on the ground while fighters listen intently around a campfire, night, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 78:
+Bayangkan: ilmu perang yang dia dapat dari Inggris, dipakai untuk menghajar Belanda. Ironi yang indah, bukan?
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), comic panel split-screen: left panel Pattimura in British sergeant uniform, right panel Pattimura leading Maluku fighters, storybook comic style, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 79:
+Tanggal enam belas Desember tahun delapan belas tujuh belas. Tanggal itu harusnya dihafal semua anak Indonesia, sama seperti kita menghafal hari kemerdekaan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a calendar page showing December 1817 with the 16th circled in red, old paper texture, close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 80:
+Karena tanpa orang-orang seperti Pattimura, mungkin kita masih jadi penonton di tanah sendiri.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), modern Indonesian children playing freely on a Maluku beach, laughing, bright daylight, hopeful, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 81:
+Aku sering membayangkan: bagaimana kalau malam itu kami gagal? Bagaimana kalau tembok benteng terlalu tinggi?
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), young Sani looking up at a towering fortress wall at night, rope in hand, doubt on his face, low angle, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 82:
+Tapi sejarah tidak mengenal kata "bagaimana kalau". Yang ada hanya: kami memanjat, kami bertempur, kami menang malam itu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Maluku fighters raising parangs triumphantly atop fortress walls at dawn, backlit by sunrise, epic victorious, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 83:
+Dan kemenangan satu malam itu cukup untuk menyalakan api yang membakar selama berbulan-bulan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a single torch flame spreading into many flames across a dark Maluku landscape, symbolic, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 84:
+Itulah pelajaran terbesar dari Pattimura: kamu tidak harus menang selamanya. Cukup berani memulai.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a single footprint on a beach at dawn with the sun rising, symbolic new beginning, close-up, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 85:
+Terima kasih sudah ikut aku malam ini. Dari Haria, dari Saparua, dari tahun 1817 — aku Sani, pamit dulu.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), old Sani waving goodbye from his boat at sunset, warm farewell, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 86:
+Jangan lupa subscribe biar kita ketemu lagi besok. Masih banyak kisah Nusantara yang belum diceritakan.
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), a treasure chest of glowing story scrolls on a tropical beach, mystery and invitation, medium shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 87:
+Sampai jumpa di perjalanan waktu berikutnya. Tetap berani, tetap merdeka!
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), Indonesian flag waving majestically over Saparua island at golden sunset, epic closing, wide shot, dramatic cinematic composition, not photorealistic, no text
+
+BEAT 88:
+Merdeka!
+GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (ochre, bronze, deep brown, slate blue, muted sea green), the wordless celebration: fireworks of light over the Maluku sea at night, triumphant finale, wide shot, dramatic cinematic composition, not photorealistic, no text

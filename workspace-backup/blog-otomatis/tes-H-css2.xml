@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta charset='UTF-8'/>
+<title><data:blog.pageTitle/></title>
+<b:include data='blog' name='all-head-content'/>
+<b:skin><![CDATA[
+.post-full h1{font-size:30px;font-weight:800;line-height:1.35;color:#0f172a;margin:10px 0 14px}
+.post-full .meta{display:flex;gap:16px;flex-wrap:wrap;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0;padding:10px 0;margin-bottom:20px;font-size:13.5px}
+.post-body{font-size:17px;line-height:1.85;color:#334155}
+.post-body p{margin-bottom:18px}
+.post-body h2{font-size:22px;font-weight:800;color:#0f172a;margin:26px 0 14px}
+.post-body img{border-radius:8px;margin:8px 0}
+.slot-artikel{margin:22px 0}
+.post-label{margin-top:24px;padding-top:16px;border-top:1px solid #e2e8f0;font-size:14px}
+.post-label a{background:#f1f5f9;border:1px solid #e2e8f0;border-radius:20px;padding:4px 14px;margin:0 6px 6px 0;display:inline-block;font-weight:600}
+.post-label a:hover{background:#e11d2e;border-color:#e11d2e;color:#fff}
+.share{margin:20px 0;display:flex;gap:10px;align-items:center;font-weight:700;font-size:14px}
+.share a{background:#0f172a;color:#fff;font-size:13px;font-weight:600;padding:8px 16px;border-radius:8px}
+.share a:hover{background:#e11d2e}
+.terkait{margin-top:30px}
+.terkait h3{font-size:19px;font-weight:800;margin-bottom:14px;color:#0f172a}
+.terkait ul{list-style:none;display:grid;gap:12px}
+.terkait li a{display:flex;gap:12px;align-items:center;background:#f8fafc;border-radius:8px;padding:10px;font-weight:600;font-size:15px}
+.terkait li a:hover{color:#e11d2e}
+.terkait li img{width:90px;height:60px;object-fit:cover;border-radius:6px;flex-shrink:0}
+/* Komentar */
+.komentar{margin-top:30px;background:#fff;border-radius:12px;padding:24px;box-shadow:0 2px 12px rgba(15,23,42,.07)}
+.komentar h3{font-size:19px;font-weight:800;margin-bottom:14px}
+/* Sidebar */
+.sidebar{display:flex;flex-direction:column;gap:22px;position:sticky;top:70px}
+.widget{background:#fff;border-radius:12px;padding:20px;box-shadow:0 2px 12px rgba(15,23,42,.07)}
+.side-judul{font-size:16px;font-weight:800;text-transform:uppercase;letter-spacing:.3px;margin-bottom:14px;padding-bottom:10px;border-bottom:2px solid #e11d2e;color:#0f172a}
+.cari{display:flex;gap:8px}
+.cari input{flex:1;border:1px solid #cbd5e1;border-radius:8px;padding:10px 12px;font-size:14px;font-family:inherit}
+.cari button{background:#e11d2e;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-weight:700;cursor:pointer;font-family:inherit}
+ul.daftar-label{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+ul.daftar-label a{background:#f1f5f9;border:1px solid #e2e8f0;padding:6px 14px;border-radius:20px;font-size:13.5px;font-weight:600}
+ul.daftar-label a:hover{background:#0f172a;color:#fff;border-color:#0f172a}
+ul.pop{list-style:none;display:grid;gap:14px;counter-reset:pop}
+ul.pop li{display:flex;gap:12px;align-items:flex-start}
+ul.pop li::before{counter-increment:pop;content:counter(pop);background:#e11d2e;color:#fff;font-weight:800;min-width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px}
+ul.pop a{font-weight:600;font-size:14.5px;line-height:1.45}
+ul.pop a:hover{color:#e11d2e}
+.slot-sidebar{min-height:250px;display:flex;align-items:center;justify-content:center}
+/* Navigasi halaman */
+.pagenav{display:flex;justify-content:space-between;margin-top:26px}
+.pagenav a{background:#fff;border:1px solid #e2e8f0;padding:10px 22px;border-radius:8px;font-weight:700;box-shadow:0 2px 8px rgba(15,23,42,.06)}
+.pagenav a:hover{background:#0f172a;color:#fff}
+/* Footer */
+.site-footer{background:#0f172a;color:#94a3b8;margin-top:40px;padding:44px 0 0}
+.footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;padding-bottom:34px}
+.site-footer h4{color:#fff;font-size:16px;font-weight:800;margin-bottom:14px;text-transform:uppercase;letter-spacing:.3px}
+.site-footer p,.site-footer li{font-size:14px}
+.site-footer ul{list-style:none;display:grid;gap:8px}
+.site-footer a:hover{color:#fff}
+.copyright{border-top:1px solid #1e293b;padding:16px 0;text-align:center;font-size:13px}
+/* Tombol ke atas */
+.keatas{position:fixed;right:20px;bottom:20px;background:#e11d2e;color:#fff;border:0;width:46px;height:46px;border-radius:50%;font-size:20px;cursor:pointer;display:none;box-shadow:0 4px 14px rgba(225,29,46,.4);z-index:200}
+/* Responsif */
+@media(max-width:960px){
+.konten{grid-template-columns:1fr}
+.sidebar{position:static}
+.footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:640px){
+.grid{grid-template-columns:1fr}
+.kartu-utama h2{font-size:21px}
+.post-full{padding:20px 16px}
+.post-full h1{font-size:23px}
+.menu-toggle{display:block}
+ul.menu{display:none;flex-direction:column;width:100%}
+ul.menu.buka{display:flex}
+ul.menu li a{padding:12px 8px;border-top:1px solid #1e293b}
+.header-in{justify-content:center;text-align:center}
+.ad-leaderboard{width:100%}
+.footer-grid{grid-template-columns:1fr}
+}
+]]></b:skin>
+</head>
+<body>
+<b:section class='main' id='main' showaddelement='no'>
+<b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
+<b:includable id='main' var='top'>
+<b:loop values='data:posts' var='post'>
+<h2><data:post.title/></h2>
+</b:loop>
+</b:includable>
+</b:widget>
+</b:section>
+</body>
+</html>

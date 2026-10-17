@@ -1,0 +1,44 @@
+{
+ "topic": "Titanic (RMS Titanic, 1912) — 3 shorts dari long 2026-10-13",
+ "channel_handle": "@EchoesOfThePast-e9m",
+ "channel_id": "UCCBGIbsfMo2TmyhbUzHxD0A",
+ "channel_name": "Echoes of History Channel",
+ "language": "en",
+ "category": "Education",
+ "category_id": "27",
+ "comments": "allow all",
+ "made_for_kids": false,
+ "privacy": "private",
+ "publish_scheduled_wib": "2026-10-15 07:00 WIB",
+ "upload_method": "YouTube Data API v3 (yt-growth, slug history-en)",
+ "uploaded_at_wib": "2026-10-14T16:17:32+0700",
+ "ai_disclosure": "Altered content — TIDAK didukung API, wajib dicentang manual di YouTube Studio (browser task menyusul)",
+ "video_type": "shorts x3",
+ "deskripsi_berakhiran_foryou": "hashtag hanya di AKHIR JUDUL (shorts), ditutup #foryou",
+ "videos": [
+  {
+   "key": "s1",
+   "video_id": "TIoOMT86w_A",
+   "url": "https://youtu.be/TIoOMT86w_A",
+   "judul": "The Night Titanic Hit the Iceberg #shorts #history #documentary #foryou",
+   "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-13-s1.mp4",
+   "durasi_detik": 58.67
+  },
+  {
+   "key": "s2",
+   "video_id": "82U2degb6CE",
+   "url": "https://youtu.be/82U2degb6CE",
+   "judul": "The Ship That Watched Titanic Sink #shorts #history #documentary #foryou",
+   "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-13-s2.mp4",
+   "durasi_detik": 59.2
+  },
+  {
+   "key": "s3",
+   "video_id": "iTbm040yYSY",
+   "url": "https://youtu.be/iTbm040yYSY",
+   "judul": "Titanic's Final 20 Minutes #shorts #history #documentary #foryou",
+   "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-13-s3.mp4",
+   "durasi_detik": 57.87
+  }
+ ]
+}

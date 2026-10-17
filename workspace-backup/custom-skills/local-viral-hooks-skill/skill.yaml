@@ -1,0 +1,10 @@
+name: local_viral_hooks_skill
+title: Local viral hooks skill
+description: Generate 3 scroll-stopping hook variants for short-form video scripts (Reels, TikTok, YouTube, LinkedIn, X). Use when the user is writing a script for short-form video, asks for hook ideas, needs an opening line for a Reel/post, or pastes a script and wants alternative hooks. Pulls from a library of 100 hook formulas across 10 psychology triggers (curiosity, contrarian, authority, emotional, listicle, question, story, negation, specificity, confession).
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  needs_review: true

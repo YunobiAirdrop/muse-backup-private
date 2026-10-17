@@ -1,0 +1,450 @@
+{
+ "batch1": [
+  {
+   "num": "001",
+   "tts": "This place turns into a MIRROR so big, satellites use it to aim their lasers.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a vast white salt flat flooded with a thin layer of water reflecting the sky perfectly, a tiny person walking on clouds illusion",
+   "overlay": "A MIRROR THE SIZE OF A COUNTRY"
+  },
+  {
+   "num": "002",
+   "tts": "And it is not even the weirdest place in this video. Not even CLOSE.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a shocked cartoon explorer with wide eyes holding a map upside down",
+   "overlay": null
+  },
+  {
+   "num": "003",
+   "tts": "I found seven places on Earth that look completely FAKE in photos. Every single one is real.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, seven glowing postcard photos of bizarre landscapes floating in a row",
+   "overlay": null
+  },
+  {
+   "num": "004",
+   "tts": "Alien islands. A cave that can kill you in minutes. A lake the color of bubble gum.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a split scene: alien umbrella trees, a glowing crystal cave, a bright pink lake",
+   "overlay": null
+  },
+  {
+   "num": "005",
+   "tts": "We are touring them by zone: alien land, fire and heat, and water that breaks physics.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon world map with three glowing zones marked in different colors",
+   "overlay": null
+  },
+  {
+   "num": "006",
+   "tts": "Wait till zone two. I had to read that twice. My brain refused it the first time.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon brain shaking its head in disbelief at a newspaper",
+   "overlay": null
+  },
+  {
+   "num": "007",
+   "tts": "ZONE ONE: ALIEN LAND. First stop, an island that looks like another planet. Socotra.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, an alien-looking island with umbrella-shaped trees seen from a cartoon airplane window",
+   "overlay": "ZONE 1: ALIEN LAND"
+  },
+  {
+   "num": "008",
+   "tts": "Socotra sits off the coast of Yemen, cut off from the mainland for millions of years.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a small island separated from a continent by glowing ocean, dotted timeline arrows",
+   "overlay": null
+  },
+  {
+   "num": "009",
+   "tts": "Evolution went completely rogue there. Around a third of its plants exist NOWHERE else on Earth.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, strange cartoon plants sprouting in a row, each with a glowing unique star above it",
+   "overlay": null
+  },
+  {
+   "num": "010",
+   "tts": "The star is the dragon blood tree. It grows like a giant green umbrella flipped inside out.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a giant dragon blood tree shaped like a huge green umbrella on a rocky hill",
+   "overlay": null
+  },
+  {
+   "num": "011",
+   "tts": "Cut its bark and it bleeds dark red sap. Literally called dragon blood. Used as dye for centuries.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a tree trunk cut oozing dark red sap into a small wooden bowl, painter using red dye",
+   "overlay": null
+  },
+  {
+   "num": "012",
+   "tts": "Then there are bottle trees, fat pink trunks with tiny flowers, like cartoon props.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, fat pink bottle-shaped trees with tiny pink flowers on a sunny hillside",
+   "overlay": null
+  },
+  {
+   "num": "013",
+   "tts": "wait, WHAT?! A third of an island's plants invented themselves in total isolation?",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a stunned cartoon face with jaw dropped, strange plants dancing behind it",
+   "overlay": "1 IN 3 PLANTS EXIST NOWHERE ELSE"
+  },
+  {
+   "num": "014",
+   "tts": "Scientists call Socotra the most alien-looking place on Earth. Looking at it, zero arguments.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a scientist in a lab coat shrugging in front of alien umbrella trees",
+   "overlay": null
+  },
+  {
+   "num": "015",
+   "tts": "If aliens ever land, this is the one place they will feel right at home.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cute cartoon alien waving happily under a dragon blood tree",
+   "overlay": null
+  },
+  {
+   "num": "016",
+   "tts": "Still in alien land, we jump to Death Valley, California. The hottest valley in America.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cracked dry desert valley under a blazing cartoon sun",
+   "overlay": null
+  },
+  {
+   "num": "017",
+   "tts": "On a flat dry lakebed called the Racetrack, rocks MOVE. By themselves. Leaving long trails.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, large rocks on a flat dry lakebed with long winding trails behind them",
+   "overlay": null
+  },
+  {
+   "num": "018",
+   "tts": "Some of these stones weigh as much as a full-grown man. Nobody pushes them. Nobody.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a huge boulder standing next to a cartoon man of the same height on cracked mud",
+   "overlay": null
+  }
+ ],
+ "batch2": [
+  {
+   "num": "019",
+   "tts": "For a hundred years, nobody had ever seen one move. Just the trails, every morning.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, an old-fashioned detective with a magnifying glass staring at rock trails at sunrise",
+   "overlay": null
+  },
+  {
+   "num": "020",
+   "tts": "People blamed aliens. Animals. Secret human pranks. Even magnetic fields.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cartoon thought bubbles above a desert: a UFO, a coyote, a prankster, a magnet",
+   "overlay": null
+  },
+  {
+   "num": "021",
+   "tts": "Then in 2014, scientists finally caught them: thin sheets of ice, floating on meltwater.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a rock sitting on a thin transparent sheet of ice on shallow water at dawn",
+   "overlay": null
+  },
+  {
+   "num": "022",
+   "tts": "A gentle wind pushes the ice, the ice drags the rocks, inch by inch, slower than a snail.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a snail racing neck and neck with a slow moving rock on ice",
+   "overlay": null
+  },
+  {
+   "num": "023",
+   "tts": "Mystery solved, sure. But watch the footage and it STILL looks impossible.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon camera filming a rock trail, the cameraman scratching his head",
+   "overlay": null
+  },
+  {
+   "num": "024",
+   "tts": "A rock that walks across a desert when nobody is watching. Alien land, indeed.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a rock with tiny cartoon footprints walking away across the desert at night",
+   "overlay": null
+  },
+  {
+   "num": "025",
+   "tts": "ZONE TWO: FIRE AND HEAT. Pack water. Then pack more water. The Danakil Depression, Ethiopia.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a neon yellow and orange volcanic landscape with steam rising, a cartoon explorer sweating",
+   "overlay": "ZONE 2: FIRE AND HEAT"
+  },
+  {
+   "num": "026",
+   "tts": "This is one of the hottest inhabited places on Earth. Summer days regularly pass fifty degrees.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a giant thermometer bursting at the top over a shimmering desert",
+   "overlay": null
+  },
+  {
+   "num": "027",
+   "tts": "The ground here is painted neon yellow, green, and orange. Like a warning sign from nature.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, bright neon yellow green and orange mineral terraces with bubbling pools",
+   "overlay": null
+  },
+  {
+   "num": "028",
+   "tts": "Those colors are acid springs. Hot water loaded with sulfur and iron, bubbling out of the crust.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, bubbling neon acid pools with steam and sulfur crystals around the edges",
+   "overlay": null
+  },
+  {
+   "num": "029",
+   "tts": "Parts of Danakil sit more than a hundred meters BELOW sea level. The land itself sank.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon cross-section of sunken land with a measuring ruler going below a sea level line",
+   "overlay": null
+  },
+  {
+   "num": "030",
+   "tts": "Salt flats stretch to the horizon, and workers still mine salt blocks by hand, like centuries ago.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, workers cutting white salt blocks on a vast salt flat with camels in a line",
+   "overlay": null
+  },
+  {
+   "num": "031",
+   "tts": "Lava lakes glow nearby in the Erta Ale volcano, one of the few on Earth that never sleeps.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a volcano crater glowing with a bright orange lava lake at dusk",
+   "overlay": null
+  },
+  {
+   "num": "032",
+   "tts": "It looks like the set of a movie about Mars. People actually LIVE here. The Afar people.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a small village of huts beside a red Mars-like volcanic plain",
+   "overlay": null
+  },
+  {
+   "num": "033",
+   "tts": "Working in acid-colored heat that would hospitalize most of us in an afternoon. Respect.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon explorer fainting dramatically while a local worker smiles and waves",
+   "overlay": null
+  },
+  {
+   "num": "034",
+   "tts": "Now we go underground. Mexico. The Cave of the Crystals, three hundred meters below a mine.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a mine elevator descending deep underground toward a glowing cave entrance",
+   "overlay": null
+  },
+  {
+   "num": "035",
+   "tts": "In the year two thousand, miners drilling for silver broke into a hidden chamber.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, two cartoon miners with a drill breaking through a rock wall into bright light",
+   "overlay": null
+  },
+  {
+   "num": "036",
+   "tts": "And found crystals of selenite as long as a BUS. Eleven meters long. Half a million years old.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, gigantic white crystal beams crossing a cave, a tiny yellow bus beside one for scale",
+   "overlay": "CRYSTALS AS LONG AS A BUS"
+  }
+ ],
+ "batch3": [
+  {
+   "num": "037",
+   "tts": "Quick pause: if places like this blow your mind too, hit subscribe. We hunt a new one every day.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cheerful cartoon explorer pointing at a big red subscribe button",
+   "overlay": "Subscribe!"
+  },
+  {
+   "num": "038",
+   "tts": "Here is the catch. That cave is trying to kill you. The air is about fifty-eight degrees.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a warning sign with a thermometer inside a steaming crystal cave",
+   "overlay": null
+  },
+  {
+   "num": "039",
+   "tts": "And the humidity is near one hundred percent. Your sweat cannot evaporate. You just cook.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon explorer inside a steam-filled cave, sweat drops unable to evaporate",
+   "overlay": null
+  },
+  {
+   "num": "040",
+   "tts": "Without a special cooling suit and an ice air supply, a human survives only minutes inside.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, an explorer in a bulky orange cooling suit with an ice backpack entering the cave",
+   "overlay": null
+  },
+  {
+   "num": "041",
+   "tts": "Scientists explored it wearing suits that look like astronaut gear. Underground astronauts.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, astronaut-like explorers walking carefully between giant white crystals",
+   "overlay": null
+  },
+  {
+   "num": "042",
+   "tts": "A crystal palace, older than our species, that humans can barely visit. Fire zone wins.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a majestic palace made of giant glowing crystals deep underground",
+   "overlay": null
+  },
+  {
+   "num": "043",
+   "tts": "ZONE THREE: IMPOSSIBLE WATER AND SKY. First, a lake that looks Photoshopped. Lake Hillier, Australia.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, an aerial view of a bright pink oval lake surrounded by green forest and blue ocean",
+   "overlay": "ZONE 3: IMPOSSIBLE WATER"
+  },
+  {
+   "num": "044",
+   "tts": "The water is bubblegum PINK. Not a reflection. Not a trick of the light. The water itself.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a close-up of bubblegum pink lake water lapping a white sandy shore",
+   "overlay": null
+  },
+  {
+   "num": "045",
+   "tts": "Fill a bottle with it and it stays pink on your shelf. Scientists checked. Still pink.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a clear bottle filled with pink water on a lab shelf, a scientist nodding",
+   "overlay": null
+  },
+  {
+   "num": "046",
+   "tts": "The color comes from tiny algae and bacteria that thrive in extremely salty water.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, cute cartoon pink algae microbes smiling inside salty pink water",
+   "overlay": null
+  },
+  {
+   "num": "047",
+   "tts": "And Lake Hillier is saltier than the ocean, sitting right NEXT to the deep blue Pacific.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a pink lake and a deep blue ocean side by side separated by a thin strip of forest",
+   "overlay": null
+  },
+  {
+   "num": "048",
+   "tts": "From a plane, it is a pink oval punched into green forest beside blue sea. Pure cartoon.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon airplane window view of a pink oval lake in green forest by the sea",
+   "overlay": null
+  },
+  {
+   "num": "049",
+   "tts": "no, because WHY does nature own a pink highlighter and nobody told us?!",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a giant pink highlighter pen drawing over a lake, a shocked cartoon face beside it",
+   "overlay": null
+  },
+  {
+   "num": "050",
+   "tts": "Swimming in it is considered safe, by the way. Weird, pink, and harmless. Mostly.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a happy cartoon swimmer floating in bright pink water wearing sunglasses",
+   "overlay": null
+  },
+  {
+   "num": "051",
+   "tts": "Remember the mirror from the start? Time to land on it. Salar de Uyuni, Bolivia.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a vast white salt flat horizon with a cartoon explorer landing like a superhero",
+   "overlay": null
+  },
+  {
+   "num": "052",
+   "tts": "This is the largest salt flat on Earth. Over ten thousand square kilometers of white.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, an endless white salt flat with hexagonal salt patterns stretching to the horizon",
+   "overlay": null
+  },
+  {
+   "num": "053",
+   "tts": "It formed when ancient lakes dried up, leaving a crust of salt up to ten meters thick.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon cross-section showing a thick white salt crust under a dry lakebed",
+   "overlay": null
+  },
+  {
+   "num": "054",
+   "tts": "In the rainy season, a thin sheet of water floods the top. Centimeters deep. Perfectly still.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, rain clouds sprinkling over a salt flat forming a thin shining layer of water",
+   "overlay": null
+  }
+ ],
+ "batch4": [
+  {
+   "num": "055",
+   "tts": "And the whole flat becomes the largest natural mirror on the planet. Sky below, sky above.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a person standing on a perfect mirror surface with sky reflected below and above",
+   "overlay": "THE WORLD'S LARGEST MIRROR"
+  },
+  {
+   "num": "056",
+   "tts": "People standing on it look like they are walking on clouds. The horizon completely disappears.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, tiny people walking on clouds illusion on a mirror salt flat at sunset",
+   "overlay": null
+  },
+  {
+   "num": "057",
+   "tts": "It is so flat and reflective, satellites use it to calibrate their instruments from orbit.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a satellite in space aiming a beam down at a shining mirror salt flat",
+   "overlay": null
+  },
+  {
+   "num": "058",
+   "tts": "A mirror so big, space agencies aim at it. Let that sink in for a second.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon explorer with mind-blown expression, mirror landscape behind him",
+   "overlay": null
+  },
+  {
+   "num": "059",
+   "tts": "Last stop, we stay after dark. Lake Maracaibo, Venezuela. The Catatumbo lightning.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a night lake with dramatic lightning bolts filling the sky",
+   "overlay": null
+  },
+  {
+   "num": "060",
+   "tts": "Here, lightning storms rage for around two hundred and sixty nights every single year.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a calendar with lightning bolt icons on almost every page, night sky behind",
+   "overlay": null
+  },
+  {
+   "num": "061",
+   "tts": "On a good night, the sky can flash up to two hundred and eighty strikes in one hour.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, dozens of lightning bolts striking over a dark lake in one spectacular moment",
+   "overlay": "280 LIGHTNING STRIKES AN HOUR"
+  },
+  {
+   "num": "062",
+   "tts": "Warm trade winds slam into cold mountain air right over the river mouth. Every night. Same spot.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, warm orange winds and cold blue mountain air colliding over a river mouth",
+   "overlay": null
+  },
+  {
+   "num": "063",
+   "tts": "Sailors used these storms as a lighthouse for centuries. You can see the flashes far out at sea.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, an old sailing ship at night guided by lightning flashes on the horizon",
+   "overlay": null
+  },
+  {
+   "num": "064",
+   "tts": "The lightning is so constant, locals just call it the everlasting storm.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, villagers calmly drinking coffee under a sky full of distant lightning",
+   "overlay": null
+  },
+  {
+   "num": "065",
+   "tts": "Imagine trying to sleep under a sky that strobes like a broken stadium light. For centuries.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon person in bed with a pillow over his head while lightning flashes outside",
+   "overlay": null
+  },
+  {
+   "num": "066",
+   "tts": "Water and sky teaming up to put on Earth's longest-running light show.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a theatrical stage curtain opening over a lake with a lightning light show",
+   "overlay": null
+  },
+  {
+   "num": "067",
+   "tts": "So, the verdict. Which of these seven places looks the MOST fake?",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, seven landscape postcards fanned out around a big golden question mark",
+   "overlay": null
+  },
+  {
+   "num": "068",
+   "tts": "Socotra's alien trees are strong. The pink lake is strong. But my winner is the Salar mirror.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a golden trophy standing on a mirror salt flat with pink lake and umbrella trees behind",
+   "overlay": null
+  },
+  {
+   "num": "069",
+   "tts": "A place where the ground becomes the sky is cheating. It just is.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a person standing between sky above and sky below on a perfect mirror",
+   "overlay": null
+  },
+  {
+   "num": "070",
+   "tts": "Which one broke YOUR brain? Tell me in the comments, and argue about it. I read everything.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon explorer reading a giant stack of comment cards and smiling",
+   "overlay": null
+  },
+  {
+   "num": "071",
+   "tts": "And if your brain likes weird, my last video proved your BODY is lying to you. Seven facts. Watch it next.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cartoon brain winking mischievously in a mirror, arrow pointing to a play button",
+   "overlay": null
+  },
+  {
+   "num": "072",
+   "tts": "New weird places, creatures, and records every day here on Weird World Daily.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a sunrise over a collage of bizarre landscapes with a channel flag planted",
+   "overlay": null
+  }
+ ],
+ "batch5": [
+  {
+   "num": "073",
+   "tts": "Subscribe so you don't miss tomorrow's. Stay weird, everybody. See you tomorrow.",
+   "image_prompt": "Digital 2D storybook illustration, colorful, fun, 16:9, a cheerful cartoon explorer waving goodbye in front of a mirror salt flat sunset",
+   "overlay": "STAY WEIRD!"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "1": {
+  "start": 2.5,
+  "title": "Hook: Your Body Is Lying"
+ },
+ "8": {
+  "start": 57.89,
+  "title": "Round 1: Brain"
+ },
+ "20": {
+  "start": 146.96,
+  "title": "Round 2: Stomach"
+ },
+ "29": {
+  "start": 211.84,
+  "title": "Round 3: Eyes"
+ },
+ "38": {
+  "start": 283.97,
+  "title": "Round 4: Skin"
+ },
+ "47": {
+  "start": 351.99,
+  "title": "Round 5: Bones"
+ },
+ "55": {
+  "start": 414.16,
+  "title": "Round 6: DNA"
+ },
+ "63": {
+  "start": 481.07,
+  "title": "Final Round: Gut"
+ },
+ "70": {
+  "start": 572.01,
+  "title": "Verdict"
+ }
+}

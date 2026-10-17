@@ -1,0 +1,15 @@
+{
+ "titles": {
+  "2026-10-16-s1": "Chicago's TV Went Black — Then HE Appeared #shorts #truecrime #unsolved #foryou",
+  "2026-10-16-s2": "He Hijacked Live TV for 90 Seconds (Never Caught) #shorts #truecrime #mystery #foryou",
+  "2026-10-16-s3": "How One Man Hacked Every TV in Chicago #shorts #truecrime #1980s #foryou"
+ },
+ "descriptions": {
+  "2026-10-16-s1": "Chicago's TV went black in 1987 — and something else took over the signal. Watch the full story: https://youtu.be/MC5PENurBOE",
+  "2026-10-16-s2": "For 90 seconds, a masked figure hijacked live TV in Chicago. Nobody was ever caught. Full documentary: https://youtu.be/MC5PENurBOE",
+  "2026-10-16-s3": "This is how one man overpowered a TV station's signal in 1987. The full case file: https://youtu.be/MC5PENurBOE"
+ },
+ "long_url": "https://youtu.be/MC5PENurBOE",
+ "publishAt": "2026-10-19T00:00:00.000Z",
+ "note": "upload 3 shorts via API (slug truecrime-en), judul SUDAH termasuk hashtag akhir #foryou; deskripsi tanpa hashtag; AI disclosure via Studio menyusul"
+}

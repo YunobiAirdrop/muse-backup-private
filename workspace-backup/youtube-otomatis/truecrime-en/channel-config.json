@@ -1,0 +1,20 @@
+{
+  "account": "khususstokyunobi@gmail.com",
+  "ai_disclosure": "ALWAYS tick 'Altered content' checkbox at upload (AI TTS narration + AI illustrations).",
+  "audience": "USA / international",
+  "cases_done": [
+    "D.B. Cooper — 1971 skyjacking (2026-10-05)",
+    "Sodder children — 1945 Christmas fire disappearance (2026-10-06)"
+  ],
+  "channel_id": "UC2df1xY_WqWdX33oLqeXE2w",
+  "channel_name": "Dark Case Files",
+  "handle": "@TrueCaseFilesTV",
+  "image_rule": "Every image MUST depict the literal object/action named in its narration segment, not generic atmosphere.",
+  "image_style": "2D digital storybook illustration, dark noir documentary style, 16:9",
+  "language": "en",
+  "schedule_time": "07:00 Asia/Jakarta next day (= 19:00 US Eastern previous day, US prime time)",
+  "thumbnail_note": "Channel cannot set custom thumbnails yet (phone unverified) — auto thumbnail used; still generate one for the record.",
+  "upload_pattern": "alternate long/shorts (unverified channel, daily upload limit). upload-terakhir.txt tracks last upload.",
+  "voice_note": "Masculine, American, Deep, Soothing — documentary narrator. Use for ALL videos on this channel for consistency.",
+  "voice_tts": "avocado_v2:miles"
+}

@@ -1,0 +1,119 @@
+TUGAS: Upload 10 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Ini BATCH 2 dari 4: kerjakan BERURUTAN nomor 11-20 saja. Nama file di bawah UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 11/40 ====== VIDEO 11/40 ===
+FILE: 11-horror-en-2026-10-09-s1.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: The Stranger in the Shelter Knew His Name 😱 #shorts #horror #scarystories
+DESKRIPSI: A motionless stranger in a rain-soaked shelter called Elias by name — a name he never told him. From "The Trail That Whispers Back", a Midnight Dread Tales original.
+TAGS: horror, scary stories, creepypasta, short horror, ghost stories, midnight dread tales
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 12/40 ====== VIDEO 12/40 ===
+FILE: 12-horror-en-2026-10-09-s2.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: Something Unzipped His Tent at Midnight 😱 #shorts #horror #scarystories
+DESKRIPSI: At midnight, a whisper circled his tent in his own voice… then the zipper began to move down by itself. From "The Trail That Whispers Back", a Midnight Dread Tales original.
+TAGS: horror, scary stories, creepypasta, short horror, ghost stories, midnight dread tales
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 13/40 ====== VIDEO 13/40 ===
+FILE: 13-horror-en-2026-10-09-s3.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: I Zoomed In on the Photo… and Saw WARDEN 😱 #shorts #horror #scarystories
+DESKRIPSI: I zoomed in on the day-two photo. Behind the rock, half-hidden in the fog, stood a figure — and on the back of his jacket, one word: WARDEN. From "The Trail That Whispers Back", a Midnight Dread Tales original.
+TAGS: horror, scary stories, creepypasta, short horror, ghost stories, midnight dread tales
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 14/40 ====== VIDEO 14/40 ===
+FILE: 14-kisahdharma-kisah-dharma-2026-10-08-long-small.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Pangeran yang Menolak Takhta Demi Ayahnya
+DESKRIPSI: Malam sebelum penobatannya sebagai raja, Rama justru diminta meninggalkan segalanya. Bukan karena kalah perang, bukan karena berkhianat — melainkan karena janji sang ayah yang harus ditepati. 
+  
+ Inilah kisah masyhur dari epos Ramayana: tentang Kaikeyi dan dua janji lamanya, tentang senyum ikhlas Rama saat menerima pengasingan empat belas tahun ke hutan, tentang Shinta dan Laksmana yang menolak ditinggalkan, dan tentang Bharata yang lebih memilih sepasang sandal kayu daripada duduk di singgasana. 
+  
+ Saya merinding setiap kali membaca ulang bagian ini. Kadang, kekuatan terbesar bukanlah merebut — melainkan merelakan. Semoga kisah ini menginspirasi kita semua untuk berbakti kepada orang tua dan teguh memegang janji. 
+  
+ #ramayana #hindu #kisahdharma
+TAGS: ramayana, kisah ramayana, epos hindu, rama shinta laksmana, kisah dharma
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 15/40 ====== VIDEO 15/40 ===
+FILE: 15-kisahdharma-kisah-dharma-2026-10-09-short1.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Pangeran Ini Tersenyum Saat Takhtanya Direbut #shorts #ramayana #hindu
+DESKRIPSI: Bayangkan: besok pagi dinobatkan jadi raja, malam ini malah diminta pergi ke hutan empat belas tahun. Reaksi Rama bikin saya merinding — tidak marah, tidak melawan, justru tersenyum ikhlas. 
+  
+ Kisah lengkap dari epos Ramayana ada di video long channel ini. Sampai jumpa di kisah berikutnya.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 16/40 ====== VIDEO 16/40 ===
+FILE: 16-kisahdharma-kisah-dharma-2026-10-09-short2.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Di Titik Terendah Hidupnya, Ia Malah Tersenyum #shorts #ramayana #hindu
+DESKRIPSI: Di saat paling hancur dalam hidupnya, Rama justru tersenyum tulus. "Empat belas tahun di hutan bukanlah hukuman bagi saya. Ini kesempatan untuk berbakti." Saya sendiri merinding membayangkan keteguhan seperti itu. 
+  
+ Kisah lengkap dari epos Ramayana ada di video long channel ini.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 17/40 ====== VIDEO 17/40 ===
+FILE: 17-kisahdharma-kisah-dharma-2026-10-09-short3.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Takhta Kerajaan Diduduki Sepasang Sandal #shorts #ramayana #hindu
+DESKRIPSI: Bharata menolak takhta yang diperoleh dengan cara licik. Ia meletakkan sepasang sandal kayu milik kakaknya di singgasana — empat belas tahun takhta diduduki sandal, bukan manusia. Dan saya pun bertanya pada diri sendiri: sanggupkah saya melepas segalanya, demi sebuah janji? 
+  
+ Kisah lengkap dari epos Ramayana ada di video long channel ini.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 18/40 ====== VIDEO 18/40 ===
+FILE: 18-jejakbuddha-jejak-buddha-2026-10-08-upload.mp4
+CHANNEL: Jejak Buddha | ID: UC1PNEzhOmAH08p75vwp7n0A
+JUDUL: Bayi yang Berjalan 7 Langkah Saat Lahir
+DESKRIPSI: Kelahiran Pangeran Siddhartha Gautama di Taman Lumbini — dari mimpi gajah putih Ratu Maya hingga tujuh langkah suci di atas bunga teratai. Kisah takzim yang diperingati jutaan umat Buddha setiap Waisak. 
+  
+ Bab: 
+ 0:00 Bayi yang melangkah tujuh langkah 
+ 0:33 Mimpi gajah putih Ratu Maya 
+ 2:21 Kelahiran di Taman Lumbini 
+ 4:02 Tujuh langkah suci 
+ 5:03 Tangis Pertapa Asita 
+ 6:25 Nama Siddhartha & kepergian Ratu Maya 
+ 7:31 Cahaya bagi dunia 
+ 8:15 Penutup 
+  
+ Bagi saya pribadi, bagian paling mengharukan adalah tangis Pertapa Asita — seumur hidup mencari kebenaran, lalu sadar tak akan sempat mendengar ajaran Sang Buddha. Kisah ini mengingatkan kita: terang sejati lahir dari welas asih, bukan dari kemewahan. 
+  
+ #buddha #kisahbuddha #lumbini #siddharthagautama #waisak #jejakbuddha #agamabuddha #ceritabuddha
+TAGS: kelahiran buddha, sang buddha, siddhartha gautama, taman lumbini, ratu maya, mimpi gajah putih, tujuh langkah suci, bunga teratai, kisah buddha, cerita buddha, waisak, jejak buddha, agama buddha, sejarah buddha, pertapa asita, kapilavastu, kisah inspiratif, spiritual, renungan, buddhisme
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 19/40 ====== VIDEO 19/40 ===
+FILE: 19-jejakbuddha-short1-tujuh-langkah.mp4
+CHANNEL: Jejak Buddha | ID: UC1PNEzhOmAH08p75vwp7n0A
+JUDUL: Baru Lahir Langsung Berjalan 7 Langkah! #shorts #buddha #kebijaksanaan
+DESKRIPSI: Kisah yang paling masyhur dari kelahiran Pangeran Siddhartha: bayi yang baru lahir berdiri, melangkah tujuh langkah, dan di setiap tapaknya mekar sekuntum bunga teratai. Cerita penuh takzim ini diperingati ratusan juta umat Buddha setiap Waisak. Semoga semua makhluk berbahagia. — Jejak Buddha
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 20/40 ====== VIDEO 20/40 ===
+FILE: 20-jejakbuddha-short2-mimpi-gajah-putih.mp4
+CHANNEL: Jejak Buddha | ID: UC1PNEzhOmAH08p75vwp7n0A
+JUDUL: Gajah Putih Turun dari Langit ke dalam Mimpi Ratu Maya #shorts #buddha #kebijaksanaan
+DESKRIPSI: Sebelum kelahiran Sang Buddha, Ratu Maya bermimpi seekor gajah putih agung turun dari langit dan memasuki rahimnya. Para brahmana menafsirkan: akan lahir putra luar biasa — raja agung, atau Buddha yang tercerahkan sempurna. Semoga semua makhluk berbahagia. — Jejak Buddha
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+LAPORAN AKHIR: tiap nomor -> SUKSES + URL, atau GAGAL + alasan singkat.

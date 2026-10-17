@@ -1,0 +1,383 @@
+{
+ "style": "Storybook 2D illustration, 16:9 widescreen cosmic sci-fi art, deep-space palette of indigo, violet and teal with warm starlight accents, painterly stars, subtle nebula texture. No text, no words, no letters anywhere in the image.",
+ "beats": {
+  "1": {
+   "narration_file": "script/beats-2026-10-16/beat-001.txt",
+   "images": [
+    {
+     "name": "beat-001-a",
+     "prompt": "A colossal spiral galaxy seen edge-on being gently pulled sideways by invisible force lines, a glowing arrow of motion curving through deep space toward a dark region, small silhouettes of distant galaxies streaming the same way"
+    },
+    {
+     "name": "beat-001-b",
+     "prompt": "Close view of a majestic spiral galaxy with luminous star streams trailing behind it like hair in wind, faint gravitational lensing arcs bending starlight around an unseen mass ahead"
+    },
+    {
+     "name": "beat-001-c",
+     "prompt": "A lone human silhouette standing on a cliff at night looking up at a vast starry sky where all the stars seem to lean toward one dark patch of sky"
+    },
+    {
+     "name": "beat-001-d",
+     "prompt": "Wide cosmic vista: dozens of spiral and elliptical galaxies all tilted and flowing in one direction like leaves in a river current, subtle motion lines through space"
+    }
+   ]
+  },
+  "2": {
+   "narration_file": "script/beats-2026-10-16/beat-002.txt",
+   "images": [
+    {
+     "name": "beat-002-a",
+     "prompt": "A giant glowing speedometer-style arc in space showing extreme velocity, a spiral galaxy streaking forward leaving light trails, motion blur star streaks all around"
+    },
+    {
+     "name": "beat-002-b",
+     "prompt": "A spiral galaxy racing through space with elongated star trails behind it, speed lines and a luminous velocity wake, distant galaxies blurred by the rush"
+    },
+    {
+     "name": "beat-002-c",
+     "prompt": "Split view: a tiny rocket and astronaut helmet in the corner dwarfed by a galaxy moving at impossible speed, scale comparison of human craft versus galactic drift"
+    },
+    {
+     "name": "beat-002-d",
+     "prompt": "Time-lapse style cosmic scene with star trails circling and a bright galaxy smearing into a streak of light as it hurtles forward"
+    }
+   ]
+  },
+  "3": {
+   "narration_file": "script/beats-2026-10-16/beat-003.txt",
+   "images": [
+    {
+     "name": "beat-003-a",
+     "prompt": "A 1970s-style observatory dome at night with a big telescope pointed at the sky, star charts and paper graphs on a desk showing galaxy motion arrows converging on one point"
+    },
+    {
+     "name": "beat-003-b",
+     "prompt": "Retro astronomy control room with glowing monitors plotting red arrows of galaxy movements all pointing toward a circled region labeled by a question mark in the sky map"
+    },
+    {
+     "name": "beat-003-c",
+     "prompt": "Vintage star chart of the southern sky with the constellations Hydra and Centaurus highlighted, a red circle around a mysterious empty-looking region"
+    },
+    {
+     "name": "beat-003-d",
+     "prompt": "Astronomers' wall of photographic plates with galaxy images connected by red strings to a central dark spot, detective-board style cosmic investigation"
+    }
+   ]
+  },
+  "4": {
+   "narration_file": "script/beats-2026-10-16/beat-004.txt",
+   "images": [
+    {
+     "name": "beat-004-a",
+     "prompt": "A cosmic distance ladder visualization: Earth and Milky Way in the foreground, a dotted light-beam path stretching 250 million light years to a glowing question-mark region"
+    },
+    {
+     "name": "beat-004-b",
+     "prompt": "Layered deep-space view with a bright ruler-like beam of light crossing immense darkness, small galaxy icons marking the journey toward a shadowed zone"
+    },
+    {
+     "name": "beat-004-c",
+     "prompt": "A spiral galaxy labeled by position in space with concentric distance rings around it expanding outward to a far hidden region behind a dusty band"
+    },
+    {
+     "name": "beat-004-d",
+     "prompt": "Starship-window view looking across an ocean of galaxies toward a dark banded region on the horizon, a faint glow barely visible behind the dust"
+    }
+   ]
+  },
+  "5": {
+   "narration_file": "script/beats-2026-10-16/beat-005.txt",
+   "images": [
+    {
+     "name": "beat-005-a",
+     "prompt": "The Milky Way's glowing dusty galactic plane seen edge-on like a bright wall of stars and dark dust lanes, completely hiding whatever lies behind it"
+    },
+    {
+     "name": "beat-005-b",
+     "prompt": "A campfire glowing faintly behind a raging sandstorm and a brick wall, seen from the other side, warm light barely piercing through the dust"
+    },
+    {
+     "name": "beat-005-c",
+     "prompt": "Cross-section view of a spiral galaxy disk with a big red X over the far side, an eye trying to peer through thick brown dust clouds to a hidden glow"
+    },
+    {
+     "name": "beat-005-d",
+     "prompt": "Astronaut's view from inside a dusty nebula looking outward, thick foreground dust lanes obscuring a mysterious bright structure behind them"
+    }
+   ]
+  },
+  "6": {
+   "narration_file": "script/beats-2026-10-16/beat-006.txt",
+   "images": [
+    {
+     "name": "beat-006-a",
+     "prompt": "A gigantic invisible fist of gravity made visible as warped spacetime grid lines bending deeply, tiny galaxies sliding down the curvature like marbles"
+    },
+    {
+     "name": "beat-006-b",
+     "prompt": "Size comparison chart in space: one small Milky Way spiral next to a towering shadowy mass labeled by scale, fifty thousand galaxy icons stacked behind it"
+    },
+    {
+     "name": "beat-006-c",
+     "prompt": "A dark colossal sphere of bent starlight, gravitational lensing rings warping dozens of background galaxies around an unseen super-mass"
+    },
+    {
+     "name": "beat-006-d",
+     "prompt": "Top-down view of a hundred thousand tiny galaxy dots spiraling around a central dark pit, orbital paths curving inward"
+    }
+   ]
+  },
+  "7": {
+   "narration_file": "script/beats-2026-10-16/beat-007.txt",
+   "images": [
+    {
+     "name": "beat-007-a",
+     "prompt": "A breathtaking map of the Laniakea supercluster as a glowing blue cosmic web valley, one hundred thousand galaxy dots flowing toward a bright central basin"
+    },
+    {
+     "name": "beat-007-b",
+     "prompt": "Portrait of the cosmic web with a highlighted immense region shaped like a vast valley, arrows showing galaxy flows converging at its heart"
+    },
+    {
+     "name": "beat-007-c",
+     "prompt": "A 3D visualization of flowing galaxy streams in blue and cyan converging into a glowing gravitational basin, depth and scale emphasized"
+    },
+    {
+     "name": "beat-007-d",
+     "prompt": "Wide view of a supercluster: filamentary strands of galaxies like glowing rivers all draining toward one luminous central region"
+    }
+   ]
+  },
+  "8": {
+   "narration_file": "script/beats-2026-10-16/beat-008.txt",
+   "images": [
+    {
+     "name": "beat-008-a",
+     "prompt": "A mountain watershed analogy in space: a valley of stars with glowing blue rivers of galaxies flowing downhill into one central cosmic river"
+    },
+    {
+     "name": "beat-008-b",
+     "prompt": "Raindrops falling on a mountain range flowing into streams and one great river, mirrored below by galaxies flowing into a supercluster basin"
+    },
+    {
+     "name": "beat-008-c",
+     "prompt": "A topographic map style view of spacetime as a valley, contour lines dipping toward a deep central point where galaxies gather"
+    },
+    {
+     "name": "beat-008-d",
+     "prompt": "Aerial view of glowing streams merging into a mighty river delta, with galaxy shapes riding the currents toward the center"
+    }
+   ]
+  },
+  "9": {
+   "narration_file": "script/beats-2026-10-16/beat-009.txt",
+   "images": [
+    {
+     "name": "beat-009-a",
+     "prompt": "Telescopes peeking through gaps in dark dust clouds, beams of light revealing a colossal swarm of galaxies, the Norma Cluster, half-hidden"
+    },
+    {
+     "name": "beat-009-b",
+     "prompt": "A dense swarm of hundreds of golden elliptical galaxies packed together, partially veiled by wisps of dark interstellar dust"
+    },
+    {
+     "name": "beat-009-c",
+     "prompt": "A cosmic weighing scale in space: visible galaxies piled on one side, but the scale tips hard toward an invisible weight on the other side"
+    },
+    {
+     "name": "beat-009-d",
+     "prompt": "Infrared-style view cutting through dust to reveal a hidden metropolis of galaxies glowing behind the veil"
+    }
+   ]
+  },
+  "10": {
+   "narration_file": "script/beats-2026-10-16/beat-010.txt",
+   "images": [
+    {
+     "name": "beat-010-a",
+     "prompt": "A single question mark formed by stars in the darkness, vast and glowing, with a hundred thousand tiny galaxies arranged around it in a spiral of mystery"
+    },
+    {
+     "name": "beat-010-b",
+     "prompt": "A lone small telescope on a hilltop pointed at an enormous dark region of sky filled with faint question-shaped nebula, sense of scale and wonder"
+    },
+    {
+     "name": "beat-010-c",
+     "prompt": "An hourglass of cosmic time with galaxies falling through it toward an unknown dark bottom, fifty years of searching represented by layered star maps"
+    },
+    {
+     "name": "beat-010-d",
+     "prompt": "A vast dark void in space surrounded by streaming galaxies all pointing inward, the void itself featureless and unknowable"
+    }
+   ]
+  },
+  "11": {
+   "narration_file": "script/beats-2026-10-16/beat-011.txt",
+   "images": [
+    {
+     "name": "beat-011-a",
+     "prompt": "Dark matter visualized as a ghostly blue scaffolding lattice holding galaxies in place, invisible structure made faintly visible, cosmic construction"
+    },
+    {
+     "name": "beat-011-b",
+     "prompt": "A shadow mountain range made of translucent dark blue crystal rising in space, galaxies resting on its slopes, light bending around it"
+    },
+    {
+     "name": "beat-011-c",
+     "prompt": "A galaxy cluster held together by glowing blue threads of invisible matter, the threads pulsing with gravitational energy"
+    },
+    {
+     "name": "beat-011-d",
+     "prompt": "Side-by-side: what telescopes see (few galaxies) versus the hidden truth (a colossal dark matter knot revealed in blue X-ray style glow)"
+    }
+   ]
+  },
+  "12": {
+   "narration_file": "script/beats-2026-10-16/beat-012.txt",
+   "images": [
+    {
+     "name": "beat-012-a",
+     "prompt": "The cosmic microwave background as a mottled orange and blue baby photo of the universe, with a giant arrow showing a mysterious flow direction"
+    },
+    {
+     "name": "beat-012-b",
+     "prompt": "Whole clusters of galaxies caught in an enormous invisible current, like leaves in a cosmic ocean stream, all drifting toward one edge of the image"
+    },
+    {
+     "name": "beat-012-c",
+     "prompt": "A NASA-style mission control view of an all-sky map with flow lines converging beyond the frame, a red arrow pointing past the edge of the observable"
+    },
+    {
+     "name": "beat-012-d",
+     "prompt": "A vast river of galaxies flowing off the edge of a flat cosmic map, waterfalling into darkness beyond the border of the known"
+    }
+   ]
+  },
+  "13": {
+   "narration_file": "script/beats-2026-10-16/beat-013.txt",
+   "images": [
+    {
+     "name": "beat-013-a",
+     "prompt": "A small glowing bubble representing the observable universe floating in infinite darkness, something vast and unseen tugging at it from outside"
+    },
+    {
+     "name": "beat-013-b",
+     "prompt": "A fishbowl containing tiny galaxies, outside the glass a colossal shadow looms, unreachable and unseen, ripples on the glass surface"
+    },
+    {
+     "name": "beat-013-c",
+     "prompt": "An astronaut reaching toward a boundary wall of light, beyond it only darkness with two faint enormous eyes of gravity watching"
+    },
+    {
+     "name": "beat-013-d",
+     "prompt": "A lighthouse beam that stops at the edge of its range, beyond the light only black water and the suggestion of something huge moving"
+    }
+   ]
+  },
+  "14": {
+   "narration_file": "script/beats-2026-10-16/beat-014.txt",
+   "images": [
+    {
+     "name": "beat-014-a",
+     "prompt": "A giant X-ray space telescope with golden foil unfolding, scanning the dusty zone, revealing hidden galaxy clusters as glowing dots on its display"
+    },
+    {
+     "name": "beat-014-b",
+     "prompt": "Radio telescope dishes at night all pointed at the same dusty band of sky, data streams revealing a hidden map of galaxies lighting up"
+    },
+    {
+     "name": "beat-014-c",
+     "prompt": "A treasure map of the sky with previously blank regions now filling in with discovered galaxy clusters, X marks glowing in the Zone of Avoidance"
+    },
+    {
+     "name": "beat-014-d",
+     "prompt": "Before-and-after: a dark dusty sky panel beside the same panel with dozens of newly discovered galaxies shining through in X-ray blue"
+    }
+   ]
+  },
+  "15": {
+   "narration_file": "script/beats-2026-10-16/beat-015.txt",
+   "images": [
+    {
+     "name": "beat-015-a",
+     "prompt": "A tiny spaceship on an impossibly long dotted journey line toward a distant glow, the universe expanding and stretching the path behind it"
+    },
+    {
+     "name": "beat-015-b",
+     "prompt": "A galaxy slowly morphing and merging over cosmic time, time-lapse swirls of collision, growing larger as eons pass in fast-forward"
+    },
+    {
+     "name": "beat-015-c",
+     "prompt": "An endless road through expanding space with the destination forever receding, perspective lines stretching, a lone traveler on the road"
+    },
+    {
+     "name": "beat-015-d",
+     "prompt": "A calendar of cosmic eons flipping pages rapidly while a galaxy drifts along its long arc toward a growing bright mass"
+    }
+   ]
+  },
+  "16": {
+   "narration_file": "script/beats-2026-10-16/beat-016.txt",
+   "images": [
+    {
+     "name": "beat-016-a",
+     "prompt": "A person lying on a grassy hill at night gazing up, the stars above arranged as a flowing river of light carrying galaxies downstream"
+    },
+    {
+     "name": "beat-016-b",
+     "prompt": "A small Earth with a glowing thread connecting it to the sun and the Milky Way, all three riding a luminous cosmic current together"
+    },
+    {
+     "name": "beat-016-c",
+     "prompt": "A dreamy night sky where constellations have become streams of water flowing in one direction, a lone observer in silhouette watching"
+    },
+    {
+     "name": "beat-016-d",
+     "prompt": "A paper boat carrying a tiny Earth floating down a vast river of stars toward a distant mysterious glow on the horizon"
+    }
+   ]
+  },
+  "17": {
+   "narration_file": "script/beats-2026-10-16/beat-017.txt",
+   "images": [
+    {
+     "name": "beat-017-a",
+     "prompt": "A cozy narrator's desk with a glowing cosmic mystery board, a big red subscribe button pulsing, stars and galaxies decorating the frame"
+    },
+    {
+     "name": "beat-017-b",
+     "prompt": "A excited audience of diverse silhouettes looking up at a giant screen showing cosmic wonders, a bell icon glowing above them"
+    },
+    {
+     "name": "beat-017-c",
+     "prompt": "A friendly hand pressing a glowing subscribe button floating in space among galaxies, notification bell ringing with star sparkles"
+    },
+    {
+     "name": "beat-017-d",
+     "prompt": "A channel marquee in space reading a new mystery every day, spotlights sweeping across a starfield, inviting and warm"
+    }
+   ]
+  },
+  "18": {
+   "narration_file": "script/beats-2026-10-16/beat-018.txt",
+   "images": [
+    {
+     "name": "beat-018-a",
+     "prompt": "A lone figure on a mountaintop at dawn looking up at fading stars, one mysterious dark region still visible, hopeful and calm"
+    },
+    {
+     "name": "beat-018-b",
+     "prompt": "A sunrise over a quiet observatory dome, the dome opening toward a sky where galaxies are still streaming toward their hidden destination"
+    },
+    {
+     "name": "beat-018-c",
+     "prompt": "A telescope silhouetted against a starry sky with a single bright path of galaxies leading to a dark patch, the words of farewell in the stars"
+    },
+    {
+     "name": "beat-018-d",
+     "prompt": "Wide peaceful cosmic vista, galaxies drifting in their eternal river, a small warm light in the corner like a porch light left on"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+TUGAS: Upload 4 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Kerjakan BERURUTAN. Nama file UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 10 ===
+FILE: 10-horror-en-2026-10-08.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: The Trail That Whispers Back — A Horror Story
+DESKRIPSI: A hiker walks out of the Appalachian Trail screaming — because for six days, something in the woods had been calling his name in his own voice. 
+  
+ This one genuinely scared me. I've told a lot of scary stories on this channel, and I still think about this one when the house goes quiet at night. 
+  
+ An original horror story from Midnight Dread Tales. New nightmares every night — subscribe if you dare. 
+  
+ This is an original work of fiction. All characters, places, and events are imagined. This video was created with the assistance of AI tools (voiceover, illustrations). 
+  
+ #horror #scarystories #horrorstories #creepypasta #ghoststories
+TAGS: horror stories, scary stories, creepypasta, horror narration, ghost stories, urban legend, haunted, midnight dread tales
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 11 ===
+FILE: 11-horror-en-2026-10-09-s1.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: The Stranger in the Shelter Knew His Name 😱 #shorts #horror #scarystories
+DESKRIPSI: A motionless stranger in a rain-soaked shelter called Elias by name — a name he never told him. From "The Trail That Whispers Back", a Midnight Dread Tales original.
+TAGS: horror, scary stories, creepypasta, short horror, ghost stories, midnight dread tales
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 12 ===
+FILE: 12-horror-en-2026-10-09-s2.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: Something Unzipped His Tent at Midnight 😱 #shorts #horror #scarystories
+DESKRIPSI: At midnight, a whisper circled his tent in his own voice… then the zipper began to move down by itself. From "The Trail That Whispers Back", a Midnight Dread Tales original.
+TAGS: horror, scary stories, creepypasta, short horror, ghost stories, midnight dread tales
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 13 ===
+FILE: 13-horror-en-2026-10-09-s3.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: I Zoomed In on the Photo… and Saw WARDEN 😱 #shorts #horror #scarystories
+DESKRIPSI: I zoomed in on the day-two photo. Behind the rock, half-hidden in the fog, stood a figure — and on the back of his jacket, one word: WARDEN. From "The Trail That Whispers Back", a Midnight Dread Tales original.
+TAGS: horror, scary stories, creepypasta, short horror, ghost stories, midnight dread tales
+VISIBILITAS: PUBLIKASI SEKARANG
+
+LAPORAN AKHIR: tiap nomor -> SUKSES + URL, atau GAGAL + alasan singkat.

@@ -1,0 +1,72 @@
+INSTRUKSI UPLOAD — Lost Empires (@AncientEmpiresTV) — LONG Pompeii
+================================================================
+Channel WAJIB: Lost Empires, Channel ID UCd2wADmj47v3XCPcCpk-fSg, akun khususstokyunobi@gmail.com.
+Verifikasi URL Studio mengandung channel ID itu SEBELUM upload. Jangan upload ke channel lain.
+
+File video : /home/hatch/workspace/youtube-otomatis/empires-en/video/pompeii-2026-10-11-upload.mp4
+Thumbnail  : /home/hatch/workspace/youtube-otomatis/empires-en/thumbnail/thumb-pompeii-a.jpg
+             (varian B untuk Test & Compare: thumb-pompeii-b.jpg — catatan: custom thumbnail
+              pernah DITOLAK YouTube karena channel belum verifikasi HP; kalau ditolak lagi, pakai thumbnail otomatis)
+Judul      : Pompeii: 20,000 People Died in a Single Morning
+Kategori   : Education (27), bahasa English, audiens: BUKAN untuk anak-anak.
+Visibilitas: upload sebagai Tidak Publik (Unlisted) dulu → rapikan metadata → ubah ke
+             Terjadwal BESOK 13 Okt 2026 07:00 WIB (19:00 US Eastern).
+AI DISCLOSURE: WAJIB centang "Altered content" (Ya, konten diubah/AI) di Studio.
+KOMENTAR   : Details → Show more → Comments → setel EKSPLISIT "Allow all comments".
+Auto-dubbing: aktifkan (EN → ID/ES) di Studio > Subtitles > Audio bila tersedia.
+Playlist   : masukkan ke playlist Lost Empires / Ancient Civilizations.
+End screen : 1 video spesifik (Maya: https://youtu.be/6DwpnronVQQ) + 1 playlist.
+Cards      : hanya di paruh kedua video.
+Pinned comment (pin dalam 60 menit pertama):
+"Pompeii's dead were preserved by the very ash that killed them — Pliny's letters, Fiorelli's plaster casts, and one charcoal date still argue about when it really happened. If you had four hours, what would you grab first? 👇"
+
+DESKRIPSI (persis, termasuk chapters + hashtag dengan #foryou):
+----------------------------------------------------------------
+In a single morning, 20,000 people died where they stood — no war, no plague. The mountain did it. This is Pompeii, the city time forgot to destroy, walked street by street.
+
+I am Professor Adrian, and what amazes me about Pompeii is not the destruction. It is how ordinary it all was: bread in the ovens, election posters on the walls, a dog chained at its post. Pliny the Younger watched the eruption from across the bay and wrote it down letter by letter — we still read his account today. In 1863 Giuseppe Fiorelli poured plaster into the ash and gave the dead back their faces. And in 2018, a single charcoal inscription quietly moved the date of the disaster itself.
+
+Pompeii is not just a tragedy about a volcano. It is a mirror — and a warning, because Vesuvius is still breathing above three million people.
+
+⏱️ CHAPTERS
+0:00 Death in a Single Morning
+0:20 The Ruins Today
+0:40 Four Hours to Live
+0:58 A Roman Boomtown
+1:19 Bread, Bars, and Gladiators
+1:38 Painted Walls
+1:58 The Ground Warns
+2:22 The Boy Who Wrote It Down
+2:39 The Column Rises
+3:00 Stones from the Sky
+3:22 Night Without Night
+3:46 The Surge
+4:17 Buried for 17 Centuries
+4:39 1748: The Digging Begins
+5:00 The Molds of the Dead
+5:18 1863: The Plaster Casts
+5:41 A Paused Morning
+6:02 The Walls Talk
+6:22 A Mirror, Not a Tragedy
+6:41 The October Question
+7:02 The Mountain Still Breathes
+7:20 Sunset in the Forum
+7:40 What the Ash Preserved
+8:02 The Story Outlives Us All
+
+🔔 Subscribe to Lost Empires for a new ancient civilization every day!
+
+Watch next: What Really Killed the Maya? https://youtu.be/6DwpnronVQQ
+
+Sources: Pliny the Younger, Letters to Tacitus; Fiorelli excavation records (1863); charcoal inscription study, Pompeii archaeological park (2018).
+
+#history #archaeology #ancientcivilizations #pompeii #foryou
+----------------------------------------------------------------
+Tags: pompeii, pompeii history, mount vesuvius eruption 79 ad, pliny the younger, ancient rome, roman city buried, pompeii plaster casts, fiorelli, herculaneum, lost civilization, ancient history documentary, archaeology discoveries, city frozen in time, lost empires, ancient civilizations documentary
+
+SHORTS Pompeii (diupload run BERIKUTNYA, pola shorts — terjadwal H+1 07:00 WIB):
+- shorts/2026-10-12-s1.mp4 — "20,000 People Died in One Morning 😱 #shorts #history #archaeology #foryou"
+- shorts/2026-10-12-s2.mp4 — "Nothing Outruns the Surge — 700 km/h #shorts #history #archaeology #foryou"
+- shorts/2026-10-12-s3.mp4 — "The Bread Survived 2,000 Years in the Oven #shorts #history #archaeology #foryou"
+  Deskripsi shorts (tanpa hashtag): "Watch the full story: [URL long Pompeii]\n\nA new lost civilization every day — subscribe to Lost Empires."
+  AI disclosure dicentang tiap shorts; komentar ON; Related Video diarahkan ke long Pompeii.

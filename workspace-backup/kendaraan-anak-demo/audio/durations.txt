@@ -1,0 +1,12 @@
+--- durasi ---
+buldo.mp3 3.768000
+cta.mp3 2.904000
+eks.mp3 3.888000
+hook.mp3 4.416000
+hore.mp3 5.424000
+lagu1.mp3 2.736000
+lagu2.mp3 3.048000
+lagu3.mp3 2.304000
+lagu4.mp3 2.616000
+pamit.mp3 2.304000
+truk.mp3 3.312000

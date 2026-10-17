@@ -1,0 +1,20 @@
+[
+ {
+  "akun": "threads-beritaviraldotcom",
+  "slug": "puzzle-kayu",
+  "ok": false,
+  "out": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write Rate Limit Reached: The daily limit for this Thre"
+ },
+ {
+  "akun": "threads-ngewebyuk",
+  "slug": "puzzle-kayu",
+  "ok": false,
+  "out": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write Rate Limit Reached: The daily limit for this Thre"
+ },
+ {
+  "akun": "fb-BeritaViraldotcom",
+  "slug": "puzzle-kayu",
+  "ok": true,
+  "out": "{\"_meta\":{\"data\":{\"fbids\":[61592661515070,1347201611814398,1796208111629305,122101462959498449],\"message_ids\":[]},\"tool_call_id\":\"call_01a10d31f0477683b17695c39e8aa2ac\"},\"acting_account_id\":\"615926615"
+ }
+]

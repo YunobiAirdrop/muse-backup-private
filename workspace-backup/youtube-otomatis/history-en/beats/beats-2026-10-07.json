@@ -1,0 +1,527 @@
+[
+ {
+  "beat": "beat-001",
+  "text": "It snowed in July. Fields of corn rotted where they stood, and farmers stared at a sky gone cold.",
+  "chapter": "Snow in July",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Snow-covered green farm field under a pale summer sun, confused farmers in 1816 clothes",
+  "overlay": null
+ },
+ {
+  "beat": "beat-002",
+  "text": "In New England, families shivered through a summer that never came. They called it eighteen hundred and froze to death.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Colonial American family huddled inside a farmhouse, frost on the window, July calendar on the wall",
+  "overlay": null
+ },
+ {
+  "beat": "beat-003",
+  "text": "Snowdrifts buried the green fields. Cattle starved. Crops were planted twice and died twice, all for nothing.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Snowy farm landscape in summer with a dead corn crop, a starving cow, drifting snow",
+  "overlay": "JULY 1816 — NEW ENGLAND"
+ },
+ {
+  "beat": "beat-004",
+  "text": "Half a world away, endless rain drowned the harvests of Europe, and the rivers rose over their banks.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Flooded European wheat field in summer rain, ruined crops, a drowned village in the distance",
+  "overlay": null
+ },
+ {
+  "beat": "beat-005",
+  "text": "But here is the strangest part. In Switzerland, an eighteen-year-old girl sat writing by candlelight.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A young woman in a Regency dress writing by candlelight in a dark Swiss villa, manuscript pages",
+  "overlay": null
+ },
+ {
+  "beat": "beat-006",
+  "text": "Her name was Mary Shelley, and in a summer without sun, she was dreaming of a monster.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Close-up of a quill on a manuscript beside a flickering candle, storm clouds outside the window",
+  "overlay": null
+ },
+ {
+  "beat": "beat-007",
+  "text": "What strikes me most is this: not one person in 1816 connected the snow to its true cause.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A puzzled 1816 farmer looking up at falling summer snow, scratching his head",
+  "overlay": null
+ },
+ {
+  "beat": "beat-008",
+  "text": "They blamed it on sunspots, on faulty almanacs, on the sins of mankind.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: An 1816 printing press producing almanacs and pamphlets blaming the strange weather, townspeople arguing",
+  "overlay": null
+ },
+ {
+  "beat": "beat-009",
+  "text": "The real cause lay twelve thousand kilometers away, on a remote tropical island. [JEDA]",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: World map centered on the Atlantic with a red arrow pointing to a small Indonesian island",
+  "overlay": null
+ },
+ {
+  "beat": "beat-010",
+  "text": "To find it, we must travel back in time, to April 1815. To a mountain that was about to roar.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A swirling clock and calendar pages flying back to April 1815, a volcano silhouette behind",
+  "overlay": null
+ },
+ {
+  "beat": "beat-011",
+  "text": "Sumbawa, Indonesia. April 1815. A towering volcano called Mount Tambora rumbled awake.",
+  "chapter": "The Mountain That Roared",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Mount Tambora volcano looming over a tropical Indonesian island, palm trees, fishermen",
+  "overlay": "SUMBAWA, INDONESIA — APRIL 1815"
+ },
+ {
+  "beat": "beat-012",
+  "text": "On the fifth of April, the first eruption hurled ash into the tropical sky.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Volcanic eruption column rising over Mount Tambora, islanders watching from a beach",
+  "overlay": null
+ },
+ {
+  "beat": "beat-013",
+  "text": "People watched from a distance, fascinated. No one guessed what was coming next.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Indonesian villagers pointing at a smoking volcano from a safe distance, curious faces",
+  "overlay": null
+ },
+ {
+  "beat": "beat-014",
+  "text": "Then, on the evening of April tenth, the entire mountain seemed to tear itself apart.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Mount Tambora exploding at dusk, a colossal fireball tearing the summit open",
+  "overlay": null
+ },
+ {
+  "beat": "beat-015",
+  "text": "In a single colossal blast, the volcano unleashed one hundred and fifty cubic kilometers of material.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Cross-section view of a volcano erupting, a giant mushroom of ash and fire, sheer scale",
+  "overlay": null
+ },
+ {
+  "beat": "beat-016",
+  "text": "A column of ash rose forty-three kilometers into the sky, higher than any jet has ever flown.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: An immense ash column towering above the clouds over a tropical sea, tiny ships below for scale",
+  "overlay": null
+ },
+ {
+  "beat": "beat-017",
+  "text": "But the most astonishing fact is not what people saw. It is what they heard.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A Dutch colonial sailor cupping his ear on a ship deck, distant rumble on the horizon",
+  "overlay": null
+ },
+ {
+  "beat": "beat-018",
+  "text": "The explosion was heard more than two thousand six hundred kilometers away, like distant cannon fire.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Sound waves rippling across a map of the Indonesian archipelago from a single point, ships at sea",
+  "overlay": "THE LOUDEST SOUND IN HISTORY"
+ },
+ {
+  "beat": "beat-019",
+  "text": "Sailors in Batavia rushed to their decks, certain that a battle was raging over the horizon. [JEDA]",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Dutch sailors scrambling on a tall ship deck at night, looking toward a glowing distant horizon",
+  "overlay": null
+ },
+ {
+  "beat": "beat-020",
+  "text": "To this day, it remains the loudest sound in recorded human history.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: An enormous explosion cloud over an island volcano, the loudest moment frozen in time",
+  "overlay": null
+ },
+ {
+  "beat": "beat-021",
+  "text": "For three days and nights, the mountain raged on, pouring fire and ash over the island.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Mount Tambora erupting through three day-night cycles, glowing lava fountains, ashfall",
+  "overlay": null
+ },
+ {
+  "beat": "beat-022",
+  "text": "Pyroclastic flows, hotter than molten lead, raced down the slopes toward the sea.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Glowing pyroclastic flows rushing down volcanic slopes into the ocean, steam exploding",
+  "overlay": null
+ },
+ {
+  "beat": "beat-023",
+  "text": "Imagine being there: the sky black at noon, a roar that never stopped, the earth itself on fire.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A terrified islander family sheltering under a boat as a black sky glows orange above",
+  "overlay": null
+ },
+ {
+  "beat": "beat-024",
+  "text": "When the eruption finally ended, the landscape was unrecognizable. And an entire kingdom was gone.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A devastated ash-gray landscape where a lush island once stood, a smoking crater",
+  "overlay": null
+ },
+ {
+  "beat": "beat-025",
+  "text": "Before the eruption, this island was home to two flourishing kingdoms: Tambora and Pekat.",
+  "chapter": "A Kingdom Erased",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A prosperous 19th-century Indonesian kingdom: palaces, rice terraces, busy harbor with sailboats",
+  "overlay": null
+ },
+ {
+  "beat": "beat-026",
+  "text": "Palaces, villages, harbors, rice fields. An entire world, built over centuries.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Aerial view of a thriving tropical kingdom with palaces, temples, and green rice paddies",
+  "overlay": null
+ },
+ {
+  "beat": "beat-027",
+  "text": "Within days, both kingdoms were wiped from the map. Villages were buried, harbors swallowed by the sea.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A tsunami wave crashing into a coastal village, houses and palm trees swept away",
+  "overlay": null
+ },
+ {
+  "beat": "beat-028",
+  "text": "More than ten thousand people died in the first hours alone.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Ash-covered ruins of a village under a dark sky, abandoned, silent",
+  "overlay": null
+ },
+ {
+  "beat": "beat-029",
+  "text": "Then came the slower horror: ash that poisoned the fields, harvests that never grew.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Gray ash blanketing dead rice paddies, a lone farmer kneeling in the toxic dust",
+  "overlay": null
+ },
+ {
+  "beat": "beat-030",
+  "text": "Tens of thousands more starved in the months that followed. The final toll reached ninety thousand souls.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Starving villagers queuing for relief rice under a gray sky, empty bowls in their hands",
+  "overlay": null
+ },
+ {
+  "beat": "beat-031",
+  "text": "The kingdom of Tambora vanished so completely that even its language died. [JEDA]",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: An ancient manuscript with strange script dissolving into ash and blowing away",
+  "overlay": null
+ },
+ {
+  "beat": "beat-032",
+  "text": "The Tambora language is extinct today. All that remains of it is a single list of forty-eight words.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A single weathered paper page listing words in an extinct language, quill beside it",
+  "overlay": null
+ },
+ {
+  "beat": "beat-033",
+  "text": "A culture, a language, a kingdom. Erased in a single night.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A palace doorway standing alone in a field of ash, the last remnant of a kingdom",
+  "overlay": null
+ },
+ {
+  "beat": "beat-034",
+  "text": "For decades afterward, the mountain smoked quietly, as if nothing had happened.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Mount Tambora gently smoking under a calm sky, green slowly returning to its slopes",
+  "overlay": null
+ },
+ {
+  "beat": "beat-035",
+  "text": "But the ash was already rising into the stratosphere, beginning a journey around the world.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Ash particles streaming high into the stratosphere, circling the globe in wind currents",
+  "overlay": null
+ },
+ {
+  "beat": "beat-036",
+  "text": "And what rose from that island would change the fate of an entire planet.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: The Earth seen from space with a thin gray veil wrapping around the atmosphere",
+  "overlay": null
+ },
+ {
+  "beat": "beat-037",
+  "text": "Within months, a veil of sulfur gas had wrapped itself around the entire earth.",
+  "chapter": "The Veil Around the World",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: The Earth from space wrapped in a faint yellow-gray sulfur veil, the sun dimmed behind it",
+  "overlay": null
+ },
+ {
+  "beat": "beat-038",
+  "text": "It dimmed the sun. Skies turned hazy and red. Snow fell in June, July, and August across the northern hemisphere.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A red hazy sunset over a frozen northern landscape in midsummer, eerie light",
+  "overlay": null
+ },
+ {
+  "beat": "beat-039",
+  "text": "Global temperatures dropped. The year eighteen sixteen became known as the Year Without a Summer.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A frost-covered calendar page reading 1816 with the words 'Year Without a Summer', ice crystals",
+  "overlay": null
+ },
+ {
+  "beat": "beat-040",
+  "text": "In New England, frost struck every single month of the year. Grain prices soared beyond reach.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: An 1816 American marketplace with empty grain stalls and a chalkboard of soaring prices",
+  "overlay": null
+ },
+ {
+  "beat": "beat-041",
+  "text": "In China, the harvest failed in Yunnan province. The people called it the year of the beggar.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Chinese farmers in Yunnan looking over a failed rice crop in 1816, mist in the mountains",
+  "overlay": null
+ },
+ {
+  "beat": "beat-042",
+  "text": "Across Europe, bread riots shook the cities. Hungry crowds stormed the bakeries of Paris and London.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A bread riot in a 19th-century European street, crowds surging toward a bakery, dramatic",
+  "overlay": null
+ },
+ {
+  "beat": "beat-043",
+  "text": "And in the German states, the failing oats meant horses were starving to death by the thousands.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Emaciated horses in a bare German pasture in 1817, a saddened stable boy beside them",
+  "overlay": null
+ },
+ {
+  "beat": "beat-044",
+  "text": "A young inventor named Karl Drais watched the horses die, and asked a question that changed history.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A young 19th-century German inventor in a workshop, sketching a two-wheeled machine, thoughtful",
+  "overlay": null
+ },
+ {
+  "beat": "beat-045",
+  "text": "What if people did not need horses at all? His answer was a strange wooden two-wheeled machine. [JEDA]",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Karl Drais riding his wooden draisine on a cobbled street, onlookers amazed",
+  "overlay": null
+ },
+ {
+  "beat": "beat-046",
+  "text": "He called it the draisine. It had no pedals, but it rolled. It was the first bicycle.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Close-up of a wooden draisine, the ancestor of the bicycle, in a museum-like setting",
+  "overlay": null
+ },
+ {
+  "beat": "beat-047",
+  "text": "A volcano destroyed the harvest, and from the wreckage came the humble bicycle.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A split image: volcanic eruption on one side, a modern bicycle on the other, connected",
+  "overlay": null
+ },
+ {
+  "beat": "beat-048",
+  "text": "The mountain's reach seemed endless. But its strangest gift was yet to come.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A dark stormy sky over Lake Geneva with a single beam of light breaking through",
+  "overlay": null
+ },
+ {
+  "beat": "beat-049",
+  "text": "June 1816. Lake Geneva, Switzerland. The rain has not stopped for weeks.",
+  "chapter": "Monsters Born of Darkness",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Storm clouds over Lake Geneva in June 1816, rain lashing a grand lakeside villa",
+  "overlay": "LAKE GENEVA — JUNE 1816"
+ },
+ {
+  "beat": "beat-050",
+  "text": "In a lakeside villa called Diodati, five young writers were trapped indoors by the endless gloom.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: The Villa Diodati interior: five young writers around a fireplace, rain on the windows",
+  "overlay": null
+ },
+ {
+  "beat": "beat-051",
+  "text": "Among them: the famous poet Lord Byron, the eighteen-year-old Mary Shelley, and her husband Percy.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Lord Byron, Mary Shelley, and Percy Shelley in Regency dress conversing by a fireplace",
+  "overlay": null
+ },
+ {
+  "beat": "beat-052",
+  "text": "Bored and restless, Byron proposed a contest. Each would write the best ghost story they could imagine.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Lord Byron raising a wine glass proposing a toast, the others listening eagerly by the fire",
+  "overlay": null
+ },
+ {
+  "beat": "beat-053",
+  "text": "For days, Mary struggled. Then, in a waking dream, she saw it.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Mary Shelley jolting awake in bed at night, a vision of a creature forming in lamplight",
+  "overlay": null
+ },
+ {
+  "beat": "beat-054",
+  "text": "She saw a pale student kneeling beside a thing he had assembled, its dull yellow eyes opening. [JEDA]",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A young student in a laboratory kneeling beside a covered figure whose yellow eyes open",
+  "overlay": null
+ },
+ {
+  "beat": "beat-055",
+  "text": "That vision became Frankenstein, published two years later. One of the greatest novels ever written.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: An 1818 first edition of Frankenstein on a table beside a quill, candlelight",
+  "overlay": null
+ },
+ {
+  "beat": "beat-056",
+  "text": "The same contest gave birth to another classic: the first vampire tale in English.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A Regency-era gentleman writing 'The Vampyre' manuscript by candlelight, dramatic",
+  "overlay": null
+ },
+ {
+  "beat": "beat-057",
+  "text": "And Lord Byron himself, staring at the darkened sun, wrote his haunting poem Darkness.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Lord Byron writing his poem 'Darkness' at a desk overlooking a gloomy lake, thunder outside",
+  "overlay": null
+ },
+ {
+  "beat": "beat-058",
+  "text": "The year the sun forgot to shine gave us the monster that never dies.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Frankenstein's monster silhouette against a stormy sky, lightning, gothic and dramatic",
+  "overlay": null
+ },
+ {
+  "beat": "beat-059",
+  "text": "From the darkest summer ever recorded came one of the most enduring stories ever told.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Mary Shelley holding her published Frankenstein, light breaking through clouds behind her",
+  "overlay": null
+ },
+ {
+  "beat": "beat-060",
+  "text": "A volcano on a distant island had, without knowing it, invented modern horror.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Split scene: Mount Tambora erupting and the Villa Diodati, lightning connecting them",
+  "overlay": null
+ },
+ {
+  "beat": "beat-061",
+  "text": "Scientists rank Tambora as a VEI seven eruption. A true super-volcano.",
+  "chapter": "The Warning",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A volcanic explosivity index chart with Tambora highlighted at VEI 7, glowing marker",
+  "overlay": null
+ },
+ {
+  "beat": "beat-062",
+  "text": "For comparison, Krakatau's famous 1883 eruption, which killed thirty-six thousand people, was far smaller.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: The 1883 Krakatau eruption at sea, a massive column, with a size comparison to Tambora",
+  "overlay": null
+ },
+ {
+  "beat": "beat-063",
+  "text": "Now ask yourself the question geologists lose sleep over: what if Tambora erupted today?",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A modern city skyline with a massive volcano erupting behind it, planes in the sky",
+  "overlay": "WHAT IF IT ERUPTED TODAY?"
+ },
+ {
+  "beat": "beat-064",
+  "text": "A modern eruption would freeze global aviation. Ash clouds would ground every plane.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Airplanes grounded on a tarmac under a dark ash-filled sky, empty airports",
+  "overlay": null
+ },
+ {
+  "beat": "beat-065",
+  "text": "One small Icelandic volcano did that in 2010. Tambora would be a hundred times worse, for years.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A world map with all flight routes cancelled, red X marks over major airports",
+  "overlay": null
+ },
+ {
+  "beat": "beat-066",
+  "text": "Global harvests would fail. The Year Without a Summer would return, in a world of eight billion mouths.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Failed wheat fields under a hazy sun, an empty supermarket bread aisle, global scale",
+  "overlay": null
+ },
+ {
+  "beat": "beat-067",
+  "text": "Stockpiles would empty. Prices would explode. No country could simply import its way out.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A grain silo standing empty, commodity price charts spiking upward on a screen",
+  "overlay": null
+ },
+ {
+  "beat": "beat-068",
+  "text": "And here is the frightening truth: volcanoes this size erupt every few centuries. [JEDA]",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A timeline of super-eruptions across centuries, Tambora 1815 glowing, question mark at the end",
+  "overlay": null
+ },
+ {
+  "beat": "beat-069",
+  "text": "We have satellites. We have warnings. But we cannot stop the mountain.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A satellite orbiting Earth monitoring a volcano, red alert signals, scientists watching screens",
+  "overlay": null
+ },
+ {
+  "beat": "beat-070",
+  "text": "The earth always finds a way to remind us who is in charge.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Mount Tambora's caldera today, calm and green, a quiet reminder of sleeping power",
+  "overlay": null
+ },
+ {
+  "beat": "beat-071",
+  "text": "Two centuries later, the Year Without a Summer still echoes through our world.",
+  "chapter": "Echoes",
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A bicycle, a Frankenstein book, and a volcano photograph arranged together, museum style",
+  "overlay": null
+ },
+ {
+  "beat": "beat-072",
+  "text": "It rides on every bicycle, in every page of Frankenstein, in every poem about the darkness.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A montage: cyclist on a road, Frankenstein pages turning, a dark poetic sky",
+  "overlay": null
+ },
+ {
+  "beat": "beat-073",
+  "text": "If this story moved you, subscribe to Echoes of History Channel for a new story every single day.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: An ancient scroll, quill, and laurel on a dark background, elegant end-card style",
+  "overlay": null
+ },
+ {
+  "beat": "beat-074",
+  "text": "And tell me in the comments below: which moment in history should we uncover next?",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Mysterious historical scenes collage: pyramids, castles, volcanoes, ancient ships, curiosity",
+  "overlay": null
+ },
+ {
+  "beat": "beat-075",
+  "text": "Echoes of History Channel. Where the past never truly sleeps.",
+  "chapter": null,
+  "image_prompt": "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: An ancient hourglass with historical ruins inside, stars around, channel logo style",
+  "overlay": null
+ }
+]

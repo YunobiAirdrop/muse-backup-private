@@ -1,0 +1,56 @@
+{
+ "templar": {
+  "long_id": "-2qLmaLbPZo",
+  "long_slot": "2026-10-17T12:00:00.000Z",
+  "shorts": [
+   {
+    "id": "F0Malo5MCoA",
+    "slot": "2026-10-17T12:00:00.000Z"
+   },
+   {
+    "id": "vkWKtzCUYQ4",
+    "slot": "2026-10-17T12:00:00.000Z"
+   },
+   {
+    "id": "4qtGKOfpu9w",
+    "slot": "2026-10-17T12:00:00.000Z"
+   }
+  ]
+ },
+ "aceh": {
+  "long_id": "RQLFNJnfQi8",
+  "long_slot": "2026-10-18T12:00:00.000Z",
+  "shorts": [
+   {
+    "id": "DuO4SK10Kr0",
+    "slot": "2026-10-19T12:00:00.000Z"
+   },
+   {
+    "id": "cbYxqOvGnGo",
+    "slot": "2026-10-19T12:00:00.000Z"
+   },
+   {
+    "id": "vBQf93ljy18",
+    "slot": "2026-10-19T12:00:00.000Z"
+   }
+  ]
+ },
+ "diponegoro": {
+  "long_id": "vJI4rXLfMSw",
+  "long_slot": "2026-10-20T12:00:00.000Z",
+  "shorts": [
+   {
+    "id": "Y7IJZ3M8OSQ",
+    "slot": "2026-10-20T12:00:00.000Z"
+   },
+   {
+    "id": "syLWsY3qAh4",
+    "slot": "2026-10-20T12:00:00.000Z"
+   },
+   {
+    "id": "bIVfpvA7FW8",
+    "slot": "2026-10-20T12:00:00.000Z"
+   }
+  ]
+ }
+}

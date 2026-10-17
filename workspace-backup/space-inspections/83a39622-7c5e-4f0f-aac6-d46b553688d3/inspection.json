@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "inspection_id": "83a39622-7c5e-4f0f-aac6-d46b553688d3",
+  "slug": "link-bio-tiktok-affiliate",
+  "verbatim_request": "halaman gelap/blank saat dibuka di browser dalam aplikasi TikTok (screenshot menunjukkan layar hitam kosong, konten tidak tampil)",
+  "diagnosis_outcome": "repair",
+  "state": "evidence_collected",
+  "created_at_ms": 1791435045942,
+  "inspector_agent_id": "be5db9d0-a148-4cf7-b617-4c19fa7490e7",
+  "inspector_message_id": "fe0eb236-fc89-4120-9bde-345a8d1b9b25",
+  "snapshot": {
+    "slug": "link-bio-tiktok-affiliate",
+    "current_build_id": "4df48e82-dae2-4720-8da3-d45bec59e5a7",
+    "source_tree_fingerprint": "a20cc4e56cbbf163ad500efed93f53ab68b2bd749c5190e4c4ebddbcb6c6f8cb",
+    "source_files": [
+      "index.html",
+      "space.json"
+    ],
+    "published_manifests": [
+      {
+        "path": ".space-build/manifest.json",
+        "exists": true,
+        "sha256": "831c3be4c238c535fd668a8d7bc64d44b28b507291a1c613cb7b069acd57da58",
+        "entrypoint": "index.html",
+        "entrypoint_exists": true
+      },
+      {
+        "path": ".space-build-cvm/manifest.json",
+        "exists": true,
+        "sha256": "58b4cf7d5e07ee8234b0058704c5c6d45c52a34b44999ddec6172df270b51805",
+        "entrypoint": "index.html",
+        "entrypoint_exists": true
+      }
+    ]
+  },
+  "evidence_path": "/home/hatch/workspace/space-inspections/83a39622-7c5e-4f0f-aac6-d46b553688d3/evidence.json"
+}

@@ -1,0 +1,134 @@
+[
+ {
+  "judul": "Ikan Bakar Jimbaran, Rasa Laut di Piring",
+  "deskripsi": "Kadang‑kadang keinginan makan ikan segar di pantai muncul, tapi tak ada waktu untuk melaju ke pantai. Hidupkan cita rasa Jimbaran di dapur dengan ikan bakar yang gurih, bumbunya meresap, dan aroma alih‑alih laut yang menggoda.",
+  "bahan": [
+   "1,5 kg ikan gabus bersih, potong menjadi potongan rata",
+   "3 sdm minyak kelapa",
+   "2 sdt garam laut",
+   "1 sdt merica hitam bubuk",
+   "2 siung bawang putih",
+   "3 lemong (serai) cincang",
+   "3 sdm pasta bumbu Jimbaran",
+   "1 sdm gula Jawa",
+   "1 buah daun pandan"
+  ],
+  "bumbu_halus": [
+   "5 siung bawang merah",
+   "3 siung bawang putih",
+   "3 butir cabe merah",
+   "2 cm jahe",
+   "2 cm lengkuas",
+   "1 sdt ketumbar bubuk",
+   "1 sdt terasi",
+   "1 sdm gula merah"
+  ],
+  "langkah": [
+   "1. Bersihkan ikan, lumuri garam dan merica, diamkan 10 menit.",
+   "2. Haluskan semua bumbu halus, campur dengan minyak kelapa, gula Jawa, dan daun pandan, jadikan marinasi.",
+   "3. Oleskan marinasi ke atas ikan, diamkan 30 menit agar bumbu meresap.",
+   "4. Panaskan grill atau wajan anti‑lengket, olesi sedikit minyak, bakar ikan 6 menit per sisi hingga kulit kecoklatan.",
+   "5. Angkat, sajikan dengan irisan lemon, sambal kacang, dan daun pandan sebagai pelengkap."
+  ],
+  "tips": [
+   "Gunakan ikan segar dengan kulit utuh untuk menahan rasa dan kejujuran.",
+   "Bakar dengan api sedang‑sedang agar daging tidak kering dan bumbu tidak gosong.",
+   "Taburi garam laut sedikit setelah panggang untuk menonjolkan rasa laut."
+  ],
+  "waktu": "90 menit",
+  "porsi": "4 porsi",
+  "kesulitan": "Sedang",
+  "prompt_gambar": "Ikan bakar Jimbaran di atas piring kayu, diiringi lada merah, irisan lemon dan daun pandan, latar belakang pasar malam dengan lampu sorot hangat.",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "nama_pool": "Ikan Bakar Jimbaran",
+  "kategori": "lauk"
+ },
+ {
+  "judul": "Combro Kriuk Isi Oncom Pedas Gurih",
+  "deskripsi": "Camilan khas Sunda ini menggabungkan tekstur kriuk dari singkong dengan isian oncom yang pedas dan gurih, sempurna untuk teman ngobrol atau saat santai sore.",
+  "bahan": [
+   "500 gr singkong, kupas dan parut",
+   "1/2 sdt garam",
+   "200 gr oncom, cincang halus",
+   "3 siung bawang merah, iris tipis",
+   "2 siung bawang putih, cincang halus",
+   "2 buah cabe merah, iris serong",
+   "1/2 sdt gula pasir",
+   "1/4 sdt merica bubuk",
+   "minyak goreng secukupnya untuk menggoreng"
+  ],
+  "bumbu_halus": [
+   "3 siung bawang merah",
+   "2 siung bawang putih",
+   "2 buah cabe rawit",
+   "1/2 sdt terasi",
+   "1 sdt gula merah",
+   "1/4 sdt garam"
+  ],
+  "langkah": [
+   "Peras singkong yang telah diparut hingga airnya keluar hampir kering, lalu campur dengan 1/2 sdt garam, aduk rata.",
+   "Tumis bawang merah dan bawang putih hingga harum, tambahkan cabe rawit dan terasi, masak sebentar.",
+   "Masukkan oncom cincang, aduk hingga oncom mulai kering, lalu beri gula merah dan sedikit garam, masak hingga tercampur rata dan tidak ada air. Angkat dan sisihkan.",
+   "Ambil sedikit adonan singkong, pipihkan di telapak tangan, beri 1 sdt isian oncom di tengah, lalu bulatkan dan rapatkan kembali sehingga isian tidak keluar.",
+   "Panaskan minyak goreng dengan api sedang, goreng combro hingga berwarna kuning kecokelatan dan tekstur luarnya kriuk, angkat dan tiriskan.",
+   "Sajikan hangat dengan sambal kacang atau cabe rawit sesuai selera."
+  ],
+  "tips": [
+   "Pastikan singkong benar-benar dikeringkan agar adonan tidak lengket dan mudah dibentuk.",
+   "Goreng dengan api sedang agar matang merata tanpa gosong bagian luar.",
+   "Jika suka lebih pedas, tambahkan irisan cabe rawit ke dalam isian oncom sebelum ditumis."
+  ],
+  "waktu": "45 menit",
+  "porsi": "8-10 buah combro",
+  "kesulitan": "Sedang",
+  "prompt_gambar": "Close-up of golden-brown combro on a banana leaf plate, with a small bowl of peanut sauce on the side, rustic wooden background.",
+  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "nama_pool": "Combro",
+  "kategori": "jajanan"
+ },
+ {
+  "judul": "Pepes Ikan Mas Kemangi & Jamur Kerang, Segar Wangi!",
+  "deskripsi": "Ikan mas dibungkus daun pisang dengan kemangi segar dan jamur kerang, dikukus hingga wangi menyapa dan bumbu meresap sempurna.",
+  "bahan": [
+   "500 gr ikan mas, bersihkan buang sisik",
+   "2 lembar daun pisang",
+   "100 gr jamur kerang, iris tipis",
+   "5 lembar kemangi, iris halus",
+   "3 siung bawang merah",
+   "2 siung bawang putih",
+   "1 sdt terasi bakar",
+   "1 sdt garam",
+   "1/2 sdt gula pasir",
+   "1 sdm minyak goreng",
+   "1 buah jeruk nipis"
+  ],
+  "bumbu_halus": [
+   "5 siung bawang merah",
+   "2 siung bawang putih",
+   "1 sdt terasi bakar",
+   "1/2 sdt lada bubuk"
+  ],
+  "langkah": [
+   "Lumuri ikan dengan jeruk nipis, diamkan 10 menit, bilas bersih.",
+   "Ulek halus bumbu halus bersama terasi hingga benar-benar halus.",
+   "Tumis bumbu dengan minyak 2 menit, masukkan jamur kerang, aduk 1 menit, angkat.",
+   "Campurkan tumisan ke ikan, tambah garam dan gula, aduk rata merata.",
+   "Beri kemangi, siapakan daun pisang dilumuri minyak agar tidak sobek.",
+   "Susun ikan di tengah daun pisang, lipat rapat kedua sisinya.",
+   "Kukus 25 menit dengan api sedang hingga matang dan wangi.",
+   "Sajikan hangat dengan nasi panas dan sambal terasi."
+  ],
+  "tips": [
+   "Pilih ikan segar: mata bening, insang merah, daging elastis.",
+   "Daun pisang dilumuri minyak tipis agar tidak pecah saat dilipat.",
+   "Jangan over kukus agar daging ikan tetap lembut tidak kering."
+  ],
+  "waktu": "40 menit",
+  "porsi": "3-4 porsi",
+  "kesulitan": "Mudah",
+  "prompt_gambar": "Pepes ikan mas terbungkus daun pisang kuning, tersaji di piring tempayan kayu dengan nasi putih dan irisan jeruk, background alam terbuka hijau.",
+  "model": "inclusionai/ling-3.0-flash-sante:free",
+  "nama_pool": "Pepes Ikan Mas",
+  "kategori": "lauk"
+ }
+]

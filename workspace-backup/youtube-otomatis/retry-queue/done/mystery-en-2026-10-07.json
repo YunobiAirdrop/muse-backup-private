@@ -1,0 +1,8 @@
+{
+ "channel": "mystery-en",
+ "video_path": "/home/hatch/workspace/youtube-otomatis/mystery-en/video/2026-10-07.mp4",
+ "instruksi_path": "/home/hatch/workspace/youtube-otomatis/mystery-en/upload-instruksi-2026-10-07.md",
+ "slot_target": "2026-10-12 07:00 WIB",
+ "gagal_pada": "2026-10-10T22:01:47+07:00",
+ "sebab": "Batas upload harian MASIH tercapai saat retry 10 Okt 22:01 WIB (browser task terverifikasi: channel \"Unsolved Shadows\" @MysteryShadowsTV benar, file 65MB terpasang, YouTube Studio tampilkan \"Batas upload harian telah tercapai\"; dihentikan sesuai batas berhenti, tidak ada yang terpublish)"
+}

@@ -1,0 +1,66 @@
+{
+ "items": [
+  {
+   "fakta": "Baknya bisa diangkat buat buang pasir dan batu!",
+   "nama": "Dump Truck",
+   "pexels_query": "dump truck",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/truk-part1/tempel/item00.jpg",
+   "kredit": "Andre / Pexels"
+  },
+  {
+   "fakta": "Membawa bensin, air, dan susu dalam tangki besar!",
+   "nama": "Truk Tangki",
+   "pexels_query": "tanker truck",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/truk-part1/tempel/item01.jpg",
+   "kredit": "R9Media / Pexels"
+  },
+  {
+   "fakta": "Pahlawan saat ada kebakaran, bunyinya wiu wiu!",
+   "nama": "Truk Pemadam",
+   "pexels_query": "fire truck",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/truk-part1/tempel/item02.jpg",
+   "kredit": "Maxime Utopix / Pexels"
+  },
+  {
+   "fakta": "Mengangkut sampah biar kota tetap bersih!",
+   "nama": "Truk Sampah",
+   "pexels_query": "garbage truck",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/truk-part1/tempel/item03.jpg",
+   "kredit": "Tahir / Pexels"
+  },
+  {
+   "fakta": "Molentnya terus berputar biar semen nggak kering!",
+   "nama": "Truk Molen",
+   "pexels_query": "cement mixer truck",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/truk-part1/tempel/item04.jpg",
+   "kredit": "Janez Temlin / Pexels"
+  },
+  {
+   "fakta": "Menolong mobil yang mogok di jalan!",
+   "nama": "Truk Derek",
+   "pexels_query": "tow truck",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/truk-part1/tempel/item05.jpg",
+   "kredit": "Wolfgang Vrede / Pexels",
+   "fotografer": "Wolfgang Vrede"
+  },
+  {
+   "fakta": "Membawa peti kemas raksasa dari pelabuhan!",
+   "nama": "Truk Kontainer",
+   "pexels_query": "container truck",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/truk-part1/tempel/item06.jpg",
+   "kredit": "Jonathan Cooper / Pexels",
+   "fotografer": "Jonathan Cooper"
+  },
+  {
+   "fakta": "Mengantar paket belanjaan sampai ke rumahmu!",
+   "nama": "Truk Boks",
+   "pexels_query": "delivery box truck",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/truk-part1/tempel/item07.jpg",
+   "kredit": "Zonghao Feng / Pexels",
+   "fotografer": "Zonghao Feng"
+  }
+ ],
+ "judul": "Truk",
+ "kategori": "jenis truk",
+ "part": 1
+}

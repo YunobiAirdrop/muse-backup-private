@@ -1,0 +1,88 @@
+INSTRUKSI UPLOAD — InkTime (@InkTime-d3t) — LONG VIDEO
+Tanggal produksi: 2026-10-15 | Slot: Terjadwal BESOK 2026-10-16 07:00 WIB (= 2026-10-15 19:00 US Eastern, prime time USA)
+
+=== 0. VERIFIKASI CHANNEL DULU (WAJIB, SEBELUM UPLOAD) ===
+- Buka YouTube Studio. PASTIKAN channel aktif = "InkTime".
+- Verifikasi via CHANNEL ID (bukan cuma nama!): URL Studio HARUS mengandung
+  UCoZl5OaqjXSVkE4S96RY8_g
+  Contoh: https://studio.youtube.com/channel/UCoZl5OaqjXSVkE4S96RY8_g
+- Kalau ID tidak cocok -> JANGAN upload, hentikan dan laporkan.
+- PENTING: sesi browser sudah login & persisten (terverifikasi 13 Okt).
+  JANGAN login ulang / JANGAN ubah setelan akun apa pun. Kalau ketemu halaman
+  login Google -> BERHENTI, laporkan (jangan isi password).
+
+=== 1. UPLOAD ===
+- Upload sebagai TIDAK PUBLIK (Unlisted) dulu, rapikan metadata, baru ubah ke "Terjadwal" 2026-10-16 07:00 WIB.
+- File video: /home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-15-long.mp4
+  Durasi: ~7:35 (454.6 detik), 1920x1080, 30fps, ada video+audio (voiceover EN miles + bumper suara owner).
+- AI DISCLOSURE: WAJIB centang "Altered content" (Yes, content is altered/AI-generated).
+- JANGAN set "made for kids".
+- KOMENTAR WAJIB ON: Details -> Show more -> Comments -> set EKSPLISIT "Allow all comments" (jangan andalkan default).
+- Izinkan embedding: YA. Lisensi: Standard YouTube. Auto-chapters: ON.
+- Bahasa video: English. Kategori: Education.
+- Auto-dubbing: aktifkan EN -> ID dan EN -> ES.
+- Masukkan ke playlist "Ancient History" (buat bila belum ada).
+
+=== 2. JUDUL (FINAL, tanpa hashtag untuk long) ===
+The Library of Alexandria: What We Actually Lost
+
+=== 3. DESKRIPSI (template 6 bagian — paste apa adanya) ===
+The greatest library of the ancient world did NOT burn down in one dramatic night of flames — it died slowly, quietly, while almost nobody noticed. Hundreds of thousands of scrolls, the collected knowledge of Greece, Egypt, and Babylon, gathered in one place for the first time in history. What we actually lost — and how we lost it — is a story nobody tells you right.
+
+Chapters:
+0:00 Intro - The Library of Alexandria
+0:02 The library did not burn
+0:43 All the world's books
+1:25 The greatest book heist
+2:06 What was inside
+2:58 A stick, a well, the Earth
+3:51 Alexandria: the ancient Google
+4:35 The fire that wasn't
+5:19 Death by a thousand cuts
+6:06 What we actually lost
+6:54 Knowledge is not automatic
+
+What fascinates me most is that the people of Alexandria were SO confident their knowledge was safe — and they were wrong. Knowledge is not automatically safe, not on papyrus, not on servers, not anywhere. If stories about the fragile, human side of history are your thing, subscribe to InkTime.
+
+Watch next: our video "The Bronze Age Collapse: History's Greatest Mystery" — when the entire civilized world fell apart in fifty years, and nobody knows why (link dari tab Konten channel ini). History rhymes.
+
+Sources:
+- Canfora, Luciano (1990). The Vanished Library: A Wonder of the Ancient World. University of California Press. (the library's fate and the fire myth)
+- El-Abbadi, Mostafa (1992). The Life and Fate of the Ancient Library of Alexandria. UNESCO/UNDP. (history of the Musaeum and Library)
+- MacLeod, Roy, ed. (2000). The Library of Alexandria: Centre of Learning in the Ancient World. I.B. Tauris. (scholars, science, the Pinakes)
+- Casson, Lionel (2001). Libraries in the Ancient World. Yale University Press. (ancient library practice)
+- Strabo, Geography 17.1.8 (the Musaeum and its salaried scholars).
+- Plutarch, Life of Caesar 49; Seneca, De tranquillitate animi 9.5; Orosius 6.15 (Caesar's 48 BC fire and the burned warehouses).
+- Galen, Commentary on the Epidemics of Hippocrates (Ptolemy III and the Athenian master copies).
+
+#history #ancienthistory #explainer #lostlibrary #foryou
+
+=== 4. TAGS (20) ===
+library of alexandria, ancient library, lost library, alexandria egypt, ptolemy, eratosthenes, ancient history, history documentary, whiteboard explainer, ancient egypt, ancient greece, lost knowledge, caesar fire, serapeum, callimachus, euclid, herophilus, sappho fragments, ancient mysteries, InkTime
+
+=== 5. THUMBNAIL (Test & Compare — upload 3, biarkan YouTube uji) ===
+Utama:   /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-15.jpg    ("400,000 SCROLLS GONE")
+Varian 2: /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-15-v2.jpg ("EVERYTHING VANISHED")
+Varian 3: /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-15-v3.jpg ("KNOWLEDGE ERASED")
+
+=== 6. SETELAH METADATA RAPI ===
+- End screen: 1 video spesifik (video long "The Bronze Age Collapse: History's Greatest Mystery") + 1 elemen playlist. Verbal pitch: "when the entire civilized world fell apart in fifty years — and nobody knows why."
+- Set "Terjadwal": 2026-10-16 07:00 WIB.
+- Pinned comment (paste setelah tayang):
+  "Fire? Neglect? Budget cuts? What do YOU think really destroyed the Library of Alexandria — and if you could save ONE lost scroll, which would it be? Chapters in the description."
+- Review akurasi auto-caption (perbaiki istilah: Ptolemy, Eratosthenes, Syene, Brucheion, Serapeum, Callimachus, Pinakes, Sappho bila salah).
+
+=== 7. CATATAN PRODUKSI ===
+- Bahasa: English | Voiceover: TTS avocado_v2:miles | Persona: "Pak Guru Ink"
+- Visual: 10 gambar sketsa whiteboard (portrait 1280x1920, fit-height + white pad ke 1920x1080) + draw-reveal wipe + caption terbakar + film grain (anti-AI look). Gambar dicek visual (b01 + thumbnail) — sesuai narasi per beat.
+- AI clips: TIDAK DIPAKAI — media.generate_video region-blocked 403 (aturan tetap: jangan retry).
+- Bumper suara owner (bumper-inktime.wav, 4.6 dtk) diselipkan di jeda natural antara beat 5 dan 6 (~3:47), dengan kartu putih + teks "InkTime".
+- Naskah: 1310 kata (10 beat), hook 3 detik cold open ("did NOT burn down in one dramatic night"), pertanyaan pancing komentar di detik pertama, 3 kalimat refleksi narator, 3 jeda dramatis.
+- File final: /home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-15-long.mp4 (454.6 dtk, h264+aac, terverifikasi).
+- CTA: verbal + overlay "SUBSCRIBE!" 3 dtk di ~50% (beat 6, ~3:51) + CTA akhir + pitch end-screen ke video Bronze Age.
+- Komentar: pastikan ON. AI disclosure: WAJIB centang.
+
+=== 8. JIKA KENA "BATAS UPLOAD HARIAN TELAH TERCAPAI" ===
+- BERHENTI, jangan retry. Tulis antrean JSON ke:
+  /home/hatch/workspace/youtube-otomatis/retry-queue/inktime-2026-10-15.json
+  Format: {"channel":"inktime","video_path":"/home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-15-long.mp4","instruksi_path":"/home/hatch/workspace/youtube-otomatis/inktime/meta/instruksi-2026-10-15-long.txt","slot_target":"2026-10-17 07:00 WIB","gagal_pada":"<ISO WIB>","sebab":"Batas upload harian telah tercapai"}

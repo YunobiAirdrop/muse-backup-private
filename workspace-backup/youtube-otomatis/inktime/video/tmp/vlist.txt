@@ -1,0 +1,3 @@
+file '/home/hatch/workspace/youtube-otomatis/inktime/video/tmp/A_v.mp4'
+file '/home/hatch/workspace/youtube-otomatis/inktime/video/tmp/bumper_v.mp4'
+file '/home/hatch/workspace/youtube-otomatis/inktime/video/tmp/C_v.mp4'

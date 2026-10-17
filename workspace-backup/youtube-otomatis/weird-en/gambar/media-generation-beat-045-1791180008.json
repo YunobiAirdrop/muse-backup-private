@@ -1,0 +1,4 @@
+{
+  "text": "{\"error_format_version\":1,\"error\":{\"code\":\"internal\",\"retryable\":false,\"detail\":\"An unexpected error occurred.\",\"downstream_status\":500,\"attempt_id\":\"5b02623e-fa73-474d-a2ee-e803545d9101\",\"origin_stage\":\"output_materialization\",\"root_cause_known\":true,\"fallback_emitted\":true,\"source_error_code\":\"internal\",\"failure_kind\":\"missing_expected_attachment\",\"downstream_request_id\":\"5b02623e-fa73-474d-a2ee-e803545d9101\",\"generated_attachment_count\":4}}",
+  "attachments": []
+}

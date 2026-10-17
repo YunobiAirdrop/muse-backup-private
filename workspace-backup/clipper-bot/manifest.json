@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "file": "clips/klip-01.mp4",
+    "campaign": "UJI-SAMPEL",
+    "durasi_detik": 13.6,
+    "momen_sumber": {
+      "mulai": 1.54,
+      "selesai": 15.08
+    },
+    "skor_viral": 22,
+    "alasan": [
+      "klaim mengejutkan (x2)",
+      "bahas uang/duit (x2)",
+      "emosi kuat (x1)",
+      "opini tegas (x1)"
+    ],
+    "platform": [
+      "tiktok",
+      "instagram"
+    ],
+    "status": "siap_posting"
+  },
+  {
+    "id": 2,
+    "file": "clips/klip-02.mp4",
+    "campaign": "UJI-SAMPEL",
+    "durasi_detik": 17.6,
+    "momen_sumber": {
+      "mulai": 15.46,
+      "selesai": 33.0
+    },
+    "skor_viral": 52,
+    "alasan": [
+      "kontroversi/bantahan (x6)",
+      "klaim mengejutkan (x5)",
+      "opini tegas (x2)",
+      "angka konkret (x1)"
+    ],
+    "platform": [
+      "tiktok",
+      "instagram"
+    ],
+    "status": "siap_posting"
+  }
+]

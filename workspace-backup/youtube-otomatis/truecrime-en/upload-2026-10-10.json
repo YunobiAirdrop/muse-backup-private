@@ -1,0 +1,23 @@
+{
+ "ai_disclosure": "ALTERED CONTENT: AI-generated TTS narration + AI-generated illustrations. 'Altered content' checkbox MUST be ticked at upload.",
+ "audience": "Not made for kids",
+ "channel": "Dark Case Files (@TrueCaseFilesTV, UC2df1xY_WqWdX33oLqeXE2w, login khususstokyunobi@gmail.com)",
+ "channel_terverifikasi": "Dark Case Files (@TrueCaseFilesTV, UC2df1xY_WqWdX33oLqeXE2w); Studio awalnya di Tiny Builders, diganti via halaman Semua channel",
+ "context": "Hari LONG (upload-terakhir.txt = shorts:2026-10-08; upload 2026-10-09 gagal batas harian, masuk retry-queue). Long Sodder diproduksi 2026-10-06 (547.1s, 68MB) dan antre — inilah videonya (aturan anti-mogok: video yang sudah diproduksi WAJIB tayang). Batas harian ±24 jam sejak 2026-10-09 16:18 WIB — coba ulang hari ini. Tidak ada produksi baru hari ini.",
+ "description": "Christmas morning, 1945. A farmhouse in Fayetteville, West Virginia burns to the ground — and five Sodder children vanish without a trace. No bones, no remains, nothing. The official story said 'accidental fire.' But the phone line was cut before the blaze, the ladder was missing, and witnesses swore they saw the children alive afterwards.\n\nIn this documentary, Dark Case Files walks through every strange detail: the sabotage, the sightings across the country, the billboard the family kept up for decades — and the mysterious photograph that arrived 23 years later. Honestly, the deeper I went into this case, the less the official story held together. In my opinion, this was never just a fire.\n\nDark Case Files brings you America's most baffling unsolved crimes — carefully researched, documentary-style. Subscribe so you never miss a case.\n\nAI Disclosure: Narration and illustrations in this video are AI-generated. Content is presented for educational and documentary purposes.\n\n#truecrime #sodderchildren #unsolvedmystery #coldcase #documentary",
+ "hasil_upload": "BERHASIL DISIAPKAN 2026-10-10 ~16:18 WIB — menunggu 1 ketukan persetujuan akhir pada tombol 'Jadwalkan' (tab Visibilitas). TIDAK ada pesan batas harian; file 68MB ter-upload 100% ke YouTube, copyright check lolos, status 'Disimpan sebagai pribadi'. Channel terverifikasi: Dark Case Files @TrueCaseFilesTV (Studio awalnya terbuka di 'Echoes of History Channel', dialihkan via pengalih saluran; dasbor UC2df1xY_WqWdX33oLqeXE2w). AI disclosure 'Ya, AI digunakan' dicentang; thumbnail otomatis; audiens bukan untuk anak-anak. Jadwal diset: 2026-10-11 07:00 GMT+7 (dipilih Krasnoyarsk GMT+7 — offset identik WIB; 'Jakarta' tidak ada di daftar zona waktu Studio).",
+ "language": "English",
+ "retry_note": "Jika gagal batas harian LAGI: JANGAN retry; update retry-queue truecrime-en-2026-10-09.json (gagal_pada baru, slot_target 2026-10-12 07:00 WIB, instruksi_path file ini). Jika gagal sebab lain: perbaiki dan retry saat itu juga. Jika SUKSES: hapus retry-queue truecrime-en-2026-10-09.json, tulis upload-terakhir.txt = long:2026-10-10.",
+ "schedule_target": "2026-10-11 07:00 Asia/Jakarta (= 2026-10-10 19:00 US Eastern, US prime time)",
+ "stop_condition": "Jika YouTube menampilkan 'Batas upload harian telah tercapai' (daily upload limit) -> STOP total, jangan coba lagi, laporkan persis pesannya. JANGAN retry saat itu juga (limit ±24 jam).",
+ "thumbnail": null,
+ "thumbnail_note": "Channel cannot set custom thumbnails yet (phone unverified) — use auto thumbnail. No custom thumbnail upload needed.",
+ "title": "The Sodder Children: 5 Kids Vanished in a Christmas Fire | True Crime",
+ "topic": "Sodder children disappearance — Fayetteville, West Virginia, Christmas 1945 (5 children vanished in house fire, no remains found, unsolved)",
+ "upload_day_type": "long (alternating pattern; 2026-10-08 was shorts day)",
+ "urls": "https://youtu.be/6SE9_KiLafM",
+ "video": "/home/hatch/workspace/youtube-otomatis/truecrime-en/video/2026-10-06.mp4",
+ "video_duration_sec": 547.1,
+ "visibility": "Scheduled (Terjadwal) — NOT public immediately",
+ "pasca_ketukan": "Setelah user mengetuk 'Jadwalkan': video tayang terjadwal 2026-10-11 07:00 WIB. WAJIB tulis upload-terakhir.txt = 'long:2026-10-10'. Entri retry-queue truecrime-en-2026-10-09.json sudah dipindah ke done/ (upload tidak gagal — watchdog tidak boleh mengulang)."
+}

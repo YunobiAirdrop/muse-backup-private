@@ -1,0 +1,18 @@
+[Unit]
+Description=YT Dashboard backend (19 channel YouTube)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+Environment=HOME=/home/hatch
+WorkingDirectory=/home/hatch/workspace/yt-dashboard
+ExecStart=/home/hatch/workspace/yt-dashboard/venv/bin/python /home/hatch/workspace/yt-dashboard/app.py
+Restart=always
+RestartSec=5
+StandardOutput=append:/home/hatch/workspace/yt-dashboard/backend.log
+StandardError=append:/home/hatch/workspace/yt-dashboard/backend.log
+
+[Install]
+WantedBy=multi-user.target

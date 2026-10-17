@@ -1,0 +1,449 @@
+{
+ "tanggal": "2026-10-04",
+ "hasil": [
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "IG",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a10559476071bc9b417a5ca75417d4\"},\"media_fbid\":\"18009206330988670\"}\n |"
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "IG",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a10559476071bc9b417a5ca75417d4\"},\"media_fbid\":\"17999643938812253\"}\n |"
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "IG",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "IG",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "IG",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "TIMEOUT setelah 200s (kemungkinan menunggu persetujuan) "
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/pouch-travel.jpg\n\nCaused by:\n    0: open input file: /h"
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/pouch-travel.jpg\n\nCaused by:\n    0: open input file: /h"
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "FB",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[61592661515070,959489303288921,1347201611814398,122100114111498449],\"message_ids\":[]},\"tool_call_id\":\"call_01a105776e6a74bb"
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/vitamin-kucing.jpg\n\nCaused by:\n    0: open input file: "
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/vitamin-kucing.jpg\n\nCaused by:\n    0: open input file: "
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "FB",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[61592661515070,951145744218667,1347201611814398,122100115887498449],\"message_ids\":[]},\"tool_call_id\":\"call_01a105776e6a74bb"
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "IG",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/vitamin-cerna.jpg\n\nCaused by:\n    0: open input file: /"
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/vitamin-cerna.jpg\n\nCaused by:\n    0: open input file: /"
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/vitamin-cerna.jpg\n\nCaused by:\n    0: open input file: /"
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "FB",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[61592661515070,1080835294564953,1347201611814398,122100116475498449],\"message_ids\":[]},\"tool_call_id\":\"call_01a105776e6a74b"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "IG",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/sabun-piring.jpg\n\nCaused by:\n    0: open input file: /h"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/sabun-piring.jpg\n\nCaused by:\n    0: open input file: /h"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/sabun-piring.jpg\n\nCaused by:\n    0: open input file: /h"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "IG",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/impact-wrench.jpg\n\nCaused by:\n    0: open input file: /"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/impact-wrench.jpg\n\nCaused by:\n    0: open input file: /"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: open input file for fd-passing: /home/hatch/workspace/blog-otomatis/promo_out/promo_img/impact-wrench.jpg\n\nCaused by:\n    0: open input file: /"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "FB",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "Threads-1",
+   "status": "TERPOSTING",
+   "info": "{\"post_id\":\"18353274796169997\"}\n"
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "Threads-2",
+   "status": "TERPOSTING",
+   "info": "{\"post_id\":\"17931705291404691\"}\n"
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "IG",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a1058441c575c992c1b8534a3c49fc\"},\"media_fbid\":\"18103482428369675\"}\n"
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "Threads-1",
+   "status": "TERPOSTING",
+   "info": "{\"post_id\":\"18112263452170689\"}\n"
+  },
+  {
+   "produk": "Vitamin Pencernaan Kucing",
+   "akun": "Threads-2",
+   "status": "TERPOSTING",
+   "info": "{\"post_id\":\"18028181594904813\"}\n"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "IG",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[],\"message_ids\":[]},\"tool_call_id\":\"call_01a1058441c575c992c1b8534a3c49fc\"},\"media_fbid\":\"17974838322068795\"}\n"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "FB",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[61592661515070,984218914709978,1347201611814398,122100130809498449],\"message_ids\":[]},\"tool_call_id\":\"call_01a1058441c575c9"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "IG",
+   "status": "GAGAL",
+   "info": "Error: publish Instagram reel_with_feed media\n\nCaused by:\n    instagram cli failed with HTTP 429 Too Many Requests\n"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "FB",
+   "status": "TERPOSTING",
+   "info": "{\"_meta\":{\"data\":{\"fbids\":[61592661515070,1347201611814398,4553930884883079,122100134421498449],\"message_ids\":[]},\"tool_call_id\":\"call_01a1058441c575c"
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "IG",
+   "status": "GAGAL",
+   "info": "Error: publish Instagram reel_with_feed media\n\nCaused by:\n    instagram cli failed with HTTP 429 Too Many Requests\n"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "IG",
+   "status": "GAGAL",
+   "info": "Error: publish Instagram reel_with_feed media\n\nCaused by:\n    instagram cli failed with HTTP 429 Too Many Requests\n"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-1",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-2",
+   "status": "GAGAL",
+   "info": "Error: publish Threads post; the write was not retried\n\nCaused by:\n    threads cli failed with HTTP 429 Too Many Requests: rate_limited: Threads Write"
+  },
+  {
+   "produk": "Pouch Travel Organizer Serut",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Vitamin Minyak Ikan Kucing Omega 3&6",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Sabun Cuci Piring 5 Liter Premium",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "IG",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-1",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  },
+  {
+   "produk": "Impact Wrench Cordless Brushless 700NM",
+   "akun": "Threads-2",
+   "status": "MENUNGGU PERSETUJUAN",
+   "info": "timeout menunggu approval user"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+---
+id: retry-upload-mystery-en-2026-10-07
+title: Retry upload Mary Celeste (batas harian)
+enabled: true
+mode: task
+schedule:
+  kind: runonce
+  timezone: Asia/Jakarta
+  at: 2026-10-08T20:00:00
+delivery:
+  - chat_id: 7382e6cd-7263-4ede-983e-939bf507ecbf
+metadata:
+  originating_chat_context_json: '{"chat_id":"7382e6cd-7263-4ede-983e-939bf507ecbf","binding_epoch":1,"origin_provider":"whatsapp","original_reply_target_id":"whatsapp_channel","chat_kind":"direct","message_id":"AC319B6505E4DCED714DFD2EFC0374C4","conversation_id":"whatsapp_channel","provider":"whatsapp","delivery_target_id":"whatsapp_channel","event_kind":"message","require_mention":false}'
+  presentation_locale: id-ID
+---
+RETRY UPLOAD: video LONG Mystery EN "Mary Celeste" yang gagal upload 2026-10-07 malam karena batas upload harian YouTube.
+
+**KONTEKS:** File /home/hatch/workspace/youtube-otomatis/mystery-en/video/2026-10-07.mp4 (65MB, 8.8 menit) SUDAH pernah dilampirkan ke dialog upload YouTube Studio tapi YouTube memblokir finalisasi ("Batas upload harian telah tercapai"). Instruksi metadata lengkap ada di /home/hatch/workspace/youtube-otomatis/mystery-en/upload-instruksi-2026-10-07.md — baca file itu dan ikuti persis (judul, deskripsi, tag, AI disclosure WAJIB dicentang, bukan untuk anak-anak, thumbnail dicoba tapi skip kalau ditolak).
+
+**TUGAS:**
+1. Spawn browser task: login YouTube Studio sebagai khususstokyunobi@gmail.com, VERIFIKASI channel aktif = "Unsolved Shadows" (@MysteryShadowsTV), upload ulang file video di atas, isi SEMUA metadata sesuai file instruksi.
+2. Jadwal tayang: cek dulu video terjadwal yang sudah ada di channel — pakai slot 07:00 WIB TERDEKAT yang masih kosong (usulan awal 2026-10-09 07:00 WIB; kalau sudah terisi video lain, pakai 07:00 WIB berikutnya yang kosong).
+3. Klik final "Jadwalkan"/"Publikasikan" = BUTUH PERSETUJUAN user (ketukan). Siapkan semuanya, minta persetujuan, baru klik.
+4. Kalau masih kena batas harian: JANGAN paksa — laporkan dan JANGAN buat retry baru (user akan instruksikan manual).
+5. SUKSES → tulis "long:2026-10-07" ke /home/hatch/workspace/youtube-otomatis/mystery-en/upload-terakhir.txt, laporkan URL + jadwal tayang. Jangan edit MEMORY.md; observasi ke ~/memory/YYYY-MM-DD.md.

@@ -1,0 +1,29 @@
+OK p01 (23 s)
+OK p02 (23 s)
+OK p03 (23 s)
+OK p04 (23 s)
+OK p05 (23 s)
+OK p06 (23 s)
+OK p07 (23 s)
+OK p08 (23 s)
+OK p09 (23 s)
+SKIP p01
+SKIP p02
+SKIP p03
+SKIP p04
+SKIP p05
+SKIP p06
+SKIP p07
+SKIP p08
+SKIP p09
+/home/hatch/workspace/kisah-islami/work/2026-10-14/rakit2.sh: line 17: 79612 Killed                  $FF -hide_banner -loglevel error $loopopt -i "$src" -t "$dur" -vf "$VF" -c:v libx264 -preset veryfast -crf 20 -an -y "$W/segs/p$slot.mp4"
+SKIP p01
+SKIP p02
+SKIP p03
+SKIP p04
+SKIP p05
+SKIP p06
+SKIP p07
+SKIP p08
+SKIP p09
+Terminated

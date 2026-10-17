@@ -1,0 +1,10 @@
+name: local_email_marketing_bible
+title: Local email marketing bible
+description: Data-backed email marketing skill for AI agents. Use when building or running email automation, driving an ESP from an agent (MCP/connectors), diagnosing deliverability, writing or de-slopping email copy, directing AI email design, choosing a platform, or pulling benchmarks. Covers flows, segmentation, compliance, cold email, WhatsApp, SMS and RCS, and 19 industry playbooks.
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  needs_review: true

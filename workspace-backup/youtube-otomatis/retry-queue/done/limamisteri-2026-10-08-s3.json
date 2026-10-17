@@ -1,0 +1,8 @@
+{
+ "channel": "limamisteri",
+ "video_path": "/home/hatch/workspace/lima-misteri/shorts/2026-10-07-s3.mp4",
+ "instruksi_path": "/home/hatch/workspace/lima-misteri/retry-instruksi-shorts-2026-10-08.md",
+ "slot_target": "2026-10-09 21:00 WIB",
+ "gagal_pada": "2026-10-10T20:21:00+07:00",
+ "sebab": "Batas upload harian masih tercapai saat retry watchdog 10 Okt 20:21 WIB (task 1/6)"
+}

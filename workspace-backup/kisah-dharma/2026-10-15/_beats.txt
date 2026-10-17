@@ -1,0 +1,8 @@
+file '/home/hatch/workspace/kisah-dharma/2026-10-15/_beat00.mp3'
+file '/home/hatch/workspace/kisah-dharma/2026-10-15/_beat01.mp3'
+file '/home/hatch/workspace/kisah-dharma/2026-10-15/_beat02.mp3'
+file '/home/hatch/workspace/kisah-dharma/2026-10-15/_beat03.mp3'
+file '/home/hatch/workspace/kisah-dharma/2026-10-15/_beat04.mp3'
+file '/home/hatch/workspace/kisah-dharma/2026-10-15/_beat05.mp3'
+file '/home/hatch/workspace/kisah-dharma/2026-10-15/_beat06.mp3'
+file '/home/hatch/workspace/kisah-dharma/2026-10-15/_beat07.mp3'

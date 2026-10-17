@@ -1,0 +1,185 @@
+TUGAS: Upload 10 video ke YouTube Studio (akun khususstokyunobi@gmail.com, sesi sudah login). Ini BATCH 4 dari 4: kerjakan BERURUTAN nomor 31-40 saja. Nama file di bawah UNIK — pilih file persis sesuai nama.
+
+ATURAN KERAS:
+- SEBELUM upload tiap video: verifikasi channel aktif BENAR (pemilih channel / URL studio.youtube.com/channel/<ID> cocok dengan ID di bawah). Salah channel -> ganti dulu; tidak bisa -> LEWATI video itu, catat.
+- Jika tantangan verifikasi/login Google muncul: STOP item itu, JANGAN login baru, lanjut ke video berikut, catat.
+- Jika 'Batas upload harian telah tercapai' untuk sebuah channel: LEWATI semua sisa video channel itu, lanjut channel lain, catat.
+- Isi Judul/Deskripsi/Tags persis seperti di bawah. Audience: bukan untuk anak-anak. Komentar: biarkan AKTIF.
+- AI DISCLOSURE WAJIB: pilih YA pada 'Altered content / konten yang diubah AI'.
+- Thumbnail: bila ada baris THUMB, coba upload; bila ditolak lanjutkan tanpa thumbnail, catat.
+- Visibilitas: PUBLIKASI SEKARANG kecuali tertulis JADWAL (pilih Terjadwal, tanggal/jam WIB).
+- Setelah tiap sukses: catat URL videonya.
+
+=== VIDEO 31/40 ====== VIDEO 31/40 ===
+FILE: 31-kisahalkitab-kisah-alkitab-2026-10-08-long-upload.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: 5 Batu Licin yang Menumbangkan Raksasa Goliat
+DESKRIPSI: Kisah Daud melawan Goliat (1 Samuel 17) — bagaimana seorang gembala muda menumbangkan raksasa Filistin setinggi hampir 3 meter hanya dengan ketapel dan lima batu licin dari sungai. 
+  
+ Kisah ini selalu membuat saya takjub: kemenangan Daud bukan karena senjatanya lebih canggih, tapi karena ia tahu siapa yang berperang bersamanya. 
+  
+ Tonton sampai habis untuk hikmah yang bisa kita bawa pulang hari ini. 
+  
+ 0:00 Anak gembala vs raksasa 3 meter 
+ 0:47 Israel ketakutan 40 hari 
+ 2:38 Daud datang dengan 5 batu licin 
+ 4:57 Satu batu menumbangkan Goliat 
+ 6:28 Hikmah: pertempuran ini milik TUHAN 
+  
+ #kisahalkitab #daudvangoliat #renungankristen #alkitab #rohanikristen #firmantuhan
+TAGS: kisah alkitab, daud dan goliat, 1 samuel 17, renungan kristen, cerita alkitab, firman tuhan, rohani kristen, kisah daud, goliat, alkitab perjanjian lama, inspirasi kristen, saat teduh, iman kristen, tokoh alkitab, renungan harian, kristen indonesia, bible story indonesia, kisah nyata alkitab, perjanjian lama, kekuatan iman
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 32/40 ====== VIDEO 32/40 ===
+FILE: 32-inktime-inktime-2026-10-09-long.mp4
+CHANNEL: InkTime | ID: (pilih via handle @InkTime-d3t)
+JUDUL: Why 536 Was the Worst Year to Be Alive
+DESKRIPSI: In 536 AD, the sun went dark for 18 months. Crops failed, snow fell in summer, and famine swept the ancient world. Scientists now call it the worst year to be alive — here is the real story, from eyewitness accounts to ice-core science. 
+  
+ Chapters: 
+ 0:00 The sun went out 
+ 0:44 Witnesses around the world 
+ 1:31 Ice cores: the smoking gun 
+ 2:21 Tree rings: the coldest summer 
+ 3:06 The second eruption of 540 
+ 3:46 Famine: when the harvest died 
+ 4:44 The Plague of Justinian 
+ 5:27 A century of cold 
+ 6:33 The volcano that vanished 
+ 7:02 The year the sun went out 
+  
+ Honestly, what amazes me most is that one volcano, half a world away, could bring entire civilizations to their knees — no war, no invasion, just ash and a dimmed sun. 
+  
+ Sources: 
+ - Gibbons, A. (2018). "Eruption made 536 'the worst year to be alive'." Science, 362(6416), 733–734. 
+ - Sigl, M. et al. (2015). "Timing and climate forcing of volcanic eruptions for the past 2,500 years." Nature, 523, 543–549. 
+ - Büntgen, U. et al. (2016). "Cooling and societal change during the Late Antique Little Ice Age from 536 to around 660 AD." Nature Geoscience, 9, 231–236. 
+ - Larsen, L.B. et al. (2008). "New ice core evidence for a volcanic cause of the A.D. 536 dust veil." Geophysical Research Letters, 35(4). 
+ - Harper, K. (2017). The Fate of Rome. Princeton University Press. 
+ - Procopius, History of the Wars (trans. H.B. Dewing, Loeb). 
+  
+ #history #ancienthistory #explainer
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+THUMB: 32-inktime-thumb.jpg
+
+=== VIDEO 33/40 ====== VIDEO 33/40 ===
+FILE: 33-weird-en-2026-10-10-s2.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: Your Stomach Could Dissolve METAL?! #shorts #facts #weirdfacts
+DESKRIPSI: Your stomach acid is strong enough to dissolve solid METAL — and the only reason you're not digesting yourself alive is that your stomach builds a brand-new protective lining every 3-4 days. Twice a week! A metal-melting acid bath that rebuilds itself like it's absolutely nothing. Nature is unhinged. Full 7-fact battle on the channel!
+TAGS: (kosong)
+VISIBILITAS: JADWAL 2026-10-14 07:00 WIB
+
+=== VIDEO 34/40 ====== VIDEO 34/40 ===
+FILE: 34-weird-en-2026-10-10-s1.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: Your Brain EATS ITSELF When You Skip Sleep?! #shorts #facts #weirdfacts
+DESKRIPSI: Wait, WHAT?! I had to read that twice. When you skip sleep, your brain's cleanup crew goes rogue and starts chewing up HEALTHY brain connections. Your own brain. Eating itself. Because you stayed up scrolling. Twenty watts of pure chaos sitting in your skull right now. Which body part do YOU think is the weirdest? Full 7-fact battle on the channel!
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 35/40 ====== VIDEO 35/40 ===
+FILE: 35-weird-en-2026-10-10-s3.mp4
+CHANNEL: Weird World Daily | ID: UCJ6KqdYvVJ-PaxhGLfTFVhA
+JUDUL: Your DNA Reaches the Sun... 200 TIMES?! #shorts #facts #weirdfacts
+DESKRIPSI: Okay, this broke my brain. Unwind the DNA from ONE cell and it stretches about 2 meters. Do it for all 37 trillion cells and it reaches the SUN and back... more than 200 times. Your personal space program, hiding in every cell. And you share 99.9% of it with every stranger you pass on the street. Awkward. Full 7-fact battle on the channel!
+TAGS: (kosong)
+VISIBILITAS: JADWAL 2026-10-15 07:00 WIB
+
+=== VIDEO 36/40 ====== VIDEO 36/40 ===
+FILE: 36-kisahalkitab-short1-hook.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: Anak Gembala Tantang Raksasa 3 Meter?! #shorts #alkitab #rohani
+DESKRIPSI: Bayangkan: anak gembala belasan tahun berjalan sendirian ke tengah lembah pertempuran, menghadapi raksasa setinggi hampir 3 meter. Kisah Daud melawan Goliat (1 Samuel 17) — kok bisa ia seberani itu? 
+  
+ Kisah lengkapnya ada di video long channel ini.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 37/40 ====== VIDEO 37/40 ===
+FILE: 37-kisahalkitab-short2-klimaks.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: Satu Batu Kecil Tumbangkan Raksasa Goliat #shorts #alkitab #rohani
+DESKRIPSI: "Engkau mendatangi aku dengan pedang dan tombak — tetapi aku mendatangi engkau dengan nama TUHAN semesta alam." 
+  
+ Satu batu dari ketapel Daud melesat tepat mengenai dahi Goliat. Raksasa yang 40 hari menakuti satu pasukan penuh tumbang seketika. (1 Samuel 17)
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 38/40 ====== VIDEO 38/40 ===
+FILE: 38-kisahalkitab-short3-hikmah.mp4
+CHANNEL: Kisah Alkitab | ID: UCGCXDPx3vSHTUOkNiuLezdw
+JUDUL: Keberanian Sejati Bukan Tanpa Rasa Takut #shorts #alkitab #rohani
+DESKRIPSI: Pelajaran yang saya ambil dari kisah Daud: keberanian sejati bukanlah ketiadaan rasa takut — melainkan berani melangkah maju justru ketika rasa takut itu ada, karena kita percaya ada yang lebih besar yang menyertai kita. (1 Samuel 17) 
+  
+ Dan satu hal lagi yang menyentuh saya: Tuhan tidak menunggu Daud menjadi prajurit dulu untuk memakainya.
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+
+=== VIDEO 39/40 ====== VIDEO 39/40 ===
+FILE: 39-horror-en-2026-10-10.mp4
+CHANNEL: Midnight Dread Tales | ID: UCR7uhocCg9YZM7-Qoi1sVGA
+JUDUL: The Watcher of 657 Boulevard: The True Story
+DESKRIPSI: In 2014, Derek and Maria Broaddus bought their $1.35M dream home at 657 Boulevard, Westfield NJ. Then the letters from "The Watcher" started arriving. This true story still has no ending. 
+  
+ When I first read the actual Watcher letters, one sentence stopped me cold: "Who has the bedrooms facing the street? I will know as soon as you move in. Then I can plan better." This isn't a ghost story. It's something worse — a real family, real letters, and a writer who was never caught. 
+  
+ In June 2014, Derek and Maria Broaddus bought 657 Boulevard in Westfield, New Jersey for $1.35 million. Before they even moved in, the first letter arrived, signed "The Watcher." It knew about their renovations. It asked which bedrooms faced the street. It wanted the names of their children. 
+  
+ The police investigated. A private investigator dug deeper. The previous owners admitted they'd received a letter too — and never told anyone. In 2019 the Broadduses sold at a nearly $400,000 loss. Reportedly, the new owners got a letter as well. 
+  
+ I still think about this one every time I pass a for sale sign. If you love real unsolved horror, you're in the right place. 
+  
+ CHAPTERS: 
+ 0:00 The Letter That Terrified New Jersey 
+ 0:20 A $1.35M Dream Home in Westfield 
+ 0:43 The First Letter From The Watcher 
+ 1:47 The Second Letter Knew Their Secrets 
+ 2:38 Who Has the Bedrooms Facing the Street 
+ 3:19 The Secret the Previous Owners Hid 
+ 3:56 The Third Letter and Prime Suspects 
+ 5:10 The House That Watched Back 
+ 5:42 Who Was The Watcher? Theories Explained 
+ 7:15 Check Which Bedrooms Face the Street 
+  
+ If this one got under your skin, subscribe to Midnight Dread Tales for a new true horror story every day. Tell me in the comments: which letter creeped you out the most? 
+  
+ More true horror: https://www.youtube.com/@TalesOfDreadTV 
+  
+ #horrorstories #truehorror #scarystories
+TAGS: the watcher, 657 boulevard, watcher house, westfield new jersey, true horror story, unsolved mystery, real scary stories, stalker letters, haunted house, scary stories, creepypasta, midnight dread tales, horror narration, true crime, mystery, unsolved case, the watcher netflix, home invasion horror, creepy true stories, dread
+VISIBILITAS: PUBLIKASI SEKARANG
+THUMB: 39-horror-en-thumb.jpg
+
+=== VIDEO 40/40 ====== VIDEO 40/40 ===
+FILE: 40-kisahdharma-kisah-dharma-2026-10-10-long-small.mp4
+CHANNEL: kisahdharma | ID: UCAhInkFRxF3xkxW8kgFOrJA
+JUDUL: Shinta Diculik Rahwana! Ini Kisah Lengkapnya
+DESKRIPSI: Penculikan Shinta adalah salah satu episode paling menggetarkan dalam Ramayana. Bagaimana Rahwana menipu dengan kijang kencana, bagaimana Jatayu yang renta berani melawannya sampai titik darah penghabisan, dan bagaimana Rama memakamkan sang burung pahlawan dengan tangannya sendiri — semua saya ceritakan dengan takzim di video ini. 
+  
+ Kisah ini saya bawakan dari Aranyakanda, kitab Ramayana, dengan penuh hormat pada tradisi Hindu. Bagian Jatayu selalu membuat saya merinding — seekor burung tua yang berani berdiri melawan kezaliman demi dharma. 
+  
+ Bagian mana yang paling menyentuh hatimu? Tulis di komentar ya — saya baca semua komentar. 
+  
+ 00:00 Jeritan di Hutan Dandaka 
+ 00:53 Kedamaian Sebelum Badai 
+ 01:43 Kijang Kencana yang Misterius 
+ 02:51 Tipu Daya Marica 
+ 04:10 Rahwana Menyamar 
+ 05:30 Refleksi: Keberanian Shinta 
+ 06:10 Jatayu Melawan Rahwana 
+ 07:37 Jejak Perhiasan Shinta 
+ 08:28 Rama Menemukan Jatayu 
+ 09:44 Hikmah: Dharma di Atas Segalanya 
+  
+ Kalau kamu suka kisah dharma seperti ini, subscribe channel Kisah Dharma dan aktifkan loncengnya biar nggak ketinggalan episode berikutnya. 
+  
+ Tonton episode sebelumnya: Rama Menolak Takhta — kisah pengasingan Rama ke hutan. 
+  
+ #ramayana #hindu #kisahdharma #shinta #rahwana #ceritarakyat #mitologi
+TAGS: (kosong)
+VISIBILITAS: PUBLIKASI SEKARANG
+THUMB: 40-kisahdharma-thumb.jpg
+
+LAPORAN AKHIR: tiap nomor 1-40 -> SUKSES + URL, atau GAGAL + alasan singkat.LAPORAN AKHIR: tiap nomor -> SUKSES + URL, atau GAGAL + alasan singkat.
