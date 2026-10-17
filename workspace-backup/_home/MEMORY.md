@@ -73,3 +73,11 @@
 - Password dekripsi bundle: disimpan user (dibuat 2026-10-17, TIDAK dicatat di sini)
 - Restore di VM baru: git clone repo private → ./restore.sh → masukkan password
 - Cron backup-workspace-perjam (tiap 1 jam): backup ~/workspace ke YunobiAirdrop/muse-backup-private/workspace-backup/, skip secret & file besar, hanya push kalau ada perubahan. Backup awal 2026-10-17: 47.303 file.
+
+## Airdrop Farming (2026-10-17)
+- Wallet farming baru: 0xf0f25C36AC70E9d787a108eFB351626192C8107b (seed phrase dipegang user, TIDAK dicatat)
+- 7 proyek testnet: GTE (MegaETH), Neptune Protocol, Variational, Zenchain, Sahara AI, Multipli.fi, Mitosis (Plaza Finance MATI 2026-10-17 — tutup 2025, situs jadi halaman perpisahan; HaHa Wallet DITOLAK user)
+- Cron airdrop-farming-harian (08:00 WIB): farming otomatis harian
+- Cron airdrop-mainnet-monitor (Senin & Kamis 09:00 WIB): pantau pengumuman mainnet/TGE, alert user kalau ada
+- Strategi: target 5-10 transaksi/hari/proyek (pelajaran user: trx sedikit = ga eligible)
+- Blocker: faucet Alchemy butuh captcha + saldo mainnet (user claim manual); private key via Secure Vault saat dibutuhkan

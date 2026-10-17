@@ -1,0 +1,153 @@
+{
+  "created": "2026-10-17",
+  "projects": [
+    {
+      "dapp_url": "https://newton.xyz/app/airdrop",
+      "extra": "Discord roles at discord.gg/gte-xyz",
+      "faucet": {
+        "action": "Click Faucet, enter EVM address, complete captcha, Get Testnet ETH",
+        "cooldown": "unknown",
+        "needs_captcha": true,
+        "url": "https://testnet.megaeth.com"
+      },
+      "frequency": "weekly (guide says don't farm hard, interact once a week)",
+      "id": "gte",
+      "name": "GTE (MegaETH testnet)",
+      "raised": "$25M, backed by Paradigm",
+      "steps": [
+        "Claim faucet at testnet.megaeth.com",
+        "Swap: ETH to any token (Buy)",
+        "Earn: deposit tokens in any pair",
+        "Launch a token (upload image, fill details)",
+        "Trade: buy BTC with USD, market + limit orders, AMM + CLOB modes"
+      ],
+      "token_confirmed": true
+    },
+    {
+      "bridge_url": "https://app.eclipse.xyz/bridge",
+      "dapp_url": "https://testnet.neptuneprotocol.xyz",
+      "extra": "Needs Backpack wallet",
+      "faucet": {
+        "action": "Sign in, enter EVM address, complete captcha, Send me ETH",
+        "cooldown": "unknown",
+        "needs_captcha": true,
+        "needs_mainnet_balance": "0.001 ETH on Ethereum mainnet",
+        "url": "https://alchemy.com/faucets/ethereum-sepolia"
+      },
+      "frequency": "every 3 days minimum (claim NPT daily)",
+      "id": "neptune",
+      "name": "Neptune Protocol",
+      "raised": "$3.9M",
+      "steps": [
+        "Get Sepolia ETH from Alchemy faucet",
+        "Bridge to Eclipse (switch to testnet, connect EVM + Backpack wallet, Deposit, wait 7+ min)",
+        "Open vault at testnet.neptuneprotocol.xyz, deposit ETH, mint USDN (80% collateral)",
+        "Deposit USDN in Stability Pool, claim NPT rewards daily",
+        "Stake NPT in staking pool"
+      ],
+      "token_confirmed": false
+    },
+    {
+      "dapp_url": "https://omni.testnet.variational.io/",
+      "extra": null,
+      "faucet": {
+        "action": "Sign in, enter EVM address, complete captcha, Send me ETH",
+        "cooldown": "unknown",
+        "needs_captcha": true,
+        "needs_mainnet_balance": "0.001 Arbitrum ETH on mainnet",
+        "url": "https://alchemy.com/faucets/arbitrum-sepolia"
+      },
+      "frequency": "every 3 days minimum",
+      "id": "variational",
+      "name": "Variational",
+      "raised": "unknown",
+      "steps": [
+        "Get Arbitrum Sepolia ETH from Alchemy faucet",
+        "Connect wallet at omni.testnet.variational.io, Authenticate, accept T&C",
+        "Claim 10000 USDC, Deposit (Max, approve)",
+        "Trade: buy long / sell short, market/limit, set TP/SL",
+        "Close position, Withdraw USDC"
+      ],
+      "token_confirmed": false
+    },
+    {
+      "dapp_url": "https://node.zenchain.io/#/staking",
+      "extra": null,
+      "faucet": {
+        "action": "Enter EVM address, Share on X (post + paste link), Receive ZCX",
+        "cooldown": "unknown",
+        "needs_captcha": false,
+        "needs_social": "X post required",
+        "url": "https://faucet.zenchain.io/"
+      },
+      "frequency": "regular staking interaction",
+      "id": "zenchain",
+      "name": "Zenchain",
+      "note": "underfarmed",
+      "raised": "unknown",
+      "steps": [
+        "Join waitlist at zenchain.io/waitlist (email + EVM address)",
+        "Claim faucet (requires X post)",
+        "Stake ZCX at node.zenchain.io, Compound",
+        "Unstake small portion, Claim rewards"
+      ],
+      "token_confirmed": false
+    },
+    {
+      "dapp_url": "https://sahara.ai (labs site)",
+      "extra": "Invite 2 friends daily (optional)",
+      "faucet": {
+        "action": "Use gas.zip to get G token for fees",
+        "cooldown": "n/a",
+        "needs_captcha": false,
+        "url": "in-app (G token for gas)"
+      },
+      "frequency": "daily",
+      "id": "sahara",
+      "name": "Sahara AI",
+      "raised": "unknown",
+      "steps": [
+        "Daily tasks: click Gobi bear, visit blog (Galxe), send test tokens, Claim shards",
+        "Social quests via Galxe (need G token for claims)",
+        "Register to train AI (Jerboa): sign in, connect wallet, Claim shards",
+        "Discord: discord.gg/sahara-ai, claim Legend role"
+      ],
+      "token_confirmed": true
+    },
+    {
+      "dapp_url": "https://testnet.multipli.fi?referral_code=6RUTJ",
+      "extra": "Join giveaways on X & Discord for more tokens",
+      "faucet": {
+        "action": "Select BSC testnet, select USDC/USDT/BTC, Claim tokens, approve",
+        "cooldown": "unknown",
+        "needs_captcha": false,
+        "url": "https://testnet.multipli.fi?referral_code=6RUTJ"
+      },
+      "faucet_alt": {
+        "action": "For Sepolia network staking",
+        "needs_captcha": true,
+        "url": "https://alchemy.com/faucets/ethereum-sepolia"
+      },
+      "frequency": "regular (avoid unnecessary unstaking, 7-day wait)",
+      "id": "multipli",
+      "name": "Multipli.fi",
+      "raised": "unknown",
+      "steps": [
+        "Claim USDC, USDT, BTC on BSC testnet",
+        "Stake USDT (Max, Confirm, approve)",
+        "Repeat on Sepolia network",
+        "Earn tORBS points"
+      ],
+      "token_confirmed": false
+    },
+    {
+      "id": "mitosis",
+      "name": "Mitosis",
+      "chain": "Ethereum Sepolia",
+      "faucet": "testnet.mitosis.org (10x claims)",
+      "status": "active",
+      "notes": "Faucet sendiri, max 10x claim. Deposit + vault + trading."
+    }
+  ],
+  "wallet_address": "0xf0f25C36AC70E9d787a108eFB351626192C8107b"
+}
