@@ -1,7 +1,7 @@
 {
   "antrean": [
     {
-      "catatan": "Prioritas user 2026-10-13; percobaan 2026-10-13 22:52 kena throttle YouTube di klik pertama | 2026-10-16: nomor virtual gagal dibeli 3x (OTPMurah 'Layanan sedang dalam pengisian')",
+      "catatan": "Prioritas user 2026-10-13; percobaan 2026-10-13 22:52 kena throttle YouTube di klik pertama | 2026-10-16: nomor virtual gagal dibeli 3x (OTPMurah 'Layanan sedang dalam pengisian') | 2026-10-18: order BERHASIL (stok tersedia, #FB7155433545), YouTube kirim SMS tapi OTP tidak masuk dalam 20 menit -> dibatalkan, refund 100%",
       "channel_id": "UCJ6KqdYvVJ-PaxhGLfTFVhA",
       "handle": "@BizarreWorldDaily",
       "slug": "weird-en"
@@ -93,6 +93,12 @@
   ],
   "keterangan": "Antrean verifikasi HP YouTube via nomor virtual OTPMurah.id (otomatis tiap 3 hari). 1 nomor virtual = 1 channel (1 akun 1 OTP); tiap run beli 1 nomor baru; YouTube bisa menolak nomor virtual (tidak ada OTP) -> cancel -> refund 100% otomatis.",
   "riwayat": [
+    {
+      "tanggal": "2026-10-18T01:03+07:00",
+      "channel": "@BizarreWorldDaily",
+      "hasil": "GAGAL - order nomor virtual BERHASIL (stok Google/Server Express tersedia, #FB7155433545, Rp 360, nomor 6281137858037). YouTube menerima nomor & mengirim SMS tanpa throttle/penolakan, tapi OTP tidak masuk ke OTPMurah dalam 20 menit (polling 3x via website) -> dibatalkan, refund 100% (Rp 360 kembali, saldo Rp 11.000).",
+      "permintaan": "otomatis cron 6-jam (pantau-stok-otpmurah)"
+    },
     {
       "tanggal": "2026-10-14T16:47+07:00",
       "channel": "@BizarreWorldDaily",
