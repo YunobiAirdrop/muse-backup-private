@@ -12,8 +12,8 @@ from auth import api_session
 
 CHANNEL_ID = "UC1c8WpKGhFKpUOp5AqVueEg"
 MD = os.path.join(BASE, "upload-instruksi-pov-2026-10-18.md")
-SLOT = "2026-10-22T12:00:00.000Z"  # Rabu 19:00 WIB
-RESULT = os.path.join(BASE, "yt-growth", "hidden_files", "upload-pov-Samurai-2026-10-18.json")
+SLOT = "2026-10-22T12:00:00.000Z"  # Kamis 19:00 WIB
+RESULT = os.path.join(BASE, "yt-growth", "hidden_files", "upload-pov-phinisi-2026-10-18.json")
 
 def abs_path(p):
     p = p.strip()
