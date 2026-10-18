@@ -2,7 +2,7 @@
   "schema_version": "hatch.probe_ui_session.v1",
   "socket": "/home/hatch/workspace/ts-spaces/kantor-ai/.harness/probe-ui/sock",
   "slug": "kantor-ai",
-  "url": "https://artifact-capture.invalid/spaces/v2/hatch-audit-bb801bd0-9a55-4a94-ab7d-397282c5ea23/",
-  "audit_session_id": "5d1d965b-7d14-44ca-9f26-da1d548c82c2",
-  "pid": 5506
+  "url": "https://artifact-capture.invalid/spaces/v2/hatch-audit-c0ec0030-f709-4efd-8b1a-f379007d9266/",
+  "audit_session_id": "f7f1bc5f-a309-4e05-9338-eea6648bbb93",
+  "pid": 7876
 }

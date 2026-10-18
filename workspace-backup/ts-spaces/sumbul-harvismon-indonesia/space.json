@@ -1,0 +1,8 @@
+{
+  "runtime": "static",
+  "platformVersion": 15,
+  "entry": "index.html",
+  "name": "Sumbul Harvismon Indonesia",
+  "slug": "sumbul-harvismon-indonesia",
+  "managedCronJobs": []
+}

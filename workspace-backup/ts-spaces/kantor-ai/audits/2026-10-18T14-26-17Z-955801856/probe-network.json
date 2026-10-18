@@ -1,0 +1,38 @@
+{
+  "probe_transport_ledger_active": true,
+  "external_requests": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap",
+      "method": "GET",
+      "resource_type": "stylesheet"
+    },
+    {
+      "url": "https://yt-dashboard-yunobi-default-rtdb.asia-southeast1.firebasedatabase.app/yt/pending.json?auth=zszMpcV3wzsoDXSc9xZZBBwIvM755gBQPPILlyhN",
+      "method": "GET",
+      "resource_type": "fetch"
+    }
+  ],
+  "external_requests_dropped": 0,
+  "external_requests_dropped_data_bearing": 0,
+  "transport_connections": [
+    {
+      "host": "fonts.googleapis.com",
+      "port": 443,
+      "connects": 1,
+      "bytes_up": 0,
+      "bytes_down": 0,
+      "policy_denied": true
+    },
+    {
+      "host": "yt-dashboard-yunobi-default-rtdb.asia-southeast1.firebasedatabase.app",
+      "port": 443,
+      "connects": 1,
+      "bytes_up": 0,
+      "bytes_down": 0,
+      "policy_denied": true
+    }
+  ],
+  "transport_udp_attempts": 0,
+  "transport_overflow": 0,
+  "unexplained_transport_hosts": []
+}
