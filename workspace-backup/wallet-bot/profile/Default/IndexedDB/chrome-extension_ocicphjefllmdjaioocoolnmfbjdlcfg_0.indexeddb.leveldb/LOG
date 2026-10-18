@@ -1,3 +1,24 @@
-2026/10/19-01:08:05.811 3278 Reusing MANIFEST /home/hatch/workspace/wallet-bot/profile/Default/IndexedDB/chrome-extension_ocicphjefllmdjaioocoolnmfbjdlcfg_0.indexeddb.leveldb/MANIFEST-000001
-2026/10/19-01:08:05.813 3278 Recovering log #3
-2026/10/19-01:08:05.854 3278 Reusing old log /home/hatch/workspace/wallet-bot/profile/Default/IndexedDB/chrome-extension_ocicphjefllmdjaioocoolnmfbjdlcfg_0.indexeddb.leveldb/000003.log 
+2026/10/18-19:14:57.030 22e5 Reusing MANIFEST /home/hatch/workspace/wallet-bot/profile/Default/IndexedDB/chrome-extension_ocicphjefllmdjaioocoolnmfbjdlcfg_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/18-19:14:57.030 22e5 Recovering log #57
+2026/10/18-19:14:57.037 22e5 Reusing old log /home/hatch/workspace/wallet-bot/profile/Default/IndexedDB/chrome-extension_ocicphjefllmdjaioocoolnmfbjdlcfg_0.indexeddb.leveldb/000057.log 
+2026/10/18-19:14:59.535 22e6 Level-0 table #62: started
+2026/10/18-19:14:59.610 22e6 Level-0 table #62: 78495 bytes OK
+2026/10/18-19:14:59.654 22e6 Delete type=0 #57
+2026/10/18-19:14:59.655 22ea Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at '\x00\x18\x00\x00\x05' @ 6737 : 1
+2026/10/18-19:14:59.655 22ea Compacting 1@0 + 1@1 files
+2026/10/18-19:14:59.690 22ea Generated table #63@0: 420 keys, 19290 bytes
+2026/10/18-19:14:59.690 22ea Compacted 1@0 + 1@1 files => 19290 bytes
+2026/10/18-19:14:59.727 22ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/18-19:14:59.727 22ea Delete type=2 #62
+2026/10/18-19:14:59.735 22de Manual compaction at level-0 from '\x00\x18\x00\x00\x05' @ 6737 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/10/18-19:14:59.861 22de Level-0 table #65: started
+2026/10/18-19:14:59.887 22de Level-0 table #65: 719 bytes OK
+2026/10/18-19:14:59.940 22de Delete type=2 #59
+2026/10/18-19:14:59.940 22de Delete type=0 #61
+2026/10/18-19:14:59.949 22de Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x19\x00\x00\x05' @ 6754 : 1
+2026/10/18-19:14:59.949 22de Compacting 1@0 + 1@1 files
+2026/10/18-19:14:59.988 22de Generated table #66@0: 420 keys, 19287 bytes
+2026/10/18-19:14:59.988 22de Compacted 1@0 + 1@1 files => 19287 bytes
+2026/10/18-19:15:00.088 22de compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/18-19:15:00.088 22de Delete type=2 #65
+2026/10/18-19:15:00.111 22de Manual compaction at level-0 from '\x00\x19\x00\x00\x05' @ 6754 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
