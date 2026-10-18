@@ -88,6 +88,8 @@ beat("In Indonesia, a cat-like animal called the civet eats ripe coffee cherries
      "cute civet cat eating red coffee cherries in indonesian jungle")
 beat("Farmers collect the beans from the droppings, wash them, roast them — and sell them for hundreds of dollars per kilo.",
      "hands washing coffee beans in water, then roasting them in a pan")
+beat("One cup in a fancy cafe can cost more than your whole lunch for a week. For poop coffee!",
+     "fancy cafe menu showing shocking price for one small cup of coffee")
 beat("Fans say digestion makes it smoother and less bitter. Critics say you're just drinking... expensive poop.",
      "split screen: happy coffee drinker versus disgusted critic, same cup")
 beat("The ugly truth? Most kopi luwak today comes from caged civets in rough conditions. So it's weird AND sad.",
@@ -105,6 +107,8 @@ beat("The fermentation takes six to twelve WEEKS in gravel pits. That's patience
      "calendar pages flipping rapidly over a buried pit, snow falling")
 beat("The result smells like ammonia. Like a public toilet... mixed with cleaning fluid.",
      "person pinching nose hard, green stink waves rising from shark cubes")
+beat("First bite feels like your nose is attacked by cleaning spray. Second bite? Somehow worse.",
+     "cartoon face grimacing hard, cleaning spray bottle attacking a nose")
 beat("Even Anthony Bourdain — the toughest food guy ever — called it the single worst thing he ever ate.",
      "tough chef character spitting out food dramatically, worst ever stamp")
 beat("Icelanders eat it at festivals and chase it with strong liquor. You NEED the liquor. Trust me.",
@@ -125,6 +129,8 @@ beat("Banned. On airplanes. Let that sink in. Your lunch is legally a biohazard 
      "fish can wearing a tiny biohazard suit, clouds and airplane window behind")
 beat("Brave Swedes eat it outdoors with flatbread, potatoes, and onions — always in August, always upwind.",
      "swedes eating fermented herring outdoors on a picnic, wind blowing away from them")
+beat("There's a whole challenge culture — tourists filming themselves opening cans. Instant regret, every single time.",
+     "tourist with camera opening a surstromming can, face of instant regret")
 beat("Weirdness Score: nine and a half out of ten. Half a point from perfect. Which brings us to...",
      "scoreboard showing 9.5 out of 10, drumroll illustration")
 # ---- #1 CASU MARZU ----
@@ -151,6 +157,8 @@ beat("There is nothing weirder you can legally — well, ILLEGALLY — put in yo
 beat("Weirdness Score: a perfect TEN out of ten. Casu Marzu is the weirdest food on planet Earth.",
      "scoreboard exploding at 10 out of 10, champion cheese with crown",
      overlay="10/10 WEIRDNESS CHAMPION")
+beat("Ten out of ten. I need to go lie down after that one.",
+     "exhausted cartoon host lying on a couch, fanning himself")
 # ---- RECAP + OUTRO ----
 beat("So there it is — the final ranking. Seven foods, seven levels of why does this exist.",
      "podium with seven foods ranked from 7th to 1st place")

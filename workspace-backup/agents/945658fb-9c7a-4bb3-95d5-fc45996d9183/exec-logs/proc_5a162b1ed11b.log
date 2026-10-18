@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/fakta-bola-dunia/work/gen_audio_bendera.py", line 25, in <module>
+    r2 = subprocess.run([FFQ, "-y", "-v", "error", "-i", raw, "-af", af,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/usr/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/home/hatch/workspace/youtube-otomatis/ffmpeg-queue.sh', '-y', '-v', 'error', '-i', '/home/hatch/workspace/fakta-bola-dunia/work/bendera-audio/b01_raw.mp3', '-af', 'aresample=44100', '-ar', '44100', '-ac', '1', '/home/hatch/workspace/fakta-bola-dunia/work/bendera-audio/b01.wav']' timed out after 60 seconds

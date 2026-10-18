@@ -43,6 +43,67 @@ def base_ball(char):
     elif char == 'jp':
         d.ellipse([8, 8, SIZE-8, SIZE-8], fill=(245, 245, 245))
         d.ellipse([C-130, C-130, C+130, C+130], fill=(200, 30, 40))
+    elif char == 'np':
+        # NEPAL: merah tua (crimson) + outline biru + matahari/bulan putih
+        d.ellipse([8, 8, SIZE-8, SIZE-8], fill=(190, 20, 40))
+        # dua segitiga bertumpuk (pennon), outline biru
+        pts = [(C, 90), (C+170, 360), (C, 360), (C+190, 650), (C, 650)]
+        d.polygon(pts, fill=(160, 10, 32))
+        d.line(pts[:2], fill=(10, 40, 130), width=18, joint='curve')
+        d.line(pts[2:], fill=(10, 40, 130), width=18, joint='curve')
+        d.line([(C, 90), (C, 650)], fill=(10, 40, 130), width=16)
+        # matahari (atas): lingkaran putih + 8 sinar
+        sx, sy, sr = C, 220, 40
+        d.ellipse([sx-sr, sy-sr, sx+sr, sy+sr], fill="white")
+        for i in range(8):
+            a = i * math.pi / 4
+            x1, y1 = sx + (sr+6)*math.cos(a), sy + (sr+6)*math.sin(a)
+            x2, y2 = sx + (sr+30)*math.cos(a), sy + (sr+30)*math.sin(a)
+            d.line([(x1, y1), (x2, y2)], fill="white", width=10)
+        # bulan sabit (bawah)
+        bx, by, br = C, 520, 46
+        d.ellipse([bx-br, by-br, bx+br, by+br], fill="white")
+        d.ellipse([bx-br+22, by-br-8, bx+br+22, by+br-8], fill=(160, 10, 32))
+    elif char == 'bt':
+        # BUTAN: diagonal kuning atas-kiri / oranye bawah-kanan + naga putih
+        d.ellipse([8, 8, SIZE-8, SIZE-8], fill=(255, 128, 0))
+        d.pieslice([8, 8, SIZE-8, SIZE-8], start=180, end=360, fill=(255, 205, 0))
+        # perhalus: gambar ulang diagonal tegas dari kiri-atas ke kanan-bawah
+        im2 = Image.new("RGBA", (SIZE, SIZE), (0, 0, 0, 0))
+        d2b = ImageDraw.Draw(im2)
+        d2b.ellipse([8, 8, SIZE-8, SIZE-8], fill=(255, 205, 0))
+        d2b.polygon([(8, 792), (792, 792), (792, 8)], fill=(255, 128, 0))
+        # mask lingkaran
+        mask = Image.new("L", (SIZE, SIZE), 0)
+        ImageDraw.Draw(mask).ellipse([8, 8, SIZE-8, SIZE-8], fill=255)
+        im.paste(im2, (0, 0), mask)
+        d = ImageDraw.Draw(im)
+        # naga putih sederhana (Druk): tubuh lengkung S + kepala + kaki
+        body = [(C-170, C+150), (C-90, C+60), (C-10, C+80), (C+70, C-10),
+                (C+150, C-60), (C+190, C-150)]
+        d.line(body, fill="white", width=52, joint='curve')
+        for i in range(0, len(body)-1, 2):
+            d.line([body[i], body[i+1]], fill="white", width=52, joint='curve')
+        # kaki: 4 kaki pendek
+        for (fx, fy) in [(C-120, C+110), (C-40, C+120), (C+40, C+30), (C+120, C-20)]:
+            d.rounded_rectangle([fx-14, fy-14, fx+14, fy+40], radius=14,
+                                fill="white", outline=(20, 20, 20), width=4)
+        # kepala naga di ujung atas
+        hx, hy = C+190, C-150
+        d.ellipse([hx-58, hy-48, hx+58, hy+48], fill="white",
+                  outline=(20, 20, 20), width=6)
+        # moncong + tanduk
+        d.polygon([(hx+30, hy-10), (hx+110, hy+5), (hx+30, hy+30)], fill="white",
+                  outline=(20, 20, 20))
+        d.polygon([(hx-20, hy-42), (hx-40, hy-110), (hx+8, hy-52)], fill="white",
+                  outline=(20, 20, 20))
+        d.polygon([(hx+30, hy-48), (hx+45, hy-115), (hx+62, hy-48)], fill="white",
+                  outline=(20, 20, 20))
+        # mata naga
+        d.ellipse([hx+5, hy-18, hx+25, hy+2], fill=(20, 20, 20))
+        # permata merah di cakar
+        d.polygon([(C-40, C+118), (C-22, C+136), (C-40, C+154), (C-58, C+136)],
+                  fill=(200, 30, 40), outline=(20, 20, 20))
     # outline hitam
     d2 = ImageDraw.Draw(im)
     d2.ellipse([8, 8, SIZE-8, SIZE-8], outline=(20, 20, 20), width=10)
