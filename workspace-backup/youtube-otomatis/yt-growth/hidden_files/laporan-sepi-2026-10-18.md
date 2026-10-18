@@ -59,8 +59,9 @@ ditolak perbaikannya setelah verifikasi manual — tags sudah optimal, churn dih
 
 ## Share-3x
 - Kandidat: 11 video mentok (152 dalam cooldown 7 hari sejak share kemarin; 1 dilewati karena private).
-- Batch: 2 (batch01: 6 video, batch02: 5 video).
-- HASIL: menunggu browser task (lihat bawah).
+- Batch: 2 (batch01: 6 video, batch02: 5 video) — SELESAI 11/11, tiap video Share→Copy 3x
+  terkonfirmasi toast "Link copied to clipboard". Tanpa login/like/komentar/subscribe.
+- quiet_shared di share3x-log.json: 11 video bertanggal 2026-10-18 (total quiet_shared: 191).
 
 ## File
 - `hidden_files/sepi-2026-10-18.json` — hasil scan

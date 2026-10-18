@@ -9,3 +9,4 @@
 2026-10-18 08:15 - stok kosong (1x klik 'Beli Sekarang' Rp 361: dialog tertutup tanpa order baru; Order Aktif tetap 0, saldo tidak terpotong, tetap Rp 11.000; toast persis 'Layanan sedang dalam pengisian' tidak tertangkap visual, konsisten dengan stok kosong)
 2026-10-18 09:11 - stok kosong (tampilan 95.259/Server Express, klik Beli 1x tidak membentuk order, tanpa toast; saldo Rp 11.000)
 2026-10-18 10:12 - stok kosong (1x klik 'Beli Sekarang': alert 'Layanan sedang dalam pengisian, mohon coba beberapa menit lagi'; Order Aktif tetap 0, saldo tidak terpotong, tetap Rp 11.000; tampilan 95.259 tidak valid)
+2026-10-18 11:11 - stok kosong (klik Beli Sekali: dialog konfirmasi muncul, Beli Sekarang -> tidak terbentuk order, tanpa toast, saldo tetap Rp 11.000)

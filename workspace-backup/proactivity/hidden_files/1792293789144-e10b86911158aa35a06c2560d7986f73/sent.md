@@ -1,42 +1,6 @@
-# Source observations
-
 # Proactive updates already delivered
 
 Only the updates this proactive pipeline delivered in the last 7 days. Muse's ordinary chat replies, including results a task reported back in the conversation, are not listed here, so a message missing from this list may still have reached the user: check the conversation and search Past conversations with `muse.memory_search` before treating something as undelivered.
-
-## 2026-10-10T11:43:26.740Z
-
-message_id: `assistant-msg-770965a0-2ffc-15a6-af83-b67d96c7a2bc`
-
-**Preview ketukan malam ini (20:00–23:00): 43 video antre.**
-
-Antrean nambah dari 36 pagi tadi jadi 43 sekarang. Watchdog jam 20:00 akan coba yang sudah eligible — tapi jujur: limit harian YouTube ketat, kemarin 6 dicoba 0 lolos. Dari 43 ini realistisnya cuma sebagian kecil yang tembus malam ini; sisanya otomatis antre lagi. Ini ritme limit, bukan kegagalan.
-
-Yang kamu lakukan:
-1. Standby HP + aplikasi Muse terbuka 20:00–23:00 — tiap percobaan upload = 1 kartu persetujuan di aplikasi Muse (bukan WhatsApp). Tanpa ketukan kamu, tidak ada yang jalan.
-2. Hanya APPROVE kartu dari watchdog retry. JANGAN approve kartu upload dari cron produksi harian — limit aktif, pasti gagal, ketukan terbuang.
-
-## 2026-10-10T13:37:19.822Z
-
-message_id: `assistant-msg-5a7ce0a8-2a1e-9975-5dff-c96864e17928`
-
-**Koreksi: alarm logout Google tadi pagi salah.**
-
-Sesi Google buat upload YouTube ternyata **masih aktif** — dicek langsung jam 14:00, terverifikasi sebagai khususstokyunobi@gmail.com, YouTube Studio kebuka normal.
-
-Jadi: **tidak perlu login ulang**, abaikan tombol persetujuan login tadi pagi. Izin login ulang yang kamu kasih juga tidak perlu dijalankan. Batch upload malam ini aman dari sisi sesi.
-
-Kalau kamu sempat mengetuk tombolnya tadi, nggak perlu berbuat apa-apa lagi.
-
-## 2026-10-10T21:22:40.146Z
-
-message_id: `assistant-msg-bba71fb2-ada2-42d7-9e2f-3a5869a3d72e`
-
-Video perdana Macam Macam aman dari duplikat — retry otomatisnya saya tahan dulu, jadi nggak bakal dobel di channel.
-
-Tinggal satu yang perlu saya tahu:
-
-[[hatch_widget:widget-229aeda0-419e-4c42-8936-a9794db5f14b]]
 
 ## 2026-10-12T02:41:24.536Z
 
@@ -181,3 +145,43 @@ message_id: `assistant-msg-7e60c987-536b-6cf0-ec2d-2c9197e34786`
 message_id: `assistant-msg-92109ee6-65db-8c95-c24e-62ba96022a52`
 
 Jujur: janji saya tadi soal jalanin blog manual belum saya kerjakan. Saya trigger sekarang.
+
+## 2026-10-17T04:16:10.013Z
+
+message_id: `assistant-msg-2f9d31c9-5901-1bff-89bf-4fbf796263fc`
+
+Ada koreksi penting soal target monetisasi — saya cek ulang aturan resmi YouTube dan angka yang saya kasih kemarin ternyata keliru. Detailnya di surat di atas.
+
+## 2026-10-17T04:16:10.110Z
+
+message_id: `assistant-msg-b771fe2a-c617-4e31-b419-af233bdf7c36`
+
+Satu lagi: APK Cipcat. Build lokalnya macet (build-tools hilang dari SDK), jadi saya unduhkan APK resmi Concat 0.2.7 (69 MB, SHA256 terverifikasi) sebagai cadangan sementara build-nya diperbaiki.
+
+## 2026-10-17T04:16:11.257Z
+
+message_id: `assistant-msg-16e90250-a700-4571-bddd-b67f042d1714`
+
+Ini versi asli dari Jareer, bukan fork Yunobi Cipcat — tapi bisa dipakai dulu sementara.
+
+## 2026-10-17T06:34:38.725Z
+
+message_id: `assistant-msg-55cf2d7c-9d75-84fc-d940-9573c43eae7f`
+
+Audit buat setup GitHub backup yang lagi jalan — 4 temuan penting:
+
+1. **Jangan fork** repo Kutuyyy/muse-auto-backup. Fork dari repo publik selalu jadi publik. Buat repo private BARU di akun YunobiAirdrop, push file ke sana.
+
+2. **API key jangan masuk repo dulu.** Keputusan masih terbuka — tetap di Secure Vault.
+
+3. **Scan isi file sebelum push pertama.** Exclusion cuma berdasarkan nama file, key di file bernama polos bakal lolos.
+
+4. **Backup-repo lama sudah stale** (terakhir 10-08, nggak ada cron). Arsipkan/hapus atau gabung — jangan dua sistem jalan paralel.
+
+## 2026-10-17T07:05:04.730Z
+
+message_id: `assistant-msg-33dd6972-db2a-f430-5a09-51fefc53aaeb`
+
+Bio TikTok baru udah jadi — judul "Info Loker & Rekomendasi Pilihan" plus pesan transparansi afiliasi yang kamu minta. Tinggal publish, boleh?
+
+[[hatch_widget:widget-906fd494-f5c8-440b-a58b-9413b5fd25c7]]
