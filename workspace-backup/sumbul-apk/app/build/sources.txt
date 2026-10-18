@@ -1,0 +1,2 @@
+/home/hatch/workspace/sumbul-apk/app/build/gen/com/yunobi/sumbulharvismon/R.java
+/home/hatch/workspace/sumbul-apk/app/src/main/java/com/yunobi/sumbulharvismon/MainActivity.java

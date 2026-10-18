@@ -1,0 +1,8 @@
+{
+  "schema_version": "hatch.probe_ui_session.v1",
+  "socket": "/home/hatch/workspace/ts-spaces/sumbul-harvismon-indonesia/.harness/probe-ui/sock",
+  "slug": "sumbul-harvismon-indonesia",
+  "url": "https://artifact-capture.invalid/spaces/v2/hatch-audit-5e863d6f-d1c6-4773-bf8b-61523bb4c535/",
+  "audit_session_id": "35c5977c-6ad4-415a-a009-b120aacf186a",
+  "pid": 14103
+}

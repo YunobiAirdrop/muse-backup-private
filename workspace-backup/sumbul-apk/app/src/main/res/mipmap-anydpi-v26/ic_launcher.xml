@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/kantor_primary"/>
+    <foreground>
+        <vector android:height="108dp" android:width="108dp"
+            android:viewportHeight="108" android:viewportWidth="108"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <!-- Gedung kantor sederhana -->
+            <path android:fillColor="#e94560"
+                android:pathData="M34,90 L34,40 L54,24 L74,40 L74,90 Z"/>
+            <path android:fillColor="#ffffff"
+                android:pathData="M42,52 h6 v6 h-6 Z M50,52 h6 v6 h-6 Z M58,52 h6 v6 h-6 Z M42,62 h6 v6 h-6 Z M50,62 h6 v6 h-6 Z M58,62 h6 v6 h-6 Z"/>
+            <path android:fillColor="#0f3460"
+                android:pathData="M50,90 v-10 h8 v10 Z"/>
+        </vector>
+    </foreground>
+</adaptive-icon>

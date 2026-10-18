@@ -1,0 +1,104 @@
+{
+  "ok": true,
+  "url": "https://artifact-capture.invalid/spaces/v2/hatch-audit-a2657c8e-983d-4a0c-9910-6e0d839265dd/",
+  "duration_ms": 4702.619241,
+  "output_dir": "/home/hatch/workspace/ts-spaces/sumbul-harvismon-indonesia/audits/2026-10-18T15-25-14Z-242074429",
+  "nav_status": 200,
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 900,
+      "screenshot_path": "/home/hatch/workspace/ts-spaces/sumbul-harvismon-indonesia/audits/2026-10-18T15-25-14Z-242074429/screenshot.png",
+      "fullpage_screenshot_path": "/home/hatch/workspace/ts-spaces/sumbul-harvismon-indonesia/audits/2026-10-18T15-25-14Z-242074429/screenshot-full.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "screenshot_path": "/home/hatch/workspace/ts-spaces/sumbul-harvismon-indonesia/audits/2026-10-18T15-25-14Z-242074429/screenshot-mobile.png"
+    }
+  },
+  "mobile_layout": {
+    "viewport_width": 390,
+    "scroll_width": 390,
+    "overflow_px": 0,
+    "widest_selector": null,
+    "verdict": "pass"
+  },
+  "horizontal_scrollers": [],
+  "unreachable_controls": {
+    "desktop": [],
+    "mobile": []
+  },
+  "clipped": {
+    "desktop": [],
+    "mobile": []
+  },
+  "images": {
+    "total": 0,
+    "broken": [],
+    "duplicate": [],
+    "unstable": [],
+    "failed_requests": [],
+    "external_blocked": {
+      "count": 0,
+      "sample": []
+    },
+    "sample_urls": [],
+    "verdict": "pass"
+  },
+  "text_issues": [],
+  "console_errors": [],
+  "console_warnings": [],
+  "external_fetch_failures": 0,
+  "external_fetch_failure_samples": [],
+  "blocked_requests": [],
+  "external_requests": [],
+  "external_requests_dropped": 0,
+  "external_requests_dropped_data_bearing": 0,
+  "transport_ledger_active": true,
+  "egress_lockdown": true,
+  "transport_connections": [],
+  "transport_udp_attempts": 0,
+  "transport_overflow": 0,
+  "unexplained_transport_hosts": [],
+  "broken_assets": [],
+  "blocked_affordances": [],
+  "interactive_nodes": 5,
+  "aria_snapshot": "- text: Senin, 1 Jan • Tahun 1 06:00 • ☀️ Kemarau UANG Rp 0 STAMINA LISTRIK 0 kWh MISI —\n- button \"☰ Menu\"\n- button \"🎒 Tas\"\n- button \"🧤 Alat\"\n- button \"✋ Aksi\"\n- heading \"DESA SUKAMAJU • JAWA BARAT\" [level=3]\n- text: SUMBUL HARVISMON INDONESIA\n- paragraph: 🌾 Simulasi bertani ala Harvest Moon versi Indonesia + motor keliling desa ala GTA! Kakek mewariskan kebun di Desa Sukamaju… plus utang Rp 50.000.000 (cicilan Rp 500rb/minggu!). Tanam 36 tanaman khas Indonesia, ternak ayam–sapi, mancing arwana legendaris, kejar hati Siti si bidadari desa, menikah, punya anak, dan bangun rumah sampai jadi villa!\n- button \"🌱 Petualangan Baru\"\n- paragraph: \"Kontrol: joystick kiri / WASD • Tombol Aksi / Spasi • Cubit layar untuk zoom • E = ganti alat\"",
+  "audit_session_id": "7fd1016c-6731-4107-9702-893761c4d991",
+  "readiness": {
+    "desktop": {
+      "settled": true,
+      "settle_ms": 362,
+      "in_flight": null,
+      "network_idle": true,
+      "retried": false
+    },
+    "mobile": {
+      "settled": true,
+      "settle_ms": 395,
+      "in_flight": null,
+      "network_idle": true,
+      "retried": false
+    }
+  },
+  "color_scheme": {
+    "declared": "light dark",
+    "media_dependent": null,
+    "dark_frame": false
+  },
+  "mobile_ms": 2709.572591,
+  "cold_launch_ms": 252.7571509999998,
+  "desktop_ms": 2797.750125,
+  "browser_launches": 1,
+  "audit_path": "shared-concurrent",
+  "diagnostics": {
+    "audit_path": "shared-concurrent",
+    "concurrent_ran": true,
+    "concurrent_desktop_retry": false,
+    "concurrent_mobile_retry": false,
+    "shared_launch_failed": false,
+    "nav_retries": 0,
+    "settle_retries": 0
+  }
+}
