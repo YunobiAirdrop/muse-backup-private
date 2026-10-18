@@ -1,7 +1,7 @@
 ---
 id: faucet-megaeth-30wallet
 title: Faucet MegaETH 30 wallet harian
-enabled: true
+enabled: false
 owner: goal:airdrop-testnet-farming-automation
 mode: task
 schedule:

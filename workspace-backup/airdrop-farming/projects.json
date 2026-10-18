@@ -144,9 +144,136 @@
       "id": "mitosis",
       "name": "Mitosis",
       "chain": "Ethereum Sepolia",
+      "dapp_url": "https://app.testnet.mitosis.org",
       "faucet": "testnet.mitosis.org (10x claims)",
+      "frequency": "regular",
       "status": "active",
-      "notes": "Faucet sendiri, max 10x claim. Deposit + vault + trading."
+      "notes": "Faucet sendiri, max 10x claim. Deposit + vault + trading.",
+      "steps": [
+        "Claim test token di testnet.mitosis.org (maks 10x)",
+        "Deposit ke vault di app.testnet.mitosis.org",
+        "Trading / interaksi vault"
+      ]
+    },
+    {
+      "id": "dextr",
+      "name": "Dextr",
+      "dapp_url": "https://testnet.dextr.exchange (cek link resmi)",
+      "faucet": {
+        "url": "https://alchemy.com/faucets/base-sepolia",
+        "action": "Sign in, enter EVM address, complete captcha. Needs 0.001 ETH on Base mainnet.",
+        "needs_captcha": true,
+        "needs_mainnet_balance": "0.001 ETH on Base mainnet"
+      },
+      "frequency": "regular trading",
+      "raised": "unknown",
+      "token_confirmed": false,
+      "note": "Points = REP. Minimum 500k REP to qualify. Focus trading DXTR + staking.",
+      "steps": [
+        "Get Base Sepolia ETH dari Alchemy faucet",
+        "Deposit token di Earn section",
+        "Trade: market order buy/sell token",
+        "Stake DXTR",
+        "Add liquidity: create position pair",
+        "Cek REP points di portfolio (target 500k+)"
+      ]
+    },
+    {
+      "id": "portal-bitcoin",
+      "name": "Portal Bitcoin",
+      "dapp_url": "https://faucet-testnet.portaldefi.com",
+      "faucet": {
+        "url": "https://faucet-testnet.portaldefi.com",
+        "action": "Enter BTC address dari Portal extension + EVM address, Submit",
+        "needs_captcha": false
+      },
+      "faucet_alt": {
+        "url": "https://faucet.trade/sepolia-eth-faucet",
+        "action": "Enter EVM address, X post + paste link, captcha, Receive tokens",
+        "needs_captcha": true,
+        "needs_social": "X post required"
+      },
+      "frequency": "daily (swap 1x = 40 sparks, 10x = 200 sparks)",
+      "raised": "unknown",
+      "token_confirmed": false,
+      "note": "Guaranteed testnet airdrop. Points = sparks. Butuh Portal wallet extension.",
+      "steps": [
+        "Install Portal wallet extension",
+        "Claim BTC faucet di faucet-testnet.portaldefi.com",
+        "Claim Sepolia ETH di faucet.trade",
+        "Swap ETH->BTC dan BTC->ETH di Portal extension",
+        "Target: 10 swaps/hari (200 sparks), 5 hari/minggu (800 sparks)",
+        "Kejar 'verified jelly role'"
+      ]
+    },
+    {
+      "id": "abstract",
+      "name": "Abstract (Pudgy Penguins L2)",
+      "dapp_url": "https://portal.testnet.abs.xyz/bridge/",
+      "faucet": {
+        "url": "https://alchemy.com/faucets/ethereum-sepolia",
+        "action": "Sign in, enter EVM address, captcha. Needs 0.001 ETH mainnet.",
+        "needs_captcha": true,
+        "needs_mainnet_balance": "0.001 ETH on Ethereum mainnet"
+      },
+      "frequency": "regular",
+      "raised": "Pudgy Penguins ecosystem",
+      "token_confirmed": false,
+      "note": "XP system resmi dari akun Abstract. Bridge ETH ke Abstract testnet.",
+      "steps": [
+        "Daftar di abstract.deform.cc (connect wallet + X, social tasks)",
+        "Get Sepolia ETH dari Alchemy faucet",
+        "Bridge ETH ke Abstract via portal.testnet.abs.xyz/bridge",
+        "Kerjakan Galxe quests (app.galxe.com/quest/Abstract)",
+        "Join Discord discord.gg/abstractchain, kejar roles"
+      ]
+    },
+    {
+      "id": "polyhedra",
+      "name": "Polyhedra (Expchain)",
+      "dapp_url": "https://bridge.expchain.ai/bridge",
+      "faucet": {
+        "url": "https://faucet.expchain.ai/",
+        "action": "Connect wallet, Add network to Chrome, select chain, enter EVM, captcha, Request. Claim tZKJ di 3 networks.",
+        "needs_captcha": true
+      },
+      "frequency": "regular",
+      "raised": "Backed by major players",
+      "token_confirmed": false,
+      "note": "zkBridge infra. Testnet gratis.",
+      "steps": [
+        "Add Expchain network via faucet.expchain.ai",
+        "Claim tZKJ faucet di 3 networks",
+        "Bridge via bridge.expchain.ai (Sepolia/BSC testnet)",
+        "Deploy token via wizard.openzeppelin.com (compile + deploy)",
+        "Kirim token ke beberapa address"
+      ]
+    },
+    {
+      "id": "saturn",
+      "name": "Saturn BTC",
+      "chain": "Bitcoin Testnet4",
+      "status": "queued",
+      "token_confirmed": false,
+      "raised": "unknown",
+      "source": "X thread @MaransCrypto (typefully mirror, 2026-10-18)",
+      "dapp_url": "https://saturnbtc.io/app/swap/",
+      "faucet": {
+        "url": "https://faucet.testnet4.dev/",
+        "action": "Enter Testnet BTC address, captcha, Get 0.005 BTC",
+        "needs_captcha": true,
+        "cooldown": "unknown"
+      },
+      "steps": [
+        "Install Unisat wallet, set ke Bitcoin Testnet4 + Taproot (P2TR)",
+        "Claim faucet 0.005 tBTC di faucet.testnet4.dev",
+        "Mint runes di saturnbtc.io/app/runes/mint",
+        "Swap di saturnbtc.io/app/swap",
+        "Add liquidity di Pools (50% token + 50% BTC), withdraw sebagian"
+      ],
+      "frequency": "2-3x per minggu",
+      "needs_user_action": true,
+      "notes": "DEX Bitcoin pertama di testnet (diliput cryptobriefing & cointelegraph 2024; kolab Arch Network $7M seed). BUTUH TINDAKAN USER: install Unisat wallet + pegang tBTC testnet (bukan EVM, di luar otomatisasi farming saat ini)."
     }
   ],
   "wallet_address": "0xf0f25C36AC70E9d787a108eFB351626192C8107b"

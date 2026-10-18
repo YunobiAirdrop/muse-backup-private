@@ -1,5 +1,94 @@
 # Airdrop Farming — Status Report
 
+**Date:** 2026-10-18
+**Wallet:** `0xf0f25C36AC70E9d787a108eFB351626192C8107b`
+
+## Run 2026-10-18 (trigger manual user "claim testnet sekarang", ~08:38–08:50 WIB)
+
+### farm.py
+- Berjalan bersih (exit 0), log ditambah ke `logs/farm-2026-10-18.log`.
+- Hasil: **QUEUED** = sahara, multipli, mitosis, portal-bitcoin.
+  **BLOCKED** = gte (captcha), neptune (captcha + mainnet balance),
+  variational (captcha + mainnet balance), zenchain (X post),
+  dextr (captcha + mainnet balance), abstract (captcha + mainnet balance),
+  polyhedra (captcha), saturn (captcha).
+
+### Saldo gas per jaringan (RPC langsung dari VM, read-only, ~08:45 WIB)
+- Ethereum Sepolia: **0,0535 ETH** (terverifikasi via RPC publik,
+  cocok dengan explorer 08:26 WIB) — di atas ambang STOP 0,01 ETH.
+- Arbitrum Sepolia: **0** · BNB Chain testnet: **0 BNB**.
+- MegaETH (carrot.megaeth.com, chainId 0x18c7/6343 — jaringan live):
+  **1,0 ETH** (cocok catatan 17 Okt; ini aset mainnet, bukan gas testnet).
+- Zenchain testnet: **tidak terbaca** — endpoint unreachable dari VM.
+
+### Hasil: 0 transaksi (blocker tidak berubah)
+- **Private key wallet farming tetap tidak tersedia di worker ini.**
+  `hatch-vault --help`/`list` hang tanpa output (dicoba 2x, di-kill setelah
+  45 dtk); Secure Vault hanya alur capture page sisi user. Tanpa private key,
+  semua interaksi on-chain (swap/stake/deposit/claim Sahara/multipli/mitosis,
+  termasuk 4 proyek QUEUED) tidak bisa di-sign; browser task tanpa key hanya
+  akan stall menunggu persetujuan.
+- Sepolia 0,0535 ETH cukup untuk ~puluhan tx begitu key tersedia
+  (prioritas: Mitosis deposit, Multipli stake Sepolia, Neptune claim/deposit).
+- MegaETH 1 ETH di jaringan live — DILARANG dipakai boros (aturan hemat);
+  disimpan, tidak disentuh sampai instruksi user.
+
+### Dibutuhkan dari user (tetap)
+1. Private key wallet farming via Secure Vault di chat utama (sekali pakai,
+   untuk sesi signing) — ini satu-satunya blocker transaksi.
+2. Faucet manual (captcha): Arbitrum Sepolia ETH, Base Sepolia ETH →
+   kirim ke wallet farming. Sepolia ETH mungkin terisi via cron faucet
+   Google Cloud 09:00 — cek setelah run itu.
+3. X post sekali untuk unlock faucet Zenchain.
+
+---
+
+## Run 2026-10-18 (cron airdrop-farming-harian, 08:05–08:55 WIB)
+
+### farm.py
+- Berjalan bersih (exit 0), log: `logs/farm-2026-10-18.log`.
+- Perbaikan skrip: crash `AttributeError` pada entri mitosis (field `faucet`
+  berupa string, bukan dict) + `KeyError 'frequency'` — sudah diperbaiki
+  (normalisasi faucet string→{}; logging pakai default). Entri mitosis di
+  `projects.json` dilengkapi (dapp_url, frequency, steps).
+- Hasil: **QUEUED** = sahara, multipli, mitosis. **BLOCKED** = gte (captcha),
+  neptune (captcha + mainnet balance), variational (captcha + mainnet balance),
+  zenchain (social: X post).
+
+### Saldo gas per jaringan (cek explorer via browser, read-only, 08:26–08:46 WIB)
+- Ethereum Sepolia: **0,0535 ETH** (2 transaksi, 2 token transfer, update terakhir blok 11937804)
+- Arbitrum Sepolia: **0 ETH**
+- BNB Chain testnet: **0 BNB** (tidak ada riwayat transaksi; konfirmasi juga via RPC: 0)
+- MegaETH testnet: **tidak terbaca** — explorer testnet resmi sudah dipensiunkan (404/redirect ke dokumentasi mainnet; chain ID mainnet 4326)
+- Zenchain testnet: **tidak terbaca** — zentrace.io tidak dapat dijangkau (TLS/QUIC error). Koreksi data: native token = **ZTC** (chain ID 8408), bukan ZCX.
+- RPC langsung dari VM: 403/timeout di semua endpoint publik (IP VM diblokir WAF) kecuali BSC testnet (0).
+
+### Hasil: tidak ada transaksi yang dibuat
+- **Koreksi atas draf awal:** saldo Sepolia = 0,0535 ETH (sesuai catatan 0,05 ETH
+  per 2026-10-17) — aturan STOP (< 0,01 ETH) TIDAK terpicu untuk Sepolia.
+  Saldo 0 hanya di Arbitrum Sepolia dan BSC testnet.
+- Namun **private key tetap tidak tersedia di worker ini**. Tidak ada konektor
+  Secure Vault yang dapat dipakai dari run detached (`hatch-vault` CLI tidak
+  memberi output/dok; Secure Vault = alur capture page sisi user). Semua
+  interaksi on-chain (swap/stake/deposit/claim, termasuk daily task Sahara AI
+  yang butuh wallet signature) tetap blocked.
+- Urutan kerja user tetap berlaku: farming airdrop dikerjakan SETELAH hasil
+  faucet terkonsolidasi (cron 10:00 MegaETH + 11:00 mining). Run 08:00 =
+  cek + persiapan.
+
+### Dibutuhkan dari user
+1. Faucet manual (captcha): MegaETH testnet ETH, Sepolia ETH, Arbitrum Sepolia
+   ETH → kirim ke wallet farming. (Google Cloud faucet cron 09:00 mungkin
+   mengisi Sepolia; cek hasil cron itu.)
+2. X post sekali untuk unlock faucet Zenchain.
+3. Private key via Secure Vault (jalur chat utama) agar transaksi dApp bisa jalan.
+4. ~~Catatan: catatan 2026-10-17 menyebut 0,05 Sepolia ETH — explorer hari ini
+   menunjukkan 0 ETH tanpa riwayat transaksi; perlu verifikasi ulang.~~
+   KOREKSI (laporan final browser task): Sepolia = 0,0535 ETH (2 tx) — cocok
+   dengan catatan 0,05 ETH per 17 Okt; diskrepansi teratasi.
+
+---
+
 **Date:** 2026-10-17
 **Wallet:** `0xf0f25C36AC70E9d787a108eFB351626192C8107b`
 
@@ -56,3 +145,29 @@ and partially Multipli/Plaza.
   Plaza (faucet + earn/leverage), Sahara (daily tasks), Multipli (claim + stake),
   GTE/Neptune/Variational (dApp interactions only — faucets stay manual).
 - Re-run `farm.py` after each run; update this file with results.
+
+## Peluang Baru 2026-10-18 (airdrop-hunter-x)
+
+Sumber: X threads @MaransCrypto via typefully mirror (diterbitkan 2026-10-17 s.d.
+2026-10-18). Kandidat yang LOLOS filter dan ditambahkan ke `projects.json`
+(status "queued"):
+
+1. **Saturn BTC** (Bitcoin Testnet4) — saturnbtc.io
+   - DEX/AMM Bitcoin pertama di testnet; legit (diliput CryptoBriefing &
+     Cointelegraph 11/2024, kolab Arch Network).
+   - Faucet gratis: faucet.testnet4.dev (captcha, 0.005 tBTC).
+   - Langkah: mint runes → swap → add liquidity pool BTC/token.
+   - BUTUH TINDAKAN USER: install wallet Unisat (set Testnet4 + Taproot),
+     bukan EVM — di luar otomatisasi farming saat ini.
+
+Sudah ada di sistem (tidak ditambahkan ulang): Polyhedra EXPchain, Dextr,
+Portal Bitcoin, Abstract — semuanya sudah terdaftar di `projects.json`.
+Tidak lolos filter hari ini: Fiamma chain (effort berat, butuh wallet Signet +
+bridge 2 jam; dipantau).
+
+## 2026-10-18 — Proyek baru ditambahkan (4)
+- Dextr (Base testnet, points REP, target 500k)
+- Portal Bitcoin (swap BTC-EVM harian, sparks points, butuh Portal extension)
+- Abstract (Pudgy Penguins L2, XP system, bridge Sepolia->Abstract)
+- Polyhedra/Expchain (zkBridge infra, faucet tZKJ 3 networks)
+Total proyek aktif: 11 (GTE/MegaETH tetap di list tapi testnet tidak eligible lagi)

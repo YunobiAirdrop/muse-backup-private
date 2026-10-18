@@ -26,3 +26,109 @@
 [2026-10-18 08:06:03 WIB]   blocked: variational [captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet]
 [2026-10-18 08:06:03 WIB]   blocked: zenchain [social:X post required]
 [2026-10-18 08:06:03 WIB] === Farm run end ===
+[2026-10-18 08:28:44 WIB] === Farm run start (wallet 0xf0f25C36AC70E9d787a108eFB351626192C8107b) ===
+[2026-10-18 08:28:44 WIB] BLOCKED gte (GTE (MegaETH testnet)): faucet needs captcha — manual step required
+[2026-10-18 08:28:44 WIB] BLOCKED neptune (Neptune Protocol): faucet needs captcha, mainnet-balance:0.001 ETH on Ethereum mainnet — manual step required
+[2026-10-18 08:28:44 WIB] BLOCKED variational (Variational): faucet needs captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet — manual step required
+[2026-10-18 08:28:44 WIB] BLOCKED zenchain (Zenchain): faucet needs social:X post required — manual step required
+[2026-10-18 08:28:44 WIB] QUEUED  sahara (Sahara AI): daily — dapp: https://sahara.ai (labs site)
+[2026-10-18 08:28:44 WIB] QUEUED  multipli (Multipli.fi): regular (avoid unnecessary unstaking, 7-day wait) — dapp: https://testnet.multipli.fi?referral_code=6RUTJ
+[2026-10-18 08:28:44 WIB] QUEUED  mitosis (Mitosis): regular — dapp: https://app.testnet.mitosis.org
+[2026-10-18 08:28:44 WIB] === Summary: 3 queued, 4 blocked ===
+[2026-10-18 08:28:44 WIB]   blocked: gte [captcha]
+[2026-10-18 08:28:44 WIB]   blocked: neptune [captcha, mainnet-balance:0.001 ETH on Ethereum mainnet]
+[2026-10-18 08:28:44 WIB]   blocked: variational [captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet]
+[2026-10-18 08:28:44 WIB]   blocked: zenchain [social:X post required]
+[2026-10-18 08:28:44 WIB] === Farm run end ===
+[2026-10-18 08:50:14 WIB] === Farm run start (wallet 0xf0f25C36AC70E9d787a108eFB351626192C8107b) ===
+[2026-10-18 08:50:14 WIB] BLOCKED gte (GTE (MegaETH testnet)): faucet needs captcha — manual step required
+[2026-10-18 08:50:14 WIB] BLOCKED neptune (Neptune Protocol): faucet needs captcha, mainnet-balance:0.001 ETH on Ethereum mainnet — manual step required
+[2026-10-18 08:50:14 WIB] BLOCKED variational (Variational): faucet needs captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet — manual step required
+[2026-10-18 08:50:14 WIB] BLOCKED zenchain (Zenchain): faucet needs social:X post required — manual step required
+[2026-10-18 08:50:14 WIB] QUEUED  sahara (Sahara AI): daily — dapp: https://sahara.ai (labs site)
+[2026-10-18 08:50:14 WIB] QUEUED  multipli (Multipli.fi): regular (avoid unnecessary unstaking, 7-day wait) — dapp: https://testnet.multipli.fi?referral_code=6RUTJ
+[2026-10-18 08:50:14 WIB] QUEUED  mitosis (Mitosis): regular — dapp: https://app.testnet.mitosis.org
+[2026-10-18 08:50:14 WIB] BLOCKED dextr (Dextr): faucet needs captcha, mainnet-balance:0.001 ETH on Base mainnet — manual step required
+[2026-10-18 08:50:14 WIB] QUEUED  portal-bitcoin (Portal Bitcoin): daily (swap 1x = 40 sparks, 10x = 200 sparks) — dapp: https://faucet-testnet.portaldefi.com
+[2026-10-18 08:50:14 WIB] BLOCKED abstract (Abstract (Pudgy Penguins L2)): faucet needs captcha, mainnet-balance:0.001 ETH on Ethereum mainnet — manual step required
+[2026-10-18 08:50:14 WIB] BLOCKED polyhedra (Polyhedra (Expchain)): faucet needs captcha — manual step required
+[2026-10-18 08:50:14 WIB] BLOCKED saturn (Saturn BTC): faucet needs captcha — manual step required
+[2026-10-18 08:50:14 WIB] === Summary: 4 queued, 8 blocked ===
+[2026-10-18 08:50:14 WIB]   blocked: gte [captcha]
+[2026-10-18 08:50:14 WIB]   blocked: neptune [captcha, mainnet-balance:0.001 ETH on Ethereum mainnet]
+[2026-10-18 08:50:14 WIB]   blocked: variational [captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet]
+[2026-10-18 08:50:14 WIB]   blocked: zenchain [social:X post required]
+[2026-10-18 08:50:14 WIB]   blocked: dextr [captcha, mainnet-balance:0.001 ETH on Base mainnet]
+[2026-10-18 08:50:14 WIB]   blocked: abstract [captcha, mainnet-balance:0.001 ETH on Ethereum mainnet]
+[2026-10-18 08:50:14 WIB]   blocked: polyhedra [captcha]
+[2026-10-18 08:50:14 WIB]   blocked: saturn [captcha]
+[2026-10-18 08:50:14 WIB] === Farm run end ===
+[2026-10-18 08:50:19 WIB] === Farm run start (wallet 0xf0f25C36AC70E9d787a108eFB351626192C8107b) ===
+[2026-10-18 08:50:19 WIB] BLOCKED gte (GTE (MegaETH testnet)): faucet needs captcha — manual step required
+[2026-10-18 08:50:19 WIB] BLOCKED neptune (Neptune Protocol): faucet needs captcha, mainnet-balance:0.001 ETH on Ethereum mainnet — manual step required
+[2026-10-18 08:50:19 WIB] BLOCKED variational (Variational): faucet needs captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet — manual step required
+[2026-10-18 08:50:19 WIB] BLOCKED zenchain (Zenchain): faucet needs social:X post required — manual step required
+[2026-10-18 08:50:19 WIB] QUEUED  sahara (Sahara AI): daily — dapp: https://sahara.ai (labs site)
+[2026-10-18 08:50:19 WIB] QUEUED  multipli (Multipli.fi): regular (avoid unnecessary unstaking, 7-day wait) — dapp: https://testnet.multipli.fi?referral_code=6RUTJ
+[2026-10-18 08:50:19 WIB] QUEUED  mitosis (Mitosis): regular — dapp: https://app.testnet.mitosis.org
+[2026-10-18 08:50:19 WIB] BLOCKED dextr (Dextr): faucet needs captcha, mainnet-balance:0.001 ETH on Base mainnet — manual step required
+[2026-10-18 08:50:19 WIB] QUEUED  portal-bitcoin (Portal Bitcoin): daily (swap 1x = 40 sparks, 10x = 200 sparks) — dapp: https://faucet-testnet.portaldefi.com
+[2026-10-18 08:50:19 WIB] BLOCKED abstract (Abstract (Pudgy Penguins L2)): faucet needs captcha, mainnet-balance:0.001 ETH on Ethereum mainnet — manual step required
+[2026-10-18 08:50:19 WIB] BLOCKED polyhedra (Polyhedra (Expchain)): faucet needs captcha — manual step required
+[2026-10-18 08:50:19 WIB] BLOCKED saturn (Saturn BTC): faucet needs captcha — manual step required
+[2026-10-18 08:50:19 WIB] === Summary: 4 queued, 8 blocked ===
+[2026-10-18 08:50:19 WIB]   blocked: gte [captcha]
+[2026-10-18 08:50:19 WIB]   blocked: neptune [captcha, mainnet-balance:0.001 ETH on Ethereum mainnet]
+[2026-10-18 08:50:19 WIB]   blocked: variational [captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet]
+[2026-10-18 08:50:19 WIB]   blocked: zenchain [social:X post required]
+[2026-10-18 08:50:19 WIB]   blocked: dextr [captcha, mainnet-balance:0.001 ETH on Base mainnet]
+[2026-10-18 08:50:19 WIB]   blocked: abstract [captcha, mainnet-balance:0.001 ETH on Ethereum mainnet]
+[2026-10-18 08:50:19 WIB]   blocked: polyhedra [captcha]
+[2026-10-18 08:50:19 WIB]   blocked: saturn [captcha]
+[2026-10-18 08:50:19 WIB] === Farm run end ===
+[2026-10-18 08:51:08 WIB] === Farm run start (wallet 0xf0f25C36AC70E9d787a108eFB351626192C8107b) ===
+[2026-10-18 08:51:08 WIB] BLOCKED gte (GTE (MegaETH testnet)): faucet needs captcha — manual step required
+[2026-10-18 08:51:08 WIB] BLOCKED neptune (Neptune Protocol): faucet needs captcha, mainnet-balance:0.001 ETH on Ethereum mainnet — manual step required
+[2026-10-18 08:51:08 WIB] BLOCKED variational (Variational): faucet needs captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet — manual step required
+[2026-10-18 08:51:08 WIB] BLOCKED zenchain (Zenchain): faucet needs social:X post required — manual step required
+[2026-10-18 08:51:08 WIB] QUEUED  sahara (Sahara AI): daily — dapp: https://sahara.ai (labs site)
+[2026-10-18 08:51:08 WIB] QUEUED  multipli (Multipli.fi): regular (avoid unnecessary unstaking, 7-day wait) — dapp: https://testnet.multipli.fi?referral_code=6RUTJ
+[2026-10-18 08:51:08 WIB] QUEUED  mitosis (Mitosis): regular — dapp: https://app.testnet.mitosis.org
+[2026-10-18 08:51:08 WIB] BLOCKED dextr (Dextr): faucet needs captcha, mainnet-balance:0.001 ETH on Base mainnet — manual step required
+[2026-10-18 08:51:08 WIB] QUEUED  portal-bitcoin (Portal Bitcoin): daily (swap 1x = 40 sparks, 10x = 200 sparks) — dapp: https://faucet-testnet.portaldefi.com
+[2026-10-18 08:51:08 WIB] BLOCKED abstract (Abstract (Pudgy Penguins L2)): faucet needs captcha, mainnet-balance:0.001 ETH on Ethereum mainnet — manual step required
+[2026-10-18 08:51:08 WIB] BLOCKED polyhedra (Polyhedra (Expchain)): faucet needs captcha — manual step required
+[2026-10-18 08:51:08 WIB] BLOCKED saturn (Saturn BTC): faucet needs captcha — manual step required
+[2026-10-18 08:51:08 WIB] === Summary: 4 queued, 8 blocked ===
+[2026-10-18 08:51:08 WIB]   blocked: gte [captcha]
+[2026-10-18 08:51:08 WIB]   blocked: neptune [captcha, mainnet-balance:0.001 ETH on Ethereum mainnet]
+[2026-10-18 08:51:08 WIB]   blocked: variational [captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet]
+[2026-10-18 08:51:08 WIB]   blocked: zenchain [social:X post required]
+[2026-10-18 08:51:08 WIB]   blocked: dextr [captcha, mainnet-balance:0.001 ETH on Base mainnet]
+[2026-10-18 08:51:08 WIB]   blocked: abstract [captcha, mainnet-balance:0.001 ETH on Ethereum mainnet]
+[2026-10-18 08:51:08 WIB]   blocked: polyhedra [captcha]
+[2026-10-18 08:51:08 WIB]   blocked: saturn [captcha]
+[2026-10-18 08:51:08 WIB] === Farm run end ===
+[2026-10-18 08:51:13 WIB] === Farm run start (wallet 0xf0f25C36AC70E9d787a108eFB351626192C8107b) ===
+[2026-10-18 08:51:13 WIB] BLOCKED gte (GTE (MegaETH testnet)): faucet needs captcha — manual step required
+[2026-10-18 08:51:13 WIB] BLOCKED neptune (Neptune Protocol): faucet needs captcha, mainnet-balance:0.001 ETH on Ethereum mainnet — manual step required
+[2026-10-18 08:51:13 WIB] BLOCKED variational (Variational): faucet needs captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet — manual step required
+[2026-10-18 08:51:13 WIB] BLOCKED zenchain (Zenchain): faucet needs social:X post required — manual step required
+[2026-10-18 08:51:13 WIB] QUEUED  sahara (Sahara AI): daily — dapp: https://sahara.ai (labs site)
+[2026-10-18 08:51:13 WIB] QUEUED  multipli (Multipli.fi): regular (avoid unnecessary unstaking, 7-day wait) — dapp: https://testnet.multipli.fi?referral_code=6RUTJ
+[2026-10-18 08:51:13 WIB] QUEUED  mitosis (Mitosis): regular — dapp: https://app.testnet.mitosis.org
+[2026-10-18 08:51:13 WIB] BLOCKED dextr (Dextr): faucet needs captcha, mainnet-balance:0.001 ETH on Base mainnet — manual step required
+[2026-10-18 08:51:13 WIB] QUEUED  portal-bitcoin (Portal Bitcoin): daily (swap 1x = 40 sparks, 10x = 200 sparks) — dapp: https://faucet-testnet.portaldefi.com
+[2026-10-18 08:51:13 WIB] BLOCKED abstract (Abstract (Pudgy Penguins L2)): faucet needs captcha, mainnet-balance:0.001 ETH on Ethereum mainnet — manual step required
+[2026-10-18 08:51:13 WIB] BLOCKED polyhedra (Polyhedra (Expchain)): faucet needs captcha — manual step required
+[2026-10-18 08:51:13 WIB] BLOCKED saturn (Saturn BTC): faucet needs captcha — manual step required
+[2026-10-18 08:51:13 WIB] === Summary: 4 queued, 8 blocked ===
+[2026-10-18 08:51:13 WIB]   blocked: gte [captcha]
+[2026-10-18 08:51:13 WIB]   blocked: neptune [captcha, mainnet-balance:0.001 ETH on Ethereum mainnet]
+[2026-10-18 08:51:13 WIB]   blocked: variational [captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet]
+[2026-10-18 08:51:13 WIB]   blocked: zenchain [social:X post required]
+[2026-10-18 08:51:13 WIB]   blocked: dextr [captcha, mainnet-balance:0.001 ETH on Base mainnet]
+[2026-10-18 08:51:13 WIB]   blocked: abstract [captcha, mainnet-balance:0.001 ETH on Ethereum mainnet]
+[2026-10-18 08:51:13 WIB]   blocked: polyhedra [captcha]
+[2026-10-18 08:51:13 WIB]   blocked: saturn [captcha]
+[2026-10-18 08:51:13 WIB] === Farm run end ===
