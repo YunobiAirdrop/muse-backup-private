@@ -279,7 +279,7 @@
       "id": "dogeos",
       "name": "DogeOS Chikyū",
       "chain": "DogeOS Chikyū Testnet (Chain ID 6281971, EVM)",
-      "status": "faucet claimed 2026-10-18, farming aktif | Quest registration via X GAGAL 2026-10-18: OAuth X @Yunobi_id sukses diotorisasi, tapi quest.dogeos.com menolak callback (error auth_cleanup:session_generation:invalid_state, bug di sisi situs); widget login situs macet 'Loading'. Belum ada akun quest. Faksi terlihat: Demolition Dogs, Kernel Crew, Barkitects. Chapter 1 countdown ~1h7j (terlihat 18/10). | Update 17:06: widget LINK WALLET di settings muter terus (opsi wallet ga muncul) — bug situs, kejadian di HP user & browser asisten. User diminta coba lagi nanti; quest dikerjakan dulu dgn wallet 0x866b. | Login browser ASISTEN = mustahil (4x percobaan 18/10: registrasi X, login X, login Google, tombol Google — semua mentok di signature wallet EVM via Privy; tidak ada jalur login sosial murni). Quest hanya bisa dari HP user. | Update 18:43: LOGIN BERHASIL via X @Yunobi_id (signature login ternyata bisa di-approve di browser). Quest Daejin: follow @Daejinxyz + @azazeal666999 verif ✅, like+repost teaser ✅, 4 side quest COMPLETED ✅, kuis Daejin dijawab benar (pending verifikasi async). Sisa: reply 1 pertanyaan di X (tunggu keputusan user), Discord (skip, tdk login), langkah on-chain (hold). | Update 20:23: reply X ENGAGE ON THE TEASER terpost & terverifikasi ✅ (teks sesuai persetujuan user), READ THE MARKET FILE ✅, CLEAR THE MARKET CHECK ✅ — questline READ THE MARKET 5/6 (Discord skip, lootbox locked). Elitra PUT YOUR ELITRA ACCOUNT ON FILE selesai & terverifikasi ✅ (MEET THE BUYING DESK 6/7). ON-CHAIN TERBLOKIR: relay otorisasi DogeOS (relay.mydoge.com) error server-side 'auth_cleanup:session_generation:invalid_state' — login X di MOAR/Derps/Monko/DogeFundMe/BarkSwap selalu gagal setelah OAuth sukses (tidak ada tx terkirim). Error ini intermittent (login quest.dogeos.com 17:45 & Elitra 20:20 berhasil). Faucet 0x866b: rate-limited (sudah diklaim ~17:32 dari HP user, cooldown 21,5 jam). Opsi: retry otomatis nanti atau user login partner dari HP.",
+      "status": "faucet claimed 2026-10-18, farming aktif | Quest registration via X GAGAL 2026-10-18: OAuth X @Yunobi_id sukses diotorisasi, tapi quest.dogeos.com menolak callback (error auth_cleanup:session_generation:invalid_state, bug di sisi situs); widget login situs macet 'Loading'. Belum ada akun quest. Faksi terlihat: Demolition Dogs, Kernel Crew, Barkitects. Chapter 1 countdown ~1h7j (terlihat 18/10). | Update 17:06: widget LINK WALLET di settings muter terus (opsi wallet ga muncul) — bug situs, kejadian di HP user & browser asisten. User diminta coba lagi nanti; quest dikerjakan dulu dgn wallet 0x866b. | Login browser ASISTEN = mustahil (4x percobaan 18/10: registrasi X, login X, login Google, tombol Google — semua mentok di signature wallet EVM via Privy; tidak ada jalur login sosial murni). Quest hanya bisa dari HP user. | Update 18:43: LOGIN BERHASIL via X @Yunobi_id (signature login ternyata bisa di-approve di browser). Quest Daejin: follow @Daejinxyz + @azazeal666999 verif ✅, like+repost teaser ✅, 4 side quest COMPLETED ✅, kuis Daejin dijawab benar (pending verifikasi async). Sisa: reply 1 pertanyaan di X (tunggu keputusan user), Discord (skip, tdk login), langkah on-chain (hold). | Update 20:23: reply X ENGAGE ON THE TEASER terpost & terverifikasi ✅ (teks sesuai persetujuan user), READ THE MARKET FILE ✅, CLEAR THE MARKET CHECK ✅ — questline READ THE MARKET 5/6 (Discord skip, lootbox locked). Elitra PUT YOUR ELITRA ACCOUNT ON FILE selesai & terverifikasi ✅ (MEET THE BUYING DESK 6/7). ON-CHAIN TERBLOKIR: relay otorisasi DogeOS (relay.mydoge.com) error server-side 'auth_cleanup:session_generation:invalid_state' — login X di MOAR/Derps/Monko/DogeFundMe/BarkSwap selalu gagal setelah OAuth sukses (tidak ada tx terkirim). Error ini intermittent (login quest.dogeos.com 17:45 & Elitra 20:20 berhasil). Faucet 0x866b: rate-limited (sudah diklaim ~17:32 dari HP user, cooldown 21,5 jam). Opsi: retry otomatis nanti atau user login partner dari HP. | Update 23:17: retry on-chain — MOAR login via X TEMBUS (relay pulih), pinjam 1 USDT (tx 0x04ccf8bf) lalu LUNAS penuh (tx 0xdb76570d, no utang). Referral Derps SELESAI (kode 102204). Know Your Tools 4/6 (BarkSwap✓ Derps✓ Elitra✓ MOAR✓; bundle locked nunggu DogeFundMe+DogeMuseum). MASIH BLOKIR relay: login X Derps app (2x), DogeFundMe (4x), DogeMuseum (3x), MONKO (5x) — quest on-chain Derps (open position/add liquidity/close), donasi DogeFundMe, link DogeMuseum, MONKO wallet on file tertunda. Faucet rate-limit ~18,5 jam (DOGE+USDT). Relay flaky: MOAR bisa, situs lain belum.",
       "token_confirmed": false,
       "raised": "$6.9M dipimpin Polychain Capital (tim MyDoge)",
       "source": "Riset manual 2026-10-18 (permintaan user)",
@@ -325,6 +325,63 @@
       "frequency": "daily",
       "needs_user_action": true,
       "notes": "Incentivized testnet Season 1 dibuka 17 Sep 2026. XP = dasar airdrop. NON-EVM post-quantum (Dilithium3): seed EVM kemungkinan DITOLAK extension — beda kriptosistem; address Asentum akan beda dari address EVM walau seed sama. Waspada phishing claim-asentum.live — hanya pakai asentum.com. STATUS 2026-10-18: ekstensi resmi SUDAH terpasang di browser tapi UI tidak bisa dibuka otomatis — user takeover: buka Asentum Wallet → pilih Import (jangan Create new) → masukkan seed farming."
+    },
+    {
+      "id": "nowa-finance",
+      "name": "Nowa Finance",
+      "dapp_url": "https://app.nowa.finance",
+      "raised": "unknown",
+      "token_confirmed": true,
+      "reward_signal": "1:1 NOWA -> TGE allocation (confirmed per AirdropBuzz Oct 2026, score 82/100)",
+      "faucet": {
+        "action": "Request devnet test funds on the platform (zero-capital route)",
+        "url": "https://app.nowa.finance"
+      },
+      "frequency": "daily (devnet trades)",
+      "steps": [
+        "Connect farming wallet",
+        "Request devnet test funds",
+        "Make devnet trades (spot/perp)",
+        "Collect NOWA points"
+      ],
+      "format": "quest/points (devnet, non-testnet)",
+      "status": "QUEUED 2026-10-18 — verified live via browser.open. Needs onboarding: connect farming wallet + request devnet funds."
+    },
+    {
+      "id": "allox",
+      "name": "AlloX",
+      "dapp_url": "https://app.allox.ai",
+      "raised": "unknown",
+      "token_confirmed": true,
+      "reward_signal": "Every Point converts into $ALLOX at TGE (confirmed per AirdropBuzz Oct 2026, score 88/100)",
+      "faucet": {},
+      "frequency": "daily",
+      "steps": [
+        "Connect farming wallet",
+        "Prove portfolio via AI agent",
+        "Earn Points through portfolio/onchain activity"
+      ],
+      "format": "quest/points (AI agent, non-testnet)",
+      "status": "QUEUED 2026-10-18 — verified live via browser.open (Earn Points page active). Needs onboarding."
+    },
+    {
+      "id": "tastyco",
+      "name": "TastyCo",
+      "dapp_url": "https://app.tastyco.io",
+      "raised": "unknown",
+      "token_confirmed": true,
+      "reward_signal": "$100,000 $TASTY campaign; 5% supply airdrops + 15% community (per AirdropBuzz Oct 2026, score 86/100)",
+      "faucet": {},
+      "frequency": "daily (streaks: 3/5/7-day activity)",
+      "steps": [
+        "Connect farming wallet",
+        "Connect X/Telegram/Discord/Instagram",
+        "Daily activity streaks",
+        "Weekly education quiz",
+        "Referrals"
+      ],
+      "format": "quest/points (social + streaks, non-testnet)",
+      "status": "QUEUED 2026-10-18 — verified live via browser.open (quest page active, points ladder Newcomer->Ambassador). Needs onboarding: wallet + social connects."
     }
   ],
   "wallet_address": "0xf0f25C36AC70E9d787a108eFB351626192C8107b"
