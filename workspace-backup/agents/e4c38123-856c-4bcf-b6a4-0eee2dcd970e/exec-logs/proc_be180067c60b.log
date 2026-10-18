@@ -1,0 +1,5 @@
+MM URL: chrome-extension://ocicphjefllmdjaioocoolnmfbjdlcfg/home.html#/unlock
+found password field: input[type="password"]
+clicked unlock
+MM URL after: chrome-extension://ocicphjefllmdjaioocoolnmfbjdlcfg/home.html#/
+done

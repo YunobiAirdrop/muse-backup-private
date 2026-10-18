@@ -1,0 +1,7 @@
+pages before click: 3
+Connect button visible, clicking...
+pages after click: 3
+ - about:blank
+ - chrome-extension://ocicphjefllmdjaioocoolnmfbjdlcfg/home.html#/unlock
+ - https://elysium.kinetiq.xyz/testnet-faucet
+done

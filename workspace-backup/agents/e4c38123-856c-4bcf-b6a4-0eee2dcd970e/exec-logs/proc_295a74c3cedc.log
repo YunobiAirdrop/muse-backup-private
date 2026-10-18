@@ -1,0 +1,5 @@
+title: Psy Faucet | Testnet assets
+autowallet: True
+body: ← | Back to Bridge | TEST FUNDS | Get test pUSDT on Ethereum Sepolia |  | Mint 10,000 test pUSDT to your wallet address so you can exercise the deposit side of the bridge. You need a small amount of Ethereum Sepolia ETH to pay gas for this transaction. |  | Network | Ethereum Sepolia | BSC Testnet | Base Sepolia | 1 | Connect your wallet | 0xf0f25C…C8107b | Switch | 0.10349999999886 ETH | 2 | Switch to Ethereum Sepolia | Switch to Ethereum Sepolia | Adds Ethereum Sepolia to your wallet first if it’s missing. |  | If your wallet says “still connecting” after adding Ethereum Sepolia, select the network manually in MetaMask (Settings → Advanced → Show test networks) — or check your network/VPN; some RPC endpoints are blocked in certain regions. |  | 3 | Get test ETH for gas |  | The claim in step 4 is a transaction on Ethereum Sepolia — you ne
+turnstile detected: False
+done

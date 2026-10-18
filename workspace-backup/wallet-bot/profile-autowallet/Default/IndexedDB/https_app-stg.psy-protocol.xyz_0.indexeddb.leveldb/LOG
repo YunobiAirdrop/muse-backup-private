@@ -1,0 +1,2 @@
+2026/10/19-02:44:00.085 4088 Creating DB /home/hatch/workspace/wallet-bot/profile-autowallet/Default/IndexedDB/https_app-stg.psy-protocol.xyz_0.indexeddb.leveldb since it was missing.
+2026/10/19-02:44:00.163 4088 Reusing MANIFEST /home/hatch/workspace/wallet-bot/profile-autowallet/Default/IndexedDB/https_app-stg.psy-protocol.xyz_0.indexeddb.leveldb/MANIFEST-000001

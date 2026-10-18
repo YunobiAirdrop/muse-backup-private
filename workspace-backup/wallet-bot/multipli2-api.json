@@ -1,0 +1,32 @@
+[
+  {
+    "method": "GET",
+    "url": "https://api-testnet.multipli.fi/multipli/v2/app-and-networks/",
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "url": "https://api-testnet.multipli.fi/multipli/v2/coins/",
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "url": "https://api-testnet.multipli.fi/multipli/v2/get-apy/",
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "url": "https://api-testnet.multipli.fi/multipli/v1/get-apy/",
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "url": "https://api-testnet.multipli.fi/multipli/v2/platform-stats/",
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "url": "https://api-testnet.multipli.fi/multipli/v1/health/",
+    "body": ""
+  }
+]

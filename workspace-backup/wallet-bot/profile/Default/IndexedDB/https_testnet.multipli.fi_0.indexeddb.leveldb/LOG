@@ -1,3 +1,3 @@
-2026/10/19-00:43:08.240 284d Reusing MANIFEST /home/hatch/workspace/wallet-bot/profile/Default/IndexedDB/https_testnet.multipli.fi_0.indexeddb.leveldb/MANIFEST-000001
-2026/10/19-00:43:08.240 284d Recovering log #3
-2026/10/19-00:43:08.248 284d Reusing old log /home/hatch/workspace/wallet-bot/profile/Default/IndexedDB/https_testnet.multipli.fi_0.indexeddb.leveldb/000003.log 
+2026/10/18-19:19:46.556 2b07 Reusing MANIFEST /home/hatch/workspace/wallet-bot/profile/Default/IndexedDB/https_testnet.multipli.fi_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/18-19:19:46.558 2b07 Recovering log #3
+2026/10/18-19:19:46.559 2b07 Reusing old log /home/hatch/workspace/wallet-bot/profile/Default/IndexedDB/https_testnet.multipli.fi_0.indexeddb.leveldb/000003.log 

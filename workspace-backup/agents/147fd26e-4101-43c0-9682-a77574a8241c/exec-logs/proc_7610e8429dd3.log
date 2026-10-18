@@ -1,0 +1,4 @@
+[self-1] Balance before: 0.1 HYPE
+FAILED self-1: {'code': -32000, 'message': 'max fee per gas less than block base fee: address 0xf0f25C36AC70E9d787a108eFB351626192C8107b, maxFeePerGas: 100020000 baseFee: 100060000'}
+FINAL Balance: 0.1 HYPE
+HASHES: []

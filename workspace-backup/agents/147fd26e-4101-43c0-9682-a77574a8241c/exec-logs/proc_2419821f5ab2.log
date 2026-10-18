@@ -1,0 +1,4 @@
+[self-1] baseFee=100000000, using gasPrice=150000000
+FAILED self-1: {'code': -32000, 'message': 'intrinsic gas too low'}
+FINAL: 0.1 HYPE
+HASHES: []

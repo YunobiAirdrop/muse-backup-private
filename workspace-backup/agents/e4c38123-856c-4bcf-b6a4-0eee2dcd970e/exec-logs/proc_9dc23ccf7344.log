@@ -1,0 +1,5 @@
+window.ethereum: True, isAutoWallet: True
+accounts: ['0xf0f25C36AC70E9d787a108eFB351626192C8107b']
+clicking Connect...
+body after: Bridge | Explorer | Ecosystem | Tokens | Users | Stats | Docs | Faucet | Connect | Elysium testnet faucet |  | Get free testnet HYPE on Elysium to pay for gas while you try the network. |  | Connect a wallet to get testnet HYPE. |  | Connect | Add Elysium Testnet to wallet |  | Need HYPE on HyperEVM testnet to bridge? Use Hyperliquid’s faucet.⁠ |  | © 2026 Kinetiq |  | Resources | Docs | Brand | Kinetiq⁠ | Status⁠ | Restricted |  | United States is restricted from accessing this application. |  | Close
+done
