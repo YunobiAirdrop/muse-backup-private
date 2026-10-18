@@ -1,40 +1,8 @@
+# Source observations
+
 # Proactive updates already delivered
 
 Only the updates this proactive pipeline delivered in the last 7 days. Muse's ordinary chat replies, including results a task reported back in the conversation, are not listed here, so a message missing from this list may still have reached the user: check the conversation and search Past conversations with `muse.memory_search` before treating something as undelivered.
-
-## 2026-10-10T11:43:26.740Z
-
-message_id: `assistant-msg-770965a0-2ffc-15a6-af83-b67d96c7a2bc`
-
-**Preview ketukan malam ini (20:00–23:00): 43 video antre.**
-
-Antrean nambah dari 36 pagi tadi jadi 43 sekarang. Watchdog jam 20:00 akan coba yang sudah eligible — tapi jujur: limit harian YouTube ketat, kemarin 6 dicoba 0 lolos. Dari 43 ini realistisnya cuma sebagian kecil yang tembus malam ini; sisanya otomatis antre lagi. Ini ritme limit, bukan kegagalan.
-
-Yang kamu lakukan:
-1. Standby HP + aplikasi Muse terbuka 20:00–23:00 — tiap percobaan upload = 1 kartu persetujuan di aplikasi Muse (bukan WhatsApp). Tanpa ketukan kamu, tidak ada yang jalan.
-2. Hanya APPROVE kartu dari watchdog retry. JANGAN approve kartu upload dari cron produksi harian — limit aktif, pasti gagal, ketukan terbuang.
-
-## 2026-10-10T13:37:19.822Z
-
-message_id: `assistant-msg-5a7ce0a8-2a1e-9975-5dff-c96864e17928`
-
-**Koreksi: alarm logout Google tadi pagi salah.**
-
-Sesi Google buat upload YouTube ternyata **masih aktif** — dicek langsung jam 14:00, terverifikasi sebagai khususstokyunobi@gmail.com, YouTube Studio kebuka normal.
-
-Jadi: **tidak perlu login ulang**, abaikan tombol persetujuan login tadi pagi. Izin login ulang yang kamu kasih juga tidak perlu dijalankan. Batch upload malam ini aman dari sisi sesi.
-
-Kalau kamu sempat mengetuk tombolnya tadi, nggak perlu berbuat apa-apa lagi.
-
-## 2026-10-10T21:22:40.146Z
-
-message_id: `assistant-msg-bba71fb2-ada2-42d7-9e2f-3a5869a3d72e`
-
-Video perdana Macam Macam aman dari duplikat — retry otomatisnya saya tahan dulu, jadi nggak bakal dobel di channel.
-
-Tinggal satu yang perlu saya tahu:
-
-[[hatch_widget:widget-229aeda0-419e-4c42-8936-a9794db5f14b]]
 
 ## 2026-10-12T02:41:24.536Z
 
@@ -219,3 +187,37 @@ message_id: `assistant-msg-33dd6972-db2a-f430-5a09-51fefc53aaeb`
 Bio TikTok baru udah jadi — judul "Info Loker & Rekomendasi Pilihan" plus pesan transparansi afiliasi yang kamu minta. Tinggal publish, boleh?
 
 [[hatch_widget:widget-906fd494-f5c8-440b-a58b-9413b5fd25c7]]
+
+## 2026-10-18T04:29:40.734Z
+
+message_id: `assistant-msg-b04a54cf-0cd8-9436-c62e-a5d89495f9a2`
+
+Ketemu masalahnya. Kemarin saya salah urutan: bikin signer doang tanpa tanda tangan, makanya deeplink Warpcast-nya error terus.
+
+Yang bener: sebelum minta approval, key request-nya harus ditandatangani dulu (EIP-712 pakai akun Farcaster kamu), baru didaftarkan ke Neynar. Setelah itu muncul link approval valid yang dibuka di aplikasi Warpcast HP.
+
+Boleh saya lanjutin? Saya butuh seed phrase Farcaster kamu dimasukin via form aman (bukan di chat) — dipakai sekali buat tanda tangan, nggak disimpan.
+
+## 2026-10-18T04:29:40.867Z
+
+message_id: `assistant-msg-d1ae0f37-5ad7-4158-93f6-f91634f88230`
+
+Oh iya, bio TikTok baru udah jadi — tinggal publish, boleh?
+
+## 2026-10-18T06:35:07.905Z
+
+message_id: `assistant-msg-30883766-8ae8-d05e-9c1a-c9894eada5d3`
+
+Jujur dulu: kemarin saya salah kasih info. Semua cron mati total 2 hari (bukan cuma sebagian error kayak yang saya bilang). Penyebabnya binding WhatsApp retired, jadi 40 cron nggak jalan sama sekali — produksi YouTube, backup, dashboard, semuanya.
+
+Udah saya perbaiki: 40 cron dipindah ke main chat, semua jalan normal sekarang.
+
+Dua yang perlu kamu putusin:
+1. Produksi 2 hari bolong — kejar tayang malam ini atau lewati aja?
+2. Laporan cron sekarang di main chat — mau tetap di sini atau balik ke WhatsApp?
+
+## 2026-10-18T07:05:39.431Z
+
+message_id: `assistant-msg-e84bdb6a-b78b-e643-1b44-1b6f52e3e626`
+
+Lagi restart mining 9 wallet. Browser mining tadi ternyata udah kosong semua (termasuk wallet #1), jadi saya mulai ulang dari nol.

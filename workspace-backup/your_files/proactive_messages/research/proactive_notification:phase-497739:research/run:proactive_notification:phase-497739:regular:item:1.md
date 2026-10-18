@@ -17,3 +17,9 @@ Prepared: ⁨2026-10-13T03:31:40Z⁩.
 Kenapa penting sekarang: dua video yang disetujui/terjadwal tapi nyangkut semalam kini siap dan sudah dimasukkan ke pipeline upload resmi — batch API jam 14:05 dan watchdog jam 20:00 akan mengerjakannya. Upload tetap butuh ketukan persetujuan user (tidak ada yang jalan sendiri).
 
 Selected for regular priority at ⁨2026-10-13T03:33:07.361369+00:00⁩. Record created ⁨2026-10-18T07:06:02.569494628+00:00⁩; delivery is not yet confirmed.
+
+
+**Delivery outcome (⁨2026-10-18T07:06:05.059257+00:00⁩):** Not sent. Queue state: `⁨suppressed⁩`.
+Reason: `⁨revalidation_declined⁩`.
+`⁨agent.message_mailbox.submission_id=a6fe5921-fc47-b4dc-6d7a-5e9b45ff757e⁩` resolves the delivery transcript.
+<!-- proactive-outcome:proactive_notifier:run:proactive_notification:phase-497739:regular -->

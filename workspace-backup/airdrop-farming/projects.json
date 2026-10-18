@@ -274,6 +274,57 @@
       "frequency": "2-3x per minggu",
       "needs_user_action": true,
       "notes": "DEX Bitcoin pertama di testnet (diliput cryptobriefing & cointelegraph 2024; kolab Arch Network $7M seed). BUTUH TINDAKAN USER: install Unisat wallet + pegang tBTC testnet (bukan EVM, di luar otomatisasi farming saat ini)."
+    },
+    {
+      "id": "dogeos",
+      "name": "DogeOS Chikyū",
+      "chain": "DogeOS Chikyū Testnet (Chain ID 6281971, EVM)",
+      "status": "queued",
+      "token_confirmed": false,
+      "raised": "$6.9M dipimpin Polychain Capital (tim MyDoge)",
+      "source": "Riset manual 2026-10-18 (permintaan user)",
+      "rpc": "https://rpc.testnet.dogeos.com/",
+      "dapp_url": "Portal resmi DogeOS (Grand Heist campaign)",
+      "faucet": {
+        "url": "Faucet resmi DogeOS (link dari portal resmi); alternatif https://faucets.chain.link/dogeos-testnet-chikyu",
+        "action": "Tempel EVM address (atau connect wallet), klaim 1x/24 jam ~42,069 test DOGE",
+        "needs_captcha": false,
+        "cooldown": "24 jam"
+      },
+      "steps": [
+        "Tambah network DogeOS Chikyū Testnet (Chain ID 6281971, RPC https://rpc.testnet.dogeos.com/)",
+        "Klaim faucet 1x/hari ~42,069 test DOGE",
+        "Kerjakan quest harian Grand Heist (sosial + on-chain)",
+        "Pakai test DOGE di dApps ekosistem (mis. Moar Finance: supply/borrow/repay/withdraw)",
+        "Kumpulkan Loyalty Points + XP/medali/tiket"
+      ],
+      "frequency": "daily",
+      "notes": "Public testnet dibuka 30 Sep 2026. Gas = test DOGE dari faucet resmi — tidak butuh Sepolia ETH, tanpa syarat saldo mainnet. Token belum diumumkan."
+    },
+    {
+      "id": "asentum",
+      "name": "Asentum",
+      "chain": "Asentum chain (NON-EVM)",
+      "status": "menunggu user IMPORT farming wallet via takeover browser (user: jangan bikin baru)",
+      "token_confirmed": false,
+      "raised": "unknown",
+      "source": "Riset manual 2026-10-18 (permintaan user)",
+      "dapp_url": "https://airdrop.asentum.com",
+      "faucet": {
+        "url": "https://airdrop.asentum.com (Get Test ASE)",
+        "action": "Sign in, link wallet, drip 5 test ASE",
+        "needs_captcha": false
+      },
+      "steps": [
+        "Install Asentum Chrome wallet",
+        "Sign in di airdrop.asentum.com, link wallet, klaim 5 test ASE",
+        "Swap di Auras AMM (25 XP, maks 150/hari)",
+        "Tambah likuiditas (45 XP, maks 90/hari)",
+        "Transfer ASE, post sosial, jaga streak harian"
+      ],
+      "frequency": "daily",
+      "needs_user_action": true,
+      "notes": "Incentivized testnet Season 1 dibuka 17 Sep 2026. XP = dasar airdrop. NON-EVM post-quantum (Dilithium3): seed EVM kemungkinan DITOLAK extension — beda kriptosistem; address Asentum akan beda dari address EVM walau seed sama. Waspada phishing claim-asentum.live — hanya pakai asentum.com. STATUS 2026-10-18: ekstensi resmi SUDAH terpasang di browser tapi UI tidak bisa dibuka otomatis — user takeover: buka Asentum Wallet → pilih Import (jangan Create new) → masukkan seed farming."
     }
   ],
   "wallet_address": "0xf0f25C36AC70E9d787a108eFB351626192C8107b"

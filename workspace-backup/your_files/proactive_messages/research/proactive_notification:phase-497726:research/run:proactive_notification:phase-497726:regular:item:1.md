@@ -18,3 +18,9 @@ Prepared: ⁨2026-10-12T14:25:23Z⁩.
 KOREKSI PENTING dari update memori terbaru (12 Okt malam): demo channel bus keyframe (Bimo) DISAHKAN user ("chanel bus udah oke"); untuk TRUK, user minta versi KARTUN kayak channel bus — BUKAN foto stiker. Jadi contoh keyframe Truk versi foto stiker yang dikirim ke user [source:44] TIDAK BOLEH diupload jadi pembuka channel. Foto stiker tetap format untuk tema Macam Macam lain sampai user bilang sebaliknya. Langkah benar: produksi dulu Truk Part 1 versi kartun keyframe (meluncur masuk + mantul + background bergeser, gaya Bimo), kirim contohnya ke user, upload hanya setelah user oke. Setelah versi kartun tayang, netralkan file hold lama ~/workspace/youtube-otomatis/retry-queue/.hold-manual-upload/macammacam-2026-10-10-truk-part1.json agar tidak dobel — jangan netralkan sebelum itu.
 
 Selected for regular priority at ⁨2026-10-12T14:26:07.424328+00:00⁩. Record created ⁨2026-10-18T07:05:59.611796925+00:00⁩; delivery is not yet confirmed.
+
+
+**Delivery outcome (⁨2026-10-18T07:06:02.384765+00:00⁩):** Not sent. Queue state: `⁨suppressed⁩`.
+Reason: `⁨revalidation_declined⁩`.
+`⁨agent.message_mailbox.submission_id=95210940-71a7-9983-c62e-9443038d66b6⁩` resolves the delivery transcript.
+<!-- proactive-outcome:proactive_notifier:run:proactive_notification:phase-497726:regular -->
