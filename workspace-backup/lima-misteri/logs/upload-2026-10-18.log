@@ -1,10 +1,43 @@
+CHANNEL: Lima Misteri UCQ0vHTsTqVeYy3zLno6pVfQ
+cek duplikat OK: 4 judul belum ada
+upload LONG: Hantu Brown Lady 1936, Nomor 1 Paling Seram | Lima Misteri
+... 8388608/33528240 bytes
+... 16777216/33528240 bytes
+... 25165824/33528240 bytes
+thumbnail: 200
+LONG OK: Pmep7DRs7hY https://youtu.be/Pmep7DRs7hY
+upload SHORT s1: Hantu Ini Tertangkap Kamera Tahun 1936 | Lima Misteri #butif
+UPLOAD GAGAL: INIT 400: {
+  "error": {
+    "code": 400,
+    "message": "The request metadata specifies an invalid or empty video title.",
+    "errors": [
+      {
+        "message": "The request metadata specifies an invalid or empty video title.",
+        "domain": "youtube.video",
+        "reason": "invalidTitle
 Traceback (most recent call last):
   File "/home/hatch/workspace/lima-misteri/upload_lima_2026-10-18.py", line 213, in <module>
     main()
-  File "/home/hatch/workspace/lima-misteri/upload_lima_2026-10-18.py", line 160, in main
-    s = api_session(SLUG)
-        ^^^^^^^^^^^^^^^^^
-  File "/home/hatch/workspace/youtube-otomatis/yt-growth/auth.py", line 136, in api_session
-    from google.auth.transport.requests import AuthorizedSession
-ModuleNotFoundError: No module named 'google'
+  File "/home/hatch/workspace/lima-misteri/upload_lima_2026-10-18.py", line 190, in main
+    vid = upload_one(s, vv)
+          ^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/lima-misteri/upload_lima_2026-10-18.py", line 120, in upload_one
+    raise RuntimeError(f"INIT {r.status_code}: {r.text[:500]}")
+RuntimeError: INIT 400: {
+  "error": {
+    "code": 400,
+    "message": "The request metadata specifies an invalid or empty video title.",
+    "errors": [
+      {
+        "message": "The request metadata specifies an invalid or empty video title.",
+        "domain": "youtube.video",
+        "reason": "invalidTitle",
+        "location": "body.snippet.title",
+        "locationType": "other"
+      }
+    ]
+  }
+}
+
 EXIT=1

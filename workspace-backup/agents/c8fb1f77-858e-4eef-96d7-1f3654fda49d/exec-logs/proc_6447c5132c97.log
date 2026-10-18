@@ -1,0 +1,9 @@
+/home/hatch/workspace/youtube-otomatis/yt-growth/venv/bin/python
+        "location": "body.snippet.title",
+        "locationType": "other"
+      }
+    ]
+  }
+}
+
+EXIT=1
