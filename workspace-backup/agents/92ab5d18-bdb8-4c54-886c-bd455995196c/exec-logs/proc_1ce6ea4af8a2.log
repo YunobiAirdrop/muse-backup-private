@@ -1,5 +1,0 @@
- - Improved error and warning messages
-Starting a Gradle Daemon (subsequent builds will be faster)
-Starting process 'Gradle build daemon'. Working directory: /home/hatch/.gradle/daemon/8.5 Command: /home/hatch/jdk17/jdk-17.0.20.1+1/bin/java --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -Xmx1g -Dfile.encoding=US-ASCII -Duser.country=US -Duser.language=en -Duser.variant -cp /home/hatch/workspace/yunobi-dashboard-apk/.gradle-dl/gradle-8.5/lib/gradle-launcher-8.5.jar -javaagent:/home/hatch/workspace/yunobi-dashboard-apk/.gradle-dl/gradle-8.5/lib/agents/gradle-instrumentation-agent-8.5.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.5
-FAILURE: Build failed with an exception.
-DONE
