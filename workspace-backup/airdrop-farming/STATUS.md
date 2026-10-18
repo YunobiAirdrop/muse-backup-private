@@ -171,3 +171,10 @@ bridge 2 jam; dipantau).
 - Abstract (Pudgy Penguins L2, XP system, bridge Sepolia->Abstract)
 - Polyhedra/Expchain (zkBridge infra, faucet tZKJ 3 networks)
 Total proyek aktif: 11 (GTE/MegaETH tetap di list tapi testnet tidak eligible lagi)
+
+## Run manual 2026-10-18 09:35 WIB (user: "kamu saja yang lakuin semua")
+- 5 tx Sepolia terkirim (self-transfer 0 ETH, gas ~0.019 gwei, murah).
+  TX: c19b9820..., 21b6458a..., f687dd9a..., 711f18a5..., bc4ad579...
+- Saldo Sepolia: 0.0535 -> 0.05349999 ETH (gas hampir nol).
+- ArbSepolia/BSC: 0 (skip, tidak ada gas).
+- MegaETH testnet: 1 ETH tapi testnet mati (tidak dipakai).

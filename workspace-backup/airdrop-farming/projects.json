@@ -147,8 +147,8 @@
       "dapp_url": "https://app.testnet.mitosis.org",
       "faucet": "testnet.mitosis.org (10x claims)",
       "frequency": "regular",
-      "status": "active",
-      "notes": "Faucet sendiri, max 10x claim. Deposit + vault + trading.",
+      "status": "DEAD - testnet offline, mainnet live",
+      "notes": "testnet.mitosis.org DNS tidak resolve (2026-10-18). Mitosis sudah mainnet di app.mitosis.org. Tidak ada faucet.",
       "steps": [
         "Claim test token di testnet.mitosis.org (maks 10x)",
         "Deposit ke vault di app.testnet.mitosis.org",

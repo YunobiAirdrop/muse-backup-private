@@ -1,16 +1,3 @@
-## 2026-10-11T06:30:29.224314Z
-
-Awaiting delivery
-
-- The Real Monetization Target
-
-## 2026-10-11T12:27:04.307602Z
-
-Awaiting delivery
-
-- Email situs judi "Jagoan Blast" memakai alamat email user — beri tahu singkat + tawarkan tandai spam
-- Publish bio TikTok baru (judul + pesan transparansi afiliasi) — edit selesai, tinggal ketukan user
-
 ## 2026-10-12T03:26:17.784520Z
 
 Awaiting delivery
@@ -126,8 +113,27 @@ Awaiting delivery
 
 - APK Yunobi Cipcat: build yang dijanjikan tidak jalan — jalur cepat via GitHub Releases
 
-## 2026-10-15T21:34:13.497190Z
+## 2026-10-17T10:27:02.724024Z
 
 Awaiting delivery
 
-- Disk 100% penuh: 4,08 GB video sudah-terupload lolos dari cron pembersih — minta izin hapus
+- Riset: cara approve signer Neynar yang benar (jawaban atas janji "saya riset dulu")
+
+## 2026-10-17T11:26:29.937771Z
+
+Awaiting delivery
+
+- Riset selesai: cara approve signer Neynar yang benar (jawaban janji "saya riset dulu")
+- Bio TikTok baru tinggal publish — nunggu satu ketukan (pengingat ke-1)
+
+## 2026-10-17T12:31:15.588753Z
+
+Awaiting delivery
+
+- Armada cron mati total 2 hari — sudah diperbaiki, 40 cron dipindah ke main chat
+
+## 2026-10-17T12:31:15.670297Z
+
+Awaiting delivery
+
+- Riset: Farcaster resmi TIDAK akan ada token — farming tetap berguna untuk airdrop ekosistem (DEGEN)
