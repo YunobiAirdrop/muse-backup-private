@@ -1,12 +1,21 @@
 # Inferred goal leads
 
-Updated 2026-10-17T03:49:57Z from verified studying output.
+Updated 2026-10-18T00:48:08Z from verified studying output.
 
-## Dapat kerja tetap (operator/karyawan pabrik) di sekitar Tangerang
+## Finish Shopee Affiliate payment and tax setup
 
-- Rationale: Ini versi yang diperbaiki dari lead yang ditahan pembacaan refutasi: klaim yang dilebihkan ('ia melamar') sudah diluruskan — formulir kernet Waste4Change disiapkan 2026-10-09 tetapi pengirimannya belum terkonfirmasi per 2026-10-12 — dan bukti permintaan lokasi pabrik seafood (tanpa bahasa pencarian kerja sama sekali, muncul di tengah sesi troubleshooting OAuth) sudah dibuang. Yang bertahan adalah pola nyata multi-hari pencarian kerja tetap di sekitar Tangerang: 2026-10-06 user meminta dicarikan loker operator pabrik dan menyetujui pengiriman email lamaran ke PT Immanuel Sukses Abadi (operator produksi crusher, Jatake); walk-in ke PT Trisatya dilakukan dan di-follow-up; 2026-10-10 surat lamaran + CV Helper Produksi terkirim via email; 2026-10-09 formulir kernet Waste4Change disiapkan. Mendapat kerja tetap adalah outcome yang tahan berminggu-minggu hingga berbulan-bulan, dan user_goal.search ('kerja pabrik loker operator karyawan tetap') mengembalikan 0 kecocokan — tidak diduplikasi goal aktif mana pun (satu-satunya goal aktif adalah monetisasi YouTube). Lead baru, bukan carry-forward — catatan section Inferred Goal Leads STUDYING.md sebelumnya tidak mencatat lead kuat. Framing tetap sebagai lead, bukan kepastian.
-- Evidence: memory/2026-10-06.md#L288 — 'LAMAR KERJA (2026-10-06): user minta carikan loker operator pabrik sekitar Cadas Tangerang + daftarin lamaran... Email lamaran TERKIRIM ke hrd@kerin-id.com (PT Immanuel Sukses Abadi, operator produksi crusher, Jatake) — user setujui.'; ~/memory/people/ahmad-sujai.md — '2026-10-09: User meminta dibuatkan data formulir rekrutmen Waste4Change ... diisi bersamaan dengan formulir user sendiri untuk posisi kernet'; '2026-10-12: ...keputusan yang masih terbuka adalah mengirimnya sekarang atau menunggu hasil walk-in PT Trisatya user hari itu dulu. Pengiriman formulir belum terkonfirmasi.'; ALIGNMENT_SYNTHESIS.md — 'his own hunt for factory work near Mauk, Tangerang'
+- Rationale: User operates a live Shopee affiliate program (daily promo rotation, 36-product catalog) whose commissions cannot disburse until payment & tax info is completed — a standing blocker in their own record. Completing the setup is a durable one-time outcome unlocking earned income; it is implied by sustained operation but never agreed to track.
+- Evidence: MEMORY.md — SHOPEE AFFILIATE: 'PERINGATAN: komisi tidak cair sampai user lengkapi info pembayaran & pajak di affiliate.shopee.co.id.' (observed 2026-10-05, still standing); MEMORY.md — PROMO & VIDEO AFILIASI: '5 produk/hari, katalog 36 produk, rotasi 4 akun' (daily promo cron active); user_goal.search('Shopee affiliate payment tax') + user_goal.list: no existing goal covers Shopee payout setup
 - Confidence: medium
-- What would confirm it: User kembali menyebut pencarian kerja/pabrik/loker, menanyakan hasil walk-in atau lamaran sebelumnya, atau membahas kebutuhan penghasilan tetap.
-- What would reject it: User menyebut tidak lagi mencari kerja (mis. fokus penuh ke usaha konten), lamaran-lamaran yang ada ternyata untuk orang lain, atau tidak ada sinyal pencarian kerja baru selama beberapa minggu.
-- Gentle next moment: Ketika user kembali menyebut kawasan pabrik/loker di sekitar Tangerang, atau membahas keuangannya dan menyebut kebutuhan penghasilan tetap.
+- What would confirm it: User asks about Shopee commissions not arriving, or mentions payout/tax setup at affiliate.shopee.co.id.
+- What would reject it: Commissions have already disbursed, or user says they don't care about Shopee affiliate payouts.
+- Gentle next moment: Next time Shopee affiliate earnings or payouts come up in main chat.
+
+## Reach 600 TikTok followers on @ngeweb.yuk to restart product reviews
+
+- Rationale: User personally chose the TikTok loker pivot and set 600 followers as the explicit gate to reactivate the affiliate product-review pipeline, with daily production crons running toward it. The milestone is user-defined and implied as a goal, but never tracked as one.
+- Evidence: MEMORY.md — PIVOT KONTEN TIKTOK: 'Tiap laporan tanya jumlah followers; user konfirmasi 600 → aktifkan lagi review-harian.'; ALIGNMENT_SYNTHESIS.md: 'TikTok loker push climbing toward 600 and 1,000 followers'; Enabled schedules: tiktok-loker-siang + tiktok-loker-harian (2 loker videos/day production)
+- Confidence: medium
+- What would confirm it: User reports TikTok follower count, celebrates a milestone, or asks when product reviews return.
+- What would reject it: User abandons the TikTok pivot, or the 600-follower gate is superseded (e.g., TikTok rule change).
+- Gentle next moment: Next time the TikTok follower count is reported in main chat.

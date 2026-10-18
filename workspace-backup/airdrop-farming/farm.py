@@ -62,6 +62,9 @@ def main():
     blocked = []
     for p in projects:
         faucet = p.get("faucet", {})
+        # faucet bisa berupa string deskriptif (mis. "testnet.mitosis.org (10x claims)")
+        if isinstance(faucet, str):
+            faucet = {}
         needs_captcha = faucet.get("needs_captcha", False)
         needs_social = faucet.get("needs_social")
         needs_mainnet = faucet.get("needs_mainnet_balance")
@@ -78,7 +81,8 @@ def main():
                 f"{', '.join(reasons)} — manual step required", lf)
         else:
             queued.append(p["id"])
-            log(f"QUEUED  {p['id']} ({p['name']}): {p['frequency']} — "
+            freq = p.get("frequency", "regular")
+            log(f"QUEUED  {p['id']} ({p['name']}): {freq} — "
                 f"dapp: {p.get('dapp_url')}", lf)
 
     log(f"=== Summary: {len(queued)} queued, {len(blocked)} blocked ===", lf)

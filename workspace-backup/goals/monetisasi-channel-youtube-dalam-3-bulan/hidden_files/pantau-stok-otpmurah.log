@@ -6,3 +6,4 @@
 2026-10-18 05:50 - stok kosong (1x klik Beli: toast 'Layanan sedang dalam pengisian, mohon coba beberapa menit lagi'; Order Aktif kosong, saldo tetap Rp 11.000)
 2026-10-18 06:15 - stok kosong (1x klik 'Beli Sekarang' Rp 361: toast 'Layanan sedang dalam pengisian, mohon coba beberapa menit lagi'; Order Aktif kosong, saldo tetap Rp 11.000)
 2026-10-18 00:12 - stok kosong (1x klik Beli + konfirmasi Rp 361: order TIDAK terbentuk, Order Aktif 0, riwayat tanpa entri baru, saldo tidak terpotong, tetap Rp 11.000; tampilan stok 101.471 tidak valid)
+2026-10-18 08:15 - stok kosong (1x klik 'Beli Sekarang' Rp 361: dialog tertutup tanpa order baru; Order Aktif tetap 0, saldo tidak terpotong, tetap Rp 11.000; toast persis 'Layanan sedang dalam pengisian' tidak tertangkap visual, konsisten dengan stok kosong)

@@ -1,6 +1,6 @@
 # STUDYING.md
 
-<!-- studying-projection-run: 2026-10-17T18:30:15.775418873+00:00 -->
+<!-- studying-projection-run: 2026-10-18T00:48:08.500848071+00:00 -->
 
 Learning-state projection for active study goals. Distinct from `GOALS.md`: this file carries the next retrieval prompt, mastery band, and next review for each goal in active study. It is kept current automatically and is read-only; change goals through the `goals` tool, not by editing this file.
 
@@ -16,8 +16,8 @@ Current goal context:
 - Selected because: in_study
 - Mode: teach (novice band)
 - Mastery: not yet estimated (needs more observations)
-- Next review: 2026-10-18T18:30:15.775418873+00:00
-- Note: workspace/goals/monetisasi-channel-youtube-dalam-3-bulan/agent_notes/2026-10-17/monetisasi-channel-youtube-dalam-3-bulan.md
+- Next review: 2026-10-19T00:48:08.500848071+00:00
+- Note: workspace/goals/monetisasi-channel-youtube-dalam-3-bulan/agent_notes/2026-10-18/monetisasi-channel-youtube-dalam-3-bulan.md
 - Brief: workspace/goals/monetisasi-channel-youtube-dalam-3-bulan/briefs/Jejak Islami Footage Decision (2026-10-12 07.15.13).html
 - Next retrieval: From memory, state the core idea of Monetisasi channel YouTube dalam 3 bulan in your own words, then check it against the worked example.
 
