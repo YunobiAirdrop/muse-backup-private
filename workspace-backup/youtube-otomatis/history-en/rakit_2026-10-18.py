@@ -249,9 +249,19 @@ def main():
         idxs.append(c * per)
     idxs.append(len(vsegs))
     print(f"  chunk boundaries: {idxs}", flush=True)
+    # batas chunk audio dihitung TERPISAH (asegs 38 item, bukan 74 seperti video)
+    n_a = len(asegs)
+    aidxs = [0]
+    per_a = n_a // N_CHUNK
+    for c in range(1, N_CHUNK):
+        aidxs.append(c * per_a)
+    aidxs.append(n_a)
+    print(f"  audio chunk boundaries: {aidxs}", flush=True)
     vchunks, achunks = [], []
     for c in range(N_CHUNK):
         a, b = idxs[c], idxs[c + 1]
+        aa, ab = aidxs[c], aidxs[c + 1]
+        assert ab - aa > 0, f"chunk audio {c} kosong"
         exp_v = sum(vdurs[a:b])
         vc = os.path.join(tmpd, f"chunkV{c}.mp4")
         if not (os.path.exists(vc) and abs(dur(vc) - exp_v) < 1.0):
@@ -263,7 +273,7 @@ def main():
         vchunks.append(vc)
         ac = os.path.join(tmpd, f"chunkA{c}.m4a")
         if not (os.path.exists(ac) and dur(ac) > 0.5):
-            lst = os.path.join(tmpd, f"listA{c}.txt"); write_list(asegs[a:b], lst)
+            lst = os.path.join(tmpd, f"listA{c}.txt"); write_list(asegs[aa:ab], lst)
             subprocess.run([FFQ, "-y", "-f", "concat", "-safe", "0", "-i", lst,
                             "-ar", "44100", "-ac", "2",
                             "-c:a", "aac", "-b:a", "128k", ac],

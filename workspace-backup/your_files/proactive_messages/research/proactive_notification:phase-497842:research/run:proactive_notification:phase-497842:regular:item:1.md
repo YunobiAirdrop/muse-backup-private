@@ -17,3 +17,9 @@ Prepared: ⁨2026-10-17T10:26:31Z⁩.
 Kenapa ini penting sekarang: thread Farcaster sedang aktif dan user mulai frustrasi ("ga bisa", "dimna ga ada" — source:196, source:209, source:223). Main agent sudah mengakui mentok dan berjanji "Saya mulai riset + siapin sistemnya sekarang. Nanti kalau udah ketemu cara approve yang gampang (cukup 1x tap), baru saya kabarin." (source:224, 17:11 WIB). Riset ini melengkapi janji itu — dibaca dari dokumentasi resmi Neynar pada 2026-10-17 ~17:25 WIB.
 
 Selected for regular priority at ⁨2026-10-17T10:27:02.270761+00:00⁩. Record created ⁨2026-10-18T07:15:04.743422178+00:00⁩; delivery is not yet confirmed.
+
+
+**Delivery outcome (⁨2026-10-18T07:15:19.249776+00:00⁩):** Not sent. Queue state: `⁨suppressed⁩`.
+Reason: `⁨revalidation_declined⁩`.
+`⁨agent.message_mailbox.submission_id=ce3a94a2-6aac-acdd-8ccb-2fd5e0c38363⁩` resolves the delivery transcript.
+<!-- proactive-outcome:proactive_notifier:run:proactive_notification:phase-497842:regular -->

@@ -1,0 +1,4 @@
+beat-020: 15.6 seg38 dur: 8.58
+[out#0/image2 @ 0x6468e454b200] video:66KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.6 q=8.8 Lsize=N/A time=00:00:00.03 bitrate=N/A speed=0.02x elapsed=0:00:01.67    
+-rw-rw---- 1 root root 67083 Oct 18 11:51 /tmp/qc4.jpg

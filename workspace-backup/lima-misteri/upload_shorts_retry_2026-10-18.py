@@ -18,7 +18,14 @@ SLUG, CHANNEL_ID, PUBLISH_AT = _upl.SLUG, _upl.CHANNEL_ID, _upl.PUBLISH_AT
 BASE, VIDEOS = _upl.BASE, _upl.VIDEOS
 AFF_A, AFF_B, AFF_NOTE, DISCLAIMER = _upl.AFF_A, _upl.AFF_B, _upl.AFF_NOTE, _upl.DISCLAIMER
 
-def tulis_antrean_shorts(video, sebab, long_url):
+LONG_URL = "https://youtu.be/Pmep7DRs7hY"
+SHORT_TITLES = {
+    "s1": "Hantu Brown Lady | Lima Misteri #butifyourcloseyoureyesmeme #shorts #misteri #penampakan #foryou",
+    "s2": "Legenda dari Internet | Lima Misteri #butifyourcloseyoureyesmeme #shorts #misteri #legenda #foryou",
+    "s3": "Kastil Terlarang | Lima Misteri #butifyourcloseyoureyesmeme #shorts #misteri #kastilhantu #foryou",
+}
+
+def tulis_antrean_shorts(shorts, video, sebab, long_url):
     instr = os.path.join(BASE, "upload-instruksi-2026-10-18.md")
     with open(instr, "w") as f:
         f.write(f"# Instruksi upload Lima Misteri 2026-10-18 (channel: Lima Misteri / {CHANNEL_ID})\n\n")
@@ -40,11 +47,6 @@ def tulis_antrean_shorts(video, sebab, long_url):
                        f"lima-misteri-2026-10-18-{video['key']}.json")
     json.dump(entry, open(rqp, "w"), indent=1, ensure_ascii=False)
     print(f"ANTREAN ditulis: {rqp}", flush=True)
-SHORT_TITLES = {
-    "s1": "Hantu Brown Lady | Lima Misteri #butifyourcloseyoureyesmeme #shorts #misteri #penampakan #foryou",
-    "s2": "Legenda dari Internet | Lima Misteri #butifyourcloseyoureyesmeme #shorts #misteri #legenda #foryou",
-    "s3": "Kastil Terlarang | Lima Misteri #butifyourcloseyoureyesmeme #shorts #misteri #kastilhantu #foryou",
-}
 
 def main():
     shorts = []
@@ -77,7 +79,7 @@ def main():
         if is_limit_error(sebab):
             for vv in shorts:
                 if vv["key"] not in hasil:
-                    tulis_antrean(vv, "Batas upload harian telah tercapai: " + sebab[:200], LONG_URL)
+                    tulis_antrean_shorts(shorts, vv, "Batas upload harian telah tercapai: " + sebab[:200], LONG_URL)
             print("LIMIT HARIAN: antrean ditulis, TIDAK retry.", flush=True)
         else:
             raise

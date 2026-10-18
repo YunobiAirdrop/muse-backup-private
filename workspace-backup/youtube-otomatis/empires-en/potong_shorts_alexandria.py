@@ -36,7 +36,7 @@ def potong(out_name, ss, dur, hook):
         "borderw=3:bordercolor=black@0.8:x=(w-text_w)/2:y=h-320:"
         f"enable='between(t,{cta0},{dur})'"
     )
-    r = subprocess.run([QUEUE, "-y", "-ss", ss, "-t", dur, "-i", VID,
+    r = subprocess.run([QUEUE, "-y", "-ss", str(ss), "-t", str(dur), "-i", VID,
                         "-vf", vf, "-c:v", "libx264", "-preset", "veryfast",
                         "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30",
                         "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", out],

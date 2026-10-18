@@ -30,3 +30,12 @@
   chunk0: V 90.4s / A 177.1s
   chunk1: V 96.5s / A 162.6s
   chunk2: V 87.9s / A 178.0s
+  chunk3: V 77.6s / A 27.9s
+Traceback (most recent call last):
+  File "/home/hatch/workspace/youtube-otomatis/history-en/rakit_2026-10-18.py", line 370, in <module>
+    main()
+  File "/home/hatch/workspace/youtube-otomatis/history-en/rakit_2026-10-18.py", line 267, in main
+    subprocess.run([FFQ, "-y", "-f", "concat", "-safe", "0", "-i", lst,
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/hatch/workspace/youtube-otomatis/ffmpeg-queue.sh', '-y', '-f', 'concat', '-safe', '0', '-i', '/home/hatch/workspace/youtube-otomatis/history-en/video/_tmp_segs_2026-10-18/listA4.txt', '-ar', '44100', '-ac', '2', '-c:a', 'aac', '-b:a', '128k', '/home/hatch/workspace/youtube-otomatis/history-en/video/_tmp_segs_2026-10-18/chunkA4.m4a']' returned non-zero exit status 183.

@@ -1,0 +1,6 @@
+18.472 299.093 534.897
+T1=18.472
+[image2 @ 0x60459f46f680] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0x60459f35f240] video:84KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=9.1 Lsize=N/A time=00:00:00.03 bitrate=N/A dup=1 drop=0 speed=0.0736x elapsed=0:00:00.45    
+-rw-rw---- 1 root root 85847 Oct 18 11:42 /tmp/qc1.jpg

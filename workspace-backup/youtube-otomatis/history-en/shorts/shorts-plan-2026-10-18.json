@@ -1,0 +1,35 @@
+{
+ "s1": {
+  "beats": [
+   1,
+   3
+  ],
+  "durasi_target": 45.98,
+  "durasi_final": 46.0,
+  "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-18-s1.mp4",
+  "hook_overlay": "THE DAY THE WORLD CHANGED",
+  "title": "The 8.15 AM Flash That Changed Everything #shorts #history #documentary #butifyourcloseyoureyesmeme #foryou"
+ },
+ "s2": {
+  "beats": [
+   20,
+   23
+  ],
+  "durasi_target": 54.17,
+  "durasi_final": 54.2,
+  "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-18-s2.mp4",
+  "hook_overlay": "THE DECISION WAS MADE",
+  "title": "One Plane, One City, One Second #shorts #history #documentary #butifyourcloseyoureyesmeme #foryou"
+ },
+ "s3": {
+  "beats": [
+   30,
+   33
+  ],
+  "durasi_target": 56.42,
+  "durasi_final": 56.43,
+  "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-18-s3.mp4",
+  "hook_overlay": "A WARNING TO THE WORLD",
+  "title": "I Am Become Death: The Bomb Story #shorts #history #documentary #butifyourcloseyoureyesmeme #foryou"
+ }
+}

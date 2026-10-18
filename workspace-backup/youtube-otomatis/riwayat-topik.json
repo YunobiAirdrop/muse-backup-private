@@ -178,5 +178,21 @@
   "instruksi": "upload-instruksi-pov-2026-10-17.md",
   "durasi_long_detik": 365,
   "catatan": "Long 6:05 (365s), 88 beat, 88 gambar storybook 2D. Script+TTS+merge dibuat run 2026-10-17 03:24; assembly (chunk 22-gambar) + overlay 5 momen + shorts selesai run 2026-10-18 pagi. Slot: long+3shorts Rab 2026-10-21 19:00 WIB. AI disclosure WAJIB centang manual via Studio. | Upload via API 2026-10-18: long aksHPOrx_xI + 3 shorts (ov4N5cWXzoQ, 7f29ut5uBl0, f4XHWyeolic), slot Rab 2026-10-21 19:00 WIB. AI disclosure WAJIB centang manual via Studio."
+ },
+ {
+  "tanggal": "2026-10-18",
+  "topik": "POV: Kamu Jadi Nelayan Phinisi di Sulawesi Abad 17",
+  "kategori": "Nusantara",
+  "status": "terjadwal",
+  "file_long": "video/2026-10-18-final.mp4",
+  "file_shorts": [
+   "shorts/2026-10-18-s1.mp4",
+   "shorts/2026-10-18-s2.mp4",
+   "shorts/2026-10-18-s3.mp4"
+  ],
+  "file_thumbnail": "thumbnail-2026-10-18.jpg",
+  "instruksi": "upload-instruksi-pov-2026-10-18.md",
+  "durasi_long_detik": 660,
+  "catatan": "Long 11:00 (660s), 88 beat, 88 gambar storybook 2D. Cold open badai Laut Banda, tokoh Laode 24 thn awak phinisi 'Nusa Bahari' Bulukumba 1682, bumper voice-clone @beat 49, overlay 5 momen, thumbnail 'KAPAL HANCUR!'. Hashtag ikut aturan baru user 2026-10-18 (5 wajib: #butifyourcloseyoureyesmeme #viral #sejarah #viralindonesia #foryou; shorts di akhir judul). Afiliasi: Olive Care Omega 3&6, Alat rebus telur elektrik, Spion Koso. Koordinator subagent error di Pass 2 (background exec hilang) — dilanjutkan manual: rakit ulang (resume chunk), potong shorts, thumbnail, instruksi, upload. Upload via API 2026-10-18: long RdTenZlsROE + 3 shorts (-pLbTY84_V8, IIROrIIZ9KQ, BpCUCwRT8Yc), slot Kam 2026-10-22 19:00 WIB. AI disclosure WAJIB centang manual via Studio."
  }
 ]

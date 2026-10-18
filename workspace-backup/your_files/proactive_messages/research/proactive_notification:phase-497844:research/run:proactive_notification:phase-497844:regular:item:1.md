@@ -18,3 +18,9 @@ Prepared: ⁨2026-10-17T12:29:44Z⁩.
 Kenapa penting: Yunobi mengira farming Farcaster = mengejar airdrop token Farcaster. Riset web hari ini (17 Okt 2026) menemukan fakta resmi yang mengubah ekspektasi: pada 15 April 2026 Farcaster secara resmi menyatakan TIDAK berencana meluncurkan token protokol — rumor "Farcaster token" berasal dari Hypersnap, proyek fork yang mengklaim tokennya sebagai "Farcaster Token". Artinya tidak ada native airdrop Farcaster yang bisa di-farming; kalau ekspektasinya itu, usahanya salah sasaran.
 
 Selected for regular priority at ⁨2026-10-17T12:31:14.959250+00:00⁩. Record created ⁨2026-10-18T07:15:19.548477315+00:00⁩; delivery is not yet confirmed.
+
+
+**Delivery outcome (⁨2026-10-18T07:15:57.446848+00:00⁩):** Sent. Queue state: `⁨delivered⁩`.
+Reason: `⁨delivered⁩`.
+`⁨agent.message_mailbox.submission_id=c84dfbff-adb5-9f29-7b98-95793c076ab5⁩` resolves the delivery transcript.
+<!-- proactive-outcome:proactive_notifier:run:proactive_notification:phase-497844:regular -->

@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/youtube-otomatis/empires-en/potong_shorts_alexandria.py", line 56, in <module>
+    potong(name, ss, float(dur), HOOKS[name])
+  File "/home/hatch/workspace/youtube-otomatis/empires-en/potong_shorts_alexandria.py", line 39, in potong
+    r = subprocess.run([QUEUE, "-y", "-ss", ss, "-t", dur, "-i", VID,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.12/subprocess.py", line 1885, in _execute_child
+    self.pid = _fork_exec(
+               ^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not float

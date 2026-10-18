@@ -7,10 +7,10 @@
 - Verifikasi via API: channels.list(mine=true) → cocokkan ID di atas.
 
 ## File
-- Video: /home/hatch/workspace/youtube-otomatis/history-en/video/2026-10-18.mp4
+- Video: /home/hatch/workspace/youtube-otomatis/history-en/video/2026-10-18.mp4 (545.8 dtk = 9.10 mnt, 1280x720, subtitle burn-in + film grain, TERVERIFIKASI)
 - Thumbnail: /home/hatch/workspace/youtube-otomatis/history-en/thumbnail-2026-10-18.jpg
-- Deskripsi: /home/hatch/workspace/youtube-otomatis/history-en/script/deskripsi-final-2026-10-18.txt (ditulis saat assembly selesai)
-- Script upload: /home/hatch/workspace/youtube-otomatis/yt-growth/upload_historyen_20261018.py
+  (CATATAN: channel ini 403 saat set custom thumbnail via API — tidak ada verifikasi HP. Coba upload; kalau 403, biarkan auto-thumbnail YouTube.)
+- Deskripsi: /home/hatch/workspace/youtube-otomatis/history-en/script/deskripsi-final-2026-10-18.txt (SUDAH termasuk timestamps CHAPTERS + hashtag — tempel seluruh isi)
 
 ## Metadata
 - Judul: Hiroshima 1945: 8.15 AM — The Moment That Changed the World
@@ -25,9 +25,8 @@
 - API tidak mendukung → centang manual "Altered content" di YouTube Studio (browser task, verifikasi channel ID dulu).
 - Komentar: pastikan "Allow all comments" (aturan wajib user: komentar WAJIB on).
 
-## Shorts besok (2026-10-19, dipotong dari long ini)
-- Jalankan: python3 potong_shorts_2026-10-18.py → shorts/2026-10-18-s{1,2,3}.mp4
-- Judul:
-  1. The 8.15 AM Flash That Changed Everything #shorts #history #documentary #butifyourcloseyoureyesmeme #foryou
-  2. One Plane, One City, One Second #shorts #history #documentary #butifyourcloseyoureyesmeme #foryou
-  3. I Am Become Death: The Bomb Story #shorts #history #documentary #butifyourcloseyoureyesmeme #foryou
+## Shorts besok (2026-10-19, SUDAH dipotong dari long ini)
+- shorts/2026-10-18-s1.mp4 (46.0 dtk, beats 1-3) — The 8.15 AM Flash That Changed Everything #shorts #history #documentary #butifyourcloseyoureyesmeme #foryou
+- shorts/2026-10-18-s2.mp4 (54.2 dtk, beats 20-23) — One Plane, One City, One Second #shorts #history #documentary #butifyourcloseyoureyesmeme #foryou
+- shorts/2026-10-18-s3.mp4 (56.4 dtk, beats 30-33) — I Am Become Death: The Bomb Story #shorts #history #documentary #butifyourcloseyoureyesmeme #foryou
+- Detail: shorts/shorts-plan-2026-10-18.json

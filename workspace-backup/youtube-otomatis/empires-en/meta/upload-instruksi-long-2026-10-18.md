@@ -25,29 +25,29 @@ In this episode of Lost Empires, I trace the library from Alexander's wild dream
 
 CHAPTERS:
 0:00 The Night We Lost Everything
-0:04 Alexandria Today
-0:21 One Scroll to Save
-0:47 Alexander's Dream
-1:04 The Wild Idea
-1:29 The First Copyright Pirates
-1:55 Inside the Brain of the World
-2:22 The First Search Engine
-2:48 Measuring the Earth
-3:12 Medicine Is Born Here
-3:39 Paid to Wonder
-4:04 The Fire
-4:29 48 BC: Caesar's Torch
-4:48 Midnight at the Harbor
-5:15 The Slow Death
-5:39 What We Lost
-6:07 A Scroll Could Rewrite History
-6:31 Cleopatra's Last Light
-6:58 The Sunken Library
-7:23 The Digs Go On
-7:48 Sentences from the Fire
-8:11 The Library Rises Again
-8:31 Memory Is a Choice
-8:55 Next: Pompeii
+0:21 Alexandria Today
+0:47 One Scroll to Save
+1:04 Alexander's Dream
+1:29 The Wild Idea
+1:55 The First Copyright Pirates
+2:22 Inside the Brain of the World
+2:48 The First Search Engine
+3:12 Measuring the Earth
+3:39 Medicine Is Born Here
+4:04 Paid to Wonder
+4:29 The Fire
+4:48 48 BC: Caesar's Torch
+5:15 Midnight at the Harbor
+5:39 The Slow Death
+6:07 What We Lost
+6:31 A Scroll Could Rewrite History
+6:58 Cleopatra's Last Light
+7:23 The Sunken Library
+7:48 The Digs Go On
+8:11 Sentences from the Fire
+8:31 The Library Rises Again
+8:55 Memory Is a Choice
+9:19 Next: Pompeii
 
 SOURCES & FURTHER READING:
 - Lionel Casson, "Libraries in the Ancient World"
