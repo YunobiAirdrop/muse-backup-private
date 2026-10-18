@@ -6,7 +6,7 @@ import json, os, sys
 sys.path.insert(0, os.path.expanduser("~/workspace/youtube-otomatis/yt-growth"))
 from auth import api_session
 
-VIDEO_ID = "G3mCu5nqleM"
+VIDEO_ID = "U4UwccK9vdI"
 s = api_session("weird-en")
 
 pls = s.get("https://www.googleapis.com/youtube/v3/playlists",

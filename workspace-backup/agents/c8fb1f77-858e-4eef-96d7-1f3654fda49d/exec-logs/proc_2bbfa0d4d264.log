@@ -1,0 +1,8 @@
+    main()
+  File "/home/hatch/workspace/lima-misteri/upload_lima_2026-10-18.py", line 160, in main
+    s = api_session(SLUG)
+        ^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/youtube-otomatis/yt-growth/auth.py", line 136, in api_session
+    from google.auth.transport.requests import AuthorizedSession
+ModuleNotFoundError: No module named 'google'
+EXIT=1

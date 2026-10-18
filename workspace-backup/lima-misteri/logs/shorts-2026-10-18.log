@@ -1,0 +1,10 @@
+s1: mulai 58.3s hook=HANTU BROWN LADY
+  SRT: 7 cues -> /home/hatch/workspace/lima-misteri/shorts/2026-10-18-s1.srt
+OK: /home/hatch/workspace/lima-misteri/shorts/2026-10-18-s1.mp4 (45s)
+s2: mulai 134.4s hook=SLENDERMAN
+  SRT: 7 cues -> /home/hatch/workspace/lima-misteri/shorts/2026-10-18-s2.srt
+OK: /home/hatch/workspace/lima-misteri/shorts/2026-10-18-s2.mp4 (45s)
+s3: mulai 201.7s hook=KASTIL TERKUTUK
+  SRT: 8 cues -> /home/hatch/workspace/lima-misteri/shorts/2026-10-18-s3.srt
+OK: /home/hatch/workspace/lima-misteri/shorts/2026-10-18-s3.mp4 (45s)
+EXIT=0

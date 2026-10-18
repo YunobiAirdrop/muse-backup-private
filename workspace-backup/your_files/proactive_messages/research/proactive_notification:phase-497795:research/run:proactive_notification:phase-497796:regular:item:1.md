@@ -18,3 +18,9 @@ Prepared: ⁨2026-10-15T11:27:49Z⁩.
 Kenapa ini penting sekarang: user baru saja (18:12 WIB, ~15 menit lalu) mengirim OAUTH_CODE kedua untuk setup GA4 blog, dan asisten sudah janji "nanti saya kabarin kalau Measurement ID-nya udah kepasang di 10 blog". Semua yang tersisa setelah kode itu bisa otomatis — user tidak perlu disentuh lagi.
 
 Selected for regular priority at ⁨2026-10-15T12:31:09.762710+00:00⁩. Record created ⁨2026-10-18T07:08:24.150303384+00:00⁩; delivery is not yet confirmed.
+
+
+**Delivery outcome (⁨2026-10-18T07:13:47.088326+00:00⁩):** Not sent. Queue state: `⁨suppressed⁩`.
+Reason: `⁨revalidation_declined⁩`.
+`⁨agent.message_mailbox.submission_id=ac561a09-ef45-909b-51f9-4a22489daf5a⁩` resolves the delivery transcript.
+<!-- proactive-outcome:proactive_notifier:run:proactive_notification:phase-497796:regular -->

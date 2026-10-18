@@ -23,7 +23,7 @@ AFF_B = "🛒 Gamis Mewah Karina Dress Ceruty (Rp125.000): https://s.shopee.co.i
 AFF_NOTE = "(Link di atas adalah link afiliasi — saya dapat komisi kecil tanpa biaya tambahan untuk kamu.)"
 DISCLAIMER = "⚠️ Video ini adalah penceritaan ulang orisinal atas peristiwa yang terdokumentasi, diilustrasikan dengan gambar buatan AI. Bukan footage asli peristiwa."
 
-LONG_JUDUL = "Foto Hantu Brown Lady 1936, Nomor 1 Paling Seram | Lima Misteri"
+LONG_JUDUL = "Hantu Brown Lady 1936, Nomor 1 Paling Seram | Lima Misteri"
 LONG_DESK = (
     "Hari ini saya merangkum 5 kejadian misterius yang terdokumentasi tapi belum punya jawaban tuntas — "
     "dari hantu Brown Lady yang tertangkap kamera di Raynham Hall tahun 1936, Slenderman si legenda urban yang lahir "

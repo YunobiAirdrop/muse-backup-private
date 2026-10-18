@@ -1,61 +1,69 @@
 {
-  "dipakai": [
-    {
-      "kisah": "Kelahiran Pangeran Siddhartha di Taman Lumbini",
-      "tanggal": "2026-10-08",
-      "tipe": "long",
-      "video": "jejak-buddha-2026-10-08-long.mp4"
-    },
-    {
-      "catatan": "3 shorts dipotong dari long 2026-10-08",
-      "kisah": "Kelahiran Pangeran Siddhartha di Taman Lumbini",
-      "tanggal": "2026-10-09",
-      "tipe": "shorts",
-      "video": "short1-tujuh-langkah.mp4, short2-mimpi-gajah-putih.mp4, short3-pertapa-asita.mp4"
-    },
-    {
-      "catatan": "upload terjadwal 2026-10-11 19:00 WIB (menunggu persetujuan user)",
-      "kisah": "Empat pemandangan — orang tua, sakit, mati, dan petapa",
-      "tanggal": "2026-10-10",
-      "tipe": "long",
-      "video": "jejak-buddha-2026-10-10-long.mp4"
-    },
-    {
-      "catatan": "3 shorts dipotong dari long 2026-10-10; diupload via API 2026-10-12, terjadwal tayang 2026-10-13 19:00/19:05/19:10 WIB. AI disclosure pending centang manual di Studio (API tidak mendukung field itu).",
-      "kisah": "Empat pemandangan — orang tua, sakit, mati, dan petapa",
-      "tanggal": "2026-10-12",
-      "tipe": "shorts",
-      "video": "short1-orang-tua.mp4 (Rf14NV4B3Fs), short2-petapa.mp4 (arJpVXPCJcs), short3-keputusan-agung.mp4 (5H3Y5BnECkw)"
-    },
-    {
-      "catatan": "Diupload via API 2026-10-13 -> video ID 6txAzECV24s (https://youtu.be/6txAzECV24s), terjadwal tayang Rabu 2026-10-14 19:00 WIB. Thumbnail custom GAGAL via API (403: akun belum verifikasi HP). AI disclosure pending centang via Studio (browser task). Shorts dari long ini upload 2026-10-14.",
-      "kisah": "Pelepasan agung — meninggalkan istana di malam hari",
-      "tanggal": "2026-10-12",
-      "tipe": "long",
-      "video": "jejak-buddha-2026-10-12-long.mp4",
-      "video_id": "6txAzECV24s"
-    },
-    {
-      "kisah": "Pelepasan agung — meninggalkan istana di malam hari",
-      "tanggal": "2026-10-14",
-      "tipe": "shorts",
-      "catatan": "3 shorts dipotong dari long 2026-10-12; diupload via API 2026-10-14, terjadwal tayang 2026-10-15 19:00/19:05/19:10 WIB. AI disclosure pending centang manual di Studio (API tidak mendukung field itu).",
-      "video": "short1-ambang-kamar.mp4 (i8F1dQTMInc), short2-kanthaka.mp4 (HCx2pdjDD5Y), short3-potong-rambut.mp4 (HPAprAH5GkA)"
-    },
-    {
-      "kisah": "Pertapaan dan jalan tengah",
-      "tanggal": "2026-10-15",
-      "tipe": "long",
-      "video": "jejak-buddha-2026-10-15-upload.mp4",
-      "video_id": "sTwtnVn1pro",
-      "catatan": "Diupload via API 2026-10-15 -> video ID sTwtnVn1pro (https://youtu.be/sTwtnVn1pro), terjadwal tayang Jumat 2026-10-16 19:00 WIB. Footage Wikimedia Commons (bukan Pexels — Cloudflare-blocked dari VM). Thumbnail custom GAGAL via API (403: akun belum verifikasi HP). AI disclosure pending centang manual di Studio. Shorts dari long ini diproduksi+upload 2026-10-16."
-    },
-    {
-      "kisah": "Pertapaan dan jalan tengah",
-      "tanggal": "2026-10-16",
-      "tipe": "shorts",
-      "catatan": "3 shorts dipotong dari long 2026-10-15; diupload via API 2026-10-17, terjadwal tayang 2026-10-17 19:00/19:05/19:10 WIB. AI disclosure pending centang manual di Studio (API tidak mendukung field itu).",
-      "video": "short1-enam-tahun.mp4 (HrI_hj6jGXQ), short2-senar-kecapi.mp4 (ybu2DZe76EM), short3-ambang-kematian.mp4 (nO1CJG-681g)"
-    }
-  ]
+ "dipakai": [
+  {
+   "kisah": "Kelahiran Pangeran Siddhartha di Taman Lumbini",
+   "tanggal": "2026-10-08",
+   "tipe": "long",
+   "video": "jejak-buddha-2026-10-08-long.mp4"
+  },
+  {
+   "catatan": "3 shorts dipotong dari long 2026-10-08",
+   "kisah": "Kelahiran Pangeran Siddhartha di Taman Lumbini",
+   "tanggal": "2026-10-09",
+   "tipe": "shorts",
+   "video": "short1-tujuh-langkah.mp4, short2-mimpi-gajah-putih.mp4, short3-pertapa-asita.mp4"
+  },
+  {
+   "catatan": "upload terjadwal 2026-10-11 19:00 WIB (menunggu persetujuan user)",
+   "kisah": "Empat pemandangan — orang tua, sakit, mati, dan petapa",
+   "tanggal": "2026-10-10",
+   "tipe": "long",
+   "video": "jejak-buddha-2026-10-10-long.mp4"
+  },
+  {
+   "catatan": "3 shorts dipotong dari long 2026-10-10; diupload via API 2026-10-12, terjadwal tayang 2026-10-13 19:00/19:05/19:10 WIB. AI disclosure pending centang manual di Studio (API tidak mendukung field itu).",
+   "kisah": "Empat pemandangan — orang tua, sakit, mati, dan petapa",
+   "tanggal": "2026-10-12",
+   "tipe": "shorts",
+   "video": "short1-orang-tua.mp4 (Rf14NV4B3Fs), short2-petapa.mp4 (arJpVXPCJcs), short3-keputusan-agung.mp4 (5H3Y5BnECkw)"
+  },
+  {
+   "catatan": "Diupload via API 2026-10-13 -> video ID 6txAzECV24s (https://youtu.be/6txAzECV24s), terjadwal tayang Rabu 2026-10-14 19:00 WIB. Thumbnail custom GAGAL via API (403: akun belum verifikasi HP). AI disclosure pending centang via Studio (browser task). Shorts dari long ini upload 2026-10-14.",
+   "kisah": "Pelepasan agung — meninggalkan istana di malam hari",
+   "tanggal": "2026-10-12",
+   "tipe": "long",
+   "video": "jejak-buddha-2026-10-12-long.mp4",
+   "video_id": "6txAzECV24s"
+  },
+  {
+   "kisah": "Pelepasan agung — meninggalkan istana di malam hari",
+   "tanggal": "2026-10-14",
+   "tipe": "shorts",
+   "catatan": "3 shorts dipotong dari long 2026-10-12; diupload via API 2026-10-14, terjadwal tayang 2026-10-15 19:00/19:05/19:10 WIB. AI disclosure pending centang manual di Studio (API tidak mendukung field itu).",
+   "video": "short1-ambang-kamar.mp4 (i8F1dQTMInc), short2-kanthaka.mp4 (HCx2pdjDD5Y), short3-potong-rambut.mp4 (HPAprAH5GkA)"
+  },
+  {
+   "kisah": "Pertapaan dan jalan tengah",
+   "tanggal": "2026-10-15",
+   "tipe": "long",
+   "video": "jejak-buddha-2026-10-15-upload.mp4",
+   "video_id": "sTwtnVn1pro",
+   "catatan": "Diupload via API 2026-10-15 -> video ID sTwtnVn1pro (https://youtu.be/sTwtnVn1pro), terjadwal tayang Jumat 2026-10-16 19:00 WIB. Footage Wikimedia Commons (bukan Pexels — Cloudflare-blocked dari VM). Thumbnail custom GAGAL via API (403: akun belum verifikasi HP). AI disclosure pending centang manual di Studio. Shorts dari long ini diproduksi+upload 2026-10-16."
+  },
+  {
+   "kisah": "Pertapaan dan jalan tengah",
+   "tanggal": "2026-10-16",
+   "tipe": "shorts",
+   "catatan": "3 shorts dipotong dari long 2026-10-15; diupload via API 2026-10-17, terjadwal tayang 2026-10-17 19:00/19:05/19:10 WIB. AI disclosure pending centang manual di Studio (API tidak mendukung field itu).",
+   "video": "short1-enam-tahun.mp4 (HrI_hj6jGXQ), short2-senar-kecapi.mp4 (ybu2DZe76EM), short3-ambang-kematian.mp4 (nO1CJG-681g)"
+  },
+  {
+   "kisah": "Pencerahan di bawah pohon Bodhi",
+   "tanggal": "2026-10-18",
+   "tipe": "long",
+   "video": "jejak-buddha-2026-10-18-upload.mp4",
+   "video_id": "JDELqvSXPGc",
+   "catatan": "Diupload via API 2026-10-18 -> video ID JDELqvSXPGc (https://youtu.be/JDELqvSXPGc), terjadwal tayang Senin 2026-10-19 19:00 WIB. Footage Wikimedia Commons 18 klip (8 baru + 10 reuse). Thumbnail custom GAGAL via API (403: akun belum verifikasi HP). AI disclosure pending centang manual di Studio. Shorts dari long ini diproduksi+upload 2026-10-19."
+  }
+ ]
 }

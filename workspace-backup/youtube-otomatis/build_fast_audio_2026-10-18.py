@@ -26,8 +26,9 @@ def main():
     t48 = sum(float(d[f"beat-{i:03d}"]) for i in range(1, BUMPER_BEFORE))
     bd = dur(BUMPER)
     if RATE == 1.0:
-        fc = (f"[0:a]atrim=0:{t48:.3f},asetpts=PTS-STARTPTS[a1];"
-              f"[0:a]atrim={t48:.3f},asetpts=PTS-STARTPTS[a2];"
+        fc = (f"[0:a]asplit=2[p1][p2];"
+              f"[p1]atrim=0:{t48:.3f},asetpts=PTS-STARTPTS[a1];"
+              f"[p2]atrim={t48:.3f},asetpts=PTS-STARTPTS[a2];"
               f"[a1][1:a][a2]concat=n=3:v=0:a=1[out]")
     else:
         fc = (f"[0:a]asplit=2[p1][p2];"

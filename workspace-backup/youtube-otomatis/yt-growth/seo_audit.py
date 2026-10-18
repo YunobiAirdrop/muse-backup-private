@@ -57,12 +57,12 @@ def audit(meta, fmt):
     if fmt == "shorts":
         # --- Shorts: hashtag di akhir judul ---
         if not title_tags:
-            findings.append(("FAIL", "SHORTS tanpa hashtag di judul — wajib diakhiri hashtag (maks 4, terakhir #foryou)."))
+            findings.append(("FAIL", "SHORTS tanpa hashtag di judul — wajib diakhiri hashtag (maks 5: #butifyourcloseyoureyesmeme + 3 trending + #foryou, terakhir #foryou)."))
         else:
-            if len(title_tags) > 4:
-                findings.append(("FAIL", f"Hashtag judul {len(title_tags)} — maksimal 4."))
+            if len(title_tags) > 5:
+                findings.append(("FAIL", f"Hashtag judul {len(title_tags)} — maksimal 5."))
             else:
-                findings.append(("PASS", f"Hashtag judul {len(title_tags)} (<=4)."))
+                findings.append(("PASS", f"Hashtag judul {len(title_tags)} (<=5)."))
             if title_tags[-1].lower() != "#foryou":
                 findings.append(("FAIL", f"Hashtag terakhir judul '{title_tags[-1]}' — WAJIB #foryou (perintah user 2026-10-12)."))
             else:

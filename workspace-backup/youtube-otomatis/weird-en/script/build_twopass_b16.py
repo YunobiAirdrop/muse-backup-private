@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Two-pass assembly b16 FIX (2026-10-18): single-pass memberi timestamp video
-NGACO (demuxer concat + filter_complex: durasi segmen bergeser, video 629.84s
-vs audio 636.29s, A/V tidak sinkron). Two-pass:
-  Pass 1: imglist -> concat -> fps=30,scale,pad -> intermediate CFR (terverifikasi).
-  Pass 2: intermediate + audio -> drawtext overlay + CTA + noise + vignette -> final.
-Tulis ke TEMP, verifikasi durasi PER STREAM, baru pindah ke final."""
+"""Two-pass assembly b16 FIX (2026-10-18):
+- AKAR MASALAH: `-preset veryfast` (B-frames+lookahead) MERUSAK timestamp input
+  VFR still-image concat (video 629.84s vs audio 636.29s, A/V tidak sinkron).
+  `-preset ultrafast` mempertahankan timing (matriks 2x2: 5/5 benar vs 0/3).
+- Pass 1: imglist -> concat -> scale,pad,format -> intermediate (verifikasi).
+- Pass 2: intermediate + audio -> drawtext overlay + CTA + noise + vignette -> final.
+- File kerja di WORKSPACE (bukan /tmp — /tmp di-wipe otomatis).
+- Verifikasi PER STREAM (bukan cuma durasi format).
+Tulis ke TEMP, verifikasi, baru pindah ke final."""
 import json, os, subprocess, sys
 
 W = os.path.expanduser("~/workspace/youtube-otomatis/weird-en")
@@ -13,11 +16,13 @@ FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 N = 74
 BUMPER_AFTER = 28
 TC = 2.5
+PRESET = "ultrafast"  # WAJIB ultrafast untuk still-image concat (lihat AGENTS.md)
 
 def esc(t):
     return t.replace("\\", "\\\\").replace("'", "\\'").replace(":", "\\:")
 
 os.chdir(W)
+os.makedirs("_tmp_build", exist_ok=True)
 dj = json.load(open("data/durasi-beat-2026-10-18.json"))
 batches = json.load(open("data/batches-b16.json"))
 ov_by_beat = {}
@@ -26,8 +31,10 @@ for b in batches.values():
         if "overlay" in e:
             ov_by_beat[int(e["num"])] = e["overlay"]
 
-tc_png = "/tmp/titlecard_b16.webp"
-assert os.path.exists(tc_png), "titlecard hilang"
+tc_png = os.path.join(W, "_tmp_build", "titlecard_b16.webp")
+if not os.path.exists(tc_png):
+    from PIL import Image
+    Image.new("RGB", (1280, 720), (10, 22, 40)).save(tc_png, "WEBP", quality=92)
 
 segs = [(tc_png, TC, "titlecard")]
 for i in range(1, N + 1):
@@ -46,7 +53,7 @@ for img, d, key in segs[1:]:
 total = sum(d for _, d, _ in segs)
 print(f"total expected: {total:.1f}s ({total/60:.2f} mnt)", flush=True)
 
-lst = "/tmp/imglist_b16_fix.txt"
+lst = os.path.join(W, "_tmp_build", "imglist_b16.txt")
 with open(lst, "w") as f:
     for img, d, _ in segs:
         f.write(f"file '{img}'\n")
@@ -58,23 +65,31 @@ def dt(text, s, e, fs=58, y="h-150", color="white"):
             f"fontcolor={color}:borderw=3:bordercolor=black:"
             f"x=(w-text_w)/2:y={y}:enable='between(t,{s:.2f},{e:.2f})'")
 
-# ---------- PASS 1: intermediate CFR ----------
-inter = "/tmp/b16_intermediate.mp4"
+def stream_durs(path):
+    pr = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
+                         "stream=codec_type,duration", "-of", "csv=p=0", path],
+                        capture_output=True, text=True)
+    durs = {}
+    for l in pr.stdout.strip().split("\n"):
+        if "," in l:
+            c, d = l.split(",")
+            durs[c] = float(d)
+    return durs
+
+# ---------- PASS 1: intermediate ----------
+inter = os.path.join(W, "_tmp_build", "b16_intermediate.mp4")
 if not os.path.exists(inter):
     r = subprocess.run([Q, "-y", "-c:v", "webp", "-f", "concat", "-safe", "0",
                         "-i", lst,
-                        "-vf", "fps=30,scale=1280:720:force_original_aspect_ratio=decrease,"
+                        "-vf", "scale=1280:720:force_original_aspect_ratio=decrease,"
                                "pad=1280:720:(ow-iw)/2:(oh-ih)/2:color=black,format=yuv420p",
-                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
+                        "-c:v", "libx264", "-preset", PRESET, "-crf", "18",
                         inter], capture_output=True, text=True)
     if r.returncode != 0:
         print("PASS1 ERR:", r.stderr[-800:]); sys.exit(1)
-    pr = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
-                         "stream=codec_type,duration", "-of", "csv=p=0", inter],
-                        capture_output=True, text=True)
-    vdur = float([l for l in pr.stdout.strip().split("\n") if l.startswith("video")][0].split(",")[1])
-    print(f"pass1 video duration: {vdur:.2f}s (expected {total:.2f})", flush=True)
-    if abs(vdur - total) > 2:
+    durs = stream_durs(inter)
+    print("pass1 streams:", durs, flush=True)
+    if abs(durs.get("video", 0) - total) > 2:
         print("PASS1 DURASI GAGAL"); sys.exit(2)
     print("PASS1 OK", flush=True)
 else:
@@ -100,24 +115,16 @@ final_out = os.path.join(W, "video", "2026-10-18-final.mp4")
 r = subprocess.run([Q, "-y", "-i", inter, "-i", "audio/gabungan-2026-10-18.mp3",
                     "-filter_complex", f"[0:v]{vf}[v];[1:a]adelay=2500|2500,apad[a]",
                     "-map", "[v]", "-map", "[a]",
-                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
+                    "-c:v", "libx264", "-preset", PRESET, "-crf", "21",
                     "-c:a", "aac", "-b:a", "128k",
                     "-t", str(total), "-movflags", "+faststart", tmp_out],
                    capture_output=True, text=True)
 if r.returncode != 0:
     print("PASS2 ERR:", r.stderr[-800:]); sys.exit(1)
 
-# verifikasi PER STREAM
-pr = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
-                     "stream=codec_type,duration", "-of", "csv=p=0", tmp_out],
-                    capture_output=True, text=True)
-durs = {}
-for l in pr.stdout.strip().split("\n"):
-    c, d = l.split(",")
-    durs[c] = float(d)
-print("stream durations:", durs, flush=True)
-ok = all(abs(d - total) < 5 for d in durs.values())
-if not ok:
+durs = stream_durs(tmp_out)
+print("pass2 streams:", durs, flush=True)
+if not all(abs(d - total) < 5 for d in durs.values()):
     print(f"DURASI STREAM GAGAL: {durs} vs expected {total:.1f} — final TIDAK ditimpa")
     sys.exit(2)
 os.rename(tmp_out, final_out)

@@ -1,0 +1,5 @@
+  File "/home/hatch/workspace/lima-misteri/upload_lima_2026-10-18.py", line 156, in main
+    assert len(LONG_JUDUL) <= 60, f"judul long {len(LONG_JUDUL)} > 60"
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: judul long 63 > 60
+EXIT=1

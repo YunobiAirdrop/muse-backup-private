@@ -1,0 +1,4 @@
+slot2 dibersihkan
+/tmp/ffmpeg-slots/slot1 pid=55906:       02:15 25.5 /usr/bin/ffmpeg -y -stream_loop 2 -i /home/hatch/workspace/jejak-buddha/2
+/tmp/ffmpeg-slots/slot2 pid=54828:       03:59  2.0 /usr/bin/ffmpeg -y -f concat -safe 0 -i /home/hatch/workspace/lima-mister
+28
