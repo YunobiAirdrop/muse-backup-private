@@ -1,0 +1,2407 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>Kantor AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+    <style>
+      :root{
+        --bg:#f4f1ea; --panel:#fffdf8; --panel2:#efe9dc; --ink:#23211c; --ink2:#5c574c; --ink3:#8a8474;
+        --line:#ddd5c3; --wall:#cbbfa5; --floor:#e9e1cf; --floor-line:#ded2ba;
+        --wood:#b98a5e; --wood-d:#9a6f45; --desk-top:#c99e6f;
+        --green:#1d9e62; --green-soft:#d9f2e4; --amber:#d9930d; --amber-soft:#fbeed3;
+        --red:#d64545; --red-soft:#fbe0e0; --blue:#2f6fb2; --blue-soft:#dfeaf6;
+        --teal:#0f766e; --shadow:0 10px 30px rgba(60,48,20,.14);
+        --r-lg:18px; --r-md:12px;
+        --tint-yt:#fdeeda; --tint-blog:#e6f2e4; --tint-tt:#e3eefb; --tint-air:#efe6fb; --tint-mon:#e2f0ee; --tint-lain:#f3ead9; --tint-fin:#fdf3d7; --tint-lounge:#fbe9dd; --tint-mgr:#ece5d8;
+      }
+      @media (prefers-color-scheme: dark){
+        :root{
+          --bg:#141519; --panel:#1e2026; --panel2:#26282f; --ink:#ece9e2; --ink2:#b6b1a4; --ink3:#7e7a6e;
+          --line:#33353d; --wall:#3d3a33; --floor:#22232a; --floor-line:#2b2c33;
+          --wood:#8a6742; --wood-d:#6f5133; --desk-top:#7d5c39;
+          --green-soft:#173d2a; --amber-soft:#40330f; --red-soft:#402020; --blue-soft:#1d2f45;
+          --shadow:0 10px 30px rgba(0,0,0,.45);
+          --tint-yt:#2c2620; --tint-blog:#212b20; --tint-tt:#202833; --tint-air:#282233; --tint-mon:#1e2b29; --tint-lain:#2a251c; --tint-fin:#2d2817; --tint-lounge:#2d231c; --tint-mgr:#26241f;
+        }
+      }
+      *{box-sizing:border-box}
+      html{scroll-behavior:smooth}
+      body{margin:0;background:var(--bg);color:var(--ink);font-family:"Plus Jakarta Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+      button{font-family:inherit;cursor:pointer}
+      .wrap{max-width:1240px;margin:0 auto;padding:18px 16px 64px}
+
+      /* ===== Header / stats ===== */
+      .topbar{display:flex;flex-wrap:wrap;gap:14px;align-items:stretch;margin-bottom:14px}
+      .brand{display:flex;align-items:center;background:#fffdf8;border:1px solid var(--line);border-radius:var(--r-lg);padding:10px 16px;box-shadow:var(--shadow)}
+      .brand svg{display:block;width:228px;max-width:100%;height:auto}
+      @media(max-width:640px){.brand{flex:1 1 100%;justify-content:center;padding:12px 16px}}
+      .clock-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:14px 18px;min-width:210px;box-shadow:var(--shadow)}
+      .clock-label{font-size:11px;font-weight:700;letter-spacing:.14em;color:var(--ink3);text-transform:uppercase}
+      .clock-time{font-family:"JetBrains Mono",monospace;font-size:34px;font-weight:700;line-height:1.1;margin-top:2px}
+      .clock-date{font-size:13px;color:var(--ink2);font-weight:600}
+      .live-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);margin-right:6px;animation:pulse 1.6s infinite}
+      @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(29,158,98,.45)}50%{box-shadow:0 0 0 6px rgba(29,158,98,0)}}
+      .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;flex:1;min-width:280px}
+      .stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:12px 14px}
+      .stat b{display:block;font-size:26px;line-height:1;font-weight:800}
+      .stat span{font-size:11.5px;color:var(--ink2);font-weight:600}
+      .stat .sub{font-size:11px;color:var(--ink3);font-weight:500}
+      @media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}.clock-time{font-size:28px}}
+
+      /* ===== Toolbar ===== */
+      .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0 14px}
+      .chip{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:7px 13px;font-size:12.5px;font-weight:700}
+      .chip:hover{border-color:var(--teal);color:var(--teal)}
+      .chip .n{color:var(--ink3);font-weight:600}
+      .search{margin-left:auto;position:relative}
+      .search input{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:8px 14px 8px 34px;font-size:13px;width:230px;font-family:inherit}
+      .search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:15px;height:15px;stroke:var(--ink3)}
+      .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--ink2);font-weight:600;margin-bottom:10px}
+      .legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
+
+      /* ===== Floor plan ===== */
+      .floor{position:relative;background:var(--floor);border:3px solid var(--wall);border-radius:22px;padding:14px;box-shadow:var(--shadow);
+        background-image:linear-gradient(var(--floor-line) 1px,transparent 1px),linear-gradient(90deg,var(--floor-line) 1px,transparent 1px);background-size:44px 44px}
+      .row-top{display:grid;grid-template-columns:1fr 1.25fr 1fr;gap:12px;margin-bottom:12px}
+      .row-main{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+      .room{position:relative;border:2.5px solid var(--wall);border-radius:14px;padding:30px 10px 12px;overflow:hidden;min-height:120px}
+      .room.flash{animation:flash 1.4s}
+      @keyframes flash{0%,60%{box-shadow:0 0 0 4px var(--teal)}100%{box-shadow:0 0 0 0 transparent}}
+      .room-label{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:6px 10px;background:color-mix(in srgb,var(--panel) 72%,transparent);border-bottom:1.5px solid var(--wall);z-index:30}
+      .room-label b{font-size:10.5px;letter-spacing:.12em;font-weight:800}
+      .room-label span{font-size:10px;color:var(--ink2);font-weight:700;background:var(--panel);border:1px solid var(--line);border-radius:99px;padding:1px 7px}
+      .r-yt{background:var(--tint-yt);grid-column:span 7}
+      .r-blog{background:var(--tint-blog);grid-column:span 5}
+      .r-tt{background:var(--tint-tt);grid-column:span 5}
+      .r-air{background:var(--tint-air);grid-column:span 7}
+      .r-mon{background:var(--tint-mon);grid-column:span 7}
+      .r-lain{background:var(--tint-lain);grid-column:span 5}
+      .r-lounge{background:var(--tint-lounge)}
+      .r-mgr{background:var(--tint-mgr)}
+      .r-fin{background:var(--tint-fin)}
+      @media(max-width:900px){.row-top{grid-template-columns:1fr}.row-main>*{grid-column:span 12 !important}}
+      .desks{display:flex;flex-wrap:wrap;gap:9px 7px;align-content:flex-start;position:relative;z-index:5}
+      .plant{position:absolute;font-size:0;width:16px;height:16px;border-radius:50% 50% 50% 4px;background:#57a773;opacity:.75;z-index:1}
+      .sofa{position:absolute;background:#d98d64;border-radius:8px;z-index:1;box-shadow:inset 0 -4px 0 rgba(0,0,0,.12)}
+
+      /* ===== Desk unit ===== */
+      .desk-unit{position:relative;width:62px;background:none;border:none;padding:0;text-align:center;border-radius:10px}
+      .desk-unit:focus-visible,.walker:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+      .desk{position:relative;display:block;width:58px;height:30px;margin:0 auto;background:var(--desk-top);border:2px solid var(--wood-d);border-radius:6px;box-shadow:0 3px 0 rgba(0,0,0,.15)}
+      .monitor{position:absolute;top:2px;left:50%;transform:translateX(-50%);width:20px;height:13px;background:#2b3440;border-radius:2px;border:1.5px solid #161c24}
+      .monitor::after{content:"";position:absolute;inset:2px;background:linear-gradient(180deg,#7fd4ff 0 30%,#bfe9ff 30% 45%,#7fd4ff 45% 70%,#a8dcff 70%);opacity:.85;border-radius:1px}
+      .working .monitor::after{animation:screen .9s steps(2) infinite}
+      @keyframes screen{50%{opacity:.45}}
+      .kb{position:absolute;bottom:2px;left:50%;transform:translateX(-50%);width:16px;height:4px;background:rgba(0,0,0,.28);border-radius:2px}
+      .name-tag{display:block;margin-top:1px;font-size:8px;font-weight:700;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62px}
+      .sdot{position:absolute;top:-3px;right:1px;width:9px;height:9px;border-radius:50%;border:2px solid var(--panel);z-index:6}
+      .sdot.work{background:var(--green);animation:pulse 1.6s infinite}
+      .sdot.idle{background:#b9b2a0}
+      .sdot.soon{background:var(--amber)}
+
+      /* ===== Character ===== */
+      .char{position:relative;display:block;margin:-9px auto 0;width:26px;height:32px;z-index:4}
+      .c-head{position:absolute;top:0;left:50%;transform:translateX(-50%);width:15px;height:15px;border-radius:50%;z-index:3}
+      .c-hair{position:absolute;top:-1.5px;left:-1px;right:-1px;height:8px;border-radius:9px 9px 3px 3px}
+      .c-hair.bun::after{content:"";position:absolute;top:-4px;left:50%;transform:translateX(-50%);width:7px;height:7px;border-radius:50%;background:inherit}
+      .c-hair.hijab{height:17px;border-radius:9px 9px 6px 6px;z-index:-1;left:-2.5px;right:-2.5px}
+      .c-hair.cap{height:6px;border-radius:8px 8px 0 0}
+      .c-hair.cap::after{content:"";position:absolute;bottom:-2px;left:50%;transform:translateX(-50%);width:17px;height:3.5px;border-radius:3px;background:inherit}
+      .c-body{position:absolute;top:13px;left:50%;transform:translateX(-50%);width:19px;height:14px;border-radius:6px 6px 4px 4px;z-index:2}
+      .c-arm{position:absolute;top:15px;width:5px;height:11px;border-radius:3px;z-index:1;transform-origin:top center}
+      .c-arm.l{left:1px}.c-arm.r{right:1px}
+      .seated .c-arm.l{transform:rotate(-38deg)}
+      .seated .c-arm.r{transform:rotate(38deg)}
+      .typing .c-arm.l{animation:typeL .34s ease-in-out infinite alternate}
+      .typing .c-arm.r{animation:typeR .34s ease-in-out infinite alternate-reverse}
+      .typing.fast .c-arm.l,.typing.fast .c-arm.r{animation-duration:.17s}
+      @keyframes typeL{from{transform:rotate(-30deg)}to{transform:rotate(-52deg)}}
+      @keyframes typeR{from{transform:rotate(52deg)}to{transform:rotate(30deg)}}
+      .seated{animation:bob 2.6s ease-in-out infinite}
+      @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(.8px)}}
+      .relaxed .c-arm.l{transform:rotate(-12deg)}
+      .relaxed .c-arm.r{transform:rotate(12deg)}
+
+      /* standing / walking character */
+      .walker{position:absolute;left:0;top:0;width:30px;background:none;border:none;padding:0;z-index:8;will-change:transform}
+      .walker .char{margin:0 auto;height:40px}
+      .walker .c-leg{position:absolute;top:26px;width:5.5px;height:12px;border-radius:3px;z-index:1;transform-origin:top center;background:#3d4351}
+      .walker .c-leg.l{left:6.5px}.walker .c-leg.r{right:6.5px}
+      .walker.moving .c-leg.l{animation:step .36s ease-in-out infinite alternate}
+      .walker.moving .c-leg.r{animation:step .36s ease-in-out infinite alternate-reverse}
+      .walker.moving .char{animation:wbob .36s ease-in-out infinite alternate}
+      @keyframes step{from{transform:rotate(24deg)}to{transform:rotate(-24deg)}}
+      @keyframes wbob{from{transform:translateY(0)}to{transform:translateY(-1.6px)}}
+      .walker .c-body{height:15px}
+      .walker.idle-stand .char{animation:sway 3s ease-in-out infinite}
+      @keyframes sway{0%,100%{transform:rotate(-1.4deg)}50%{transform:rotate(1.4deg)}}
+      .cup{position:absolute;top:17px;right:-3px;width:6px;height:8px;background:#fff;border:1.5px solid #b08954;border-radius:1.5px;z-index:5}
+      .cup::before{content:"";position:absolute;top:1.5px;left:0;right:0;height:2.5px;background:#8a5a2b}
+      .flip{transform:scaleX(-1)}
+      .bubble{position:absolute;bottom:calc(100% + 4px);left:50%;transform:translateX(-50%) scale(.6);background:var(--panel);border:1.5px solid var(--line);color:var(--ink);font-size:9.5px;font-weight:700;padding:3px 8px;border-radius:10px;white-space:nowrap;opacity:0;pointer-events:none;transition:.25s;z-index:40;box-shadow:0 4px 10px rgba(0,0,0,.12)}
+      .bubble::after{content:"";position:absolute;top:100%;left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:var(--line)}
+      .bubble.show{opacity:1;transform:translateX(-50%) scale(1)}
+      .desk-unit .bubble{bottom:auto;top:-24px}
+
+      /* manager desk */
+      .mgr-desk{width:118px;height:44px;margin:8px auto 0;background:var(--desk-top);border:2.5px solid var(--wood-d);border-radius:8px;position:relative;box-shadow:0 4px 0 rgba(0,0,0,.15)}
+      .mgr-desk .monitor{width:30px;height:19px;top:4px}
+      .mgr-char{transform:scale(1.25);transform-origin:top center;margin-top:-12px}
+      .lounge-items{display:flex;gap:8px;align-items:flex-end;padding:6px 4px 2px}
+      .lounge-note{font-size:10.5px;color:var(--ink2);font-weight:600;line-height:1.45}
+      .fin-board{display:block;width:100%;text-align:left;background:var(--panel);border:1.5px dashed var(--amber);border-radius:10px;padding:8px 10px;margin-top:8px;color:var(--ink)}
+      .fin-board b{font-size:15px}
+      .fin-board span{display:block;font-size:10.5px;color:var(--ink2);font-weight:600;margin-top:1px}
+      .hallway{position:relative;height:30px;margin:0 2px 12px;border-radius:8px;background:repeating-linear-gradient(90deg,transparent 0 26px,rgba(0,0,0,.05) 26px 28px);border:1.5px dashed var(--wall)}
+      .hallway small{position:absolute;left:10px;top:50%;transform:translateY(-50%);font-size:9.5px;letter-spacing:.14em;font-weight:800;color:var(--ink3)}
+      .coffee-walker{z-index:20}
+
+      /* ===== Sections ===== */
+      .section{margin-top:30px}
+      .section h2{font-size:20px;font-weight:800;margin:0 0 4px}
+      .section .desc{color:var(--ink2);font-size:13.5px;margin:0 0 16px;font-weight:500}
+      .fin-total{display:flex;flex-wrap:wrap;gap:14px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:16px 18px;margin-bottom:14px;box-shadow:var(--shadow)}
+      .fin-total .big{font-family:"JetBrains Mono",monospace;font-size:32px;font-weight:700}
+      .fin-total p{margin:0;color:var(--ink2);font-size:13px;font-weight:600;max-width:520px}
+      .fin-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+      .fin-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:16px}
+      .fin-card h3{margin:0 0 2px;font-size:15.5px;font-weight:800}
+      .fin-card .amt{font-family:"JetBrains Mono",monospace;font-size:21px;font-weight:700;margin:8px 0 6px}
+      .fin-card p{margin:0;font-size:12.5px;color:var(--ink2);line-height:1.55;font-weight:500}
+      .pill{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.06em;padding:3px 9px;border-radius:99px;text-transform:uppercase}
+      .pill.prog{background:var(--amber-soft);color:var(--amber)}
+      .pill.hold{background:var(--red-soft);color:var(--red)}
+      .pill.spec{background:var(--blue-soft);color:var(--blue)}
+      .action{margin-top:10px;background:var(--red-soft);border-radius:10px;padding:9px 11px;font-size:12px;font-weight:700;color:var(--ink);line-height:1.5}
+      .action a{color:var(--red);font-weight:800}
+      .prog-wrap{margin-top:10px}
+      .prog-wrap small{font-size:11px;color:var(--ink2);font-weight:700}
+      .bar{height:7px;background:var(--panel2);border-radius:99px;margin-top:4px;overflow:hidden}
+      .bar i{display:block;height:100%;background:var(--amber);border-radius:99px}
+
+      /* roster */
+      .roster{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+      .roster-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:14px 16px}
+      .roster-card h3{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:800}
+      .roster-card h3 span{color:var(--ink3)}
+      .rrow{display:flex;gap:9px;align-items:baseline;width:100%;text-align:left;background:none;border:none;border-top:1px solid var(--line);padding:7px 2px;color:var(--ink)}
+      .rrow:hover{background:var(--panel2)}
+      .rrow .rd{width:8px;height:8px;border-radius:50%;flex:none;position:relative;top:1px}
+      .rrow .rn{font-weight:700;font-size:12.5px;font-family:"JetBrains Mono",monospace}
+      .rrow .rj{margin-left:auto;font-size:11px;color:var(--ink2);font-weight:600;text-align:right;max-width:45%}
+      .rrow.hide{display:none}
+
+      /* detail panel */
+      .scrim{position:fixed;inset:0;background:rgba(20,16,8,.42);opacity:0;pointer-events:none;transition:.25s;z-index:90}
+      .scrim.on{opacity:1;pointer-events:auto}
+      .sheet{position:fixed;top:0;right:0;height:100dvh;width:min(360px,92vw);background:var(--panel);z-index:95;transform:translateX(105%);transition:transform .3s cubic-bezier(.2,.8,.25,1);box-shadow:-14px 0 40px rgba(0,0,0,.25);padding:22px;overflow-y:auto;overflow-x:hidden}
+      .sheet .avatar-zone{overflow:hidden}
+      .sheet.on{transform:none}
+      .sheet .close{position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--panel2);color:var(--ink);font-size:16px}
+      .sheet .avatar-zone{display:flex;justify-content:center;padding:16px 0 4px;transform:scale(1.9);height:86px}
+      .sheet h3{font-family:"JetBrains Mono",monospace;font-size:17px;margin:6px 0 2px;word-break:break-all;text-align:center}
+      .sheet .dept{text-align:center;color:var(--ink2);font-weight:700;font-size:12.5px;margin-bottom:16px}
+      .kv{border-top:1px solid var(--line);padding:10px 2px}
+      .kv small{display:block;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);font-weight:800;margin-bottom:3px}
+      .kv div{font-size:14px;font-weight:600;line-height:1.5}
+      .status-line{display:flex;align-items:center;gap:8px;font-weight:800;font-size:14px}
+      footer{margin-top:34px;color:var(--ink3);font-size:12px;font-weight:600;text-align:center}
+      @media (prefers-reduced-motion: reduce){
+        *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}
+        html{scroll-behavior:auto}
+      }
+    </style>
+    <style data-hatch-cvm-bundle></style>
+</head>
+  <body>
+    <div class="wrap">
+      <!-- Header -->
+      <div class="topbar">
+        <div class="brand" role="img" aria-label="Logo Kantor AI — Yunobi">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 72"><rect x="4" y="8" width="56" height="56" rx="12" fill="#1a1a2e"/><rect x="14" y="28" width="10" height="26" fill="#4fc3f7"/><rect x="27" y="20" width="10" height="34" fill="#81ecec"/><rect x="40" y="32" width="10" height="22" fill="#a29bfe"/><circle cx="32" cy="14" r="4" fill="#fdcb6e"/><text x="70" y="34" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a1a2e">KANTOR AI</text><text x="70" y="54" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#636e72" letter-spacing="3">YUNOBI</text></svg>
+        </div>
+        <div class="clock-card">
+          <div class="clock-label"><span class="live-dot"></span>Live &bull; Waktu Indonesia Barat</div>
+          <div class="clock-time" id="clock">--:--:--</div>
+          <div class="clock-date" id="dateLine">Memuat tanggal…</div>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>79</b><span>Asisten AI (cron) aktif</span><div class="sub">di 6 departemen</div></div>
+          <div class="stat"><b id="statWorking">–</b><span>Sedang bekerja sekarang</span><div class="sub">berdasarkan jadwal WIB</div></div>
+          <div class="stat"><b>20 + 10</b><span>Channel YouTube &amp; blog</span><div class="sub">diproduksi tiap hari</div></div>
+          <div class="stat"><b>Rp 0</b><span>Pendapatan terealisasi</span><div class="sub">fase membangun aset</div></div>
+        </div>
+      </div>
+
+      <div class="toolbar" id="chips"></div>
+      <div class="legend">
+        <span><i style="background:var(--green)"></i>Sedang bekerja</span>
+        <span><i style="background:var(--amber)"></i>Jadwal berikutnya dekat</span>
+        <span><i style="background:#b9b2a0"></i>Siaga / santai</span>
+        <span>Klik karakter atau meja untuk lihat detail tugasnya.</span>
+      </div>
+
+      <!-- Floor -->
+      <div class="floor" id="floor">
+        <div class="row-top">
+          <div class="room r-lounge" id="room-lounge">
+            <div class="room-label"><b>LOUNGE</b><span>istirahat</span></div>
+            <div class="lounge-items">
+              <div class="sofa" style="position:relative;width:74px;height:30px"></div>
+              <p class="lounge-note">Tempat asisten melepas penat, ngobrol santai, dan ambil kopi di sela jadwal.</p>
+            </div>
+            <div class="plant" style="right:10px;bottom:10px"></div>
+            <div class="plant" style="right:30px;bottom:8px"></div>
+          </div>
+          <div class="room r-mgr" id="room-manager">
+            <div class="room-label"><b>MANAGER</b><span>koordinator</span></div>
+            <button class="desk-unit" style="width:100%" id="mgrBtn" aria-label="Detail manager">
+              <span class="mgr-desk"><span class="monitor"></span><span class="kb"></span></span>
+              <span class="char seated typing fast mgr-char" id="mgrChar"></span>
+              <span class="name-tag" style="max-width:none;font-size:9.5px">Koordinator — kamu yang pegang kendali</span>
+            </button>
+          </div>
+          <div class="room r-fin" id="room-keuangan">
+            <div class="room-label"><b>KEUANGAN</b><span>finance</span></div>
+            <div class="desks" id="desks-keuangan"></div>
+            <button class="fin-board" id="finBoard">
+              <b>Realisasi: Rp 0</b>
+              <span>5 sumber pendapatan dipantau &bull; 1 tertahan (Shopee) &bull; klik untuk rincian</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hallway" id="hallway"><small>KORIDOR</small></div>
+
+        <div class="row-main" id="rowMain"></div>
+      </div>
+
+      <!-- Finance -->
+      <section class="section" id="keuangan">
+        <h2>Keuangan Project</h2>
+        <p class="desc">Ringkasan pendapatan dari semua lini project. Jujur apa adanya: saat ini belum ada yang cair — semua masih fase membangun aset.</p>
+        <div class="fin-total">
+          <div><div class="clock-label">Total realisasi saat ini</div><div class="big">Rp 0</div></div>
+          <p>Belum ada payout dari sumber mana pun. YouTube mengejar syarat monetisasi, blog menunggu AdSense, komisi Shopee tertahan administrasi, dan airdrop masih spekulatif.</p>
+        </div>
+        <div class="fin-grid">
+          <div class="fin-card">
+            <span class="pill prog">Dalam progres</span>
+            <h3>YouTube — 20 channel</h3>
+            <div class="amt">Rp 0</div>
+            <p>Belum monetisasi. Setiap channel masih mengejar syarat Partner Program: 1.000 subscriber + 4.000 jam tayang publik.</p>
+            <div class="prog-wrap"><small>Syarat: 1.000 subs + 4.000 jam tayang / channel</small><div class="bar"><i style="width:18%"></i></div></div>
+          </div>
+          <div class="fin-card">
+            <span class="pill prog">Dalam progres</span>
+            <h3>Blog — 10 blog</h3>
+            <div class="amt">Rp 0</div>
+            <p>AdSense masih dalam proses, belum ada payout. Produksi artikel jalan terus: 6 artikel per hari tersebar ke 10 blog.</p>
+          </div>
+          <div class="fin-card">
+            <span class="pill hold">Tertahan</span>
+            <h3>Shopee Affiliate</h3>
+            <div class="amt">Komisi tertahan</div>
+            <p>Komisi dari promosi produk belum bisa cair karena info pembayaran &amp; pajak belum dilengkapi.</p>
+            <div class="action">Action item: lengkapi info pembayaran &amp; pajak di <a href="https://affiliate.shopee.co.id" target="_blank" rel="noopener">affiliate.shopee.co.id</a> supaya komisi bisa dicairkan.</div>
+          </div>
+          <div class="fin-card">
+            <span class="pill prog">Dalam progres</span>
+            <h3>TikTok — @ngeweb.yuk</h3>
+            <div class="amt">Rp 0</div>
+            <p>Mengejar 600 followers untuk membuka review produk affiliate, dan 1.000 followers agar link bio bisa diklik.</p>
+            <div class="prog-wrap"><small>Target 1: 600 followers (affiliate review)</small><div class="bar"><i style="width:35%"></i></div></div>
+            <div class="prog-wrap"><small>Target 2: 1.000 followers (link bio klik)</small><div class="bar"><i style="width:22%"></i></div></div>
+          </div>
+          <div class="fin-card">
+            <span class="pill spec">Spekulatif</span>
+            <h3>Airdrop Farming</h3>
+            <div class="amt">Rp 0</div>
+            <p>7 testnet aktif difarming tiap hari (termasuk MegaETH &amp; Sepolia). Belum ada token yang listing atau bisa dijual — nilai masih spekulatif.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Roster -->
+      <section class="section">
+        <h2>Daftar Semua Asisten</h2>
+        <p class="desc">79 asisten terjadwal. Klik nama untuk detail jadwal dan tugasnya.</p>
+        <div class="roster" id="roster"></div>
+      </section>
+
+      <footer>Kantor AI — pantau 79 asisten otomatis Yunobi: produksi YouTube, blog, TikTok, airdrop, dan monitoring. Status dihitung langsung dari jadwal WIB saat halaman dibuka.</footer>
+    </div>
+
+    <div class="scrim" id="scrim"></div>
+    <aside class="sheet" id="sheet" aria-hidden="true">
+      <button class="close" id="sheetClose" aria-label="Tutup">&times;</button>
+      <div class="avatar-zone" id="sheetAvatar"></div>
+      <h3 id="sheetName">—</h3>
+      <div class="dept" id="sheetDept">—</div>
+      <div class="kv"><small>Status sekarang</small><div class="status-line" id="sheetStatus">—</div></div>
+      <div class="kv"><small>Jadwal</small><div id="sheetSched">—</div></div>
+      <div class="kv"><small>Jalan berikutnya</small><div id="sheetNext">—</div></div>
+      <div class="kv"><small>Tugas</small><div id="sheetJob">—</div></div>
+    </aside>
+
+    
+  <script data-hatch-cvm-bundle>(() => {
+  var __defProp = Object.defineProperty;
+  var __getOwnPropNames = Object.getOwnPropertyNames;
+  var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+  var __hasOwnProp = Object.prototype.hasOwnProperty;
+  function __accessProp(key) {
+    return this[key];
+  }
+  var __toCommonJS = (from) => {
+    var entry = (__moduleCache ??= new WeakMap).get(from), desc;
+    if (entry)
+      return entry;
+    entry = __defProp({}, "__esModule", { value: true });
+    if (from && typeof from === "object" || typeof from === "function") {
+      for (var key of __getOwnPropNames(from))
+        if (!__hasOwnProp.call(entry, key))
+          __defProp(entry, key, {
+            get: __accessProp.bind(from, key),
+            enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable
+          });
+    }
+    __moduleCache.set(from, entry);
+    return entry;
+  };
+  var __moduleCache;
+
+  // src/prelude.ts
+  var exports_prelude = {};
+
+  // src/tunnel-url.ts
+  var B64_CHUNK = 32768;
+  function computeSelfBaseDir(selfHref) {
+    if (!selfHref)
+      return "";
+    let h = selfHref;
+    const hash = h.indexOf("#");
+    if (hash >= 0)
+      h = h.slice(0, hash);
+    const q = h.indexOf("?");
+    if (q >= 0)
+      h = h.slice(0, q);
+    const slash = h.lastIndexOf("/");
+    return slash >= 0 ? h.slice(0, slash + 1) : "";
+  }
+  function isSelfOriginUrl(u, selfBaseDir, selfHref, objectUrls) {
+    if (!selfBaseDir || !u.startsWith(selfBaseDir))
+      return false;
+    if (u === selfHref)
+      return false;
+    return !objectUrls.has(u);
+  }
+  function isExternalUrl(u, selfBaseDir, selfHref, objectUrls) {
+    if (!u)
+      return false;
+    if (u.startsWith("#"))
+      return true;
+    if (isSelfOriginUrl(u, selfBaseDir, selfHref, objectUrls))
+      return false;
+    if (u.startsWith("data:") || u.startsWith("blob:"))
+      return true;
+    if (u.startsWith("about:") || u.startsWith("javascript:"))
+      return true;
+    if (u.startsWith("//"))
+      return true;
+    if (/^[a-z][a-z0-9+.-]*:/i.test(u)) {
+      return true;
+    }
+    return false;
+  }
+  function normalizeToRelPath(u, selfBaseDir) {
+    let s = u;
+    if (selfBaseDir && s.startsWith(selfBaseDir)) {
+      s = s.slice(selfBaseDir.length);
+    }
+    s = s.replace(/^\.\//, "");
+    s = s.replace(/^\/+/, "");
+    return s;
+  }
+  function blobInner(base, NativeURL) {
+    if (base == null)
+      return null;
+    const s = typeof base === "string" ? base : base instanceof NativeURL ? base.href : String(base);
+    return s.startsWith("blob:") ? s.slice("blob:".length) : null;
+  }
+  var OPAQUE_BLOB_ORIGIN = "https://hatch-cvm-opaque.invalid";
+  function isAbsoluteUrlString(s, NativeURL) {
+    try {
+      new NativeURL(s);
+      return true;
+    } catch {
+      return false;
+    }
+  }
+  function resolveAgainstBlobBase(u, base, NativeURL) {
+    const inner = blobInner(base, NativeURL);
+    if (inner === null)
+      return null;
+    if (isAbsoluteUrlString(inner, NativeURL)) {
+      return new NativeURL("blob:" + new NativeURL(u, inner).href);
+    }
+    const slash = inner.indexOf("/");
+    const token = slash >= 0 ? inner.slice(0, slash) : inner;
+    const path = slash >= 0 ? inner.slice(slash) : "/";
+    const resolved = new NativeURL(u, OPAQUE_BLOB_ORIGIN + path);
+    return new NativeURL("blob:" + token + resolved.pathname + resolved.search + resolved.hash);
+  }
+  function resolveTunnelUrl(url, base, selfHref, NativeURL) {
+    const u = url == null ? "" : typeof url === "string" ? url : url instanceof NativeURL ? url.href : String(url);
+    const uAbsolute = /^[a-z][a-z0-9+.-]*:/i.test(u) || u.startsWith("//");
+    if (base !== undefined && base !== null && !uAbsolute) {
+      const viaBlob = resolveAgainstBlobBase(u, base, NativeURL);
+      if (viaBlob !== null)
+        return viaBlob;
+      return new NativeURL(u, base);
+    }
+    if (!uAbsolute && selfHref) {
+      const viaBlob = resolveAgainstBlobBase(u, selfHref, NativeURL);
+      if (viaBlob !== null)
+        return viaBlob;
+    }
+    return base === undefined ? new NativeURL(u) : new NativeURL(u, base);
+  }
+  function bytesToBase64(bytes) {
+    const u8 = bytes instanceof Uint8Array ? bytes : new Uint8Array(bytes);
+    let s = "";
+    for (let i = 0;i < u8.length; i += B64_CHUNK) {
+      s += String.fromCharCode.apply(null, Array.from(u8.subarray(i, i + B64_CHUNK)));
+    }
+    return btoa(s);
+  }
+  function base64ToBytes(b64) {
+    const bin = atob(b64);
+    const out = new Uint8Array(bin.length);
+    for (let i = 0;i < bin.length; i++)
+      out[i] = bin.charCodeAt(i);
+    return out;
+  }
+  function importMetaUrl(selfHref, selfBaseDir) {
+    return selfBaseDir ? `${selfBaseDir}assets/cvm-bundle.js` : selfHref;
+  }
+
+  // src/download-links.ts
+  function installDownloadLinks(fetchAsset, isExternalUrl, revokeDelayMs) {
+    document.addEventListener("click", (event) => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey)
+        return;
+      const anchor = event.composedPath().find((node) => node instanceof HTMLAnchorElement);
+      if (!anchor?.hasAttribute("download"))
+        return;
+      const href = anchor.getAttribute("href");
+      if (!href || isExternalUrl(href))
+        return;
+      event.preventDefault();
+      const filename = anchor.download || resourceFilename(href);
+      (async () => {
+        const response = await fetchAsset(href);
+        if (!response.ok) {
+          throw new Error(`Artifact download failed: HTTP ${response.status}`);
+        }
+        const url = URL.createObjectURL(await response.blob());
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = filename;
+        link.hidden = true;
+        document.body.appendChild(link);
+        try {
+          link.click();
+        } finally {
+          link.remove();
+          setTimeout(() => URL.revokeObjectURL(url), revokeDelayMs);
+        }
+      })().catch((error) => reportError(error));
+    });
+  }
+  function resourceFilename(href) {
+    const path = new URL(href, document.baseURI).pathname;
+    const name = path.slice(path.lastIndexOf("/") + 1);
+    try {
+      return decodeURIComponent(name);
+    } catch {
+      return name;
+    }
+  }
+
+  // src/fragment-links.ts
+  function installFragmentLinks() {
+    if (!location.href.startsWith("blob:null/"))
+      return;
+    const NativeURL = URL;
+    const pushState = history.pushState.bind(history);
+    const replaceState = history.replaceState.bind(history);
+    window.addEventListener("click", (event) => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey)
+        return;
+      const anchor = event.composedPath().find((node) => node instanceof HTMLAnchorElement);
+      if (!anchor || anchor.hasAttribute("download"))
+        return;
+      const targetName = anchor.getAttribute("target") ?? document.querySelector("base[target]")?.getAttribute("target") ?? "";
+      if (targetName !== "" && targetName.toLowerCase() !== "_self")
+        return;
+      const href = anchor.getAttribute("href");
+      if (!href?.startsWith("#"))
+        return;
+      const oldURL = location.href;
+      const nextURL = new NativeURL(href, oldURL);
+      event.preventDefault();
+      const changed = nextURL.href !== oldURL;
+      if (changed) {
+        pushState(null, "", nextURL.href);
+      } else {
+        replaceState(null, "", nextURL.href);
+      }
+      window.dispatchEvent(new PopStateEvent("popstate", { state: null }));
+      const target = fragmentTarget(nextURL.hash);
+      if (target) {
+        target.scrollIntoView();
+        if (target !== document.documentElement && (target instanceof HTMLElement || target instanceof SVGElement)) {
+          const hadTabIndex = target.hasAttribute("tabindex");
+          if (!hadTabIndex)
+            target.setAttribute("tabindex", "-1");
+          target.focus({ preventScroll: true });
+          if (!hadTabIndex)
+            target.removeAttribute("tabindex");
+        }
+      }
+      if (changed) {
+        queueMicrotask(() => window.dispatchEvent(new HashChangeEvent("hashchange", {
+          oldURL,
+          newURL: nextURL.href
+        })));
+      }
+    });
+  }
+  function fragmentTarget(hash) {
+    const bytes = hash.slice(1).replace(/%([0-9a-f]{2})/gi, (_match, hex) => String.fromCharCode(parseInt(hex, 16)));
+    const fragment = new TextDecoder().decode(Uint8Array.from(bytes, (byte) => byte.charCodeAt(0)));
+    if (fragment === "")
+      return document.documentElement;
+    const idTarget = document.getElementById(fragment);
+    if (idTarget)
+      return idTarget;
+    const namedTarget = Array.from(document.getElementsByName(fragment)).find((node) => node instanceof HTMLAnchorElement);
+    return namedTarget ?? (fragment.toLowerCase() === "top" ? document.documentElement : null);
+  }
+
+  // src/prelude.ts
+  (function installTunnel() {
+    installFragmentLinks();
+    let port = null;
+    let portReadyResolve = null;
+    const portReady = new Promise((res) => {
+      portReadyResolve = res;
+    });
+    const pending = new Map;
+    const openWs = new Map;
+    function newId() {
+      return Math.random().toString(36).slice(2) + "-" + Date.now().toString(36);
+    }
+    function bytesToB64(bytes) {
+      return bytesToBase64(bytes);
+    }
+    function b64ToBytes(b64) {
+      return base64ToBytes(b64);
+    }
+    async function httpReq(method, path, body, headers) {
+      const p = port ?? await portReady;
+      const id = newId();
+      const headerArr = [];
+      if (headers) {
+        const h = new Headers(headers);
+        h.forEach((v, k) => headerArr.push([k, v]));
+      }
+      let bodyB64 = "";
+      if (body != null && body !== "") {
+        let bytes;
+        if (typeof body === "string") {
+          bytes = new TextEncoder().encode(body);
+        } else if (body instanceof ArrayBuffer) {
+          bytes = new Uint8Array(body);
+        } else if (body instanceof Uint8Array) {
+          bytes = body;
+        } else if (body instanceof Blob) {
+          bytes = new Uint8Array(await body.arrayBuffer());
+        } else if (body instanceof FormData) {
+          const boundary = "----HatchBoundary" + Math.random().toString(36).slice(2);
+          let s = "";
+          for (const [k, v] of body.entries()) {
+            s += `--${boundary}\r
+Content-Disposition: form-data; name="${k}"`;
+            if (v instanceof File) {
+              s += `; filename="${v.name}"\r
+Content-Type: ${v.type || "application/octet-stream"}\r
+\r
+`;
+              const fb = new Uint8Array(await v.arrayBuffer());
+              s += new TextDecoder("latin1").decode(fb);
+            } else {
+              s += `\r
+\r
+${v}`;
+            }
+            s += `\r
+`;
+          }
+          s += `--${boundary}--\r
+`;
+          bytes = new TextEncoder().encode(s);
+          headerArr.push([
+            "content-type",
+            `multipart/form-data; boundary=${boundary}`
+          ]);
+        } else {
+          bytes = new TextEncoder().encode(String(body));
+        }
+        bodyB64 = bytesToB64(bytes);
+      }
+      return new Promise((resolve, reject) => {
+        pending.set(id, {
+          resolve: (msg) => {
+            if (msg.error) {
+              reject(new Error(msg.error.message ?? "tunnel error"));
+              return;
+            }
+            resolve({
+              status: msg.status,
+              headers: msg.headers,
+              bytes: msg.bodyB64 ? b64ToBytes(msg.bodyB64) : new Uint8Array(0)
+            });
+          },
+          reject
+        });
+        p.postMessage({
+          type: "http.req",
+          id,
+          method,
+          path,
+          headers: headerArr,
+          bodyB64
+        });
+      });
+    }
+    async function tunnelFetch(input, init) {
+      let urlStr;
+      let method = init?.method ?? "GET";
+      let headers = init?.headers;
+      let body = init?.body;
+      if (input instanceof Request) {
+        urlStr = input.url;
+        method = init?.method ?? input.method;
+        headers = init?.headers ?? input.headers;
+        if (body == null && input.body) {
+          body = await input.arrayBuffer();
+        }
+      } else {
+        urlStr = String(input);
+      }
+      if (isExternalUrl2(urlStr)) {
+        return originalFetch(input, init);
+      }
+      const relPath = normalizeToRelPath2(urlStr);
+      const r = await httpReq(method, relPath, body ?? null, headers);
+      const respHeaders = new Headers;
+      for (const [k, v] of r.headers ?? [])
+        respHeaders.set(k, v);
+      return new Response(r.bytes, {
+        status: r.status,
+        headers: respHeaders
+      });
+    }
+
+    class TunnelWebSocket extends EventTarget {
+      readyState = 0;
+      static CONNECTING = 0;
+      static OPEN = 1;
+      static CLOSING = 2;
+      static CLOSED = 3;
+      CONNECTING = 0;
+      OPEN = 1;
+      CLOSING = 2;
+      CLOSED = 3;
+      url;
+      binaryType = "blob";
+      bufferedAmount = 0;
+      protocol = "";
+      extensions = "";
+      onopen = null;
+      onmessage = null;
+      onclose = null;
+      onerror = null;
+      _id;
+      constructor(urlIn, _protocols) {
+        super();
+        const urlStr = String(urlIn);
+        this.url = urlStr;
+        this._id = newId();
+        openWs.set(this._id, this);
+        const path = normalizeToRelPath2(urlStr);
+        (async () => {
+          const p = port ?? await portReady;
+          p.postMessage({ type: "ws.open", id: this._id, path });
+        })();
+      }
+      _handle(msg) {
+        if (msg.type === "ws.opened") {
+          this.readyState = 1;
+          const ev = new Event("open");
+          this.onopen?.(ev);
+          this.dispatchEvent(ev);
+        } else if (msg.type === "ws.message") {
+          const bytes = msg.dataB64 ? b64ToBytes(msg.dataB64) : new Uint8Array(0);
+          let data;
+          if (msg.binary) {
+            data = this.binaryType === "arraybuffer" ? bytes.buffer : new Blob([bytes]);
+          } else {
+            data = new TextDecoder().decode(bytes);
+          }
+          const ev = new MessageEvent("message", { data });
+          this.onmessage?.(ev);
+          this.dispatchEvent(ev);
+        } else if (msg.type === "ws.closed") {
+          this.readyState = 3;
+          const ev = new CloseEvent("close", {
+            code: msg.code ?? 1000,
+            reason: msg.reason ?? ""
+          });
+          this.onclose?.(ev);
+          this.dispatchEvent(ev);
+          openWs.delete(this._id);
+        } else if (msg.type === "ws.error") {
+          const ev = new Event("error");
+          this.onerror?.(ev);
+          this.dispatchEvent(ev);
+        }
+      }
+      send(data) {
+        (async () => {
+          const p = port ?? await portReady;
+          let bytes;
+          let binary = false;
+          if (typeof data === "string") {
+            bytes = new TextEncoder().encode(data);
+          } else if (data instanceof Blob) {
+            bytes = new Uint8Array(await data.arrayBuffer());
+            binary = true;
+          } else if (data instanceof ArrayBuffer) {
+            bytes = new Uint8Array(data);
+            binary = true;
+          } else if (ArrayBuffer.isView(data)) {
+            bytes = new Uint8Array(data.buffer, data.byteOffset, data.byteLength);
+            binary = true;
+          } else {
+            bytes = new TextEncoder().encode(String(data));
+          }
+          p.postMessage({
+            type: "ws.send",
+            id: this._id,
+            dataB64: bytesToB64(bytes),
+            binary
+          });
+        })();
+      }
+      close(code, reason) {
+        (async () => {
+          const p = port ?? await portReady;
+          p.postMessage({ type: "ws.close", id: this._id, code, reason });
+        })();
+      }
+      addEventListener(type, listener, options) {
+        super.addEventListener(type, listener, options);
+      }
+    }
+
+    class TunnelXHR extends EventTarget {
+      static UNSENT = 0;
+      static OPENED = 1;
+      static HEADERS_RECEIVED = 2;
+      static LOADING = 3;
+      static DONE = 4;
+      UNSENT = 0;
+      OPENED = 1;
+      HEADERS_RECEIVED = 2;
+      LOADING = 3;
+      DONE = 4;
+      readyState = 0;
+      status = 0;
+      statusText = "";
+      responseText = "";
+      response = null;
+      responseType = "";
+      responseURL = "";
+      withCredentials = false;
+      timeout = 0;
+      upload = new EventTarget;
+      onreadystatechange = null;
+      onload = null;
+      onerror = null;
+      onloadend = null;
+      onabort = null;
+      onprogress = null;
+      ontimeout = null;
+      _method = "GET";
+      _url = "";
+      _reqHeaders = [];
+      _respHeaders = [];
+      _aborted = false;
+      open(method, url) {
+        this._method = method;
+        this._url = url;
+        this.readyState = 1;
+        this.onreadystatechange?.();
+      }
+      setRequestHeader(name, value) {
+        this._reqHeaders.push([name, value]);
+      }
+      getAllResponseHeaders() {
+        return this._respHeaders.map(([k, v]) => `${k}: ${v}`).join(`\r
+`);
+      }
+      getResponseHeader(name) {
+        const lc = name.toLowerCase();
+        const hit = this._respHeaders.find(([k]) => k.toLowerCase() === lc);
+        return hit ? hit[1] : null;
+      }
+      abort() {
+        this._aborted = true;
+        this.readyState = 0;
+      }
+      send(body) {
+        if (isExternalUrl2(this._url)) {
+          const real = new originalXHR;
+          real.open(this._method, this._url);
+          for (const [k, v] of this._reqHeaders)
+            real.setRequestHeader(k, v);
+          real.onload = () => {
+            this.status = real.status;
+            this.responseText = real.responseText;
+            this.response = real.response;
+            this.readyState = 4;
+            this.onreadystatechange?.();
+            this.onload?.();
+            this.onloadend?.();
+            this.dispatchEvent(new Event("load"));
+          };
+          real.onerror = () => {
+            this.onerror?.();
+            this.dispatchEvent(new Event("error"));
+          };
+          real.send(body);
+          return;
+        }
+        const relPath = normalizeToRelPath2(this._url);
+        httpReq(this._method, relPath, body ?? null, this._reqHeaders).then((r) => {
+          if (this._aborted)
+            return;
+          this.status = r.status;
+          this._respHeaders = r.headers ?? [];
+          this.responseText = new TextDecoder().decode(r.bytes);
+          if (this.responseType === "arraybuffer") {
+            this.response = r.bytes.buffer;
+          } else if (this.responseType === "blob") {
+            this.response = new Blob([r.bytes]);
+          } else if (this.responseType === "json") {
+            try {
+              this.response = JSON.parse(this.responseText);
+            } catch {
+              this.response = null;
+            }
+          } else {
+            this.response = this.responseText;
+          }
+          this.readyState = 4;
+          this.onreadystatechange?.();
+          this.onload?.();
+          this.onloadend?.();
+          this.dispatchEvent(new Event("load"));
+        }, () => {
+          if (this._aborted)
+            return;
+          this.onerror?.();
+          this.dispatchEvent(new Event("error"));
+        });
+      }
+    }
+
+    class TunnelEventSource extends EventTarget {
+      static CONNECTING = 0;
+      static OPEN = 1;
+      static CLOSED = 2;
+      readyState = 0;
+      url;
+      withCredentials = false;
+      onopen = null;
+      onmessage = null;
+      onerror = null;
+      constructor(url) {
+        super();
+        this.url = String(url);
+        (async () => {
+          try {
+            const relPath = normalizeToRelPath2(this.url);
+            const r = await httpReq("GET", relPath, null, [
+              ["accept", "text/event-stream"]
+            ]);
+            this.readyState = 1;
+            this.onopen?.(new Event("open"));
+            const text = new TextDecoder().decode(r.bytes);
+            for (const block of text.split(/\n\n/)) {
+              const data = block.split(`
+`).filter((l) => l.startsWith("data:")).map((l) => l.slice(5).trim()).join(`
+`);
+              if (data) {
+                const ev = new MessageEvent("message", { data });
+                this.onmessage?.(ev);
+                this.dispatchEvent(ev);
+              }
+            }
+            this.readyState = 2;
+          } catch {
+            this.onerror?.(new Event("error"));
+          }
+        })();
+      }
+      close() {
+        this.readyState = 2;
+      }
+    }
+    const SELF_HREF = (() => {
+      try {
+        return globalThis.location?.href ?? "";
+      } catch {
+        return "";
+      }
+    })();
+    const SELF_BASE_DIR = computeSelfBaseDir(SELF_HREF);
+    const objectUrls = new Set;
+    function isSelfOriginUrl2(u) {
+      return isSelfOriginUrl(u, SELF_BASE_DIR, SELF_HREF, objectUrls);
+    }
+    function isExternalUrl2(u) {
+      return isExternalUrl(u, SELF_BASE_DIR, SELF_HREF, objectUrls);
+    }
+    function normalizeToRelPath2(u) {
+      return normalizeToRelPath(u, SELF_BASE_DIR);
+    }
+    const URL_ATTRS = new Set([
+      "src",
+      "srcset",
+      "href",
+      "poster",
+      "action",
+      "formaction",
+      "data",
+      "background",
+      "cite",
+      "longdesc",
+      "usemap",
+      "manifest"
+    ]);
+    const URL_STYLE_PROPS = new Set([
+      "background",
+      "backgroundImage",
+      "background-image",
+      "borderImage",
+      "border-image",
+      "borderImageSource",
+      "border-image-source",
+      "listStyle",
+      "list-style",
+      "listStyleImage",
+      "list-style-image",
+      "cursor",
+      "mask",
+      "maskImage",
+      "mask-image",
+      "webkitMask",
+      "-webkit-mask",
+      "webkitMaskImage",
+      "-webkit-mask-image",
+      "content",
+      "src"
+    ]);
+    const __BLOB_CACHE_MAX = 256;
+    const __BLOB_REVOKE_DELAY_MS = 30000;
+    const blobCache = new Map;
+    const blobStats = {
+      created: 0,
+      revoked: 0,
+      hits: 0,
+      misses: 0,
+      inFlightRevokes: 0
+    };
+    function __evictIfOverCap() {
+      while (blobCache.size > __BLOB_CACHE_MAX) {
+        const oldestKey = blobCache.keys().next().value;
+        if (oldestKey === undefined)
+          break;
+        const ent = blobCache.get(oldestKey);
+        blobCache.delete(oldestKey);
+        blobStats.inFlightRevokes++;
+        const t = setTimeout(() => {
+          ent.url.then((u) => {
+            if (typeof u === "string" && u.startsWith("blob:")) {
+              try {
+                URL.revokeObjectURL(u);
+                blobStats.revoked++;
+              } catch {}
+            }
+          }).finally(() => {
+            blobStats.inFlightRevokes--;
+          });
+        }, __BLOB_REVOKE_DELAY_MS);
+        ent.pendingRevoke = t;
+      }
+    }
+    function resolveToBlobUrl(rel) {
+      if (isExternalUrl2(rel))
+        return Promise.resolve(rel);
+      const hashIdx = rel.indexOf("#");
+      const pathPart = hashIdx >= 0 ? rel.slice(0, hashIdx) : rel;
+      const frag = hashIdx >= 0 ? rel.slice(hashIdx) : "";
+      const key = normalizeToRelPath2(pathPart);
+      let ent = blobCache.get(key);
+      if (ent) {
+        if (ent.pendingRevoke != null) {
+          clearTimeout(ent.pendingRevoke);
+          ent.pendingRevoke = undefined;
+          blobStats.inFlightRevokes--;
+        }
+        blobCache.delete(key);
+        blobCache.set(key, ent);
+        blobStats.hits++;
+      } else {
+        blobStats.misses++;
+        const url = httpReq("GET", key, null).then((r) => {
+          const ctHeader = r.headers.find(([k]) => k.toLowerCase() === "content-type");
+          const ct = ctHeader?.[1] ?? "application/octet-stream";
+          const blob = new Blob([r.bytes], { type: ct });
+          blobStats.created++;
+          return URL.createObjectURL(blob);
+        });
+        ent = { url };
+        blobCache.set(key, ent);
+        __evictIfOverCap();
+      }
+      return frag ? ent.url.then((b) => b + frag) : ent.url;
+    }
+    const HATCH_PIXEL_PREFIX = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==";
+    const HATCH_FRAG = "#hatch=";
+    function isHatchPlaceholder(url) {
+      return url.indexOf(HATCH_PIXEL_PREFIX + HATCH_FRAG) === 0;
+    }
+    function unwrapHatchPlaceholder(url) {
+      if (!isHatchPlaceholder(url))
+        return null;
+      return decodeURIComponent(url.slice((HATCH_PIXEL_PREFIX + HATCH_FRAG).length));
+    }
+    async function rewriteCssTextAsync(text) {
+      const re = /url\(\s*(['"]?)([^'")]+)\1\s*\)/g;
+      const tasks = [];
+      let m;
+      while ((m = re.exec(text)) !== null) {
+        tasks.push({ match: m[0], index: m.index, url: m[2].trim() });
+      }
+      if (tasks.length === 0)
+        return text;
+      const resolved = await Promise.all(tasks.map(async (t) => {
+        if (t.url.startsWith("blob:"))
+          return t.url;
+        const unwrapped = unwrapHatchPlaceholder(t.url);
+        if (unwrapped != null) {
+          try {
+            return await resolveToBlobUrl(unwrapped);
+          } catch {
+            return t.url;
+          }
+        }
+        if (isExternalUrl2(t.url))
+          return t.url;
+        try {
+          return await resolveToBlobUrl(t.url);
+        } catch {
+          return t.url;
+        }
+      }));
+      let out = "";
+      let last = 0;
+      tasks.forEach((t, i) => {
+        out += text.slice(last, t.index);
+        out += `url("${resolved[i]}")`;
+        last = t.index + t.match.length;
+      });
+      out += text.slice(last);
+      return out;
+    }
+    function rewriteCssText(text) {
+      return rewriteCssTextAsync(text);
+    }
+    const mediaSourceLoads = new WeakMap;
+    window.addEventListener("error", (event) => {
+      const source = event.target;
+      if (!event.isTrusted || !(source instanceof HTMLSourceElement) || !(source.parentElement instanceof HTMLMediaElement) || source.hasAttribute("src"))
+        return;
+      const state = mediaSourceLoads.get(source);
+      if (state === "pending" || state === undefined && source.hasAttribute("data-hatch-src")) {
+        event.stopImmediatePropagation();
+      }
+    }, true);
+    function isElement(el) {
+      if (el instanceof Element)
+        return true;
+      const ownerWindow = el?.ownerDocument?.defaultView;
+      return ownerWindow != null && el instanceof ownerWindow.Element;
+    }
+    function setAttr(el, name, value, ...rest) {
+      if (!isElement(el)) {
+        return el.setAttribute(name, value, ...rest);
+      }
+      name = String(name);
+      if (value == null) {
+        if (name.toLowerCase() === "src" && el instanceof HTMLSourceElement) {
+          mediaSourceLoads.set(el, "settled");
+        }
+        try {
+          el.removeAttribute(name);
+        } catch {}
+        return;
+      }
+      const v = String(value);
+      const lcName = name.toLowerCase();
+      const tag = el.tagName?.toUpperCase();
+      if ((tag === "A" || tag === "BASE" || tag === "AREA") && lcName === "href") {
+        el.setAttribute(name, v);
+        return;
+      }
+      if (!URL_ATTRS.has(lcName) && lcName !== "style" && lcName !== "srcset") {
+        el.setAttribute(name, v);
+        return;
+      }
+      if (lcName === "srcset") {
+        const parts = v.split(",").map((s) => s.trim()).filter(Boolean);
+        Promise.all(parts.map(async (p) => {
+          const segs = p.split(/\s+/);
+          const url = segs[0];
+          const rest = segs.slice(1).join(" ");
+          if (isExternalUrl2(url))
+            return p;
+          const resolved = await resolveToBlobUrl(url);
+          return rest ? `${resolved} ${rest}` : resolved;
+        })).then((rebuilt) => {
+          try {
+            el.setAttribute("srcset", rebuilt.join(", "));
+          } catch {}
+        });
+        return;
+      }
+      if (URL_ATTRS.has(lcName)) {
+        const isMediaSource = tag === "SOURCE" && lcName === "src";
+        if (isExternalUrl2(v)) {
+          if (isMediaSource)
+            mediaSourceLoads.set(el, "settled");
+          el.setAttribute(name, v);
+          return;
+        }
+        if (isMediaSource)
+          mediaSourceLoads.set(el, "pending");
+        if (tag === "IMG" || tag === "VIDEO" && lcName === "poster") {
+          el.setAttribute(name, TRANSPARENT_PIXEL);
+        }
+        resolveToBlobUrl(v).then((blobUrl) => {
+          if (isMediaSource)
+            mediaSourceLoads.set(el, "settled");
+          try {
+            el.setAttribute(name, blobUrl);
+            if (isMediaSource) {
+              const media = el.parentElement;
+              if (media instanceof HTMLMediaElement && media.networkState === HTMLMediaElement.NETWORK_NO_SOURCE) {
+                const nextSibling = el.nextSibling;
+                el.remove();
+                media.insertBefore(el, nextSibling);
+              }
+            }
+          } catch {}
+        }, () => {
+          if (isMediaSource) {
+            mediaSourceLoads.set(el, "settled");
+            el.dispatchEvent(new Event("error"));
+          }
+        });
+        return;
+      }
+      if (lcName === "style") {
+        setStyleAttr(el, v);
+        return;
+      }
+      el.setAttribute(name, v);
+    }
+    function setAttrNS(el, ns, name, value, ...rest) {
+      if (!isElement(el)) {
+        return el.setAttributeNS(ns, name, value, ...rest);
+      }
+      name = String(name);
+      if (value == null) {
+        try {
+          el.removeAttributeNS(ns ?? null, name);
+        } catch {}
+        return;
+      }
+      const v = String(value);
+      const lcName = name.split(":").pop().toLowerCase();
+      if (lcName === "href" && URL_ATTRS.has("href")) {
+        if (isExternalUrl2(v)) {
+          el.setAttributeNS(ns ?? null, name, v);
+          return;
+        }
+        resolveToBlobUrl(v).then((blobUrl) => {
+          try {
+            el.setAttributeNS(ns ?? null, name, blobUrl);
+          } catch {}
+        }, () => {});
+        return;
+      }
+      try {
+        el.setAttributeNS(ns ?? null, name, v);
+      } catch {}
+    }
+    function setUrlProp(el, name, value) {
+      if (isElement(el)) {
+        setAttr(el, name.toLowerCase(), value);
+      } else {
+        el[name] = value;
+      }
+      return value;
+    }
+    const TRANSPARENT_PIXEL = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==";
+    const HTML_TAG_ATTRS = {
+      img: ["src", "srcset", "poster"],
+      image: ["href"],
+      video: ["src", "poster"],
+      audio: ["src"],
+      source: ["src", "srcset"],
+      script: ["src"],
+      link: ["href"],
+      iframe: ["src"],
+      embed: ["src"],
+      object: ["data"],
+      track: ["src"],
+      input: ["src"],
+      form: ["action"],
+      button: ["formaction"],
+      use: ["href"]
+    };
+    function rewriteHtmlString(html) {
+      return html.replace(/<([a-zA-Z][a-zA-Z0-9-]*)\b([^>]*)>/g, (m, tag, attrs) => {
+        const lc = String(tag).toLowerCase();
+        const candidates = HTML_TAG_ATTRS[lc];
+        if (!candidates)
+          return m;
+        let out = attrs;
+        for (const a of candidates) {
+          const re = new RegExp(`\\b${a}\\s*=\\s*("([^"]*)"|'([^']*)'|([^\\s>]+))`, "i");
+          const matched = out.match(re);
+          if (!matched)
+            continue;
+          const value = matched[2] ?? matched[3] ?? matched[4] ?? "";
+          if (isExternalUrl2(value))
+            continue;
+          out = out.replace(re, `data-hatch-${a}="${value.replace(/"/g, "&quot;")}"`);
+        }
+        const styleRe = /\bstyle\s*=\s*("([^"]*)"|'([^']*)')/i;
+        const sm = out.match(styleRe);
+        if (sm) {
+          const value = sm[2] ?? sm[3] ?? "";
+          if (value.includes("url(")) {
+            out = out.replace(styleRe, `data-hatch-style="${value.replace(/"/g, "&quot;")}"`);
+          }
+        }
+        return `<${tag}${out}>`;
+      });
+    }
+    const HTML_URL_ATTRS_BY_TAG = {
+      IMG: ["src", "srcset", "poster"],
+      IMAGE: ["href"],
+      VIDEO: ["src", "poster"],
+      AUDIO: ["src"],
+      SOURCE: ["src", "srcset"],
+      SCRIPT: ["src"],
+      LINK: ["href"],
+      IFRAME: ["src"],
+      EMBED: ["src"],
+      OBJECT: ["data"],
+      TRACK: ["src"],
+      INPUT: ["src"],
+      FORM: ["action"],
+      BUTTON: ["formaction"],
+      USE: ["href", "xlink:href"]
+    };
+    function rewriteSubtreeForTunnel(root) {
+      if (!root)
+        return;
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_ELEMENT);
+      let n = walker.currentNode;
+      if (root.nodeType === 1)
+        processOne(root);
+      while (n = walker.nextNode()) {
+        processOne(n);
+      }
+    }
+    function processOne(el) {
+      const tag = (el.tagName ?? "").toUpperCase();
+      const attrs = HTML_URL_ATTRS_BY_TAG[tag];
+      if (attrs) {
+        for (const a of attrs) {
+          const v = el.getAttribute(a);
+          if (v == null)
+            continue;
+          if (isExternalUrl2(v))
+            continue;
+          el.setAttribute("data-hatch-" + a, v);
+          el.removeAttribute(a);
+        }
+      }
+      const style = el.getAttribute("style");
+      if (style && style.includes("url(")) {
+        el.setAttribute("data-hatch-style", style);
+        el.removeAttribute("style");
+      }
+    }
+    function parseAndCleanHtml(html) {
+      const tpl = document.createElement("template");
+      tpl.innerHTML = html;
+      rewriteSubtreeForTunnel(tpl.content);
+      return tpl.content;
+    }
+    function setInnerHTML(el, html, which = "innerHTML") {
+      const s = html == null ? "" : String(html);
+      if (which === "innerHTML" && typeof el.tagName === "string" && el.tagName.toUpperCase() === "TEMPLATE") {
+        try {
+          el.innerHTML = s;
+        } catch {}
+        return;
+      }
+      if (which === "outerHTML") {
+        const frag = parseAndCleanHtml(s);
+        const wrap = document.createElement("div");
+        wrap.appendChild(frag);
+        try {
+          el.outerHTML = wrap.innerHTML;
+        } catch {}
+        queueMicrotask(() => processDataHatchAttrs(document.body));
+        return;
+      }
+      const frag = parseAndCleanHtml(s);
+      try {
+        while (el.firstChild)
+          el.removeChild(el.firstChild);
+        el.appendChild(frag);
+      } catch {}
+      queueMicrotask(() => processDataHatchAttrs(el));
+    }
+    function insertAdjacentHTMLT(el, position, html) {
+      const s = html == null ? "" : String(html);
+      const frag = parseAndCleanHtml(s);
+      const wrap = document.createElement("template");
+      wrap.content.appendChild(frag);
+      try {
+        el.insertAdjacentHTML(position, wrap.innerHTML);
+      } catch {}
+      queueMicrotask(() => processDataHatchAttrs(document.body));
+    }
+    function processDataHatchAttrs(root) {
+      const SELECTORS = "[data-hatch-src], [data-hatch-href], [data-hatch-srcset], [data-hatch-poster], [data-hatch-action], [data-hatch-data], [data-hatch-style]";
+      root.querySelectorAll(SELECTORS).forEach((el) => {
+        const attrs = el.getAttributeNames();
+        for (const a of attrs) {
+          if (!a.startsWith("data-hatch-"))
+            continue;
+          const real = a.slice("data-hatch-".length);
+          const value = el.getAttribute(a) ?? "";
+          el.removeAttribute(a);
+          if (real === "style")
+            setStyleAttr(el, value);
+          else
+            setAttr(el, real, value);
+        }
+      });
+    }
+    const styleProxyCache = new WeakMap;
+    function getStyle(el) {
+      if (el == null)
+        return el;
+      let real;
+      try {
+        real = el.style;
+      } catch {
+        return;
+      }
+      if (real == null || typeof real !== "object" && typeof real !== "function") {
+        return real;
+      }
+      let proxy = styleProxyCache.get(real);
+      if (proxy)
+        return proxy;
+      proxy = new Proxy(real, {
+        get(target, prop, _receiver) {
+          const v = Reflect.get(target, prop, target);
+          if (typeof v === "function")
+            return v.bind(target);
+          return v;
+        },
+        set(target, prop, value) {
+          if (typeof prop === "string") {
+            setStyle(el, prop, value);
+            return true;
+          }
+          return Reflect.set(target, prop, value, target);
+        }
+      });
+      styleProxyCache.set(real, proxy);
+      return proxy;
+    }
+    function setStyle(el, propName, value) {
+      const v = value == null ? "" : String(value);
+      if (propName.startsWith("--")) {
+        rewriteCssText(v).then((rewritten) => {
+          try {
+            el.style.setProperty(propName, rewritten);
+          } catch {}
+        });
+        return;
+      }
+      if (URL_STYLE_PROPS.has(propName) && v.includes("url(")) {
+        rewriteCssText(v).then((rewritten) => {
+          try {
+            el.style[propName] = rewritten;
+          } catch {}
+        });
+        return;
+      }
+      try {
+        el.style[propName] = v;
+      } catch {}
+    }
+    function setStyleAttr(el, attrValue) {
+      if (!attrValue.includes("url(")) {
+        el.setAttribute("style", attrValue);
+        return;
+      }
+      rewriteCssText(attrValue).then((rewritten) => {
+        try {
+          el.setAttribute("style", rewritten);
+        } catch {}
+      });
+    }
+    function setStyleText(styleEl, text) {
+      if (!(styleEl instanceof HTMLStyleElement)) {
+        try {
+          styleEl.textContent = text;
+        } catch {}
+        return;
+      }
+      if (!text.includes("url(")) {
+        styleEl.textContent = text;
+        return;
+      }
+      rewriteCssText(text).then((rewritten) => {
+        try {
+          styleEl.textContent = rewritten;
+        } catch {}
+      });
+    }
+    function tunnelImage(_w, _h) {
+      const img = new originalImage;
+      const desc = Object.getOwnPropertyDescriptor(HTMLImageElement.prototype, "src");
+      if (desc?.set) {
+        const origSet = desc.set;
+        const origGet = desc.get;
+        Object.defineProperty(img, "src", {
+          configurable: true,
+          get() {
+            return origGet.call(img);
+          },
+          set(v) {
+            if (v == null)
+              return origSet.call(img, "");
+            const s = String(v);
+            if (isExternalUrl2(s))
+              return origSet.call(img, s);
+            resolveToBlobUrl(s).then((b) => origSet.call(img, b), () => origSet.call(img, s));
+          }
+        });
+      }
+      return img;
+    }
+    function tunnelSendBeacon(url, data) {
+      tunnelFetch(url, { method: "POST", body: data, keepalive: true }).catch(() => {});
+      return true;
+    }
+    function tunnelWorker(_url) {
+      throw new Error("[__tunnel] new Worker() is not supported in Muse web artifacts.");
+    }
+    function tunnelImport(spec) {
+      throw new Error("[__tunnel] dynamic import() of '" + String(spec) + "' is not supported in Muse web artifacts.");
+    }
+    function installCssObserver() {
+      try {
+        const proto = window.CSSStyleSheet?.prototype;
+        if (proto) {
+          const origInsertRule = proto.insertRule;
+          proto.insertRule = function(rule, index) {
+            if (typeof rule === "string" && rule.includes("url(")) {
+              const idx = origInsertRule.call(this, rule, index);
+              rewriteCssText(rule).then((rewritten) => {
+                if (rewritten !== rule) {
+                  try {
+                    this.deleteRule(idx);
+                    origInsertRule.call(this, rewritten, idx);
+                  } catch {}
+                }
+              });
+              return idx;
+            }
+            return origInsertRule.call(this, rule, index);
+          };
+          const origReplace = proto.replace;
+          if (origReplace) {
+            proto.replace = function(text) {
+              if (typeof text === "string" && text.includes("url(")) {
+                return rewriteCssText(text).then((rewritten) => origReplace.call(this, rewritten));
+              }
+              return origReplace.call(this, text);
+            };
+          }
+          const origReplaceSync = proto.replaceSync;
+          if (origReplaceSync) {
+            proto.replaceSync = function(text) {
+              if (typeof text === "string" && text.includes("url(")) {
+                const ret = origReplaceSync.call(this, text);
+                rewriteCssText(text).then((rewritten) => {
+                  try {
+                    origReplaceSync.call(this, rewritten);
+                  } catch {}
+                });
+                return ret;
+              }
+              return origReplaceSync.call(this, text);
+            };
+          }
+        }
+      } catch (e) {}
+      function sweepSheet(sheet) {
+        try {
+          const rules = sheet.cssRules;
+          for (let i = 0;i < rules.length; i++) {
+            const rule = rules[i];
+            const txt = rule.cssText;
+            if (txt && (txt.includes(HATCH_FRAG) || txt.includes("url(") && !/url\(\s*["']?(blob:|https?:|data:image\/gif;base64,R0)/.test(txt))) {
+              rewriteCssText(txt).then((rewritten) => {
+                if (rewritten !== txt) {
+                  try {
+                    sheet.deleteRule(i);
+                    sheet.insertRule(rewritten, i);
+                  } catch {}
+                }
+              });
+            }
+          }
+        } catch {}
+      }
+      function sweepAll() {
+        for (const sheet of Array.from(document.styleSheets)) {
+          sweepSheet(sheet);
+        }
+      }
+      const mo = new MutationObserver((mutations) => {
+        for (const m of mutations) {
+          for (const node of Array.from(m.addedNodes)) {
+            if (node instanceof HTMLStyleElement) {
+              const txt = node.textContent ?? "";
+              if (txt.includes("url(")) {
+                rewriteCssText(txt).then((rewritten) => {
+                  if (rewritten !== txt) {
+                    try {
+                      node.textContent = rewritten;
+                    } catch {}
+                  }
+                });
+              }
+            } else if (node instanceof HTMLLinkElement && node.rel === "stylesheet") {
+              node.addEventListener("load", () => sweepSheet(node.sheet), { once: true });
+            }
+          }
+        }
+      });
+      mo.observe(document, { subtree: true, childList: true });
+      Promise.resolve().then(sweepAll);
+      setTimeout(sweepAll, 0);
+      setTimeout(sweepAll, 50);
+      setTimeout(sweepAll, 250);
+    }
+    function rewriteAuthoredHtml() {
+      const SELECTORS = "[data-hatch-src], [data-hatch-href], [data-hatch-srcset]";
+      document.querySelectorAll(SELECTORS).forEach((el) => {
+        const src = el.getAttribute("data-hatch-src");
+        const href = el.getAttribute("data-hatch-href");
+        const srcset = el.getAttribute("data-hatch-srcset");
+        if (src)
+          setAttr(el, "src", src);
+        if (href)
+          setAttr(el, "href", href);
+        if (srcset)
+          setAttr(el, "srcset", srcset);
+      });
+    }
+    let historyUrlWarned = false;
+    function warnHistoryUrlDropped(method, url) {
+      if (url === undefined || url === null)
+        return;
+      if (historyUrlWarned)
+        return;
+      historyUrlWarned = true;
+      try {
+        console.warn("[__tunnel] history." + method + "() was called with a URL; the URL was ignored. A Muse web artifact " + "renders in an opaque origin with no navigable URL of its own, so " + "the browser rejects any URL change. State kept in the URL will not " + "persist or survive a reload — keep it in component state, or in " + "the artifact's database through a server action.");
+      } catch {}
+    }
+    const originalFetch = globalThis.fetch?.bind(globalThis) ?? (() => {
+      throw new Error("no native fetch");
+    });
+    const originalXHR = globalThis.XMLHttpRequest;
+    const originalImage = globalThis.Image;
+    const tunnel = {
+      fetch: tunnelFetch,
+      XHR: TunnelXHR,
+      WebSocket: TunnelWebSocket,
+      EventSource: TunnelEventSource,
+      Image: tunnelImage,
+      Worker: tunnelWorker,
+      import: tunnelImport,
+      sendBeacon: tunnelSendBeacon,
+      setAttr,
+      setAttrNS,
+      setUrlProp,
+      setStyle,
+      getStyle,
+      setStyleAttr,
+      setStyleText,
+      setInnerHTML,
+      insertAdjacentHTML: insertAdjacentHTMLT,
+      rewriteCssText,
+      resolveToBlobUrl,
+      processDataHatchAttrs,
+      rewriteHtmlString,
+      _resolveUrlString: (v) => v,
+      _resolveCssValue: (v) => v,
+      _resolveCssText: (v) => v,
+      _resolveStyleProp: (v) => v,
+      _importMeta: {
+        get url() {
+          return importMetaUrl(SELF_HREF, SELF_BASE_DIR);
+        }
+      },
+      _state: {
+        get port() {
+          return port;
+        },
+        get inFlight() {
+          return pending.size;
+        },
+        get blobCacheSize() {
+          return blobCache.size;
+        },
+        get blobStats() {
+          return { ...blobStats };
+        }
+      }
+    };
+    globalThis.__tunnel = tunnel;
+    window.__tunnel = tunnel;
+    try {
+      globalThis.fetch = tunnelFetch;
+      window.fetch = tunnelFetch;
+      globalThis.XMLHttpRequest = TunnelXHR;
+      window.XMLHttpRequest = TunnelXHR;
+      globalThis.WebSocket = TunnelWebSocket;
+      window.WebSocket = TunnelWebSocket;
+      globalThis.EventSource = TunnelEventSource;
+      window.EventSource = TunnelEventSource;
+      const nav = globalThis.navigator;
+      if (nav && typeof nav.sendBeacon === "function") {
+        nav.sendBeacon = (url, data) => tunnelSendBeacon(url, data);
+      }
+      const NativeURL = globalThis.URL;
+      const TunnelURL = function(url, base) {
+        return resolveTunnelUrl(url, base, SELF_HREF, NativeURL);
+      };
+      TunnelURL.prototype = NativeURL.prototype;
+      for (const k of Object.getOwnPropertyNames(NativeURL)) {
+        if (k === "prototype" || k === "length" || k === "name")
+          continue;
+        try {
+          TunnelURL[k] = NativeURL[k];
+        } catch {}
+      }
+      globalThis.URL = TunnelURL;
+      window.URL = TunnelURL;
+    } catch {}
+    try {
+      const hist = globalThis.history;
+      if (hist && typeof hist.pushState === "function" && typeof hist.replaceState === "function") {
+        const nativePushState = hist.pushState.bind(hist);
+        const nativeReplaceState = hist.replaceState.bind(hist);
+        hist.pushState = function(state, title, url) {
+          warnHistoryUrlDropped("pushState", url);
+          return nativePushState(state, title ?? "");
+        };
+        hist.replaceState = function(state, title, url) {
+          warnHistoryUrlDropped("replaceState", url);
+          return nativeReplaceState(state, title ?? "");
+        };
+      }
+    } catch {}
+    try {
+      const nativeCreateObjectURL = URL.createObjectURL.bind(URL);
+      const nativeRevokeObjectURL = URL.revokeObjectURL.bind(URL);
+      URL.createObjectURL = function(obj) {
+        const created = nativeCreateObjectURL(obj);
+        try {
+          objectUrls.add(created);
+        } catch {}
+        return created;
+      };
+      URL.revokeObjectURL = function(objectUrl) {
+        try {
+          objectUrls.delete(objectUrl);
+        } catch {}
+        nativeRevokeObjectURL(objectUrl);
+      };
+    } catch {}
+    const announceEpoch = Math.random().toString(36).slice(2) + "-" + Date.now().toString(36);
+    let announceTimer = null;
+    function announce() {
+      try {
+        window.parent.postMessage({ type: "bundle:ready", epoch: announceEpoch }, "*");
+      } catch {}
+    }
+    function startAnnouncing() {
+      announce();
+      announceTimer = setInterval(() => {
+        if (port != null) {
+          if (announceTimer != null)
+            clearInterval(announceTimer);
+          announceTimer = null;
+          return;
+        }
+        announce();
+      }, 120);
+    }
+    function onParentMessage(ev) {
+      const data = ev.data;
+      if (!data || typeof data !== "object")
+        return;
+      if (data.type === "bundle:init-port" && ev.ports && ev.ports[0]) {
+        if (port != null)
+          return;
+        if (announceTimer != null) {
+          clearInterval(announceTimer);
+          announceTimer = null;
+        }
+        port = ev.ports[0];
+        port.onmessage = (pe) => {
+          const msg = pe.data;
+          if (!msg || typeof msg !== "object")
+            return;
+          if (msg.type === "http.res") {
+            const ent = pending.get(msg.id);
+            if (ent) {
+              pending.delete(msg.id);
+              ent.resolve(msg);
+            }
+          } else if (msg.type === "ws.opened" || msg.type === "ws.message" || msg.type === "ws.closed" || msg.type === "ws.error") {
+            openWs.get(msg.id)?._handle(msg);
+          }
+        };
+        port.start?.();
+        portReadyResolve?.(port);
+        installCssObserver();
+        rewriteAuthoredHtml();
+        try {
+          window.parent.postMessage({ type: "bundle:port-attached" }, "*");
+        } catch {}
+      }
+    }
+    window.addEventListener("message", onParentMessage);
+    installDownloadLinks(tunnelFetch, isExternalUrl2, __BLOB_REVOKE_DELAY_MS);
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+      startAnnouncing();
+    } else {
+      document.addEventListener("DOMContentLoaded", startAnnouncing);
+    }
+  })();
+})();
+
+;
+var DEPTS = [{
+  id: 'youtube',
+  label: 'PRODUKSI YOUTUBE',
+  cls: 'r-yt',
+  tint: 'yt'
+}, {
+  id: 'blog',
+  label: 'BLOG & KONTEN',
+  cls: 'r-blog'
+}, {
+  id: 'tiktok',
+  label: 'TIKTOK & SOSMED',
+  cls: 'r-tt'
+}, {
+  id: 'airdrop',
+  label: 'AIRDROP & CRYPTO',
+  cls: 'r-air'
+}, {
+  id: 'monitoring',
+  label: 'MONITORING & BACKUP',
+  cls: 'r-mon'
+}, {
+  id: 'lainnya',
+  label: 'LAINNYA',
+  cls: 'r-lain'
+}];
+function A(name, job, opts) {
+  opts = opts || {};
+  return {
+    name: name,
+    job: job,
+    t: opts.t || null,
+    iv: opts.iv || null,
+    label: opts.label || null,
+    g: !!opts.g
+  };
+}
+var ytJob = 'Produksi 1 video per hari untuk channel YouTube (riset topik, naskah, visual, voiceover, upload).';
+var DATA = {
+  youtube: ['empires-en-harian', 'fakta-bola-dunia-harian', 'history-en-harian', 'horor-harian', 'horror-en-harian', 'inktime-harian', 'jejakbuddha-harian', 'jejakislami-harian', 'kisahalkitab-harian', 'kisahdharma-harian', 'lima-misteri-harian', 'macammacam-harian', 'mind-en-harian', 'mystery-en-harian', 'space-en-harian', 'strangetales-shorts-harian', 'truecrime-en-harian', 'weird-en-harian', 'youtube-pov-harian'].map(function (n) {
+    return A(n, ytJob, {
+      t: '16:11'
+    });
+  }),
+  blog: [A('blog-otomatis-harian', 'Menulis 6 artikel per hari dan menerbitkannya tersebar rata ke 10 blog (round-robin).', {
+    t: '15:11'
+  }), A('verifikasi-pagi-blog', 'Verifikasi artikel yang terbit vs snapshot kemarin, cek bounce email, lapor ringkas.', {
+    t: '17:11'
+  }), A('ekspansi-blog-2mingguan', 'Ekspansi blog niche baru dari antrean rotasi niche.', {
+    label: 'Setiap 2 minggu'
+  }), A('adsense-monitor', 'Memantau status peninjauan dan kelayakan AdSense untuk blog-blog aktif.', {
+    label: 'Berkala'
+  })],
+  tiktok: [A('tiktok-loker-siang', 'Produksi & posting video info loker ke TikTok (edisi siang).', {
+    t: '12:11'
+  }), A('tiktok-loker-harian', 'Produksi & posting video info loker ke TikTok (edisi malam).', {
+    t: '19:11'
+  }), A('share-3x-upload-harian', 'Share-copy 3x setiap video YouTube baru (24 jam terakhir, semua channel).', {
+    t: '21:11'
+  }), A('share-ig-harian', 'Posting konten promosi harian ke Instagram.', {
+    t: '20:11'
+  }), A('promo-afiliasi-harian', 'Promo 5 produk Shopee Affiliate per hari, termasuk video presenter AI berbahasa Indonesia.', {
+    t: '17:11'
+  }), A('tiktok-shop-ganti-produk', 'Pengingat berkala untuk mengganti katalog produk TikTok Shop.', {
+    label: 'Setiap 2 minggu'
+  }), A('balas-komentar', 'Membalas komentar penonton di video-video YouTube.', {
+    t: '21:11'
+  }), A('pendukung-sosmed', 'Cron pendukung operasional TikTok & media sosial (nama belum dirinci).', {
+    label: 'Pendukung',
+    g: true
+  }), A('pendukung-sosmed', 'Cron pendukung operasional TikTok & media sosial (nama belum dirinci).', {
+    label: 'Pendukung',
+    g: true
+  })],
+  airdrop: [A('airdrop-hunter-x', 'Berburu peluang airdrop baru di X dan memasukkannya ke daftar farming.', {
+    t: '07:00'
+  }), A('airdrop-farming-harian', 'Farming harian di proyek testnet aktif (transaksi rutin agar eligible).', {
+    t: '08:00'
+  }), A('faucet-sepolia-harian', 'Klaim faucet Sepolia harian untuk kebutuhan testnet.', {
+    t: '09:00'
+  }), A('faucet-megaeth-30wallet', 'Klaim faucet MegaETH untuk 30 wallet farming.', {
+    t: '10:00'
+  }), A('konsolidasi-mining-harian', 'Cek saldo wallet mining dan kirim 90% hasil ke wallet farming utama.', {
+    t: '11:00'
+  }), A('airdrop-mainnet-monitor', 'Pantau peluang & pergerakan airdrop mainnet.', {
+    label: 'Senin & Kamis',
+    t: '09:00'
+  }), A('pendukung-crypto', 'Cron pendukung operasional airdrop & crypto (nama belum dirinci).', {
+    label: 'Pendukung',
+    g: true
+  })],
+  monitoring: [A('backup-workspace-perjam', 'Backup workspace ke repo GitHub privat (hanya push bila ada perubahan).', {
+    iv: 60
+  }), A('fb_bridge-dashboard', 'Sinkronisasi data dashboard YouTube (state, statistik, tab blog).', {
+    iv: 3
+  }), A('watchdog-retry-upload-youtube', 'Mengolah antrean retry upload YouTube yang tertunda batas harian.', {
+    t: '20:00'
+  }), A('retry-cepat-upload-youtube', 'Retry cepat upload YouTube yang tertunda.', {
+    iv: 180
+  }), A('cek-video-sepi-3harian', 'Scan semua channel: video sepi diperbaiki metadatanya otomatis dan di-share ulang 3x.', {
+    label: 'Harian'
+  }), A('hapus-video-terupload-harian', 'Hapus file video lokal yang sudah terupload ke YouTube (hemat disk).', {
+    t: '22:11'
+  }), A('verifikasi-otp-3harian', 'Verifikasi HP channel YouTube berikutnya via OTP (1 nomor per run).', {
+    label: 'Setiap 3 hari'
+  }), A('pantau-stok-otpmurah', 'Pantau stok & harga nomor di OTPMurah.', {
+    iv: 360
+  }), A('yt-seo-refresh-mingguan', 'Refresh SEO metadata channel YouTube.', {
+    label: 'Senin',
+    t: '09:00'
+  }), A('audit-channel-mingguan', 'Audit kesehatan mingguan semua channel YouTube.', {
+    label: 'Mingguan'
+  }), A('cek-token-mingguan', 'Cek masa berlaku token OAuth tiap channel.', {
+    label: 'Mingguan'
+  }), A('audit-duplikat-video', 'Audit video duplikat antar channel.', {
+    label: 'Berkala'
+  })],
+  lainnya: []
+};
+for (var mi = DATA.monitoring.length; mi < 23; mi++) DATA.monitoring.push(A('pendukung-monitoring', 'Cron pendukung monitoring & backup operasional (nama belum dirinci).', {
+  label: 'Pendukung',
+  g: true
+}));
+for (var li = 1; li <= 17; li++) DATA.lainnya.push(A('pendukung-lainnya', 'Cron pendukung operasional di luar departemen utama (nama belum dirinci).', {
+  label: 'Pendukung',
+  g: true
+}));
+DATA.keuangan = [A('asisten-keuangan', 'Memantau ringkasan pendapatan semua lini project: YouTube, blog, Shopee Affiliate, TikTok, dan airdrop.', {
+  label: 'Berkala'
+})];
+var DEPT_NAME = {
+  youtube: 'Produksi YouTube',
+  blog: 'Blog & Konten',
+  tiktok: 'TikTok & Sosmed',
+  airdrop: 'Airdrop & Crypto',
+  monitoring: 'Monitoring & Backup',
+  lainnya: 'Lainnya',
+  keuangan: 'Keuangan'
+};
+var PHRASES = {
+  youtube: ['Lagi render video…', 'Upload selesai!', 'Cek retensi dulu', 'Naskah beres', 'Thumbnail oke!', 'Jadwal tayang aman'],
+  blog: ['Artikel ke-4…', 'SEO dicek ulang', 'Publish!', 'Riset kata kunci', 'Verifikasi feed…'],
+  tiktok: ['Hook 3 detik!', 'Caption beres', 'Upload ke TikTok', 'Balas komentar…', 'Cek tren hari ini'],
+  airdrop: ['Klaim faucet…', 'Transaksi testnet', 'Saldo dicek', 'Cari airdrop baru', 'Konsolidasi wallet'],
+  monitoring: ['Backup jalan', 'Semua sistem aman', 'Retry upload…', 'Scan video sepi', 'Token masih valid'],
+  lainnya: ['Siap!', 'Lagi proses…', 'Beres', 'Standby'],
+  keuangan: ['Hitung ulang…', 'Masih Rp 0 nih', 'Cek status AdSense', 'Komisi tertahan…']
+};
+var SKINS = ['#f6c99b', '#eebd8f', '#d99e63', '#b97a45', '#8c5a2e'];
+var SHIRTS = ['#e2574c', '#2f6fb2', '#1d9e62', '#e8a13a', '#7a5af8', '#0f766e', '#d6699e', '#4a6fa5', '#5b8c5a', '#c05621', '#718096', '#975a16'];
+var HAIRS = ['#2b2118', '#4a3220', '#17130f', '#6e4520', '#999', '#3a3a3a'];
+var HAIR_STYLES = ['short', 'short', 'bun', 'cap', 'hijab', 'short'];
+var seed = 7;
+function rnd(n) {
+  seed = (seed * 1103515245 + 12345) % 2147483648;
+  return seed % n;
+}
+function charHTML() {
+  var skin = SKINS[rnd(SKINS.length)],
+    shirt = SHIRTS[rnd(SHIRTS.length)],
+    hair = HAIRS[rnd(HAIRS.length)],
+    style = HAIR_STYLES[rnd(HAIR_STYLES.length)];
+  if (style === 'hijab') hair = SHIRTS[rnd(SHIRTS.length)];
+  return '<span class="c-head" style="background:' + skin + '"><span class="c-hair ' + style + '" style="background:' + hair + '"></span></span>' + '<span class="c-body" style="background:' + shirt + '"></span>' + '<span class="c-arm l" style="background:' + skin + '"></span><span class="c-arm r" style="background:' + skin + '"></span>';
+}
+function standHTML(withCup) {
+  return charHTML() + '<span class="c-leg l"></span><span class="c-leg r"></span>' + (withCup ? '<span class="cup"></span>' : '');
+}
+function wibNow() {
+  var parts = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Asia/Jakarta',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  }).formatToParts(new Date());
+  var h = 0,
+    m = 0;
+  parts.forEach(function (p) {
+    if (p.type === 'hour') h = +p.value;
+    if (p.type === 'minute') m = +p.value;
+  });
+  return h * 60 + m;
+}
+function statusOf(a, nowMin) {
+  if (a.iv) {
+    var cyc = nowMin % a.iv;
+    return cyc < Math.max(12, a.iv * 0.25) ? 'work' : 'soon';
+  }
+  if (a.t) {
+    var p = a.t.split(':'),
+      t = +p[0] * 60 + +p[1];
+    var d = t - nowMin;
+    if (d <= 5 && d >= -50) return 'work';
+    if (d > 5 && d <= 90) return 'soon';
+    return 'idle';
+  }
+  return 'idle';
+}
+function statusText(s) {
+  return s === 'work' ? 'Sedang bekerja' : s === 'soon' ? 'Jadwal berikutnya dekat' : 'Siaga / santai';
+}
+function nextRun(a, nowMin) {
+  if (a.iv) {
+    var rem = a.iv - nowMin % a.iv;
+    if (rem === a.iv) rem = 0;
+    return rem <= 1 ? 'Sebentar lagi (jalan berkala)' : 'Sekitar ' + rem + ' menit lagi (jalan berkala tiap ' + (a.iv >= 60 ? a.iv / 60 + ' jam' : a.iv + ' menit') + ')';
+  }
+  if (a.t) {
+    var p = a.t.split(':'),
+      t = +p[0] * 60 + +p[1];
+    return (t >= nowMin ? 'Hari ini, ' : 'Besok, ') + a.t + ' WIB';
+  }
+  return a.label || 'Mengikuti jadwal berkala';
+}
+function schedText(a) {
+  if (a.label && a.t) return a.label + ', ' + a.t + ' WIB';
+  if (a.label) return a.label;
+  if (a.iv) return a.iv >= 60 ? 'Setiap ' + a.iv / 60 + ' jam' : 'Setiap ' + a.iv + ' menit';
+  if (a.t) return 'Setiap hari, ' + a.t + ' WIB';
+  return 'Berkala';
+}
+var nowMin = wibNow();
+var allChars = [];
+var workingCount = 0;
+var rowMain = document.getElementById('rowMain');
+var roster = document.getElementById('roster');
+var chips = document.getElementById('chips');
+function mkDesk(a, dept, st) {
+  var b = document.createElement('button');
+  b.className = 'desk-unit' + (st === 'work' ? ' working' : '');
+  __tunnel.setAttr(b, 'aria-label', 'Detail ' + a.name);
+  var typingCls = st === 'work' ? 'typing fast' : st === 'soon' ? 'typing' : 'relaxed';
+  __tunnel.setInnerHTML(b, '<span class="desk"><span class="monitor"></span><span class="kb"></span></span>' + '<span class="char seated ' + typingCls + '">' + charHTML() + '</span>' + '<span class="sdot ' + (st === 'work' ? 'work' : st === 'soon' ? 'soon' : 'idle') + '"></span>' + '<span class="name-tag">' + (a.g ? 'pendukung' : a.name) + '</span><span class="bubble"></span>', "innerHTML");
+  b.addEventListener('click', function () {
+    openSheet(a, dept, b.querySelector('.char'));
+  });
+  return b;
+}
+function mkWalker(a, dept, st, withCup) {
+  var b = document.createElement('button');
+  b.className = 'walker idle-stand';
+  __tunnel.setAttr(b, 'aria-label', 'Detail ' + a.name);
+  __tunnel.setInnerHTML(b, '<span class="char">' + standHTML(withCup) + '</span>' + '<span class="sdot ' + (st === 'work' ? 'work' : st === 'soon' ? 'soon' : 'idle') + '" style="top:-4px;right:-2px"></span><span class="bubble"></span>', "innerHTML");
+  b.addEventListener('click', function () {
+    openSheet(a, dept, b.querySelector('.char'));
+  });
+  return b;
+}
+DEPTS.forEach(function (d) {
+  var room = document.createElement('div');
+  room.className = 'room ' + d.cls;
+  room.id = 'room-' + d.id;
+  __tunnel.setInnerHTML(room, '<div class="room-label"><b>' + d.label + '</b><span>' + DATA[d.id].length + ' asisten</span></div><div class="desks"></div>' + '<div class="plant" style="right:12px;bottom:10px"></div><div class="plant" style="left:10px;bottom:10px"></div>', "innerHTML");
+  rowMain.appendChild(room);
+  var desksEl = room.querySelector('.desks');
+  var list = DATA[d.id];
+  var nWalk = list.length >= 15 ? 3 : list.length >= 7 ? 2 : 1;
+  var walkIdx = {};
+  for (var w = 0; w < nWalk; w++) walkIdx[Math.floor((w + 1) * list.length / (nWalk + 1))] = true;
+  list.forEach(function (a, i) {
+    var st = statusOf(a, nowMin);
+    if (st === 'work') workingCount++;
+    a._dept = d.id;
+    a._status = st;
+    if (walkIdx[i]) {
+      var wk = mkWalker(a, d.id, st, false);
+      room.appendChild(wk);
+      allChars.push({
+        el: wk,
+        a: a,
+        dept: d.id,
+        kind: 'walker',
+        room: room
+      });
+    } else {
+      var dk = mkDesk(a, d.id, st);
+      desksEl.appendChild(dk);
+      allChars.push({
+        el: dk,
+        a: a,
+        dept: d.id,
+        kind: 'desk'
+      });
+    }
+  });
+  var rc = document.createElement('div');
+  rc.className = 'roster-card';
+  var named = list.filter(function (x) {
+    return !x.g;
+  });
+  var generic = list.filter(function (x) {
+    return x.g;
+  });
+  var rows = named.map(function (a) {
+    var st = a._status;
+    var col = st === 'work' ? 'var(--green)' : st === 'soon' ? 'var(--amber)' : '#b9b2a0';
+    return '<button class="rrow" data-name="' + a.name + '"><span class="rd" style="background:' + col + '"></span><span class="rn">' + a.name + '</span><span class="rj">' + schedText(a) + '</span></button>';
+  }).join('');
+  if (generic.length) {
+    rows += '<button class="rrow" data-name="' + generic[0].name + '"><span class="rd" style="background:#b9b2a0"></span><span class="rn">' + generic.length + ' cron pendukung — nama belum dirinci</span><span class="rj">Pendukung</span></button>';
+  }
+  __tunnel.setInnerHTML(rc, '<h3>' + d.label + ' <span>· ' + list.length + '</span></h3>' + rows, "innerHTML");
+  roster.appendChild(rc);
+  rc.querySelectorAll('.rrow').forEach(function (r) {
+    r.addEventListener('click', function () {
+      var found = null;
+      list.forEach(function (x) {
+        if (x.name === r.getAttribute('data-name')) found = x;
+      });
+      if (found) openSheet(found, d.id, null);
+    });
+  });
+  var chip = document.createElement('button');
+  chip.className = 'chip';
+  __tunnel.setInnerHTML(chip, d.label.charAt(0) + d.label.slice(1).toLowerCase() + ' <span class="n">' + list.length + '</span>', "innerHTML");
+  chip.addEventListener('click', function () {
+    room.scrollIntoView({
+      behavior: 'smooth',
+      block: 'center'
+    });
+    room.classList.remove('flash');
+    void room.offsetWidth;
+    room.classList.add('flash');
+  });
+  chips.appendChild(chip);
+});
+(function () {
+  var a = DATA.keuangan[0];
+  a._dept = 'keuangan';
+  a._status = 'idle';
+  var dk = mkDesk(a, 'keuangan', 'soon');
+  dk.querySelector('.sdot').className = 'sdot idle';
+  dk.querySelector('.name-tag').textContent = 'asisten-keuangan';
+  document.getElementById('desks-keuangan').appendChild(dk);
+  allChars.push({
+    el: dk,
+    a: a,
+    dept: 'keuangan',
+    kind: 'desk'
+  });
+  var chip = document.createElement('button');
+  chip.className = 'chip';
+  __tunnel.setInnerHTML(chip, 'Keuangan', "innerHTML");
+  chip.addEventListener('click', function () {
+    document.getElementById('keuangan').scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+  chips.appendChild(chip);
+  document.getElementById('finBoard').addEventListener('click', function () {
+    document.getElementById('keuangan').scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+})();
+(function () {
+  var s = document.createElement('div');
+  s.className = 'search';
+  __tunnel.setInnerHTML(s, '<svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.8-3.8"/></svg><input id="searchInput" type="search" placeholder="Cari asisten…" aria-label="Cari asisten">', "innerHTML");
+  chips.parentNode.insertBefore(s, chips.nextSibling);
+  chips.appendChild(s);
+  s.querySelector('input').addEventListener('input', function (e) {
+    var q = e.target.value.toLowerCase();
+    document.querySelectorAll('.rrow').forEach(function (r) {
+      r.classList.toggle('hide', q && r.getAttribute('data-name').indexOf(q) === -1);
+    });
+    if (q) document.getElementById('roster').scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  });
+})();
+document.getElementById('statWorking').textContent = workingCount;
+__tunnel.setInnerHTML(document.getElementById('mgrChar'), charHTML(), "innerHTML");
+document.getElementById('mgrBtn').addEventListener('click', function () {
+  openSheet({
+    name: 'Koordinator (Kamu)',
+    job: 'Mengawasi seluruh 79 asisten: memberi perintah, memeriksa hasil produksi, dan memutuskan langkah berikutnya untuk semua project.',
+    label: 'Selalu siaga',
+    t: null,
+    iv: null,
+    _status: 'work',
+    _dept: 'manager'
+  }, 'manager', document.getElementById('mgrChar'));
+});
+var sheet = document.getElementById('sheet'),
+  scrim = document.getElementById('scrim');
+function openSheet(a, dept, charEl) {
+  document.getElementById('sheetName').textContent = a.g ? a.name + ' — nama belum dirinci' : a.name;
+  document.getElementById('sheetDept').textContent = dept === 'manager' ? 'Ruang Manager' : 'Departemen ' + (DEPT_NAME[dept] || dept);
+  var st = a._status || statusOf(a, wibNow());
+  var col = st === 'work' ? 'var(--green)' : st === 'soon' ? 'var(--amber)' : '#b9b2a0';
+  __tunnel.setInnerHTML(document.getElementById('sheetStatus'), '<span style="width:10px;height:10px;border-radius:50%;background:' + col + ';display:inline-block"></span>' + statusText(st), "innerHTML");
+  document.getElementById('sheetSched').textContent = schedText(a);
+  document.getElementById('sheetNext').textContent = nextRun(a, wibNow());
+  document.getElementById('sheetJob').textContent = a.job;
+  var av = document.getElementById('sheetAvatar');
+  __tunnel.setInnerHTML(av, '<span class="char seated typing" style="margin:0">' + (charEl ? charEl.innerHTML : charHTML()) + '</span>', "innerHTML");
+  sheet.classList.add('on');
+  scrim.classList.add('on');
+  __tunnel.setAttr(sheet, 'aria-hidden', 'false');
+}
+function closeSheet() {
+  sheet.classList.remove('on');
+  scrim.classList.remove('on');
+  __tunnel.setAttr(sheet, 'aria-hidden', 'true');
+}
+document.getElementById('sheetClose').addEventListener('click', closeSheet);
+scrim.addEventListener('click', closeSheet);
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') closeSheet();
+});
+function tickClock() {
+  var now = new Date();
+  document.getElementById('clock').textContent = new Intl.DateTimeFormat('id-ID', {
+    timeZone: 'Asia/Jakarta',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: false
+  }).format(now).replace(/\./g, ':');
+  document.getElementById('dateLine').textContent = new Intl.DateTimeFormat('id-ID', {
+    timeZone: 'Asia/Jakarta',
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+  }).format(now);
+}
+tickClock();
+setInterval(tickClock, 1000);
+var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function walkLoop(item) {
+  if (reduced) return;
+  var room = item.room,
+    el = item.el;
+  var rw0 = room.clientWidth,
+    rh0 = room.clientHeight;
+  el._pos = {
+    x: rw0 / 2,
+    y: Math.max(46, rh0 - 54)
+  };
+  __tunnel.setStyle(el, "transform", 'translate(' + el._pos.x + 'px,' + el._pos.y + 'px)');
+  function step() {
+    var rw = room.clientWidth,
+      rh = room.clientHeight;
+    var x = 14 + Math.random() * Math.max(20, rw - 60);
+    var y = 44 + Math.random() * Math.max(20, rh - 100);
+    var cur = el._pos || {
+      x: rw / 2,
+      y: rh - 52
+    };
+    var dx = x - cur.x,
+      dy = y - cur.y;
+    var dist = Math.sqrt(dx * dx + dy * dy);
+    var dur = Math.max(900, dist * 14);
+    el.classList.add('moving');
+    el.classList.remove('idle-stand');
+    el.querySelector('.char').classList.toggle('flip', dx < 0);
+    __tunnel.setStyle(el, "transition", 'transform ' + dur + 'ms linear');
+    __tunnel.setStyle(el, "transform", 'translate(' + x + 'px,' + y + 'px)');
+    el._pos = {
+      x: x,
+      y: y
+    };
+    setTimeout(function () {
+      el.classList.remove('moving');
+      el.classList.add('idle-stand');
+      setTimeout(step, 1200 + Math.random() * 3200);
+    }, dur);
+  }
+  setTimeout(step, Math.random() * 1500);
+}
+allChars.forEach(function (c) {
+  if (c.kind === 'walker') walkLoop(c);
+});
+(function () {
+  if (reduced) return;
+  var floor = document.getElementById('floor'),
+    hall = document.getElementById('hallway');
+  var a = {
+    name: 'asisten-kopi',
+    job: 'Kurir internal kantor: mengantar kopi dari pantry ke lounge dan ke meja-meja yang lagi lembur produksi.',
+    label: 'Keliling kantor',
+    _status: 'work',
+    _dept: 'lainnya'
+  };
+  var el = mkWalker(a, 'lainnya', 'work', true);
+  el.querySelector('.sdot').className = 'sdot soon';
+  __tunnel.setStyle(el.querySelector('.sdot'), "top", '-4px');
+  __tunnel.setStyle(el.querySelector('.sdot'), "right", '-2px');
+  el.classList.add('coffee-walker');
+  floor.appendChild(el);
+  (function () {
+    var fr0 = floor.getBoundingClientRect(),
+      hr0 = hall.getBoundingClientRect();
+    var x0 = hr0.right - fr0.left - 52,
+      y0 = hr0.top - fr0.top + 1;
+    el._pos = {
+      x: x0,
+      y: y0
+    };
+    __tunnel.setStyle(el, "transform", 'translate(' + x0 + 'px,' + y0 + 'px)');
+  })();
+  var goLeft = true;
+  function leg() {
+    var fr = floor.getBoundingClientRect(),
+      hr = hall.getBoundingClientRect();
+    var y = hr.top - fr.top + 1;
+    var x = goLeft ? hr.left - fr.left + 16 : hr.right - fr.left - 52;
+    var cur = el._pos || {
+      x: x,
+      y: y
+    };
+    var dist = Math.abs(x - cur.x);
+    el.classList.add('moving');
+    el.classList.remove('idle-stand');
+    el.querySelector('.char').classList.toggle('flip', x < cur.x);
+    __tunnel.setStyle(el, "transition", 'transform ' + Math.max(1500, dist * 9) + 'ms linear');
+    __tunnel.setStyle(el, "transform", 'translate(' + x + 'px,' + y + 'px)');
+    el._pos = {
+      x: x,
+      y: y
+    };
+    setTimeout(function () {
+      el.classList.remove('moving');
+      el.classList.add('idle-stand');
+      goLeft = !goLeft;
+      setTimeout(leg, 2600 + Math.random() * 2000);
+    }, Math.max(1500, dist * 9));
+  }
+  setTimeout(leg, 800);
+})();
+if (!reduced) {
+  setInterval(function () {
+    var pool = allChars.filter(function (c) {
+      return c.kind === 'desk' || c.kind === 'walker';
+    });
+    if (!pool.length) return;
+    var c = pool[Math.floor(Math.random() * pool.length)];
+    var bub = c.el.querySelector('.bubble');
+    if (!bub) return;
+    var phrases = PHRASES[c.dept] || PHRASES.lainnya;
+    bub.textContent = phrases[Math.floor(Math.random() * phrases.length)];
+    bub.classList.add('show');
+    setTimeout(function () {
+      bub.classList.remove('show');
+    }, 2400);
+  }, 3400);
+}</script>
+</body>
+</html>

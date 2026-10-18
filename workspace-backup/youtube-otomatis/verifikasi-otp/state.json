@@ -94,6 +94,12 @@
   "keterangan": "Antrean verifikasi HP YouTube via nomor virtual OTPMurah.id (otomatis tiap 3 hari). 1 nomor virtual = 1 channel (1 akun 1 OTP); tiap run beli 1 nomor baru; YouTube bisa menolak nomor virtual (tidak ada OTP) -> cancel -> refund 100% otomatis.",
   "riwayat": [
     {
+      "tanggal": "2026-10-18T12:12+07:00",
+      "channel": "-",
+      "hasil": "CRON 1-jam: stok kosong (1x klik Beli Sekarang, pola 'stok kosong senyap'). SALDO ANOMALI: tampil Rp 0 (pagi ini tercatat Rp 11.000); tidak ada order/potongan dari run ini. Dilaporkan ke user untuk top up.",
+      "permintaan": "otomatis cron 1-jam (pantau-stok-otpmurah)"
+    },
+    {
       "tanggal": "2026-10-18T01:03+07:00",
       "channel": "@BizarreWorldDaily",
       "hasil": "GAGAL - order nomor virtual BERHASIL (stok Google/Server Express tersedia, #FB7155433545, Rp 360, nomor 6281137858037). YouTube menerima nomor & mengirim SMS tanpa throttle/penolakan, tapi OTP tidak masuk ke OTPMurah dalam 20 menit (polling 3x via website) -> dibatalkan, refund 100% (Rp 360 kembali, saldo Rp 11.000).",

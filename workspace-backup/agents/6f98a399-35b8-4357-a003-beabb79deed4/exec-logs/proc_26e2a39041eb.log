@@ -1,3 +1,0 @@
-launched detached pid 44395
-44398 /bin/bash ./run_rakit.sh
-44399 python3 rakit.py

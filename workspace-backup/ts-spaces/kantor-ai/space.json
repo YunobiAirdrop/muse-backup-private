@@ -1,0 +1,8 @@
+{
+  "runtime": "static",
+  "platformVersion": 15,
+  "entry": "index.html",
+  "name": "Kantor AI",
+  "slug": "kantor-ai",
+  "managedCronJobs": []
+}

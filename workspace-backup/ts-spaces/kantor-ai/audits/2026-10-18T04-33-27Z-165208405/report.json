@@ -1,0 +1,604 @@
+{
+  "ok": true,
+  "url": "https://artifact-capture.invalid/spaces/v2/hatch-audit-0c84a4f4-601f-441e-a3d2-ee80fa4c0fcb/",
+  "duration_ms": 7736.336993000001,
+  "output_dir": "/home/hatch/workspace/ts-spaces/kantor-ai/audits/2026-10-18T04-33-27Z-165208405",
+  "nav_status": 200,
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 900,
+      "screenshot_path": "/home/hatch/workspace/ts-spaces/kantor-ai/audits/2026-10-18T04-33-27Z-165208405/screenshot.png",
+      "fullpage_screenshot_path": "/home/hatch/workspace/ts-spaces/kantor-ai/audits/2026-10-18T04-33-27Z-165208405/screenshot-full.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "screenshot_path": "/home/hatch/workspace/ts-spaces/kantor-ai/audits/2026-10-18T04-33-27Z-165208405/screenshot-mobile.png"
+    }
+  },
+  "mobile_layout": {
+    "viewport_width": 390,
+    "scroll_width": 390,
+    "overflow_px": 0,
+    "widest_selector": null,
+    "verdict": "pass"
+  },
+  "horizontal_scrollers": [],
+  "unreachable_controls": {
+    "desktop": [],
+    "mobile": []
+  },
+  "clipped": {
+    "desktop": [
+      {
+        "tag": "span",
+        "text": "asisten-keuangan",
+        "kind": "text_truncated",
+        "overflow_px": 9,
+        "bbox": [
+          965,
+          377,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "empires-en-harian",
+        "kind": "text_truncated",
+        "overflow_px": 12,
+        "bbox": [
+          145,
+          617,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "fakta-bola-dunia-harian",
+        "kind": "text_truncated",
+        "overflow_px": 33,
+        "bbox": [
+          214,
+          617,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "history-en-harian",
+        "kind": "text_truncated",
+        "overflow_px": 8,
+        "bbox": [
+          283,
+          617,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "jejakbuddha-harian",
+        "kind": "text_truncated",
+        "overflow_px": 17,
+        "bbox": [
+          490,
+          617,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "jejakislami-harian",
+        "kind": "text_truncated",
+        "overflow_px": 10,
+        "bbox": [
+          559,
+          617,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "kisahalkitab-harian",
+        "kind": "text_truncated",
+        "overflow_px": 16,
+        "bbox": [
+          628,
+          617,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "lima-misteri-harian",
+        "kind": "text_truncated",
+        "overflow_px": 16,
+        "bbox": [
+          697,
+          617,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "macammacam-harian",
+        "kind": "text_truncated",
+        "overflow_px": 26,
+        "bbox": [
+          145,
+          691,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "mystery-en-harian",
+        "kind": "text_truncated",
+        "overflow_px": 12,
+        "bbox": [
+          283,
+          691,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "strangetales-shorts-harian",
+        "kind": "text_truncated",
+        "overflow_px": 45,
+        "bbox": [
+          352,
+          691,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "truecrime-en-harian",
+        "kind": "text_truncated",
+        "overflow_px": 19,
+        "bbox": [
+          421,
+          691,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "youtube-pov-harian",
+        "kind": "text_truncated",
+        "overflow_px": 17,
+        "bbox": [
+          559,
+          691,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "blog-otomatis-harian",
+        "kind": "text_truncated",
+        "overflow_px": 23,
+        "bbox": [
+          837,
+          617,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "verifikasi-pagi-blog",
+        "kind": "text_truncated",
+        "overflow_px": 15,
+        "bbox": [
+          906,
+          617,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "adsense-monitor",
+        "kind": "text_truncated",
+        "overflow_px": 6,
+        "bbox": [
+          975,
+          617,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "tiktok-loker-siang",
+        "kind": "text_truncated",
+        "overflow_px": 10,
+        "bbox": [
+          145,
+          814,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "tiktok-loker-harian",
+        "kind": "text_truncated",
+        "overflow_px": 14,
+        "bbox": [
+          214,
+          814,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "share-3x-upload-harian",
+        "kind": "text_truncated",
+        "overflow_px": 31,
+        "bbox": [
+          283,
+          814,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "promo-afiliasi-harian",
+        "kind": "text_truncated",
+        "overflow_px": 22,
+        "bbox": [
+          352,
+          814,
+          62,
+          11
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "tag": "span",
+        "text": "asisten-keuangan",
+        "kind": "text_truncated",
+        "overflow_px": 9,
+        "bbox": [
+          45,
+          953,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "empires-en-harian",
+        "kind": "text_truncated",
+        "overflow_px": 12,
+        "bbox": [
+          45,
+          1193,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "fakta-bola-dunia-harian",
+        "kind": "text_truncated",
+        "overflow_px": 33,
+        "bbox": [
+          114,
+          1193,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "history-en-harian",
+        "kind": "text_truncated",
+        "overflow_px": 8,
+        "bbox": [
+          183,
+          1193,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "jejakbuddha-harian",
+        "kind": "text_truncated",
+        "overflow_px": 17,
+        "bbox": [
+          114,
+          1267,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "jejakislami-harian",
+        "kind": "text_truncated",
+        "overflow_px": 10,
+        "bbox": [
+          183,
+          1267,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "kisahalkitab-harian",
+        "kind": "text_truncated",
+        "overflow_px": 16,
+        "bbox": [
+          252,
+          1267,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "lima-misteri-harian",
+        "kind": "text_truncated",
+        "overflow_px": 16,
+        "bbox": [
+          45,
+          1341,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "macammacam-harian",
+        "kind": "text_truncated",
+        "overflow_px": 26,
+        "bbox": [
+          114,
+          1341,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "mystery-en-harian",
+        "kind": "text_truncated",
+        "overflow_px": 12,
+        "bbox": [
+          252,
+          1341,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "strangetales-shorts-harian",
+        "kind": "text_truncated",
+        "overflow_px": 45,
+        "bbox": [
+          45,
+          1415,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "truecrime-en-harian",
+        "kind": "text_truncated",
+        "overflow_px": 19,
+        "bbox": [
+          114,
+          1415,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "youtube-pov-harian",
+        "kind": "text_truncated",
+        "overflow_px": 17,
+        "bbox": [
+          252,
+          1415,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "blog-otomatis-harian",
+        "kind": "text_truncated",
+        "overflow_px": 23,
+        "bbox": [
+          45,
+          1538,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "verifikasi-pagi-blog",
+        "kind": "text_truncated",
+        "overflow_px": 15,
+        "bbox": [
+          114,
+          1538,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "adsense-monitor",
+        "kind": "text_truncated",
+        "overflow_px": 6,
+        "bbox": [
+          183,
+          1538,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "tiktok-loker-siang",
+        "kind": "text_truncated",
+        "overflow_px": 10,
+        "bbox": [
+          45,
+          1670,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "tiktok-loker-harian",
+        "kind": "text_truncated",
+        "overflow_px": 14,
+        "bbox": [
+          114,
+          1670,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "share-3x-upload-harian",
+        "kind": "text_truncated",
+        "overflow_px": 31,
+        "bbox": [
+          183,
+          1670,
+          62,
+          11
+        ]
+      },
+      {
+        "tag": "span",
+        "text": "promo-afiliasi-harian",
+        "kind": "text_truncated",
+        "overflow_px": 22,
+        "bbox": [
+          252,
+          1670,
+          62,
+          11
+        ]
+      }
+    ]
+  },
+  "images": {
+    "total": 0,
+    "broken": [],
+    "duplicate": [],
+    "unstable": [],
+    "failed_requests": [],
+    "external_blocked": {
+      "count": 0,
+      "sample": []
+    },
+    "sample_urls": [],
+    "verdict": "pass"
+  },
+  "text_issues": [],
+  "console_errors": [],
+  "console_warnings": [],
+  "external_fetch_failures": 2,
+  "external_fetch_failure_samples": [
+    "console.error: Failed to load resource: net::ERR_SOCKS_CONNECTION_FAILED (https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap)",
+    "console.error: Failed to load resource: net::ERR_SOCKS_CONNECTION_FAILED (https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap)"
+  ],
+  "blocked_requests": [],
+  "external_requests": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap",
+      "method": "GET",
+      "resource_type": "stylesheet"
+    }
+  ],
+  "external_requests_dropped": 0,
+  "external_requests_dropped_data_bearing": 0,
+  "transport_ledger_active": true,
+  "egress_lockdown": true,
+  "transport_connections": [
+    {
+      "host": "fonts.googleapis.com",
+      "port": 443,
+      "connects": 2,
+      "bytes_up": 0,
+      "bytes_down": 0,
+      "policy_denied": true
+    }
+  ],
+  "transport_udp_attempts": 0,
+  "transport_overflow": 0,
+  "unexplained_transport_hosts": [],
+  "broken_assets": [],
+  "blocked_affordances": [],
+  "interactive_nodes": 134,
+  "aria_snapshot": "- img \"Logo Kantor AI — Yunobi\":\n  - img: KANTOR AI YUNOBI\n- text: Live • Waktu Indonesia Barat 11:33:34 Minggu, 18 Oktober 2026 79 Asisten AI (cron) aktif di 6 departemen 2 Sedang bekerja sekarang berdasarkan jadwal WIB 20 + 10 Channel YouTube & blog diproduksi tiap hari Rp 0 Pendapatan terealisasi fase membangun aset\n- button \"Produksi youtube 19\"\n- button \"Blog & konten 4\"\n- button \"Tiktok & sosmed 9\"\n- button \"Airdrop & crypto 7\"\n- button \"Monitoring & backup 23\"\n- button \"Lainnya 17\"\n- button \"Keuangan\"\n- img\n- searchbox \"Cari asisten\"\n- text: Sedang bekerja Jadwal berikutnya dekat Siaga / santai Klik karakter atau meja untuk lihat detail tugasnya. LOUNGE istirahat\n- paragraph: Tempat asisten melepas penat, ngobrol santai, dan ambil kopi di sela jadwal.\n- text: MANAGER koordinator\n- button \"Detail manager\": Koordinator — kamu yang pegang kendali\n- text: KEUANGAN finance\n- button \"Detail asisten-keuangan\": asisten-keuangan\n- 'button \"Realisasi: Rp 0 5 sumber pendapatan dipantau • 1 tertahan (Shopee) • klik untuk rincian\"'\n- text: KORIDOR PRODUKSI YOUTUBE 19 asisten\n- button \"Detail empires-en-harian\": empires-en-harian\n- button \"Detail fakta-bola-dunia-harian\": fakta-bola-dunia-harian\n- button \"Detail history-en-harian\": history-en-harian\n- button \"Detail horor-harian\": horor-harian\n- button \"Detail inktime-harian\": inktime-harian\n- button \"Detail jejakbuddha-harian\": jejakbuddha-harian\n- button \"Detail jejakislami-harian\": jejakislami-harian\n- button \"Detail kisahalkitab-harian\": kisahalkitab-harian\n- button \"Detail lima-misteri-harian\": lima-misteri-harian\n- button \"Detail macammacam-harian\": macammacam-harian\n- button \"Detail mind-en-harian\": mind-en-harian\n- button \"Detail mystery-en-harian\": mystery-en-harian\n- button \"Detail strangetales-shorts-harian\": strangetales-shorts-harian\n- button \"Detail truecrime-en-harian\": truecrime-en-harian\n- button \"Detail weird-en-harian\": weird-en-harian\n- button \"Detail youtube-pov-harian\": youtube-pov-harian\n- button \"Detail horror-en-harian\"\n- button \"Detail kisahdharma-harian\"\n- button \"Detail space-en-harian\"\n- text: BLOG & KONTEN 4 asisten\n- button \"Detail blog-otomatis-harian\": blog-otomatis-harian\n- button \"Detail verifikasi-pagi-blog\": verifikasi-pagi-blog\n- button \"Detail adsense-monitor\": adsense-monitor\n- button \"Detail ekspansi-blog-2mingguan\"\n- text: TIKTOK & SOSMED 9 asisten\n- button \"Detail tiktok-loker-siang\": tiktok-loker-siang\n- button \"Detail tiktok-loker-harian\": tiktok-loker-harian\n- button \"Detail share-3x-upload-harian\": share-3x-upload-harian\n- button \"Detail promo-afiliasi-harian\": promo-afiliasi-harian\n- button \"Detail tiktok-shop-ganti-produk\": tiktok-shop-ganti-produk\n- button \"Detail pendukung-sosmed\": pendukung\n- button \"Detail pendukung-sosmed\": pendukung\n- button \"Detail share-ig-harian\"\n- button \"Detail balas-komentar\"\n- text: AIRDROP & CRYPTO 7 asisten\n- button \"Detail airdrop-hunter-x\": airdrop-hunter-x\n- button \"Detail airdrop-farming-harian\": airdrop-farming-harian\n- button \"Detail faucet-megaeth-30wallet\": faucet-megaeth-30wallet\n- button \"Detail airdrop-mainnet-monitor\": airdrop-mainnet-monitor\n- button \"Detail pendukung-crypto\": pendukung\n- button \"Detail faucet-sepolia-harian\"\n- button \"Detail konsolidasi-mining-harian\"\n- text: MONITORING & BACKUP 23 asisten\n- button \"Detail backup-workspace-perjam\": backup-workspace-perjam\n- button \"Detail fb_bridge-dashboard\": fb_bridge-dashboard\n- button \"Detail watchdog-retry-upload-youtube\": watchdog-retry-upload-youtube\n- button \"Detail retry-cepat-upload-youtube\": retry-cepat-upload-youtube\n- button \"Detail cek-video-sepi-3harian\": cek-video-sepi-3harian\n- button \"Detail verifikasi-otp-3harian\": verifikasi-otp-3harian\n- button \"Detail pantau-stok-otpmurah\": pantau-stok-otpmurah\n- button \"Detail yt-seo-refresh-mingguan\": yt-seo-refresh-mingguan\n- button \"Detail audit-channel-mingguan\": audit-channel-mingguan\n- button \"Detail cek-token-mingguan\": cek-token-mingguan\n- button \"Detail pendukung-monitoring\": pendukung\n- button \"Detail pendukung-monitoring\": pendukung\n- button \"Detail pendukung-monitoring\": pendukung\n- button \"Detail pendukung-monitoring\": pendukung\n- button \"Detail pendukung-monitoring\": pendukung\n- button \"Detail pendukung-monitoring\": pendukung\n- button \"Detail pendukung-monitoring\": pendukung\n- button \"Detail pendukung-monitoring\": pendukung\n- button \"Detail pendukung-monitoring\": pendukung\n- button \"Detail pendukung-monitoring\": pendukung\n- button \"Detail hapus-video-terupload-harian\"\n- button \"Detail audit-duplikat-video\"\n- button \"Detail pendukung-monitoring\"\n- text: LAINNYA 17 asisten\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\": pendukung\n- button \"Detail pendukung-lainnya\"\n- button \"Detail pendukung-lainnya\"\n- button \"Detail pendukung-lainnya\"\n- button \"Detail asisten-kopi\"\n- heading \"Keuangan Project\" [level=2]\n- paragraph: \"Ringkasan pendapatan dari semua lini project. Jujur apa adanya: saat ini belum ada yang cair — semua masih fase membangun aset.\"\n- text: Total realisasi saat ini Rp 0\n- paragraph: Belum ada payout dari sumber mana pun. YouTube mengejar syarat monetisasi, blog menunggu AdSense, komisi Shopee tertahan administrasi, dan airdrop masih spekulatif.\n- text: Dalam progres\n- heading \"YouTube — 20 channel\" [level=3]\n- text: Rp 0\n- paragraph: \"Belum monetisasi. Setiap channel masih mengejar syarat Partner Program: 1.000 subscriber + 4.000 jam tayang publik.\"\n- text: \"Syarat: 1.000 subs + 4.000 jam tayang / channel Dalam progres\"\n- heading \"Blog — 10 blog\" [level=3]\n- text: Rp 0\n- paragraph: \"AdSense masih dalam proses, belum ada payout. Produksi artikel jalan terus: 6 artikel per hari tersebar ke 10 blog.\"\n- text: Tertahan\n- heading \"Shopee Affiliate\" [level=3]\n- text: Komisi tertahan\n- paragraph: Komisi dari promosi produk belum bisa cair karena info pembayaran & pajak belum dilengkapi.\n- text: \"Action item: lengkapi info pembayaran & pajak di\"\n- link \"affiliate.shopee.co.id\":\n  - /url: https://affiliate.shopee.co.id\n- text: supaya komisi bisa dicairkan. Dalam progres\n- heading \"TikTok — @ngeweb.yuk\" [level=3]\n- text: Rp 0\n- paragraph: Mengejar 600 followers untuk membuka review produk affiliate, dan 1.000 followers agar link bio bisa diklik.\n- text: \"Target 1: 600 followers (affiliate review) Target 2: 1.000 followers (link bio klik) Spekulatif\"\n- heading \"Airdrop Farming\" [level=3]\n- text: Rp 0\n- paragraph: 7 testnet aktif difarming tiap hari (termasuk MegaETH & Sepolia). Belum ada token yang listing atau bisa dijual — nilai masih spekulatif.\n- heading \"Daftar Semua Asisten\" [level=2]\n- paragraph: 79 asisten terjadwal. Klik nama untuk detail jadwal dan tugasnya.\n- heading \"PRODUKSI YOUTUBE · 19\" [level=3]\n- button \"empires-en-harian Setiap hari, 16:11 WIB\"\n- button \"fakta-bola-dunia-harian Setiap hari, 16:11 WIB\"\n- button \"history-en-harian Setiap hari, 16:11 WIB\"\n- button \"horor-harian Setiap hari, 16:11 WIB\"\n- button \"horror-en-harian Setiap hari, 16:11 WIB\"\n- button \"inktime-harian Setiap hari, 16:11 WIB\"\n- button \"jejakbuddha-harian Setiap hari, 16:11 WIB\"\n- button \"jejakislami-harian Setiap hari, 16:11 WIB\"\n- button \"kisahalkitab-harian Setiap hari, 16:11 WIB\"\n- button \"kisahdharma-harian Setiap hari, 16:11 WIB\"\n- button \"lima-misteri-harian Setiap hari, 16:11 WIB\"\n- button \"macammacam-harian Setiap hari, 16:11 WIB\"\n- button \"mind-en-harian Setiap hari, 16:11 WIB\"\n- button \"mystery-en-harian Setiap hari, 16:11 WIB\"\n- button \"space-en-harian Setiap hari, 16:11 WIB\"\n- button \"strangetales-shorts-harian Setiap hari, 16:11 WIB\"\n- button \"truecrime-en-harian Setiap hari, 16:11 WIB\"\n- button \"weird-en-harian Setiap hari, 16:11 WIB\"\n- button \"youtube-pov-harian Setiap hari, 16:11 WIB\"\n- heading \"BLOG & KONTEN · 4\" [level=3]\n- button \"blog-otomatis-harian Setiap hari, 15:11 WIB\"\n- button \"verifikasi-pagi-blog Setiap hari, 17:11 WIB\"\n- button \"ekspansi-blog-2mingguan Setiap 2 minggu\"\n- button \"adsense-monitor Berkala\"\n- heading \"TIKTOK & SOSMED · 9\" [level=3]\n- button \"tiktok-loker-siang Setiap hari, 12:11 WIB\"\n- button \"tiktok-loker-harian Setiap hari, 19:11 WIB\"\n- button \"share-3x-upload-harian Setiap hari, 21:11 WIB\"\n- button \"share-ig-harian Setiap hari, 20:11 WIB\"\n- button \"promo-afiliasi-harian Setiap hari, 17:11 WIB\"\n- button \"tiktok-shop-ganti-produk Setiap 2 minggu\"\n- button \"balas-komentar Setiap hari, 21:11 WIB\"\n- button \"2 cron pendukung — nama belum dirinci Pendukung\"\n- heading \"AIRDROP & CRYPTO · 7\" [level=3]\n- button \"airdrop-hunter-x Setiap hari, 07:00 WIB\"\n- button \"airdrop-farming-harian Setiap hari, 08:00 WIB\"\n- button \"faucet-sepolia-harian Setiap hari, 09:00 WIB\"\n- button \"faucet-megaeth-30wallet Setiap hari, 10:00 WIB\"\n- button \"konsolidasi-mining-harian Setiap hari, 11:00 WIB\"\n- button \"airdrop-mainnet-monitor Senin & Kamis, 09:00 WIB\"\n- button \"1 cron pendukung — nama belum dirinci Pendukung\"\n- heading \"MONITORING & BACKUP · 23\" [level=3]\n- button \"backup-workspace-perjam Setiap 1 jam\"\n- button \"fb_bridge-dashboard Setiap 3 menit\"\n- button \"watchdog-retry-upload-youtube Setiap hari, 20:00 WIB\"\n- button \"retry-cepat-upload-youtube Setiap 3 jam\"\n- button \"cek-video-sepi-3harian Harian\"\n- button \"hapus-video-terupload-harian Setiap hari, 22:11 WIB\"\n- button \"verifikasi-otp-3harian Setiap 3 hari\"\n- button \"pantau-stok-otpmurah Setiap 6 jam\"\n- button \"yt-seo-refresh-mingguan Senin, 09:00 WIB\"\n- button \"audit-channel-mingguan Mingguan\"\n- button \"cek-token-mingguan Mingguan\"\n- button \"audit-duplikat-video Berkala\"\n- button \"11 cron pendukung — nama belum dirinci Pendukung\"\n- heading \"LAINNYA · 17\" [level=3]\n- button \"17 cron pendukung — nama belum dirinci Pendukung\"\n- contentinfo: \"Kantor AI — pantau 79 asisten otomatis Yunobi: produksi YouTube, blog, TikTok, airdrop, dan monitoring. Status dihitung langsung dari jadwal WIB saat halaman dibuka.\"",
+  "audit_session_id": "9b99b745-0709-4179-9e6e-0f6c06e6563d",
+  "readiness": {
+    "desktop": {
+      "settled": true,
+      "settle_ms": 293,
+      "in_flight": null,
+      "network_idle": true,
+      "retried": false
+    },
+    "mobile": {
+      "settled": true,
+      "settle_ms": 299,
+      "in_flight": null,
+      "network_idle": true,
+      "retried": false
+    }
+  },
+  "color_scheme": {
+    "declared": "light dark",
+    "media_dependent": null,
+    "dark_frame": false
+  },
+  "mobile_ms": 2206.332846,
+  "cold_launch_ms": 2487.813776,
+  "desktop_ms": 4095.692397,
+  "browser_launches": 1,
+  "audit_path": "shared-concurrent",
+  "diagnostics": {
+    "audit_path": "shared-concurrent",
+    "concurrent_ran": true,
+    "concurrent_desktop_retry": false,
+    "concurrent_mobile_retry": false,
+    "shared_launch_failed": false,
+    "nav_retries": 0,
+    "settle_retries": 0
+  }
+}

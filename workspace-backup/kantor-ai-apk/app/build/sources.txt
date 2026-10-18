@@ -1,0 +1,2 @@
+/home/hatch/workspace/kantor-ai-apk/app/build/gen/com/yunobi/kantorai/R.java
+/home/hatch/workspace/kantor-ai-apk/app/src/main/java/com/yunobi/kantorai/MainActivity.java

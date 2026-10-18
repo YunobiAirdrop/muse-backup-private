@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>Kantor AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+    <style>
+      :root{
+        --bg:#f4f1ea; --panel:#fffdf8; --panel2:#efe9dc; --ink:#23211c; --ink2:#5c574c; --ink3:#8a8474;
+        --line:#ddd5c3; --wall:#cbbfa5; --floor:#e9e1cf; --floor-line:#ded2ba;
+        --wood:#b98a5e; --wood-d:#9a6f45; --desk-top:#c99e6f;
+        --green:#1d9e62; --green-soft:#d9f2e4; --amber:#d9930d; --amber-soft:#fbeed3;
+        --red:#d64545; --red-soft:#fbe0e0; --blue:#2f6fb2; --blue-soft:#dfeaf6;
+        --teal:#0f766e; --shadow:0 10px 30px rgba(60,48,20,.14);
+        --r-lg:18px; --r-md:12px;
+        --tint-yt:#fdeeda; --tint-blog:#e6f2e4; --tint-tt:#e3eefb; --tint-air:#efe6fb; --tint-mon:#e2f0ee; --tint-lain:#f3ead9; --tint-fin:#fdf3d7; --tint-lounge:#fbe9dd; --tint-mgr:#ece5d8;
+      }
+      @media (prefers-color-scheme: dark){
+        :root{
+          --bg:#141519; --panel:#1e2026; --panel2:#26282f; --ink:#ece9e2; --ink2:#b6b1a4; --ink3:#7e7a6e;
+          --line:#33353d; --wall:#3d3a33; --floor:#22232a; --floor-line:#2b2c33;
+          --wood:#8a6742; --wood-d:#6f5133; --desk-top:#7d5c39;
+          --green-soft:#173d2a; --amber-soft:#40330f; --red-soft:#402020; --blue-soft:#1d2f45;
+          --shadow:0 10px 30px rgba(0,0,0,.45);
+          --tint-yt:#2c2620; --tint-blog:#212b20; --tint-tt:#202833; --tint-air:#282233; --tint-mon:#1e2b29; --tint-lain:#2a251c; --tint-fin:#2d2817; --tint-lounge:#2d231c; --tint-mgr:#26241f;
+        }
+      }
+      *{box-sizing:border-box}
+      html{scroll-behavior:smooth}
+      body{margin:0;background:var(--bg);color:var(--ink);font-family:"Plus Jakarta Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+      button{font-family:inherit;cursor:pointer}
+      .wrap{max-width:1240px;margin:0 auto;padding:18px 16px 64px}
+
+      /* ===== Header / stats ===== */
+      .topbar{display:flex;flex-wrap:wrap;gap:14px;align-items:stretch;margin-bottom:14px}
+      .brand{display:flex;align-items:center;background:#fffdf8;border:1px solid var(--line);border-radius:var(--r-lg);padding:10px 16px;box-shadow:var(--shadow)}
+      .brand svg{display:block;width:228px;max-width:100%;height:auto}
+      @media(max-width:640px){.brand{flex:1 1 100%;justify-content:center;padding:12px 16px}}
+      .clock-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:14px 18px;min-width:210px;box-shadow:var(--shadow)}
+      .clock-label{font-size:11px;font-weight:700;letter-spacing:.14em;color:var(--ink3);text-transform:uppercase}
+      .clock-time{font-family:"JetBrains Mono",monospace;font-size:34px;font-weight:700;line-height:1.1;margin-top:2px}
+      .clock-date{font-size:13px;color:var(--ink2);font-weight:600}
+      .live-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);margin-right:6px;animation:pulse 1.6s infinite}
+      @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(29,158,98,.45)}50%{box-shadow:0 0 0 6px rgba(29,158,98,0)}}
+      .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;flex:1;min-width:280px}
+      .stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:12px 14px}
+      .stat b{display:block;font-size:26px;line-height:1;font-weight:800}
+      .stat span{font-size:11.5px;color:var(--ink2);font-weight:600}
+      .stat .sub{font-size:11px;color:var(--ink3);font-weight:500}
+      @media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}.clock-time{font-size:28px}}
+
+      /* ===== Toolbar ===== */
+      .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0 14px}
+      .chip{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:7px 13px;font-size:12.5px;font-weight:700}
+      .chip:hover{border-color:var(--teal);color:var(--teal)}
+      .chip .n{color:var(--ink3);font-weight:600}
+      .search{margin-left:auto;position:relative}
+      .search input{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:8px 14px 8px 34px;font-size:13px;width:230px;font-family:inherit}
+      .search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:15px;height:15px;stroke:var(--ink3)}
+      .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--ink2);font-weight:600;margin-bottom:10px}
+      .legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
+
+      /* ===== Floor plan ===== */
+      .floor{position:relative;background:var(--floor);border:3px solid var(--wall);border-radius:22px;padding:14px;box-shadow:var(--shadow);
+        background-image:linear-gradient(var(--floor-line) 1px,transparent 1px),linear-gradient(90deg,var(--floor-line) 1px,transparent 1px);background-size:44px 44px}
+      .row-top{display:grid;grid-template-columns:1fr 1.25fr 1fr;gap:12px;margin-bottom:12px}
+      .row-main{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+      .room{position:relative;border:2.5px solid var(--wall);border-radius:14px;padding:30px 10px 12px;overflow:hidden;min-height:120px}
+      .room.flash{animation:flash 1.4s}
+      @keyframes flash{0%,60%{box-shadow:0 0 0 4px var(--teal)}100%{box-shadow:0 0 0 0 transparent}}
+      .room-label{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:6px 10px;background:color-mix(in srgb,var(--panel) 72%,transparent);border-bottom:1.5px solid var(--wall);z-index:30}
+      .room-label b{font-size:10.5px;letter-spacing:.12em;font-weight:800}
+      .room-label span{font-size:10px;color:var(--ink2);font-weight:700;background:var(--panel);border:1px solid var(--line);border-radius:99px;padding:1px 7px}
+      .r-yt{background:var(--tint-yt);grid-column:span 7}
+      .r-blog{background:var(--tint-blog);grid-column:span 5}
+      .r-tt{background:var(--tint-tt);grid-column:span 5}
+      .r-air{background:var(--tint-air);grid-column:span 7}
+      .r-mon{background:var(--tint-mon);grid-column:span 7}
+      .r-lain{background:var(--tint-lain);grid-column:span 5}
+      .r-lounge{background:var(--tint-lounge)}
+      .r-mgr{background:var(--tint-mgr)}
+      .r-fin{background:var(--tint-fin)}
+      @media(max-width:900px){.row-top{grid-template-columns:1fr}.row-main>*{grid-column:span 12 !important}}
+      .desks{display:flex;flex-wrap:wrap;gap:9px 7px;align-content:flex-start;position:relative;z-index:5}
+      .plant{position:absolute;font-size:0;width:16px;height:16px;border-radius:50% 50% 50% 4px;background:#57a773;opacity:.75;z-index:1}
+      .sofa{position:absolute;background:#d98d64;border-radius:8px;z-index:1;box-shadow:inset 0 -4px 0 rgba(0,0,0,.12)}
+
+      /* ===== Desk unit ===== */
+      .desk-unit{position:relative;width:62px;background:none;border:none;padding:0;text-align:center;border-radius:10px}
+      .desk-unit:focus-visible,.walker:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+      .desk{position:relative;display:block;width:58px;height:30px;margin:0 auto;background:var(--desk-top);border:2px solid var(--wood-d);border-radius:6px;box-shadow:0 3px 0 rgba(0,0,0,.15)}
+      .monitor{position:absolute;top:2px;left:50%;transform:translateX(-50%);width:20px;height:13px;background:#2b3440;border-radius:2px;border:1.5px solid #161c24}
+      .monitor::after{content:"";position:absolute;inset:2px;background:linear-gradient(180deg,#7fd4ff 0 30%,#bfe9ff 30% 45%,#7fd4ff 45% 70%,#a8dcff 70%);opacity:.85;border-radius:1px}
+      .working .monitor::after{animation:screen .9s steps(2) infinite}
+      @keyframes screen{50%{opacity:.45}}
+      .kb{position:absolute;bottom:2px;left:50%;transform:translateX(-50%);width:16px;height:4px;background:rgba(0,0,0,.28);border-radius:2px}
+      .name-tag{display:block;margin-top:1px;font-size:8px;font-weight:700;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62px}
+      .sdot{position:absolute;top:-3px;right:1px;width:9px;height:9px;border-radius:50%;border:2px solid var(--panel);z-index:6}
+      .sdot.work{background:var(--green);animation:pulse 1.6s infinite}
+      .sdot.idle{background:#b9b2a0}
+      .sdot.soon{background:var(--amber)}
+
+      /* ===== Character ===== */
+      .char{position:relative;display:block;margin:-9px auto 0;width:26px;height:32px;z-index:4}
+      .c-head{position:absolute;top:0;left:50%;transform:translateX(-50%);width:15px;height:15px;border-radius:50%;z-index:3}
+      .c-hair{position:absolute;top:-1.5px;left:-1px;right:-1px;height:8px;border-radius:9px 9px 3px 3px}
+      .c-hair.bun::after{content:"";position:absolute;top:-4px;left:50%;transform:translateX(-50%);width:7px;height:7px;border-radius:50%;background:inherit}
+      .c-hair.hijab{height:17px;border-radius:9px 9px 6px 6px;z-index:-1;left:-2.5px;right:-2.5px}
+      .c-hair.cap{height:6px;border-radius:8px 8px 0 0}
+      .c-hair.cap::after{content:"";position:absolute;bottom:-2px;left:50%;transform:translateX(-50%);width:17px;height:3.5px;border-radius:3px;background:inherit}
+      .c-body{position:absolute;top:13px;left:50%;transform:translateX(-50%);width:19px;height:14px;border-radius:6px 6px 4px 4px;z-index:2}
+      .c-arm{position:absolute;top:15px;width:5px;height:11px;border-radius:3px;z-index:1;transform-origin:top center}
+      .c-arm.l{left:1px}.c-arm.r{right:1px}
+      .seated .c-arm.l{transform:rotate(-38deg)}
+      .seated .c-arm.r{transform:rotate(38deg)}
+      .typing .c-arm.l{animation:typeL .34s ease-in-out infinite alternate}
+      .typing .c-arm.r{animation:typeR .34s ease-in-out infinite alternate-reverse}
+      .typing.fast .c-arm.l,.typing.fast .c-arm.r{animation-duration:.17s}
+      @keyframes typeL{from{transform:rotate(-30deg)}to{transform:rotate(-52deg)}}
+      @keyframes typeR{from{transform:rotate(52deg)}to{transform:rotate(30deg)}}
+      .seated{animation:bob 2.6s ease-in-out infinite}
+      @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(.8px)}}
+      .relaxed .c-arm.l{transform:rotate(-12deg)}
+      .relaxed .c-arm.r{transform:rotate(12deg)}
+
+      /* standing / walking character */
+      .walker{position:absolute;left:0;top:0;width:30px;background:none;border:none;padding:0;z-index:8;will-change:transform}
+      .walker .char{margin:0 auto;height:40px}
+      .walker .c-leg{position:absolute;top:26px;width:5.5px;height:12px;border-radius:3px;z-index:1;transform-origin:top center;background:#3d4351}
+      .walker .c-leg.l{left:6.5px}.walker .c-leg.r{right:6.5px}
+      .walker.moving .c-leg.l{animation:step .36s ease-in-out infinite alternate}
+      .walker.moving .c-leg.r{animation:step .36s ease-in-out infinite alternate-reverse}
+      .walker.moving .char{animation:wbob .36s ease-in-out infinite alternate}
+      @keyframes step{from{transform:rotate(24deg)}to{transform:rotate(-24deg)}}
+      @keyframes wbob{from{transform:translateY(0)}to{transform:translateY(-1.6px)}}
+      .walker .c-body{height:15px}
+      .walker.idle-stand .char{animation:sway 3s ease-in-out infinite}
+      @keyframes sway{0%,100%{transform:rotate(-1.4deg)}50%{transform:rotate(1.4deg)}}
+      .cup{position:absolute;top:17px;right:-3px;width:6px;height:8px;background:#fff;border:1.5px solid #b08954;border-radius:1.5px;z-index:5}
+      .cup::before{content:"";position:absolute;top:1.5px;left:0;right:0;height:2.5px;background:#8a5a2b}
+      .flip{transform:scaleX(-1)}
+      .bubble{position:absolute;bottom:calc(100% + 4px);left:50%;transform:translateX(-50%) scale(.6);background:var(--panel);border:1.5px solid var(--line);color:var(--ink);font-size:9.5px;font-weight:700;padding:3px 8px;border-radius:10px;white-space:nowrap;opacity:0;pointer-events:none;transition:.25s;z-index:40;box-shadow:0 4px 10px rgba(0,0,0,.12)}
+      .bubble::after{content:"";position:absolute;top:100%;left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:var(--line)}
+      .bubble.show{opacity:1;transform:translateX(-50%) scale(1)}
+      .desk-unit .bubble{bottom:auto;top:-24px}
+
+      /* manager desk */
+      .mgr-desk{width:118px;height:44px;margin:8px auto 0;background:var(--desk-top);border:2.5px solid var(--wood-d);border-radius:8px;position:relative;box-shadow:0 4px 0 rgba(0,0,0,.15)}
+      .mgr-desk .monitor{width:30px;height:19px;top:4px}
+      .mgr-char{transform:scale(1.25);transform-origin:top center;margin-top:-12px}
+      .lounge-items{display:flex;gap:8px;align-items:flex-end;padding:6px 4px 2px}
+      .lounge-note{font-size:10.5px;color:var(--ink2);font-weight:600;line-height:1.45}
+      .fin-board{display:block;width:100%;text-align:left;background:var(--panel);border:1.5px dashed var(--amber);border-radius:10px;padding:8px 10px;margin-top:8px;color:var(--ink)}
+      .fin-board b{font-size:15px}
+      .fin-board span{display:block;font-size:10.5px;color:var(--ink2);font-weight:600;margin-top:1px}
+      .hallway{position:relative;height:30px;margin:0 2px 12px;border-radius:8px;background:repeating-linear-gradient(90deg,transparent 0 26px,rgba(0,0,0,.05) 26px 28px);border:1.5px dashed var(--wall)}
+      .hallway small{position:absolute;left:10px;top:50%;transform:translateY(-50%);font-size:9.5px;letter-spacing:.14em;font-weight:800;color:var(--ink3)}
+      .coffee-walker{z-index:20}
+
+      /* ===== Sections ===== */
+      .section{margin-top:30px}
+      .section h2{font-size:20px;font-weight:800;margin:0 0 4px}
+      .section .desc{color:var(--ink2);font-size:13.5px;margin:0 0 16px;font-weight:500}
+      .fin-total{display:flex;flex-wrap:wrap;gap:14px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:16px 18px;margin-bottom:14px;box-shadow:var(--shadow)}
+      .fin-total .big{font-family:"JetBrains Mono",monospace;font-size:32px;font-weight:700}
+      .fin-total p{margin:0;color:var(--ink2);font-size:13px;font-weight:600;max-width:520px}
+      .fin-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+      .fin-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:16px}
+      .fin-card h3{margin:0 0 2px;font-size:15.5px;font-weight:800}
+      .fin-card .amt{font-family:"JetBrains Mono",monospace;font-size:21px;font-weight:700;margin:8px 0 6px}
+      .fin-card p{margin:0;font-size:12.5px;color:var(--ink2);line-height:1.55;font-weight:500}
+      .pill{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.06em;padding:3px 9px;border-radius:99px;text-transform:uppercase}
+      .pill.prog{background:var(--amber-soft);color:var(--amber)}
+      .pill.hold{background:var(--red-soft);color:var(--red)}
+      .pill.spec{background:var(--blue-soft);color:var(--blue)}
+      .action{margin-top:10px;background:var(--red-soft);border-radius:10px;padding:9px 11px;font-size:12px;font-weight:700;color:var(--ink);line-height:1.5}
+      .action a{color:var(--red);font-weight:800}
+      .prog-wrap{margin-top:10px}
+      .prog-wrap small{font-size:11px;color:var(--ink2);font-weight:700}
+      .bar{height:7px;background:var(--panel2);border-radius:99px;margin-top:4px;overflow:hidden}
+      .bar i{display:block;height:100%;background:var(--amber);border-radius:99px}
+
+      /* roster */
+      .roster{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+      .roster-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:14px 16px}
+      .roster-card h3{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:800}
+      .roster-card h3 span{color:var(--ink3)}
+      .rrow{display:flex;gap:9px;align-items:baseline;width:100%;text-align:left;background:none;border:none;border-top:1px solid var(--line);padding:7px 2px;color:var(--ink)}
+      .rrow:hover{background:var(--panel2)}
+      .rrow .rd{width:8px;height:8px;border-radius:50%;flex:none;position:relative;top:1px}
+      .rrow .rn{font-weight:700;font-size:12.5px;font-family:"JetBrains Mono",monospace}
+      .rrow .rj{margin-left:auto;font-size:11px;color:var(--ink2);font-weight:600;text-align:right;max-width:45%}
+      .rrow.hide{display:none}
+
+      /* detail panel */
+      .scrim{position:fixed;inset:0;background:rgba(20,16,8,.42);opacity:0;pointer-events:none;transition:.25s;z-index:90}
+      .scrim.on{opacity:1;pointer-events:auto}
+      .sheet{position:fixed;top:0;right:0;height:100dvh;width:min(360px,92vw);background:var(--panel);z-index:95;transform:translateX(105%);transition:transform .3s cubic-bezier(.2,.8,.25,1);box-shadow:-14px 0 40px rgba(0,0,0,.25);padding:22px;overflow-y:auto;overflow-x:hidden}
+      .sheet .avatar-zone{overflow:hidden}
+      .sheet.on{transform:none}
+      .sheet .close{position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--panel2);color:var(--ink);font-size:16px}
+      .sheet .avatar-zone{display:flex;justify-content:center;padding:16px 0 4px;transform:scale(1.9);height:86px}
+      .sheet h3{font-family:"JetBrains Mono",monospace;font-size:17px;margin:6px 0 2px;word-break:break-all;text-align:center}
+      .sheet .dept{text-align:center;color:var(--ink2);font-weight:700;font-size:12.5px;margin-bottom:16px}
+      .kv{border-top:1px solid var(--line);padding:10px 2px}
+      .kv small{display:block;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);font-weight:800;margin-bottom:3px}
+      .kv div{font-size:14px;font-weight:600;line-height:1.5}
+      .status-line{display:flex;align-items:center;gap:8px;font-weight:800;font-size:14px}
+      footer{margin-top:34px;color:var(--ink3);font-size:12px;font-weight:600;text-align:center}
+      @media (prefers-reduced-motion: reduce){
+        *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}
+        html{scroll-behavior:auto}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- Header -->
+      <div class="topbar">
+        <div class="brand" role="img" aria-label="Logo Kantor AI — Yunobi">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 72"><rect x="4" y="8" width="56" height="56" rx="12" fill="#1a1a2e"/><rect x="14" y="28" width="10" height="26" fill="#4fc3f7"/><rect x="27" y="20" width="10" height="34" fill="#81ecec"/><rect x="40" y="32" width="10" height="22" fill="#a29bfe"/><circle cx="32" cy="14" r="4" fill="#fdcb6e"/><text x="70" y="34" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a1a2e">KANTOR AI</text><text x="70" y="54" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#636e72" letter-spacing="3">YUNOBI</text></svg>
+        </div>
+        <div class="clock-card">
+          <div class="clock-label"><span class="live-dot"></span>Live &bull; Waktu Indonesia Barat</div>
+          <div class="clock-time" id="clock">--:--:--</div>
+          <div class="clock-date" id="dateLine">Memuat tanggal…</div>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>79</b><span>Asisten AI (cron) aktif</span><div class="sub">di 6 departemen</div></div>
+          <div class="stat"><b id="statWorking">–</b><span>Sedang bekerja sekarang</span><div class="sub">berdasarkan jadwal WIB</div></div>
+          <div class="stat"><b>20 + 10</b><span>Channel YouTube &amp; blog</span><div class="sub">diproduksi tiap hari</div></div>
+          <div class="stat"><b>Rp 0</b><span>Pendapatan terealisasi</span><div class="sub">fase membangun aset</div></div>
+        </div>
+      </div>
+
+      <div class="toolbar" id="chips"></div>
+      <div class="legend">
+        <span><i style="background:var(--green)"></i>Sedang bekerja</span>
+        <span><i style="background:var(--amber)"></i>Jadwal berikutnya dekat</span>
+        <span><i style="background:#b9b2a0"></i>Siaga / santai</span>
+        <span>Klik karakter atau meja untuk lihat detail tugasnya.</span>
+      </div>
+
+      <!-- Floor -->
+      <div class="floor" id="floor">
+        <div class="row-top">
+          <div class="room r-lounge" id="room-lounge">
+            <div class="room-label"><b>LOUNGE</b><span>istirahat</span></div>
+            <div class="lounge-items">
+              <div class="sofa" style="position:relative;width:74px;height:30px"></div>
+              <p class="lounge-note">Tempat asisten melepas penat, ngobrol santai, dan ambil kopi di sela jadwal.</p>
+            </div>
+            <div class="plant" style="right:10px;bottom:10px"></div>
+            <div class="plant" style="right:30px;bottom:8px"></div>
+          </div>
+          <div class="room r-mgr" id="room-manager">
+            <div class="room-label"><b>MANAGER</b><span>koordinator</span></div>
+            <button class="desk-unit" style="width:100%" id="mgrBtn" aria-label="Detail manager">
+              <span class="mgr-desk"><span class="monitor"></span><span class="kb"></span></span>
+              <span class="char seated typing fast mgr-char" id="mgrChar"></span>
+              <span class="name-tag" style="max-width:none;font-size:9.5px">Koordinator — kamu yang pegang kendali</span>
+            </button>
+          </div>
+          <div class="room r-fin" id="room-keuangan">
+            <div class="room-label"><b>KEUANGAN</b><span>finance</span></div>
+            <div class="desks" id="desks-keuangan"></div>
+            <button class="fin-board" id="finBoard">
+              <b>Realisasi: Rp 0</b>
+              <span>5 sumber pendapatan dipantau &bull; 1 tertahan (Shopee) &bull; klik untuk rincian</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hallway" id="hallway"><small>KORIDOR</small></div>
+
+        <div class="row-main" id="rowMain"></div>
+      </div>
+
+      <!-- Finance -->
+      <section class="section" id="keuangan">
+        <h2>Keuangan Project</h2>
+        <p class="desc">Ringkasan pendapatan dari semua lini project. Jujur apa adanya: saat ini belum ada yang cair — semua masih fase membangun aset.</p>
+        <div class="fin-total">
+          <div><div class="clock-label">Total realisasi saat ini</div><div class="big">Rp 0</div></div>
+          <p>Belum ada payout dari sumber mana pun. YouTube mengejar syarat monetisasi, blog menunggu AdSense, komisi Shopee tertahan administrasi, dan airdrop masih spekulatif.</p>
+        </div>
+        <div class="fin-grid">
+          <div class="fin-card">
+            <span class="pill prog">Dalam progres</span>
+            <h3>YouTube — 20 channel</h3>
+            <div class="amt">Rp 0</div>
+            <p>Belum monetisasi. Setiap channel masih mengejar syarat Partner Program: 1.000 subscriber + 4.000 jam tayang publik.</p>
+            <div class="prog-wrap"><small>Syarat: 1.000 subs + 4.000 jam tayang / channel</small><div class="bar"><i style="width:18%"></i></div></div>
+          </div>
+          <div class="fin-card">
+            <span class="pill prog">Dalam progres</span>
+            <h3>Blog — 10 blog</h3>
+            <div class="amt">Rp 0</div>
+            <p>AdSense masih dalam proses, belum ada payout. Produksi artikel jalan terus: 6 artikel per hari tersebar ke 10 blog.</p>
+          </div>
+          <div class="fin-card">
+            <span class="pill hold">Tertahan</span>
+            <h3>Shopee Affiliate</h3>
+            <div class="amt">Komisi tertahan</div>
+            <p>Komisi dari promosi produk belum bisa cair karena info pembayaran &amp; pajak belum dilengkapi.</p>
+            <div class="action">Action item: lengkapi info pembayaran &amp; pajak di <a href="https://affiliate.shopee.co.id" target="_blank" rel="noopener">affiliate.shopee.co.id</a> supaya komisi bisa dicairkan.</div>
+          </div>
+          <div class="fin-card">
+            <span class="pill prog">Dalam progres</span>
+            <h3>TikTok — @ngeweb.yuk</h3>
+            <div class="amt">Rp 0</div>
+            <p>Mengejar 600 followers untuk membuka review produk affiliate, dan 1.000 followers agar link bio bisa diklik.</p>
+            <div class="prog-wrap"><small>Target 1: 600 followers (affiliate review)</small><div class="bar"><i style="width:35%"></i></div></div>
+            <div class="prog-wrap"><small>Target 2: 1.000 followers (link bio klik)</small><div class="bar"><i style="width:22%"></i></div></div>
+          </div>
+          <div class="fin-card">
+            <span class="pill spec">Spekulatif</span>
+            <h3>Airdrop Farming</h3>
+            <div class="amt">Rp 0</div>
+            <p>7 testnet aktif difarming tiap hari (termasuk MegaETH &amp; Sepolia). Belum ada token yang listing atau bisa dijual — nilai masih spekulatif.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Roster -->
+      <section class="section">
+        <h2>Daftar Semua Asisten</h2>
+        <p class="desc">79 asisten terjadwal. Klik nama untuk detail jadwal dan tugasnya.</p>
+        <div class="roster" id="roster"></div>
+      </section>
+
+      <footer>Kantor AI — pantau 79 asisten otomatis Yunobi: produksi YouTube, blog, TikTok, airdrop, dan monitoring. Status dihitung langsung dari jadwal WIB saat halaman dibuka.</footer>
+    </div>
+
+    <div class="scrim" id="scrim"></div>
+    <aside class="sheet" id="sheet" aria-hidden="true">
+      <button class="close" id="sheetClose" aria-label="Tutup">&times;</button>
+      <div class="avatar-zone" id="sheetAvatar"></div>
+      <h3 id="sheetName">—</h3>
+      <div class="dept" id="sheetDept">—</div>
+      <div class="kv"><small>Status sekarang</small><div class="status-line" id="sheetStatus">—</div></div>
+      <div class="kv"><small>Jadwal</small><div id="sheetSched">—</div></div>
+      <div class="kv"><small>Jalan berikutnya</small><div id="sheetNext">—</div></div>
+      <div class="kv"><small>Tugas</small><div id="sheetJob">—</div></div>
+    </aside>
+
+    <script>
+    /* ============ DATA REAL: 79 cron dalam 6 departemen ============ */
+    var DEPTS = [
+      { id:'youtube', label:'PRODUKSI YOUTUBE', cls:'r-yt', tint:'yt' },
+      { id:'blog', label:'BLOG & KONTEN', cls:'r-blog' },
+      { id:'tiktok', label:'TIKTOK & SOSMED', cls:'r-tt' },
+      { id:'airdrop', label:'AIRDROP & CRYPTO', cls:'r-air' },
+      { id:'monitoring', label:'MONITORING & BACKUP', cls:'r-mon' },
+      { id:'lainnya', label:'LAINNYA', cls:'r-lain' }
+    ];
+    // t: "16:11" daily time | iv: interval menit | label: teks jadwal bebas
+    function A(name, job, opts){ opts = opts || {}; return { name:name, job:job, t:opts.t||null, iv:opts.iv||null, label:opts.label||null, g:!!opts.g }; }
+    var ytJob = 'Produksi 1 video per hari untuk channel YouTube (riset topik, naskah, visual, voiceover, upload).';
+    var DATA = {
+      youtube: ['empires-en-harian','fakta-bola-dunia-harian','history-en-harian','horor-harian','horror-en-harian','inktime-harian','jejakbuddha-harian','jejakislami-harian','kisahalkitab-harian','kisahdharma-harian','lima-misteri-harian','macammacam-harian','mind-en-harian','mystery-en-harian','space-en-harian','strangetales-shorts-harian','truecrime-en-harian','weird-en-harian','youtube-pov-harian'].map(function(n){ return A(n, ytJob, {t:'16:11'}); }),
+      blog: [
+        A('blog-otomatis-harian','Menulis 6 artikel per hari dan menerbitkannya tersebar rata ke 10 blog (round-robin).',{t:'15:11'}),
+        A('verifikasi-pagi-blog','Verifikasi artikel yang terbit vs snapshot kemarin, cek bounce email, lapor ringkas.',{t:'17:11'}),
+        A('ekspansi-blog-2mingguan','Ekspansi blog niche baru dari antrean rotasi niche.',{label:'Setiap 2 minggu'}),
+        A('adsense-monitor','Memantau status peninjauan dan kelayakan AdSense untuk blog-blog aktif.',{label:'Berkala'})
+      ],
+      tiktok: [
+        A('tiktok-loker-siang','Produksi & posting video info loker ke TikTok (edisi siang).',{t:'12:11'}),
+        A('tiktok-loker-harian','Produksi & posting video info loker ke TikTok (edisi malam).',{t:'19:11'}),
+        A('share-3x-upload-harian','Share-copy 3x setiap video YouTube baru (24 jam terakhir, semua channel).',{t:'21:11'}),
+        A('share-ig-harian','Posting konten promosi harian ke Instagram.',{t:'20:11'}),
+        A('promo-afiliasi-harian','Promo 5 produk Shopee Affiliate per hari, termasuk video presenter AI berbahasa Indonesia.',{t:'17:11'}),
+        A('tiktok-shop-ganti-produk','Pengingat berkala untuk mengganti katalog produk TikTok Shop.',{label:'Setiap 2 minggu'}),
+        A('balas-komentar','Membalas komentar penonton di video-video YouTube.',{t:'21:11'}),
+        A('pendukung-sosmed','Cron pendukung operasional TikTok & media sosial (nama belum dirinci).',{label:'Pendukung', g:true}),
+        A('pendukung-sosmed','Cron pendukung operasional TikTok & media sosial (nama belum dirinci).',{label:'Pendukung', g:true})
+      ],
+      airdrop: [
+        A('airdrop-hunter-x','Berburu peluang airdrop baru di X dan memasukkannya ke daftar farming.',{t:'07:00'}),
+        A('airdrop-farming-harian','Farming harian di proyek testnet aktif (transaksi rutin agar eligible).',{t:'08:00'}),
+        A('faucet-sepolia-harian','Klaim faucet Sepolia harian untuk kebutuhan testnet.',{t:'09:00'}),
+        A('faucet-megaeth-30wallet','Klaim faucet MegaETH untuk 30 wallet farming.',{t:'10:00'}),
+        A('konsolidasi-mining-harian','Cek saldo wallet mining dan kirim 90% hasil ke wallet farming utama.',{t:'11:00'}),
+        A('airdrop-mainnet-monitor','Pantau peluang & pergerakan airdrop mainnet.',{label:'Senin & Kamis', t:'09:00'}),
+        A('pendukung-crypto','Cron pendukung operasional airdrop & crypto (nama belum dirinci).',{label:'Pendukung', g:true})
+      ],
+      monitoring: [
+        A('backup-workspace-perjam','Backup workspace ke repo GitHub privat (hanya push bila ada perubahan).',{iv:60}),
+        A('fb_bridge-dashboard','Sinkronisasi data dashboard YouTube (state, statistik, tab blog).',{iv:3}),
+        A('watchdog-retry-upload-youtube','Mengolah antrean retry upload YouTube yang tertunda batas harian.',{t:'20:00'}),
+        A('retry-cepat-upload-youtube','Retry cepat upload YouTube yang tertunda.',{iv:180}),
+        A('cek-video-sepi-3harian','Scan semua channel: video sepi diperbaiki metadatanya otomatis dan di-share ulang 3x.',{label:'Harian'}),
+        A('hapus-video-terupload-harian','Hapus file video lokal yang sudah terupload ke YouTube (hemat disk).',{t:'22:11'}),
+        A('verifikasi-otp-3harian','Verifikasi HP channel YouTube berikutnya via OTP (1 nomor per run).',{label:'Setiap 3 hari'}),
+        A('pantau-stok-otpmurah','Pantau stok & harga nomor di OTPMurah.',{iv:360}),
+        A('yt-seo-refresh-mingguan','Refresh SEO metadata channel YouTube.',{label:'Senin', t:'09:00'}),
+        A('audit-channel-mingguan','Audit kesehatan mingguan semua channel YouTube.',{label:'Mingguan'}),
+        A('cek-token-mingguan','Cek masa berlaku token OAuth tiap channel.',{label:'Mingguan'}),
+        A('audit-duplikat-video','Audit video duplikat antar channel.',{label:'Berkala'})
+      ],
+      lainnya: []
+    };
+    for (var mi = DATA.monitoring.length; mi < 23; mi++) DATA.monitoring.push(A('pendukung-monitoring', 'Cron pendukung monitoring & backup operasional (nama belum dirinci).', {label:'Pendukung', g:true}));
+    for (var li = 1; li <= 17; li++) DATA.lainnya.push(A('pendukung-lainnya', 'Cron pendukung operasional di luar departemen utama (nama belum dirinci).', {label:'Pendukung', g:true}));
+    DATA.keuangan = [ A('asisten-keuangan','Memantau ringkasan pendapatan semua lini project: YouTube, blog, Shopee Affiliate, TikTok, dan airdrop.',{label:'Berkala'}) ];
+
+    var DEPT_NAME = { youtube:'Produksi YouTube', blog:'Blog & Konten', tiktok:'TikTok & Sosmed', airdrop:'Airdrop & Crypto', monitoring:'Monitoring & Backup', lainnya:'Lainnya', keuangan:'Keuangan' };
+    var PHRASES = {
+      youtube:['Lagi render video…','Upload selesai!','Cek retensi dulu','Naskah beres','Thumbnail oke!','Jadwal tayang aman'],
+      blog:['Artikel ke-4…','SEO dicek ulang','Publish!','Riset kata kunci','Verifikasi feed…'],
+      tiktok:['Hook 3 detik!','Caption beres','Upload ke TikTok','Balas komentar…','Cek tren hari ini'],
+      airdrop:['Klaim faucet…','Transaksi testnet','Saldo dicek','Cari airdrop baru','Konsolidasi wallet'],
+      monitoring:['Backup jalan','Semua sistem aman','Retry upload…','Scan video sepi','Token masih valid'],
+      lainnya:['Siap!','Lagi proses…','Beres','Standby'],
+      keuangan:['Hitung ulang…','Masih Rp 0 nih','Cek status AdSense','Komisi tertahan…']
+    };
+
+    /* ============ Penampilan karakter ============ */
+    var SKINS = ['#f6c99b','#eebd8f','#d99e63','#b97a45','#8c5a2e'];
+    var SHIRTS = ['#e2574c','#2f6fb2','#1d9e62','#e8a13a','#7a5af8','#0f766e','#d6699e','#4a6fa5','#5b8c5a','#c05621','#718096','#975a16'];
+    var HAIRS = ['#2b2118','#4a3220','#17130f','#6e4520','#999','#3a3a3a'];
+    var HAIR_STYLES = ['short','short','bun','cap','hijab','short'];
+    var seed = 7;
+    function rnd(n){ seed = (seed * 1103515245 + 12345) % 2147483648; return seed % n; }
+    function charHTML(){
+      var skin = SKINS[rnd(SKINS.length)], shirt = SHIRTS[rnd(SHIRTS.length)], hair = HAIRS[rnd(HAIRS.length)], style = HAIR_STYLES[rnd(HAIR_STYLES.length)];
+      if (style === 'hijab') hair = SHIRTS[rnd(SHIRTS.length)];
+      return '<span class="c-head" style="background:'+skin+'"><span class="c-hair '+style+'" style="background:'+hair+'"></span></span>' +
+             '<span class="c-body" style="background:'+shirt+'"></span>' +
+             '<span class="c-arm l" style="background:'+skin+'"></span><span class="c-arm r" style="background:'+skin+'"></span>';
+    }
+    function standHTML(withCup){
+      return charHTML() + '<span class="c-leg l"></span><span class="c-leg r"></span>' + (withCup ? '<span class="cup"></span>' : '');
+    }
+
+    /* ============ Status dari jadwal WIB ============ */
+    function wibNow(){
+      var parts = new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Jakarta',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date());
+      var h=0,m=0; parts.forEach(function(p){ if(p.type==='hour')h=+p.value; if(p.type==='minute')m=+p.value; });
+      return h*60+m;
+    }
+    function statusOf(a, nowMin){
+      if (a.iv){ var cyc = nowMin % a.iv; return (cyc < Math.max(12, a.iv*0.25)) ? 'work' : 'soon'; }
+      if (a.t){ var p = a.t.split(':'), t = (+p[0])*60 + (+p[1]); var d = t - nowMin;
+        if (d <= 5 && d >= -50) return 'work';
+        if (d > 5 && d <= 90) return 'soon';
+        return 'idle'; }
+      return 'idle';
+    }
+    function statusText(s){ return s==='work' ? 'Sedang bekerja' : (s==='soon' ? 'Jadwal berikutnya dekat' : 'Siaga / santai'); }
+    function nextRun(a, nowMin){
+      if (a.iv){ var rem = a.iv - (nowMin % a.iv); if (rem === a.iv) rem = 0; return rem <= 1 ? 'Sebentar lagi (jalan berkala)' : 'Sekitar ' + rem + ' menit lagi (jalan berkala tiap ' + (a.iv>=60 ? (a.iv/60)+' jam' : a.iv+' menit') + ')'; }
+      if (a.t){ var p=a.t.split(':'), t=(+p[0])*60+(+p[1]); return (t >= nowMin ? 'Hari ini, ' : 'Besok, ') + a.t + ' WIB'; }
+      return a.label || 'Mengikuti jadwal berkala';
+    }
+    function schedText(a){
+      if (a.label && a.t) return a.label + ', ' + a.t + ' WIB';
+      if (a.label) return a.label;
+      if (a.iv) return a.iv >= 60 ? 'Setiap ' + (a.iv/60) + ' jam' : 'Setiap ' + a.iv + ' menit';
+      if (a.t) return 'Setiap hari, ' + a.t + ' WIB';
+      return 'Berkala';
+    }
+
+    /* ============ Render ruangan & karakter ============ */
+    var nowMin = wibNow();
+    var allChars = [];   // {el, a, dept, kind}
+    var workingCount = 0;
+    var rowMain = document.getElementById('rowMain');
+    var roster = document.getElementById('roster');
+    var chips = document.getElementById('chips');
+
+    function mkDesk(a, dept, st){
+      var b = document.createElement('button');
+      b.className = 'desk-unit' + (st==='work' ? ' working' : '');
+      b.setAttribute('aria-label', 'Detail ' + a.name);
+      var typingCls = st==='work' ? 'typing fast' : (st==='soon' ? 'typing' : 'relaxed');
+      b.innerHTML = '<span class="desk"><span class="monitor"></span><span class="kb"></span></span>' +
+        '<span class="char seated ' + typingCls + '">' + charHTML() + '</span>' +
+        '<span class="sdot ' + (st==='work'?'work':st==='soon'?'soon':'idle') + '"></span>' +
+        '<span class="name-tag">' + (a.g ? 'pendukung' : a.name) + '</span><span class="bubble"></span>';
+      b.addEventListener('click', function(){ openSheet(a, dept, b.querySelector('.char')); });
+      return b;
+    }
+    function mkWalker(a, dept, st, withCup){
+      var b = document.createElement('button');
+      b.className = 'walker idle-stand';
+      b.setAttribute('aria-label', 'Detail ' + a.name);
+      b.innerHTML = '<span class="char">' + standHTML(withCup) + '</span>' +
+        '<span class="sdot ' + (st==='work'?'work':st==='soon'?'soon':'idle') + '" style="top:-4px;right:-2px"></span><span class="bubble"></span>';
+      b.addEventListener('click', function(){ openSheet(a, dept, b.querySelector('.char')); });
+      return b;
+    }
+
+    DEPTS.forEach(function(d){
+      var room = document.createElement('div');
+      room.className = 'room ' + d.cls; room.id = 'room-' + d.id;
+      room.innerHTML = '<div class="room-label"><b>' + d.label + '</b><span>' + DATA[d.id].length + ' asisten</span></div><div class="desks"></div>' +
+        '<div class="plant" style="right:12px;bottom:10px"></div><div class="plant" style="left:10px;bottom:10px"></div>';
+      rowMain.appendChild(room);
+      var desksEl = room.querySelector('.desks');
+      var list = DATA[d.id];
+      var nWalk = list.length >= 15 ? 3 : (list.length >= 7 ? 2 : 1);
+      var walkIdx = {};
+      for (var w = 0; w < nWalk; w++) walkIdx[Math.floor((w+1) * list.length / (nWalk+1))] = true;
+      list.forEach(function(a, i){
+        var st = statusOf(a, nowMin);
+        if (st === 'work') workingCount++;
+        a._dept = d.id; a._status = st;
+        if (walkIdx[i]){
+          var wk = mkWalker(a, d.id, st, false);
+          room.appendChild(wk);
+          allChars.push({ el: wk, a: a, dept: d.id, kind: 'walker', room: room });
+        } else {
+          var dk = mkDesk(a, d.id, st);
+          desksEl.appendChild(dk);
+          allChars.push({ el: dk, a: a, dept: d.id, kind: 'desk' });
+        }
+      });
+      // roster: nama asli satu-satu; cron pendukung yang namanya belum dirinci digabung jadi 1 baris kelompok
+      var rc = document.createElement('div'); rc.className = 'roster-card';
+      var named = list.filter(function(x){ return !x.g; });
+      var generic = list.filter(function(x){ return x.g; });
+      var rows = named.map(function(a){
+        var st = a._status;
+        var col = st==='work' ? 'var(--green)' : st==='soon' ? 'var(--amber)' : '#b9b2a0';
+        return '<button class="rrow" data-name="' + a.name + '"><span class="rd" style="background:' + col + '"></span><span class="rn">' + a.name + '</span><span class="rj">' + schedText(a) + '</span></button>';
+      }).join('');
+      if (generic.length){
+        rows += '<button class="rrow" data-name="' + generic[0].name + '"><span class="rd" style="background:#b9b2a0"></span><span class="rn">' + generic.length + ' cron pendukung — nama belum dirinci</span><span class="rj">Pendukung</span></button>';
+      }
+      rc.innerHTML = '<h3>' + d.label + ' <span>· ' + list.length + '</span></h3>' + rows;
+      roster.appendChild(rc);
+      rc.querySelectorAll('.rrow').forEach(function(r){
+        r.addEventListener('click', function(){
+          var found = null;
+          list.forEach(function(x){ if (x.name === r.getAttribute('data-name')) found = x; });
+          if (found) openSheet(found, d.id, null);
+        });
+      });
+      // chip
+      var chip = document.createElement('button'); chip.className = 'chip';
+      chip.innerHTML = d.label.charAt(0) + d.label.slice(1).toLowerCase() + ' <span class="n">' + list.length + '</span>';
+      chip.addEventListener('click', function(){
+        room.scrollIntoView({behavior:'smooth', block:'center'});
+        room.classList.remove('flash'); void room.offsetWidth; room.classList.add('flash');
+      });
+      chips.appendChild(chip);
+    });
+
+    // Keuangan desk (akuntan)
+    (function(){
+      var a = DATA.keuangan[0]; a._dept='keuangan'; a._status='idle';
+      var dk = mkDesk(a, 'keuangan', 'soon');
+      dk.querySelector('.sdot').className = 'sdot idle';
+      dk.querySelector('.name-tag').textContent = 'asisten-keuangan';
+      document.getElementById('desks-keuangan').appendChild(dk);
+      allChars.push({ el: dk, a: a, dept: 'keuangan', kind: 'desk' });
+      var chip = document.createElement('button'); chip.className='chip'; chip.innerHTML = 'Keuangan';
+      chip.addEventListener('click', function(){ document.getElementById('keuangan').scrollIntoView({behavior:'smooth'}); });
+      chips.appendChild(chip);
+      document.getElementById('finBoard').addEventListener('click', function(){ document.getElementById('keuangan').scrollIntoView({behavior:'smooth'}); });
+    })();
+
+    // search chip input
+    (function(){
+      var s = document.createElement('div'); s.className='search';
+      s.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.8-3.8"/></svg><input id="searchInput" type="search" placeholder="Cari asisten…" aria-label="Cari asisten">';
+      chips.parentNode.insertBefore(s, chips.nextSibling);
+      // actually place inside toolbar: move into chips container end
+      chips.appendChild(s);
+      s.querySelector('input').addEventListener('input', function(e){
+        var q = e.target.value.toLowerCase();
+        document.querySelectorAll('.rrow').forEach(function(r){
+          r.classList.toggle('hide', q && r.getAttribute('data-name').indexOf(q) === -1);
+        });
+        if (q) document.getElementById('roster').scrollIntoView({behavior:'smooth', block:'start'});
+      });
+    })();
+
+    document.getElementById('statWorking').textContent = workingCount;
+
+    // Manager char face
+    document.getElementById('mgrChar').innerHTML = charHTML();
+    document.getElementById('mgrBtn').addEventListener('click', function(){
+      openSheet({ name:'Koordinator (Kamu)', job:'Mengawasi seluruh 79 asisten: memberi perintah, memeriksa hasil produksi, dan memutuskan langkah berikutnya untuk semua project.', label:'Selalu siaga', t:null, iv:null, _status:'work', _dept:'manager' }, 'manager', document.getElementById('mgrChar'));
+    });
+
+    /* ============ Panel detail ============ */
+    var sheet = document.getElementById('sheet'), scrim = document.getElementById('scrim');
+    function openSheet(a, dept, charEl){
+      document.getElementById('sheetName').textContent = a.g ? (a.name + ' — nama belum dirinci') : a.name;
+      document.getElementById('sheetDept').textContent = dept === 'manager' ? 'Ruang Manager' : ('Departemen ' + (DEPT_NAME[dept] || dept));
+      var st = a._status || statusOf(a, wibNow());
+      var col = st==='work' ? 'var(--green)' : st==='soon' ? 'var(--amber)' : '#b9b2a0';
+      document.getElementById('sheetStatus').innerHTML = '<span style="width:10px;height:10px;border-radius:50%;background:' + col + ';display:inline-block"></span>' + statusText(st);
+      document.getElementById('sheetSched').textContent = schedText(a);
+      document.getElementById('sheetNext').textContent = nextRun(a, wibNow());
+      document.getElementById('sheetJob').textContent = a.job;
+      var av = document.getElementById('sheetAvatar');
+      av.innerHTML = '<span class="char seated typing" style="margin:0">' + (charEl ? charEl.innerHTML : charHTML()) + '</span>';
+      sheet.classList.add('on'); scrim.classList.add('on'); sheet.setAttribute('aria-hidden','false');
+    }
+    function closeSheet(){ sheet.classList.remove('on'); scrim.classList.remove('on'); sheet.setAttribute('aria-hidden','true'); }
+    document.getElementById('sheetClose').addEventListener('click', closeSheet);
+    scrim.addEventListener('click', closeSheet);
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeSheet(); });
+
+    /* ============ Jam live WIB ============ */
+    function tickClock(){
+      var now = new Date();
+      document.getElementById('clock').textContent = new Intl.DateTimeFormat('id-ID',{timeZone:'Asia/Jakarta',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(now).replace(/\./g,':');
+      document.getElementById('dateLine').textContent = new Intl.DateTimeFormat('id-ID',{timeZone:'Asia/Jakarta',weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(now);
+    }
+    tickClock(); setInterval(tickClock, 1000);
+
+    /* ============ Animasi jalan ============ */
+    var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function walkLoop(item){
+      if (reduced) return;
+      var room = item.room, el = item.el;
+      var rw0 = room.clientWidth, rh0 = room.clientHeight;
+      el._pos = { x: rw0/2, y: Math.max(46, rh0 - 54) };
+      el.style.transform = 'translate(' + el._pos.x + 'px,' + el._pos.y + 'px)';
+      function step(){
+        var rw = room.clientWidth, rh = room.clientHeight;
+        var x = 14 + Math.random() * Math.max(20, rw - 60);
+        var y = 44 + Math.random() * Math.max(20, rh - 100);
+        var cur = el._pos || { x: rw/2, y: rh - 52 };
+        var dx = x - cur.x, dy = y - cur.y;
+        var dist = Math.sqrt(dx*dx + dy*dy);
+        var dur = Math.max(900, dist * 14);
+        el.classList.add('moving'); el.classList.remove('idle-stand');
+        el.querySelector('.char').classList.toggle('flip', dx < 0);
+        el.style.transition = 'transform ' + dur + 'ms linear';
+        el.style.transform = 'translate(' + x + 'px,' + y + 'px)';
+        el._pos = { x: x, y: y };
+        setTimeout(function(){
+          el.classList.remove('moving'); el.classList.add('idle-stand');
+          setTimeout(step, 1200 + Math.random() * 3200);
+        }, dur);
+      }
+      setTimeout(step, Math.random() * 1500);
+    }
+    allChars.forEach(function(c){ if (c.kind === 'walker') walkLoop(c); });
+
+    /* Pembawa kopi: mondar-mandir di koridor menuju lounge */
+    (function(){
+      if (reduced) return;
+      var floor = document.getElementById('floor'), hall = document.getElementById('hallway');
+      var a = { name:'asisten-kopi', job:'Kurir internal kantor: mengantar kopi dari pantry ke lounge dan ke meja-meja yang lagi lembur produksi.', label:'Keliling kantor', _status:'work', _dept:'lainnya' };
+      var el = mkWalker(a, 'lainnya', 'work', true);
+      el.querySelector('.sdot').className = 'sdot soon';
+      el.querySelector('.sdot').style.top = '-4px'; el.querySelector('.sdot').style.right = '-2px';
+      el.classList.add('coffee-walker');
+      floor.appendChild(el);
+      // posisi awal langsung di ujung kanan koridor (hindari kedipan di pojok lantai)
+      (function(){
+        var fr0 = floor.getBoundingClientRect(), hr0 = hall.getBoundingClientRect();
+        var x0 = (hr0.right - fr0.left) - 52, y0 = (hr0.top - fr0.top) + 1;
+        el._pos = { x: x0, y: y0 };
+        el.style.transform = 'translate(' + x0 + 'px,' + y0 + 'px)';
+      })();
+      var goLeft = true;
+      function leg(){
+        var fr = floor.getBoundingClientRect(), hr = hall.getBoundingClientRect();
+        var y = (hr.top - fr.top) + 1;
+        var x = goLeft ? (hr.left - fr.left) + 16 : (hr.right - fr.left) - 52;
+        var cur = el._pos || { x: x, y: y };
+        var dist = Math.abs(x - cur.x);
+        el.classList.add('moving'); el.classList.remove('idle-stand');
+        el.querySelector('.char').classList.toggle('flip', x < cur.x);
+        el.style.transition = 'transform ' + Math.max(1500, dist * 9) + 'ms linear';
+        el.style.transform = 'translate(' + x + 'px,' + y + 'px)';
+        el._pos = { x: x, y: y };
+        setTimeout(function(){
+          el.classList.remove('moving'); el.classList.add('idle-stand');
+          goLeft = !goLeft;
+          setTimeout(leg, 2600 + Math.random() * 2000);
+        }, Math.max(1500, dist * 9));
+      }
+      setTimeout(leg, 800);
+    })();
+
+    /* ============ Bubble chat acak ============ */
+    if (!reduced){
+      setInterval(function(){
+        var pool = allChars.filter(function(c){ return c.kind === 'desk' || c.kind === 'walker'; });
+        if (!pool.length) return;
+        var c = pool[Math.floor(Math.random() * pool.length)];
+        var bub = c.el.querySelector('.bubble');
+        if (!bub) return;
+        var phrases = PHRASES[c.dept] || PHRASES.lainnya;
+        bub.textContent = phrases[Math.floor(Math.random() * phrases.length)];
+        bub.classList.add('show');
+        setTimeout(function(){ bub.classList.remove('show'); }, 2400);
+      }, 3400);
+    }
+    </script>
+  </body>
+</html>
