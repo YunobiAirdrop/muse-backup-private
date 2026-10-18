@@ -64,7 +64,7 @@ def build_ass(sid, beats, b0, b1, starts, durs, ss):
              "BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, "
              "MarginL, MarginR, MarginV, Encoding",
              "Style: Default,DejaVu Sans,44,&H00FFFFFF,&H00000000,&H80000000,"
-             "0,0,1,2,0,2,20,20,110,1",
+             "0,0,1,2,0,2,20,20,380,1",
              "", "[Events]",
              "Format: Layer, Start, End, Style, Text"]
     for x in beats:
@@ -117,7 +117,8 @@ def main():
         cta_start = max(0.0, dur_s - 3.0)
         filters = ["crop=406:720:(in_w-406)/2:0", "scale=720:1280:flags=lanczos",
                    f"subtitles={ass}"]
-        # overlay momen kunci (waktu relatif thd awal short)
+        # overlay momen kunci: tutupi overlay bawaan (drawbox) + tulis ulang
+        # di posisi bersih agar tidak tabrakan dengan subtitle ASS
         for n in range(b0, b1 + 1):
             if n in overlays:
                 of = f"/tmp/short-he18-ovl-{sid}-{n}.txt"
@@ -125,9 +126,12 @@ def main():
                 os_ = start[n] - ss
                 oe = os_ + float(d[f"beat-{n:03d}"]) * 0.55
                 filters.append(
-                    f"drawtext=fontfile={FONT}:textfile={of}:fontsize=44:"
+                    f"drawbox=x=0:y=930:w=720:h=170:color=black:t=fill:"
+                    f"enable='between(t,{os_:.2f},{oe:.2f})'")
+                filters.append(
+                    f"drawtext=fontfile={FONT}:textfile={of}:fontsize=64:"
                     "fontcolor=white:borderw=2:bordercolor=black@0.8:"
-                    "x=(w-text_w)/2:y=h-430:box=1:boxcolor=black@0.55:boxborderw=20:"
+                    f"x=(w-text_w)/2:y=h-267:"
                     f"enable='between(t,{os_:.2f},{oe:.2f})'")
         filters.append(
             f"drawtext=fontfile={FONT}:textfile={hook_file}:fontsize=48:"
@@ -137,7 +141,7 @@ def main():
         filters.append(
             f"drawtext=fontfile={FONT}:textfile={cta_file}:fontsize=52:"
             "fontcolor=#ffd97a:borderw=2:bordercolor=black@0.8:"
-            "x=(w-text_w)/2:y=h-330:box=1:boxcolor=black@0.6:boxborderw=20:"
+            "x=(w-text_w)/2:y=h-150:box=1:boxcolor=black@0.6:boxborderw=20:"
             f"enable='between(t,{cta_start:.2f},{dur_s:.2f})'")
         vf = ",".join(filters)
         subprocess.run([FFQ, "-y", "-ss", ts(ss), "-i", VIDEO,

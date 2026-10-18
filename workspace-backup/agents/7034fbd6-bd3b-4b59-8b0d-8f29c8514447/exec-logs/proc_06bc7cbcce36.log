@@ -1,0 +1,31 @@
+### CHECK slug=inktime instruksi=/home/hatch/workspace/youtube-otomatis/inktime/meta/instruksi-2026-10-09-long.txt
+{"duplikat": false, "video_id": null, "judul_live": null, "dicek": 11}
+EXIT=0
+### CHECK slug=inktime instruksi=/home/hatch/workspace/youtube-otomatis/inktime/meta/instruksi-2026-10-13-long.txt
+{"duplikat": false, "video_id": null, "judul_live": null, "dicek": 11}
+EXIT=0
+### CHECK slug=inktime instruksi=/home/hatch/workspace/youtube-otomatis/inktime/meta/instruksi-2026-10-14-shorts.txt
+{"error": "judul tidak ditemukan"}
+EXIT=2
+### CHECK slug=inktime instruksi=/home/hatch/workspace/youtube-otomatis/inktime/meta/instruksi-2026-10-14-shorts.txt
+{"error": "judul tidak ditemukan"}
+EXIT=2
+### CHECK slug=inktime instruksi=/home/hatch/workspace/youtube-otomatis/inktime/meta/instruksi-2026-10-14-shorts.txt
+{"error": "judul tidak ditemukan"}
+EXIT=2
+### CHECK slug=mystery-en instruksi=/home/hatch/workspace/youtube-otomatis/mystery-en/upload-instruksi-2026-10-13.md
+{"duplikat": false, "video_id": null, "judul_live": null, "dicek": 5}
+EXIT=0
+### CHECK slug=macam-macam instruksi=/home/hatch/workspace/macam-macam/output/upload-instruksi-truk-kartun-2026-10-12.md
+{"duplikat": false, "video_id": null, "judul_live": null, "dicek": 7}
+EXIT=0
+### MACAM-MACAM with --judul (no instruksi_path)
+### CHECK judul=Macam-macam Jenis Hewan (Part 1) #shorts #viral #hewan #foryou
+{"duplikat": false, "video_id": null, "judul_live": null, "dicek": 7}
+EXIT=0
+### CHECK judul=Macam-macam Jenis Mobil (Part 1) #shorts #viral #mobil #foryou
+{"duplikat": false, "video_id": null, "judul_live": null, "dicek": 7}
+EXIT=0
+### CHECK judul=Macam-macam Jenis Motor (Part 1) #shorts #viral #motor #foryou
+{"duplikat": false, "video_id": null, "judul_live": null, "dicek": 7}
+EXIT=0
