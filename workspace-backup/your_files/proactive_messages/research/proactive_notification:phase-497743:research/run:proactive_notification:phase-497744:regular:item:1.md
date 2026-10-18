@@ -17,3 +17,9 @@ Prepared: ⁨2026-10-13T07:27:27Z⁩.
 Kenapa penting: runtime menampilkan peringatan "storage lebih dari 90% penuh" di chat (source:26). Saya verifikasi langsung: /home/hatch 91% terpakai (100G, sisa 9,4G) per 2026-10-13 14:24 WIB. Render video butuh ruang kerja GB-an, jadi ini risiko nyata untuk produksi sore ini.
 
 Selected for regular priority at ⁨2026-10-13T08:29:57.722271+00:00⁩. Record created ⁨2026-10-18T07:06:10.965938076+00:00⁩; delivery is not yet confirmed.
+
+
+**Delivery outcome (⁨2026-10-18T07:06:17.102139+00:00⁩):** Not sent. Queue state: `⁨suppressed⁩`.
+Reason: `⁨revalidation_declined⁩`.
+`⁨agent.message_mailbox.submission_id=48543a33-dd71-d435-bad9-fe92015ff485⁩` resolves the delivery transcript.
+<!-- proactive-outcome:proactive_notifier:run:proactive_notification:phase-497744:regular -->

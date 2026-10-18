@@ -1,0 +1,349 @@
+{
+ "batch1": [
+  {
+   "num": 1,
+   "tts": "There's a cheese in Italy... that is still ALIVE when you eat it.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, a wheel of rustic italian cheese with cute cartoon maggots wiggling on top, dramatic lighting"
+  },
+  {
+   "num": 2,
+   "tts": "And if you don't shield your eyes... the maggots jump straight at your face.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, cartoon maggots leaping through the air toward the viewer, person shielding eyes with hand",
+   "overlay": "MAGGOTS JUMP AT YOUR FACE"
+  },
+  {
+   "num": 3,
+   "tts": "Wait, WHAT?! Yeah — this is one hundred percent real. And it's only number SEVEN on today's list.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, shocked cartoon narrator with wide eyes and open mouth, question marks floating"
+  },
+  {
+   "num": 4,
+   "tts": "Today I'm ranking the seven WEIRDEST foods on planet Earth... from gross... to literally ILLEGAL.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, globe surrounded by seven mysterious covered dishes with question marks"
+  },
+  {
+   "num": 5,
+   "tts": "Every dish gets a Weirdness Score out of ten. And number one? It made me question humanity itself.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, scoreboard showing numbers 1 to 10 with a golden trophy on top"
+  },
+  {
+   "num": 6,
+   "tts": "I had to read that twice, I swear. Okay — let's do this!",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, excited cartoon host pointing at viewer, confetti"
+  },
+  {
+   "num": 7,
+   "tts": "One rule before we start: everything on this list is REAL. People actually eat this. Voluntarily.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, stamp saying REAL in red over a dinner plate, serious tone illustration"
+  },
+  {
+   "num": 8,
+   "tts": "Number seven: the Century Egg. From China. It looks like it rotted for a hundred years.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, black preserved egg cut open showing dark jelly white and greenish yolk on a plate"
+  },
+  {
+   "num": 9,
+   "tts": "It's a duck egg buried in clay, ash, and salt for weeks... until the white turns into dark jelly.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, duck eggs being packed in clay and ash by hands, traditional chinese setting"
+  },
+  {
+   "num": 10,
+   "tts": "The yolk goes creamy and greenish. It smells like strong cheese mixed with... a chemistry lab.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, close-up of century egg cross-section with green swirls, wavy smell lines"
+  },
+  {
+   "num": 11,
+   "tts": "The patterns on the white look like pine branches. Chefs actually call it the pine-patterned egg. Fancy!",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, century egg white with beautiful pine-branch crystal patterns, elegant plating"
+  },
+  {
+   "num": 12,
+   "tts": "First-timers swear it's rotten. It's not — it's totally safe. Just deeply, deeply suspicious looking.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, nervous cartoon tourist poking a black egg with a fork, sweating"
+  }
+ ],
+ "batch2": [
+  {
+   "num": 13,
+   "tts": "Honestly? This is the TAMER one today. Weirdness Score: six out of ten. We go UP from here.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, scoreboard showing 6 out of 10 with a small egg icon"
+  },
+  {
+   "num": 14,
+   "tts": "Number six: Balut. A street food superstar in the Philippines.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, bustling filipino night market stall with steaming pots, vendor smiling"
+  },
+  {
+   "num": 15,
+   "tts": "It's a fertilized duck egg — boiled and eaten when the duckling inside is partway developed.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, balut egg cracked open showing developed duck embryo inside, steam rising"
+  },
+  {
+   "num": 16,
+   "tts": "You crack the top, sip the warm broth, then eat the whole thing. Yes. The whole thing.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, hands cracking open a balut egg over a small cup, street food style"
+  },
+  {
+   "num": 17,
+   "tts": "Locals LOVE it. They say it's rich, savory, and packed with protein. Tourists? They usually cry first.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, happy local eating balut next to a crying cartoon tourist, split screen"
+  },
+  {
+   "num": 18,
+   "tts": "Rumor says it boosts your energy on... date nights. Let's just leave it at that.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, winking cartoon duck with hearts, playful romantic lighting"
+  },
+  {
+   "num": 19,
+   "tts": "Would I try it? ...Maybe. With my eyes closed. Weirdness Score: seven out of ten.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, scoreboard showing 7 out of 10, cartoon host peeking with one eye closed"
+  },
+  {
+   "num": 20,
+   "tts": "Number five: Escamoles. From Mexico. Also known as... insect caviar.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, mexican tacos filled with pale ant larvae, rustic wooden table"
+  },
+  {
+   "num": 21,
+   "tts": "These are the larvae of giant black ants, scooped from the roots of agave plants.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, giant black ants on agave plant roots underground, larvae visible"
+  },
+  {
+   "num": 22,
+   "tts": "They're sautéed in butter with onions and served in tacos. They taste nutty, like a weird popcorn.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, larvae sizzling in a frying pan with butter and onions, chef tossing"
+  },
+  {
+   "num": 23,
+   "tts": "Harvesting them is brutal — the ants bite HARD. That's exactly why they're so expensive.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, person's hand being bitten by big black ants while collecting larvae, dramatic"
+  },
+  {
+   "num": 24,
+   "tts": "Ancient Aztecs served them to royalty. Royalty ate BUG BABIES, people. Let that sink in.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, aztec emperor on throne being served a golden plate of larvae, pyramids behind"
+  }
+ ],
+ "batch3": [
+  {
+   "num": 25,
+   "tts": "Nope. I draw the line there. Weirdness Score: seven and a half out of ten.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, scoreboard showing 7.5 out of 10, host making an X with arms"
+  },
+  {
+   "num": 26,
+   "tts": "Quick break — if your stomach is still with me, smash that subscribe button. It gets SO much worse.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, cartoon stomach character giving thumbs up, subscribe button glowing"
+  },
+  {
+   "num": 27,
+   "tts": "Number four: Kopi Luwak. The most expensive coffee on Earth. Made from... poop.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, luxurious cup of coffee next to a pile of coffee beans, dollar signs floating",
+   "overlay": "POOP COFFEE"
+  },
+  {
+   "num": 28,
+   "tts": "In Indonesia, a cat-like animal called the civet eats ripe coffee cherries... and poops out the beans.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, cute civet cat eating red coffee cherries in indonesian jungle"
+  },
+  {
+   "num": 29,
+   "tts": "Farmers collect the beans from the droppings, wash them, roast them — and sell them for hundreds of dollars per kilo.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, hands washing coffee beans in water, then roasting them in a pan"
+  },
+  {
+   "num": 30,
+   "tts": "Fans say digestion makes it smoother and less bitter. Critics say you're just drinking... expensive poop.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, split screen: happy coffee drinker versus disgusted critic, same cup"
+  },
+  {
+   "num": 31,
+   "tts": "The ugly truth? Most kopi luwak today comes from caged civets in rough conditions. So it's weird AND sad.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, sad civet in a small cage looking at camera, somber mood"
+  },
+  {
+   "num": 32,
+   "tts": "Wild-sourced is rare and costs even more. Your wallet suffers either way.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, empty wallet with moths flying out next to a coffee cup"
+  },
+  {
+   "num": 33,
+   "tts": "Weirdness Score: eight out of ten. Paying six hundred dollars for poop coffee is a CHOICE.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, scoreboard showing 8 out of 10, price tag reading 600 dollars"
+  },
+  {
+   "num": 34,
+   "tts": "Number three: Hakarl. Iceland's legendary fermented shark.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, icelandic landscape with northern lights, cubes of fermented shark on a plate"
+  },
+  {
+   "num": 35,
+   "tts": "Greenland shark meat is actually POISONOUS when fresh. So Icelanders bury it for months to ferment it.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, shark meat buried in a gravel pit underground, cross-section view"
+  },
+  {
+   "num": 36,
+   "tts": "The fermentation takes six to twelve WEEKS in gravel pits. That's patience... or madness.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, calendar pages flipping rapidly over a buried pit, snow falling"
+  }
+ ],
+ "batch4": [
+  {
+   "num": 37,
+   "tts": "The result smells like ammonia. Like a public toilet... mixed with cleaning fluid.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, person pinching nose hard, green stink waves rising from shark cubes"
+  },
+  {
+   "num": 38,
+   "tts": "Even Anthony Bourdain — the toughest food guy ever — called it the single worst thing he ever ate.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, tough chef character spitting out food dramatically, worst ever stamp"
+  },
+  {
+   "num": 39,
+   "tts": "Icelanders eat it at festivals and chase it with strong liquor. You NEED the liquor. Trust me.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, viking-style festival with people eating shark cubes and drinking, cheering"
+  },
+  {
+   "num": 40,
+   "tts": "Weirdness Score: nine out of ten. Poison shark that you must ROT before eating. Incredible.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, scoreboard showing 9 out of 10 with a shark icon"
+  },
+  {
+   "num": 41,
+   "tts": "Number two: Surstromming. Fermented herring from Sweden. The smelliest food on Earth. Scientifically.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, swedish red cabin by a lake, bulging tin cans of fermented herring on a table"
+  },
+  {
+   "num": 42,
+   "tts": "They ferment the fish in cans for months. The cans literally BULGE from the gas building up inside.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, metal can bulging and swelling with pressure, about to burst"
+  },
+  {
+   "num": 43,
+   "tts": "One study measured it as one of the most putrid food odors ever recorded. Science said so.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, scientist in lab coat holding a smell meter showing maximum, fish can open"
+  },
+  {
+   "num": 44,
+   "tts": "Open one indoors and the smell can clear a whole building. It's been BANNED on airplanes.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, airplane with a red prohibition sign over a fish can, passengers fleeing",
+   "overlay": "BANNED ON AIRPLANES"
+  },
+  {
+   "num": 45,
+   "tts": "Banned. On airplanes. Let that sink in. Your lunch is legally a biohazard at thirty thousand feet.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, fish can wearing a tiny biohazard suit, clouds and airplane window behind"
+  },
+  {
+   "num": 46,
+   "tts": "Brave Swedes eat it outdoors with flatbread, potatoes, and onions — always in August, always upwind.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, swedes eating fermented herring outdoors on a picnic, wind blowing away from them"
+  },
+  {
+   "num": 47,
+   "tts": "Weirdness Score: nine and a half out of ten. Half a point from perfect. Which brings us to...",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, scoreboard showing 9.5 out of 10, drumroll illustration"
+  },
+  {
+   "num": 48,
+   "tts": "NUMBER ONE. The undisputed champion of weird food. Casu Marzu.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, golden trophy shaped like a cheese wheel with a crown, confetti explosion"
+  }
+ ],
+ "batch5": [
+  {
+   "num": 49,
+   "tts": "From the island of Sardinia, Italy. The name literally means... rotten cheese.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, map of sardinia island with a cheese wheel marked, italian flag colors"
+  },
+  {
+   "num": 50,
+   "tts": "It starts as normal sheep's milk cheese. Then they introduce cheese fly larvae. Thousands of them.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, sheep in green pasture next to cheese wheels, tiny flies swarming"
+  },
+  {
+   "num": 51,
+   "tts": "The maggots digest the cheese from the inside, breaking down the fats until it turns soft and gooey.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, cross-section of cheese with cartoon maggots munching tunnels inside"
+  },
+  {
+   "num": 52,
+   "tts": "When served, the maggots are still alive. Wriggling. In your food. Right now.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, plate of soft cheese with live wiggling maggots, extreme close-up"
+  },
+  {
+   "num": 53,
+   "tts": "Some say the maggots MUST be alive when you eat it — dead maggots mean the cheese has gone bad.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, cartoon maggot with a heartbeat line, alive stamp versus skull for dead"
+  },
+  {
+   "num": 54,
+   "tts": "Disturb them and they launch up to six inches into the air. That's why you shield your eyes.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, maggots launching like rockets from cheese, ruler showing six inches"
+  },
+  {
+   "num": 55,
+   "tts": "The European Union officially BANNED it as a health hazard. Sardinians eat it at weddings anyway.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, european union flag with a ban sign over cheese, wedding couple eating it happily"
+  },
+  {
+   "num": 56,
+   "tts": "At WEDDINGS, people! This is celebration food! I cannot make this up!",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, wedding table with a cheese tower centerpiece, guests cheering"
+  },
+  {
+   "num": 57,
+   "tts": "There is nothing weirder you can legally — well, ILLEGALLY — put in your mouth.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, cartoon mouth about to eat cheese with maggots, police tape around"
+  },
+  {
+   "num": 58,
+   "tts": "Weirdness Score: a perfect TEN out of ten. Casu Marzu is the weirdest food on planet Earth.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, scoreboard exploding at 10 out of 10, champion cheese with crown",
+   "overlay": "10/10 WEIRDNESS CHAMPION"
+  },
+  {
+   "num": 59,
+   "tts": "So there it is — the final ranking. Seven foods, seven levels of why does this exist.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, podium with seven foods ranked from 7th to 1st place"
+  },
+  {
+   "num": 60,
+   "tts": "Quick recap: century egg at six... balut at seven... escamoles at seven and a half...",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, scoreboard recap showing first three scores with food icons"
+  }
+ ],
+ "batch6": [
+  {
+   "num": 61,
+   "tts": "Kopi luwak at eight... poison shark at nine... airplane-banned herring at nine and a half...",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, scoreboard recap showing next three scores with food icons"
+  },
+  {
+   "num": 62,
+   "tts": "And the maggot cheese champion at a perfect ten.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, champion cheese wheel with golden 10 on podium top"
+  },
+  {
+   "num": 63,
+   "tts": "Now tell me in the comments: which one would YOU actually try? Be honest.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, comment section illustration with question, viewers typing"
+  },
+  {
+   "num": 64,
+   "tts": "Me? I'd try the century egg. The rest can stay in their countries. Far, far away from me.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, cartoon host pushing away plates of weird foods, century egg kept close"
+  },
+  {
+   "num": 65,
+   "tts": "If this video broke your brain a little, subscribe to Weird World Daily — I find this stuff so you don't have to eat it.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, subscribe button with bell, host winking, weird foods in background",
+   "overlay": "SUBSCRIBE!"
+  },
+  {
+   "num": 66,
+   "tts": "New weird facts every single day. See you tomorrow — and maybe skip lunch today.",
+   "img": "storybook 2D illustration, colorful, fun, expressive, 16:9, calendar with daily weird fact icons, host waving goodbye"
+  }
+ ]
+}

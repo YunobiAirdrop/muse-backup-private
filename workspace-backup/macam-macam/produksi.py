@@ -362,12 +362,10 @@ def main():
                    check=True)
     final_m.replace(final)
 
-    # --- 6. Metadata (aturan hashtag user 2026-10-12: min 3, ditutup #foryou)
-    NICHE_TAG = {"truk": "truk", "hewan": "hewan", "mobil": "mobil",
-                 "motor": "motor", "pesawat": "pesawat", "kapal": "kapal",
-                 "buah": "buah", "dinosaurus": "dinosaurus",
-                 "alat-musik": "alatmusik"}.get(slug, tema["judul"].lower().replace(" ", ""))
-    tag_set = f"#shorts #viral #{NICHE_TAG} #foryou"
+    # --- 6. Metadata (aturan hashtag user 2026-10-18: 5 hashtag WAJIB =
+    # #butifyourcloseyoureyesmeme + 3 hashtag trending bervolume terbesar dari
+    # paket protokol-viral.md bag.14 + #foryou sebagai penutup)
+    tag_set = "#butifyourcloseyoureyesmeme #shorts #viral #fyp #foryou"
     judul = f"Macam-macam Jenis {tema['judul']} (Part {part}) {tag_set}"
     kredit_teks = "\n".join(f"- {it['nama']}: {it.get('kredit','Pexels')}" for it in items)
     sumber = "Pexels" if any("/ Pexels" in it.get("kredit", "") for it in items) else "Wikimedia Commons"

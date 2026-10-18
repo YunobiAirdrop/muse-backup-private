@@ -279,7 +279,7 @@
       "id": "dogeos",
       "name": "DogeOS Chikyū",
       "chain": "DogeOS Chikyū Testnet (Chain ID 6281971, EVM)",
-      "status": "queued",
+      "status": "faucet claimed 2026-10-18, farming aktif",
       "token_confirmed": false,
       "raised": "$6.9M dipimpin Polychain Capital (tim MyDoge)",
       "source": "Riset manual 2026-10-18 (permintaan user)",
@@ -299,7 +299,7 @@
         "Kumpulkan Loyalty Points + XP/medali/tiket"
       ],
       "frequency": "daily",
-      "notes": "Public testnet dibuka 30 Sep 2026. Gas = test DOGE dari faucet resmi — tidak butuh Sepolia ETH, tanpa syarat saldo mainnet. Token belum diumumkan."
+      "notes": "Public testnet dibuka 30 Sep 2026. Faucet 2026-10-18: 42.069 test DOGE masuk (TX 0xc2df21e1...). 5 TX on-chain terkirim & sukses 2026-10-18 15:3x WIB (self-transfer, gas ~0.0000016 DOGE). NEXT: quest platform quest.dogeos.com butuh connect wallet manual (browser tidak bisa inject); kontrak dApp (Moar Finance) belum terverifikasi — jangan tebak address."
     },
     {
       "id": "asentum",

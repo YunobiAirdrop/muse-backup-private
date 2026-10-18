@@ -16,7 +16,7 @@
 4. Pasang judul + deskripsi + thumbnail di bawah ini selagi Unlisted.
 5. Upload thumbnail A & B via **Test & Compare**.
 6. Aktifkan **auto-dubbing multi-bahasa** (Studio > Subtitle > Audio) untuk long ini.
-7. Setelah metadata final → ubah ke **Terjadwal**: 2026-10-17 07:00 WIB (= 19:00 US Eastern).
+7. Setelah metadata final → ubah ke **Terjadwal**: 2026-10-19 07:00 WIB (= 19:00 US Eastern, 18 Okt).
    (Slot boleh digeser watchdog ke slot kosong terdekat bila sudah terisi.)
 
 ## Judul
@@ -44,7 +44,7 @@ What do YOU think — a real haunting, or a mother's brilliant plan for justice?
 
 If you love unsolved mysteries, subscribe to Unsolved Shadows — new cases every week.
 
-#foryou #mystery #unsolved #ghosts #truecrime
+#butifyourcloseyoureyesmeme #mystery #unsolved #truecrime #foryou
 
 ---
 *This video uses AI-generated illustrations and voiceover for storytelling purposes.*
@@ -56,10 +56,10 @@ If you love unsolved mysteries, subscribe to Unsolved Shadows — new cases ever
 
 ## 3 Shorts (bank — dipotong dari long ini saat assembly selesai)
 - `shorts/2026-10-14-s1.mp4`, `s2.mp4`, `s3.mp4` — untuk hari SHORTS berikutnya.
-- Judul shorts (hashtag di AKHIR, ditutup #foryou), contoh:
-  - "Her Ghost Turned Her Head All the Way Around #shorts #mystery #ghosts #foryou"
-  - "The Autopsy Proved the Ghost Right #shorts #unsolved #truecrime #foryou"
-  - "Guilty — Because a Ghost Testified #shorts #mystery #unsolved #foryou"
+- Judul shorts (5 hashtag, di AKHIR judul, ditutup #foryou, #butifyourcloseyoureyesmeme wajib):
+  - "Her Ghost Turned Her Head All the Way Around #butifyourcloseyoureyesmeme #shorts #mystery #ghosts #foryou"
+  - "The Autopsy Proved the Ghost Right #butifyourcloseyoureyesmeme #shorts #unsolved #truecrime #foryou"
+  - "Guilty — Because a Ghost Testified #butifyourcloseyoureyesmeme #shorts #mystery #unsolved #foryou"
 - Deskripsi shorts: English, tanpa hashtag, + opini narator + link video long.
 
 ## Jika kena "Batas upload harian telah tercapai"
