@@ -1,16 +1,16 @@
 {
-  "version": "1792298070781-e5645a83ebd243b9bd38efc7982f25ec",
-  "captured_at_ms": 1792298070781,
+  "version": "1792300761559-f5aa74c8405544f49a284ffdfcb7a9be",
+  "captured_at_ms": 1792300761559,
   "capture_source": "build_audit_frame",
-  "source_image": ".previews/1792298070781-e5645a83ebd243b9bd38efc7982f25ec/space-source.png",
+  "source_image": ".previews/1792300761559-f5aa74c8405544f49a284ffdfcb7a9be/space-source.png",
   "thumbnail": {
-    "path": ".previews/1792298070781-e5645a83ebd243b9bd38efc7982f25ec/space-thumbnail_360x360.webp",
+    "path": ".previews/1792300761559-f5aa74c8405544f49a284ffdfcb7a9be/space-thumbnail_360x360.webp",
     "width_px": 360,
     "height_px": 360,
     "content_type": "image/webp"
   },
   "preview_card": {
-    "path": ".previews/1792298070781-e5645a83ebd243b9bd38efc7982f25ec/space-preview-card_640x400.webp",
+    "path": ".previews/1792300761559-f5aa74c8405544f49a284ffdfcb7a9be/space-preview-card_640x400.webp",
     "width_px": 640,
     "height_px": 400,
     "content_type": "image/webp"

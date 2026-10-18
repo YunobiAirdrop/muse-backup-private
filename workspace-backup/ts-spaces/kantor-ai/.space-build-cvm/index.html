@@ -16,14 +16,14 @@
         --wood:#b98a5e; --wood-d:#9a6f45; --desk-top:#c99e6f;
         --green:#1d9e62; --green-soft:#d9f2e4; --amber:#d9930d; --amber-soft:#fbeed3;
         --red:#d64545; --red-soft:#fbe0e0; --blue:#2f6fb2; --blue-soft:#dfeaf6;
-        --teal:#0f766e; --shadow:0 10px 30px rgba(60,48,20,.14);
+        --teal:#0f766e; --chair:#a79b82; --shadow:0 10px 30px rgba(60,48,20,.14);
         --r-lg:18px; --r-md:12px;
         --tint-yt:#fdeeda; --tint-blog:#e6f2e4; --tint-tt:#e3eefb; --tint-air:#efe6fb; --tint-mon:#e2f0ee; --tint-lain:#f3ead9; --tint-fin:#fdf3d7; --tint-lounge:#fbe9dd; --tint-mgr:#ece5d8;
       }
       @media (prefers-color-scheme: dark){
         :root{
           --bg:#141519; --panel:#1e2026; --panel2:#26282f; --ink:#ece9e2; --ink2:#b6b1a4; --ink3:#7e7a6e;
-          --line:#33353d; --wall:#3d3a33; --floor:#22232a; --floor-line:#2b2c33;
+          --line:#33353d; --wall:#3d3a33; --floor:#22232a; --floor-line:#2b2c33; --chair:#4b4d55;
           --wood:#8a6742; --wood-d:#6f5133; --desk-top:#7d5c39;
           --green-soft:#173d2a; --amber-soft:#40330f; --red-soft:#402020; --blue-soft:#1d2f45;
           --shadow:0 10px 30px rgba(0,0,0,.45);
@@ -105,45 +105,47 @@
       .sdot.idle{background:#b9b2a0}
       .sdot.soon{background:var(--amber)}
 
-      /* ===== Character ===== */
-      .char{position:relative;display:block;margin:-9px auto 0;width:26px;height:32px;z-index:4}
-      .c-head{position:absolute;top:0;left:50%;transform:translateX(-50%);width:15px;height:15px;border-radius:50%;z-index:3}
-      .c-hair{position:absolute;top:-1.5px;left:-1px;right:-1px;height:8px;border-radius:9px 9px 3px 3px}
-      .c-hair.bun::after{content:"";position:absolute;top:-4px;left:50%;transform:translateX(-50%);width:7px;height:7px;border-radius:50%;background:inherit}
-      .c-hair.hijab{height:17px;border-radius:9px 9px 6px 6px;z-index:-1;left:-2.5px;right:-2.5px}
-      .c-hair.cap{height:6px;border-radius:8px 8px 0 0}
-      .c-hair.cap::after{content:"";position:absolute;bottom:-2px;left:50%;transform:translateX(-50%);width:17px;height:3.5px;border-radius:3px;background:inherit}
-      .c-body{position:absolute;top:13px;left:50%;transform:translateX(-50%);width:19px;height:14px;border-radius:6px 6px 4px 4px;z-index:2}
-      .c-arm{position:absolute;top:15px;width:5px;height:11px;border-radius:3px;z-index:1;transform-origin:top center}
-      .c-arm.l{left:1px}.c-arm.r{right:1px}
-      .seated .c-arm.l{transform:rotate(-38deg)}
-      .seated .c-arm.r{transform:rotate(38deg)}
-      .typing .c-arm.l{animation:typeL .34s ease-in-out infinite alternate}
-      .typing .c-arm.r{animation:typeR .34s ease-in-out infinite alternate-reverse}
-      .typing.fast .c-arm.l,.typing.fast .c-arm.r{animation-duration:.17s}
-      @keyframes typeL{from{transform:rotate(-30deg)}to{transform:rotate(-52deg)}}
-      @keyframes typeR{from{transform:rotate(52deg)}to{transform:rotate(30deg)}}
-      .seated{animation:bob 2.6s ease-in-out infinite}
-      @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(.8px)}}
-      .relaxed .c-arm.l{transform:rotate(-12deg)}
-      .relaxed .c-arm.r{transform:rotate(12deg)}
+      /* ===== Character rig — proporsi manusia, sendi dianimasikan prosedural via rAF ===== */
+      .rig{position:relative;display:block;width:34px;height:72px;margin:0 auto}
+      .rig-seat{height:49px}
+      .desk-unit .rig-seat{margin:-9px auto 0;z-index:4}
+      .c-shadow{position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:27px;height:7px;border-radius:50%;background:radial-gradient(ellipse at center,rgba(25,20,10,.38),rgba(25,20,10,0) 68%);z-index:0;pointer-events:none}
+      .rig-seat .c-shadow{width:30px;opacity:.65}
+      .c-flip{position:absolute;inset:0;transition:transform .22s ease}
+      .c-chair{position:absolute;top:7px;left:50%;transform:translateX(-50%);width:23px;height:24px;border-radius:9px 9px 5px 5px;background:var(--chair);z-index:0;box-shadow:inset 0 -3px 0 rgba(0,0,0,.14)}
+      .c-leg{position:absolute;top:39px;width:5.6px;height:16px;border-radius:3px;background:#3d4351;transform-origin:50% 1px;z-index:1}
+      .c-leg.l{left:9.5px}.c-leg.r{right:9.5px}
+      .c-shin{position:absolute;top:14.5px;left:.3px;width:5px;height:15px;border-radius:2.5px;background:#343a46;transform-origin:50% 1px}
+      .c-foot{position:absolute;bottom:-2px;left:-1px;width:8.6px;height:3.6px;border-radius:2px;background:#22242a}
+      .c-seatlegs{position:absolute;top:25px;left:50%;transform:translateX(-50%);width:24px;height:22px;z-index:1}
+      .c-seatlegs .thigh{position:absolute;top:0;width:6px;height:10px;border-radius:3px;background:#3d4351}
+      .c-seatlegs .thigh.l{left:2.5px;transform:rotate(16deg)}
+      .c-seatlegs .thigh.r{right:2.5px;transform:rotate(-16deg)}
+      .c-seatlegs .sshin{position:absolute;top:8.5px;width:5px;height:11px;border-radius:2.5px;background:#343a46}
+      .c-seatlegs .sshin.l{left:5px}.c-seatlegs .sshin.r{right:5px}
+      .c-seatlegs .sfoot{position:absolute;bottom:0;width:8.6px;height:3.6px;border-radius:2px;background:#22242a}
+      .c-seatlegs .sfoot.l{left:3.5px}.c-seatlegs .sfoot.r{right:3.5px}
+      .c-torso{position:absolute;top:14px;left:50%;margin-left:-8.5px;width:17px;height:27px;border-radius:7px 7px 5px 5px;transform-origin:50% 92%;z-index:2}
+      .rig-seat .c-torso{top:12px;height:19px}
+      .c-head{position:absolute;top:-11px;left:50%;margin-left:-6.25px;width:12.5px;height:12.5px;border-radius:50%;transform-origin:50% 88%;z-index:4}
+      .c-eyes{position:absolute;top:6.8px;left:50%;transform:translateX(-50%);width:7.6px;height:2px;transform-origin:center;z-index:1}
+      .c-eyes::before,.c-eyes::after{content:"";position:absolute;top:0;width:1.9px;height:1.9px;border-radius:50%;background:#26221c}
+      .c-eyes::before{left:0}.c-eyes::after{right:0}
+      .c-hair{position:absolute;top:-1px;left:-.5px;right:-.5px;height:6.5px;border-radius:8px 8px 3px 3px;z-index:2}
+      .c-hair.bun::after{content:"";position:absolute;top:-3.5px;left:50%;transform:translateX(-50%);width:6px;height:6px;border-radius:50%;background:inherit}
+      .c-hair.hijab{height:15px;border-radius:8px 8px 6px 6px;z-index:0;left:-2px;right:-2px;top:-1.5px}
+      .c-hair.cap{height:5.5px;border-radius:8px 8px 0 0}
+      .c-hair.cap::after{content:"";position:absolute;bottom:-2px;left:50%;transform:translateX(-50%);width:15px;height:3px;border-radius:3px;background:inherit}
+      .c-arm{position:absolute;top:2px;width:4.6px;height:13px;border-radius:2.6px;transform-origin:50% 1px;z-index:3}
+      .c-arm.l{left:-2.6px}.c-arm.r{right:-2.6px}
+      .rig-seat .c-arm{height:11px}
+      .c-fore{position:absolute;top:11.5px;left:.2px;width:4.2px;height:12px;border-radius:2.4px;transform-origin:50% 1px}
+      .rig-seat .c-fore{top:9.5px;height:11px}
 
       /* standing / walking character */
-      .walker{position:absolute;left:0;top:0;width:30px;background:none;border:none;padding:0;z-index:8;will-change:transform}
-      .walker .char{margin:0 auto;height:40px}
-      .walker .c-leg{position:absolute;top:26px;width:5.5px;height:12px;border-radius:3px;z-index:1;transform-origin:top center;background:#3d4351}
-      .walker .c-leg.l{left:6.5px}.walker .c-leg.r{right:6.5px}
-      .walker.moving .c-leg.l{animation:step .36s ease-in-out infinite alternate}
-      .walker.moving .c-leg.r{animation:step .36s ease-in-out infinite alternate-reverse}
-      .walker.moving .char{animation:wbob .36s ease-in-out infinite alternate}
-      @keyframes step{from{transform:rotate(24deg)}to{transform:rotate(-24deg)}}
-      @keyframes wbob{from{transform:translateY(0)}to{transform:translateY(-1.6px)}}
-      .walker .c-body{height:15px}
-      .walker.idle-stand .char{animation:sway 3s ease-in-out infinite}
-      @keyframes sway{0%,100%{transform:rotate(-1.4deg)}50%{transform:rotate(1.4deg)}}
-      .cup{position:absolute;top:17px;right:-3px;width:6px;height:8px;background:#fff;border:1.5px solid #b08954;border-radius:1.5px;z-index:5}
-      .cup::before{content:"";position:absolute;top:1.5px;left:0;right:0;height:2.5px;background:#8a5a2b}
-      .flip{transform:scaleX(-1)}
+      .walker{position:absolute;left:0;top:0;width:36px;background:none;border:none;padding:0;z-index:8;will-change:transform}
+      .cup{position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);width:6.5px;height:7.5px;background:#fff;border:1.5px solid #b08954;border-radius:1.5px;z-index:5}
+      .cup::before{content:"";position:absolute;top:1px;left:0;right:0;height:2.5px;background:#8a5a2b;border-radius:1px}
       .bubble{position:absolute;bottom:calc(100% + 4px);left:50%;transform:translateX(-50%) scale(.6);background:var(--panel);border:1.5px solid var(--line);color:var(--ink);font-size:9.5px;font-weight:700;padding:3px 8px;border-radius:10px;white-space:nowrap;opacity:0;pointer-events:none;transition:.25s;z-index:40;box-shadow:0 4px 10px rgba(0,0,0,.12)}
       .bubble::after{content:"";position:absolute;top:100%;left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:var(--line)}
       .bubble.show{opacity:1;transform:translateX(-50%) scale(1)}
@@ -152,7 +154,7 @@
       /* manager desk */
       .mgr-desk{width:118px;height:44px;margin:8px auto 0;background:var(--desk-top);border:2.5px solid var(--wood-d);border-radius:8px;position:relative;box-shadow:0 4px 0 rgba(0,0,0,.15)}
       .mgr-desk .monitor{width:30px;height:19px;top:4px}
-      .mgr-char{transform:scale(1.25);transform-origin:top center;margin-top:-12px}
+      .mgr-char{display:block;transform:scale(1.22);transform-origin:top center;margin-top:-4px}
       .lounge-items{display:flex;gap:8px;align-items:flex-end;padding:6px 4px 2px}
       .lounge-note{font-size:10.5px;color:var(--ink2);font-weight:600;line-height:1.45}
       .fin-board{display:block;width:100%;text-align:left;background:var(--panel);border:1.5px dashed var(--amber);border-radius:10px;padding:8px 10px;margin-top:8px;color:var(--ink)}
@@ -204,7 +206,7 @@
       .sheet .avatar-zone{overflow:hidden}
       .sheet.on{transform:none}
       .sheet .close{position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--panel2);color:var(--ink);font-size:16px}
-      .sheet .avatar-zone{display:flex;justify-content:center;padding:16px 0 4px;transform:scale(1.9);height:86px}
+      .sheet .avatar-zone{display:flex;justify-content:center;padding:16px 0 4px;transform:scale(1.8);height:100px}
       .sheet h3{font-family:"JetBrains Mono",monospace;font-size:17px;margin:6px 0 2px;word-break:break-all;text-align:center}
       .sheet .dept{text-align:center;color:var(--ink2);font-weight:700;font-size:12.5px;margin-bottom:16px}
       .kv{border-top:1px solid var(--line);padding:10px 2px}
@@ -263,7 +265,7 @@
             <div class="room-label"><b>MANAGER</b><span>koordinator</span></div>
             <button class="desk-unit" style="width:100%" id="mgrBtn" aria-label="Detail manager">
               <span class="mgr-desk"><span class="monitor"></span><span class="kb"></span></span>
-              <span class="char seated typing fast mgr-char" id="mgrChar"></span>
+              <span class="mgr-char" id="mgrChar"></span>
               <span class="name-tag" style="max-width:none;font-size:9.5px">Koordinator — kamu yang pegang kendali</span>
             </button>
           </div>
@@ -2010,16 +2012,119 @@ function rnd(n) {
   seed = (seed * 1103515245 + 12345) % 2147483648;
   return seed % n;
 }
-function charHTML() {
+var PANTS = ['#3d4351', '#4a4038', '#2f3e50', '#54424e', '#37474f'];
+function makeLook() {
   var skin = SKINS[rnd(SKINS.length)],
     shirt = SHIRTS[rnd(SHIRTS.length)],
     hair = HAIRS[rnd(HAIRS.length)],
     style = HAIR_STYLES[rnd(HAIR_STYLES.length)];
   if (style === 'hijab') hair = SHIRTS[rnd(SHIRTS.length)];
-  return '<span class="c-head" style="background:' + skin + '"><span class="c-hair ' + style + '" style="background:' + hair + '"></span></span>' + '<span class="c-body" style="background:' + shirt + '"></span>' + '<span class="c-arm l" style="background:' + skin + '"></span><span class="c-arm r" style="background:' + skin + '"></span>';
+  return {
+    skin: skin,
+    shirt: shirt,
+    hair: hair,
+    style: style,
+    pants: PANTS[rnd(PANTS.length)]
+  };
 }
-function standHTML(withCup) {
-  return charHTML() + '<span class="c-leg l"></span><span class="c-leg r"></span>' + (withCup ? '<span class="cup"></span>' : '');
+function rigHTML(look, mode, cup) {
+  var head = '<span class="c-head" style="background:' + look.skin + '"><span class="c-hair ' + __tunnel.getStyle(look) + '" style="background:' + look.hair + '"></span><span class="c-eyes"></span></span>';
+  var armL = '<span class="c-arm l" style="background:' + look.shirt + '"><span class="c-fore l" style="background:' + look.skin + '"></span></span>';
+  var armR = '<span class="c-arm r" style="background:' + look.shirt + '"><span class="c-fore r" style="background:' + look.skin + '">' + (cup ? '<span class="cup"></span>' : '') + '</span></span>';
+  var torso = '<span class="c-torso" style="background:' + look.shirt + '">' + head + armL + armR + '</span>';
+  if (mode === 'seat') {
+    return '<span class="c-shadow"></span><span class="c-chair"></span><span class="c-flip">' + '<span class="c-seatlegs"><span class="thigh l" style="background:' + look.pants + '"></span><span class="thigh r" style="background:' + look.pants + '"></span><span class="sshin l"></span><span class="sshin r"></span><span class="sfoot l"></span><span class="sfoot r"></span></span>' + torso + '</span>';
+  }
+  return '<span class="c-shadow"></span><span class="c-flip">' + '<span class="c-leg l" style="background:' + look.pants + '"><span class="c-shin"><span class="c-foot"></span></span></span>' + '<span class="c-leg r" style="background:' + look.pants + '"><span class="c-shin"><span class="c-foot"></span></span></span>' + torso + '</span>';
+}
+var actors = [];
+var T_NOW = 0;
+var io = 'IntersectionObserver' in window ? new IntersectionObserver(function (es) {
+  es.forEach(function (e) {
+    if (e.target._actor) e.target._actor.vis = e.isIntersecting;
+  });
+}, {
+  rootMargin: '80px'
+}) : null;
+function registerActor(ac) {
+  actors.push(ac);
+  if (ac.el) {
+    ac.el._actor = ac;
+    if (io) io.observe(ac.el);
+  }
+  return ac;
+}
+function refsOf(rig) {
+  if (!rig) return {};
+  return {
+    rig: rig,
+    flip: rig.querySelector('.c-flip'),
+    torso: rig.querySelector('.c-torso'),
+    head: rig.querySelector('.c-head'),
+    eyes: rig.querySelector('.c-eyes'),
+    armL: rig.querySelector('.c-arm.l'),
+    foreL: rig.querySelector('.c-arm.l .c-fore'),
+    armR: rig.querySelector('.c-arm.r'),
+    foreR: rig.querySelector('.c-arm.r .c-fore'),
+    legL: rig.querySelector('.c-leg.l'),
+    shinL: rig.querySelector('.c-leg.l .c-shin'),
+    legR: rig.querySelector('.c-leg.r'),
+    shinR: rig.querySelector('.c-leg.r .c-shin'),
+    shadow: rig.querySelector('.c-shadow')
+  };
+}
+function newPose() {
+  return {
+    ty: 0,
+    tr: 0,
+    hr: 0,
+    hx: 0,
+    al: 0,
+    fl: 0,
+    ar: 0,
+    fr: 0,
+    ll: 0,
+    sl: 0,
+    lr: 0,
+    sr: 0,
+    lsy: 1,
+    ss: 1
+  };
+}
+function applyPose(a, p) {
+  var r = a.refs;
+  if (!r || !r.torso) return;
+  __tunnel.setStyle(r.torso, "transform", 'translateY(' + p.ty.toFixed(2) + 'px) rotate(' + p.tr.toFixed(2) + 'deg)');
+  __tunnel.setStyle(r.head, "transform", 'rotate(' + p.hr.toFixed(2) + 'deg) translateX(' + p.hx.toFixed(2) + 'px)');
+  __tunnel.setStyle(r.armL, "transform", 'rotate(' + p.al.toFixed(2) + 'deg)');
+  __tunnel.setStyle(r.foreL, "transform", 'rotate(' + p.fl.toFixed(2) + 'deg)');
+  __tunnel.setStyle(r.armR, "transform", 'rotate(' + p.ar.toFixed(2) + 'deg)');
+  __tunnel.setStyle(r.foreR, "transform", 'rotate(' + p.fr.toFixed(2) + 'deg)');
+  if (r.legL) {
+    __tunnel.setStyle(r.legL, "transform", 'rotate(' + p.ll.toFixed(2) + 'deg) scaleY(' + p.lsy.toFixed(3) + ')');
+    __tunnel.setStyle(r.shinL, "transform", 'rotate(' + p.sl.toFixed(2) + 'deg)');
+    __tunnel.setStyle(r.legR, "transform", 'rotate(' + p.lr.toFixed(2) + 'deg) scaleY(' + p.lsy.toFixed(3) + ')');
+    __tunnel.setStyle(r.shinR, "transform", 'rotate(' + p.sr.toFixed(2) + 'deg)');
+  }
+  if (r.shadow) __tunnel.setStyle(r.shadow, "transform", 'translateX(-50%) scale(' + p.ss.toFixed(3) + ')');
+}
+function clamp(v, lo, hi) {
+  return v < lo ? lo : v > hi ? hi : v;
+}
+function pickSpot(room) {
+  var rw = room && room.clientWidth || 300,
+    rh = room && room.clientHeight || 200;
+  return {
+    x: 8 + Math.random() * Math.max(12, rw - 54),
+    y: 40 + Math.random() * Math.max(10, rh - 126)
+  };
+}
+function placeRoamInitial(a) {
+  if (!a.roomEl) return;
+  var s = pickSpot(a.roomEl);
+  a.x = s.x;
+  a.y = s.y;
+  __tunnel.setStyle(a.el, "transform", 'translate(' + a.x + 'px,' + a.y + 'px)');
 }
 function wibNow() {
   var parts = new Intl.DateTimeFormat('en-GB', {
@@ -2084,20 +2189,69 @@ function mkDesk(a, dept, st) {
   var b = document.createElement('button');
   b.className = 'desk-unit' + (st === 'work' ? ' working' : '');
   __tunnel.setAttr(b, 'aria-label', 'Detail ' + a.name);
-  var typingCls = st === 'work' ? 'typing fast' : st === 'soon' ? 'typing' : 'relaxed';
-  __tunnel.setInnerHTML(b, '<span class="desk"><span class="monitor"></span><span class="kb"></span></span>' + '<span class="char seated ' + typingCls + '">' + charHTML() + '</span>' + '<span class="sdot ' + (st === 'work' ? 'work' : st === 'soon' ? 'soon' : 'idle') + '"></span>' + '<span class="name-tag">' + (a.g ? 'pendukung' : a.name) + '</span><span class="bubble"></span>', "innerHTML");
+  __tunnel.setInnerHTML(b, '<span class="desk"><span class="monitor"></span><span class="kb"></span></span>' + '<span class="rig rig-seat">' + rigHTML(a._look, 'seat') + '</span>' + '<span class="sdot ' + (st === 'work' ? 'work' : st === 'soon' ? 'soon' : 'idle') + '"></span>' + '<span class="name-tag">' + (a.g ? 'pendukung' : a.name) + '</span><span class="bubble"></span>', "innerHTML");
   b.addEventListener('click', function () {
-    openSheet(a, dept, b.querySelector('.char'));
+    openSheet(a, dept);
+  });
+  b._actor = registerActor({
+    mode: 'seat',
+    a: a,
+    dept: dept,
+    status: st,
+    el: b,
+    refs: refsOf(b.querySelector('.rig')),
+    roomEl: null,
+    state: st === 'idle' ? 'pause' : 'type',
+    stT: 1 + Math.random() * 3,
+    ph: Math.random() * 6.28,
+    lookCur: 0,
+    lookTgt: 0,
+    lookUntil: 0,
+    nextBlink: 1.5 + Math.random() * 3,
+    blinkUntil: 0,
+    vis: true,
+    onBreak: false
   });
   return b;
 }
 function mkWalker(a, dept, st, withCup) {
   var b = document.createElement('button');
-  b.className = 'walker idle-stand';
+  b.className = 'walker';
   __tunnel.setAttr(b, 'aria-label', 'Detail ' + a.name);
-  __tunnel.setInnerHTML(b, '<span class="char">' + standHTML(withCup) + '</span>' + '<span class="sdot ' + (st === 'work' ? 'work' : st === 'soon' ? 'soon' : 'idle') + '" style="top:-4px;right:-2px"></span><span class="bubble"></span>', "innerHTML");
+  __tunnel.setInnerHTML(b, '<span class="rig">' + rigHTML(a._look, 'stand', withCup) + '</span>' + '<span class="sdot ' + (st === 'work' ? 'work' : st === 'soon' ? 'soon' : 'idle') + '" style="top:-4px;right:-2px"></span><span class="bubble"></span>', "innerHTML");
   b.addEventListener('click', function () {
-    openSheet(a, dept, b.querySelector('.char'));
+    openSheet(a, dept);
+  });
+  b._actor = registerActor({
+    mode: 'roam',
+    a: a,
+    dept: dept,
+    status: st,
+    el: b,
+    refs: refsOf(b.querySelector('.rig')),
+    roomEl: null,
+    state: 'idle',
+    act: 'look',
+    stT: 1 + Math.random() * 2.5,
+    cup: !!withCup,
+    speed: 42 + Math.random() * 16,
+    x: 0,
+    y: 0,
+    tx: 0,
+    ty: 0,
+    vel: 0,
+    phase: Math.random() * 6.28,
+    dir: 1,
+    dirShown: 1,
+    ph: Math.random() * 6.28,
+    lookCur: 0,
+    lookTgt: 0,
+    lookUntil: 0,
+    nextBlink: 1.5 + Math.random() * 3,
+    blinkUntil: 0,
+    vis: true,
+    partner: null,
+    chatT: 0
   });
   return b;
 }
@@ -2117,9 +2271,12 @@ DEPTS.forEach(function (d) {
     if (st === 'work') workingCount++;
     a._dept = d.id;
     a._status = st;
+    a._look = makeLook();
     if (walkIdx[i]) {
-      var wk = mkWalker(a, d.id, st, false);
+      var wk = mkWalker(a, d.id, st, rnd(2) === 0);
       room.appendChild(wk);
+      wk._actor.roomEl = room;
+      placeRoamInitial(wk._actor);
       allChars.push({
         el: wk,
         a: a,
@@ -2130,6 +2287,7 @@ DEPTS.forEach(function (d) {
     } else {
       var dk = mkDesk(a, d.id, st);
       desksEl.appendChild(dk);
+      dk._actor.roomEl = room;
       allChars.push({
         el: dk,
         a: a,
@@ -2183,7 +2341,9 @@ DEPTS.forEach(function (d) {
   var a = DATA.keuangan[0];
   a._dept = 'keuangan';
   a._status = 'idle';
+  a._look = makeLook();
   var dk = mkDesk(a, 'keuangan', 'soon');
+  dk._actor.roomEl = document.getElementById('room-keuangan');
   dk.querySelector('.sdot').className = 'sdot idle';
   dk.querySelector('.name-tag').textContent = 'asisten-keuangan';
   document.getElementById('desks-keuangan').appendChild(dk);
@@ -2226,21 +2386,60 @@ DEPTS.forEach(function (d) {
   });
 })();
 document.getElementById('statWorking').textContent = workingCount;
-__tunnel.setInnerHTML(document.getElementById('mgrChar'), charHTML(), "innerHTML");
+var mgrLook = makeLook();
+var mgrObj = {
+  name: 'Koordinator (Kamu)',
+  job: 'Mengawasi seluruh 79 asisten: memberi perintah, memeriksa hasil produksi, dan memutuskan langkah berikutnya untuk semua project.',
+  label: 'Selalu siaga',
+  t: null,
+  iv: null,
+  _status: 'work',
+  _dept: 'manager',
+  _look: mgrLook
+};
+__tunnel.setInnerHTML(document.getElementById('mgrChar'), '<span class="rig rig-seat">' + rigHTML(mgrLook, 'seat') + '</span>', "innerHTML");
+registerActor({
+  mode: 'seat',
+  a: mgrObj,
+  dept: 'manager',
+  status: 'work',
+  el: document.getElementById('mgrBtn'),
+  refs: refsOf(document.getElementById('mgrChar').querySelector('.rig')),
+  roomEl: null,
+  state: 'type',
+  stT: 2,
+  ph: 1.3,
+  lookCur: 0,
+  lookTgt: 0,
+  lookUntil: 0,
+  nextBlink: 2.5,
+  blinkUntil: 0,
+  vis: true,
+  onBreak: false
+});
 document.getElementById('mgrBtn').addEventListener('click', function () {
-  openSheet({
-    name: 'Koordinator (Kamu)',
-    job: 'Mengawasi seluruh 79 asisten: memberi perintah, memeriksa hasil produksi, dan memutuskan langkah berikutnya untuk semua project.',
-    label: 'Selalu siaga',
-    t: null,
-    iv: null,
-    _status: 'work',
-    _dept: 'manager'
-  }, 'manager', document.getElementById('mgrChar'));
+  openSheet(mgrObj, 'manager');
 });
 var sheet = document.getElementById('sheet'),
   scrim = document.getElementById('scrim');
-function openSheet(a, dept, charEl) {
+var sheetActor = {
+  mode: 'seat',
+  status: 'work',
+  dept: '',
+  refs: null,
+  inactive: true,
+  state: 'type',
+  stT: 2,
+  ph: .4,
+  lookCur: 0,
+  lookTgt: 0,
+  lookUntil: 0,
+  nextBlink: 2,
+  blinkUntil: 0,
+  vis: true
+};
+actors.push(sheetActor);
+function openSheet(a, dept) {
   document.getElementById('sheetName').textContent = a.g ? a.name + ' — nama belum dirinci' : a.name;
   document.getElementById('sheetDept').textContent = dept === 'manager' ? 'Ruang Manager' : 'Departemen ' + (DEPT_NAME[dept] || dept);
   var st = a._status || statusOf(a, wibNow());
@@ -2250,7 +2449,11 @@ function openSheet(a, dept, charEl) {
   document.getElementById('sheetNext').textContent = nextRun(a, wibNow());
   document.getElementById('sheetJob').textContent = a.job;
   var av = document.getElementById('sheetAvatar');
-  __tunnel.setInnerHTML(av, '<span class="char seated typing" style="margin:0">' + (charEl ? charEl.innerHTML : charHTML()) + '</span>', "innerHTML");
+  if (!a._look) a._look = makeLook();
+  __tunnel.setInnerHTML(av, '<span class="rig rig-seat">' + rigHTML(a._look, 'seat') + '</span>', "innerHTML");
+  sheetActor.refs = refsOf(av.querySelector('.rig'));
+  sheetActor.inactive = false;
+  sheetActor.ph = Math.random() * 6.28;
   sheet.classList.add('on');
   scrim.classList.add('on');
   __tunnel.setAttr(sheet, 'aria-hidden', 'false');
@@ -2259,6 +2462,7 @@ function closeSheet() {
   sheet.classList.remove('on');
   scrim.classList.remove('on');
   __tunnel.setAttr(sheet, 'aria-hidden', 'true');
+  sheetActor.inactive = true;
 }
 document.getElementById('sheetClose').addEventListener('click', closeSheet);
 scrim.addEventListener('click', closeSheet);
@@ -2285,107 +2489,579 @@ function tickClock() {
 tickClock();
 setInterval(tickClock, 1000);
 var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-function walkLoop(item) {
-  if (reduced) return;
-  var room = item.room,
-    el = item.el;
-  var rw0 = room.clientWidth,
-    rh0 = room.clientHeight;
-  el._pos = {
-    x: rw0 / 2,
-    y: Math.max(46, rh0 - 54)
-  };
-  __tunnel.setStyle(el, "transform", 'translate(' + el._pos.x + 'px,' + el._pos.y + 'px)');
-  function step() {
-    var rw = room.clientWidth,
-      rh = room.clientHeight;
-    var x = 14 + Math.random() * Math.max(20, rw - 60);
-    var y = 44 + Math.random() * Math.max(20, rh - 100);
-    var cur = el._pos || {
-      x: rw / 2,
-      y: rh - 52
-    };
-    var dx = x - cur.x,
-      dy = y - cur.y;
-    var dist = Math.sqrt(dx * dx + dy * dy);
-    var dur = Math.max(900, dist * 14);
-    el.classList.add('moving');
-    el.classList.remove('idle-stand');
-    el.querySelector('.char').classList.toggle('flip', dx < 0);
-    __tunnel.setStyle(el, "transition", 'transform ' + dur + 'ms linear');
-    __tunnel.setStyle(el, "transform", 'translate(' + x + 'px,' + y + 'px)');
-    el._pos = {
-      x: x,
-      y: y
-    };
-    setTimeout(function () {
-      el.classList.remove('moving');
-      el.classList.add('idle-stand');
-      setTimeout(step, 1200 + Math.random() * 3200);
-    }, dur);
-  }
-  setTimeout(step, Math.random() * 1500);
+function easeIO(x) {
+  return x < .5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2;
 }
-allChars.forEach(function (c) {
-  if (c.kind === 'walker') walkLoop(c);
+function seatNext(a) {
+  if (a.state === 'type') {
+    a.state = 'pause';
+    a.stT = .8 + Math.random() * 1.8;
+    a.lookTgt = Math.random() < .5 ? 0 : (Math.random() < .5 ? -1 : 1) * (4 + Math.random() * 5);
+    a.lookUntil = T_NOW + a.stT;
+  } else if (a.state === 'stretch') {
+    a.state = 'pause';
+    a.stT = .6 + Math.random();
+  } else {
+    var typeP = a.status === 'work' ? .78 : a.status === 'soon' ? .55 : .22,
+      r = Math.random();
+    if (r < typeP) {
+      a.state = 'type';
+      a.stT = a.status === 'work' ? 2.2 + Math.random() * 3.4 : 1.4 + Math.random() * 2.4;
+      a.lookTgt = 0;
+    } else if (r < typeP + .07) {
+      a.state = 'stretch';
+      a.stT = 1.5;
+    } else {
+      a.stT = .8 + Math.random() * 1.6;
+      a.lookTgt = Math.random() < .6 ? 0 : (Math.random() < .5 ? -1 : 1) * (4 + Math.random() * 5);
+      a.lookUntil = T_NOW + a.stT;
+    }
+  }
+}
+function seatUpdate(a, t, dt, p) {
+  var b = Math.sin(t * 1.45 + a.ph);
+  p.ty = b * .45;
+  p.tr = b * .35;
+  if (a.lookUntil && t > a.lookUntil) {
+    a.lookTgt = 0;
+    a.lookUntil = 0;
+  }
+  a.lookCur += (a.lookTgt - a.lookCur) * Math.min(1, dt * 3.2);
+  a.stT -= dt;
+  if (a.stT <= 0) seatNext(a);
+  if (a.state === 'type') {
+    var T = t * (a.status === 'work' ? 31 : 25) + a.ph;
+    p.al = -(37 + Math.sin(T) * 5);
+    p.fl = -(52 + Math.sin(T) * 8);
+    p.ar = 37 + Math.sin(T + Math.PI) * 5;
+    p.fr = 52 + Math.sin(T + Math.PI) * 8;
+    p.tr += Math.sin(T * .5) * .5;
+    p.hr = a.lookCur * .35 + Math.sin(t * 1.1 + a.ph) * .8;
+    p.hx = a.lookCur * .1;
+  } else if (a.state === 'stretch') {
+    p.al = 158;
+    p.fl = 10;
+    p.ar = -158;
+    p.fr = -10;
+    p.tr += -2.2;
+    p.ty += -.6;
+    p.hr = -3;
+  } else {
+    var inw = a.status === 'idle' ? 14 : 22,
+      bend = a.status === 'idle' ? 16 : 28,
+      sw = Math.sin(t * 1.45 + a.ph);
+    p.al = -(inw + sw * 1.5);
+    p.fl = -bend;
+    p.ar = inw - sw * 1.5;
+    p.fr = bend;
+    p.hr = a.lookCur + Math.sin(t * .8 + a.ph) * 1.1;
+    p.hx = a.lookCur * .18;
+  }
+}
+function startWalk(a, x, y, stage) {
+  a.tx = x;
+  a.ty = y;
+  a.state = 'walk';
+  if (stage) a.stage = stage;
+}
+function arrive(a) {
+  a.vel = 0;
+  a.state = 'idle';
+  a.act = 'look';
+  a.stT = .9 + Math.random() * 1.3;
+  if (a.plan === 'coffee') {
+    a.act = 'drink';
+    a.stT = 2.2 + Math.random() * 1.6;
+  }
+  if (a.twin) {
+    if (a.stage === 'dest') {
+      a.stage = 'act';
+      a.act = a.destAct || 'look';
+      a.stT = 2.6 + Math.random() * 2;
+      if (a.destSeatA) {
+        a.destSeatA.lookTgt = a.x + 18 > a.destDeskCx ? 6 : -6;
+        a.destSeatA.lookUntil = T_NOW + 2.4;
+      }
+      if (a.destDeskCx !== undefined && a.destDeskCx !== null) a.dir = a.destDeskCx > a.x + 18 ? 1 : -1;
+    } else if (a.stage === 'home') {
+      a.state = 'sitdown';
+      a.stT = .55;
+      a.blend = 0;
+    }
+  }
+}
+function nearDesk(a) {
+  var best = null,
+    bd = 1e9,
+    rr = a.roomEl.getBoundingClientRect(),
+    fx = a.x + 18,
+    fy = a.y + 70;
+  actors.forEach(function (o) {
+    if (o.mode === 'seat' && o.roomEl === a.roomEl && !o.onBreak && o.el) {
+      var er = o.el.getBoundingClientRect(),
+        cx = er.left - rr.left + er.width / 2,
+        by = er.bottom - rr.top + 4;
+      var d = Math.hypot(cx - fx, by - fy);
+      if (d < bd) {
+        bd = d;
+        best = {
+          actor: o,
+          side: cx < fx ? -1 : 1
+        };
+      }
+    }
+  });
+  return best && bd < 76 ? best : null;
+}
+function startChat(a, b) {
+  var dur = 3.4 + Math.random() * 1.6;
+  a.state = 'idle';
+  b.state = 'idle';
+  a.act = 'chat';
+  b.act = 'chat';
+  a.stT = dur;
+  b.stT = dur;
+  a.partner = b;
+  b.partner = a;
+  a.chatT = 0;
+  b.chatT = 0;
+  a.chatFirst = true;
+  b.chatFirst = false;
+}
+function roamDecide(a) {
+  if (a.act === 'chat' && a.partner) {
+    a.partner.act = 'look';
+    a.partner.partner = null;
+    a.partner.stT = Math.max(a.partner.stT, .6);
+    a.partner = null;
+    a.act = 'look';
+  }
+  if (a.plan === 'coffee') {
+    coffeeLeg(a);
+    return;
+  }
+  if (a.twin) {
+    if (a.stage === 'pre') twinGoDest(a);else if (a.stage === 'act') startWalk(a, a.homeX, a.homeY, 'home');
+    return;
+  }
+  var partner = null;
+  for (var i = 0; i < actors.length; i++) {
+    var o = actors[i];
+    if (o !== a && o.mode === 'roam' && !o.twin && o.plan !== 'coffee' && o.roomEl === a.roomEl && o.state === 'idle' && o.act !== 'chat' && Math.hypot(o.x - a.x, o.y - a.y) < 78) {
+      partner = o;
+      break;
+    }
+  }
+  var r = Math.random();
+  if (partner && r < .6) {
+    startChat(a, partner);
+    return;
+  }
+  if (r < .48) {
+    var s = pickSpot(a.roomEl);
+    startWalk(a, s.x, s.y);
+    return;
+  }
+  a.state = 'idle';
+  a.stT = 1.8 + Math.random() * 2.8;
+  var acts = ['look', 'look', 'think', 'stretch'];
+  if (a.cup) acts.push('drink', 'drink');
+  a.act = acts[Math.floor(Math.random() * acts.length)];
+  if (Math.random() < .4) {
+    var dk = nearDesk(a);
+    if (dk) {
+      a.act = 'point';
+      a.pointSide = dk.side;
+      a.stT = 1.9;
+      dk.actor.lookTgt = dk.side < 0 ? 6 : -6;
+      dk.actor.lookUntil = T_NOW + 2.2;
+    }
+  }
+}
+function blendPose(a, t, p) {
+  var bl = a.blend || 0,
+    b = Math.sin(t * 1.45 + a.ph);
+  p.ty = b * .3 + bl * 1.5;
+  p.tr = bl * 4.5 + b * .3;
+  p.ll = 15 * bl;
+  p.lr = -15 * bl;
+  p.sl = -15 * bl;
+  p.sr = 15 * bl;
+  p.lsy = 1 - bl * .45;
+  p.al = -4 - 26 * bl;
+  p.fl = -(8 + 38 * bl);
+  p.ar = 4 + 26 * bl;
+  p.fr = 8 + 38 * bl;
+  p.hr = bl * 3;
+  p.ss = 1 - bl * .06;
+  a.y = a.homeY + bl * 7;
+}
+function roamUpdate(a, t, dt, p) {
+  var b = Math.sin(t * 1.45 + a.ph);
+  if (a.dir !== a.dirShown && a.refs.flip) {
+    __tunnel.setStyle(a.refs.flip, "transform", 'scaleX(' + a.dir + ')');
+    a.dirShown = a.dir;
+  }
+  if (a.state === 'standup' || a.state === 'sitdown') {
+    a.stT -= dt;
+    var pr = clamp(1 - a.stT / .55, 0, 1);
+    a.blend = a.state === 'standup' ? 1 - easeIO(pr) : easeIO(pr);
+    blendPose(a, t, p);
+    __tunnel.setStyle(a.el, "transform", 'translate(' + a.x.toFixed(1) + 'px,' + a.y.toFixed(1) + 'px)');
+    if (a.stT <= 0) {
+      if (a.state === 'standup') {
+        a.blend = 0;
+        if (Math.random() < .45) {
+          a.state = 'idle';
+          a.act = 'think';
+          a.stT = 1.15;
+          a.stage = 'pre';
+        } else twinGoDest(a);
+      } else finishBreak(a);
+    }
+    return;
+  }
+  if (a.state === 'walk') {
+    var dx = a.tx - a.x,
+      dy = a.ty - a.y,
+      dist = Math.sqrt(dx * dx + dy * dy);
+    var want = dist > 30 ? a.speed : a.speed * Math.max(dist / 30, .12);
+    if (dist < 2.5) want = 0;
+    a.vel += (want - a.vel) * Math.min(1, dt * 3.2);
+    if (dist < 3 && a.vel < 9) arrive(a);else if (dist > 0) {
+      var step = Math.min(a.vel * dt, dist);
+      a.x += dx / dist * step;
+      a.y += dy / dist * step;
+      a.phase += step * .235;
+      if (Math.abs(dx) > 4) a.dir = dx < 0 ? -1 : 1;
+    }
+    var amp = Math.min(1, a.vel / 32),
+      ph = a.phase,
+      s = Math.sin(ph),
+      c = Math.cos(ph);
+    p.ll = s * 27 * amp;
+    p.lr = -s * 27 * amp;
+    p.sl = Math.max(-6, 22 * Math.sin(ph - 1.15)) * amp;
+    p.sr = Math.max(-6, 22 * Math.sin(ph + Math.PI - 1.15)) * amp;
+    p.ty = -Math.abs(c) * 1.7 * amp + b * .3;
+    p.tr = s * 1.7 * amp;
+    p.hr = -s * 1.3 * amp;
+    p.hx = a.dir * 1.1 * amp;
+    if (a.cup) {
+      p.ar = 24;
+      p.fr = 50;
+      p.al = (-s * 19 - 2) * amp;
+      p.fl = -(10 + 5 * c) * amp - 4;
+    } else {
+      p.al = (-s * 19 - 2) * amp;
+      p.ar = (s * 19 + 2) * amp;
+      p.fl = -(10 + 5 * c) * amp - 3;
+      p.fr = (10 - 5 * c) * amp + 3;
+    }
+    p.ss = 1 - Math.abs(c) * .05 * amp;
+  } else {
+    a.stT -= dt;
+    if (a.stT <= 0) {
+      roamDecide(a);
+      if (a.state === 'walk') {
+        roamUpdate(a, t, 0, p);
+        return;
+      }
+    }
+    p.ty = b * .45;
+    p.tr = Math.sin(t * .45 + a.ph) * 1.1 + b * .3;
+    var act = a.act || 'look';
+    if (act === 'drink') {
+      p.ar = 17;
+      p.fr = 141 + Math.sin(t * 2.1) * 4;
+      p.al = -4;
+      p.fl = -8;
+      p.hr = -5;
+      p.hx = -.4;
+    } else if (act === 'think') {
+      p.ar = 15;
+      p.fr = 139;
+      p.al = -21;
+      p.fl = -63;
+      p.hr = 6;
+      p.hx = .6;
+    } else if (act === 'stretch') {
+      p.al = 158;
+      p.fl = 10;
+      p.ar = -158;
+      p.fr = -10;
+      p.tr += -2.4;
+      p.ty += -.8;
+      p.hr = -3;
+    } else if (act === 'point') {
+      if (a.pointSide < 0) {
+        p.al = 112;
+        p.fl = 4;
+        p.ar = 3;
+        p.fr = 8;
+      } else {
+        p.ar = -112;
+        p.fr = -4;
+        p.al = -3;
+        p.fl = -8;
+      }
+      p.hr = (a.pointSide || 1) * 4;
+    } else if (act === 'chat' && a.partner) {
+      a.dir = a.partner.x >= a.x ? 1 : -1;
+      a.chatT = (a.chatT || 0) + dt;
+      var speak = Math.floor(a.chatT / 1.15) % 2 === 0 === !!a.chatFirst;
+      if (speak) {
+        p.hr = Math.sin(t * 5.4 + a.ph) * 3.2;
+        p.ar = 21;
+        p.fr = 38 + Math.sin(t * 7.1 + a.ph) * 15;
+        p.al = -3;
+        p.fl = -8;
+      } else {
+        p.hr = Math.sin(t * 2.3 + a.ph) * 2.4;
+        p.al = -3;
+        p.fl = -8;
+        p.ar = 3;
+        p.fr = 8;
+      }
+    } else {
+      p.al = -3 - b * 1.2;
+      p.ar = 3 + b * 1.2;
+      p.fl = -8;
+      p.fr = 8;
+      p.hr = Math.sin(t * .5 + a.ph) * 4;
+      p.hx = Math.sin(t * .5 + a.ph) * .8;
+    }
+  }
+  __tunnel.setStyle(a.el, "transform", 'translate(' + a.x.toFixed(1) + 'px,' + a.y.toFixed(1) + 'px)');
+  if (a.plan !== 'coffee') __tunnel.setStyle(a.el, "zIndex", 10 + Math.round(a.y / 8));
+}
+var lastTs = performance.now();
+function frame(ts) {
+  var dt = Math.min(.05, (ts - lastTs) / 1000);
+  lastTs = ts;
+  var t = ts / 1000;
+  T_NOW = t;
+  for (var i = 0; i < actors.length; i++) {
+    var a = actors[i];
+    if (a.inactive || a.onBreak || !a.refs || !a.refs.torso) continue;
+    if (a.mode !== 'roam' && !a.vis) continue;
+    var p = newPose();
+    if (a.mode === 'seat') seatUpdate(a, t, dt, p);else roamUpdate(a, t, dt, p);
+    if (a.refs.eyes) {
+      if (t > a.nextBlink) {
+        a.blinkUntil = t + .13;
+        a.nextBlink = t + 2.2 + Math.random() * 3.6;
+      }
+      __tunnel.setStyle(a.refs.eyes, "transform", 'translateX(-50%) scaleY(' + (t < a.blinkUntil ? .12 : 1) + ')');
+    }
+    applyPose(a, p);
+  }
+  requestAnimationFrame(frame);
+}
+if (!reduced) requestAnimationFrame(frame);else actors.forEach(function (a) {
+  if (!a.refs || !a.refs.torso) return;
+  var p = newPose();
+  if (a.mode === 'seat') {
+    p.al = -32;
+    p.fl = -46;
+    p.ar = 32;
+    p.fr = 46;
+    p.hr = 2;
+  } else {
+    p.al = -4;
+    p.fl = -8;
+    p.ar = 4;
+    p.fr = 8;
+  }
+  applyPose(a, p);
 });
-(function () {
-  if (reduced) return;
-  var floor = document.getElementById('floor'),
+function coffeeLeg(a) {
+  var floor = a.roomEl,
     hall = document.getElementById('hallway');
+  var fr = floor.getBoundingClientRect(),
+    hr = hall.getBoundingClientRect();
+  var y = hr.top - fr.top - 30;
+  var x = a.end === 0 ? hr.right - fr.left - 56 : hr.left - fr.left + 12;
+  a.end = 1 - a.end;
+  startWalk(a, x, y);
+}
+(function () {
+  var floor = document.getElementById('floor');
   var a = {
     name: 'asisten-kopi',
     job: 'Kurir internal kantor: mengantar kopi dari pantry ke lounge dan ke meja-meja yang lagi lembur produksi.',
     label: 'Keliling kantor',
     _status: 'work',
-    _dept: 'lainnya'
+    _dept: 'lainnya',
+    _look: makeLook()
   };
-  var el = mkWalker(a, 'lainnya', 'work', true);
-  el.querySelector('.sdot').className = 'sdot soon';
-  __tunnel.setStyle(el.querySelector('.sdot'), "top", '-4px');
-  __tunnel.setStyle(el.querySelector('.sdot'), "right", '-2px');
-  el.classList.add('coffee-walker');
-  floor.appendChild(el);
-  (function () {
-    var fr0 = floor.getBoundingClientRect(),
-      hr0 = hall.getBoundingClientRect();
-    var x0 = hr0.right - fr0.left - 52,
-      y0 = hr0.top - fr0.top + 1;
-    el._pos = {
-      x: x0,
-      y: y0
-    };
-    __tunnel.setStyle(el, "transform", 'translate(' + x0 + 'px,' + y0 + 'px)');
-  })();
-  var goLeft = true;
-  function leg() {
-    var fr = floor.getBoundingClientRect(),
-      hr = hall.getBoundingClientRect();
-    var y = hr.top - fr.top + 1;
-    var x = goLeft ? hr.left - fr.left + 16 : hr.right - fr.left - 52;
-    var cur = el._pos || {
-      x: x,
-      y: y
-    };
-    var dist = Math.abs(x - cur.x);
-    el.classList.add('moving');
-    el.classList.remove('idle-stand');
-    el.querySelector('.char').classList.toggle('flip', x < cur.x);
-    __tunnel.setStyle(el, "transition", 'transform ' + Math.max(1500, dist * 9) + 'ms linear');
-    __tunnel.setStyle(el, "transform", 'translate(' + x + 'px,' + y + 'px)');
-    el._pos = {
-      x: x,
-      y: y
-    };
-    setTimeout(function () {
-      el.classList.remove('moving');
-      el.classList.add('idle-stand');
-      goLeft = !goLeft;
-      setTimeout(leg, 2600 + Math.random() * 2000);
-    }, Math.max(1500, dist * 9));
+  var b = document.createElement('button');
+  b.className = 'walker coffee-walker';
+  __tunnel.setAttr(b, 'aria-label', 'Detail asisten-kopi');
+  __tunnel.setInnerHTML(b, '<span class="rig" style="transform:scale(.72);transform-origin:50% 100%">' + rigHTML(a._look, 'stand', true) + '</span>' + '<span class="sdot soon" style="top:-4px;right:-2px"></span><span class="bubble"></span>', "innerHTML");
+  b.addEventListener('click', function () {
+    openSheet(a, 'lainnya');
+  });
+  floor.appendChild(b);
+  var ca = registerActor({
+    mode: 'roam',
+    plan: 'coffee',
+    a: a,
+    dept: 'lainnya',
+    status: 'work',
+    el: b,
+    refs: refsOf(b.querySelector('.rig')),
+    roomEl: floor,
+    state: 'idle',
+    act: 'drink',
+    stT: 1.4,
+    cup: true,
+    speed: 52,
+    x: 0,
+    y: 0,
+    tx: 0,
+    ty: 0,
+    vel: 0,
+    phase: 0,
+    dir: 1,
+    dirShown: 1,
+    ph: .7,
+    lookCur: 0,
+    lookTgt: 0,
+    lookUntil: 0,
+    nextBlink: 2,
+    blinkUntil: 0,
+    vis: true,
+    partner: null,
+    chatT: 0,
+    end: 0
+  });
+  coffeeLeg(ca);
+  ca.x = ca.tx;
+  ca.y = ca.ty;
+  ca.state = 'idle';
+  ca.act = 'drink';
+  ca.stT = 1.4;
+  __tunnel.setStyle(ca.el, "transform", 'translate(' + ca.x + 'px,' + ca.y + 'px)');
+  if (reduced) {
+    var p = newPose();
+    p.ar = 24;
+    p.fr = 50;
+    applyPose(ca, p);
   }
-  setTimeout(leg, 800);
 })();
+var breaksActive = 0;
+function twinGoDest(a) {
+  var room = a.roomEl,
+    rw = room.clientWidth,
+    rh = room.clientHeight;
+  var seats = actors.filter(function (o) {
+    return o.mode === 'seat' && o.roomEl === room && o !== a.seatA && o.el;
+  });
+  if (seats.length && Math.random() < .55) {
+    var s = seats[Math.floor(Math.random() * seats.length)];
+    var rr = room.getBoundingClientRect(),
+      er = s.el.getBoundingClientRect();
+    var cx = er.left - rr.left - room.clientLeft + er.width / 2,
+      bot = er.bottom - rr.top - room.clientTop;
+    a.destSeatA = s;
+    a.destDeskCx = cx;
+    a.destAct = 'point';
+    startWalk(a, clamp(cx - 18, 6, rw - 44), clamp(bot - 44, 40, rh - 84), 'dest');
+  } else {
+    a.destSeatA = null;
+    a.destDeskCx = null;
+    var opts = ['stretch', 'think', 'look'];
+    if (a.cup) opts.push('drink');
+    a.destAct = opts[Math.floor(Math.random() * opts.length)];
+    startWalk(a, 8 + Math.random() * Math.max(12, rw - 60), clamp(rh - 92, 40, Math.max(48, rh - 84)), 'dest');
+  }
+}
+function finishBreak(a) {
+  var sa = a.seatA;
+  if (a.el && a.el.parentNode) a.el.parentNode.removeChild(a.el);
+  a.inactive = true;
+  if (sa) {
+    sa.onBreak = false;
+    if (sa.refs.rig) __tunnel.setStyle(sa.refs.rig, "visibility", '');
+    sa.state = 'pause';
+    sa.stT = 1 + Math.random();
+  }
+  breaksActive--;
+}
+function startBreak(seatA) {
+  var room = seatA.roomEl;
+  if (!room || !seatA.refs.rig) return;
+  var rr = room.getBoundingClientRect(),
+    cr = seatA.refs.rig.getBoundingClientRect();
+  var x = cr.left - rr.left - room.clientLeft + (cr.width - 36) / 2;
+  var ySeat = cr.top - rr.top - room.clientTop;
+  seatA.onBreak = true;
+  __tunnel.setStyle(seatA.refs.rig, "visibility", 'hidden');
+  var withCup = Math.random() < .5;
+  var b = document.createElement('button');
+  b.className = 'walker';
+  __tunnel.setAttr(b, 'aria-label', 'Detail ' + seatA.a.name);
+  __tunnel.setInnerHTML(b, '<span class="rig">' + rigHTML(seatA.a._look, 'stand', withCup) + '</span><span class="bubble"></span>', "innerHTML");
+  b.addEventListener('click', function () {
+    openSheet(seatA.a, seatA.dept);
+  });
+  room.appendChild(b);
+  var tw = {
+    mode: 'roam',
+    twin: true,
+    seatA: seatA,
+    a: seatA.a,
+    dept: seatA.dept,
+    status: seatA.status,
+    el: b,
+    refs: refsOf(b.querySelector('.rig')),
+    roomEl: room,
+    state: 'standup',
+    stage: 'stand',
+    stT: .55,
+    blend: 1,
+    cup: withCup,
+    homeX: x,
+    homeY: ySeat - 7,
+    x: x,
+    y: ySeat,
+    tx: x,
+    ty: ySeat,
+    vel: 0,
+    speed: 44 + Math.random() * 14,
+    phase: Math.random() * 6.28,
+    dir: 1,
+    dirShown: 1,
+    ph: Math.random() * 6.28,
+    lookCur: 0,
+    lookTgt: 0,
+    lookUntil: 0,
+    nextBlink: 2,
+    blinkUntil: 0,
+    vis: true,
+    partner: null,
+    chatT: 0,
+    act: 'look',
+    destSeatA: null,
+    destDeskCx: null,
+    destAct: 'look'
+  };
+  actors.push(tw);
+  breaksActive++;
+  __tunnel.setStyle(b, "transform", 'translate(' + x + 'px,' + ySeat + 'px)');
+  __tunnel.setStyle(b, "zIndex", 10 + Math.round(ySeat / 8));
+}
+if (!reduced) {
+  setInterval(function () {
+    if (breaksActive >= 2 || document.hidden) return;
+    var cands = actors.filter(function (x) {
+      return x.mode === 'seat' && !x.sheet && !x.onBreak && x.dept !== 'keuangan' && x.dept !== 'manager' && x.roomEl && x.vis;
+    });
+    if (!cands.length || Math.random() < .45) return;
+    startBreak(cands[Math.floor(Math.random() * cands.length)]);
+  }, 6000);
+}
 if (!reduced) {
   setInterval(function () {
     var pool = allChars.filter(function (c) {

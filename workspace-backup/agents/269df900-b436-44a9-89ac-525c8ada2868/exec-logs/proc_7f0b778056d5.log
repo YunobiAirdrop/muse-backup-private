@@ -1,9 +1,0 @@
-seg b6 [kd-n01]: 12.73s ok
-seg b6 [kd-f01]: 39.49s ok
-seg b7 [kd-f02]: 18.72s ok
-seg b7 [kd-n06]: 17.70s ok
-seg b7 [kd-f06]: 22.36s ok
-_vconcat: 567.40s
-T_B (bumper split): 305.90s
-_afull: 567.35s
-RUNNING

@@ -1,0 +1,991 @@
+{
+ "baru_masuk": [
+  "5JlDQfx5AA8",
+  "I_B9oy4U9TI",
+  "P0XCx7rCbNA",
+  "mgMXJIOqG7E"
+ ],
+ "keluar": [
+  "EXmbjr-MKbs"
+ ],
+ "masih_mentok": [
+  {
+   "slug": "fakta-bola-dunia",
+   "id": "KkIsmqjGOBo",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "7fb5QMDnja4",
+   "v_pagi": 25,
+   "v_baru": 25
+  },
+  {
+   "slug": "kisahdharma",
+   "id": "_sJEVF5il7E",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "horor",
+   "id": "t9Y8URnq_vY",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "horror-en",
+   "id": "UawznNmKb2M",
+   "v_pagi": 47,
+   "v_baru": 47
+  },
+  {
+   "slug": "weird-en",
+   "id": "IvsTliyJOpU",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "weird-en",
+   "id": "MnqiOkoot10",
+   "v_pagi": 4,
+   "v_baru": 4
+  },
+  {
+   "slug": "jejakislami",
+   "id": "lYwvrk7cZ9U",
+   "v_pagi": 4,
+   "v_baru": 4
+  },
+  {
+   "slug": "kisahdharma",
+   "id": "mWw8U1FOjKs",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "lima-misteri",
+   "id": "3ONOmvXMpLI",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "weird-en",
+   "id": "6dFjzSkcH_E",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "lima-misteri",
+   "id": "v30_ZXKINfQ",
+   "v_pagi": 3,
+   "v_baru": 3
+  },
+  {
+   "slug": "inktime",
+   "id": "0Ipt2Mwl_gI",
+   "v_pagi": 31,
+   "v_baru": 31
+  },
+  {
+   "slug": "weird-en",
+   "id": "UkjkKpLRPj8",
+   "v_pagi": 0,
+   "v_baru": 0
+  },
+  {
+   "slug": "space-en",
+   "id": "5ijR6apbCps",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "tinybuilders",
+   "id": "ekSmY8ZR8z8",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "horror-en",
+   "id": "7rBkdTLLXr8",
+   "v_pagi": 4,
+   "v_baru": 4
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "6SE9_KiLafM",
+   "v_pagi": 3,
+   "v_baru": 3
+  },
+  {
+   "slug": "youtube-pov",
+   "id": "ESlXhONwvQY",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "HPAprAH5GkA",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "history-en",
+   "id": "0ZWVx_sDQRk",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "weird-en",
+   "id": "LIADnwjbJ0w",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "WqVJ--ycr8Y",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "jejakislami",
+   "id": "W9oryezTiuk",
+   "v_pagi": 5,
+   "v_baru": 5
+  },
+  {
+   "slug": "mind-en",
+   "id": "1RdEgv4V_SA",
+   "v_pagi": 5,
+   "v_baru": 5
+  },
+  {
+   "slug": "mind-en",
+   "id": "BAAtIR9AVeU",
+   "v_pagi": 33,
+   "v_baru": 33
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "W2gByTFLYWU",
+   "v_pagi": 45,
+   "v_baru": 45
+  },
+  {
+   "slug": "horor",
+   "id": "U6F-BbZ1Lns",
+   "v_pagi": 3,
+   "v_baru": 3
+  },
+  {
+   "slug": "horor",
+   "id": "vVdcMjV6MDs",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "horror-en",
+   "id": "W-9_kjVUpuI",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "kisahdharma",
+   "id": "QnSs69dmjIg",
+   "v_pagi": 6,
+   "v_baru": 6
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "JS-uNWKfI1w",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "horror-en",
+   "id": "mjlUM9FCW5E",
+   "v_pagi": 9,
+   "v_baru": 9
+  },
+  {
+   "slug": "space-en",
+   "id": "Cn6AYK_fvag",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "youtube-pov",
+   "id": "cUtpnRpB9JU",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "space-en",
+   "id": "BqJAv9ApX5w",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "space-en",
+   "id": "5S1A7qDZj0M",
+   "v_pagi": 28,
+   "v_baru": 28
+  },
+  {
+   "slug": "horror-en",
+   "id": "h3rtMV35ZeQ",
+   "v_pagi": 6,
+   "v_baru": 6
+  },
+  {
+   "slug": "jejakislami",
+   "id": "8LdS1kmxEjg",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "jq7VPibcPXE",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "mind-en",
+   "id": "rJHq-vCQsDc",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "HCx2pdjDD5Y",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "weird-en",
+   "id": "vXdKJC7sDZg",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "tinybuilders",
+   "id": "kCoM5sT9q40",
+   "v_pagi": 18,
+   "v_baru": 18
+  },
+  {
+   "slug": "horor",
+   "id": "KWjDXPQoOHs",
+   "v_pagi": 4,
+   "v_baru": 4
+  },
+  {
+   "slug": "weird-en",
+   "id": "5hHQlZvoYqk",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "horror-en",
+   "id": "7mkgmONd89o",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "inktime",
+   "id": "TT5gHE7IY94",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "horror-en",
+   "id": "3LrCIQNugUo",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "jejakislami",
+   "id": "bltnidaQ0ms",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "PrEE5W4ZxrI",
+   "v_pagi": 4,
+   "v_baru": 4
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "7zOMvbK2rjE",
+   "v_pagi": 9,
+   "v_baru": 9
+  },
+  {
+   "slug": "youtube-pov",
+   "id": "HjdAB_44M30",
+   "v_pagi": 3,
+   "v_baru": 3
+  },
+  {
+   "slug": "jejakislami",
+   "id": "AjKco8l2Hf0",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "notjBtPaDYg",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "weird-en",
+   "id": "lt-CePlkN4s",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "mystery-en",
+   "id": "g900Smffbuo",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "yfkT53Nob6k",
+   "v_pagi": 30,
+   "v_baru": 30
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "6txAzECV24s",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "strangetales",
+   "id": "Qj-AboOOlZU",
+   "v_pagi": 5,
+   "v_baru": 5
+  },
+  {
+   "slug": "youtube-pov",
+   "id": "x3Mkp4cYc0g",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "strangetales",
+   "id": "E6gy8i3IZ8E",
+   "v_pagi": 7,
+   "v_baru": 7
+  },
+  {
+   "slug": "tinybuilders",
+   "id": "SbN_Xgr2jq8",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "3ApID__bnF0",
+   "v_pagi": 4,
+   "v_baru": 4
+  },
+  {
+   "slug": "weird-en",
+   "id": "Tbben9A-0-8",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "weird-en",
+   "id": "VPbIH3krg1Y",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "jejakislami",
+   "id": "C__iUKsNCZM",
+   "v_pagi": 4,
+   "v_baru": 4
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "Yaayw7F_on8",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "hN-MfWK8QRI",
+   "v_pagi": 9,
+   "v_baru": 9
+  },
+  {
+   "slug": "strangetales",
+   "id": "xiOswp2qmkE",
+   "v_pagi": 16,
+   "v_baru": 16
+  },
+  {
+   "slug": "empires-en",
+   "id": "6DwpnronVQQ",
+   "v_pagi": 4,
+   "v_baru": 4
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "2rJsIg9bBh0",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "kisahdharma",
+   "id": "7kzvq0KQyO0",
+   "v_pagi": 3,
+   "v_baru": 3
+  },
+  {
+   "slug": "youtube-pov",
+   "id": "gHlkf3ATZp8",
+   "v_pagi": 3,
+   "v_baru": 3
+  },
+  {
+   "slug": "horror-en",
+   "id": "QdIQtEmjMac",
+   "v_pagi": 14,
+   "v_baru": 14
+  },
+  {
+   "slug": "horror-en",
+   "id": "jhDzosY_vj8",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "space-en",
+   "id": "4buKqLS1-DA",
+   "v_pagi": 21,
+   "v_baru": 21
+  },
+  {
+   "slug": "history-en",
+   "id": "-_MZgrE4I84",
+   "v_pagi": 9,
+   "v_baru": 9
+  },
+  {
+   "slug": "jejakislami",
+   "id": "l3G0yeRWSN8",
+   "v_pagi": 4,
+   "v_baru": 4
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "5H3Y5BnECkw",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "mystery-en",
+   "id": "FZZpx8dT-Xc",
+   "v_pagi": 48,
+   "v_baru": 48
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "NwQSkmd0XR4",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "arJpVXPCJcs",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "sTwtnVn1pro",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "inktime",
+   "id": "8KqJ8z3D5rQ",
+   "v_pagi": 37,
+   "v_baru": 37
+  },
+  {
+   "slug": "horor",
+   "id": "N76GKq36LPQ",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "NSCvoapqE-E",
+   "v_pagi": 3,
+   "v_baru": 3
+  },
+  {
+   "slug": "empires-en",
+   "id": "rmkMgiPdLCo",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "jejakislami",
+   "id": "w6iwcZqpV1E",
+   "v_pagi": 3,
+   "v_baru": 3
+  },
+  {
+   "slug": "mind-en",
+   "id": "ffZFaSuDJdI",
+   "v_pagi": 7,
+   "v_baru": 7
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "MsvOo6y4Bko",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "history-en",
+   "id": "I1lR5p9N2uY",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "cDji7o2q26U",
+   "v_pagi": 27,
+   "v_baru": 27
+  },
+  {
+   "slug": "weird-en",
+   "id": "xrQDMRJTXCs",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "strangetales",
+   "id": "3SnO6qTa_tM",
+   "v_pagi": 5,
+   "v_baru": 5
+  },
+  {
+   "slug": "weird-en",
+   "id": "R6r2cscGGXQ",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "jejakislami",
+   "id": "xpGwk_bdxZ8",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "strangetales",
+   "id": "vAiLW5Zpg3c",
+   "v_pagi": 34,
+   "v_baru": 34
+  },
+  {
+   "slug": "kisahdharma",
+   "id": "34bSHOyyriY",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "space-en",
+   "id": "jTJEjYLrXGA",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "8OoVtehbyWs",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "horror-en",
+   "id": "u-GqEcijwIk",
+   "v_pagi": 35,
+   "v_baru": 35
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "vf3KMDXSsb4",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "horor",
+   "id": "-k5qqlU3JR8",
+   "v_pagi": 0,
+   "v_baru": 0
+  },
+  {
+   "slug": "weird-en",
+   "id": "6y6gU0GvHLs",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "kisahdharma",
+   "id": "fmqAeaarZXs",
+   "v_pagi": 0,
+   "v_baru": 0
+  },
+  {
+   "slug": "empires-en",
+   "id": "SVv6jFBOWkA",
+   "v_pagi": 5,
+   "v_baru": 5
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "zva_d8KCm8I",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "mind-en",
+   "id": "tfK7Y2Jhc54",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "tinybuilders",
+   "id": "Xbdku0L_4Xw",
+   "v_pagi": 25,
+   "v_baru": 25
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "ebZbCcznYZ4",
+   "v_pagi": 5,
+   "v_baru": 5
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "zItf87bPxvU",
+   "v_pagi": 48,
+   "v_baru": 48
+  },
+  {
+   "slug": "youtube-pov",
+   "id": "5GSghwov0nI",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "strangetales",
+   "id": "K0R-iFkBhUo",
+   "v_pagi": 6,
+   "v_baru": 6
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "V-tbxAqiCCc",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "horror-en",
+   "id": "HHFNynfnmek",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "weird-en",
+   "id": "hJQoixvH-18",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "horror-en",
+   "id": "dGE3_EeOzzc",
+   "v_pagi": 10,
+   "v_baru": 10
+  },
+  {
+   "slug": "strangetales",
+   "id": "D3Oiwt5kqtA",
+   "v_pagi": 13,
+   "v_baru": 13
+  },
+  {
+   "slug": "space-en",
+   "id": "qWsiDK-QWZM",
+   "v_pagi": 89,
+   "v_baru": 89
+  },
+  {
+   "slug": "strangetales",
+   "id": "nv0MSWFH3po",
+   "v_pagi": 3,
+   "v_baru": 3
+  },
+  {
+   "slug": "kisahdharma",
+   "id": "VXlIM-OrUJA",
+   "v_pagi": 0,
+   "v_baru": 0
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "hLjBBnMzy_o",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "empires-en",
+   "id": "xN8si7OLEIc",
+   "v_pagi": 1,
+   "v_baru": 2
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "loFcWFwCh6E",
+   "v_pagi": 3,
+   "v_baru": 3
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "E4OjHTPQbeU",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "horor",
+   "id": "m42ntYlIGSs",
+   "v_pagi": 6,
+   "v_baru": 6
+  },
+  {
+   "slug": "lima-misteri",
+   "id": "wzsb7Cvbtwk",
+   "v_pagi": 19,
+   "v_baru": 19
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "zeWbWqzBEDE",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "W4Atp612hRw",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "inktime",
+   "id": "LrIt7FeZ274",
+   "v_pagi": 46,
+   "v_baru": 46
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "Rf14NV4B3Fs",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "kisahdharma",
+   "id": "JS9MWMB0bUQ",
+   "v_pagi": 3,
+   "v_baru": 3
+  },
+  {
+   "slug": "mind-en",
+   "id": "vUTBGGn_i-Q",
+   "v_pagi": 2,
+   "v_baru": 3
+  },
+  {
+   "slug": "horor",
+   "id": "nadty2jGMfY",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "strangetales",
+   "id": "x2vtb-lo_Qc",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "youtube-pov",
+   "id": "Z7RFFHWouKA",
+   "v_pagi": 6,
+   "v_baru": 6
+  },
+  {
+   "slug": "strangetales",
+   "id": "gSMvSbMpJlo",
+   "v_pagi": 36,
+   "v_baru": 36
+  },
+  {
+   "slug": "history-en",
+   "id": "p4QkrS3lvfc",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "eLU2cgo527w",
+   "v_pagi": 25,
+   "v_baru": 25
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "LVHwjTrw3Ao",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "mind-en",
+   "id": "9s5iaAecFRw",
+   "v_pagi": 52,
+   "v_baru": 52
+  },
+  {
+   "slug": "horor",
+   "id": "V1XVDiCeBtc",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "horror-en",
+   "id": "LYjw4nTlwUE",
+   "v_pagi": 7,
+   "v_baru": 7
+  },
+  {
+   "slug": "mind-en",
+   "id": "SXGwivf_KQA",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "mystery-en",
+   "id": "fINDSxIaH5k",
+   "v_pagi": 4,
+   "v_baru": 4
+  },
+  {
+   "slug": "horror-en",
+   "id": "dNijEy2ksf8",
+   "v_pagi": 33,
+   "v_baru": 33
+  },
+  {
+   "slug": "horror-en",
+   "id": "apAsm6MGlzU",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "mystery-en",
+   "id": "teVuCq5mvqM",
+   "v_pagi": 20,
+   "v_baru": 20
+  },
+  {
+   "slug": "jejakbuddha",
+   "id": "i8F1dQTMInc",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "strangetales",
+   "id": "5YBXrBks6DU",
+   "v_pagi": 3,
+   "v_baru": 3
+  },
+  {
+   "slug": "horor",
+   "id": "iSIaj3nG_vk",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "weird-en",
+   "id": "ozH8OFoyP20",
+   "v_pagi": 45,
+   "v_baru": 45
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "hzxsT0vyfss",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "empires-en",
+   "id": "QnxIQ8J16_M",
+   "v_pagi": 4,
+   "v_baru": 4
+  },
+  {
+   "slug": "history-en",
+   "id": "0vmkyep-JnE",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "horor",
+   "id": "-TgaQlLOdv8",
+   "v_pagi": 16,
+   "v_baru": 16
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "b3KyDWsTyq0",
+   "v_pagi": 2,
+   "v_baru": 2
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "piEm5lHDVQY",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "strangetales",
+   "id": "Jb5RsdcoDRk",
+   "v_pagi": 4,
+   "v_baru": 4
+  },
+  {
+   "slug": "kisahalkitab",
+   "id": "S50tLTVEAI8",
+   "v_pagi": 1,
+   "v_baru": 1
+  },
+  {
+   "slug": "truecrime-en",
+   "id": "hY4iCDHCcGo",
+   "v_pagi": 46,
+   "v_baru": 46
+  },
+  {
+   "slug": "lima-misteri",
+   "id": "uTgiKL1xUNA",
+   "v_pagi": 1,
+   "v_baru": 1
+  }
+ ]
+}

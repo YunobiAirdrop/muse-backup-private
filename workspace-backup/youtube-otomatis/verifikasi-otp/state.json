@@ -94,6 +94,12 @@
   "keterangan": "Antrean verifikasi HP YouTube via nomor virtual OTPMurah.id (otomatis tiap 3 hari). 1 nomor virtual = 1 channel (1 akun 1 OTP); tiap run beli 1 nomor baru; YouTube bisa menolak nomor virtual (tidak ada OTP) -> cancel -> refund 100% otomatis.",
   "riwayat": [
     {
+      "tanggal": "2026-10-18T13:12+07:00",
+      "channel": "-",
+      "hasil": "CRON 1-jam: GAGAL dicek — sesi login OTPMurah.id kedaluwarsa (Google OAuth minta kata sandi manual untuk stokwebyakis@gmail.com). Browser task dihentikan per aturan (tidak minta kredensial). Tanpa order. Saldo & stok tidak bisa dicek; butuh user sign-in ulang. Saldo Rp 0 anomaly dari run 12:12 belum terjawab.",
+      "permintaan": "otomatis cron 1-jam (pantau-stok-otpmurah)"
+    },
+    {
       "tanggal": "2026-10-18T12:12+07:00",
       "channel": "-",
       "hasil": "CRON 1-jam: stok kosong (1x klik Beli Sekarang, pola 'stok kosong senyap'). SALDO ANOMALI: tampil Rp 0 (pagi ini tercatat Rp 11.000); tidak ada order/potongan dari run ini. Dilaporkan ke user untuk top up.",

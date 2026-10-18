@@ -1,9 +1,0 @@
-seg b7 [kd-n06]: 17.70s ok
-seg b7 [kd-f06]: 22.36s ok
-_vconcat: 567.40s
-T_B (bumper split): 305.90s
-_afull: 567.35s
-MASTER tmp: 567.35s
-RUNNING
--rw-rw---- 1 root nogroup  15204400 Oct 17 05:52 /home/hatch/workspace/kisah-dharma/2026-10-17/kisah-dharma-2026-10-17-long-small.mp4
--rw-rw---- 1 root nogroup 605505670 Oct 17 05:51 /home/hatch/workspace/kisah-dharma/2026-10-17/kisah-dharma-2026-10-17-long.mp4
