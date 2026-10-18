@@ -1,7 +1,7 @@
 ---
 id: pantau-stok-otpmurah
 title: Pantau stok OTPMurah (1 jam)
-enabled: true
+enabled: false
 owner: goal:monetisasi-channel-youtube-dalam-3-bulan
 mode: task
 schedule:

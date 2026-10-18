@@ -3,13 +3,13 @@
 <html b:css='false' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <!-- Google tag (gtag.js) -->
-<script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-2EKWMDG4B2'/>
+<script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-QV95J1LQWW'/>
 <script>
 //<![CDATA[
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-2EKWMDG4B2');
+gtag('config', 'G-QV95J1LQWW');
 //]]>
 </script>
 
