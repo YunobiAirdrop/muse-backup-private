@@ -129,7 +129,7 @@
   ],
   "file_thumbnail": "/home/hatch/workspace/youtube-otomatis/thumbnail-2026-10-13.jpg",
   "instruksi": "/home/hatch/workspace/youtube-otomatis/upload-instruksi-pov-2026-10-14-diponegoro.md",
-  "catatan": "Long 11:31 (692s), 88 beat, bumper voice-clone @6:49. Durasi beat dikoreksi via warp (json header MP3 overstate ~2.8%). Upload via API 2026-10-17: long vJI4rXLfMSw + 3 shorts (Y7IJZ3M8OSQ, syLWsY3qAh4, bIVfpvA7FW8), slot Sel 2026-10-20 19:00 WIB. AI disclosure WAJIB centang manual via Studio."
+  "catatan": "Long 11:31 (692s), 88 beat, bumper voice-clone @6:49. Durasi beat dikoreksi via warp (json header MP3 overstate ~2.8%). Upload via API 2026-10-17: long vJI4rXLfMSw + 3 shorts (Y7IJZ3M8OSQ, syLWsY3qAh4, bIVfpvA7FW8), slot Sel 2026-10-20 19:00 WIB. AI disclosure WAJIB centang manual via Studio. | Upload via API 2026-10-17: long vJI4rXLfMSw + 3 shorts (Y7IJZ3M8OSQ, syLWsY3qAh4, sBWFsY3qAh4) slot Sel 2026-10-20 19:00. AI disclosure centang manual."
  },
  {
   "tanggal": "2026-10-14",
@@ -145,7 +145,7 @@
   "file_thumbnail": "thumbnail-2026-10-14.jpg",
   "instruksi": "upload-instruksi-pov-2026-10-14-templar.md",
   "durasi_long_detik": 723,
-  "catatan": "Produksi 2026-10-14: 88 beat (1522 kata), cold open malam terakhir Acre, 88/88 gambar storybook (6 sempat diblokir kebijakan konten, retry prompt dilunakkan), TTS mudiwa, bumper voice-clone user sebelum beat 48, overlay 5 momen, thumbnail 'MALAM TERAKHIR!'. Upload LONG oleh browser task (slot Jumat 2026-10-16 19:00 WIB); 3 shorts untuk slot Sabtu 2026-10-17 19:00 WIB. Afiliasi: Cream JRG, Sabun Cuci Piring 5L, Cutter Mini. Upload via API 2026-10-17: long -2qLmaLbPZo + 3 shorts (F0Malo5MCoA, vkWKtzCUYQ4, 4qtGKOfpu9w), slot Sab 2026-10-17 19:00 WIB. AI disclosure WAJIB centang manual via Studio."
+  "catatan": "Produksi 2026-10-14: 88 beat (1522 kata), cold open malam terakhir Acre, 88/88 gambar storybook (6 sempat diblokir kebijakan konten, retry prompt dilunakkan), TTS mudiwa, bumper voice-clone user sebelum beat 48, overlay 5 momen, thumbnail 'MALAM TERAKHIR!'. Upload LONG oleh browser task (slot Jumat 2026-10-16 19:00 WIB); 3 shorts untuk slot Sabtu 2026-10-17 19:00 WIB. Afiliasi: Cream JRG, Sabun Cuci Piring 5L, Cutter Mini. Upload via API 2026-10-17: long -2qLmaLbPZo + 3 shorts (F0Malo5MCoA, vkWKtzCUYQ4, 4qtGKOfpu9w), slot Sab 2026-10-17 19:00 WIB. AI disclosure WAJIB centang manual via Studio. | Upload via API 2026-10-17: long -2qLmaLbPZo + 3 shorts (F0Malo5MCoA, vkWKtzCUYQ4, 4qtGKOfpu9w) slot Sab 2026-10-17 19:00. AI disclosure centang manual."
  },
  {
   "tanggal": "2026-10-15",
@@ -162,5 +162,21 @@
   "instruksi": "upload-instruksi-pov-2026-10-15-aceh.md",
   "durasi_long_detik": 721,
   "catatan": "Long 12:01 (721s), 88 beat, 88 gambar (fallback copy: beat-023<-024, beat-030<-031; 17 beat prompt dilunakkan), bumper voice-clone @7:59 (sebelum beat 48). Title card 3 dtk + pad audio 3 dtk; skala segmen 0.9883 selaras narasi. Slot: long 2026-10-18 19:00, shorts 2026-10-19 19:00. Upload via API 2026-10-17: long RQLFNJnfQi8 (slot Min 2026-10-18 19:00) + 3 shorts (DuO4SK10Kr0, cbYxqOvGnGo, vBQf93ljy18; slot Sen 2026-10-19 19:00). AI disclosure WAJIB centang manual via Studio."
+ },
+ {
+  "tanggal": "2026-10-17",
+  "topik": "POV: Kamu Jadi Samurai di Zaman Sengoku Jepang",
+  "kategori": "Dunia",
+  "status": "terjadwal",
+  "file_long": "video/2026-10-17-final.mp4",
+  "file_shorts": [
+   "shorts/2026-10-17-s1.mp4",
+   "shorts/2026-10-17-s2.mp4",
+   "shorts/2026-10-17-s3.mp4"
+  ],
+  "file_thumbnail": "thumbnail-2026-10-17.jpg",
+  "instruksi": "upload-instruksi-pov-2026-10-17.md",
+  "durasi_long_detik": 365,
+  "catatan": "Long 6:05 (365s), 88 beat, 88 gambar storybook 2D. Script+TTS+merge dibuat run 2026-10-17 03:24; assembly (chunk 22-gambar) + overlay 5 momen + shorts selesai run 2026-10-18 pagi. Slot: long+3shorts Rab 2026-10-21 19:00 WIB. AI disclosure WAJIB centang manual via Studio. | Upload via API 2026-10-18: long aksHPOrx_xI + 3 shorts (ov4N5cWXzoQ, 7f29ut5uBl0, f4XHWyeolic), slot Rab 2026-10-21 19:00 WIB. AI disclosure WAJIB centang manual via Studio."
  }
 ]

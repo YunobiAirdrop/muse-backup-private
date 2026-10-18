@@ -1,0 +1,43 @@
+      encoder         : Lavc62.28.102 libmp3lame
+[out#0/mp3 @ 0x5789677a30c0] video:0KiB audio:10KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 2.250198%
+size=      10KiB time=00:00:02.50 bitrate=  33.0kbits/s speed= 201x elapsed=0:00:00.01    
+-rw-rw---- 1 root nogroup 10315 Oct 18 09:28 audio/beats/2026-10-18/b015.mp3
+                       capture_output=True, text=True)
+    return float(r.stdout.strip())
+
+def main():
+    tgl = sys.argv[1]
+    beats = parse_script(os.path.join(BASE, "script", f"{tgl}.txt"))
+    print(f"{len(beats)} beats")
+    bdir = os.path.join(BASE, "audio", "beats", tgl)
+    os.makedirs(bdir, exist_ok=True)
+    jobs = [(n, nar, os.path.join(bdir, f"b{n:03d}.mp3")) for n, nar in beats]
+    results = {}
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        for num, st, p in ex.map(synth, jobs):
+            results[num] = (st, p)
+            print(f"  beat {num:03d}: {st}", flush=True)
+    fails = [n for n, (st, _) in results.items() if st not in ("ok", "skip")]
+    if fails:
+        print("GAGAL:", fails); sys.exit(1)
+    # durasi per beat + JSON durations + concat
+    durmap = {}
+    lst = os.path.join(bdir, "list.txt")
+    with open(lst, "w") as f:
+        for n, _ in beats:
+            p = os.path.join(bdir, f"b{n:03d}.mp3")
+            d = dur(p)
+            durmap[f"beat-{n:03d}"] = round(d, 3)
+            f.write(f"file '{p}'\n")
+    with open(os.path.join(BASE, "audio", f"{tgl}-durations.json"), "w") as f:
+        json.dump(durmap, f, indent=1)
+    with open(os.path.join(BASE, "audio", f"{tgl}.durations.txt"), "w") as f:
+        f.write("\n".join(f"{durmap[f'beat-{n:03d}']:.3f}" for n, _ in beats) + "\n")
+    out = os.path.join(BASE, "audio", f"{tgl}.mp3")
+    subprocess.run([FFQ, "-y", "-f", "concat", "-safe", "0", "-i", lst,
+                    "-c", "copy", out], capture_output=True, check=True)
+    d = dur(out)
+    print(f"OK: {out} ({d/60:.1f} mnt), total beats {d:.0f}s")
+
+if __name__ == "__main__":
+    main()

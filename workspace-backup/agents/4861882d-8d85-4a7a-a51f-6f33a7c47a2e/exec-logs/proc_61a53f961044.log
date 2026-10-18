@@ -1,0 +1,4 @@
+  File "/home/hatch/workspace/youtube-otomatis/weird-en/script/build_twopass_b16.py", line 80
+    else:
+    ^^^^
+SyntaxError: invalid syntax

@@ -1,0 +1,359 @@
+POV: Kamu Jadi Nelayan Phinisi di Sulawesi Abad 17
+88 beat | Tokoh: Laode, 24 tahun, awak kapal phinisi dari Bulukumba | Setting: Laut Banda & pesisir Sulawesi, tahun 1682, masa perdagangan rempah
+KARAKTER VISUAL: Laode, 24, young Bugis sailor, lean muscular build, sun-darkened skin, black hair tied back, white headband, sarong and simple shirt, determined fearful eyes. Haji Nangguru: old captain, 60s, grey beard, dark sarong, wooden amulet necklace, calm commanding eyes. Sulaeman: 20, fellow young sailor, bright cheerful face. Ship: phinisi "Nusa Bahari" — two masts, seven cream sails, dark ulin wood hull, carved prow. Setting: Banda Sea 1682, volcanic spice islands, wooden Banda harbor, Dutch VOC ships far in distance, storm clouds, towering waves.
+GAYA GAMBAR: 2D semi-cartoon digital illustration, storybook comic style, 16:9 widescreen, earthy muted palette (sea teal, storm grey, wood brown, sail cream, amber lantern light), dramatic cinematic composition, not photorealistic, no text
+CATATAN: hindari darah/kekerasan eksplisit di narasi maupun prompt gambar. Angka di naskah sudah dieja agar TTS natural. [JEDA] = tambah silence 0.8 detik SEBELUM beat (sebelum twist/momen kunci).
+OVERLAY TEKS (drawtext, 5 momen): beat 2 "LAUT BANDA, 1682" | beat 30 "BADAI DATANG" | beat 44 "SUBSCRIBE!" (3 detik) | beat 48 "PEROMPAK!" | beat 65 "TERDAMPAR"
+SHORTS: s1 = beat 1-6 (detik 0-45, cold open) | s2 = beat 40-48 (puncak badai + perompak) | s3 = beat 61-68 (selamat & kapal baru)
+
+BEAT 1:
+Ombak setinggi rumah menghantam lambung kapal — tali layarku putus di tanganku, dan aku bisa mendengar kayu kapal menjerit.
+GAMBAR: first-person view on deck of wooden phinisi ship, giant towering wave about to crash, sail rope snapping in young sailor's hand, storm darkness, extremely dramatic
+
+BEAT 2:
+Air asin memenuhi mulutku. Di sekelilingku, tujuh layar kapal robek satu per satu — seperti baju yang dikoyak raksasa.
+GAMBAR: phinisi ship deck in violent storm, torn sails whipping in wind, seawater flooding deck, young Bugis sailor Laode clinging to mast, terrified face, close dramatic shot
+
+BEAT 3:
+Dua puluh meter di belakang, kapal lanun bajak laut muncul dari kabut gelap — dan mereka sama sekali tidak kelihatan takut. [JEDA]
+GAMBAR: dark pirate ship with black sails emerging from storm fog behind the phinisi, ominous red lanterns, lightning, young sailor looking back in terror
+
+BEAT 4:
+Jadi bagaimana anak nelayan dari Bulukumba sepertiku bisa berakhir di sini? Tunggu — aku ceritakan dari awal.
+GAMBAR: split composition, storm-tossed ship on left, peaceful Bulukumba beach with shipbuilding on right, young sailor walking between, storybook contrast
+
+BEAT 5:
+Namaku Laode. Dua puluh empat tahun. Orang Bugis dari Tana Beru, desa para pembuat kapal di pesisir Bulukumba.
+GAMBAR: portrait of young Laode, 24, lean muscular Bugis sailor, sun-darkened skin, black hair tied back, white headband, sarong, standing on tropical beach, warm light, medium shot
+
+BEAT 6:
+Kakekku membuat kapal, ayahku membuat kapal — darahku sudah asin sebelum aku lahir.
+GAMBAR: old Bugis shipwright grandfather carving wooden hull on beach, father planing wood beside him, small boy Laode watching, traditional shipyard Tana Beru, warm nostalgic
+
+BEAT 7:
+Di desaku, membangun kapal bukan sekadar pekerjaan — itu ibadah. Setiap kapal lahir dari doa dan ritual.
+GAMBAR: Bugis shipbuilding ceremony on beach at dawn, elders praying around wooden hull skeleton, offerings and candles, mystical warm atmosphere
+
+BEAT 8:
+Sebelum kayu pertama ditebang, para panrita lopi — ahli pembuat perahu — memilih hari baik. Hari kelima atau ketujuh, kata mereka, rezeki ada di tangan.
+GAMBAR: old panrita lopi master reading the sky and calendar at dawn, workers waiting with axes, misty forest edge, ritual mood
+
+BEAT 9:
+Kayu besi, kayu bitti, kayu jati — dipilih satu per satu, ditebang, dikeringkan berbulan-bulan, lalu dirakit tanpa satu paku pun.
+GAMBAR: workers shaping dark ulin ironwood planks, wooden pegs joining hull, traditional hand tools, detailed craft scene, no nails
+
+BEAT 10:
+Dan sebelum diluncurkan, ada upacara maccera lopi — menyucikan kapal. Kapal kami diberkati sebelum menyentuh laut.
+GAMBAR: phinisi launching ceremony, decorated ship sliding into the sea, crowd celebrating with drums, colorful festive, dawn light
+
+BEAT 11:
+Kapal kami bernama Nusa Bahari. Dua tiang utama, tujuh layar — kalau semua terbentang, ia melaju seperti burung raksasa.
+GAMBAR: majestic phinisi ship full sail, seven cream sails billowing, two masts, dark wooden hull cutting through blue sea, epic wide shot
+
+BEAT 12:
+Nahkodanya Haji Nangguru — enam puluh tahun, janggut putih, kalung jimat kayu di leher. Katanya, ia sudah mengelilingi Nusantara sebelas kali.
+GAMBAR: old captain Haji Nangguru, 60s, grey beard, dark sarong, wooden amulet necklace, standing at helm of phinisi, calm commanding eyes, sea wind
+
+BEAT 13:
+Di usia sembilan belas aku diterima jadi awak. Ibuku menangis bangga — anaknya akan berlayar seperti leluhurnya.
+GAMBAR: mother embracing young Laode at the shore, phinisi anchored behind, emotional farewell, sailors boarding, warm sunset
+
+BEAT 14:
+Tahun seribu enam ratus delapan puluh dua, kami dapat misi besar: berlayar ke Banda, mengangkut pala dan cengkeh, lalu menjualnya ke Makassar.
+GAMBAR: storybook map of spice route from Sulawesi to Banda islands, tiny phinisi ship on dotted route, nutmeg and clove illustrations, aged parchment style
+
+BEAT 15:
+Jujur, aku tidak paham kenapa rempah segenggam bikin orang Eropa rela berperang. Kata Haji Nangguru: di Eropa, pala lebih mahal dari emas.
+GAMBAR: Laode holding a handful of nutmeg with puzzled face, old captain explaining with gestures, barrels of spices in ship hold, warm lantern light
+
+BEAT 16:
+Kami berlayar dua puluh hari ke timur. Laut Banda itu indah — tapi kata pelaut tua, laut yang paling indah biasanya paling berbahaya.
+GAMBAR: phinisi sailing calm turquoise Banda Sea, dolphins leaping, distant volcanic islands, beautiful but ominous dark clouds on horizon
+
+BEAT 17:
+Di Banda, pelabuhan kayu penuh sesak. Perahu-perahu kecil, aroma pala menusuk hidung, dan di kejauhan — kapal-kapal besar Belanda berlayar mengintai.
+GAMBAR: busy wooden Banda harbor 1682, small boats, sacks of spices, Dutch ships looming far in distance, Laode watching from deck, tense
+
+BEAT 18:
+Orang Belanda itu rakus. Mereka ingin menguasai semua pala — dan siapa pun yang berdagang tanpa izin mereka dianggap penyelundup.
+GAMBAR: large Dutch warship with flags in distance, dark threatening silhouette, small phinisi below, power contrast, dramatic
+
+BEAT 19:
+Tapi kami orang Bugis. Leluhur kami berlayar sebelum kapal mereka ada — kami tahu setiap selat, setiap arus, setiap tempat sembunyi.
+GAMBAR: Laode and captain studying the sea at night, pointing at hidden straits between islands, proud defiant mood, stars above
+
+BEAT 20:
+Kami memuat dua ratus karung pala dan cengkeh. Bau manisnya memenuhi seluruh kapal — aku sampai pusing menciumnya tiga hari.
+GAMBAR: sailors loading sacks of nutmeg and cloves into phinisi hold, sweet spice dust in air, Laode sneezing, humorous warm scene
+
+BEAT 21:
+Malam sebelum berlayar pulang, Sulaeman — sahabatku — berbisik: katanya ada lanun, bajak laut, berkeliaran di perairan selatan.
+GAMBAR: two young sailors whispering on deck at night, Sulaeman with scared excited face, dark sea, moonlight, pirate rumor mood
+
+BEAT 22:
+Aku tertawa waktu itu. Bodohnya aku. [JEDA]
+GAMBAR: Laode laughing under moonlight on deck, Sulaeman serious beside him, dramatic irony, calm sea
+
+BEAT 23:
+Pagi harinya kami berangkat. Angin bagus, layar penuh — Nusa Bahari melaju seperti anak panah.
+GAMBAR: phinisi sailing fast with full seven sails, sea spray, Laode grinning at the bow, joyful adventure
+
+BEAT 24:
+Tiga hari pertama sempurna. Kami memancing, bernyanyi, dan Sulaeman bercerita tentang gadis yang menunggunya di Bulukumba.
+GAMBAR: sailors fishing from deck, singing together, Sulaeman telling story with dreamy face, others laughing, warm camaraderie
+
+BEAT 25:
+Hari keempat, langit berubah. Awan hitam menumpuk di barat — dan Haji Nangguru langsung memerintahkan semua layar diturunkan separuh.
+GAMBAR: black storm clouds gathering on western horizon, old captain shouting orders, sailors hurrying to reef the sails, tension rising
+
+BEAT 26:
+Pelaut Bugis punya pepatah: kalau burung-burung laut terbang rendah ke darat, badai besar sedang datang.
+GAMBAR: flocks of seabirds flying low toward distant island, dark clouds, Laode watching worried from the mast, ominous
+
+BEAT 27:
+Malam itu angin mulai meraung. Kapal bergoyang seperti mainan — dan aku tidak bisa tidur sama sekali.
+GAMBAR: phinisi rocking violently at night, Laode clinging to bunk below deck, lantern swinging wildly, fear
+
+BEAT 28:
+Pagi kelima, badai itu datang. Bukan badai biasa — ini badai yang oleh orang tua disebut amarah laut.
+GAMBAR: colossal storm waves hitting phinisi, grey-green towering water walls, tiny ship against ocean, epic terrifying
+
+BEAT 29:
+Ombak setinggi rumah menghantam lambung — tali layarku putus di tanganku. Itulah momen yang kuceritakan di awal tadi.
+GAMBAR: giant wave crashing onto phinisi deck, rope snapping in Laode's hand, wood splintering, dramatic callback
+
+BEAT 30:
+Haji Nangguru berteriak: semua ke bawah! Tapi aku tidak bisa bergerak — kakiku seperti dipaku ke dek.
+GAMBAR: old captain shouting orders in storm, Laode frozen gripping a rope, waves flooding deck, chaos
+
+BEAT 31:
+Lalu terdengar bunyi yang tidak akan pernah kulupakan: tiang belakang patah seperti ranting kering.
+GAMBAR: rear mast of phinisi snapping in storm, wooden splinters flying, sailors diving aside, dramatic destruction
+
+BEAT 32:
+Layar-layar robek beterbangan. Kami kehilangan kendali — kapal berputar seperti daun di pusaran air.
+GAMBAR: phinisi spinning helplessly in churning waves, torn sails flying, Laode clinging to the rail, terror
+
+BEAT 33:
+Di tengah semua itu, Sulaeman meraih tanganku. Jangan lepas, teriaknya. Tangannya gemetar sama sepertiku.
+GAMBAR: two young sailors holding each other's hands on storm deck, rain lashing, solidarity, emotional
+
+BEAT 34:
+Dan tepat saat aku pikir tidak ada yang lebih buruk — dari kabut gelap di belakang, muncul layar hitam. [JEDA]
+GAMBAR: black-sailed pirate ship emerging from dark storm fog, dim red lanterns, lightning flash, Laode staring in horror
+
+BEAT 35:
+Lanun. Bajak laut. Mereka menunggu badai melemahkan kami — lalu datang mengambil rempah kami.
+GAMBAR: pirate ship closing in through storm, armed pirate silhouettes on deck, crippled phinisi helpless, dread
+
+BEAT 36:
+Haji Nangguru mengambil parang tuanya. Kalau mereka naik ke kapal ini, katanya tenang, kita lawan.
+GAMBAR: old captain gripping old machete, calm fierce eyes in storm, crew gathering behind him, defiant stand
+
+BEAT 37:
+Tapi perompak itu tidak langsung menyerang. Mereka mengelilingi kami — seperti hiu mengelilingi mangsa yang sekarat.
+GAMBAR: pirate ship circling the crippled phinisi, shark fin visible in waves, tense standoff in storm
+
+BEAT 38:
+Lalu ombak terbesar malam itu datang. Setinggi dua rumah. Menelan buritan kapal kami — dan separuh dek hilang begitu saja.
+GAMBAR: monstrous wave swallowing the stern of phinisi, deck breaking apart, sailors thrown, catastrophic
+
+BEAT 39:
+Aku terlempar ke laut. Air dingin menelanku. Di bawah air, semua sunyi — anehnya damai, seperti dipeluk.
+GAMBAR: Laode thrown into dark sea underwater, bubbles rising, strange calm, light shimmering from surface above, surreal
+
+BEAT 40:
+Tapi aku ingat wajah ibuku. Aku menendang sekuat tenaga — dan muncul ke permukaan, terbatuk-batuk.
+GAMBAR: Laode bursting through wave surface gasping for air, hand reaching up, determination, dramatic
+
+BEAT 41:
+Aku meraih papan pecahan tiang. Di kejauhan, Nusa Bahari tenggelam — perlahan, seperti raksasa yang berlutut.
+GAMBAR: phinisi ship sinking slowly in storm, bow rising into the air, Laode clinging to broken plank watching, heartbreaking epic
+
+BEAT 42:
+Dan perompak itu? Badai menelan mereka juga. Layar hitam mereka robek, kapal mereka terbalik — laut tidak memilih korban.
+GAMBAR: pirate ship capsizing in giant wave, black sails torn apart, Laode watching from plank, storm fury, poetic justice
+
+BEAT 43:
+Kalau menurut saya, malam itu laut sedang mengajari kami semua: di depan alam, perompak dan pedagang sama saja — sama-sama kecil.
+GAMBAR: tiny Laode on plank in vast stormy ocean, no ships visible, humbling scale, philosophical mood
+
+BEAT 44:
+Aku mengapung entah berapa lama. Lalu aku berdoa — dan buat kalian yang nonton sampai sini, tekan SUBSCRIBE, karena kisahku belum selesai.
+GAMBAR: Laode praying on floating plank at night, stars breaking through clouds, hopeful, warm light on his face
+
+BEAT 45:
+Entah doa atau keberuntungan — angin melemah. Pagi datang dengan langit jingga, dan laut menjadi tenang seperti tidak terjadi apa-apa.
+GAMBAR: calm orange sunrise over glassy sea after storm, Laode on plank exhausted, peaceful, new hope
+
+BEAT 46:
+Hanya aku, papan, dan dua ratus karung pala yang kini jadi makanan ikan.
+GAMBAR: Laode alone on plank in empty calm sea, floating spice sacks around, grief, vast loneliness
+
+BEAT 47:
+Jujur, bagian ini yang paling bikin saya merinding setiap kali mengingatnya: kesunyian setelah badai itu lebih menakutkan daripada badainya sendiri.
+GAMBAR: extreme wide shot of tiny Laode alone in endless sea, oppressive silence, haunting, pale light
+
+BEAT 48:
+Hari kedua mengapung. Tenggorokanku kering seperti pasir. Aku minum air hujan yang kutampung di sarungku — rasanya seperti surga. [JEDA]
+GAMBAR: Laode drinking rainwater collected in sarong cloth, desperate relief, grey drizzly sky
+
+BEAT 49:
+Hari ketiga. Aku mulai berhalusinasi — kulihat ibuku melambaikan tangan dari atas awan. Mungkin itu cara laut menghiburku.
+GAMBAR: Laode hallucinating, seeing mother's waving figure formed in clouds, surreal dreamy, sun glare
+
+BEAT 50:
+Lalu — titik hitam di cakrawala. Perahu! Aku berteriak sampai suaraku habis, melambaikan sarungku seperti orang gila.
+GAMBAR: tiny distant fishing boat on horizon, Laode waving sarong frantically on plank, hope igniting
+
+BEAT 51:
+Itu perahu nelayan dari sebuah pulau kecil. Mereka menarikku naik — dan aku menangis seperti bayi di dek mereka.
+GAMBAR: kind fishermen pulling Laode aboard small wooden boat, Laode crying with relief, warm human kindness, sunrise
+
+BEAT 52:
+Tiga hari kemudian aku sampai di Makassar. Kurus, gosong, tapi hidup. Orang-orang menatapku seperti melihat hantu.
+GAMBAR: emaciated sunburnt Laode arriving at wooden Makassar harbor 1682, crowd staring amazed, port life
+
+BEAT 53:
+Kabar buruknya: Nusa Bahari hilang bersama seluruh muatan. Kabar baiknya: aku masih bisa menceritakan ini padamu.
+GAMBAR: Laode telling his story to gathered villagers at night by fire, animated gestures, listeners wide-eyed, storytelling
+
+BEAT 54:
+Sulaeman? Sampai hari ini aku tidak tahu. Kadang aku masih bermimpi tangannya meraih tanganku di dek yang basah itu.
+GAMBAR: dream sequence, Sulaeman's hand reaching through rain on storm deck, Laode reaching back, melancholic blue tones
+
+BEAT 55:
+Haji Nangguru pernah bilang: laut itu seperti ibu — memberi makan, tapi bisa juga murka. Malam itu aku mengerti maksudnya.
+GAMBAR: old captain's wise face as memory overlay on calm sea, Laode sitting on beach at sunset reflecting, peaceful
+
+BEAT 56:
+Ibuku memelukku lama sekali di dermaga. Ia tidak bertanya apa-apa — pelukan ibu selalu lebih pintar dari kata-kata.
+GAMBAR: mother hugging Laode tightly at Bulukumba dock, tears, phinisi silhouettes behind, emotional reunion
+
+BEAT 57:
+Seminggu aku hanya tidur dan makan. Tapi setiap malam, aku mendengar debur ombak — dan kakiku gatal ingin kembali.
+GAMBAR: Laode restless in bed at night, hearing imagined waves, moonlight through window, longing
+
+BEAT 58:
+Orang desaku mengira aku trauma dan tidak akan berlayar lagi. Mereka salah besar.
+GAMBAR: villagers whispering about Laode, Laode walking past them toward shipyard determined, defiant
+
+BEAT 59:
+Aku datang ke para panrita lopi dan berkata: bangunkan aku kapal baru. Lebih kuat. Aku akan kembali ke laut.
+GAMBAR: Laode requesting new ship from old shipwright masters, pointing at hull lines drawn on sand, resolve
+
+BEAT 60:
+Mereka tersenyum — senyum orang tua yang sudah tahu jawabannya sebelum ditanya. [JEDA]
+GAMBAR: old shipwrights smiling knowingly, Laode eager, warm intergenerational moment, shipyard
+
+BEAT 61:
+Butuh hampir dua tahun membangunnya. Aku ikut menebang, mengeringkan, merakit — setiap papan kukenal seperti saudara.
+GAMBAR: Laode working alongside shipwrights, planing wood, raising the mast, montage of shipbuilding through seasons
+
+BEAT 62:
+Upacara maccera lopi kali ini terasa berbeda. Aku yang memimpin doa — dengan suara yang masih gemetar, tapi hati yang mantap.
+GAMBAR: Laode leading ship blessing ceremony, holding offering, new decorated phinisi, crowd, dawn light
+
+BEAT 63:
+Kapal baru itu kuberi nama Sulaeman Bahari — untuk sahabatku yang tangannya pernah menyelamatkanku di dek yang basah.
+GAMBAR: new phinisi ship name carving ceremony, Laode touching the carved name, emotional tribute, sunset launch
+
+BEAT 64:
+Kalau menurut saya, cara terbaik menghormati orang yang hilang di laut bukan dengan berhenti berlayar — tapi dengan berlayar lebih bijak.
+GAMBAR: Laode at helm of new ship, thoughtful face, open sea ahead, philosophical, golden light
+
+BEAT 65:
+Pelayaran pertamaku dengan kapal baru: aku tidak lagi tertawa mendengar cerita tentang lanun. Aku menyiapkan segalanya — dua kali lipat.
+GAMBAR: Laode double-checking ropes and supplies, serious prepared face, crew working disciplined, morning
+
+BEAT 66:
+Badai kedua yang kuhadapi tiga tahun kemudian terasa biasa saja. Bukan karena badainya kecil — tapi karena aku sudah besar.
+GAMBAR: Laode calmly commanding in moderate storm, confident stance, rain, growth and mastery
+
+BEAT 67:
+Itulah pelajaran terbesar laut untukku: ketakutan tidak hilang, ia hanya berubah menjadi kewaspadaan.
+GAMBAR: Laode looking at storm clouds with calm alert eyes, rain, wisdom, cinematic close-up
+
+BEAT 68:
+Aku berlayar dua puluh tahun setelah itu. Mengangkut pala, cengkeh, kain — dari Banda sampai Malaka.
+GAMBAR: montage of older Laode sailing various seas, spice ports, aged maps, years passing, adventure
+
+BEAT 69:
+Aku bahkan pernah melihat kapal-kapal Eropa yang lebih besar dari desaku. Tapi tidak satu pun nahkodanya mengenal laut seperti kami.
+GAMBAR: giant European galleon beside small phinisi, Laode proud at helm, quiet pride, sunset
+
+BEAT 70:
+Orang Bugis bilang: sekali layar terkembang, pantang surut ke pantai. Itu bukan sekadar pepatah — itu janji.
+GAMBAR: phinisi sails fully billowing at sunset, Laode silhouette at bow, epic inspirational wide shot
+
+BEAT 71:
+Jujur: aku tidak pernah benar-benar sembuh dari malam badai itu. Setiap hujan deras, tanganku masih gemetar sedikit.
+GAMBAR: older Laode's hand trembling slightly holding tea cup during heavy rain, window, vulnerable honest moment
+
+BEAT 72:
+Tapi justru itu yang membuatku manusia. Rasa takut itu kompas — ia memberitahuku kapan harus berani, dan kapan harus pulang.
+GAMBAR: Laode teaching a young sailor, pointing at the sea, mentorship, warm intergenerational, harbor
+
+BEAT 73:
+Kini aku sudah tua. Rambutku putih seperti buih. Tapi setiap kali kulihat phinisi berlayar, dadaku masih berdebar.
+GAMBAR: elderly Laode with white hair watching phinisi sail from beach, emotional, full circle, sunset
+
+BEAT 74:
+Cucuku bertanya: Kek, tidak kapok? Aku tertawa — tawa yang sama seperti dulu, tapi kini tanpa kebodohan.
+GAMBAR: old Laode laughing with grandchild on beach, phinisi in background, joy, legacy
+
+BEAT 75:
+Nak, kataku, laut mengambil banyak dariku. Tapi laut juga memberiku segalanya: sahabat, guru, dan cerita untukmu.
+GAMBAR: grandfather telling stories to wide-eyed grandchild, fire light at night, storytelling tradition
+
+BEAT 76:
+Dan cerita inilah — yang baru saja kamu dengar — yang akan terus berlayar, jauh setelah kapalku lapuk dan aku tiada.
+GAMBAR: glowing story-ship sailing into sunset sky, metaphorical, beautiful, dreamlike
+
+BEAT 77:
+Jadi kalau kamu bertanya apa warisan pelaut Bugis: bukan kapalnya, bukan rempahnya — tapi keberaniannya untuk kembali berlayar.
+GAMBAR: fleet of phinisi ships sailing into golden horizon, epic legacy, majestic wide shot
+
+BEAT 78:
+[JEDA] Malam itu aku belajar: hidup bukan tentang menghindari badai — tapi memilih kapal dan awak yang tepat untuk menghadapinya.
+GAMBAR: Laode and crew united on deck facing sunrise, arms raised, triumphant, inspirational
+
+BEAT 79:
+Mungkin kamu tidak akan pernah menghadapi badai di Laut Banda. Tapi badai dalam hidupmu — itu pasti datang.
+GAMBAR: storm clouds parting over calm sea, light breaking through, reflective, metaphorical
+
+BEAT 80:
+Dan saat itu tiba, ingat Laode: pegang erat talimu, jangan lepas tangan sahabatmu, dan berdoalah — selebihnya, biar laut yang memutuskan.
+GAMBAR: hands gripping rope together, friends united, symbolic close-up, emotional, warm light
+
+BEAT 81:
+Terima kasih sudah berlayar bersamaku malam ini. Kalau kisah Laode bikin kamu merinding, kamu tahu harus apa.
+GAMBAR: Laode waving farewell from phinisi deck, warm smile, sunset, inviting
+
+BEAT 82:
+Tekan SUBSCRIBE dan nyalakan loncengnya — karena besok, kita akan berlayar ke zaman yang lebih gila lagi.
+GAMBAR: phinisi sailing toward dramatic colorful horizon, adventurous tease, full sails, epic
+
+BEAT 83:
+Tulis di komentar: kalau kamu jadi Laode malam itu — bertahan di kapal yang tenggelam, atau terjun ke laut gelap? Aku baca semua komentarmu.
+GAMBAR: Laode looking at viewer, pointing invitingly, engaging, warm, breaking fourth wall
+
+BEAT 84:
+Sampai jumpa di pelayaran berikutnya. Laut memanggil — dan aku harus menjawab.
+GAMBAR: phinisi disappearing into misty sunrise, Laode silhouette waving, poetic farewell
+
+BEAT 85:
+Oh, satu lagi — Sulaeman. Kalau kamu masih di luar sana, di suatu pulau yang tidak ada di peta...
+GAMBAR: message in bottle floating on sea toward tiny distant island, hopeful, emotional, sunset
+
+BEAT 86:
+...ketahuilah: kapal baruku memakai namamu. Dan setiap kali layar terkembang, aku berlayar untuk kita berdua.
+GAMBAR: new phinisi full sail at golden sunset, tribute, emotional, majestic
+
+BEAT 87:
+Sekali layar terkembang, pantang surut ke pantai. Sampai jumpa, pelaut.
+GAMBAR: epic final shot, fleet of phinisi under starry night sky, majestic, storybook ending
+
+BEAT 88:
+Ini Laode, dari Laut Banda tahun seribu enam ratus delapan puluh dua — pamit.
+GAMBAR: elderly Laode smiling warmly at viewer on beach, phinisi behind, warm goodbye, storybook ending

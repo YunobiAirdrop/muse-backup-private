@@ -1,0 +1,9 @@
+75 entries written
+[in#0 @ 0x5e2b89568c80] Error opening input: No such file or directory
+Error opening input file /tmp/concat-b16-bumper.txt.
+Error opening input files: No such file or directory
+Traceback (most recent call last):
+  File "/home/hatch/workspace/youtube-otomatis/weird-en/script/ukur_durasi_b16.py", line 12, in <module>
+    dj[f"b16-beat-{i:03d}"] = float(r.stdout.strip())
+                              ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''

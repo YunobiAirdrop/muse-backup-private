@@ -1,0 +1,20 @@
+kipping unsupported chunk: XMP 
+[webp @ 0x59600884ca80] skipping unsupported chunk: XMP 
+[out#0/mp4 @ 0x596008850880] video:755KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.505803%
+frame=  254 fps=7.8 q=-1.0 Lsize=     759KiB time=00:00:08.40 bitrate= 740.5kbits/s dup=42 drop=0 speed=0.259x elapsed=0:00:32.38    
+[libx264 @ 0x59600884da00] frame I:2     Avg QP:24.14  size:102348
+[libx264 @ 0x59600884da00] frame P:70    Avg QP:24.58  size:  7749
+[libx264 @ 0x59600884da00] frame B:182   Avg QP:26.96  size:   142
+[libx264 @ 0x59600884da00] consecutive B-frames:  1.2%  9.4%  1.2% 88.2%
+[libx264 @ 0x59600884da00] mb I  I16..4:  2.5% 29.1% 68.4%
+[libx264 @ 0x59600884da00] mb P  I16..4:  0.1%  0.2%  0.0%  P16..4: 43.5%  4.5%  2.0%  0.0%  0.0%    skip:49.6%
+[libx264 @ 0x59600884da00] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  1.0%  0.1%  0.0%  direct: 0.5%  skip:98.5%  L0:36.3% L1:62.1% BI: 1.6%
+[libx264 @ 0x59600884da00] 8x8 transform intra:32.1% inter:53.0%
+[libx264 @ 0x59600884da00] coded y,uvDC,uvAC intra: 95.5% 73.9% 52.5% inter: 4.3% 2.3% 0.0%
+[libx264 @ 0x59600884da00] i16 v,h,dc,p: 52%  7% 24% 17%
+[libx264 @ 0x59600884da00] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 33% 13% 14%  6%  6%  7%  5%  8%  9%
+[libx264 @ 0x59600884da00] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 12% 11% 11%  8%  9%  7% 10% 10%
+[libx264 @ 0x59600884da00] i8c dc,h,v,p: 61% 13% 19%  7%
+[libx264 @ 0x59600884da00] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x59600884da00] kb/s:730.33
+

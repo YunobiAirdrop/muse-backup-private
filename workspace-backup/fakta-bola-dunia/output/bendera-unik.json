@@ -1,0 +1,25 @@
+{
+ "background": "luar angkasa (spacebg.py, 100% PIL: gradasi gelap, 2 layer bintang berkelip parallax, planet + cincin, bintang jatuh)",
+ "deskripsi": "Tiga bendera paling unik di dunia! Nepal punya satu-satunya bendera di dunia yang BUKAN persegi panjang (dua segitiga bertumpuk melambangkan Himalaya, matahari, dan bulan). Bhutan punya naga petir putih Druk yang memegang permata. Dan bendera Indonesia merah-putih yang hampir kembar dengan Monako! Fakta bola dunia mana yang paling bikin kamu kaget? Tulis di komentar! Jangan lupa like dan subscribe biar nggak ketinggalan fakta seru lainnya. #faktaunik #countryball #bendera #shorts #viralindonesia #foryou",
+ "duration_sec": 47.1,
+ "fakta": "3 bendera paling unik di dunia: Nepal (satu-satunya bendera non-persegi panjang), Bhutan (naga Druk), Indonesia (hampir kembar Monako)",
+ "format": "1080x1920, 30fps",
+ "fps": 30,
+ "negara": [
+  "indonesia",
+  "nepal",
+  "butan"
+ ],
+ "notes": "Iterasi part-bendera: (1) FPS naik ke 30 (pipeline lama 24fps), mouth-sync dianalisis ulang di 30fps; (2) sprite np/bt baru di faces_v2.py (Nepal: segitiga ganda biru + matahari/bulan; Bhutan: diagonal kuning-oranye + naga putih Druk sederhana); (3) background luar angkasa baru spacebg.py (aturan user 2026-10-16: background wajib beda tiap video, gamebg.py dilarang dipakai ulang); (4) overlay kata kunci per beat (2 SEGITIGA / NAGA DRUK / PERMATA AJAIB / MERAH PUTIH / MONAKO?!) gantikan overlay angka part10; (5) pitch-shift audio via bare ffmpeg (bukan ffmpeg-queue) karena antrean slot penuh render channel lain >10 menit untuk konversi 1 detik - mengacu preseden konversi still-image 2026-10-17; render video tetap via ffmpeg-queue; (6) assert durasi video vs audio <1.5s + rentang 25-70s sebelum move ke final; (7) verifikasi visual 5 frame: sprite/label/CTA tengah (LIKE+Subscribe+DONG!)/CTA akhir (LIKE & SUBSCRIBE!); (8) frame extract dengan -ss SEBELUM -i tidak akurat (lompat ke keyframe) - verifikasi CTA pakai -ss SETELAH -i.",
+ "slug": "fakta-bola-dunia",
+ "tanggal": "2026-10-18",
+ "title": "3 Bendera Terunik di Dunia! 😱 #butifyourcloseyoureyesmeme #shorts #faktaunik #viralindonesia #foryou",
+ "voices": {
+  "bt": "avocado_v2:mudiwa pitch 1.10x",
+  "id": "avocado_v2:mudiwa pitch 1.0x",
+  "np": "avocado_v2:mudiwa pitch 0.90x"
+ },
+ "video_id": "n8YVG3b09is",
+ "url": "https://youtu.be/n8YVG3b09is",
+ "status": "terupload (private, terjadwal Senin 2026-10-19 19:00 WIB)"
+}

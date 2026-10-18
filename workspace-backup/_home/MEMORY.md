@@ -24,6 +24,7 @@
 ## Preferences
 - Yunobi communicates in Indonesian; prefers Indonesian replies.
 - **FARCASTER (2026-10-17, user):** kerjaan Farcaster HANYA di chat utama — jangan kerjakan dari chat lain.
+- **PEMBAGIAN KERJA (ditegaskan ulang user 2026-10-18):** chat utama = FOKUS airdrop; urusan YouTube/blog = sisi WhatsApp. Jangan banjiri chat utama dengan update YouTube.
 - JAWABAN SINGKAT (2026-10-12, user): balas pendek, langsung ke inti, nggak usah panjang-panjang — biar token awet. Berlaku semua chat.
 - DELEGASI PENUH HOOK (2026-10-05): "intinya pake yang menurut kamu bakal rame untuk masing masing chanel kalo bisa pake tolls atau skil pake aja" — berlaku untuk semua channel YouTube.
 - **KOMENTAR PENONTON → SEMUA CHANNEL (2026-10-13, user):** setiap ada komentar penonton berisi masukan bagus: pelajari, perbaiki sesuai yang dimintanya, terapkan ke semua channel YouTube.

@@ -1,0 +1,6 @@
+ref: ((1280, 720), 'RGB', 1) files: 74
+odd: NONE
+smallest: (133930, 'b16-beat-030.webp') largest: (394248, 'b16-beat-045.webp')
+---titlecard & bumper---
+/tmp/titlecard_b16.webp (1280, 720) RGB 1
+/home/hatch/workspace/youtube-otomatis/weird-en/gambar/b16-bumper.webp (1280, 720) RGB 1

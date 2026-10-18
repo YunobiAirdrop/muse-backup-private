@@ -1,1 +1,63 @@
-{"items":[{"fakta":"Buah merah yang renyah dan manis!","nama":"Apel","pexels_query":"red apple"},{"fakta":"Buah kuning kesukaan monyet!","nama":"Pisang","pexels_query":"bananas"},{"fakta":"Buah oranye penuh vitamin C!","nama":"Jeruk","pexels_query":"oranges"},{"fakta":"Raja buah yang manisnya juara!","nama":"Mangga","pexels_query":"mango"},{"fakta":"Buah raksasa yang segar banget pas panas!","nama":"Semangka","pexels_query":"watermelon"},{"fakta":"Buah kecil-kecil yang manis, makan sebiji nggak cukup!","nama":"Anggur","pexels_query":"grapes"},{"fakta":"Buah merah berbiji yang manis agak asam!","nama":"Stroberi","pexels_query":"strawberries"},{"fakta":"Buah berduri tapi dalamnya manis banget!","nama":"Nanas","pexels_query":"pineapple"}],"judul":"Buah","kategori":"jenis buah","part":1}
+{
+ "items": [
+  {
+   "fakta": "Buah merah yang renyah dan manis!",
+   "nama": "Apel",
+   "pexels_query": "red apple",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/buah-part1/tempel/item00.jpg",
+   "kredit": "Ellie Chang / Pexels"
+  },
+  {
+   "fakta": "Buah kuning kesukaan monyet!",
+   "nama": "Pisang",
+   "pexels_query": "bananas",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/buah-part1/tempel/item01.jpg",
+   "kredit": "Gustavo Denuncio / Pexels"
+  },
+  {
+   "fakta": "Buah oranye penuh vitamin C!",
+   "nama": "Jeruk",
+   "pexels_query": "oranges",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/buah-part1/tempel/item02.jpg",
+   "kredit": "Pixabay / Pexels"
+  },
+  {
+   "fakta": "Raja buah yang manisnya juara!",
+   "nama": "Mangga",
+   "pexels_query": "mango",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/buah-part1/tempel/item03.jpg",
+   "kredit": "Anurag Jamwal / Pexels"
+  },
+  {
+   "fakta": "Buah raksasa yang segar banget pas panas!",
+   "nama": "Semangka",
+   "pexels_query": "watermelon",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/buah-part1/tempel/item04.jpg",
+   "kredit": "Rodion Kutsaiev / Pexels"
+  },
+  {
+   "fakta": "Buah kecil-kecil yang manis, makan sebiji nggak cukup!",
+   "nama": "Anggur",
+   "pexels_query": "grapes",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/buah-part1/tempel/item05.jpg",
+   "kredit": "Angelica Ospino Laguna / Pexels"
+  },
+  {
+   "fakta": "Buah merah berbiji yang manis agak asam!",
+   "nama": "Stroberi",
+   "pexels_query": "strawberries",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/buah-part1/tempel/item06.jpg",
+   "kredit": "Saravanan Narayanan / Pexels"
+  },
+  {
+   "fakta": "Buah berduri tapi dalamnya manis banget!",
+   "nama": "Nanas",
+   "pexels_query": "pineapple",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/buah-part1/tempel/item07.jpg",
+   "kredit": "Gustavo Fring / Pexels"
+  }
+ ],
+ "judul": "Buah",
+ "kategori": "jenis buah",
+ "part": 1
+}

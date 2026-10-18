@@ -16,3 +16,9 @@ Prepared: ⁨2026-10-14T04:26:26Z⁩.
 Ini janji eksplisit ke user yang jatuh tempo pagi ini: cek ulang views 95 video stagnan setelah diberi +4x salin link (total 7x) kemarin 13 Okt jam 20:52 WIB.
 
 Selected for regular priority at ⁨2026-10-14T04:27:07.366687+00:00⁩. Record created ⁨2026-10-18T07:06:25.797205750+00:00⁩; delivery is not yet confirmed.
+
+
+**Delivery outcome (⁨2026-10-18T07:06:28.470823+00:00⁩):** Not sent. Queue state: `⁨suppressed⁩`.
+Reason: `⁨revalidation_declined⁩`.
+`⁨agent.message_mailbox.submission_id=15ab46a0-f62e-ad78-55e7-abb34723b6cf⁩` resolves the delivery transcript.
+<!-- proactive-outcome:proactive_notifier:run:proactive_notification:phase-497764:regular -->

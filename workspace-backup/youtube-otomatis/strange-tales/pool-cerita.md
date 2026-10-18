@@ -4,6 +4,9 @@
 
 ## SUDAH DIPAKAI
 - [x] 2026-10-05 — Silkhenge spider, Peru 2013 (struktur sutra mini mirip Stonehenge, pembuat tak dikenal)
+- [x] 2026-10-17 — Lake Hillier, Australia (danau pink bubblegum)
+- [x] 2026-10-17 — Kentucky meat shower, 1876 (daging jatuh dari langit)
+- [x] 2026-10-17 — Upside-down jellyfish, Cassiopea (bertani sinar matahari)
 
 ## ANTRIAN
 1. **Immortal jellyfish** — Hook: "This animal can live forever." Fakta: Turritopsis dohrnii bisa kembali ke tahap polip saat terluka/tua, siklus hidup berulang tanpa batas; ditemukan di Mediterania, kini menyebar ke seluruh dunia lewat air ballast kapal.

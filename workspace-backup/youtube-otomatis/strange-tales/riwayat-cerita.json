@@ -24,37 +24,37 @@
    "cerita": "Mantis shrimp (punches faster than a bullet)",
    "tanggal": "2026-10-07",
    "video_url": "PENDING_UPLOAD",
-   "status": "video produced OK; upload 2026-10-07 BLOCKED limit; retry 2026-10-08 16:57 WIB BLOCKED lagi (Batas upload harian telah tercapai) \u2014 antrean retry-queue/strangetales-mantis-shrimp-2026-10-08.json, slot 2026-10-09 21:00 WIB, watchdog 20:00"
+   "status": "video produced OK; upload 2026-10-07 BLOCKED limit; retry 2026-10-08 16:57 WIB BLOCKED lagi (Batas upload harian telah tercapai) — antrean retry-queue/strangetales-mantis-shrimp-2026-10-08.json, slot 2026-10-09 21:00 WIB, watchdog 20:00"
   },
   {
    "cerita": "Blood Falls, Antarctica (bleeding glacier)",
    "tanggal": "2026-10-07",
    "video_url": "PENDING_UPLOAD",
-   "status": "video produced OK; upload 2026-10-07 BLOCKED limit; retry 2026-10-08 16:57 WIB tidak dicoba (berhenti total aturan limit) \u2014 antrean retry-queue/strangetales-blood-falls-2026-10-08.json, slot 2026-10-10 03:00 WIB, watchdog 20:00"
+   "status": "video produced OK; upload 2026-10-07 BLOCKED limit; retry 2026-10-08 16:57 WIB tidak dicoba (berhenti total aturan limit) — antrean retry-queue/strangetales-blood-falls-2026-10-08.json, slot 2026-10-10 03:00 WIB, watchdog 20:00"
   },
   {
    "cerita": "The Mary Celeste (ghost ship, 1872)",
    "tanggal": "2026-10-07",
    "video_url": "PENDING_UPLOAD",
-   "status": "video produced OK; upload 2026-10-07 BLOCKED limit; retry 2026-10-08 16:57 WIB tidak dicoba (berhenti total aturan limit) \u2014 antrean retry-queue/strangetales-mary-celeste-2026-10-08.json, slot 2026-10-10 07:00 WIB, watchdog 20:00"
+   "status": "video produced OK; upload 2026-10-07 BLOCKED limit; retry 2026-10-08 16:57 WIB tidak dicoba (berhenti total aturan limit) — antrean retry-queue/strangetales-mary-celeste-2026-10-08.json, slot 2026-10-10 07:00 WIB, watchdog 20:00"
   },
   {
    "cerita": "Axolotl (regrows brain, never grows up)",
    "tanggal": "2026-10-09",
    "video_url": "PENDING_UPLOAD",
-   "status": "video produced OK; upload 2026-10-09 ~16:57 WIB BLOCKED limit \u2014 antrean retry-queue, watchdog 20:00 (eligible \u00b12026-10-10 16:57 WIB)"
+   "status": "video produced OK; upload 2026-10-09 ~16:57 WIB BLOCKED limit — antrean retry-queue, watchdog 20:00 (eligible ±2026-10-10 16:57 WIB)"
   },
   {
    "cerita": "Voynich manuscript (unreadable for 600 years)",
    "tanggal": "2026-10-09",
    "video_url": "PENDING_UPLOAD",
-   "status": "video produced OK; upload 2026-10-09 ~16:57 WIB BLOCKED limit \u2014 antrean retry-queue, watchdog 20:00 (eligible \u00b12026-10-10 16:57 WIB)"
+   "status": "video produced OK; upload 2026-10-09 ~16:57 WIB BLOCKED limit — antrean retry-queue, watchdog 20:00 (eligible ±2026-10-10 16:57 WIB)"
   },
   {
    "cerita": "Lake Natron, Tanzania (turns animals to stone)",
    "tanggal": "2026-10-09",
    "video_url": "PENDING_UPLOAD",
-   "status": "video produced OK; upload 2026-10-09 ~16:57 WIB BLOCKED limit \u2014 antrean retry-queue, watchdog 20:00 (eligible \u00b12026-10-10 16:57 WIB)"
+   "status": "video produced OK; upload 2026-10-09 ~16:57 WIB BLOCKED limit — antrean retry-queue, watchdog 20:00 (eligible ±2026-10-10 16:57 WIB)"
   },
   {
    "cerita": "Catatumbo lightning, Venezuela (300 nights a year)",
@@ -66,13 +66,13 @@
    "cerita": "The Bloop, 1997 (mystery ocean sound)",
    "tanggal": "2026-10-10",
    "video_url": "PENDING_UPLOAD",
-   "status": "video produced OK 2026-10-10 (36.0 dtk); upload 2026-10-10 18:03 WIB BLOCKED limit (setelah catatumbo lolos) \u2014 antrean retry-queue/strangetales-bloop-2026-10-10.json, slot 2026-10-12 03:00 WIB, watchdog 20:00"
+   "status": "video produced OK 2026-10-10 (36.0 dtk); upload 2026-10-10 18:03 WIB BLOCKED limit (setelah catatumbo lolos) — antrean retry-queue/strangetales-bloop-2026-10-10.json, slot 2026-10-12 03:00 WIB, watchdog 20:00"
   },
   {
    "cerita": "Darvaza gas crater, Turkmenistan (Door to Hell)",
    "tanggal": "2026-10-10",
    "video_url": "PENDING_UPLOAD",
-   "status": "video produced OK 2026-10-10 (30.7 dtk); tidak dicoba (stop total aturan limit) \u2014 antrean retry-queue/strangetales-darvaza-2026-10-10.json, slot 2026-10-12 07:00 WIB, watchdog 20:00"
+   "status": "video produced OK 2026-10-10 (30.7 dtk); tidak dicoba (stop total aturan limit) — antrean retry-queue/strangetales-darvaza-2026-10-10.json, slot 2026-10-12 07:00 WIB, watchdog 20:00"
   },
   {
    "cerita": "Glasswing butterfly (wings made of glass)",
@@ -96,7 +96,7 @@
    "cerita": "Sailing stones, Death Valley (rocks move by themselves)",
    "tanggal": "2026-10-12",
    "video_url": "https://youtube.com/shorts/gSMvSbMpJlo",
-   "status": "UPLOADED & SCHEDULED 2026-10-14 21:00 WIB (browser task selesai 2026-10-12 21:59 WIB; channel UCAVSqZjG8Af_pm_1uD5wRzA terverifikasi; not for kids, AI disclosure YES, komentar Allow all, kategori Entertainment, bahasa English; cek copyright/community bersih). Pinned comment BELUM bisa dipasang (video masih pribadi sampai tayang) \u2014 pasang+pin setelah publik 2026-10-14 21:00 WIB."
+   "status": "UPLOADED & SCHEDULED 2026-10-14 21:00 WIB (browser task selesai 2026-10-12 21:59 WIB; channel UCAVSqZjG8Af_pm_1uD5wRzA terverifikasi; not for kids, AI disclosure YES, komentar Allow all, kategori Entertainment, bahasa English; cek copyright/community bersih). Pinned comment BELUM bisa dipasang (video masih pribadi sampai tayang) — pasang+pin setelah publik 2026-10-14 21:00 WIB."
   },
   {
    "cerita": "Eternal flame waterfall, New York (flame behind waterfall)",
@@ -150,19 +150,19 @@
    "cerita": "The Hum (mysterious low-frequency hum, Bristol/Taos)",
    "tanggal": "2026-10-15",
    "video_url": "PENDING_UPLOAD",
-   "status": "video produced OK 2026-10-15 (28.60 dtk); upload oleh parent \u2014 slot 2026-10-15 21:00 WIB; file: 2026-10-15/strange-tales-2026-10-15-the-hum.mp4"
+   "status": "video produced OK 2026-10-15 (28.60 dtk); upload oleh parent — slot 2026-10-15 21:00 WIB; file: 2026-10-15/strange-tales-2026-10-15-the-hum.mp4"
   },
   {
    "cerita": "Lluvia de Peces, Yoro Honduras (fish rain)",
    "tanggal": "2026-10-15",
    "video_url": "PENDING_UPLOAD",
-   "status": "video produced OK 2026-10-15 (34.27 dtk); upload oleh parent \u2014 slot 2026-10-16 03:00 WIB; file: 2026-10-15/strange-tales-2026-10-15-lluvia-de-peces.mp4"
+   "status": "video produced OK 2026-10-15 (34.27 dtk); upload oleh parent — slot 2026-10-16 03:00 WIB; file: 2026-10-15/strange-tales-2026-10-15-lluvia-de-peces.mp4"
   },
   {
    "cerita": "The Blob (Physarum polycephalum, brainless maze solver)",
    "tanggal": "2026-10-15",
    "video_url": "PENDING_UPLOAD",
-   "status": "video produced OK 2026-10-15 (29.71 dtk); upload oleh parent \u2014 slot 2026-10-16 07:00 WIB; file: 2026-10-15/strange-tales-2026-10-15-blob-slime.mp4"
+   "status": "video produced OK 2026-10-15 (29.71 dtk); upload oleh parent — slot 2026-10-16 07:00 WIB; file: 2026-10-15/strange-tales-2026-10-15-blob-slime.mp4"
   },
   {
    "cerita": "The Hum (mysterious low-frequency drone, Bristol/Taos)",
@@ -181,6 +181,24 @@
    "tanggal": "2026-10-15",
    "video_url": "https://youtu.be/Qj-AboOOlZU",
    "status": "UPLOADED via API 2026-10-15 ~18:40 WIB; SCHEDULED 2026-10-18 07:00 WIB (private s/d publishAt; AI disclosure manual di Studio)"
+  },
+  {
+   "cerita": "Lake Hillier, Australia (bubblegum pink lake)",
+   "tanggal": "2026-10-17",
+   "video_url": "https://youtu.be/-SDS41ICvi4",
+   "status": "UPLOADED via API 2026-10-18; SCHEDULED 2026-10-18 21:00 WIB (private s/d publishAt; not for kids; AI disclosure WAJIB dicentang manual di Studio sebelum tayang)"
+  },
+  {
+   "cerita": "Kentucky meat shower, 1876 (meat fell from sky)",
+   "tanggal": "2026-10-17",
+   "video_url": "https://youtu.be/P3EtGXAgwC0",
+   "status": "UPLOADED via API 2026-10-18; SCHEDULED 2026-10-19 03:00 WIB (private s/d publishAt; AI disclosure manual di Studio)"
+  },
+  {
+   "cerita": "Upside-down jellyfish (Cassiopea, farms sunlight)",
+   "tanggal": "2026-10-17",
+   "video_url": "https://youtu.be/NoqU8B7CwxI",
+   "status": "UPLOADED via API 2026-10-18; SCHEDULED 2026-10-19 07:00 WIB (private s/d publishAt; AI disclosure manual di Studio)"
   }
  ]
 }
