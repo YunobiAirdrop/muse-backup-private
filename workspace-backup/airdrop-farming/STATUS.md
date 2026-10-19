@@ -165,6 +165,20 @@ Portal Bitcoin, Abstract — semuanya sudah terdaftar di `projects.json`.
 Tidak lolos filter hari ini: Fiamma chain (effort berat, butuh wallet Signet +
 bridge 2 jam; dipantau).
 
+## Peluang Baru 2026-10-19 (airdrop-hunter-x)
+
+Sumber: social.search (IG/FB/Threads) + browser.search news (10/10–19/10). Tidak
+ada yang lolos filter hari ini — tidak ada penambahan ke `projects.json`.
+
+Sudah ada di sistem (tidak ditambahkan ulang): Neptune, Variational, GTE,
+Zenchain, Dextr, Multipli, Saturn (semua via thread @MaransCrypto/typefully).
+Ditolak sebelumnya, tetap ditolak: GIWA & Titan (riset 2026-10-18 — ketuaan /
+non-EVM wallet); Extended/Starknet perp DEX (butuh modal asli, bukan gratis).
+Ditolak hari ini: **deFarm** (testnet.de.farm, @deFarm_ETH) — thread Tanaka_L2
+mengklaim "testnet launched October 12th" tapi FAQ resmi Coda.io berumur
+907 hari (program Early Adopter/mainnet beta 2024, 7 epoch selesai); BUKAN
+peluang baru, kemungkinan sudah tutup.
+
 ## 2026-10-18 — Proyek baru ditambahkan (4)
 - Dextr (Base testnet, points REP, target 500k)
 - Portal Bitcoin (swap BTC-EVM harian, sparks points, butuh Portal extension)
