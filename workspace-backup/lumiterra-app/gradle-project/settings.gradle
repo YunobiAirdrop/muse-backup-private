@@ -1,0 +1,2 @@
+rootProject.name = "Lumiterra"
+include(":app")

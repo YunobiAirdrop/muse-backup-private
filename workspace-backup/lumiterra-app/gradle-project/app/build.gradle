@@ -1,0 +1,24 @@
+apply plugin: "com.android.application"
+android {
+    namespace "com.yunobi.lumiterra"
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.yunobi.lumiterra"
+        minSdk 24
+        targetSdk 34
+        versionCode 3
+        versionName "1.2"
+    }
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}

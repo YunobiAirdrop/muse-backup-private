@@ -1,2 +1,3 @@
 2026-10-19 22:47:19 scan-review-video: OK, 0 video pending → Firebase /yt/review.json (20 channel scan)
 2026-10-19 16:22:45 scan-review-video: GAGAL — semua 20 channel kena HTTP 429 (rate limit YouTube API, 2x run + retry 3 mnt tetap 429); Firebase /yt/review.json tetap tertulis 0 pending (sesuai hasil scan terakhir sukses 22:47 WIB)
+2026-10-20 01:46:23 scan-review-video: GAGAL — semua 20 channel kena HTTP 429 (rate limit YouTube API); Firebase /yt/review.json TIDAK ditimpa (skrip by-design), data lama (0 pending, scan sukses 2026-10-19 22:47 WIB) dipertahankan
