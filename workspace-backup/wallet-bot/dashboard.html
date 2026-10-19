@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Airdrop Farming Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, Roboto, "Segoe UI", sans-serif; background: #0f1420; color: #e8ecf1; padding: 12px; font-size: 17px; line-height: 1.45; }
+  .wrap { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; text-align: center; margin: 8px 0 4px; }
+  .sub { text-align: center; color: #8b93a7; font-size: .9rem; margin-bottom: 12px; }
+  .wallet { background: #182030; border: 1px solid #2a3550; border-radius: 12px; padding: 12px; margin-bottom: 14px; text-align: center; }
+  .wallet .addr { font-family: monospace; font-size: .95rem; word-break: break-all; color: #7dd3fc; }
+  .wallet button { margin-top: 8px; background: #2563eb; color: #fff; border: 0; border-radius: 8px; padding: 10px 18px; font-size: 1rem; }
+  .summary { display: flex; gap: 10px; margin-bottom: 14px; }
+  .sum-card { flex: 1; background: #182030; border: 1px solid #2a3550; border-radius: 12px; padding: 12px 8px; text-align: center; }
+  .sum-card .num { font-size: 1.6rem; font-weight: 700; }
+  .sum-card .lbl { font-size: .8rem; color: #8b93a7; }
+  h2 { font-size: 1.15rem; margin: 18px 0 10px; border-left: 4px solid #2563eb; padding-left: 10px; }
+  .card { background: #182030; border: 1px solid #2a3550; border-radius: 12px; padding: 14px; margin-bottom: 10px; }
+  .card .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  .card .name { font-weight: 700; font-size: 1.05rem; }
+  .badge { font-size: .78rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; white-space: nowrap; }
+  .st-active { background: #14532d; color: #4ade80; }
+  .st-pending { background: #713f12; color: #facc15; }
+  .st-blocked { background: #7f1d1d; color: #f87171; }
+  .st-skipped { background: #374151; color: #9ca3af; }
+  .card .bal { font-size: 1.25rem; font-weight: 700; color: #7dd3fc; margin: 4px 0; }
+  .card .meta { font-size: .88rem; color: #aab3c5; }
+  .card .note { font-size: .85rem; color: #8b93a7; margin-top: 6px; border-top: 1px solid #2a3550; padding-top: 6px; }
+  .act-row { display: flex; justify-content: space-between; background: #182030; border: 1px solid #2a3550; border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; }
+  .act-row .tx { font-weight: 700; font-size: 1.2rem; color: #4ade80; }
+  .todo { background: #182030; border: 1px solid #2a3550; border-left: 4px solid #facc15; border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; }
+  .todo .who { display: inline-block; font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 12px; margin-top: 6px; }
+  .who-user { background: #713f12; color: #facc15; }
+  .who-assistant { background: #1e3a8a; color: #93c5fd; }
+  .who-auto { background: #14532d; color: #4ade80; }
+  .refresh { display: block; width: 100%; margin: 16px 0 8px; background: #2563eb; color: #fff; border: 0; border-radius: 10px; padding: 14px; font-size: 1.05rem; font-weight: 700; }
+  .err { background: #7f1d1d; color: #fca5a5; border-radius: 10px; padding: 10px; margin-bottom: 10px; font-size: .9rem; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🚜 Airdrop Farming</h1>
+  <div class="sub" id="lastUpdated">Memuat…</div>
+
+  <div class="wallet">
+    <div style="font-size:.85rem;color:#8b93a7;margin-bottom:4px">Farming Wallet</div>
+    <div class="addr" id="walletAddr">-</div>
+    <button onclick="copyAddr()">📋 Salin Alamat</button>
+  </div>
+
+  <div class="summary">
+    <div class="sum-card"><div class="num" id="sumActive" style="color:#4ade80">-</div><div class="lbl">Aktif</div></div>
+    <div class="sum-card"><div class="num" id="sumTx" style="color:#7dd3fc">-</div><div class="lbl">TX Hari Ini</div></div>
+    <div class="sum-card"><div class="num" id="sumPending" style="color:#facc15">-</div><div class="lbl">Perlu Tindakan</div></div>
+  </div>
+
+  <h2>⛓️ Proyek</h2>
+  <div id="projects"></div>
+
+  <h2>📊 Aktivitas Hari Ini</h2>
+  <div id="activity"></div>
+
+  <h2>📝 Perlu Tindakan</h2>
+  <div id="todos"></div>
+
+  <button class="refresh" onclick="load()">🔄 Refresh Data</button>
+  <div class="sub" style="margin-top:10px">Data: farming_status.json</div>
+</div>
+
+<script>
+const STATUS_LABEL = { active: "AKTIF", pending: "PENDING", blocked: "TERHALANG", skipped: "SKIP" };
+const FALLBACK = {
+  "wallet": "0xf0f25C36AC70E9d787a108eFB351626192C8107b",
+  "last_updated": "-",
+  "projects": [], "activity_today": [], "pending_actions": []
+};
+
+function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function render(d){
+  document.getElementById("walletAddr").textContent = d.wallet || "-";
+  document.getElementById("lastUpdated").textContent = "Update: " + (d.last_updated || "-");
+
+  const active = (d.projects||[]).filter(p=>p.status==="active").length;
+  const txTotal = (d.activity_today||[]).reduce((a,b)=>a+(b.tx||0),0);
+  document.getElementById("sumActive").textContent = active;
+  document.getElementById("sumTx").textContent = txTotal;
+  document.getElementById("sumPending").textContent = (d.pending_actions||[]).length;
+
+  document.getElementById("projects").innerHTML = (d.projects||[]).map(p=>`
+    <div class="card">
+      <div class="top"><span class="name">${esc(p.name)}</span>
+        <span class="badge st-${esc(p.status)}">${STATUS_LABEL[p.status]||esc(p.status)}</span></div>
+      <div class="bal">${esc(p.balance)} ${esc(p.token)}</div>
+      <div class="meta">${p.chain_id ? "Chain ID: "+esc(p.chain_id)+" · " : ""}TX hari ini: <b>${p.tx_today||0}</b></div>
+      ${p.note ? `<div class="note">${esc(p.note)}</div>` : ""}
+    </div>`).join("");
+
+  document.getElementById("activity").innerHTML = (d.activity_today||[]).map(a=>`
+    <div class="act-row"><div><b>${esc(a.chain)}</b><div style="font-size:.85rem;color:#8b93a7">${esc(a.desc||"")}</div></div>
+    <div class="tx">${a.tx||0} tx</div></div>`).join("");
+
+  const whoCls = { "user":"who-user", "assistant":"who-assistant" };
+  document.getElementById("todos").innerHTML = (d.pending_actions||[]).map(t=>{
+    const w = (t.who||"").toLowerCase();
+    const cls = w.includes("auto") ? "who-auto" : (whoCls[w] || "who-user");
+    return `<div class="todo">${esc(t.action)}<br><span class="who ${cls}">${esc(t.who)}</span></div>`;
+  }).join("");
+}
+
+async function load(){
+  try {
+    const r = await fetch("farming_status.json?t=" + Date.now());
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    render(await r.json());
+  } catch(e){
+    render(FALLBACK);
+    const el = document.getElementById("projects");
+    el.innerHTML = `<div class="err">Gagal memuat farming_status.json — buka via server/refresh.</div>` + el.innerHTML;
+  }
+}
+
+function copyAddr(){
+  const a = document.getElementById("walletAddr").textContent;
+  if(navigator.clipboard) navigator.clipboard.writeText(a).then(()=>alert("Alamat tersalin!"));
+  else { const t=document.createElement("textarea"); t.value=a; document.body.appendChild(t); t.select(); document.execCommand("copy"); t.remove(); alert("Alamat tersalin!"); }
+}
+
+load();
+</script>
+</body>
+</html>

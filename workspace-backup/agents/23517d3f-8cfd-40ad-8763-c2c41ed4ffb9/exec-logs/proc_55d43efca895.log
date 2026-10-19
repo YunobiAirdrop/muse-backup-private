@@ -1,0 +1,11 @@
+[*] wallet: 0xf0f25C36AC70E9d787a108eFB351626192C8107b (verified)
+[*] === chain sepolia (id 11155111) ===
+[sepolia] tx 1/8: a228056fd22e602ba0… amount=84035 wei status=1
+[sepolia] sleeping 553s before next tx…
+[sepolia] balance check failed: HTTPSConnectionPool(host='ethereum-sepolia-rpc.publicnode.com', port=443): Max r — stopping chain
+[*] inter-chain gap: sleeping 170s…
+[*] === chain elysium (id 99801) ===
+[elysium] tx 1/8: 8b13919a77a2f60ed0… amount=22742 wei status=1
+[elysium] sleeping 1346s before next tx…
+[elysium] balance check failed: HTTPSConnectionPool(host='testnet-rpc.elysium.kinetiq.xyz', port=443): Max retri — stopping chain
+[*] done: 2 txs sent today across 2 chains

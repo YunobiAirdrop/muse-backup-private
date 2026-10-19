@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Airdrop Farming</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, Roboto, "Segoe UI", sans-serif; background: #0f1420; color: #e8ecf1; padding: 12px; font-size: 17px; line-height: 1.45; }
+  .wrap { max-width: 640px; margin: 0 auto; padding-bottom: 40px; }
+  h1 { font-size: 1.5rem; text-align: center; margin: 8px 0 4px; }
+  .sub { text-align: center; color: #8b93a7; font-size: .9rem; margin-bottom: 12px; }
+  .wallet { background: #182030; border: 1px solid #2a3550; border-radius: 12px; padding: 12px; margin-bottom: 14px; text-align: center; }
+  .wallet .addr { font-family: monospace; font-size: .85rem; word-break: break-all; color: #7dd3fc; }
+  .wallet button { margin-top: 8px; background: #2563eb; color: #fff; border: 0; border-radius: 8px; padding: 12px 18px; font-size: 1rem; font-weight: 600; }
+  .summary { display: flex; gap: 10px; margin-bottom: 14px; }
+  .sum-card { flex: 1; background: #182030; border: 1px solid #2a3550; border-radius: 12px; padding: 12px 8px; text-align: center; }
+  .sum-card .num { font-size: 1.6rem; font-weight: 700; }
+  .sum-card .lbl { font-size: .8rem; color: #8b93a7; }
+  h2 { font-size: 1.15rem; margin: 18px 0 10px; border-left: 4px solid #2563eb; padding-left: 10px; }
+  .card { background: #182030; border: 1px solid #2a3550; border-radius: 12px; padding: 14px; margin-bottom: 10px; }
+  .card .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  .card .name { font-weight: 700; font-size: 1.05rem; }
+  .badge { font-size: .78rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; white-space: nowrap; }
+  .st-active { background: #14532d; color: #4ade80; }
+  .st-pending { background: #713f12; color: #facc15; }
+  .st-blocked { background: #7f1d1d; color: #f87171; }
+  .st-skipped { background: #374151; color: #9ca3af; }
+  .card .bal { font-size: 1.25rem; font-weight: 700; color: #7dd3fc; margin: 4px 0; }
+  .card .meta { font-size: .88rem; color: #aab3c5; }
+  .card .note { font-size: .85rem; color: #8b93a7; margin-top: 6px; border-top: 1px solid #2a3550; padding-top: 6px; }
+  /* Faucet cards */
+  .faucet { background: #182030; border: 1px solid #2a3550; border-radius: 12px; padding: 14px; margin-bottom: 10px; }
+  .faucet .fname { font-weight: 700; font-size: 1.05rem; margin-bottom: 2px; }
+  .faucet .fdesc { font-size: .85rem; color: #8b93a7; margin-bottom: 8px; }
+  .faucet .countdown { font-size: 1.1rem; font-weight: 700; margin: 8px 0; text-align: center; padding: 10px; border-radius: 8px; }
+  .cd-ready { background: #14532d; color: #4ade80; }
+  .cd-wait { background: #713f12; color: #facc15; }
+  .btn-row { display: flex; gap: 8px; }
+  .btn-row button { flex: 1; border: 0; border-radius: 10px; padding: 14px 8px; font-size: 1rem; font-weight: 700; }
+  .btn-open { background: #2563eb; color: #fff; }
+  .btn-done { background: #166534; color: #fff; }
+  .act-row { display: flex; justify-content: space-between; background: #182030; border: 1px solid #2a3550; border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; }
+  .act-row .tx { font-weight: 700; font-size: 1.2rem; color: #4ade80; }
+  .todo { background: #182030; border: 1px solid #2a3550; border-left: 4px solid #facc15; border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; }
+  .todo .who { display: inline-block; font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 12px; margin-top: 6px; }
+  .who-user { background: #713f12; color: #facc15; }
+  .who-assistant { background: #1e3a8a; color: #93c5fd; }
+  .who-auto { background: #14532d; color: #4ade80; }
+  .refresh { display: block; width: 100%; margin: 16px 0 8px; background: #2563eb; color: #fff; border: 0; border-radius: 10px; padding: 14px; font-size: 1.05rem; font-weight: 700; }
+  .err { background: #7f1d1d; color: #fca5a5; border-radius: 10px; padding: 10px; margin-bottom: 10px; font-size: .9rem; text-align: center; }
+  .tabbar { position: fixed; bottom: 0; left: 0; right: 0; display: flex; background: #182030; border-top: 1px solid #2a3550; z-index: 100; }
+  .tabbar button { flex: 1; background: none; border: 0; color: #8b93a7; padding: 12px 4px 14px; font-size: .8rem; font-weight: 600; }
+  .tabbar button.on { color: #7dd3fc; }
+  .tabbar button .ico { font-size: 1.4rem; display: block; }
+  .page { display: none; }
+  .page.on { display: block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- TAB: Dashboard -->
+  <div class="page on" id="page-dash">
+    <h1>🚜 Airdrop Farming</h1>
+    <div class="sub" id="lastUpdated">Memuat…</div>
+
+    <div class="wallet">
+      <div style="font-size:.85rem;color:#8b93a7;margin-bottom:4px">Farming Wallet</div>
+      <div class="addr" id="walletAddr">-</div>
+      <button onclick="copyAddr()">📋 Salin Alamat</button>
+    </div>
+
+    <div class="summary">
+      <div class="sum-card"><div class="num" id="sumActive" style="color:#4ade80">-</div><div class="lbl">Aktif</div></div>
+      <div class="sum-card"><div class="num" id="sumTx" style="color:#7dd3fc">-</div><div class="lbl">TX Hari Ini</div></div>
+      <div class="sum-card"><div class="num" id="sumPending" style="color:#facc15">-</div><div class="lbl">Perlu Tindakan</div></div>
+    </div>
+
+    <h2>⛓️ Proyek</h2>
+    <div id="projects"></div>
+
+    <h2>📊 Aktivitas Hari Ini</h2>
+    <div id="activity"></div>
+
+    <h2>📝 Perlu Tindakan</h2>
+    <div id="todos"></div>
+
+    <button class="refresh" onclick="loadStatus()">🔄 Refresh Data</button>
+    <div class="sub" style="margin-top:10px">Data: farming_status.json</div>
+  </div>
+
+  <!-- TAB: Faucet -->
+  <div class="page" id="page-faucet">
+    <h1>🚰 Faucet Manual</h1>
+    <div class="sub">Klaim manual 1x sehari — buka di browser, klaim, lalu tandai</div>
+    <div id="faucets"></div>
+  </div>
+
+</div>
+
+<div class="tabbar">
+  <button id="tab-dash" class="on" onclick="showPage('dash')"><span class="ico">📊</span>Dashboard</button>
+  <button id="tab-faucet" onclick="showPage('faucet')"><span class="ico">🚰</span>Faucet</button>
+</div>
+
+<script>
+// ---------- Konfigurasi faucet ----------
+const WALLET = "0xf0f25C36AC70E9d787a108eFB351626192C8107b";
+const FAUCETS = [
+  {
+    id: "elysium",
+    name: "Elysium HYPE",
+    desc: "0,1 HYPE per klaim · 1x sehari · gas untuk farming Elysium",
+    url: "https://elysium.kinetiq.xyz/testnet-faucet",
+    cooldownH: 24
+  },
+  {
+    id: "dogeos",
+    name: "DogeOS DOGE",
+    desc: "~42,069 test DOGE per klaim · 1x/24 jam",
+    url: "https://faucet.testnet.dogeos.com/",
+    cooldownH: 24
+  },
+  {
+    id: "sepolia",
+    name: "Sepolia ETH (Google Cloud)",
+    desc: "0,05 ETH per hari · login Google khususstokyunobi@gmail.com",
+    url: "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+    cooldownH: 24
+  }
+];
+const LS_KEY = "airdrop_faucet_claims_v1";
+
+function getClaims(){
+  try { return JSON.parse(localStorage.getItem(LS_KEY) || "{}"); }
+  catch(e){ return {}; }
+}
+function setClaim(id){
+  const c = getClaims();
+  c[id] = Date.now();
+  localStorage.setItem(LS_KEY, JSON.stringify(c));
+  renderFaucets();
+}
+function msLeft(id, cooldownH){
+  const c = getClaims()[id];
+  if(!c) return 0;
+  const left = c + cooldownH*3600*1000 - Date.now();
+  return left > 0 ? left : 0;
+}
+function fmtLeft(ms){
+  if(ms <= 0) return "SIAP DIKLAIM";
+  const h = Math.floor(ms/3600000), m = Math.floor(ms%3600000/60000), s = Math.floor(ms%60000/1000);
+  return h + " jam " + m + " mnt " + s + " dtk";
+}
+function openUrl(url){
+  try {
+    if(window.AirdropApp && window.AirdropApp.openBrowser){ window.AirdropApp.openBrowser(url); return; }
+  } catch(e){}
+  window.open(url, "_blank");
+}
+function renderFaucets(){
+  const el = document.getElementById("faucets");
+  el.innerHTML = FAUCETS.map(f => {
+    const left = msLeft(f.id, f.cooldownH);
+    const ready = left <= 0;
+    const last = getClaims()[f.id];
+    const lastStr = last ? new Date(last).toLocaleString("id-ID") : "belum pernah";
+    return `
+    <div class="faucet">
+      <div class="fname">${f.name}</div>
+      <div class="fdesc">${f.desc}</div>
+      <div class="countdown ${ready ? "cd-ready" : "cd-wait"}" id="cd-${f.id}">${fmtLeft(left)}</div>
+      <div class="fdesc">Terakhir diklaim: ${lastStr}</div>
+      <div class="btn-row">
+        <button class="btn-open" onclick="openUrl('${f.url}')">🌐 Buka Faucet</button>
+        <button class="btn-done" onclick="setClaim('${f.id}')">✅ Tandai Diklaim</button>
+      </div>
+    </div>`;
+  }).join("");
+}
+// Update countdown tiap detik
+setInterval(() => {
+  FAUCETS.forEach(f => {
+    const el = document.getElementById("cd-" + f.id);
+    if(el){
+      const left = msLeft(f.id, f.cooldownH);
+      el.textContent = fmtLeft(left);
+      el.className = "countdown " + (left <= 0 ? "cd-ready" : "cd-wait");
+    }
+  });
+}, 1000);
+
+function showPage(p){
+  document.querySelectorAll(".page").forEach(e => e.classList.remove("on"));
+  document.getElementById("page-" + p).classList.add("on");
+  document.querySelectorAll(".tabbar button").forEach(e => e.classList.remove("on"));
+  document.getElementById("tab-" + p).classList.add("on");
+  window.scrollTo(0,0);
+}
+
+// ---------- Dashboard (dari dashboard.html asli) ----------
+const STATUS_LABEL = { active: "AKTIF", pending: "PENDING", blocked: "TERHALANG", skipped: "SKIP" };
+const FALLBACK = { "wallet": WALLET, "last_updated": "-", "projects": [], "activity_today": [], "pending_actions": [] };
+function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function render(d){
+  document.getElementById("walletAddr").textContent = d.wallet || "-";
+  document.getElementById("lastUpdated").textContent = "Update: " + (d.last_updated || "-");
+  const active = (d.projects||[]).filter(p=>p.status==="active").length;
+  const txTotal = (d.activity_today||[]).reduce((a,b)=>a+(b.tx||0),0);
+  document.getElementById("sumActive").textContent = active;
+  document.getElementById("sumTx").textContent = txTotal;
+  document.getElementById("sumPending").textContent = (d.pending_actions||[]).length;
+  document.getElementById("projects").innerHTML = (d.projects||[]).map(p=>`
+    <div class="card">
+      <div class="top"><span class="name">${esc(p.name)}</span>
+        <span class="badge st-${esc(p.status)}">${STATUS_LABEL[p.status]||esc(p.status)}</span></div>
+      <div class="bal">${esc(p.balance)} ${esc(p.token)}</div>
+      <div class="meta">${p.chain_id ? "Chain ID: "+esc(p.chain_id)+" · " : ""}TX hari ini: <b>${p.tx_today||0}</b></div>
+      ${p.note ? `<div class="note">${esc(p.note)}</div>` : ""}
+    </div>`).join("");
+  document.getElementById("activity").innerHTML = (d.activity_today||[]).map(a=>`
+    <div class="act-row"><div><b>${esc(a.chain)}</b><div style="font-size:.85rem;color:#8b93a7">${esc(a.desc||"")}</div></div>
+    <div class="tx">${a.tx||0} tx</div></div>`).join("");
+  const whoCls = { "user":"who-user", "assistant":"who-assistant" };
+  document.getElementById("todos").innerHTML = (d.pending_actions||[]).map(t=>{
+    const w = (t.who||"").toLowerCase();
+    const cls = w.includes("auto") ? "who-auto" : (whoCls[w] || "who-user");
+    return `<div class="todo">${esc(t.action)}<br><span class="who ${cls}">${esc(t.who)}</span></div>`;
+  }).join("");
+}
+
+async function loadStatus(){
+  // Di WebView, file lokal tidak bisa di-fetch — pakai data bawaan dari Android atau fallback
+  try {
+    if(window.AirdropApp && window.AirdropApp.getStatus){
+      render(JSON.parse(window.AirdropApp.getStatus()));
+      return;
+    }
+  } catch(e){}
+  try {
+    const r = await fetch("farming_status.json?t=" + Date.now());
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    render(await r.json());
+  } catch(e){
+    render(FALLBACK);
+    const el = document.getElementById("projects");
+    el.innerHTML = `<div class="err">Data status belum tersedia di aplikasi.</div>` + el.innerHTML;
+  }
+}
+
+function copyAddr(){
+  const a = document.getElementById("walletAddr").textContent;
+  try {
+    if(window.AirdropApp && window.AirdropApp.copyText){ window.AirdropApp.copyText(a); return; }
+  } catch(e){}
+  if(navigator.clipboard) navigator.clipboard.writeText(a).then(()=>alert("Alamat tersalin!"));
+  else { const t=document.createElement("textarea"); t.value=a; document.body.appendChild(t); t.select(); document.execCommand("copy"); t.remove(); alert("Alamat tersalin!"); }
+}
+
+renderFaucets();
+loadStatus();
+</script>
+</body>
+</html>

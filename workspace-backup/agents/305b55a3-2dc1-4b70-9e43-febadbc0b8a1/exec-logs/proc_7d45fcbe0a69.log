@@ -1,0 +1,8 @@
+== provider+inject+background integration tests ==
+  FAIL provider.chainId synced from storage on load "0x1"
+  PASS provider flags set
+  PASS starts at 0x1
+HARNESS ERROR Error: AutoWallet request timeout
+    at Timeout._onTimeout (provider.js:29:18)
+    at listOnTimeout (node:internal/timers:685:17)
+    at process.processTimers (node:internal/timers:618:7)

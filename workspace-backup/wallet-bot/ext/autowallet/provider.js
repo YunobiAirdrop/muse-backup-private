@@ -1,7 +1,7 @@
-// AutoWallet provider - injected into page
+// AutoWallet provider - injected into page context
 (function() {
   const ADDRESS = '0xf0f25C36AC70E9d787a108eFB351626192C8107b';
-  let chainId = '0x1'; // default, can be switched
+  let chainId = '0x1'; // synced from background on load; updated on chainChanged
 
   const provider = {
     isMetaMask: true, // Pretend to be MetaMask for compatibility
@@ -50,13 +50,33 @@
     enable: () => provider.request({method: 'eth_requestAccounts', params: []}),
   };
 
-  // Inject as window.ethereum
-  if (!window.ethereum) {
-    window.ethereum = provider;
-  } else {
-    // If MetaMask already exists, override it
-    window.ethereum = provider;
+  // Apply a new chainId locally and emit EIP-1193 chainChanged.
+  function applyChainId(id) {
+    if (!id || id === chainId) return;
+    chainId = id;
+    provider.chainId = id;
+    (provider._events['chainChanged'] || []).slice().forEach((cb) => {
+      try { cb(id); } catch (e) {}
+    });
   }
+
+  // Sync the persisted chain from the background on load. This fixes the
+  // "chain resets to 0x1" bug: the MV3 service worker may restart and the
+  // page context is fresh, so we always read the stored chainId.
+  provider.request({method: 'eth_chainId', params: []})
+    .then(applyChainId)
+    .catch(() => {});
+
+  // Background broadcasts chain switches -> update immediately.
+  window.addEventListener('message', (event) => {
+    if (event.source !== window) return;
+    if (event.data && event.data.type === 'AUTOWALLET_CHAIN_CHANGED' && event.data.chainId) {
+      applyChainId(event.data.chainId);
+    }
+  });
+
+  // Inject as window.ethereum
+  window.ethereum = provider;
 
   // Announce provider
   window.dispatchEvent(new Event('ethereum#initialized'));
