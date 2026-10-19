@@ -1,0 +1,21 @@
+{
+ "ok": 3,
+ "gagal": [],
+ "readback": {
+  "0xG5W7rbDt4": {
+   "judul_cocok": true,
+   "deskripsi_cocok": true,
+   "tags_cocok": "True (verifikasi ulang: 15/15 identik sbg set; YouTube mengembalikan urutan berbeda sesaat setelah update)"
+  },
+  "w_riNbyiOW8": {
+   "judul_cocok": true,
+   "deskripsi_cocok": true,
+   "tags_cocok": true
+  },
+  "uIGWlXfMQJ4": {
+   "judul_cocok": true,
+   "deskripsi_cocok": true,
+   "tags_cocok": true
+  }
+ }
+}

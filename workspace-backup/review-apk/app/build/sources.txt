@@ -1,0 +1,2 @@
+/home/hatch/workspace/review-apk/app/build/gen/com/yunobi/reviewvideo/R.java
+/home/hatch/workspace/review-apk/app/src/main/java/com/yunobi/reviewvideo/MainActivity.java

@@ -52,6 +52,7 @@ def main():
     files = {
         "/index.html": gzip.compress(open(HTML, "rb").read(), compresslevel=9),
         "/sw.js": gzip.compress(open("/home/hatch/workspace/yt-dashboard/static/sw.js", "rb").read(), compresslevel=9),
+        "/review.html": gzip.compress(open("/home/hatch/workspace/yt-dashboard/static/review.html", "rb").read(), compresslevel=9),
     }
     hashes = {p: hashlib.sha256(gz).hexdigest() for p, gz in files.items()}
     for p, gz in files.items():

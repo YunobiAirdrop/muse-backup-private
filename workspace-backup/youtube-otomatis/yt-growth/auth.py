@@ -161,6 +161,13 @@ def yt_put(slug, path, params, body):
     return r.json()
 
 
+def yt_delete(slug, path, params=None):
+    s = api_session(slug)
+    r = s.delete(YT_BASE + path, params=params or {}, timeout=30)
+    r.raise_for_status()
+    return True
+
+
 def get_service(slug, api="youtube", version="v3"):
     from googleapiclient.discovery import build
     from google_auth_httplib2 import AuthorizedHttp

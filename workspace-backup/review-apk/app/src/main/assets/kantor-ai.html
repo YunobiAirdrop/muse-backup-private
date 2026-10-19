@@ -1,0 +1,1741 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>Kantor AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+    <style>
+      :root{
+        --bg:#f4f1ea; --panel:#fffdf8; --panel2:#efe9dc; --ink:#23211c; --ink2:#5c574c; --ink3:#8a8474;
+        --line:#ddd5c3; --wall:#cbbfa5;
+        --green:#1d9e62; --green-soft:#d9f2e4; --amber:#d9930d; --amber-soft:#fbeed3;
+        --red:#d64545; --red-soft:#fbe0e0; --blue:#2f6fb2; --blue-soft:#dfeaf6;
+        --teal:#0f766e; --shadow:0 10px 30px rgba(60,48,20,.14);
+        --r-lg:18px;
+      }
+      @media (prefers-color-scheme: dark){
+        :root{
+          --bg:#141519; --panel:#1e2026; --panel2:#26282f; --ink:#ece9e2; --ink2:#b6b1a4; --ink3:#7e7a6e;
+          --line:#33353d; --wall:#3d3a33;
+          --green-soft:#173d2a; --amber-soft:#40330f; --red-soft:#402020; --blue-soft:#1d2f45;
+          --shadow:0 10px 30px rgba(0,0,0,.45);
+        }
+      }
+      *{box-sizing:border-box}
+      html{scroll-behavior:smooth}
+      body{margin:0;background:var(--bg);color:var(--ink);font-family:"Plus Jakarta Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+      button{font-family:inherit;cursor:pointer}
+      .wrap{max-width:1240px;margin:0 auto;padding:18px 16px 64px}
+
+      /* ===== Header / stats ===== */
+      .topbar{display:flex;flex-wrap:wrap;gap:14px;align-items:stretch;margin-bottom:14px}
+      .brand{display:flex;align-items:center;background:#fffdf8;border:1px solid var(--line);border-radius:var(--r-lg);padding:10px 16px;box-shadow:var(--shadow)}
+      .brand svg{display:block;width:228px;max-width:100%;height:auto}
+      @media(max-width:640px){.brand{flex:1 1 100%;justify-content:center;padding:12px 16px}}
+      .clock-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:14px 18px;min-width:210px;box-shadow:var(--shadow)}
+      .clock-label{font-size:11px;font-weight:700;letter-spacing:.14em;color:var(--ink3);text-transform:uppercase}
+      .clock-time{font-family:"JetBrains Mono",monospace;font-size:34px;font-weight:700;line-height:1.1;margin-top:2px}
+      .clock-date{font-size:13px;color:var(--ink2);font-weight:600}
+      .live-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);margin-right:6px;animation:pulse 1.6s infinite}
+      @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(29,158,98,.45)}50%{box-shadow:0 0 0 6px rgba(29,158,98,0)}}
+      .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;flex:1;min-width:280px}
+      .stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:12px 14px}
+      .stat b{display:block;font-size:26px;line-height:1;font-weight:800}
+      .stat span{font-size:11.5px;color:var(--ink2);font-weight:600}
+      .stat .sub{font-size:11px;color:var(--ink3);font-weight:500}
+      @media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}.clock-time{font-size:28px}}
+
+      /* ===== Toolbar ===== */
+      .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0 12px}
+      .chip{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:7px 13px;font-size:12.5px;font-weight:700}
+      .chip:hover{border-color:var(--teal);color:var(--teal)}
+      .chip .n{color:var(--ink3);font-weight:600}
+      .chip.pub{border-color:#c0392b;color:#c0392b}
+      .chip.pub:hover{background:#c0392b;color:#fff}
+      .search{margin-left:auto;position:relative}
+      .search input{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:8px 14px 8px 34px;font-size:13px;width:230px;font-family:inherit}
+      .search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:15px;height:15px;stroke:var(--ink3)}
+      .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--ink2);font-weight:600;margin-bottom:10px}
+      .legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
+
+      /* ===== Panggung 3D ===== */
+      .stage{position:relative;border:3px solid var(--wall);border-radius:22px;overflow:hidden;box-shadow:var(--shadow);background:linear-gradient(180deg,#b8d2e4,#dfe9ee)}
+      #gl{height:min(78vh,660px);min-height:380px;touch-action:none}
+      #gl canvas{display:block}
+      .stage-hint{position:absolute;left:12px;bottom:12px;background:rgba(18,20,26,.72);color:#f2f4f7;font-size:11.5px;font-weight:600;padding:7px 12px;border-radius:99px;pointer-events:none;backdrop-filter:blur(4px);max-width:calc(100% - 24px)}
+      .stage-actions{position:absolute;right:12px;bottom:12px;display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+      .stage-btn{border:1.5px solid rgba(255,255,255,.35);background:rgba(18,20,26,.78);color:#fff;border-radius:99px;padding:9px 15px;font-size:12.5px;font-weight:800;backdrop-filter:blur(4px)}
+      .stage-btn:hover{border-color:#fff}
+      .stage-btn.red{background:#c0271a;border-color:#ff8a7a;box-shadow:0 6px 18px rgba(192,39,26,.45)}
+      .stage-btn.red:hover{background:#e0331f}
+      .stage-live{position:absolute;left:12px;top:12px;display:inline-flex;align-items:center;gap:7px;background:rgba(18,20,26,.72);color:#ffd9d2;font-size:11px;font-weight:800;letter-spacing:.16em;padding:6px 12px;border-radius:8px;pointer-events:none;backdrop-filter:blur(4px)}
+      .stage-live i{width:8px;height:8px;border-radius:50%;background:#ff3b30;animation:pulse 1.2s infinite}
+      .gl-fallback{display:none;padding:34px 22px;text-align:center;color:#2c3138;background:linear-gradient(180deg,#d7e5ee,#eef2ee)}
+      .gl-fallback.on{display:block}
+      .gl-fallback b{font-size:16px;display:block;margin-bottom:6px}
+      .gl-fallback p{margin:0 auto;max-width:520px;font-size:13px;line-height:1.6;color:#4c565f;font-weight:500}
+
+      /* ===== Ruang Publish (panel geser) ===== */
+      .pub-panel{position:fixed;top:0;right:0;height:100dvh;width:min(600px,96vw);background:var(--panel);z-index:96;transform:translateX(105%);transition:transform .32s cubic-bezier(.2,.8,.25,1);box-shadow:-14px 0 40px rgba(0,0,0,.25);padding:20px;overflow-y:auto}
+      .pub-panel.on{transform:none}
+      .pub-panel .close{position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--panel2);color:var(--ink);font-size:16px;z-index:2}
+      .pub-panel h2{margin:0 0 2px;font-size:19px;font-weight:800}
+      .pub-panel .sub{color:var(--ink2);font-size:12.5px;font-weight:600;margin:0 0 14px;line-height:1.55}
+      .onair{display:inline-flex;align-items:center;gap:7px;background:#3a1512;color:#ffb4a2;font-weight:800;font-size:11px;letter-spacing:.18em;padding:5px 13px;border-radius:8px;border:1.5px solid #7a241a}
+      .onair i{width:8px;height:8px;border-radius:50%;background:#ff3b30;animation:pulse 1.2s infinite}
+      .big-publish{display:block;margin:16px auto 10px;width:132px;height:132px;border-radius:50%;border:5px solid #8f1d14;background:radial-gradient(circle at 35% 30%,#ff7a6b,#e02b1d 55%,#b01c10);color:#fff;font-size:19px;font-weight:800;letter-spacing:.08em;box-shadow:0 9px 0 #7c150d,0 16px 28px rgba(176,28,16,.35);transition:transform .08s,box-shadow .08s}
+      .big-publish:active{transform:translateY(6px);box-shadow:0 3px 0 #7c150d,0 8px 16px rgba(176,28,16,.3)}
+      .pub-desk-note{font-size:11.5px;color:var(--ink2);font-weight:600;line-height:1.55;max-width:340px;margin:0 auto;text-align:center}
+      .pub-conn{display:flex;align-items:center;justify-content:center;gap:7px;font-size:12px;font-weight:700;margin:12px auto 14px;padding:6px 13px;border-radius:99px;background:var(--panel2);border:1px solid var(--line);color:var(--ink);width:fit-content}
+      .pub-conn i{width:9px;height:9px;border-radius:50%;background:#b9b2a0;flex:none}
+      .pub-conn.ok i{background:var(--green);animation:pulse 1.6s infinite}
+      .pub-conn.err i{background:var(--red)}
+      .pub-screen{background:#14161c;border:3px solid #262a33;border-radius:14px;padding:12px;box-shadow:inset 0 0 0 2px #05070a;color:#e8ecf3}
+      .pub-screen-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+      .pub-screen-head b{font-size:12px;letter-spacing:.13em}
+      .pub-count{background:#e02b1d;color:#fff;font-size:11px;font-weight:800;border-radius:99px;padding:2px 9px}
+      .pub-refresh{margin-left:auto;background:#232833;color:#cfd8e6;border:1px solid #39414f;border-radius:8px;padding:6px 12px;font-size:12px;font-weight:700}
+      .pub-refresh:hover{border-color:#5b6a80}
+      .pub-list{display:flex;flex-direction:column;gap:8px;max-height:46dvh;overflow-y:auto;padding-right:2px}
+      .pub-item{display:flex;gap:10px;align-items:center;background:#1d212b;border:1.5px solid #2c333f;border-radius:10px;padding:8px;width:100%;color:#e8ecf3;cursor:pointer}
+      .pub-item:hover{border-color:#4a5568}
+      .pub-item.sel{border-color:#e02b1d;box-shadow:0 0 0 2px rgba(224,43,29,.35)}
+      .pub-item img{width:104px;height:59px;object-fit:cover;border-radius:6px;flex:none;background:#0b0d12}
+      .pub-thumb{width:104px;height:59px;border-radius:6px;flex:none;background:#0b0d12;display:flex;align-items:center;justify-content:center;font-size:20px;color:#5b6a80}
+      .pub-info{flex:1;min-width:0;text-align:left}
+      .pub-info b{display:block;font-size:13px;line-height:1.35;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+      .pub-info span{display:block;font-size:11.5px;color:#9fb0c3;margin-top:2px;font-weight:600}
+      .pub-info .pub-sent{color:#7ee2a0;font-weight:700}
+      .pub-go{flex:none;background:#e02b1d;color:#fff;border:none;border-radius:9px;padding:10px 15px;font-weight:800;font-size:12.5px;letter-spacing:.04em}
+      .pub-go:hover{background:#f0442f}
+      .pub-go:disabled{background:#2e4230;color:#9fd3a8;cursor:default}
+      .pub-msg{font-size:12.5px;font-weight:600;color:#9fb0c3;padding:8px 4px;line-height:1.55}
+      .pub-msg.err{color:#ff9d8f}
+      .pub-statusline{font-size:12.5px;font-weight:700;color:#b8860b;padding:8px 4px 0;line-height:1.5;min-height:18px}
+      @media (prefers-color-scheme: dark){.pub-statusline{color:#ffd166}}
+      .pub-statusline.err{color:#d64545}
+      .pub-modal-wrap{position:fixed;inset:0;background:rgba(15,10,5,.52);display:none;align-items:center;justify-content:center;z-index:130;padding:16px}
+      .pub-modal-wrap.on{display:flex}
+      .pub-modal{background:var(--panel);color:var(--ink);border-radius:18px;max-width:430px;width:100%;padding:20px;box-shadow:var(--shadow);max-height:92dvh;overflow-y:auto}
+      .pub-modal h3{margin:0 0 6px;font-size:18px;font-weight:800}
+      .pub-modal p{font-size:13px;color:var(--ink2);font-weight:600;line-height:1.55;margin:6px 0}
+      .pub-modal p b{color:var(--ink)}
+      .pub-modal img{width:100%;border-radius:10px;margin:8px 0 4px;background:var(--panel2)}
+      .pub-modal .mrow{display:flex;gap:10px;margin-top:14px}
+      .pub-cancel{flex:1;background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:11px;padding:12px;font-weight:800;font-size:13.5px}
+      .pub-confirm{flex:1.4;background:#e02b1d;border:none;color:#fff;border-radius:11px;padding:12px;font-weight:800;font-size:14px}
+      .pub-confirm:disabled{opacity:.55;cursor:wait}
+      .pub-modal-err{color:var(--red) !important;font-weight:700 !important;min-height:0}
+
+      /* ===== Sections ===== */
+      .section{margin-top:30px}
+      .section h2{font-size:20px;font-weight:800;margin:0 0 4px}
+      .section .desc{color:var(--ink2);font-size:13.5px;margin:0 0 16px;font-weight:500}
+      .fin-total{display:flex;flex-wrap:wrap;gap:14px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:16px 18px;margin-bottom:14px;box-shadow:var(--shadow)}
+      .fin-total .big{font-family:"JetBrains Mono",monospace;font-size:32px;font-weight:700}
+      .fin-total p{margin:0;color:var(--ink2);font-size:13px;font-weight:600;max-width:520px}
+      .fin-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+      .fin-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:16px}
+      .fin-card h3{margin:0 0 2px;font-size:15.5px;font-weight:800}
+      .fin-card .amt{font-family:"JetBrains Mono",monospace;font-size:21px;font-weight:700;margin:8px 0 6px}
+      .fin-card p{margin:0;font-size:12.5px;color:var(--ink2);line-height:1.55;font-weight:500}
+      .pill{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.06em;padding:3px 9px;border-radius:99px;text-transform:uppercase}
+      .pill.prog{background:var(--amber-soft);color:var(--amber)}
+      .pill.hold{background:var(--red-soft);color:var(--red)}
+      .pill.spec{background:var(--blue-soft);color:var(--blue)}
+      .action{margin-top:10px;background:var(--red-soft);border-radius:10px;padding:9px 11px;font-size:12px;font-weight:700;color:var(--ink);line-height:1.5}
+      .action a{color:var(--red);font-weight:800}
+      .prog-wrap{margin-top:10px}
+      .prog-wrap small{font-size:11px;color:var(--ink2);font-weight:700}
+      .bar{height:7px;background:var(--panel2);border-radius:99px;margin-top:4px;overflow:hidden}
+      .bar i{display:block;height:100%;background:var(--amber);border-radius:99px}
+
+      /* roster */
+      .roster{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+      .roster-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);padding:14px 16px}
+      .roster-card h3{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:800}
+      .roster-card h3 span{color:var(--ink3)}
+      .rrow{display:flex;gap:9px;align-items:baseline;width:100%;text-align:left;background:none;border:none;border-top:1px solid var(--line);padding:7px 2px;color:var(--ink)}
+      .rrow:hover{background:var(--panel2)}
+      .rrow .rd{width:8px;height:8px;border-radius:50%;flex:none;position:relative;top:1px}
+      .rrow .rn{font-weight:700;font-size:12.5px;font-family:"JetBrains Mono",monospace}
+      .rrow .rj{margin-left:auto;font-size:11px;color:var(--ink2);font-weight:600;text-align:right;max-width:45%}
+      .rrow.hide{display:none}
+
+      /* detail panel / laporan */
+      .scrim{position:fixed;inset:0;background:rgba(20,16,8,.42);opacity:0;pointer-events:none;transition:.25s;z-index:90}
+      .scrim.on{opacity:1;pointer-events:auto}
+      .sheet{position:fixed;top:0;right:0;height:100dvh;width:min(360px,92vw);background:var(--panel);z-index:95;transform:translateX(105%);transition:transform .3s cubic-bezier(.2,.8,.25,1);box-shadow:-14px 0 40px rgba(0,0,0,.25);padding:22px;overflow-y:auto;overflow-x:hidden}
+      .sheet.on{transform:none}
+      .sheet .close{position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--panel2);color:var(--ink);font-size:16px}
+      .sheet .avatar-zone{display:flex;justify-content:center;padding:14px 0 6px}
+      .sheet-avatar{width:76px;height:76px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:24px;color:#fff;border:4px solid var(--panel2);font-family:"JetBrains Mono",monospace}
+      .sheet h3{font-family:"JetBrains Mono",monospace;font-size:16.5px;margin:6px 0 2px;word-break:break-all;text-align:center}
+      .sheet .dept{text-align:center;color:var(--ink2);font-weight:700;font-size:12.5px;margin-bottom:14px}
+      .kv{border-top:1px solid var(--line);padding:10px 2px}
+      .kv small{display:block;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);font-weight:800;margin-bottom:3px}
+      .kv div{font-size:14px;font-weight:600;line-height:1.5}
+      .status-line{display:flex;align-items:center;gap:8px;font-weight:800;font-size:14px}
+      footer{margin-top:34px;color:var(--ink3);font-size:12px;font-weight:600;text-align:center}
+      @media (prefers-reduced-motion: reduce){
+        *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}
+        html{scroll-behavior:auto}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- Header -->
+      <div class="topbar">
+        <div class="brand" role="img" aria-label="Logo Kantor AI — Yunobi">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 72"><rect x="4" y="8" width="56" height="56" rx="12" fill="#1a1a2e"/><rect x="14" y="28" width="10" height="26" fill="#4fc3f7"/><rect x="27" y="20" width="10" height="34" fill="#81ecec"/><rect x="40" y="32" width="10" height="22" fill="#a29bfe"/><circle cx="32" cy="14" r="4" fill="#fdcb6e"/><text x="70" y="34" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a1a2e">KANTOR AI</text><text x="70" y="54" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#636e72" letter-spacing="3">YUNOBI</text></svg>
+        </div>
+        <div class="clock-card">
+          <div class="clock-label"><span class="live-dot"></span>Live &bull; Waktu Indonesia Barat</div>
+          <div class="clock-time" id="clock">--:--:--</div>
+          <div class="clock-date" id="dateLine">Memuat tanggal…</div>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>79</b><span>Asisten AI (cron) aktif</span><div class="sub">di 6 departemen</div></div>
+          <div class="stat"><b id="statWorking">–</b><span>Sedang bekerja sekarang</span><div class="sub">berdasarkan jadwal WIB</div></div>
+          <div class="stat"><b>20 + 10</b><span>Channel YouTube &amp; blog</span><div class="sub">diproduksi tiap hari</div></div>
+          <div class="stat"><b>Rp 0</b><span>Pendapatan terealisasi</span><div class="sub">fase membangun aset</div></div>
+        </div>
+      </div>
+
+      <div class="toolbar" id="chips"></div>
+      <div class="legend">
+        <span><i style="background:var(--green)"></i>Sedang bekerja</span>
+        <span><i style="background:var(--amber)"></i>Jadwal berikutnya dekat</span>
+        <span><i style="background:#b9b2a0"></i>Siaga / santai</span>
+        <span>Klik chip untuk terbang ke ruangan &bull; klik karakter 3D untuk laporan kerjanya.</span>
+      </div>
+
+      <!-- Panggung 3D -->
+      <div class="stage" id="stage">
+        <div id="gl" aria-label="Kantor 3D — seret untuk memutar, cubit atau scroll untuk zoom, klik karakter untuk laporan"></div>
+        <div class="gl-fallback" id="glFallback">
+          <b>Tampilan 3D tidak dapat dimuat</b>
+          <p>Perpustakaan grafis 3D (Three.js) gagal diunduh — periksa koneksi internet lalu muat ulang halaman. Panel laporan, daftar asisten, keuangan, dan Ruang Publish di bawah tetap berfungsi normal.</p>
+        </div>
+        <span class="stage-live"><i></i>LIVE — KANTOR 3D</span>
+        <div class="stage-hint">Seret: putar &bull; Scroll / cubit: zoom &bull; Klik karakter: laporan kerja</div>
+        <div class="stage-actions">
+          <button class="stage-btn" id="btnRotate" type="button">Putar Otomatis: Aktif</button>
+          <button class="stage-btn red" id="btnPubOpen" type="button">Ruang Publish</button>
+        </div>
+      </div>
+
+      <!-- Finance -->
+      <section class="section" id="keuangan">
+        <h2>Keuangan Project</h2>
+        <p class="desc">Ringkasan pendapatan dari semua lini project. Jujur apa adanya: saat ini belum ada yang cair — semua masih fase membangun aset.</p>
+        <div class="fin-total">
+          <div><div class="clock-label">Total realisasi saat ini</div><div class="big">Rp 0</div></div>
+          <p>Belum ada payout dari sumber mana pun. YouTube mengejar syarat monetisasi, blog menunggu AdSense, komisi Shopee tertahan administrasi, dan airdrop masih spekulatif.</p>
+        </div>
+        <div class="fin-grid">
+          <div class="fin-card">
+            <span class="pill prog">Dalam progres</span>
+            <h3>YouTube — 20 channel</h3>
+            <div class="amt">Rp 0</div>
+            <p>Belum monetisasi. Setiap channel masih mengejar syarat Partner Program: 1.000 subscriber + 4.000 jam tayang publik.</p>
+            <div class="prog-wrap"><small>Syarat: 1.000 subs + 4.000 jam tayang / channel</small><div class="bar"><i style="width:18%"></i></div></div>
+          </div>
+          <div class="fin-card">
+            <span class="pill prog">Dalam progres</span>
+            <h3>Blog — 10 blog</h3>
+            <div class="amt">Rp 0</div>
+            <p>AdSense masih dalam proses, belum ada payout. Produksi artikel jalan terus: 6 artikel per hari tersebar ke 10 blog.</p>
+          </div>
+          <div class="fin-card">
+            <span class="pill hold">Tertahan</span>
+            <h3>Shopee Affiliate</h3>
+            <div class="amt">Komisi tertahan</div>
+            <p>Komisi dari promosi produk belum bisa cair karena info pembayaran &amp; pajak belum dilengkapi.</p>
+            <div class="action">Action item: lengkapi info pembayaran &amp; pajak di <a href="https://affiliate.shopee.co.id" target="_blank" rel="noopener">affiliate.shopee.co.id</a> supaya komisi bisa dicairkan.</div>
+          </div>
+          <div class="fin-card">
+            <span class="pill prog">Dalam progres</span>
+            <h3>TikTok — @ngeweb.yuk</h3>
+            <div class="amt">Rp 0</div>
+            <p>Mengejar 600 followers untuk membuka review produk affiliate, dan 1.000 followers agar link bio bisa diklik.</p>
+            <div class="prog-wrap"><small>Target 1: 600 followers (affiliate review)</small><div class="bar"><i style="width:35%"></i></div></div>
+            <div class="prog-wrap"><small>Target 2: 1.000 followers (link bio klik)</small><div class="bar"><i style="width:22%"></i></div></div>
+          </div>
+          <div class="fin-card">
+            <span class="pill spec">Spekulatif</span>
+            <h3>Airdrop Farming</h3>
+            <div class="amt">Rp 0</div>
+            <p>7 testnet aktif difarming tiap hari (termasuk MegaETH &amp; Sepolia). Belum ada token yang listing atau bisa dijual — nilai masih spekulatif.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Roster -->
+      <section class="section">
+        <h2>Daftar Semua Asisten</h2>
+        <p class="desc">79 asisten terjadwal. Klik nama untuk detail jadwal dan tugasnya — kamera 3D akan terbang ke mejanya bila ia ada di kantor.</p>
+        <div class="roster" id="roster"></div>
+      </section>
+
+      <footer>Kantor AI — pantau 79 asisten otomatis Yunobi: produksi YouTube, blog, TikTok, airdrop, dan monitoring. Status dihitung langsung dari jadwal WIB saat halaman dibuka.</footer>
+    </div>
+
+    <!-- Ruang Publish: panel geser (fitur publish yang sama seperti sebelumnya) -->
+    <aside class="pub-panel" id="pubPanel" aria-hidden="true">
+      <button class="close" id="pubPanelClose" aria-label="Tutup Ruang Publish">&times;</button>
+      <span class="onair"><i></i>ON AIR</span>
+      <h2 style="margin-top:10px">Ruang Publish</h2>
+      <p class="sub">Studio penerbitan video. Pilih video dari layar antrean, lalu tekan tombol PUBLISH besar — perintah dikirim ke sistem publish (fb_bridge) dan video tayang publik dalam waktu sekitar 3 menit.</p>
+      <button class="big-publish" id="bigPublish">PUBLISH</button>
+      <p class="pub-desk-note">Menerbitkan video yang terpilih di layar antrean. Kamu tetap yang memutuskan video mana yang tayang.</p>
+      <span class="pub-conn" id="pubConn"><i></i><span id="pubConnText">Menghubungi sistem publish…</span></span>
+      <div class="pub-screen">
+        <div class="pub-screen-head"><b>ANTREAN VIDEO — MENUNGGU REVIEW</b><span class="pub-count" id="pubCount">0</span><button class="pub-refresh" id="pubRefresh" type="button">Muat ulang</button></div>
+        <div class="pub-list" id="pubList"><div class="pub-msg">Memuat daftar video dari sistem publish…</div></div>
+        <div class="pub-statusline" id="pubStatus"></div>
+      </div>
+    </aside>
+
+    <div class="pub-modal-wrap" id="pubModalWrap">
+      <div class="pub-modal" role="dialog" aria-modal="true" aria-labelledby="pubModalTitle">
+        <h3 id="pubModalTitle">Publish video ini?</h3>
+        <img id="pubModalThumb" alt="Thumbnail video yang akan diterbitkan">
+        <p id="pubModalInfo">—</p>
+        <p>Video akan diubah jadi <b>publik</b> oleh sistem publish (fb_bridge) — biasanya tayang dalam waktu sekitar 3 menit setelah perintah terkirim.</p>
+        <p class="pub-modal-err" id="pubModalErr"></p>
+        <div class="mrow">
+          <button class="pub-cancel" id="pubCancel" type="button">Batal</button>
+          <button class="pub-confirm" id="pubConfirm" type="button">Ya, Publish</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="scrim" id="scrim"></div>
+    <aside class="sheet" id="sheet" aria-hidden="true">
+      <button class="close" id="sheetClose" aria-label="Tutup">&times;</button>
+      <div class="avatar-zone"><div class="sheet-avatar" id="sheetAvatar">–</div></div>
+      <h3 id="sheetName">—</h3>
+      <div class="dept" id="sheetDept">—</div>
+      <div class="kv"><small>Status sekarang</small><div class="status-line" id="sheetStatus">—</div></div>
+      <div class="kv"><small>Kerjaan terakhir</small><div id="sheetLast">—</div></div>
+      <div class="kv"><small>Jadwal</small><div id="sheetSched">—</div></div>
+      <div class="kv"><small>Jalan berikutnya</small><div id="sheetNext">—</div></div>
+      <div class="kv"><small>Tugas</small><div id="sheetJob">—</div></div>
+    </aside>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script>
+    /* ============ DATA REAL: 79 cron dalam 6 departemen ============ */
+    var DEPTS = [
+      { id:'youtube', label:'PRODUKSI YOUTUBE' },
+      { id:'blog', label:'BLOG & KONTEN' },
+      { id:'tiktok', label:'TIKTOK & SOSMED' },
+      { id:'airdrop', label:'AIRDROP & CRYPTO' },
+      { id:'monitoring', label:'MONITORING & BACKUP' },
+      { id:'lainnya', label:'LAINNYA' }
+    ];
+    function A(name, job, opts){ opts = opts || {}; return { name:name, job:job, t:opts.t||null, iv:opts.iv||null, label:opts.label||null, g:!!opts.g }; }
+    var ytJob = 'Produksi 1 video per hari untuk channel YouTube (riset topik, naskah, visual, voiceover, upload).';
+    var DATA = {
+      youtube: ['empires-en-harian','fakta-bola-dunia-harian','history-en-harian','horor-harian','horror-en-harian','inktime-harian','jejakbuddha-harian','jejakislami-harian','kisahalkitab-harian','kisahdharma-harian','lima-misteri-harian','macammacam-harian','mind-en-harian','mystery-en-harian','space-en-harian','strangetales-shorts-harian','truecrime-en-harian','weird-en-harian','youtube-pov-harian'].map(function(n){ return A(n, ytJob, {t:'16:11'}); }),
+      blog: [
+        A('blog-otomatis-harian','Menulis 6 artikel per hari dan menerbitkannya tersebar rata ke 10 blog (round-robin).',{t:'15:11'}),
+        A('verifikasi-pagi-blog','Verifikasi artikel yang terbit vs snapshot kemarin, cek bounce email, lapor ringkas.',{t:'17:11'}),
+        A('ekspansi-blog-2mingguan','Ekspansi blog niche baru dari antrean rotasi niche.',{label:'Setiap 2 minggu'}),
+        A('adsense-monitor','Memantau status peninjauan dan kelayakan AdSense untuk blog-blog aktif.',{label:'Berkala'})
+      ],
+      tiktok: [
+        A('tiktok-loker-siang','Produksi & posting video info loker ke TikTok (edisi siang).',{t:'12:11'}),
+        A('tiktok-loker-harian','Produksi & posting video info loker ke TikTok (edisi malam).',{t:'19:11'}),
+        A('share-3x-upload-harian','Share-copy 3x setiap video YouTube baru (24 jam terakhir, semua channel).',{t:'21:11'}),
+        A('share-ig-harian','Posting konten promosi harian ke Instagram.',{t:'20:11'}),
+        A('promo-afiliasi-harian','Promo 5 produk Shopee Affiliate per hari, termasuk video presenter AI berbahasa Indonesia.',{t:'17:11'}),
+        A('tiktok-shop-ganti-produk','Pengingat berkala untuk mengganti katalog produk TikTok Shop.',{label:'Setiap 2 minggu'}),
+        A('balas-komentar','Membalas komentar penonton di video-video YouTube.',{t:'21:11'}),
+        A('pendukung-sosmed','Cron pendukung operasional TikTok & media sosial (nama belum dirinci).',{label:'Pendukung', g:true}),
+        A('pendukung-sosmed','Cron pendukung operasional TikTok & media sosial (nama belum dirinci).',{label:'Pendukung', g:true})
+      ],
+      airdrop: [
+        A('airdrop-hunter-x','Berburu peluang airdrop baru di X dan memasukkannya ke daftar farming.',{t:'07:00'}),
+        A('airdrop-farming-harian','Farming harian di proyek testnet aktif (transaksi rutin agar eligible).',{t:'08:00'}),
+        A('faucet-sepolia-harian','Klaim faucet Sepolia harian untuk kebutuhan testnet.',{t:'09:00'}),
+        A('faucet-megaeth-30wallet','Klaim faucet MegaETH untuk 30 wallet farming.',{t:'10:00'}),
+        A('konsolidasi-mining-harian','Cek saldo wallet mining dan kirim 90% hasil ke wallet farming utama.',{t:'11:00'}),
+        A('airdrop-mainnet-monitor','Pantau peluang & pergerakan airdrop mainnet.',{label:'Senin & Kamis', t:'09:00'}),
+        A('pendukung-crypto','Cron pendukung operasional airdrop & crypto (nama belum dirinci).',{label:'Pendukung', g:true})
+      ],
+      monitoring: [
+        A('backup-workspace-perjam','Backup workspace ke repo GitHub privat (hanya push bila ada perubahan).',{iv:60}),
+        A('fb_bridge-dashboard','Sinkronisasi data dashboard YouTube (state, statistik, tab blog).',{iv:3}),
+        A('watchdog-retry-upload-youtube','Mengolah antrean retry upload YouTube yang tertunda batas harian.',{t:'20:00'}),
+        A('retry-cepat-upload-youtube','Retry cepat upload YouTube yang tertunda.',{iv:180}),
+        A('cek-video-sepi-3harian','Scan semua channel: video sepi diperbaiki metadatanya otomatis dan di-share ulang 3x.',{label:'Harian'}),
+        A('hapus-video-terupload-harian','Hapus file video lokal yang sudah terupload ke YouTube (hemat disk).',{t:'22:11'}),
+        A('verifikasi-otp-3harian','Verifikasi HP channel YouTube berikutnya via OTP (1 nomor per run).',{label:'Setiap 3 hari'}),
+        A('pantau-stok-otpmurah','Pantau stok & harga nomor di OTPMurah.',{iv:360}),
+        A('yt-seo-refresh-mingguan','Refresh SEO metadata channel YouTube.',{label:'Senin', t:'09:00'}),
+        A('audit-channel-mingguan','Audit kesehatan mingguan semua channel YouTube.',{label:'Mingguan'}),
+        A('cek-token-mingguan','Cek masa berlaku token OAuth tiap channel.',{label:'Mingguan'}),
+        A('audit-duplikat-video','Audit video duplikat antar channel.',{label:'Berkala'})
+      ],
+      lainnya: []
+    };
+    for (var mi = DATA.monitoring.length; mi < 23; mi++) DATA.monitoring.push(A('pendukung-monitoring', 'Cron pendukung monitoring & backup operasional (nama belum dirinci).', {label:'Pendukung', g:true}));
+    for (var li = 1; li <= 17; li++) DATA.lainnya.push(A('pendukung-lainnya', 'Cron pendukung operasional di luar departemen utama (nama belum dirinci).', {label:'Pendukung', g:true}));
+    DATA.keuangan = [ A('asisten-keuangan','Memantau ringkasan pendapatan semua lini project: YouTube, blog, Shopee Affiliate, TikTok, dan airdrop.',{label:'Berkala'}) ];
+
+    var DEPT_NAME = { youtube:'Produksi YouTube', blog:'Blog & Konten', tiktok:'TikTok & Sosmed', airdrop:'Airdrop & Crypto', monitoring:'Monitoring & Backup', lainnya:'Lainnya', keuangan:'Keuangan', publish:'Ruang Publish', manager:'Ruang Manager', lobby:'Lobby', pantry:'Pantry' };
+    var PHRASES = {
+      youtube:['Lagi render video…','Upload selesai!','Cek retensi dulu','Naskah beres','Thumbnail oke!','Jadwal tayang aman'],
+      blog:['Artikel ke-4…','SEO dicek ulang','Publish!','Riset kata kunci','Verifikasi feed…'],
+      tiktok:['Hook 3 detik!','Caption beres','Upload ke TikTok','Balas komentar…','Cek tren hari ini'],
+      airdrop:['Klaim faucet…','Transaksi testnet','Saldo dicek','Cari airdrop baru','Konsolidasi wallet'],
+      monitoring:['Backup jalan','Semua sistem aman','Retry upload…','Scan video sepi','Token masih valid'],
+      lainnya:['Siap!','Lagi proses…','Beres','Standby'],
+      keuangan:['Hitung ulang…','Masih Rp 0 nih','Cek status AdSense','Komisi tertahan…'],
+      publish:['Antrean dicek…','Siap publish!','Nunggu perintah tayang','Monitor antrean…','Cek video pending'],
+      lobby:['Selamat datang!','Silakan, ada yang bisa dibantu?','Kantor aman terkendali'],
+      pantry:['Kopinya mantap','Istirahat sebentar ya','Nanti lanjut lagi']
+    };
+
+    /* ============ Penampilan karakter (dipakai avatar panel + karakter 3D) ============ */
+    var SKINS = ['#f6c99b','#eebd8f','#d99e63','#b97a45','#8c5a2e'];
+    var SHIRTS = ['#e2574c','#2f6fb2','#1d9e62','#e8a13a','#7a5af8','#0f766e','#d6699e','#4a6fa5','#5b8c5a','#c05621','#718096','#975a16'];
+    var HAIRS = ['#2b2118','#4a3220','#17130f','#6e4520','#999999','#3a3a3a'];
+    var HAIR_STYLES = ['short','short','bun','cap','hijab','short'];
+    var PANTS = ['#3d4351','#4a4038','#2f3e50','#54424e','#37474f'];
+    var seed = 7;
+    function rnd(n){ seed = (seed * 1103515245 + 12345) % 2147483648; return seed % n; }
+    function makeLook(){
+      var skin = SKINS[rnd(SKINS.length)], shirt = SHIRTS[rnd(SHIRTS.length)], hair = HAIRS[rnd(HAIRS.length)], style = HAIR_STYLES[rnd(HAIR_STYLES.length)];
+      if (style === 'hijab') hair = SHIRTS[rnd(SHIRTS.length)];
+      return { skin:skin, shirt:shirt, hair:hair, style:style, pants:PANTS[rnd(PANTS.length)] };
+    }
+
+    /* ============ Status dari jadwal WIB ============ */
+    function wibNow(){
+      var parts = new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Jakarta',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date());
+      var h=0,m=0; parts.forEach(function(p){ if(p.type==='hour')h=+p.value; if(p.type==='minute')m=+p.value; });
+      return h*60+m;
+    }
+    function statusOf(a, nowMin){
+      if (a.iv){ var cyc = nowMin % a.iv; return (cyc < Math.max(12, a.iv*0.25)) ? 'work' : 'soon'; }
+      if (a.t){ var p = a.t.split(':'), t = (+p[0])*60 + (+p[1]); var d = t - nowMin;
+        if (d <= 5 && d >= -50) return 'work';
+        if (d > 5 && d <= 90) return 'soon';
+        return 'idle'; }
+      return 'idle';
+    }
+    function statusText(s){ return s==='work' ? 'Sedang bekerja' : (s==='soon' ? 'Jadwal berikutnya dekat' : 'Siaga / santai'); }
+    function nextRun(a, nowMin){
+      if (a.iv){ var rem = a.iv - (nowMin % a.iv); if (rem === a.iv) rem = 0; return rem <= 1 ? 'Sebentar lagi (jalan berkala)' : 'Sekitar ' + rem + ' menit lagi (jalan berkala tiap ' + (a.iv>=60 ? (a.iv/60)+' jam' : a.iv+' menit') + ')'; }
+      if (a.t){ var p=a.t.split(':'), t=(+p[0])*60+(+p[1]); return (t >= nowMin ? 'Hari ini, ' : 'Besok, ') + a.t + ' WIB'; }
+      return a.label || 'Mengikuti jadwal berkala';
+    }
+    function lastRun(a, nowMin){
+      if (a.iv){ var cyc = nowMin % a.iv; return cyc <= 1 ? 'Baru saja jalan (berkala tiap ' + (a.iv>=60 ? (a.iv/60)+' jam' : a.iv+' menit') + ')' : 'Sekitar ' + cyc + ' menit lalu (jalan berkala)'; }
+      if (a.t){ var p=a.t.split(':'), t=(+p[0])*60+(+p[1]); return (nowMin >= t ? 'Hari ini, ' : 'Kemarin, ') + a.t + ' WIB — sesuai jadwal'; }
+      if (a.label) return 'Terakhir pada siklus ' + a.label.toLowerCase() + ' sebelumnya';
+      return 'Mengikuti jadwal berkala';
+    }
+    function schedText(a){
+      if (a.label && a.t) return a.label + ', ' + a.t + ' WIB';
+      if (a.label) return a.label;
+      if (a.iv) return a.iv >= 60 ? 'Setiap ' + (a.iv/60) + ' jam' : 'Setiap ' + a.iv + ' menit';
+      if (a.t) return 'Setiap hari, ' + a.t + ' WIB';
+      return 'Berkala';
+    }
+
+    var nowMin = wibNow();
+    var workingCount = 0;
+    DEPTS.forEach(function(d){
+      DATA[d.id].forEach(function(a){ a._dept = d.id; a._status = statusOf(a, nowMin); a._look = makeLook(); if (a._status === 'work') workingCount++; });
+    });
+    DATA.keuangan[0]._dept = 'keuangan'; DATA.keuangan[0]._status = 'idle'; DATA.keuangan[0]._look = makeLook();
+    document.getElementById('statWorking').textContent = workingCount;
+
+    /* ============ Panel laporan (klik karakter / nama) ============ */
+    var sheet = document.getElementById('sheet'), scrim = document.getElementById('scrim');
+    function initials(name){
+      var clean = name.replace(/[^a-z0-9-]/gi,'');
+      var parts = clean.split('-').filter(Boolean);
+      if (parts.length >= 2) return (parts[0].charAt(0) + parts[1].charAt(0)).toUpperCase();
+      return clean.slice(0,2).toUpperCase() || 'AI';
+    }
+    function openSheet(a, dept){
+      dept = dept || a._dept || 'lainnya';
+      document.getElementById('sheetName').textContent = a.g ? (a.name + ' — nama belum dirinci') : a.name;
+      document.getElementById('sheetDept').textContent = dept === 'manager' ? 'Ruang Manager' : ('Departemen ' + (DEPT_NAME[dept] || dept));
+      var st = a._status || statusOf(a, wibNow());
+      var col = st==='work' ? 'var(--green)' : st==='soon' ? 'var(--amber)' : '#b9b2a0';
+      document.getElementById('sheetStatus').innerHTML = '<span style="width:10px;height:10px;border-radius:50%;background:' + col + ';display:inline-block;flex:none"></span>' + statusText(st);
+      document.getElementById('sheetLast').textContent = lastRun(a, wibNow());
+      document.getElementById('sheetSched').textContent = schedText(a);
+      document.getElementById('sheetNext').textContent = nextRun(a, wibNow());
+      document.getElementById('sheetJob').textContent = a.job;
+      if (!a._look) a._look = makeLook();
+      var av = document.getElementById('sheetAvatar');
+      av.style.background = a._look.skin;
+      av.style.color = '#3a2c1c';
+      av.style.boxShadow = 'inset 0 0 0 5px ' + a._look.shirt;
+      av.textContent = initials(a.name);
+      sheet.classList.add('on'); scrim.classList.add('on'); sheet.setAttribute('aria-hidden','false');
+    }
+    function closeSheet(){ sheet.classList.remove('on'); scrim.classList.remove('on'); sheet.setAttribute('aria-hidden','true'); }
+    document.getElementById('sheetClose').addEventListener('click', closeSheet);
+    scrim.addEventListener('click', function(){ closeSheet(); closePubPanel(); });
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape'){ closeSheet(); closePubPanel(); } });
+
+    /* ============ Roster + chip navigasi ============ */
+    var roster = document.getElementById('roster');
+    var chips = document.getElementById('chips');
+    var charFocus = {}; // name -> {x,z} posisi karakter 3D (diisi modul 3D)
+    function gotoAssistant(a){
+      openSheet(a, a._dept);
+      if (window.__focusChar && charFocus[a.name]) window.__focusChar(charFocus[a.name]);
+    }
+    DEPTS.forEach(function(d){
+      var list = DATA[d.id];
+      var rc = document.createElement('div'); rc.className = 'roster-card';
+      var named = list.filter(function(x){ return !x.g; });
+      var generic = list.filter(function(x){ return x.g; });
+      var rows = named.map(function(a){
+        var st = a._status;
+        var col = st==='work' ? 'var(--green)' : st==='soon' ? 'var(--amber)' : '#b9b2a0';
+        return '<button class="rrow" data-name="' + a.name + '"><span class="rd" style="background:' + col + '"></span><span class="rn">' + a.name + '</span><span class="rj">' + schedText(a) + '</span></button>';
+      }).join('');
+      if (generic.length){
+        rows += '<button class="rrow" data-name="' + generic[0].name + '"><span class="rd" style="background:#b9b2a0"></span><span class="rn">' + generic.length + ' cron pendukung — nama belum dirinci</span><span class="rj">Pendukung</span></button>';
+      }
+      rc.innerHTML = '<h3>' + d.label + ' <span>· ' + list.length + '</span></h3>' + rows;
+      roster.appendChild(rc);
+      rc.querySelectorAll('.rrow').forEach(function(r){
+        r.addEventListener('click', function(){
+          var found = null;
+          list.forEach(function(x){ if (x.name === r.getAttribute('data-name')) found = x; });
+          if (found) gotoAssistant(found);
+        });
+      });
+      var chip = document.createElement('button'); chip.className = 'chip';
+      chip.innerHTML = d.label.charAt(0) + d.label.slice(1).toLowerCase() + ' <span class="n">' + list.length + '</span>';
+      chip.addEventListener('click', function(){
+        document.getElementById('stage').scrollIntoView({behavior:'smooth', block:'center'});
+        if (window.__focusRoom) window.__focusRoom(d.id);
+      });
+      chips.appendChild(chip);
+    });
+    // Chip tambahan: Lobby, Keuangan, Ruang Publish
+    (function(){
+      var cLobby = document.createElement('button'); cLobby.className = 'chip'; cLobby.textContent = 'Lobby';
+      cLobby.addEventListener('click', function(){ document.getElementById('stage').scrollIntoView({behavior:'smooth', block:'center'}); if (window.__focusRoom) window.__focusRoom('lobby'); });
+      chips.appendChild(cLobby);
+      var cFin = document.createElement('button'); cFin.className = 'chip'; cFin.textContent = 'Keuangan';
+      cFin.addEventListener('click', function(){
+        document.getElementById('stage').scrollIntoView({behavior:'smooth', block:'center'});
+        if (window.__focusRoom) window.__focusRoom('keuangan');
+        setTimeout(function(){ document.getElementById('keuangan').scrollIntoView({behavior:'smooth'}); }, 650);
+      });
+      chips.appendChild(cFin);
+      var cPub = document.createElement('button'); cPub.className = 'chip pub'; cPub.textContent = 'Ruang Publish';
+      cPub.addEventListener('click', openPubPanel);
+      chips.appendChild(cPub);
+      var s = document.createElement('div'); s.className = 'search';
+      s.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.8-3.8"/></svg><input id="searchInput" type="search" placeholder="Cari asisten…" aria-label="Cari asisten">';
+      chips.appendChild(s);
+      s.querySelector('input').addEventListener('input', function(e){
+        var q = e.target.value.toLowerCase();
+        document.querySelectorAll('.rrow').forEach(function(r){
+          r.classList.toggle('hide', q && r.getAttribute('data-name').indexOf(q) === -1);
+        });
+        if (q) document.getElementById('roster').scrollIntoView({behavior:'smooth', block:'start'});
+      });
+    })();
+
+    /* ============ Jam live WIB ============ */
+    function tickClock(){
+      var now = new Date();
+      document.getElementById('clock').textContent = new Intl.DateTimeFormat('id-ID',{timeZone:'Asia/Jakarta',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(now).replace(/\./g,':');
+      document.getElementById('dateLine').textContent = new Intl.DateTimeFormat('id-ID',{timeZone:'Asia/Jakarta',weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(now);
+    }
+    tickClock(); setInterval(tickClock, 1000);
+
+    /* ============ Ruang Publish — antrean video dari Firebase (sistem yang sama dengan yt-dashboard) ============ */
+    var FB_DB = 'https://yt-dashboard-yunobi-default-rtdb.asia-southeast1.firebasedatabase.app';
+    var FB_AUTH = 'zszMpcV3wzsoDXSc9xZZBBwIvM755gBQPPILlyhN';
+    var pubItems = [];
+    var pubSelected = -1;
+    var pubSending = {};
+    var pubPendingItem = null;
+
+    var pubPanel = document.getElementById('pubPanel');
+    function openPubPanel(){ pubPanel.classList.add('on'); pubPanel.setAttribute('aria-hidden','false'); scrim.classList.add('on'); }
+    function closePubPanel(){ pubPanel.classList.remove('on'); pubPanel.setAttribute('aria-hidden','true'); if (!sheet.classList.contains('on')) scrim.classList.remove('on'); }
+    document.getElementById('pubPanelClose').addEventListener('click', closePubPanel);
+    document.getElementById('btnPubOpen').addEventListener('click', openPubPanel);
+    window.__openPubPanel = openPubPanel;
+
+    function pubSetConn(state, text){
+      var c = document.getElementById('pubConn');
+      c.className = 'pub-conn' + (state ? ' ' + state : '');
+      document.getElementById('pubConnText').textContent = text;
+    }
+    function pubSetStatus(msg, isErr){
+      var s = document.getElementById('pubStatus');
+      s.textContent = msg || '';
+      s.className = 'pub-statusline' + (isErr ? ' err' : '');
+    }
+    function fmtDur(v){
+      if (v === null || v === undefined || v === '') return '';
+      if (typeof v === 'string' && v.indexOf(':') !== -1) return v;
+      var n = Math.round(Number(v));
+      if (!isFinite(n) || n <= 0) return String(v);
+      var h = Math.floor(n / 3600), m = Math.floor((n % 3600) / 60), s = n % 60;
+      return (h > 0 ? h + ':' + (m < 10 ? '0' : '') : '') + m + ':' + (s < 10 ? '0' : '') + s;
+    }
+    function pubNormalize(data){
+      var arr = [];
+      if (!data) return arr;
+      if (Object.prototype.toString.call(data) === '[object Array]') arr = data.filter(Boolean);
+      else if (typeof data === 'object') Object.keys(data).forEach(function(k){ if (data[k]) arr.push(data[k]); });
+      return arr.map(function(v){
+        return {
+          slug: v.slug || v.channel || '-',
+          id: v.id || v.videoId || '',
+          title: v.title || '(tanpa judul)',
+          channel: v.channelName || v.channel || v.slug || '-',
+          duration: (v.duration != null ? v.duration : (v.dur != null ? v.dur : v.length))
+        };
+      }).filter(function(v){ return v.id; });
+    }
+    function renderPubList(){
+      var list = document.getElementById('pubList');
+      var keepScroll = list.scrollTop;
+      document.getElementById('pubCount').textContent = pubItems.length;
+      list.innerHTML = '';
+      if (window.__setPubScreen) window.__setPubScreen(pubItems);
+      if (!pubItems.length){
+        list.innerHTML = '<div class="pub-msg">Antrean kosong — tidak ada video yang menunggu review saat ini. Video yang selesai diproduksi akan muncul di layar ini.</div>';
+        return;
+      }
+      pubItems.forEach(function(item, i){
+        var sent = !!pubSending[item.id];
+        var row = document.createElement('div');
+        row.className = 'pub-item' + (i === pubSelected ? ' sel' : '');
+        row.setAttribute('role', 'button');
+        row.setAttribute('tabindex', '0');
+        var img = document.createElement('img');
+        img.src = 'https://i.ytimg.com/vi/' + item.id + '/mqdefault.jpg';
+        img.alt = 'Thumbnail video';
+        img.loading = 'lazy';
+        img.onerror = function(){
+          var d = document.createElement('div');
+          d.className = 'pub-thumb'; d.textContent = '▶';
+          img.parentNode.replaceChild(d, img);
+        };
+        var info = document.createElement('div'); info.className = 'pub-info';
+        var bt = document.createElement('b'); bt.textContent = item.title;
+        var st = document.createElement('span');
+        var dur = fmtDur(item.duration);
+        st.textContent = 'Channel: ' + item.channel + (dur ? ' • Durasi: ' + dur : '');
+        info.appendChild(bt); info.appendChild(st);
+        if (sent){
+          var sm = document.createElement('span'); sm.className = 'pub-sent';
+          sm.textContent = 'Perintah terkirim — tayang dalam ~3 menit';
+          info.appendChild(sm);
+        }
+        var go = document.createElement('button');
+        go.type = 'button'; go.className = 'pub-go';
+        go.textContent = sent ? 'Terkirim ✓' : 'PUBLISH';
+        go.disabled = sent;
+        go.setAttribute('aria-label', 'Publish video ' + item.title);
+        go.addEventListener('click', function(ev){ ev.stopPropagation(); pubSelected = i; markPubSelection(); askPublish(item); });
+        row.appendChild(img); row.appendChild(info); row.appendChild(go);
+        function choose(){
+          pubSelected = i; markPubSelection();
+          pubSetStatus('Video terpilih: "' + item.title + '" — tekan tombol PUBLISH besar atau tombol PUBLISH pada baris ini untuk menerbitkan.');
+        }
+        row.addEventListener('click', choose);
+        row.addEventListener('keydown', function(e){ if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); choose(); } });
+        list.appendChild(row);
+      });
+      list.scrollTop = keepScroll;
+    }
+    function markPubSelection(){
+      var rows = document.getElementById('pubList').children;
+      for (var i = 0; i < rows.length; i++) rows[i].classList.toggle('sel', i === pubSelected);
+    }
+    function loadPending(){
+      pubSetConn('', 'Menghubungi sistem publish…');
+      pubSetStatus('');
+      fetch(FB_DB + '/yt/pending.json?auth=' + FB_AUTH)
+        .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(function(data){
+          pubItems = pubNormalize(data);
+          pubSelected = pubItems.length ? 0 : -1;
+          pubSetConn('ok', 'Terhubung ke sistem publish');
+          renderPubList();
+          if (pubItems.length) pubSetStatus(pubItems.length + ' video menunggu review. Klik video untuk memilih, lalu tekan PUBLISH.');
+        })
+        .catch(function(e){
+          pubItems = []; pubSelected = -1;
+          pubSetConn('err', 'Tidak terhubung ke sistem publish');
+          document.getElementById('pubCount').textContent = '0';
+          document.getElementById('pubList').innerHTML = '<div class="pub-msg err">Gagal mengambil daftar video dari Firebase (' + e.message + '). Periksa koneksi internet, lalu klik "Muat ulang". Antrean tidak bisa ditampilkan sekarang — bukan berarti tidak ada video yang menunggu.</div>';
+          pubSetStatus('Koneksi ke Firebase gagal. Antrean video tidak termuat.', true);
+          if (window.__setPubScreen) window.__setPubScreen(null);
+        });
+    }
+    function askPublish(item){
+      pubPendingItem = item;
+      document.getElementById('pubModalThumb').src = 'https://i.ytimg.com/vi/' + item.id + '/mqdefault.jpg';
+      document.getElementById('pubModalInfo').textContent = '"' + item.title + '" — Channel: ' + item.channel;
+      document.getElementById('pubModalErr').textContent = '';
+      var c = document.getElementById('pubConfirm');
+      c.disabled = false; c.textContent = 'Ya, Publish';
+      document.getElementById('pubModalWrap').classList.add('on');
+    }
+    window.__askPublishSelected = function(){
+      if (!pubItems.length){ openPubPanel(); return; }
+      var item = pubItems[pubSelected >= 0 ? pubSelected : 0];
+      if (pubSending[item.id]){ openPubPanel(); return; }
+      askPublish(item);
+    };
+    function closePubModal(){
+      document.getElementById('pubModalWrap').classList.remove('on');
+      pubPendingItem = null;
+    }
+    function sendPublishCommand(item){
+      var cid = item.slug + '-' + item.id;
+      var body = { slug: item.slug, videoId: item.id, title: '', ts: Date.now(), status: 'pending' };
+      return fetch(FB_DB + '/yt/commands/' + encodeURIComponent(cid) + '.json?auth=' + FB_AUTH, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      }).then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+    }
+    document.getElementById('pubConfirm').addEventListener('click', function(){
+      var item = pubPendingItem; if (!item) return;
+      var c = document.getElementById('pubConfirm');
+      c.disabled = true; c.textContent = 'Mengirim perintah…';
+      sendPublishCommand(item)
+        .then(function(){
+          pubSending[item.id] = true;
+          closePubModal();
+          renderPubList();
+          pubSetConn('ok', 'Terhubung ke sistem publish');
+          pubSetStatus('Perintah terkirim untuk "' + item.title + '". Video akan tayang dalam ~3 menit — fb_bridge sedang memprosesnya jadi publik.');
+        })
+        .catch(function(e){
+          document.getElementById('pubModalErr').textContent = 'Gagal mengirim perintah publish (' + e.message + '). Periksa koneksi lalu coba lagi.';
+          c.disabled = false; c.textContent = 'Ya, Publish';
+        });
+    });
+    document.getElementById('pubCancel').addEventListener('click', closePubModal);
+    document.getElementById('pubModalWrap').addEventListener('click', function(e){ if (e.target === this) closePubModal(); });
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closePubModal(); });
+    document.getElementById('pubRefresh').addEventListener('click', loadPending);
+    document.getElementById('bigPublish').addEventListener('click', function(){
+      if (!pubItems.length){
+        pubSetStatus('Antrean masih kosong atau belum termuat — belum ada video yang bisa diterbitkan. Klik "Muat ulang" pada layar untuk memeriksa lagi.', true);
+        return;
+      }
+      var item = pubItems[pubSelected >= 0 ? pubSelected : 0];
+      if (pubSending[item.id]){
+        pubSetStatus('Video terpilih sudah dikirimi perintah publish dan sedang diproses. Pilih video lain di antrean bila ada.');
+        return;
+      }
+      askPublish(item);
+    });
+    loadPending();
+    </script>
+    <script>
+    /* ================================================================
+       KANTOR 3D — Three.js: gedung kantor realistis low-poly
+       ================================================================ */
+    (function(){
+      var glBox = document.getElementById('gl');
+      if (!window.THREE){
+        document.getElementById('glFallback').classList.add('on');
+        glBox.style.display = 'none';
+        var sa = document.querySelector('.stage-actions'); if (sa) sa.style.display = 'none';
+        var sl = document.querySelector('.stage-live'); if (sl) sl.style.display = 'none';
+        var sh = document.querySelector('.stage-hint'); if (sh) sh.style.display = 'none';
+        return;
+      }
+      var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var isMobile = Math.min(window.innerWidth, window.innerHeight) < 700;
+
+      var scene = new THREE.Scene();
+      scene.background = new THREE.Color(0xaecadd);
+      scene.fog = new THREE.Fog(0xbdd2df, 60, 135);
+      var camera = new THREE.PerspectiveCamera(46, 1, 0.1, 300);
+      camera.position.set(34, 26, 38);
+      var renderer = new THREE.WebGLRenderer({ antialias:true, powerPreference:'high-performance' });
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, isMobile ? 1.8 : 2));
+      renderer.shadowMap.enabled = true;
+      renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+      renderer.outputEncoding = THREE.sRGBEncoding;
+      renderer.toneMapping = THREE.ACESFilmicToneMapping;
+      renderer.toneMappingExposure = 1.06;
+      glBox.appendChild(renderer.domElement);
+
+      var controls = new THREE.OrbitControls(camera, renderer.domElement);
+      controls.target.set(0, 0.5, -1);
+      controls.enableDamping = true;
+      controls.dampingFactor = 0.06;
+      controls.minDistance = 4;
+      controls.maxDistance = 58;
+      controls.maxPolarAngle = Math.PI * 0.495;
+      controls.autoRotateSpeed = 0.55;
+
+      /* ---------- cahaya hangat ---------- */
+      scene.add(new THREE.HemisphereLight(0xfff1dc, 0x8a7a63, 0.72));
+      var sun = new THREE.DirectionalLight(0xffe3b8, 1.05);
+      sun.position.set(22, 30, 16);
+      sun.castShadow = true;
+      sun.shadow.mapSize.set(isMobile ? 1024 : 2048, isMobile ? 1024 : 2048);
+      sun.shadow.camera.left = -32; sun.shadow.camera.right = 32;
+      sun.shadow.camera.top = 26; sun.shadow.camera.bottom = -26;
+      sun.shadow.camera.near = 1; sun.shadow.camera.far = 90;
+      sun.shadow.bias = -0.0007;
+      scene.add(sun);
+      var fill = new THREE.DirectionalLight(0xdfeaf5, 0.28);
+      fill.position.set(-18, 20, -14); scene.add(fill);
+      var lobbyLight = new THREE.PointLight(0xffd9a0, 0.55, 22); lobbyLight.position.set(-5, 2.9, 11); scene.add(lobbyLight);
+      var pubLight = new THREE.PointLight(0xffb59d, 0.5, 18); pubLight.position.set(9.5, 2.9, 10.5); scene.add(pubLight);
+
+      /* ---------- helper material / geometri ---------- */
+      var matCache = {};
+      function mat(color, rough, metal, emissive, eInt){
+        var key = color + '|' + (rough==null?0.85:rough) + '|' + (metal||0) + '|' + (emissive||'') + '|' + (eInt||0);
+        if (!matCache[key]){
+          var m = new THREE.MeshStandardMaterial({ color: new THREE.Color(color), roughness: (rough==null?0.85:rough), metalness: (metal||0) });
+          if (emissive){ m.emissive = new THREE.Color(emissive); m.emissiveIntensity = eInt || 0.6; }
+          matCache[key] = m;
+        }
+        return matCache[key];
+      }
+      var geoCache = {};
+      function boxGeo(w,h,d){ var k='b'+w+','+h+','+d; if(!geoCache[k]) geoCache[k]=new THREE.BoxGeometry(w,h,d); return geoCache[k]; }
+      function cylGeo(rt,rb,h,s){ var k='c'+rt+','+rb+','+h+','+(s||14); if(!geoCache[k]) geoCache[k]=new THREE.CylinderGeometry(rt,rb,h,s||14); return geoCache[k]; }
+      function sphGeo(r,a,b){ var k='s'+r+','+(a||16)+','+(b||12); if(!geoCache[k]) geoCache[k]=new THREE.SphereGeometry(r,a||16,b||12); return geoCache[k]; }
+      function box(w,h,d,m,x,y,z,parent,cast,recv){
+        var ms = new THREE.Mesh(boxGeo(w,h,d), m);
+        ms.position.set(x||0,y||0,z||0);
+        if (cast) ms.castShadow = true;
+        if (recv) ms.receiveShadow = true;
+        if (parent) parent.add(ms);
+        return ms;
+      }
+      function cyl(rt,rb,h,m,x,y,z,parent,cast,seg){
+        var ms = new THREE.Mesh(cylGeo(rt,rb,h,seg), m);
+        ms.position.set(x||0,y||0,z||0);
+        if (cast) ms.castShadow = true;
+        if (parent) parent.add(ms);
+        return ms;
+      }
+      function textTexture(w, h, draw){
+        var c = document.createElement('canvas'); c.width = w; c.height = h;
+        draw(c.getContext('2d'), w, h);
+        var t = new THREE.CanvasTexture(c);
+        t.anisotropy = 4; t.encoding = THREE.sRGBEncoding;
+        return t;
+      }
+      function signTexture(text, color){
+        return textTexture(1024, 112, function(g,w,h){
+          g.fillStyle = color; g.fillRect(0,0,w,h);
+          g.fillStyle = 'rgba(255,255,255,.16)'; g.fillRect(0,h-14,w,14);
+          g.font = '800 62px "Plus Jakarta Sans", Arial, sans-serif';
+          g.textAlign = 'center'; g.textBaseline = 'middle';
+          g.fillStyle = '#ffffff';
+          g.fillText(text, w/2, h/2 + 2);
+        });
+      }
+      function plateTexture(name){
+        return textTexture(256, 56, function(g,w,h){
+          g.fillStyle = '#2b2f36'; g.fillRect(0,0,w,h);
+          g.strokeStyle = '#c9a86a'; g.lineWidth = 3; g.strokeRect(3,3,w-6,h-6);
+          g.font = '700 21px "JetBrains Mono", monospace';
+          g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillStyle = '#f3e9d2';
+          var s = name; if (s.length > 20) s = s.slice(0,19) + '…';
+          g.fillText(s, w/2, h/2 + 1);
+        });
+      }
+      var screenTexA = textTexture(256, 160, function(g,w,h){
+        g.fillStyle = '#0e141d'; g.fillRect(0,0,w,h);
+        g.fillStyle = '#1d9e62'; g.fillRect(0,0,w,20);
+        g.fillStyle = '#22314a'; g.fillRect(10,32,w-20,10); g.fillRect(10,52,w-50,10);
+        var cols = ['#2f6fb2','#1d9e62','#e8a13a','#7a5af8','#2f6fb2','#d6699e'];
+        for (var i=0;i<6;i++){ var bh = 22 + ((i*37)%50); g.fillStyle = cols[i]; g.fillRect(16+i*38, h-16-bh, 24, bh); }
+        g.fillStyle = '#39506e'; g.fillRect(10,h-12,w-20,4);
+      });
+      var screenTexB = textTexture(256, 160, function(g,w,h){
+        g.fillStyle = '#101820'; g.fillRect(0,0,w,h);
+        g.fillStyle = '#e02b1d'; g.fillRect(0,0,w,20);
+        g.fillStyle = '#7ee2a0'; g.font = '700 17px monospace';
+        for (var i=0;i<6;i++){ g.fillText('> task_' + (i+3) + ' ok', 12, 48+i*18); g.fillStyle = i%2 ? '#9fb0c3' : '#7ee2a0'; }
+      });
+      function screenMat(tex){
+        return new THREE.MeshStandardMaterial({ color:0x11100e, roughness:0.4, metalness:0.2, emissive:0xffffff, emissiveMap:tex, emissiveIntensity:0.85, map:tex });
+      }
+
+      /* ---------- tekstur lantai marmer & kota ---------- */
+      var marbleTex = textTexture(512, 512, function(g,w,h){
+        g.fillStyle = '#e9e6df'; g.fillRect(0,0,w,h);
+        for (var i=0;i<2600;i++){ g.fillStyle = 'rgba(120,115,100,' + (Math.random()*0.05) + ')'; g.fillRect(Math.random()*w, Math.random()*h, 2, 2); }
+        g.strokeStyle = 'rgba(140,135,120,.35)'; g.lineWidth = 1.4;
+        for (var v=0; v<9; v++){
+          g.beginPath();
+          var x = Math.random()*w, y = 0; g.moveTo(x,y);
+          while (y < h){ y += 26 + Math.random()*30; x += (Math.random()-0.5)*46; g.lineTo(x,y); }
+          g.stroke();
+        }
+        g.strokeStyle = 'rgba(90,85,70,.5)'; g.lineWidth = 2; g.strokeRect(0,0,w,h);
+      });
+      marbleTex.wrapS = marbleTex.wrapT = THREE.RepeatWrapping; marbleTex.repeat.set(7,5);
+      var skylineTex = textTexture(1024, 256, function(g,w,h){
+        var grad = g.createLinearGradient(0,0,0,h);
+        grad.addColorStop(0,'#9fc3dd'); grad.addColorStop(0.62,'#d7e6ee'); grad.addColorStop(1,'#e8efe9');
+        g.fillStyle = grad; g.fillRect(0,0,w,h);
+        function layer(base, col, seedv){
+          var x = 0; g.fillStyle = col;
+          while (x < w){
+            var bw = 34 + ((x*13+seedv)%50), bh = 40 + ((x*29+seedv)%95);
+            g.fillRect(x, base-bh, bw, bh);
+            x += bw + 4 + ((x+seedv)%11);
+          }
+        }
+        layer(h, '#8ba7ba', 7); layer(h, '#5f7d92', 31);
+        g.fillStyle = 'rgba(255,236,170,.85)';
+        for (var i=0;i<340;i++){ g.fillRect(Math.random()*w, h-20-Math.random()*110, 2.4, 3); }
+      });
+      skylineTex.wrapS = THREE.RepeatWrapping; skylineTex.repeat.set(3,1);
+
+      /* ---------- struktur gedung ---------- */
+      var world = new THREE.Group(); scene.add(world);
+      var floorSlab = box(48.8, 0.3, 32.8, new THREE.MeshStandardMaterial({ map:marbleTex, roughness:0.16, metalness:0.32 }), 0, -0.15, 0, world, false, true);
+      var groundOut = new THREE.Mesh(new THREE.PlaneGeometry(320,320), mat(0x8f979c, 1));
+      groundOut.rotation.x = -Math.PI/2; groundOut.position.y = -0.33; scene.add(groundOut);
+      [[0,5.2,-36,0],[0,5.2,36,Math.PI],[-40,5.2,0,Math.PI/2],[40,5.2,0,-Math.PI/2]].forEach(function(s){
+        var p = new THREE.Mesh(new THREE.PlaneGeometry(110,15), new THREE.MeshBasicMaterial({ map:skylineTex }));
+        p.position.set(s[0], s[1], s[2]); p.rotation.y = s[3]; scene.add(p);
+      });
+      // plafon soffit keliling + lampu gantung koridor
+      var soffitMat = mat(0xe7e0d0, 0.9);
+      box(48.6, 0.2, 1.3, soffitMat, 0, 3.12, -15.35, world);
+      box(48.6, 0.2, 1.3, soffitMat, 0, 3.12, 15.35, world);
+      box(1.3, 0.2, 32, soffitMat, -23.65, 3.12, 0, world);
+      box(1.3, 0.2, 32, soffitMat, 23.65, 3.12, 0, world);
+      var lampMat = mat(0xfff6df, 0.4, 0, 0xffeebb, 1.4);
+      [[-16,5.75],[-5,5.75],[6,5.75],[17,5.75],[-5,11],[9.5,11],[19.5,11]].forEach(function(p){
+        box(2.3, 0.07, 0.55, lampMat, p[0], 2.92, p[1], world);
+        cyl(0.015,0.015,0.24, mat(0x777777,.5,.6), p[0]-1, 3.04, p[1], world);
+        cyl(0.015,0.015,0.24, mat(0x777777,.5,.6), p[0]+1, 3.04, p[1], world);
+      });
+
+      var frameMat = mat(0x8f979e, 0.35, 0.7);
+      var glassMat = new THREE.MeshPhongMaterial({ color:0xcfe4ec, transparent:true, opacity:0.16, shininess:150, specular:0xd6ecfa, depthWrite:false, side:THREE.DoubleSide });
+      var outerGlassMat = new THREE.MeshPhongMaterial({ color:0xa9c8da, transparent:true, opacity:0.3, shininess:160, specular:0xe2f2ff, depthWrite:false, side:THREE.DoubleSide });
+
+      function wallRun(x, z, rotY, len, doorAt, doorW, gm){
+        var g = new THREE.Group(); g.position.set(x, 0, z); g.rotation.y = rotY; world.add(g);
+        var segs = [];
+        if (doorAt == null) segs.push([0, len]);
+        else {
+          var d0 = Math.max(0, doorAt - doorW/2), d1 = Math.min(len, doorAt + doorW/2);
+          if (d0 > 0.05) segs.push([0, d0]);
+          if (d1 < len - 0.05) segs.push([d1, len]);
+          box(doorW, 0.1, 0.11, frameMat, doorAt, 2.56, 0, g);
+          box(doorW, 0.5, 0.04, gm || glassMat, doorAt, 2.3, 0, g);
+        }
+        segs.forEach(function(s){
+          var L = s[1]-s[0], cx = (s[0]+s[1])/2;
+          var gl = box(L, 2.4, 0.04, gm || glassMat, cx, 1.29, 0, g); gl.castShadow = false;
+          box(L, 0.09, 0.11, frameMat, cx, 0.045, 0, g);
+          box(L, 0.1, 0.11, frameMat, cx, 2.54, 0, g);
+          box(0.1, 2.62, 0.11, frameMat, s[0]+0.05, 1.31, 0, g);
+          box(0.1, 2.62, 0.11, frameMat, s[1]-0.05, 1.31, 0, g);
+        });
+        return g;
+      }
+      function outerRun(x, z, rotY, len, doorAt, doorW){
+        var g = new THREE.Group(); g.position.set(x, 0, z); g.rotation.y = rotY; world.add(g);
+        var segs = [];
+        if (doorAt == null) segs.push([0, len]);
+        else {
+          var d0 = Math.max(0, doorAt - doorW/2), d1 = Math.min(len, doorAt + doorW/2);
+          if (d0 > 0.05) segs.push([0, d0]);
+          if (d1 < len - 0.05) segs.push([d1, len]);
+          // pintu kaca ganda
+          box(doorW/2 - 0.04, 2.2, 0.06, outerGlassMat, doorAt - doorW/4, 1.1, 0, g);
+          box(doorW/2 - 0.04, 2.2, 0.06, outerGlassMat, doorAt + doorW/4, 1.1, 0, g);
+          box(0.08, 0.5, 0.1, frameMat, doorAt - 0.3, 1.05, 0.06, g);
+          box(0.08, 0.5, 0.1, frameMat, doorAt + 0.3, 1.05, 0.06, g);
+          box(doorW + 0.3, 0.5, 0.3, mat(0xd9d2c2,.85), doorAt, 2.85, 0, g);
+        }
+        segs.forEach(function(s){
+          var L = s[1]-s[0], cx = (s[0]+s[1])/2;
+          box(L, 0.9, 0.26, mat(0xd9d2c2,.85), cx, 0.45, 0, g, false, true);
+          box(L, 1.68, 0.07, outerGlassMat, cx, 1.74, 0, g);
+          box(L, 0.48, 0.26, mat(0xd9d2c2,.85), cx, 2.82, 0, g);
+          for (var px = s[0]+1.4; px < s[1]-0.4; px += 2.9) box(0.16, 1.68, 0.14, frameMat, px, 1.74, 0, g);
+        });
+        return g;
+      }
+      outerRun(-24, -16, 0, 48, null);
+      outerRun(-24, 16, 0, 17.5, null);
+      outerRun(-3.5, 16, 0, 27.5, null);
+      outerRun(-6.5, 16, 0, 3, 1.5, 2.9);
+      outerRun(-24, -16, -Math.PI/2, 32, null);
+      outerRun(24, -16, -Math.PI/2, 32, null);
+
+      /* ---------- definisi ruangan ---------- */
+      var ROOMS = {
+        youtube:    { x0:-23, x1:-9,  z0:-15, z1:5,   color:'#b03a30', tint:0xf3ddd2, sign:'PRODUKSI YOUTUBE', doorSide:'S', doorAt:7 },
+        blog:       { x0:-8,  x1:2,   z0:-15, z1:-6,  color:'#3f7d44', tint:0xdfeadb, sign:'BLOG & KONTEN', doorSide:'E', doorAt:4.5 },
+        tiktok:     { x0:-8,  x1:2,   z0:-5,  z1:5,   color:'#2f639e', tint:0xdbe7f5, sign:'TIKTOK & SOSMED', doorSide:'E', doorAt:5 },
+        manager:    { x0:3,   x1:13,  z0:-15, z1:-7,  color:'#6b5d4f', tint:0xe9e2d4, sign:'MANAGER', doorSide:'S', doorAt:5 },
+        airdrop:    { x0:3,   x1:13,  z0:-6,  z1:5,   color:'#6a4fa3', tint:0xe6def5, sign:'AIRDROP & CRYPTO', doorSide:'S', doorAt:5 },
+        meeting:    { x0:14,  x1:23,  z0:-15, z1:-9,  color:'#546e7a', tint:0xe2e8ea, sign:'RUANG MEETING', doorSide:'W', doorAt:3 },
+        lounge:     { x0:14,  x1:23,  z0:-8,  z1:-2,  color:'#c06a35', tint:0xf7e3d3, sign:'LOUNGE', doorSide:'W', doorAt:3 },
+        monitoring: { x0:14,  x1:23,  z0:-1,  z1:5,   color:'#22796c', tint:0xd9ece8, sign:'MONITORING', doorSide:'W', doorAt:3 },
+        keuangan:   { x0:-23, x1:-14, z0:6.5, z1:15,  color:'#a87b0d', tint:0xf7ecc9, sign:'KEUANGAN', doorSide:'N', doorAt:4.5 },
+        lobby:      { x0:-13, x1:3,   z0:6.5, z1:15,  color:'#546e7a', tint:0xe6ebec, sign:'LOBBY', doorSide:'N', doorAt:8, doorW:5 },
+        publish:    { x0:4,   x1:15,  z0:6.5, z1:15,  color:'#b0271a', tint:0xf8e0da, sign:'RUANG PUBLISH', doorSide:'N', doorAt:2.2 },
+        pantry:     { x0:16,  x1:23,  z0:6.5, z1:15,  color:'#8a6d3b', tint:0xf1e8d8, sign:'PANTRY', doorSide:'N', doorAt:3.5 }
+      };
+      function roomWalls(r){
+        var w = r.x1-r.x0, d = r.z1-r.z0;
+        wallRun(r.x0, r.z0, 0, w, r.doorSide==='N' ? r.doorAt : null, r.doorW || 1.7);
+        wallRun(r.x0, r.z1, 0, w, r.doorSide==='S' ? r.doorAt : null, r.doorW || 1.7);
+        wallRun(r.x0, r.z0, -Math.PI/2, d, r.doorSide==='W' ? r.doorAt : null, r.doorW || 1.7);
+        wallRun(r.x1, r.z0, -Math.PI/2, d, r.doorSide==='E' ? r.doorAt : null, r.doorW || 1.7);
+      }
+      function roomSign(r){
+        var w = Math.min((r.x1-r.x0)*0.66, 7.4), cx = (r.x0+r.x1)/2, cz = (r.z0+r.z1)/2;
+        var tex = signTexture(r.sign, r.color);
+        var m = new THREE.Mesh(new THREE.PlaneGeometry(w, 0.55), new THREE.MeshBasicMaterial({ map:tex }));
+        var back = box(w+0.16, 0.68, 0.07, mat(0x2e3138,.6,.3), 0, 0, 0, world);
+        if (r.doorSide === 'S'){ m.position.set(cx, 2.88, r.z1+0.1); back.position.set(cx, 2.88, r.z1+0.05); }
+        else if (r.doorSide === 'N'){ m.position.set(cx, 2.88, r.z0-0.1); m.rotation.y = Math.PI; back.position.set(cx, 2.88, r.z0-0.05); }
+        else if (r.doorSide === 'W'){ m.position.set(r.x0-0.1, 2.88, cz); m.rotation.y = -Math.PI/2; back.position.set(r.x0-0.05, 2.88, cz); back.rotation.y = Math.PI/2; }
+        else { m.position.set(r.x1+0.1, 2.88, cz); m.rotation.y = Math.PI/2; back.position.set(r.x1+0.05, 2.88, cz); back.rotation.y = Math.PI/2; }
+        world.add(m);
+      }
+      Object.keys(ROOMS).forEach(function(k){
+        var r = ROOMS[k];
+        var carpet = box(r.x1-r.x0-0.12, 0.035, r.z1-r.z0-0.12, mat(r.tint, 0.96), (r.x0+r.x1)/2, 0.018, (r.z0+r.z1)/2, world, false, true);
+        roomWalls(r);
+        if (k !== 'lobby') roomSign(r);
+      });
+      // plang lobby di atas pintu masuk (sisi dalam)
+      (function(){
+        var tex = signTexture('KANTOR AI — YUNOBI', '#37474f');
+        var m = new THREE.Mesh(new THREE.PlaneGeometry(5.6, 0.55), new THREE.MeshBasicMaterial({ map:tex }));
+        m.position.set(-5, 2.72, 15.82); m.rotation.y = Math.PI; world.add(m);
+      })();
+
+      /* ---------- perabot ---------- */
+      var woodMat = mat(0x9a6f45, 0.62), deskTopMat = mat(0xc99e6f, 0.45), darkMetal = mat(0x3a3f47, 0.45, 0.6);
+      function plant(x, z, s){
+        s = s || 1;
+        var g = new THREE.Group(); g.position.set(x, 0, z); world.add(g);
+        cyl(0.17*s, 0.13*s, 0.32*s, mat(0xa9603c,.8), 0, 0.16*s, 0, g, true);
+        var greens = [0x4e9a51, 0x5cab60, 0x3f7d44];
+        [[0,0.72,0,0.34],[0.16,0.58,0.08,0.25],[-0.15,0.62,-0.06,0.27]].forEach(function(p, i){
+          var f = new THREE.Mesh(sphGeo(p[3]*s, 10, 8), mat(greens[i%3], .95));
+          f.position.set(p[0]*s, p[1]*s, p[2]*s); f.scale.y = 0.82; g.add(f);
+        });
+        return g;
+      }
+      function chair(x, z, facing){
+        var g = new THREE.Group(); g.position.set(x, 0, z); g.rotation.y = facing; world.add(g);
+        box(0.48, 0.07, 0.46, mat(0x37414f,.7), 0, 0.46, 0, g, true);
+        box(0.48, 0.55, 0.07, mat(0x37414f,.7), 0, 0.78, -0.22, g, true);
+        cyl(0.035, 0.035, 0.42, darkMetal, 0, 0.23, 0, g);
+        cyl(0.26, 0.28, 0.04, darkMetal, 0, 0.03, 0, g);
+        return g;
+      }
+      function deskUnit(x, z, facing, name, opts){
+        opts = opts || {};
+        var g = new THREE.Group(); g.position.set(x, 0, z); g.rotation.y = facing; world.add(g);
+        var W = opts.w || 1.3;
+        box(W, 0.06, 0.62, deskTopMat, 0, 0.74, 0, g, true, true);
+        box(0.06, 0.72, 0.56, woodMat, -W/2+0.05, 0.37, 0, g);
+        box(0.06, 0.72, 0.56, woodMat, W/2-0.05, 0.37, 0, g);
+        box(W-0.1, 0.14, 0.03, woodMat, 0, 0.62, -0.28, g);
+        var nm = opts.monitors || 1;
+        for (var i = 0; i < nm; i++){
+          var mx = nm === 1 ? 0 : (i === 0 ? -0.34 : 0.34);
+          var mon = new THREE.Group(); mon.position.set(mx, 0.77, -0.16); mon.rotation.y = nm === 1 ? 0 : (i === 0 ? 0.22 : -0.22); g.add(mon);
+          box(0.56, 0.36, 0.03, mat(0x161c24,.4,.3), 0, 0.26, 0, mon, true);
+          var scr = new THREE.Mesh(new THREE.PlaneGeometry(0.52, 0.32), screenMat((opts.screen === 'B' || (i % 2 === 1)) ? screenTexB : screenTexA));
+          scr.position.set(0, 0.26, 0.017); mon.add(scr);
+          box(0.07, 0.14, 0.05, darkMetal, 0, 0.05, -0.02, mon);
+          box(0.24, 0.02, 0.14, darkMetal, 0, 0.005, -0.02, mon);
+        }
+        box(0.4, 0.025, 0.15, mat(0x22262d,.5), 0, 0.785, 0.12, g);
+        if (Math.random() < 0.5) cyl(0.035, 0.03, 0.09, mat(0xdde3e8,.4), W/2-0.18, 0.815, 0.05, g);
+        if (opts.lamp){
+          cyl(0.02, 0.05, 0.3, darkMetal, -W/2+0.14, 0.92, -0.14, g);
+          var shade = cyl(0.05, 0.09, 0.11, mat(0xffca7a,.5,0,0xffb84d,.9), -W/2+0.14, 1.1, -0.14, g);
+        }
+        if (name){
+          var plate = new THREE.Mesh(new THREE.PlaneGeometry(0.52, 0.115), new THREE.MeshBasicMaterial({ map:plateTexture(name) }));
+          plate.position.set(0, 0.83, 0.3); plate.rotation.x = -0.32; g.add(plate);
+          box(0.54, 0.02, 0.05, darkMetal, 0, 0.775, 0.3, g);
+        }
+        return g;
+      }
+      function sofa(x, z, facing, len){
+        len = len || 1.9;
+        var g = new THREE.Group(); g.position.set(x, 0, z); g.rotation.y = facing; world.add(g);
+        var m = mat(0xc9713f, .92), m2 = mat(0xdb8a54, .92);
+        box(len, 0.32, 0.8, m, 0, 0.28, 0, g, true);
+        box(len, 0.55, 0.2, m, 0, 0.62, -0.31, g, true);
+        box(0.2, 0.3, 0.8, m, -len/2+0.1, 0.6, 0, g, true);
+        box(0.2, 0.3, 0.8, m, len/2-0.1, 0.6, 0, g, true);
+        box(len-0.44, 0.1, 0.55, m2, 0, 0.47, 0.04, g);
+        return g;
+      }
+
+      /* ---------- KARAKTER 3D: humanoid berproporsi nyata ---------- */
+      var THIGH = 0.42, SHIN = 0.47;
+      var torsoGeo = boxGeo(0.44, 0.54, 0.26), pelvisGeo = boxGeo(0.4, 0.18, 0.25);
+      var headGeo = sphGeo(0.115, 18, 14), hairGeo = new THREE.SphereGeometry(0.124, 18, 12, 0, Math.PI*2, 0, 1.85);
+      var upperArmGeo = cylGeo(0.05, 0.044, 0.30); upperArmGeo.translate(0, -0.15, 0);
+      var foreArmGeo = cylGeo(0.042, 0.037, 0.28); foreArmGeo.translate(0, -0.14, 0);
+      var thighGeo = cylGeo(0.072, 0.06, THIGH); thighGeo.translate(0, -THIGH/2, 0);
+      var shinGeo = cylGeo(0.055, 0.045, SHIN); shinGeo.translate(0, -SHIN/2, 0);
+      var handGeo = sphGeo(0.05, 10, 8), shoeGeo = boxGeo(0.095, 0.07, 0.25);
+      var neckGeo = cylGeo(0.05, 0.055, 0.09);
+
+      function makeHuman(look, opts){
+        opts = opts || {};
+        var skinM = mat(look.skin, 0.65);
+        var shirtM = mat(opts.shirt || look.shirt, 0.8);
+        var pantsM = mat(opts.pants || look.pants, 0.85);
+        var hairM = mat(look.hair, 0.9);
+        var root = new THREE.Group();
+        var hips = new THREE.Group(); hips.position.y = 0.92; root.add(hips);
+        function leg(side){
+          var hip = new THREE.Group(); hip.position.set(0.105*side, 0, 0); hips.add(hip);
+          var th = new THREE.Mesh(thighGeo, pantsM); th.castShadow = true; hip.add(th);
+          var knee = new THREE.Group(); knee.position.y = -THIGH; hip.add(knee);
+          var sh = new THREE.Mesh(shinGeo, pantsM); sh.castShadow = true; knee.add(sh);
+          var shoe = new THREE.Mesh(shoeGeo, mat(0x22242a, 0.5)); shoe.position.set(0, -SHIN+0.02, 0.045); shoe.castShadow = true; knee.add(shoe);
+          return { hip:hip, knee:knee };
+        }
+        var legL = leg(-1), legR = leg(1);
+        var upper = new THREE.Group(); hips.add(upper);
+        var pelvis = new THREE.Mesh(pelvisGeo, pantsM); pelvis.position.y = 0.03; pelvis.castShadow = true; upper.add(pelvis);
+        var torso = new THREE.Mesh(torsoGeo, shirtM); torso.position.y = 0.36; torso.castShadow = true; upper.add(torso);
+        box(0.46, 0.07, 0.28, shirtM, 0, 0.6, 0, upper);
+        function arm(side){
+          var sh = new THREE.Group(); sh.position.set(0.275*side, 0.55, 0); upper.add(sh);
+          var up = new THREE.Mesh(upperArmGeo, shirtM); up.castShadow = true; sh.add(up);
+          var el = new THREE.Group(); el.position.y = -0.30; sh.add(el);
+          var fo = new THREE.Mesh(foreArmGeo, skinM); fo.castShadow = true; el.add(fo);
+          var hand = new THREE.Mesh(handGeo, skinM); hand.position.y = -0.3; el.add(hand);
+          return { sh:sh, el:el };
+        }
+        var armL = arm(-1), armR = arm(1);
+        var headG = new THREE.Group(); headG.position.y = 0.66; upper.add(headG);
+        var neck = new THREE.Mesh(neckGeo, skinM); neck.position.y = 0.0; headG.add(neck);
+        var head = new THREE.Mesh(headGeo, skinM); head.position.y = 0.14; head.castShadow = true; headG.add(head);
+        if (look.style === 'hijab' && !opts.cap){
+          var hj = new THREE.Mesh(sphGeo(0.132, 16, 12), hairM);
+          hj.position.y = 0.145; hj.scale.set(1, 1.12, 1); headG.add(hj);
+          box(0.26, 0.2, 0.26, hairM, 0, -0.02, -0.02, headG);
+        } else {
+          var hair = new THREE.Mesh(hairGeo, hairM); hair.position.y = 0.15; headG.add(hair);
+          if (look.style === 'bun'){
+            var bun = new THREE.Mesh(sphGeo(0.055, 10, 8), hairM); bun.position.set(0, 0.26, -0.05); headG.add(bun);
+          }
+        }
+        if (opts.cap){
+          var capM = mat(opts.capColor || 0x27324a, 0.7);
+          var capTop = new THREE.Mesh(cylGeo(0.125, 0.13, 0.07), capM); capTop.position.y = 0.245; headG.add(capTop);
+          box(0.2, 0.02, 0.13, capM, 0, 0.215, 0.15, headG);
+        }
+        root.traverse(function(o){ o.userData.humanRoot = root; });
+        return { root:root, hips:hips, upper:upper, headG:headG, armL:armL, armR:armR, legL:legL, legR:legR, look:look };
+      }
+      function sitPose(H){
+        H.hips.position.y = 0.56;
+        H.legL.hip.rotation.x = -1.5; H.legR.hip.rotation.x = -1.5;
+        H.legL.knee.rotation.x = 1.5; H.legR.knee.rotation.x = 1.5;
+        H.upper.rotation.x = 0.06;
+      }
+      function typePose(H, a){
+        H.armL.sh.rotation.x = -0.95; H.armR.sh.rotation.x = -0.95;
+        H.armL.sh.rotation.z = 0.16; H.armR.sh.rotation.z = -0.16;
+        H.armL.el.rotation.x = -0.5 + a; H.armR.el.rotation.x = -0.5 - a;
+      }
+
+      var chars = [];        // semua karakter teranimasi
+      var pickRoots = [];    // akar objek yang bisa diklik
+      function registerPick(rootObj, a, dept){
+        rootObj.traverse(function(o){ if (o.isMesh){ o.userData.pickA = a; o.userData.pickDept = dept; } });
+        pickRoots.push(rootObj);
+      }
+      function addSeatChar(a, dept, x, z, facing, opts){
+        opts = opts || {};
+        if (!opts.noDesk){
+          var d = deskUnit(x, z, facing, a.g ? 'pendukung' : a.name, opts);
+          // meja digeser ke depan karakter sesuai arah hadap
+          d.position.set(x + Math.sin(facing)*0.62, 0, z + Math.cos(facing)*0.62);
+          registerPick(d, a, dept);
+        }
+        chair(x, z, facing);
+        var H = makeHuman(a._look, opts);
+        H.root.position.set(x, 0, z); H.root.rotation.y = facing;
+        world.add(H.root);
+        sitPose(H); typePose(H, 0);
+        registerPick(H.root, a, dept);
+        chars.push({ H:H, mode:'seat', a:a, dept:dept, ph:Math.random()*6.28, status:a._status || 'idle', seed:Math.random()*10 });
+        charFocus[a.name] = { x:x, z:z };
+        return H;
+      }
+      function addStandChar(a, dept, x, z, facing, opts){
+        opts = opts || {};
+        var H = makeHuman(a._look, opts);
+        H.root.position.set(x, 0, z); H.root.rotation.y = facing;
+        world.add(H.root);
+        if (opts.cup) attachCup(H);
+        registerPick(H.root, a, dept);
+        var c = { H:H, mode: opts.mode || 'stand', a:a, dept:dept, ph:Math.random()*6.28, status:'work', seed:Math.random()*10, baseYaw:facing, cup:!!opts.cup };
+        chars.push(c);
+        charFocus[a.name] = { x:x, z:z };
+        return c;
+      }
+      function attachCup(H){
+        var cup = new THREE.Group();
+        cyl(0.032, 0.026, 0.085, mat(0xf5f2ec,.5), 0, 0, 0, cup);
+        cyl(0.033, 0.033, 0.018, mat(0x8a5a2b,.6), 0, 0.036, 0, cup);
+        cup.position.set(0, -0.33, 0.03);
+        H.armR.el.add(cup);
+        H.armR.sh.rotation.x = -0.32; H.armR.el.rotation.x = -1.15;
+        return cup;
+      }
+      function addWalker(a, dept, pts, opts){
+        opts = opts || {};
+        var H = makeHuman(a._look, opts);
+        H.root.position.set(pts[0][0], 0, pts[0][1]);
+        world.add(H.root);
+        if (opts.cup) attachCup(H);
+        registerPick(H.root, a, dept);
+        var c = { H:H, mode:'walk', a:a, dept:dept, ph:Math.random()*6.28, status:'work', seed:Math.random()*10,
+          pts:pts, idx:1, dir:1, pauseT:0, actT:0, speed:opts.speed || 1.02, phase:0, cup:!!opts.cup,
+          pauses: opts.pauses || {}, yaw:0 };
+        chars.push(c);
+        charFocus[a.name] = { x:pts[0][0], z:pts[0][1] };
+        return c;
+      }
+
+      /* ---------- isi ruangan: meja & penghuni ---------- */
+      var YT = DATA.youtube, TT = DATA.tiktok, AIR = DATA.airdrop, MON = DATA.monitoring, BLOG = DATA.blog;
+      // PRODUKSI YOUTUBE — 8 meja, 2 baris
+      [-21.2,-18.4,-15.6,-12.8].forEach(function(x, i){
+        addSeatChar(YT[i], 'youtube', x, -9.6, 0, { screen: i%2 ? 'B' : 'A' });
+        addSeatChar(YT[i+4], 'youtube', x, -2.6, 0, { screen: i%2 ? 'A' : 'B', lamp: i===1 });
+      });
+      addWalker(YT[8], 'youtube', [[-16,-1.2],[-16,4.4],[-16,5.8],[-7,5.8],[-5,8.6],[-5,11.5]], { pauses:{ 5:3, 0:2.5 } });
+      // BLOG & KONTEN — 4 meja
+      addSeatChar(BLOG[0], 'blog', -6.2, -12.6, 0, {});
+      addSeatChar(BLOG[1], 'blog', -3.2, -12.6, 0, { screen:'B' });
+      addSeatChar(BLOG[2], 'blog', -6.2, -8.8, 0, {});
+      addSeatChar(BLOG[3], 'blog', -3.2, -8.8, 0, { screen:'B' });
+      // TIKTOK & SOSMED — 5 meja + 1 keliling
+      addSeatChar(TT[0], 'tiktok', -6.4, -1.6, 0, {});
+      addSeatChar(TT[1], 'tiktok', -3.6, -1.6, 0, { screen:'B' });
+      addSeatChar(TT[2], 'tiktok', -0.8, -1.6, 0, {});
+      addSeatChar(TT[3], 'tiktok', -6.4, 2.6, 0, { screen:'B' });
+      addSeatChar(TT[4], 'tiktok', -3.6, 2.6, 0, {});
+      addWalker(TT[6], 'tiktok', [[-1.2,0.2],[2.6,0.2],[2.6,5.8],[-4,5.8],[-4,3.4]], { pauses:{ 3:2.5, 0:2 } });
+      // AIRDROP & CRYPTO — 4 meja + 1 pemburu keliling
+      addSeatChar(AIR[1], 'airdrop', 5.4, -3.6, 0, { screen:'B' });
+      addSeatChar(AIR[2], 'airdrop', 9.4, -3.6, 0, {});
+      addSeatChar(AIR[3], 'airdrop', 5.4, 1.0, 0, {});
+      addSeatChar(AIR[4], 'airdrop', 9.4, 1.0, 0, { screen:'B' });
+      addWalker(AIR[0], 'airdrop', [[8,-4.4],[8,5.2],[8,5.8],[13.4,5.8],[13.4,2.2]], { pauses:{ 4:2.5, 0:2 }, speed:1.1 });
+      // MONITORING — 4 meja + rak server + 1 keliling
+      addSeatChar(MON[0], 'monitoring', 16.4, 0.6, 0, { screen:'B' });
+      addSeatChar(MON[1], 'monitoring', 20.6, 0.6, 0, { screen:'B' });
+      addSeatChar(MON[2], 'monitoring', 16.4, 3.9, 0, { screen:'B', lamp:true });
+      addSeatChar(MON[3], 'monitoring', 20.6, 3.9, 0, { screen:'B' });
+      [0.4, 2.2, 4.0].forEach(function(z, i){
+        box(0.7, 2.1, 1.4, mat(0x232830,.5,.4), 14.55, 1.05, z+0.4, world, true);
+        var dots = new THREE.Mesh(new THREE.PlaneGeometry(0.5, 1.8),
+          new THREE.MeshBasicMaterial({ map: textTexture(64, 200, function(g,w,h){
+            g.fillStyle = '#171c22'; g.fillRect(0,0,w,h);
+            for (var y=8; y<h-6; y+=14){ g.fillStyle = (y/14)%3===i ? '#39d98a' : '#2b6e4f'; g.fillRect(8, y, 7, 7); g.fillStyle = '#31435c'; g.fillRect(22, y, 34, 5); }
+          })}));
+        dots.position.set(14.92, 1.05, z+0.4); dots.rotation.y = Math.PI/2; world.add(dots);
+      });
+      addWalker(MON[6], 'monitoring', [[19,4.4],[14.8,2],[13.4,2],[13.4,5.8],[6,5.8],[6,8.4]], { pauses:{ 5:2.5, 0:2 } });
+      // MANAGER
+      var mgrLook = makeLook();
+      var mgrObj = { name:'Koordinator (Kamu)', job:'Mengawasi seluruh 79 asisten: memberi perintah, memeriksa hasil produksi, dan memutuskan langkah berikutnya untuk semua project.', label:'Selalu siaga', t:null, iv:null, _status:'work', _dept:'manager', _look:mgrLook };
+      addSeatChar(mgrObj, 'manager', 8, -10.6, 0, { monitors:2, w:1.9, lamp:true });
+      sofa(4.6, -13.4, Math.PI/2, 1.7); plant(12.2, -14.2, 1.15); plant(3.8, -7.8, 0.9);
+      // KEUANGAN — meja akuntan, brankas, lemari arsip
+      addSeatChar(DATA.keuangan[0], 'keuangan', -20.6, 12.2, 0, { lamp:true });
+      var safe = new THREE.Group(); safe.position.set(-15.4, 0, 13.9); world.add(safe);
+      box(1.35, 1.7, 0.95, mat(0x39424e,.35,.8), 0, 0.85, 0, safe, true);
+      cyl(0.3, 0.3, 0.09, mat(0xb9c2cc,.3,.9), 0, 1.0, 0.52, safe, false, 24).rotation.x = Math.PI/2;
+      cyl(0.045, 0.045, 0.3, mat(0xb9c2cc,.3,.9), 0, 1.0, 0.56, safe).rotation.x = Math.PI/2;
+      box(0.5, 0.07, 0.07, mat(0xb9c2cc,.3,.9), 0, 0.62, 0.52, safe);
+      [8.2, 10.1, 12.0].forEach(function(z){
+        box(0.62, 1.85, 1.7, mat(0x7d8894,.45,.6), -22.55, 0.93, z, world, true);
+        box(0.03, 1.5, 0.08, mat(0x4a545f,.4,.6), -22.22, 0.93, z, world);
+      });
+      plant(-14.7, 7.3, 0.95);
+      // RUANG MEETING — meja panjang, 6 kursi, papan tulis
+      (function(){
+        var g = new THREE.Group(); g.position.set(18.5, 0, -11.8); world.add(g);
+        box(5.2, 0.09, 1.7, deskTopMat, 0, 0.76, 0, g, true, true);
+        box(0.5, 0.74, 1.3, woodMat, -2.2, 0.37, 0, g);
+        box(0.5, 0.74, 1.3, woodMat, 2.2, 0.37, 0, g);
+        [-1.7, 0, 1.7].forEach(function(x){
+          box(0.5, 0.34, 0.04, mat(0x2b3440,.4,.3), x, 0.83, 0.28, g);
+          box(0.5, 0.34, 0.04, mat(0x2b3440,.4,.3), x, 0.83, -0.28, g).rotation.y = Math.PI;
+        });
+        var wbTex = textTexture(512, 256, function(c,w,h){
+          c.fillStyle = '#fbfcfa'; c.fillRect(0,0,w,h);
+          c.strokeStyle = '#d5dcd2'; c.lineWidth = 1;
+          for (var gx=0; gx<w; gx+=32){ c.beginPath(); c.moveTo(gx,0); c.lineTo(gx,h); c.stroke(); }
+          c.strokeStyle = '#2f6fb2'; c.lineWidth = 4; c.beginPath();
+          c.moveTo(30,200); c.lineTo(120,150); c.lineTo(210,168); c.lineTo(310,95); c.lineTo(420,60); c.stroke();
+          c.fillStyle = '#d64545'; c.font = '800 30px Arial'; c.fillText('Target: Monetisasi', 26, 44);
+          c.fillStyle = '#1d9e62'; c.font = '700 24px Arial';
+          c.fillText('20 channel • 10 blog', 26, 84);
+          c.fillStyle = '#37414f'; c.font = '20px Arial';
+          c.fillText('Retensi ↑  •  Konsisten upload', 250, 220);
+        });
+        var wb = new THREE.Mesh(new THREE.PlaneGeometry(4.4, 2.0), new THREE.MeshBasicMaterial({ map:wbTex }));
+        wb.position.set(18.5, 1.65, -14.88); world.add(wb);
+        box(4.6, 2.2, 0.06, mat(0x9aa4ad,.4,.6), 18.5, 1.65, -14.93, world);
+        [-1.7, 0, 1.7].forEach(function(x){
+          chair(18.5+x, -13.6, 0); chair(18.5+x, -10.0, Math.PI);
+        });
+      })();
+      // LOUNGE — sofa, meja kopi, tanaman
+      sofa(16.2, -5.2, Math.PI/2, 2.1); sofa(20.9, -5.2, -Math.PI/2, 2.1);
+      box(1.7, 0.07, 0.8, deskTopMat, 18.5, 0.36, -5.2, world, true);
+      box(0.08, 0.34, 0.08, woodMat, 17.8, 0.17, -5.2, world); box(0.08, 0.34, 0.08, woodMat, 19.2, 0.17, -5.2, world);
+      cyl(0.05, 0.04, 0.12, mat(0xe2574c,.5), 18.2, 0.46, -5.3, world); cyl(0.05, 0.04, 0.12, mat(0x2f6fb2,.5), 18.8, 0.46, -5.05, world);
+      plant(14.8, -2.7, 1.2); plant(22.3, -7.4, 1.05);
+      var loungeChatA = DATA.lainnya[0], loungeChatB = DATA.lainnya[1];
+      var lcA = addStandChar(loungeChatA, 'lainnya', 17.7, -4.0, 0, { mode:'chat' });
+      var lcB = addStandChar(loungeChatB, 'lainnya', 19.3, -4.0, 0, { mode:'chat' });
+      lcA.faceTarget = lcB; lcB.faceTarget = lcA; lcA.chatFirst = true;
+      // LOBBY — security, resepsionis, papan pengumuman, sofa tunggu
+      var secObj = { name:'security-kantor', job:'Menjaga pintu masuk kantor: memeriksa tamu yang datang, memantau lobby, dan memastikan semua ruangan aman selama para asisten bekerja.', label:'Jaga pintu masuk', t:null, iv:null, _status:'work', _dept:'lobby', _look:makeLook() };
+      var secC = addStandChar(secObj, 'lobby', -1.9, 13.4, 0, { mode:'security', shirt:'#27324a', pants:'#1f2735', cap:true, capColor:'#27324a' });
+      var recObj = { name:'resepsionis', job:'Menyambut tamu di meja depan lobby, mencatat keperluan kunjungan, dan mengarahkan tamu ke ruangan yang dituju.', label:'Meja depan lobby', t:null, iv:null, _status:'work', _dept:'lobby', _look:makeLook() };
+      (function(){
+        var g = new THREE.Group(); g.position.set(-8.5, 0, 12.6); world.add(g);
+        box(3.1, 0.07, 0.7, deskTopMat, 0, 0.78, 0, g, true);
+        box(3.1, 0.76, 0.62, mat(0x5d4a36,.6), 0, 0.38, 0, g, true);
+        var front = new THREE.Mesh(new THREE.PlaneGeometry(2.2, 0.42), new THREE.MeshBasicMaterial({ map: textTexture(512, 96, function(c,w,h){
+          c.fillStyle = '#1a1a2e'; c.fillRect(0,0,w,h);
+          c.font = '800 44px Arial'; c.textAlign = 'center'; c.fillStyle = '#f3e9d2';
+          c.fillText('RESEPSIONIS', w/2, 62);
+        })}));
+        front.position.set(0, 0.42, 0.32); g.add(front);
+        box(0.56, 0.36, 0.03, mat(0x161c24,.4,.3), -0.7, 1.06, -0.14, g, true);
+        registerPick(g, recObj, 'lobby');
+      })();
+      addSeatChar(recObj, 'lobby', -8.5, 11.55, 0, { noDesk:true });
+      sofa(0.6, 13.9, Math.PI, 1.8);
+      box(0.9, 0.06, 0.5, deskTopMat, 0.6, 0.34, 12.6, world, true);
+      plant(-12.3, 7.3, 1.2); plant(2.3, 7.3, 1.0); plant(-12.3, 14.3, 0.95);
+      // papan pengumuman digital lobby
+      var boardCanvas = document.createElement('canvas'); boardCanvas.width = 1024; boardCanvas.height = 512;
+      var boardTex = new THREE.CanvasTexture(boardCanvas); boardTex.encoding = THREE.sRGBEncoding; boardTex.anisotropy = 4;
+      var board = new THREE.Mesh(new THREE.PlaneGeometry(4.2, 2.1), new THREE.MeshBasicMaterial({ map:boardTex }));
+      board.position.set(-10.2, 1.55, 6.62); world.add(board);
+      box(4.4, 2.3, 0.08, mat(0x14181f,.4,.4), -10.2, 1.55, 6.58, world);
+      function drawBoard(){
+        var g = boardCanvas.getContext('2d'), w = 1024, h = 512;
+        g.fillStyle = '#0d1420'; g.fillRect(0,0,w,h);
+        g.fillStyle = '#e02b1d'; g.fillRect(0,0,w,64);
+        g.fillStyle = '#ffffff'; g.font = '800 36px "Plus Jakarta Sans", Arial'; g.textAlign = 'left';
+        g.fillText('PAPAN PENGUMUMAN', 28, 45);
+        var tgl = new Intl.DateTimeFormat('id-ID',{timeZone:'Asia/Jakarta',weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(new Date());
+        var jam = new Intl.DateTimeFormat('id-ID',{timeZone:'Asia/Jakarta',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date()).replace(/\./g,':');
+        g.textAlign = 'right'; g.font = '700 30px Arial'; g.fillText(jam + ' WIB', w-28, 45); g.textAlign = 'left';
+        g.fillStyle = '#ffd166'; g.font = '700 30px Arial';
+        g.fillText(tgl, 28, 118);
+        g.fillStyle = '#e8ecf3'; g.font = '600 31px Arial';
+        var wc = 0; DEPTS.forEach(function(d){ DATA[d.id].forEach(function(a){ if (statusOf(a, wibNow()) === 'work') wc++; }); });
+        var lines = [
+          'Produksi hari ini: 19 video YouTube (16:11 WIB)',
+          'Artikel blog: 6 artikel untuk 10 blog (15:11 WIB)',
+          'Video TikTok loker: 2 video (12:11 & 19:11 WIB)',
+          'Asisten bekerja sekarang: ' + wc + ' dari 79 asisten',
+          'Ruang Publish: cek antrean video di layar studio'
+        ];
+        lines.forEach(function(s, i){ g.fillText('•  ' + s, 28, 178 + i*56); });
+        g.fillStyle = '#7ee2a0'; g.font = '700 28px Arial';
+        g.fillText('Status sistem: semua departemen beroperasi', 28, 478);
+        boardTex.needsUpdate = true;
+      }
+      drawBoard(); setInterval(drawBoard, 60000);
+      // RUANG PUBLISH — meja broadcast, layar antrean, plang ON AIR, tombol merah
+      var pubDesk = deskUnit(7.0, 9.9, Math.PI, 'petugas-publish', { monitors:2, w:1.8 });
+      chair(7.0, 10.55, Math.PI);
+      var pubObj = { name:'petugas-publish', job:'Berjaga di Ruang Publish: memantau antrean video yang menunggu review dari semua channel dan menerbitkannya ke YouTube atas perintahmu, lewat sistem publish (fb_bridge) yang sama dengan dashboard.', label:'Siaga di Ruang Publish', t:null, iv:null, _status:'work', _dept:'publish', _look:makeLook() };
+      (function(){
+        var H = makeHuman(pubObj._look, {});
+        H.root.position.set(7.0, 0, 10.55); H.root.rotation.y = Math.PI;
+        world.add(H.root); sitPose(H); typePose(H, 0);
+        registerPick(H.root, pubObj, 'publish'); registerPick(pubDesk, pubObj, 'publish');
+        chars.push({ H:H, mode:'seat', a:pubObj, dept:'publish', ph:2.1, status:'work', seed:5 });
+        charFocus['petugas-publish'] = { x:7.0, z:10.55 };
+      })();
+      var pubCanvas = document.createElement('canvas'); pubCanvas.width = 1024; pubCanvas.height = 460;
+      var pubTex = new THREE.CanvasTexture(pubCanvas); pubTex.encoding = THREE.sRGBEncoding; pubTex.anisotropy = 4;
+      var pubScreen = new THREE.Mesh(new THREE.PlaneGeometry(5.2, 2.2), new THREE.MeshBasicMaterial({ map:pubTex }));
+      pubScreen.position.set(11.2, 1.5, 6.62); world.add(pubScreen);
+      box(5.45, 2.45, 0.09, mat(0x14181f,.4,.4), 11.2, 1.5, 6.57, world);
+      var onAirTex = signTexture('ON AIR', '#7a130c');
+      var onAirMat = new THREE.MeshBasicMaterial({ map:onAirTex });
+      var onAir = new THREE.Mesh(new THREE.PlaneGeometry(1.5, 0.36), onAirMat);
+      onAir.position.set(11.2, 2.88, 6.64); world.add(onAir);
+      box(1.62, 0.46, 0.06, mat(0x2b0f0c,.5), 11.2, 2.88, 6.6, world);
+      window.__setPubScreen = function(items){
+        var g = pubCanvas.getContext('2d'), w = 1024, h = 460;
+        g.fillStyle = '#0d1420'; g.fillRect(0,0,w,h);
+        g.fillStyle = '#e02b1d'; g.font = '800 40px "Plus Jakarta Sans", Arial'; g.textAlign = 'left';
+        g.fillText('ANTREAN PUBLISH', 30, 58);
+        g.fillStyle = '#e8ecf3';
+        if (items === null){
+          g.font = '600 32px Arial'; g.fillStyle = '#ff9d8f';
+          g.fillText('Gagal memuat antrean — buka panel Ruang Publish', 30, 140);
+        } else if (!items.length){
+          g.font = '700 44px Arial';
+          g.fillText('Antrean kosong', 30, 150);
+          g.font = '600 29px Arial'; g.fillStyle = '#9fb0c3';
+          g.fillText('Tidak ada video yang menunggu review saat ini.', 30, 205);
+        } else {
+          g.font = '800 54px Arial';
+          g.fillText(items.length + ' video menunggu review', 30, 152);
+          g.font = '600 29px Arial'; g.fillStyle = '#cfd8e6';
+          items.slice(0, 4).forEach(function(it, i){
+            var t = it.title.length > 46 ? it.title.slice(0,45) + '…' : it.title;
+            g.fillText((i+1) + '. ' + t, 30, 218 + i*48);
+          });
+        }
+        g.fillStyle = '#ffd166'; g.font = '700 28px Arial';
+        g.fillText('Tekan tombol merah di studio atau buka panel Ruang Publish', 30, h-28);
+        pubTex.needsUpdate = true;
+      };
+      window.__setPubScreen(window.pubItems && window.pubItems.length ? window.pubItems : []);
+      // tombol publish merah besar (bisa diklik di 3D)
+      var btnGroup = new THREE.Group(); btnGroup.position.set(13.2, 0, 12.9); world.add(btnGroup);
+      cyl(0.3, 0.36, 0.95, darkMetal, 0, 0.48, 0, btnGroup, true);
+      var domeMat = new THREE.MeshStandardMaterial({ color:0xd92313, roughness:0.22, metalness:0.1, emissive:0xff2a1a, emissiveIntensity:0.55 });
+      var dome = new THREE.Mesh(sphGeo(0.27, 22, 14), domeMat);
+      dome.position.y = 1.0; dome.scale.y = 0.62; dome.castShadow = true; btnGroup.add(dome);
+      cyl(0.3, 0.3, 0.05, mat(0x8f1d14,.4), 0, 0.97, 0, btnGroup);
+      var btnSign = new THREE.Mesh(new THREE.PlaneGeometry(1.15, 0.3), new THREE.MeshBasicMaterial({ map:signTexture('PUBLISH', '#7a130c') }));
+      btnSign.position.set(13.2, 1.62, 12.9); btnSign.rotation.x = -0.15; world.add(btnSign);
+      btnGroup.traverse(function(o){ if (o.isMesh){ o.userData.openPublish = true; } });
+      pickRoots.push(btnGroup);
+      // lampu meja broadcast kecil
+      plant(4.7, 14.3, 0.95); plant(14.3, 7.3, 0.9);
+      // PANTRY — konter, mesin kopi, meja bundar, dua asisten ngobrol
+      (function(){
+        box(0.65, 0.92, 5.6, mat(0x7a5c3e,.6), 22.55, 0.46, 10.8, world, true);
+        box(0.7, 0.05, 5.6, deskTopMat, 22.55, 0.95, 10.8, world);
+        box(0.5, 0.55, 0.7, mat(0x2b2f36,.4,.4), 22.5, 1.25, 8.9, world, true);
+        box(0.3, 0.1, 0.4, mat(0xd92313,.4), 22.5, 1.58, 8.9, world);
+        box(0.8, 1.75, 0.6, mat(0xd7dde2,.35,.5), 16.55, 0.88, 14.4, world, true);
+        cyl(0.55, 0.55, 0.05, deskTopMat, 19.4, 0.74, 12.6, world, true, 22);
+        cyl(0.06, 0.06, 0.72, darkMetal, 19.4, 0.37, 12.6, world);
+        cyl(0.035, 0.03, 0.09, mat(0xf5f2ec,.5), 19.2, 0.81, 12.4, world);
+        cyl(0.035, 0.03, 0.09, mat(0xe8a13a,.5), 19.65, 0.81, 12.75, world);
+        plant(16.6, 7.2, 1.0);
+      })();
+      var panA = addStandChar(DATA.tiktok[7], 'tiktok', 18.6, 10.1, 0, { mode:'chat', cup:true });
+      var panB = addStandChar(DATA.tiktok[8], 'tiktok', 20.0, 11.0, 0, { mode:'chat' });
+      panA.faceTarget = panB; panB.faceTarget = panA; panA.chatFirst = false;
+      // pembawa kopi keliling kantor
+      var kopiObj = { name:'asisten-kopi', job:'Kurir internal kantor: mengantar kopi dari pantry ke lounge dan ke meja-meja yang lagi lembur produksi.', label:'Keliling kantor', t:null, iv:null, _status:'work', _dept:'lainnya', _look:makeLook() };
+      addWalker(kopiObj, 'lainnya', [[19.5,12.9],[19.5,7.4],[19.5,5.8],[10,5.8],[-2,5.8],[-4.6,9],[-4.6,12.2]], { pauses:{ 0:2.5, 5:2.5, 6:2 }, cup:true, speed:1.12 });
+      // tanaman sudut-sudut koridor
+      plant(-8.5, 5.9, 0.9); plant(13.5, -6.4, 0.95); plant(2.5, -15.4, 1.0); plant(-22.4, -14.3, 1.15); plant(22.4, 4.3, 1.0); plant(-9.6, -15.4, 0.9);
+
+      /* ---------- bubble obrolan (sprite) untuk pasangan yang ngobrol ---------- */
+      function makeBubble(){
+        var c = document.createElement('canvas'); c.width = 512; c.height = 128;
+        var tex = new THREE.CanvasTexture(c); tex.encoding = THREE.sRGBEncoding;
+        var sp = new THREE.Sprite(new THREE.SpriteMaterial({ map:tex, transparent:true, depthWrite:false }));
+        sp.scale.set(1.85, 0.46, 1);
+        sp.visible = false;
+        return { sp:sp, canvas:c, tex:tex };
+      }
+      function drawBubble(b, text){
+        var g = b.canvas.getContext('2d'), w = 512, h = 128;
+        g.clearRect(0,0,w,h);
+        g.fillStyle = 'rgba(255,253,248,.97)';
+        g.beginPath();
+        var r = 34, x = 8, y = 6, bw = w-16, bh = 96;
+        g.moveTo(x+r, y); g.lineTo(x+bw-r, y); g.quadraticCurveTo(x+bw, y, x+bw, y+r);
+        g.lineTo(x+bw, y+bh-r); g.quadraticCurveTo(x+bw, y+bh, x+bw-r, y+bh);
+        g.lineTo(w/2+16, y+bh); g.lineTo(w/2-4, h-4); g.lineTo(w/2-26, y+bh);
+        g.lineTo(x+r, y+bh); g.quadraticCurveTo(x, y+bh, x, y+bh-r);
+        g.lineTo(x, y+r); g.quadraticCurveTo(x, y, x+r, y); g.fill();
+        g.font = '700 40px "Plus Jakarta Sans", Arial'; g.textAlign = 'center'; g.fillStyle = '#2b2620';
+        g.fillText(text, w/2, 66);
+        b.tex.needsUpdate = true;
+      }
+      var chatPairs = [ [lcA, lcB], [panA, panB] ];
+      chatPairs.forEach(function(pair){
+        pair.forEach(function(c){
+          c.bubble = makeBubble();
+          c.bubble.sp.position.set(0, 2.06, 0);
+          c.H.root.add(c.bubble.sp);
+        });
+        c_pairInit(pair);
+      });
+      function c_pairInit(pair){ pair[0].chatT = 0; pair[1].chatT = 0; }
+      var CHAT_LINES = { pantry:['Kopinya mantap','Habis ini lanjut lagi','Istirahat bentar ya','Cek antrean yuk'], lainnya:['Gimana progresnya?','Aman, lagi render','Nanti aku bantu cek','Siap, lanjut!'] };
+
+      /* ---------- kamera: fokus ruangan & karakter ---------- */
+      var camAnim = null;
+      function flyTo(px, py, pz, tx, ty, tz, dur){
+        camAnim = { k:0, dur: dur || 1.25,
+          fp:camera.position.clone(), tp:new THREE.Vector3(px,py,pz),
+          ft:controls.target.clone(), tt:new THREE.Vector3(tx,ty,tz) };
+        controls.autoRotate = false;
+      }
+      var ROOM_CENTER = {
+        overview:null, youtube:[-16,-5], blog:[-3,-10.5], tiktok:[-3,0], manager:[8,-11], airdrop:[8,-0.5],
+        meeting:[18.5,-11.8], lounge:[18.5,-5.2], monitoring:[18.5,2], keuangan:[-18.5,10.75],
+        lobby:[-5,10.75], publish:[9.5,10.75], pantry:[19.5,10.75], lainnya:[-3,0]
+      };
+      window.__focusRoom = function(id){
+        if (id === 'overview' || !ROOM_CENTER[id]){ flyTo(17.5, 15.5, 23.5, 0, 0.5, -1, 1.4); return; }
+        var c = ROOM_CENTER[id];
+        flyTo(c[0] + 6.8, 7.6, c[1] + 9.2, c[0], 0.7, c[1], 1.25);
+      };
+      window.__focusChar = function(pos){
+        flyTo(pos.x + 3.4, 3.8, pos.z + 4.8, pos.x, 0.9, pos.z, 1.1);
+      };
+      var autoOn = !reduced, userHoldUntil = 0;
+      var btnRotate = document.getElementById('btnRotate');
+      function syncRotateBtn(){ btnRotate.textContent = 'Putar Otomatis: ' + (autoOn ? 'Aktif' : 'Mati'); }
+      syncRotateBtn();
+      btnRotate.addEventListener('click', function(){ autoOn = !autoOn; syncRotateBtn(); });
+      controls.addEventListener('start', function(){ camAnim = null; userHoldUntil = performance.now() + 7000; });
+      if (!reduced) flyTo(17.5, 15.5, 23.5, 0, 0.5, -1, 2.4);
+      else camera.position.set(17.5, 15.5, 23.5);
+
+      /* ---------- klik karakter 3D -> panel laporan ---------- */
+      var ray = new THREE.Raycaster(), mouseV = new THREE.Vector2();
+      var downX = 0, downY = 0;
+      renderer.domElement.addEventListener('pointerdown', function(e){ downX = e.clientX; downY = e.clientY; });
+      renderer.domElement.addEventListener('pointerup', function(e){
+        if (Math.hypot(e.clientX - downX, e.clientY - downY) > 7) return;
+        var rect = renderer.domElement.getBoundingClientRect();
+        mouseV.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+        mouseV.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+        ray.setFromCamera(mouseV, camera);
+        var hits = ray.intersectObjects(pickRoots, true);
+        for (var i = 0; i < hits.length; i++){
+          var o = hits[i].object;
+          if (o.userData.openPublish){ window.__askPublishSelected(); return; }
+          if (o.userData.pickA){ openSheet(o.userData.pickA, o.userData.pickDept); return; }
+        }
+      });
+
+      /* ---------- animasi ---------- */
+      function angLerp(a, b, t){
+        var d = (b - a) % (Math.PI*2);
+        if (d > Math.PI) d -= Math.PI*2;
+        if (d < -Math.PI) d += Math.PI*2;
+        return a + d * t;
+      }
+      var clockT = new THREE.Clock();
+      var frame = 0;
+      function animate(){
+        requestAnimationFrame(animate);
+        var dt = Math.min(0.05, clockT.getDelta());
+        var t = clockT.elapsedTime;
+        frame++;
+        if (camAnim){
+          camAnim.k += dt / camAnim.dur;
+          var k = Math.min(1, camAnim.k);
+          var e = k < 0.5 ? 2*k*k : 1 - Math.pow(-2*k + 2, 2)/2;
+          camera.position.lerpVectors(camAnim.fp, camAnim.tp, e);
+          controls.target.lerpVectors(camAnim.ft, camAnim.tt, e);
+          if (k >= 1) camAnim = null;
+        }
+        controls.autoRotate = autoOn && !camAnim && performance.now() > userHoldUntil;
+        controls.update();
+        onAirMat.color.setScalar((Math.sin(t*2.6) > 0.1) ? 1 : 0.45);
+        domeMat.emissiveIntensity = 0.5 + 0.38 * Math.sin(t * 3);
+
+        for (var i = 0; i < chars.length; i++){
+          var c = chars[i], H = c.H;
+          var distSq = camera.position.distanceToSquared(H.root.position);
+          var far = distSq > 950;
+          if (far && (frame + i) % 3 !== 0 && c.mode !== 'walk') continue; // LOD: karakter jauh dianimasikan lebih jarang
+          var br = Math.sin(t * 1.45 + c.ph);
+          if (c.mode === 'seat'){
+            var amp = c.status === 'work' ? 1 : (c.status === 'soon' ? 0.55 : 0.25);
+            var T = t * 9.5 + c.seed * 7;
+            H.armL.el.rotation.x = -0.5 + Math.sin(T) * 0.09 * amp;
+            H.armR.el.rotation.x = -0.5 + Math.sin(T + Math.PI) * 0.09 * amp;
+            H.armL.sh.rotation.x = -0.95 + Math.sin(T * 0.5) * 0.02 * amp;
+            H.armR.sh.rotation.x = -0.95 + Math.sin(T * 0.5 + Math.PI) * 0.02 * amp;
+            H.upper.position.y = br * 0.006;
+            H.headG.rotation.y = Math.sin(t * 0.24 + c.seed * 3) * (c.status === 'work' ? 0.14 : 0.3);
+            H.headG.rotation.x = 0.08 + Math.sin(T * 0.5) * 0.012 * amp;
+          } else if (c.mode === 'security'){
+            H.headG.rotation.y = Math.sin(t * 0.4 + c.ph) * 0.55;
+            H.upper.rotation.z = Math.sin(t * 0.5 + c.ph) * 0.012;
+            H.upper.position.y = br * 0.005;
+            H.armL.sh.rotation.x = Math.sin(t * 1.45 + c.ph) * 0.02;
+            H.armR.sh.rotation.x = -Math.sin(t * 1.45 + c.ph) * 0.02;
+          } else if (c.mode === 'chat'){
+            if (c.faceTarget){
+              var tp = c.faceTarget.H.root.position;
+              var want = Math.atan2(tp.x - H.root.position.x, tp.z - H.root.position.z);
+              H.root.rotation.y = angLerp(H.root.rotation.y, want, Math.min(1, dt*4));
+            }
+            c.chatT = (c.chatT || 0) + dt;
+            var speak = (Math.floor(c.chatT / 3.2) % 2 === 0) === !!c.chatFirst;
+            H.headG.rotation.x = speak ? Math.sin(t * 5.2 + c.ph) * 0.055 : Math.sin(t * 2.1 + c.ph) * 0.045;
+            H.upper.position.y = br * 0.005;
+            if (speak){
+              if (!c.cup){ H.armR.sh.rotation.x = -0.35; H.armR.el.rotation.x = -0.6 + Math.sin(t * 6.4 + c.ph) * 0.25; }
+              H.armL.sh.rotation.x = -0.06; H.armL.el.rotation.x = -0.15;
+            } else {
+              if (!c.cup){ H.armR.sh.rotation.x = -0.05; H.armR.el.rotation.x = -0.12; }
+              H.armL.sh.rotation.x = -0.05; H.armL.el.rotation.x = -0.12;
+            }
+            if (c.bubble){
+              var lines = CHAT_LINES[c.dept] || CHAT_LINES.lainnya;
+              var slot = Math.floor(c.chatT / 3.2);
+              if (speak){
+                if (c.bubbleSlot !== slot){
+                  c.bubbleSlot = slot;
+                  drawBubble(c.bubble, lines[(slot + (c.chatFirst ? 0 : 1)) % lines.length]);
+                }
+                c.bubble.sp.visible = true;
+              } else c.bubble.sp.visible = false;
+            }
+          } else if (c.mode === 'walk'){
+            if (c.pauseT > 0){
+              c.pauseT -= dt;
+              var drinkNow = c.cup && c.pauseIdx !== undefined && (c.pauses[c.pauseIdx] >= 2);
+              if (drinkNow){
+                H.armR.el.rotation.x = -2.25 + Math.sin(t * 2) * 0.05;
+                H.armR.sh.rotation.x = -0.4;
+                H.headG.rotation.x = -0.14;
+              } else {
+                H.headG.rotation.y = Math.sin(t * 0.5 + c.seed * 2) * 0.4;
+                H.headG.rotation.x = 0;
+              }
+              H.armL.sh.rotation.x = Math.sin(t * 1.45 + c.ph) * 0.03;
+              if (!c.cup) H.armR.sh.rotation.x = -Math.sin(t * 1.45 + c.ph) * 0.03;
+              H.upper.position.y = br * 0.005;
+              if (c.pauseT <= 0){ advanceWalker(c); }
+            } else {
+              var tgt = c.pts[c.idx];
+              var dx = tgt[0] - H.root.position.x, dz = tgt[1] - H.root.position.z;
+              var dist = Math.hypot(dx, dz);
+              if (dist < 0.09){
+                H.root.position.x = tgt[0]; H.root.position.z = tgt[1];
+                var pz = c.pauses[c.idx];
+                if (pz){ c.pauseT = pz; c.pauseIdx = c.idx; resetWalkPose(c); }
+                else advanceWalker(c);
+              } else {
+                var step = Math.min(dist, c.speed * dt);
+                H.root.position.x += dx / dist * step;
+                H.root.position.z += dz / dist * step;
+                var wantYaw = Math.atan2(dx, dz);
+                H.root.rotation.y = angLerp(H.root.rotation.y, wantYaw, Math.min(1, dt * 7));
+                c.phase += step * 3.6;
+                var ph = c.phase, s = Math.sin(ph);
+                H.legL.hip.rotation.x = s * 0.56;
+                H.legR.hip.rotation.x = -s * 0.56;
+                H.legL.knee.rotation.x = Math.max(0, Math.sin(ph - 2.1)) * 0.85;
+                H.legR.knee.rotation.x = Math.max(0, Math.sin(ph + Math.PI - 2.1)) * 0.85;
+                if (!c.cup){
+                  H.armL.sh.rotation.x = -s * 0.44;
+                  H.armR.sh.rotation.x = s * 0.44;
+                } else {
+                  H.armL.sh.rotation.x = -s * 0.44;
+                  H.armR.sh.rotation.x = -0.32; H.armR.el.rotation.x = -1.15;
+                }
+                H.armL.el.rotation.x = -0.22 - Math.max(0, s) * 0.15;
+                if (!c.cup) H.armR.el.rotation.x = -0.22 - Math.max(0, -s) * 0.15;
+                H.hips.position.y = 0.92 + Math.abs(Math.cos(ph)) * 0.038;
+                H.upper.rotation.x = 0.07;
+                H.upper.position.y = 0;
+                H.headG.rotation.y = 0; H.headG.rotation.x = -0.03;
+              }
+            }
+          } else { // stand biasa
+            H.upper.position.y = br * 0.005;
+            H.headG.rotation.y = Math.sin(t * 0.3 + c.seed * 2) * 0.35;
+            H.armL.sh.rotation.x = Math.sin(t * 1.45 + c.ph) * 0.025;
+            H.armR.sh.rotation.x = -Math.sin(t * 1.45 + c.ph) * 0.025;
+          }
+        }
+        renderer.render(scene, camera);
+      }
+      function advanceWalker(c){
+        c.idx += c.dir;
+        if (c.idx >= c.pts.length){ c.dir = -1; c.idx = c.pts.length - 2; }
+        if (c.idx < 0){ c.dir = 1; c.idx = 1; }
+        c.pauseIdx = undefined;
+      }
+      function resetWalkPose(c){
+        var H = c.H;
+        H.legL.hip.rotation.x = 0; H.legR.hip.rotation.x = 0;
+        H.legL.knee.rotation.x = 0; H.legR.knee.rotation.x = 0;
+        H.hips.position.y = 0.92;
+        H.upper.rotation.x = 0;
+        H.armL.sh.rotation.x = 0; H.armL.el.rotation.x = -0.12;
+        if (!c.cup){ H.armR.sh.rotation.x = 0; H.armR.el.rotation.x = -0.12; }
+        H.headG.rotation.x = 0;
+      }
+      if (reduced){
+        chars.forEach(function(c){
+          if (c.mode === 'walk'){
+            var p = c.pts[Math.floor(c.pts.length/2)];
+            c.H.root.position.x = p[0]; c.H.root.position.z = p[1];
+          }
+        });
+      }
+      animate();
+
+      /* ---------- ukuran panggung ---------- */
+      function resize(){
+        var w = glBox.clientWidth, h = glBox.clientHeight;
+        if (!w || !h) return;
+        renderer.setSize(w, h);
+        camera.aspect = w / h;
+        camera.updateProjectionMatrix();
+      }
+      resize();
+      window.addEventListener('resize', resize);
+      if (window.ResizeObserver) new ResizeObserver(resize).observe(glBox);
+    })();
+    </script>
+  </body>
+</html>

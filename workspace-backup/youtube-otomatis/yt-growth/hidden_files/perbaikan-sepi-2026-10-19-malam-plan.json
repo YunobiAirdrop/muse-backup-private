@@ -1,0 +1,41 @@
+[
+ {
+  "slug": "jejakbuddha",
+  "video_id": "0xG5W7rbDt4",
+  "format": "long",
+  "views": 6,
+  "seo_skor": 65,
+  "judul_lama": "Bayinya Meninggal, Buddha Malah Memberi Tugas Mustahil #buddha #jejakbuddha #foryou",
+  "judul_baru": "Bayinya Meninggal, Buddha Malah Memberi Tugas Mustahil",
+  "deskripsi_berubah": true,
+  "tags_lama_n": 0,
+  "tags_baru_n": 15,
+  "catatan": "judul: hashtag keluar (aturan long); desc +CTA ID + blok 5 hashtag; tags 0->15"
+ },
+ {
+  "slug": "mind-en",
+  "video_id": "w_riNbyiOW8",
+  "format": "shorts",
+  "views": 5,
+  "seo_skor": 80,
+  "judul_lama": "Scientists Planted Fake Memories in Strangers #shorts #psychology #mind",
+  "judul_baru": "Scientists Planted Fake Memories in Strangers #butifyourcloseyoureyesmeme #shorts #psychology #mindset #foryou",
+  "deskripsi_berubah": true,
+  "tags_lama_n": 0,
+  "tags_baru_n": 10,
+  "catatan": "judul: 5 hashtag diakhiri #foryou; desc hashtag dinormalisasi; tags 0->10"
+ },
+ {
+  "slug": "jejakislami",
+  "video_id": "uIGWlXfMQJ4",
+  "format": "shorts",
+  "views": 0,
+  "seo_skor": 85,
+  "judul_lama": "Dibakar Hidup-Hidup, Api Justru Menjadi Dingin",
+  "judul_baru": "Dibakar Hidup-Hidup, Api Justru Menjadi Dingin #butifyourcloseyoureyesmeme #shorts #islami #kisahislami #foryou",
+  "deskripsi_berubah": true,
+  "tags_lama_n": 13,
+  "tags_baru_n": 13,
+  "catatan": "judul +5 hashtag; desc +CTA ID + #butifyourcloseyoureyesmeme; tags sudah bagus (13) tidak diubah; TIDAK di-private (duplikatnya sudah private, copy publik ini dipertahankan)"
+ }
+]

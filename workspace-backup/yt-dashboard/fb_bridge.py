@@ -24,7 +24,7 @@ sys.path.insert(0, str(HOME / "workspace" / "yt-dashboard"))
 sys.path.insert(0, str(HOME / "workspace" / "youtube-otomatis" / "yt-growth"))
 
 import app as dash  # reuse channel_info, _latest_videos, CHANNELS, PUBLISH_LOG
-from auth import yt_get, yt_put
+from auth import yt_get, yt_put, yt_delete
 
 WIB = timezone(timedelta(hours=7))
 ROOT = HOME / "workspace" / "yt-dashboard"
@@ -212,14 +212,19 @@ def main():
     st = _load_state()
     now = time.time()
 
-    # 1. perintah publish (tiap run)
+    # 1. perintah publish/delete (tiap run)
     published_any = []
     def _cmd():
         cmds = fb("commands") or {}
         for cid, c in cmds.items():
             if isinstance(c, dict) and c.get("status") == "pending":
-                print(f"publish {c.get('slug')}/{c.get('videoId')}", flush=True)
-                res = do_publish(c)
+                action = c.get("action", "publish")
+                if action == "delete":
+                    print(f"delete {c.get('slug')}/{c.get('videoId')}", flush=True)
+                    res = do_delete(c)
+                else:
+                    print(f"publish {c.get('slug')}/{c.get('videoId')}", flush=True)
+                    res = do_publish(c)
                 fb(f"results/{cid}", "PUT", res)
                 fb(f"commands/{cid}", "PUT", {"status": "done", "ts": int(now)})
                 if res.get("ok"):

@@ -132,6 +132,46 @@
       .pub-confirm:disabled{opacity:.55;cursor:wait}
       .pub-modal-err{color:var(--red) !important;font-weight:700 !important;min-height:0}
 
+      /* ===== Ruang Review ===== */
+      .rev-panel{position:fixed;top:0;right:0;height:100dvh;width:min(600px,96vw);background:var(--panel);z-index:97;transform:translateX(105%);transition:transform .32s cubic-bezier(.2,.8,.25,1);box-shadow:-14px 0 40px rgba(0,0,0,.25);padding:20px;overflow-y:auto}
+      .rev-panel.on{transform:none}
+      .rev-panel .close{position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--panel2);color:var(--ink);font-size:16px;z-index:2}
+      .rev-panel h2{margin:0 0 2px;font-size:19px;font-weight:800}
+      .rev-panel .sub{color:var(--ink2);font-size:12.5px;font-weight:600;margin:0 0 14px;line-height:1.55}
+      .rev-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:14px 0 12px}
+      .rev-head b{font-size:12px;letter-spacing:.13em}
+      .rev-count{background:var(--teal);color:#fff;font-size:11px;font-weight:800;border-radius:99px;padding:2px 9px}
+      .rev-refresh{margin-left:auto;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 12px;font-size:12px;font-weight:700}
+      .rev-refresh:hover{border-color:var(--teal);color:var(--teal)}
+      .rev-list{display:flex;flex-direction:column;gap:12px}
+      .rev-card{background:var(--panel2);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+      .rev-thumb{position:relative;background:#0b0d12}
+      .rev-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+      .rev-dur{position:absolute;right:8px;bottom:8px;background:rgba(10,10,12,.85);color:#fff;font-size:11px;font-weight:700;padding:2px 7px;border-radius:6px;font-family:"JetBrains Mono",monospace}
+      .rev-body{padding:12px 14px 14px}
+      .rev-body h3{font-size:14.5px;margin:0 0 5px;line-height:1.4;font-weight:800}
+      .rev-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--ink2);font-weight:600}
+      .rev-status{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.05em;padding:3px 9px;border-radius:99px;text-transform:uppercase}
+      .rev-status.private{background:var(--amber-soft);color:var(--amber)}
+      .rev-status.scheduled{background:var(--blue-soft);color:var(--blue)}
+      .rev-actions{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+      .rev-btn{flex:1 1 100px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:10px;padding:10px 8px;font-weight:800;font-size:12.5px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-family:inherit;cursor:pointer;text-align:center}
+      .rev-btn:hover{border-color:var(--teal)}
+      .rev-btn.pub{background:var(--green);border-color:var(--green);color:#fff}
+      .rev-btn.pub:hover{background:#178551}
+      .rev-btn.del{background:var(--red-soft);border-color:transparent;color:var(--red)}
+      .rev-btn.del:hover{border-color:var(--red)}
+      .rev-btn:disabled{opacity:.55;cursor:wait}
+      .rev-msg{font-size:13px;font-weight:600;color:var(--ink2);padding:10px 2px;line-height:1.55}
+      .rev-msg.err{color:var(--red)}
+      .rev-updated{font-size:11.5px;color:var(--ink3);font-weight:600;margin-top:12px;text-align:center}
+      .rev-badge{display:inline-block;background:#c0392b;color:#fff;font-size:11px;font-weight:800;border-radius:99px;padding:1px 8px;margin-left:4px;vertical-align:1px}
+      .rev-badge[hidden]{display:none}
+      .pub-confirm.green{background:var(--green)}
+      .pub-confirm.green:hover{background:#178551}
+      .toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,16px);background:#1d212b;color:#e8ecf3;border:1px solid #39414f;border-radius:12px;padding:12px 18px;font-size:13px;font-weight:700;z-index:200;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;max-width:min(92vw,480px);box-shadow:0 12px 30px rgba(0,0,0,.35);text-align:center;line-height:1.5}
+      .toast.on{opacity:1;transform:translate(-50%,0)}
+
       /* ===== Sections ===== */
       .section{margin-top:30px}
       .section h2{font-size:20px;font-weight:800;margin:0 0 4px}
@@ -316,6 +356,33 @@
         </div>
       </div>
     </div>
+
+    <!-- Ruang Review: panel geser daftar video menunggu review -->
+    <aside class="rev-panel" id="revPanel" aria-hidden="true">
+      <button class="close" id="revPanelClose" aria-label="Tutup Ruang Review">&times;</button>
+      <h2>🎬 Ruang Review</h2>
+      <p class="sub">Video yang sudah diproduksi dan menunggu keputusanmu. Tonton dulu hasilnya di YouTube Studio, lalu publish ke publik atau hapus kalau tidak layak tayang. Daftar diperbarui otomatis tiap 60 detik.</p>
+      <span class="pub-conn" id="revConn"><i></i><span id="revConnText">Menghubungi Firebase…</span></span>
+      <div class="rev-head"><b>MENUNGGU REVIEW</b><span class="rev-count" id="revCount">0</span><button class="rev-refresh" id="revRefresh" type="button">Muat ulang</button></div>
+      <div class="rev-list" id="revList"><div class="rev-msg">Memuat daftar video dari Firebase…</div></div>
+      <div class="rev-updated" id="revUpdated"></div>
+    </aside>
+
+    <div class="pub-modal-wrap" id="revModalWrap">
+      <div class="pub-modal" role="dialog" aria-modal="true" aria-labelledby="revModalTitle">
+        <h3 id="revModalTitle">Publish video ini?</h3>
+        <img id="revModalThumb" alt="Thumbnail video yang sedang direview">
+        <p id="revModalInfo">—</p>
+        <p id="revModalDesc"></p>
+        <p class="pub-modal-err" id="revModalErr"></p>
+        <div class="mrow">
+          <button class="pub-cancel" id="revCancel" type="button">Batal</button>
+          <button class="pub-confirm" id="revConfirm" type="button">Ya, Publish</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
     <div class="scrim" id="scrim"></div>
     <aside class="sheet" id="sheet" aria-hidden="true">
@@ -595,6 +662,14 @@
     function fmtDur(v){
       if (v === null || v === undefined || v === '') return '';
       if (typeof v === 'string' && v.indexOf(':') !== -1) return v;
+      if (typeof v === 'string'){
+        var iso = v.match(/^P(?:(\d+)D)?(?:T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+(?:\.\d+)?)S)?)?$/);
+        if (iso){
+          var tot = (+iso[1] || 0) * 86400 + (+iso[2] || 0) * 3600 + (+iso[3] || 0) * 60 + Math.round(+iso[4] || 0);
+          if (tot <= 0) return '';
+          v = tot;
+        }
+      }
       var n = Math.round(Number(v));
       if (!isFinite(n) || n <= 0) return String(v);
       var h = Math.floor(n / 3600), m = Math.floor((n % 3600) / 60), s = n % 60;
@@ -755,6 +830,225 @@
       askPublish(item);
     });
     loadPending();
+    </script>
+    <script>
+    /* ============ Ruang Review — daftar video menunggu review dari Firebase (/yt/review) ============ */
+    var revItems = [];
+    var revBusy = {};
+    var revPending = null; // { item, action, step }
+    var revPanel = document.getElementById('revPanel');
+    var toastTimer = null;
+
+    function showToast(msg){
+      var t = document.getElementById('toast');
+      t.textContent = msg;
+      t.classList.add('on');
+      if (toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(function(){ t.classList.remove('on'); }, 4200);
+    }
+    function openRevPanel(){ revPanel.classList.add('on'); revPanel.setAttribute('aria-hidden','false'); scrim.classList.add('on'); loadReview(); }
+    function closeRevPanel(){ revPanel.classList.remove('on'); revPanel.setAttribute('aria-hidden','true'); if (!sheet.classList.contains('on') && !pubPanel.classList.contains('on')) scrim.classList.remove('on'); }
+    document.getElementById('revPanelClose').addEventListener('click', closeRevPanel);
+    scrim.addEventListener('click', closeRevPanel);
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape'){ closeRevPanel(); closeRevModal(); } });
+    window.__openRevPanel = openRevPanel;
+
+    // Chip navigasi "🎬 Review Video" + badge jumlah pending, disisipkan sebelum kotak pencarian
+    (function(){
+      var chip = document.createElement('button');
+      chip.className = 'chip';
+      chip.id = 'revChip';
+      chip.innerHTML = '🎬 Review Video <span class="rev-badge" id="revChipCount" hidden>0</span>';
+      chip.addEventListener('click', openRevPanel);
+      var search = chips.querySelector('.search');
+      if (search) chips.insertBefore(chip, search); else chips.appendChild(chip);
+    })();
+
+    function revSetConn(state, text){
+      var c = document.getElementById('revConn');
+      c.className = 'pub-conn' + (state ? ' ' + state : '');
+      document.getElementById('revConnText').textContent = text;
+    }
+    function revSetCount(){
+      document.getElementById('revCount').textContent = revItems.length;
+      var badge = document.getElementById('revChipCount');
+      if (badge){ badge.textContent = revItems.length; badge.hidden = revItems.length === 0; }
+    }
+    function revNormalize(data){
+      // Struktur respons Firebase /yt/review:
+      // { updated_at: "...", videos: { VIDEO_ID: { videoId, slug, channel, channelId, title, privacy, publishAt, uploadedAt, duration, thumb } } }
+      // Ambil SEMUA video langsung dari node "videos" via Object.values — TANPA filter apa pun.
+      // Mengembalikan null bila node videos tidak ada / bukan objek (ditangani sebagai error data di loadReview).
+      var videosObj = (data && typeof data === 'object') ? data.videos : null;
+      console.log('[Ruang Review] Respons Firebase diterima — jumlah video di node "videos":', (videosObj && typeof videosObj === 'object') ? Object.keys(videosObj).length : 0);
+      if (!videosObj || typeof videosObj !== 'object') return null;
+      return Object.values(videosObj).map(function(v){
+        v = v || {};
+        var rawStatus = String(v.privacy || v.status || v.privacyStatus || 'private').toLowerCase();
+        return {
+          slug: v.slug || v.channel || '-',
+          id: v.videoId || v.id || '',
+          title: (v.title != null && v.title !== '') ? String(v.title) : '(tanpa judul)',
+          channel: v.channel || v.channelName || v.slug || '-',
+          status: (rawStatus.indexOf('sched') !== -1 || !!v.publishAt) ? 'scheduled' : 'private',
+          duration: (v.duration != null ? v.duration : (v.dur != null ? v.dur : v.length)),
+          thumb: v.thumb || ''
+        };
+      });
+    }
+    function revEsc(s){
+      return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+    function renderRevList(){
+      var list = document.getElementById('revList');
+      revSetCount();
+      list.innerHTML = '';
+      if (!revItems.length){
+        list.innerHTML = '<div class="rev-msg">Tidak ada video yang menunggu review saat ini. Video yang selesai diproduksi akan muncul di sini untuk kamu periksa sebelum tayang.</div>';
+        return;
+      }
+      revItems.forEach(function(item){
+        var busy = !!revBusy[item.id];
+        var card = document.createElement('div'); card.className = 'rev-card';
+        var th = document.createElement('div'); th.className = 'rev-thumb';
+        var img = document.createElement('img');
+        img.src = item.thumb || ('https://i.ytimg.com/vi/' + item.id + '/hqdefault.jpg');
+        img.alt = 'Thumbnail video ' + item.title;
+        img.loading = 'lazy';
+        img.onerror = function(){ img.style.display = 'none'; };
+        th.appendChild(img);
+        var dur = fmtDur(item.duration);
+        if (dur){ var db = document.createElement('span'); db.className = 'rev-dur'; db.textContent = dur; th.appendChild(db); }
+        var body = document.createElement('div'); body.className = 'rev-body';
+        var h = document.createElement('h3'); h.textContent = item.title;
+        var meta = document.createElement('div'); meta.className = 'rev-meta';
+        var ch = document.createElement('span'); ch.textContent = item.channel;
+        var st = document.createElement('span');
+        st.className = 'rev-status ' + item.status;
+        st.textContent = item.status === 'scheduled' ? 'Terjadwal' : 'Private';
+        meta.appendChild(ch); meta.appendChild(st);
+        var acts = document.createElement('div'); acts.className = 'rev-actions';
+        var watch = document.createElement('a');
+        watch.className = 'rev-btn'; watch.textContent = '▶ Tonton';
+        watch.href = 'https://studio.youtube.com/video/' + item.id + '/edit';
+        watch.target = '_blank'; watch.rel = 'noopener';
+        var pub = document.createElement('button');
+        pub.type = 'button'; pub.className = 'rev-btn pub'; pub.textContent = busy ? 'Mengirim…' : '✅ Publish';
+        pub.disabled = busy;
+        pub.addEventListener('click', function(){ askRevAction(item, 'publish'); });
+        var del = document.createElement('button');
+        del.type = 'button'; del.className = 'rev-btn del'; del.textContent = busy ? 'Mengirim…' : '🗑️ Hapus';
+        del.disabled = busy;
+        del.addEventListener('click', function(){ askRevAction(item, 'delete'); });
+        acts.appendChild(watch); acts.appendChild(pub); acts.appendChild(del);
+        body.appendChild(h); body.appendChild(meta); body.appendChild(acts);
+        card.appendChild(th); card.appendChild(body);
+        list.appendChild(card);
+      });
+    }
+    function loadReview(){
+      fetch(FB_DB + '/yt/review.json?auth=' + FB_AUTH)
+        .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(function(data){
+          var list = revNormalize(data);
+          console.log('[Ruang Review] Video yang akan ditampilkan:', list ? list.length : 0);
+          revSetConn('ok', 'Terhubung ke Firebase');
+          if (!list || !list.length){
+            // Node "videos" kosong/null di Firebase = masalah data/sinkronisasi, BUKAN daftar yang memang kosong.
+            revItems = [];
+            revSetCount();
+            document.getElementById('revList').innerHTML = '<div class="rev-msg err">⚠️ Data video tidak terbaca: node "videos" pada respons Firebase /yt/review kosong atau tidak ditemukan. Ini menandakan masalah data atau sinkronisasi di sisi Firebase — bukan berarti tidak ada video yang menunggu review. Klik "Muat ulang" untuk mencoba lagi; bila pesan ini tetap muncul, periksa node yt/review di Firebase Console.</div>';
+            document.getElementById('revUpdated').textContent = 'Terakhir diperbarui ' + new Intl.DateTimeFormat('id-ID',{timeZone:'Asia/Jakarta',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date()).replace(/\./g,':') + ' WIB • auto-refresh tiap 60 detik';
+            return;
+          }
+          revItems = list;
+          renderRevList();
+          document.getElementById('revUpdated').textContent = 'Terakhir diperbarui ' + new Intl.DateTimeFormat('id-ID',{timeZone:'Asia/Jakarta',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date()).replace(/\./g,':') + ' WIB • auto-refresh tiap 60 detik';
+        })
+        .catch(function(e){
+          revSetConn('err', 'Tidak terhubung ke Firebase');
+          document.getElementById('revList').innerHTML = '<div class="rev-msg err">Gagal mengambil daftar review dari Firebase (' + e.message + '). Periksa koneksi internet, lalu klik "Muat ulang". Daftar tidak bisa ditampilkan sekarang — bukan berarti tidak ada video yang menunggu.</div>';
+        });
+    }
+    document.getElementById('revRefresh').addEventListener('click', loadReview);
+
+    function askRevAction(item, action){
+      revPending = { item: item, action: action, step: 1 };
+      paintRevModal();
+      document.getElementById('revModalWrap').classList.add('on');
+    }
+    function paintRevModal(){
+      if (!revPending) return;
+      var item = revPending.item, action = revPending.action, step = revPending.step;
+      var title = document.getElementById('revModalTitle');
+      var desc = document.getElementById('revModalDesc');
+      var confirm = document.getElementById('revConfirm');
+      document.getElementById('revModalThumb').src = item.thumb || ('https://i.ytimg.com/vi/' + item.id + '/hqdefault.jpg');
+      document.getElementById('revModalInfo').textContent = '"' + item.title + '" — Channel: ' + item.channel;
+      document.getElementById('revModalErr').textContent = '';
+      confirm.disabled = false;
+      confirm.classList.toggle('green', action === 'publish');
+      if (action === 'publish'){
+        title.textContent = 'Publish video ini?';
+        desc.innerHTML = 'Video akan diubah jadi <b>publik</b> dan bisa ditonton semua orang. Perintah dikirim ke sistem dan diproses dalam beberapa menit.';
+        confirm.textContent = 'Ya, Publish';
+      } else if (step === 1){
+        title.textContent = 'Hapus video ini?';
+        desc.innerHTML = 'Video akan <b>dihapus permanen dari YouTube</b>. Tindakan ini <b>tidak bisa dibatalkan</b> — video, komentar, dan statistiknya hilang selamanya.';
+        confirm.textContent = 'Lanjut Hapus…';
+      } else {
+        title.textContent = 'Yakin 100% hapus permanen?';
+        desc.innerHTML = 'Ini konfirmasi terakhir. Setelah perintah terkirim, video <b>"' + revEsc(item.title) + '"</b> akan dihapus dari channel <b>' + revEsc(item.channel) + '</b> dan tidak dapat dikembalikan.';
+        confirm.textContent = 'Ya, Hapus Permanen';
+      }
+    }
+    function closeRevModal(){
+      document.getElementById('revModalWrap').classList.remove('on');
+      revPending = null;
+    }
+    function sendRevCommand(item, action){
+      var ts = Date.now();
+      var cid = item.slug + '-' + item.id + '-' + ts;
+      var body = { slug: item.slug, videoId: item.id, action: action, title: '', ts: ts, status: 'pending' };
+      return fetch(FB_DB + '/yt/commands/' + encodeURIComponent(cid) + '.json?auth=' + FB_AUTH, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      }).then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+    }
+    document.getElementById('revConfirm').addEventListener('click', function(){
+      if (!revPending) return;
+      var item = revPending.item, action = revPending.action;
+      if (action === 'delete' && revPending.step === 1){
+        revPending.step = 2;
+        paintRevModal();
+        return;
+      }
+      var c = document.getElementById('revConfirm');
+      c.disabled = true; c.textContent = 'Mengirim perintah…';
+      revBusy[item.id] = true;
+      sendRevCommand(item, action)
+        .then(function(){
+          delete revBusy[item.id];
+          revItems = revItems.filter(function(v){ return v.id !== item.id; });
+          closeRevModal();
+          renderRevList();
+          showToast(action === 'publish'
+            ? '✅ Perintah publish terkirim untuk "' + item.title + '" — video akan tayang publik dalam beberapa menit.'
+            : '🗑️ Perintah hapus terkirim untuk "' + item.title + '" — video akan dihapus permanen dari YouTube.');
+        })
+        .catch(function(e){
+          delete revBusy[item.id];
+          renderRevList();
+          paintRevModal();
+          document.getElementById('revModalErr').textContent = 'Gagal mengirim perintah (' + e.message + '). Periksa koneksi lalu coba lagi.';
+        });
+    });
+    document.getElementById('revCancel').addEventListener('click', closeRevModal);
+    document.getElementById('revModalWrap').addEventListener('click', function(e){ if (e.target === this) closeRevModal(); });
+
+    loadReview();
+    setInterval(loadReview, 60000);
     </script>
     <script>
     /* ================================================================

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Review Video — Yunobi</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{background:#0f0f0f;color:#fff;font-family:system-ui,-apple-system,sans-serif;min-height:100vh}
+header{background:#1a1a1a;padding:14px 16px;position:sticky;top:0;z-index:10;border-bottom:1px solid #333}
+header h1{font-size:18px;font-weight:700}
+header p{font-size:12px;color:#aaa;margin-top:2px}
+#list{padding:12px;display:flex;flex-direction:column;gap:12px;max-width:640px;margin:0 auto}
+.card{background:#1e1e1e;border-radius:12px;overflow:hidden;border:1px solid #2a2a2a}
+.thumb{position:relative;width:100%;aspect-ratio:16/9;background:#000}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.badge{position:absolute;top:8px;left:8px;background:rgba(0,0,0,.75);padding:4px 10px;border-radius:20px;font-size:11px;font-weight:600}
+.badge.private{background:rgba(180,120,0,.85)}
+.badge.scheduled{background:rgba(0,120,200,.85)}
+.dur{position:absolute;bottom:8px;right:8px;background:rgba(0,0,0,.8);padding:3px 8px;border-radius:6px;font-size:12px}
+.info{padding:12px}
+.info h3{font-size:14px;line-height:1.35;margin-bottom:4px}
+.info .meta{font-size:12px;color:#aaa}
+.btns{display:flex;gap:8px;padding:0 12px 12px}
+.btns button{flex:1;padding:12px 8px;border:none;border-radius:10px;font-size:14px;font-weight:700;cursor:pointer}
+.btn-watch{background:#333;color:#fff}
+.btn-pub{background:#1a9e4b;color:#fff}
+.btn-del{background:#c0392b;color:#fff}
+.btns button:disabled{opacity:.4}
+.empty{text-align:center;color:#888;padding:60px 20px;font-size:14px}
+.loading{text-align:center;color:#888;padding:40px;font-size:14px}
+#toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#333;padding:12px 20px;border-radius:10px;font-size:14px;display:none;z-index:99;max-width:90%}
+</style>
+</head>
+<body>
+<header>
+<h1>🎬 Review Video</h1>
+<p id="sub">Memuat...</p>
+</header>
+<div id="list"><div class="loading">Memuat video pending...</div></div>
+<div id="toast"></div>
+<script>
+const FB_DB="https://yt-dashboard-yunobi-default-rtdb.asia-southeast1.firebasedatabase.app";
+const FB_AUTH="zszMpcV3wzsoDXSc9xZZBBwIvM755gBQPPILlyhN";
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',2500)}
+async function load(){
+  try{
+    const r=await fetch(`${FB_DB}/yt/review.json?auth=${FB_AUTH}`);
+    const d=await r.json();
+    const vids=d&&d.videos?Object.values(d.videos):[];
+    document.getElementById('sub').textContent=vids.length+' video menunggu review • update '+(d&&d.updated_at?d.updated_at.slice(11,16):'-');
+    const list=document.getElementById('list');
+    if(!vids.length){list.innerHTML='<div class="empty">✅ Nggak ada video pending.<br>Semua udah dipublish atau dihapus.</div>';return}
+    vids.sort((a,b)=>b.uploadedAt.localeCompare(a.uploadedAt));
+    list.innerHTML=vids.map(v=>`
+      <div class="card" id="card-${v.videoId}">
+        <div class="thumb">
+          <img src="${v.thumb}" loading="lazy" onerror="this.style.opacity=.3">
+          <span class="badge ${v.privacy==='private'?'private':'scheduled'}">${v.privacy==='private'?'🔒 PRIVATE':'⏰ '+v.privacy.toUpperCase()}</span>
+          <span class="dur">${fmtDur(v.duration)}</span>
+        </div>
+        <div class="info">
+          <h3>${esc(v.title)}</h3>
+          <div class="meta">${esc(v.channel)} • upload ${v.uploadedAt.slice(0,10)}</div>
+        </div>
+        <div class="btns">
+          <button class="btn-watch" onclick="watch('${v.videoId}')">▶️ Tonton</button>
+          <button class="btn-pub" id="pub-${v.videoId}" onclick="publish('${v.slug}','${v.videoId}')">✅ Publish</button>
+          <button class="btn-del" id="del-${v.videoId}" onclick="remove('${v.slug}','${v.videoId}')">🗑️ Hapus</button>
+        </div>
+      </div>`).join('');
+  }catch(e){document.getElementById('list').innerHTML='<div class="empty">Gagal memuat. Cek koneksi.</div>'}
+}
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function fmtDur(d){const m=d.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);if(!m)return'';const h=m[1]||0,mi=m[2]||0,s=m[3]||0;return h?`${h}:${String(mi).padStart(2,'0')}:${String(s).padStart(2,'0')}`:`${mi}:${String(s).padStart(2,'0')}`}
+function watch(vid){window.open('https://studio.youtube.com/video/'+vid+'/edit','_blank')}
+async function sendCmd(slug,vid,action){
+  const cid=slug+'-'+vid+'-'+Date.now();
+  await fetch(`${FB_DB}/yt/commands/${cid}.json?auth=${FB_AUTH}`,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({slug,videoId:vid,action,title:'',ts:Date.now(),status:'pending'})});
+}
+async function publish(slug,vid){
+  if(!confirm('Publish video ini ke publik?'))return;
+  document.getElementById('pub-'+vid).disabled=true;
+  await sendCmd(slug,vid,'publish');
+  toast('✅ Perintah publish dikirim. Diproses ~3 menit.');
+  setTimeout(()=>document.getElementById('card-'+vid)?.remove(),1500);
+}
+async function remove(slug,vid){
+  if(!confirm('HAPUS video ini permanen? Tidak bisa dibatalkan!'))return;
+  if(!confirm('Yakin banget? Video akan dihapus dari YouTube.'))return;
+  document.getElementById('del-'+vid).disabled=true;
+  await sendCmd(slug,vid,'delete');
+  toast('🗑️ Perintah hapus dikirim. Diproses ~3 menit.');
+  setTimeout(()=>document.getElementById('card-'+vid)?.remove(),1500);
+}
+load();
+setInterval(load,60000);
+</script>
+</body>
+</html>
