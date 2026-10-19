@@ -1,0 +1,224 @@
+{
+ "empires-en": {
+  "handle": "@AncientEmpiresTV",
+  "n_videos": 12,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "fakta-bola-dunia": {
+  "handle": "@FaktaBolaDuniaID",
+  "n_videos": 1,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "history-en": {
+  "handle": "@EchoesOfThePast-e9m",
+  "n_videos": 17,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "horor": {
+  "handle": "@KisahPOV",
+  "n_videos": 24,
+  "n_aged_14d": 4,
+  "median_views": 289.0,
+  "median_avg_sec": 14.0,
+  "candidates": [
+   {
+    "video_id": "5H9DWXm1aIs",
+    "title": "Orderan Hantu Itu Muncul Lagi! | Orderan Tengah Malam Penumpangnya Hantu #shorts #horor #foryou",
+    "published": "2026-10-04",
+    "age_days": 15,
+    "views": 261,
+    "avg_view_sec": 13,
+    "likes": 5,
+    "watch_minutes": 13
+   }
+  ]
+ },
+ "horror-en": {
+  "handle": "@TalesOfDreadTV",
+  "n_videos": 18,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "inktime": {
+  "handle": "@InkTime-d3t",
+  "n_videos": 6,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "jejakbuddha": {
+  "handle": "@JejakBuddha",
+  "n_videos": 13,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "jejakislami": {
+  "handle": "@JejakIslami-h3d",
+  "n_videos": 9,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "kisahalkitab": {
+  "handle": "@KisahAlkitab-k9j",
+  "n_videos": 16,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "kisahdharma": {
+  "handle": "@KisahDharma",
+  "n_videos": 8,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "lima-misteri": {
+  "handle": "@LimaMisteri",
+  "n_videos": 24,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "macammacam": {
+  "handle": "@MacamMacamID",
+  "n_videos": 5,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "mind-en": {
+  "handle": "@TheDarkMindFiles-s6i",
+  "n_videos": 11,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "mystery-en": {
+  "handle": "@MysteryShadowsTV",
+  "n_videos": 5,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "space-en": {
+  "handle": "@CosmosUnknownTV",
+  "n_videos": 10,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "strangetales": {
+  "handle": "@StrangeTales-g6n",
+  "n_videos": 28,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "tinybuilders": {
+  "handle": "@tinybuilders-d5z",
+  "n_videos": 8,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "truecrime-en": {
+  "handle": "@TrueCaseFilesTV",
+  "n_videos": 19,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "weird-en": {
+  "handle": "@BizarreWorldDaily",
+  "n_videos": 15,
+  "n_aged_14d": 0,
+  "median_views": 0,
+  "median_avg_sec": 0,
+  "candidates": []
+ },
+ "youtube-pov": {
+  "handle": "@ceritarakyat862",
+  "n_videos": 33,
+  "n_aged_14d": 12,
+  "median_views": 3.5,
+  "median_avg_sec": 2.5,
+  "candidates": [
+   {
+    "video_id": "9ZyaPdlHUFU",
+    "title": "Asal Usul Berdirinya KKB Papua",
+    "published": "2026-09-15",
+    "age_days": 34,
+    "views": 0,
+    "avg_view_sec": 0,
+    "likes": 0,
+    "watch_minutes": 0
+   },
+   {
+    "video_id": "sqzfVc1qLSk",
+    "title": "Jangan Lewatkan! 5 Legenda Yang Mengubah Segalanya 🤔",
+    "published": "2026-09-16",
+    "age_days": 33,
+    "views": 0,
+    "avg_view_sec": 0,
+    "likes": 1,
+    "watch_minutes": 0
+   },
+   {
+    "video_id": "qvTAM_x2wbs",
+    "title": "Live Stream dealy vlog sumbul",
+    "published": "2026-09-02",
+    "age_days": 47,
+    "views": 0,
+    "avg_view_sec": 0,
+    "likes": 1,
+    "watch_minutes": 0
+   },
+   {
+    "video_id": "VgAvB_VS-DQ",
+    "title": "5 Legenda Indonesia yang Mengubah Segalanya",
+    "published": "2026-09-17",
+    "age_days": 32,
+    "views": 2,
+    "avg_view_sec": 0,
+    "likes": 0,
+    "watch_minutes": 0
+   },
+   {
+    "video_id": "BnA4HV4X_rc",
+    "title": "Genderang Perang Ditabuh, Neraka Pecah | Perang Bubat #shorts #sejarah #viral #foryou",
+    "published": "2026-10-03",
+    "age_days": 16,
+    "views": 3,
+    "avg_view_sec": 0,
+    "likes": 1,
+    "watch_minutes": 0
+   }
+  ]
+ }
+}

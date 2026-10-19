@@ -1,5 +1,68 @@
 # Airdrop Farming — Status Report
 
+**Date:** 2026-10-19
+**Wallet:** `0xf0f25C36AC70E9d787a108eFB351626192C8107b`
+
+## Run 2026-10-19 (cron airdrop-farming-harian, 08:00 WIB)
+
+### farm.py
+- Berjalan bersih (exit 0), log: `logs/farm-2026-10-19.log`.
+- Hasil: **QUEUED** = sahara, multipli, mitosis, portal-bitcoin, dogeos,
+  asentum, nowa-finance, allox, tastyco. **BLOCKED** = gte (captcha),
+  neptune (captcha + mainnet balance), variational (captcha + mainnet
+  balance), zenchain (social: X post), dextr (captcha + mainnet balance),
+  abstract (captcha + mainnet balance), polyhedra (captcha), saturn (captcha).
+
+### Saldo gas per jaringan (RPC langsung dari VM, read-only, ~08:15 WIB)
+- Ethereum Sepolia: **0,1035 ETH** (naik dari 0,0535 — faucet Google Cloud
+  09:00 kemarin mengisi) — di atas ambang STOP 0,01 ETH.
+- Arbitrum Sepolia: **0** · Base Sepolia: **0**.
+- BSC testnet: **0,0100005 BNB** (cukup untuk beberapa tx murah).
+- DogeOS Chikyū: **42,0219 test DOGE** (sesudah 3 tx hari ini).
+- Sahara testnet (chain 313313): **tidak terbaca** — RPC resmi timeout,
+  routeme.sh rate-limited, thirdweb timeout (dari VM).
+- MegaETH mainnet: **1 ETH — TIDAK DISENTUH** (aset mainnet, aturan hemat).
+- Zenchain testnet: tidak terjangkau.
+
+### Transaksi hari ini: 3 (DogeOS)
+- Private key kini tersedia di worker ini via `~/workspace/wallet-bot/.privkey`
+  (otorisasi user 2026-10-19 "kamu simpan aja biar ga minta terus"; TIDAK
+  pernah ditulis ke log/chat). Signing via eth_account langsung ke RPC.
+- 3x self-transfer 0 DOGE di DogeOS Chikyū (gas ~0,000001 DOGE total),
+  semua confirmed (status 0x1):
+  - 0x4dc4d31978ec9cd0f1cafce6140849e84acd6a23b8fd7b024b21292bd8b8b0e7
+  - 0xe8eb997ef5a8bf8b904bf840dd9ed85da727f946fea873878e228ca638749f2d
+  - 0x52843860b45849bbc02772b06b7a1515a71752360795852e8dc1a480d6b43a94
+- Faucet DogeOS farming wallet: cooldown 24 jam dari klaim 2026-10-18 —
+  coba lagi setelah ~15:30 WIB hari ini.
+
+### Tidak dikerjakan (alasan)
+- **Sepolia 0,1035 ETH disimpan** — tidak ada interaksi dApp yang eligible
+  hari ini (Multipli butuh signup StarkNet + recaptcha; Mitosis testnet mati;
+  Neptune butuh Backpack wallet). Self-transfer tanpa guna = boros, skip.
+- **Sahara**: legends.saharaai.com tidak terjangkau + RPC mati dari VM;
+  token SAHARA sudah live di mainnet (airdrop 8,15% sudah distribusi) —
+  nilai farming testnet menurun. Butuh sesi browser wallet-connected.
+- **Multipli**: faucet butuh recaptcha + signup StarkNet (laporan
+  wallet-bot/MULTIPLI_FAUCET_REPORT.md) — user klaim dari HP tercepat.
+- **Mitosis**: testnet mati (DNS tidak resolve). **Portal Bitcoin**: butuh
+  install ekstensi Portal wallet (user). **Asentum**: menunggu user import
+  farming wallet via takeover browser.
+- **nowa-finance / allox / tastyco**: situs live (HTTP 200) tapi butuh
+  onboarding (connect wallet + social connects + devnet funds). Social
+  connects butuh izin user per aturan "login bilang dulu" — belum dikerjakan.
+- 8 proyek faucet-blocked: tidak berubah (captcha / mainnet-balance / X post).
+
+### Dibutuhkan dari user
+1. Klaim faucet Multipli dari HP (testnet.multipli.fi, ~2-3 menit) — atau
+   kirim JWT dari localStorage browser HP bila sudah signup.
+2. X post sekali untuk unlock faucet Zenchain (blocker lama).
+3. Faucet manual (captcha): Arbitrum Sepolia ETH, Base Sepolia ETH.
+4. Izin + langkah untuk onboarding nowa/allox/tastyco (connect X/Telegram/
+   Discord) dan install ekstensi Portal wallet / import Asentum wallet.
+
+---
+
 **Date:** 2026-10-18
 **Wallet:** `0xf0f25C36AC70E9d787a108eFB351626192C8107b`
 
