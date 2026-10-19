@@ -1,52 +1,6 @@
-# Source observations
-
 # Proactive updates already delivered
 
 Only the updates this proactive pipeline delivered in the last 7 days. Muse's ordinary chat replies, including results a task reported back in the conversation, are not listed here, so a message missing from this list may still have reached the user: check the conversation and search Past conversations with `muse.memory_search` before treating something as undelivered.
-
-## 2026-10-12T02:41:24.536Z
-
-message_id: `assistant-msg-57abfa81-907c-bbec-5700-39d9558fdaae`
-
-Pengingat walk-in **PT Trisatya** — hari ini Senin, jendelanya 08:30–16:00, jadi kalau belum berangkat masih keburu.
-
-Berkas siapin: CV print 2 rangkap, fotokopi KTP + KK 2 rangkap, pas foto 3x4 empat lembar, surat keterangan ijazah hilang, pulpen + map coklat. Alamat: Jl. Gatot Subroto KM 2, Cimone, Karawaci (Ruko Cimone Blok A-7).
-
-Penting: Trisatya itu outsourcing, di web mereka ada "biaya member Rp 150.000". Jangan daftar online — datang langsung aja. Kalau di lokasi diminta bayar apa pun (member/adm/pelatihan), langsung pergi. Ditanya ijazah? Jawab jujur: lulusan SMK, ijazah asli hilang waktu pindahan, lagi urus surat pengganti resmi (SKPI) dari SMKN 1 Mauk.
-
-Satu keputusan: formulir Waste4Change (kamu kernet + Bapak supir) udah siap — kirim sekarang, atau tunggu hasil walk-in dulu?
-
-Info dari sistem: video perdana Macam Macam sekarang masuk antrean upload otomatis malam ini jam 20:00 — kalau kamu ternyata udah upload manual, bilang ya biar saya tahan biar nggak dobel. Sama satu perbaikan kecil: protokol upload sekarang mewajibkan komentar disetel "Allow all comments" di Studio, biar nggak ada lagi video yang komentarnya mati.
-
-[[hatch_widget:widget-83d4a360-b1fc-45df-b6e5-e898062904dd]]
-
-## 2026-10-12T04:13:06.212Z
-
-message_id: `assistant-msg-ad719005-d96e-2b75-5b04-963a157fd646`
-
-Keputusan perlu diambil **sebelum slot tayang malam ini jam 19:00** — detail lengkapnya ada di Letter di atas.
-
-Singkatnya: video long Jejak Islami "Nabi Musa AS – Laut Merah Terbelah" (siap untuk slot 19:00 malam ini) ternyata memakai footage Mixkit berlisensi terbatas/non-komersial, karena Pexels terhalang CAPTCHA pas produksi. Rekomendasi saya: **tahan dulu, ganti klipnya dengan footage berlisensi bersih** — Jejak Islami bolong sehari nggak masalah, tapi kalau tayang apa adanya, yang dipertaruhkan aplikasi monetisasi channel-nya. Kalau nggak ada jawaban sampai sore, video ini saya tahan dulu biar aman.
-
-Info kedua dari Letter yang sama: komentar mati lagi di 4 video terbaru (@ceritarakyat862, @EchoesOfThePast-e9m, @CosmosUnknownTV, @TheDarkMindFiles-s6i). Ini lagi saya tangani sebagai perbaikan pipeline — verifikasi komentar ON jadi bagian dari proses upload itu sendiri, bukan pembersihan sekali jalan.
-
-Satu perubahan lain dari sistem: protokol produksi ditambah pola pemenang berbasis data views per channel (dari review yt-growth hari ini) — 19 cron produksi mulai menerapkannya di produksi sore ini 16:11.
-
-[[hatch_widget:widget-2942cc50-d44e-40b8-b35a-aa9f6e4fe9cf]]
-
-## 2026-10-12T06:24:00.522Z
-
-message_id: `assistant-msg-71bc72f0-6dab-ff55-2195-41a91ac55dbe`
-
-Minta izin dulu sebelum login — sesuai aturan kamu semalam.
-
-Sore ini saya mau verifikasi HP buat 2 channel, **@BizarreWorldDaily** dan **@KisahAlkitab-k9j**, pakai nomor HP kedua kamu. Usulan jam **16:30–18:30**, satu sesi login aja, dan saya kabari di sini pas mulai. Kamu perlu standby buat kasih kode SMS-nya.
-
-Kenapa sore ini: antrean retry sekarang **43 video**, 42 di antaranya eligible di watchdog jam 20:00 malam ini — **5 punya Kisah Alkitab** (2 long + 3 Shorts Daud vs Goliat). Kalau channel itu terverifikasi sore ini, kelimanya ikut dicoba malam ini dengan limit yang udah kebuka. Kalau verifikasinya lewat jam 20:00, hampir pasti gagal limit lagi dan nunggu sehari penuh.
-
-Throttle YouTube dari percobaan kemarin mestinya udah lewat, tapi pastinya baru ketahuan pas dicoba. Kalau sore ini kamu nggak bisa standby, nggak apa-apa — geser besok pagi, antrean tetap aman tersimpan.
-
-[[hatch_widget:widget-2e209d48-b9eb-4d53-b86f-61078fc8c85c]]
 
 ## 2026-10-13T02:44:38.570Z
 
@@ -221,3 +175,33 @@ Dua yang perlu kamu putusin:
 message_id: `assistant-msg-e84bdb6a-b78b-e643-1b44-1b6f52e3e626`
 
 Lagi restart mining 9 wallet. Browser mining tadi ternyata udah kosong semua (termasuk wallet #1), jadi saya mulai ulang dari nol.
+
+## 2026-10-18T07:15:56.164Z
+
+message_id: `assistant-msg-c84dfbff-adb5-9f29-7b98-95793c076ab5`
+
+Info penting soal Farcaster — saya cek langsung beritanya: resmi dinyatakan 15 April 2026, Farcaster TIDAK akan meluncurkan token protokol. Rumor "token Farcaster" kemarin ternyata dari proyek fork bernama Hypersnap. Jadi airdrop native Farcaster memang tidak ada.
+
+Kabar baiknya: aktivitas Farcaster tetap dipakai sebagai syarat airdrop proyek ekosistem. Paling konkret: DEGEN — syaratnya akun Farcaster + minimal 3 casts + wallet terhubung, distribusi bulanan, tanpa gas fee.
+
+Lanjut approve signer buat farming airdrop ekosistem, atau nggak jadi?
+[[hatch_widget:widget-931a7971-2b16-4baa-8a24-5e5c5ee03a1d]]
+
+## 2026-10-19T07:16:21.883Z
+
+message_id: `assistant-msg-e0afaf8d-965d-f524-6219-1889e1d0ba00`
+
+Asentum: dicek dari dokumentasi resmi, seed EVM memang **mustahil** di-import ke wallet Asentum. Mereka pakai alamat ase1 + tanda tangan ML-DSA-65, bukan ECDSA. Jadi jalan satu-satunya: bikin wallet ase1 **baru** via SDK, terus farming XP Season 1 dari situ. Wallet farming EVM nggak bisa dipakai ulang di sini. Gas atau tunda?
+
+[[hatch_widget:widget-96b73556-d50a-451d-837a-df65412cb86c]]
+
+## 2026-10-19T07:16:22.113Z
+
+message_id: `assistant-msg-6f14ddd1-bd8f-41b1-8088-9c89f73f0ea1`
+
+Checklist siang ini:
+- **Faucet DogeOS** buka ~14:56–15:30 WIB — claim dari HP (APK atau faucet.testnet.dogeos.com). Biar refresh-nya jatuh siang lagi.
+- **Psychonaut**: OTP email nggak pernah masuk. Coba daftar via tombol Google di psy.xyz/psychonaut?icode=A55VV7D8 dari HP.
+- **Kalos** (NFT marketplace + DEX testnet Elysium, gratis, peluang whitelist mainnet) — belum ada jawaban dari semalam.
+
+[[hatch_widget:widget-4d96eff1-4aa0-4473-b811-aa29e0daa6de]]
