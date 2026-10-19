@@ -16,7 +16,7 @@
 4. Pasang judul + deskripsi + thumbnail di bawah ini selagi Unlisted.
 5. Upload thumbnail A & B via **Test & Compare**.
 6. Aktifkan **auto-dubbing multi-bahasa** (Studio > Subtitle > Audio) untuk long ini.
-7. Setelah metadata final → ubah ke **Terjadwal**: 2026-10-19 07:00 WIB (= 19:00 US Eastern, 18 Okt).
+7. Setelah metadata final → ubah ke **Terjadwal**: 2026-10-20 07:00 WIB (= 19:00 US Eastern, 19 Okt).
    (Slot boleh digeser watchdog ke slot kosong terdekat bila sudah terisi.)
 
 ## Judul

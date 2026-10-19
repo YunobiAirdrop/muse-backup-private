@@ -1,0 +1,43 @@
+{
+ "video_type": "shorts x3",
+ "channel_handle": "@EchoesOfThePast-e9m",
+ "channel_id": "UCCBGIbsfMo2TmyhbUzHxD0A",
+ "channel_name": "Echoes of History Channel",
+ "channel_terverifikasi": "API channels.list(mine=true) -> Echoes of History Channel UCCBGIbsfMo2TmyhbUzHxD0A BENAR",
+ "upload_method": "YouTube Data API v3 (yt-growth, slug history-en)",
+ "publish_scheduled_wib": "2026-10-20 07:00 WIB",
+ "privacy": "private",
+ "category": "Education",
+ "category_id": "27",
+ "language": "en",
+ "made_for_kids": false,
+ "topic": "Hiroshima 1945 - 3 shorts dari long 2026-10-18",
+ "deskripsi_tanpa_hashtag": "ya (hashtag hanya di akhir judul, ditutup #foryou)",
+ "ai_disclosure": "SELESAI via Studio: 'AI use' (Altered content) = 'Yes, AI was used' dicentang + tersimpan untuk s1, s2, s3.",
+ "comments": "SELESAI: ketiga video sudah 'Allow all comments' (Comments On, Moderation None) - tidak perlu diubah.",
+ "videos": [
+  {
+   "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-18-s1.mp4",
+   "video_id": "sPVuv89agqs",
+   "url": "https://youtu.be/sPVuv89agqs",
+   "title": "The 8:15 AM Flash That Changed History #shorts #history #butifyourcloseyoureyesmeme #foryou",
+   "description": "At 8:15 AM on August 6, 1945, a single bomb detonated over Hiroshima. This is the story of the flash that ended a war and started a new era. Full documentary on the channel.",
+   "catatan": "judul diperpendek agar <=100 char"
+  },
+  {
+   "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-18-s2.mp4",
+   "video_id": "HZv75KwZIh8",
+   "url": "https://youtu.be/HZv75KwZIh8",
+   "title": "One Plane, One City, One Second #shorts #history #documentary #butifyourcloseyoureyesmeme #foryou",
+   "description": "The Enola Gay dropped a 4-ton bomb from 31,000 feet over Hiroshima. 43 seconds later, one second changed everything. Full documentary on the channel."
+  },
+  {
+   "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-18-s3.mp4",
+   "video_id": "gAmKDZ_b4Fg",
+   "url": "https://youtu.be/gAmKDZ_b4Fg",
+   "title": "I Am Become Death: The Bomb Story #shorts #history #documentary #butifyourcloseyoureyesmeme #foryou",
+   "description": "After the first atomic test, the scientists who built the bomb quoted a Hindu scripture: 'I am become Death, the destroyer of worlds.' This is the story behind those words. Full documentary on the channel."
+  }
+ ],
+ "studio_browser_status": "SELESAI: channel terverifikasi UCCBGIbsfMo2TmyhbUzHxD0A di Studio; judul/deskripsi/tag/visibilitas/jadwal tidak diubah."
+}

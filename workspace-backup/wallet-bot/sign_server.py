@@ -17,8 +17,41 @@ print(f"Signing server for {ADDRESS}", flush=True)
 
 class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
-        if self.path != '/sign':
+        if self.path == '/sign':
+            self.handle_sign_tx()
+        elif self.path == '/sign_message':
+            self.handle_sign_message()
+        else:
             self.send_response(404); self.end_headers(); return
+
+    def handle_sign_message(self):
+        try:
+            length = int(self.headers['Content-Length'])
+            body = json.loads(self.rfile.read(length))
+            message = body['message']  # hex string or text
+            # Handle hex message
+            if message.startswith('0x'):
+                msg_bytes = bytes.fromhex(message[2:])
+            else:
+                msg_bytes = message.encode('utf-8')
+            # Sign using eth_account (EIP-191)
+            from eth_account.messages import encode_defunct
+            signable = encode_defunct(msg_bytes)
+            signed = ACCT.sign_message(signable)
+            resp = {'signature': signed.signature.hex()}
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            self.wfile.write(json.dumps(resp).encode())
+        except Exception as e:
+            self.send_response(500)
+            self.send_header('Content-Type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            self.wfile.write(json.dumps({'error': str(e)}).encode())
+
+    def handle_sign_tx(self):
         try:
             length = int(self.headers['Content-Length'])
             body = json.loads(self.rfile.read(length))

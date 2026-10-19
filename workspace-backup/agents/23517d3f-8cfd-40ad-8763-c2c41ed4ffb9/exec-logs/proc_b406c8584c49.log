@@ -1,0 +1,6 @@
+{"sepolia": {"done": 3}, "elysium": {"done": 4}, "elysium_swaps": {"done": 2}}
+[*] wallet: 0xf0f25C36AC70E9d787a108eFB351626192C8107b (verified)
+[*] forwarder started on 127.0.0.1:3129
+[*] === chain sepolia (id 11155111) ===
+[sepolia] tx 4/8: 0f20ca7abfa370f934… amount=40872 wei status=1
+[sepolia] sleeping 1376s before next tx…

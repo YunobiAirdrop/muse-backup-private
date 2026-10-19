@@ -21,7 +21,7 @@
   "tanggal": "2026-10-09",
   "topik": "The Fall of Tenochtitlan 1521: The Last Days of the Aztec Empire",
   "kategori": "World History",
-  "status": "UPLOAD BERHASIL 2026-10-10 ~16:56 WIB: https://youtu.be/0ZWVx_sDQRk (9:58, copyright check bersih), channel terverifikasi BENAR Echoes of History Channel (UCCBGIbsfMo2TmyhbUzHxD0A); AI disclosure Ya; Terjadwal 2026-10-11 07:00 WIB — klik Schedule final MENUNGGU ketukan persetujuan user 20:00-22:00 WIB. PENGECUALIAN: thumbnail kustom DITOLAK YouTube (butuh verifikasi nomor HP) — video pakai thumbnail otomatis. Koreksi: dialog upload pertama ternyata SUDAH di channel benar (draft-nya ditemukan & dihapus permanen dari Content list); URL mczHnrTxQWE SUDAH DIHAPUS, URL aktif = 0ZWVx_sDQRk.",
+  "status": "UPLOAD BERHASIL 2026-10-10 ~16:56 WIB: https://youtu.be/0ZWVx_sDQRk (9:58, copyright check bersih), channel terverifikasi BENAR Echoes of History Channel (UCCBGIbsfMo2TmyhbUzHxD0A); AI disclosure Ya; Terjadwal 2026-10-11 07:00 WIB \u2014 klik Schedule final MENUNGGU ketukan persetujuan user 20:00-22:00 WIB. PENGECUALIAN: thumbnail kustom DITOLAK YouTube (butuh verifikasi nomor HP) \u2014 video pakai thumbnail otomatis. Koreksi: dialog upload pertama ternyata SUDAH di channel benar (draft-nya ditemukan & dihapus permanen dari Content list); URL mczHnrTxQWE SUDAH DIHAPUS, URL aktif = 0ZWVx_sDQRk.",
   "video_url": "https://youtu.be/0ZWVx_sDQRk"
  },
  {
@@ -32,7 +32,7 @@
  },
  {
   "tanggal": "2026-10-13",
-  "topik": "Titanic 1912 — The Ship That Couldn't Sink… Until It Did",
+  "topik": "Titanic 1912 \u2014 The Ship That Couldn't Sink\u2026 Until It Did",
   "kategori": "World History",
   "status": "UPLOAD BERHASIL via API 2026-10-13 ~19:27 WIB: https://youtu.be/0vmkyep-JnE (605.93 dtk, 1280x720); private + publishAt 2026-10-14 07:00 WIB; channel terverifikasi via API (UCCBGIbsfMo2TmyhbUzHxD0A); thumbnail kustom DITOLAK 403 (belum verifikasi HP) -> thumbnail otomatis; AI disclosure + pinned comment + end screen + cards via browser task Studio (menyusul)",
   "video_url": "https://youtu.be/0vmkyep-JnE"
@@ -45,7 +45,7 @@
  },
  {
   "tanggal": "2026-10-15",
-  "topik": "D-Day 1944 — The Longest Day That Changed the World",
+  "topik": "D-Day 1944 \u2014 The Longest Day That Changed the World",
   "kategori": "World History",
   "status": "produksi selesai 2026-10-15; siap upload long; shorts siap untuk besok"
  },
@@ -61,5 +61,11 @@
   "topik": "Hiroshima 1945: The Day the World Changed Forever",
   "kategori": "World History",
   "status": "produksi selesai 2026-10-18; siap upload long (video/2026-10-18.mp4, 545.8s); shorts 3 siap untuk upload besok (shorts/2026-10-18-s1/s2/s3.mp4)"
+ },
+ {
+  "tanggal": "2026-10-19",
+  "topik": "Hiroshima 1945 - 3 shorts (s1/s2/s3 dari long 2026-10-18)",
+  "kategori": "World History",
+  "status": "UPLOAD via API 2026-10-19: s1 sPVuv89agqs (judul diperpendek agar <=100 char), s2 HZv75KwZIh8, s3 gAmKDZ_b4Fg; Terjadwal 2026-10-20 07:00 WIB; channel terverifikasi UCCBGIbsfMo2TmyhbUzHxD0A. PENDING: AI disclosure + komentar ON (browser Studio)."
  }
 ]

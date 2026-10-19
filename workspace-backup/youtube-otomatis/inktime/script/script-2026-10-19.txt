@@ -1,0 +1,65 @@
+SCRIPT: "The Day the Sun Didn't Rise: The Tambora Eruption of 1815"
+Channel: InkTime | Long video | ~8-9 min | English | Voice: avocado_v2:miles | Persona: "Pak Guru Ink"
+Notes: numbers written spoken-form for TTS. "~" = dramatic pause placement (strip before TTS).
+Hook: 3-second cold open (the sun never rose — no intro). Question in first minute.
+2-3 narrator reflections included. CTA at ~50% (beat 5) + end + end-screen pitch.
+
+=== BEAT 1 (HOOK — cold open, no intro) ===
+NARRATION:
+Imagine waking up one morning — and the sun never rises. The sky turns black at noon. Birds go silent in the middle of the day, and ash falls like gray snow. That is not a movie. That is not science fiction. It really happened — in the year eighteen fifteen — when a mountain in Indonesia exploded in the most powerful eruption in recorded human history. And the wildest part? A year later, on the other side of the planet, it snowed in July. In America. In the middle of summer. So here is my question: what do YOU think could blot out the sun for days — and freeze a summer on the other side of the world? Drop your guess in the comments. The answer is wilder than you expect.
+
+VISUAL PLAN: IMAGE 1 — framework header "THE DAY THE SUN DID NOT RISE" + bullets: sky black at noon, ash falling like snow; a year later: snow in July — in America.
+
+=== BEAT 2 ===
+NARRATION:
+To understand what happened, picture the island of Sumbawa — in what is now Indonesia. In eighteen fifteen, it was dotted with small kingdoms, including one called Tambora — with its own king, and its own language, found nowhere else on Earth. The colonial governor at the time was a Briton named Stamford Raffles — yes, the man Singapore is named after — and he later collected eyewitness accounts in his History of Java. The people of Sumbawa had lived beside a quiet mountain for generations. They farmed rice, they traded, they prayed. They had no idea the mountain under their feet was a loaded gun. And on the fifth of April, eighteen fifteen, the gun went off — with a warning shot.
+
+VISUAL PLAN: IMAGE 2 — framework header "SUMBAWA, 1815" + bullets: island in Indonesia; the kingdom of Tambora — its own language; Stamford Raffles collected the accounts.
+
+=== BEAT 3 ===
+NARRATION:
+The first explosion, on April fifth, shook houses hundreds of kilometers away. Ash darkened the sky. But people thought the worst was over. They were wrong. Five days later — on the evening of April tenth — Tambora erupted in full. The blast was heard up to twenty-six hundred kilometers away — people in Sumatra thought they heard cannon fire from some distant battle. A column of ash shot forty-three kilometers into the sky — past the clouds, into the stratosphere. ~ Rafts of floating pumice drifted across the ocean. Ash fell like gray snow as far away as Borneo and Java — more than a thousand kilometers from the mountain. For three days, parts of Sumbawa lived in total darkness. Day became night. And the mountain itself? It collapsed. Where a peak had stood, there was now a crater six kilometers wide.
+
+VISUAL PLAN: IMAGE 3 — framework header "THE MOUNTAIN EXPLODED" + bullets: April 10, 1815 — the full eruption; heard 2,600 kilometers away; ash column 43 kilometers high.
+
+=== BEAT 4 ===
+NARRATION:
+The human cost is hard to comprehend. Around ten thousand people died in the eruption itself — buried by ash, crushed by collapsing houses, swept away by tsunamis the blast triggered. But that was only the beginning. The ash smothered the rice fields of Sumbawa and neighboring Lombok. Crops failed. And in the months that followed, famine and disease swept the islands. Tens of thousands more died. Historians now put the total death toll near ninety thousand. ~ And here is the part that haunts me: the kingdom of Tambora was wiped off the map. Its language — spoken nowhere else on Earth — died with its last speakers. An entire culture, erased in a week. Think about that for a second. A mountain did not just kill people. It deleted a civilization's voice.
+
+VISUAL PLAN: IMAGE 4 — framework header "A CULTURE ERASED" + bullets: around 10,000 killed directly; near 90,000 total with famine; the Tambora language died forever.
+
+=== BEAT 5 (CTA ~50%) ===
+NARRATION:
+Now — you might wonder how one volcano could matter to anyone outside Indonesia. Here is the science, and it is beautiful in a terrifying way. Tambora did not just throw ash into the air. It blasted millions of tons of sulfur gas into the stratosphere — above the weather, where no rain can ever wash it out. Up there, the sulfur turned into a thin veil of droplets that wrapped the entire planet and bounced sunlight back into space. The whole Earth got a little dimmer — and a little colder. ~ What fascinates me about this is that nobody in eighteen fifteen had any idea. No satellites. No climate models. Just a strange dimming of the sun that nobody could explain. If stories like this — the hidden gears of history — are your thing, subscribe to InkTime. Because what happened the NEXT year, on the other side of the planet, is the wildest part of this story.
+
+VISUAL PLAN: IMAGE 5 — framework header "A VEIL AROUND THE EARTH" + bullets: sulfur blasted into the stratosphere; sunlight bounced back into space; the whole planet dimmed. Overlay text: "SUBSCRIBE!" (3 seconds).
+
+=== BEAT 6 ===
+NARRATION:
+Eighteen sixteen. A year after the eruption, the volcanic veil was at its thickest — and the Northern Hemisphere paid the price. In New England, it snowed in June. Frosts killed crops in July and August. People called it "eighteen-hundred-and-froze-to-death." Across the Atlantic, it was worse. Endless rain ruined harvests in Britain, Ireland, France, and Germany. Grain prices tripled. Bread riots broke out. In Switzerland, people ate roots and cats to survive. Tens of thousands starved across Europe. ~ An invisible veil of gas from a mountain most Europeans had never heard of — had stolen their summer. No army did this. No king ordered it. The sky itself had turned against the harvest.
+
+VISUAL PLAN: IMAGE 6 — framework header "1816: THE YEAR WITHOUT A SUMMER" + bullets: snow in June — New England; grain prices tripled, bread riots; "eighteen-hundred-and-froze-to-death".
+
+=== BEAT 7 ===
+NARRATION:
+But here is the twist nobody expects: that ruined summer changed ART forever. In June of eighteen sixteen, an eighteen-year-old named Mary Shelley was stuck indoors at Lake Geneva — too cold and rainy to go outside. To pass the time, her host, the poet Lord Byron, proposed a contest: who could write the scariest ghost story? Mary wrote Frankenstein. Yes — the most famous horror story ever written was born because a volcano ruined a Swiss summer. Byron himself wrote a poem called Darkness, imagining the sun dying. And the painter Turner? His skies from those years burn with strange, fiery sunsets — sunsets made lurid by volcanic dust still hanging in the air. ~ A mountain in Indonesia wrote itself into the world's imagination — without anyone knowing.
+
+VISUAL PLAN: IMAGE 7 — framework header "A VOLCANO WROTE FRANKENSTEIN" + bullets: Mary Shelley, Lake Geneva, 1816; Byron's poem "Darkness"; Turner's fiery volcanic sunsets.
+
+=== BEAT 8 ===
+NARRATION:
+For over a century, nobody connected these dots. Then, in the nineteen eighties, scientists became detectives. NASA researcher Richard Stothers dug through old weather records and ship logs. And deep in the ice of Greenland and Antarctica, researchers found it: a massive spike of sulfur in ice layers from eighteen fifteen and sixteen — a chemical fingerprint of a giant eruption. Tree rings across the Northern Hemisphere showed eighteen sixteen as one of the coldest summers in centuries. In nineteen eighty-four, Stothers published the case in the journal Science: the culprit was Tambora. Later studies — by Clive Oppenheimer, and by Self, Rampino and their team measuring the eruption's gases — confirmed it. ~ A volcano solved from ice, trees, and two-hundred-year-old diaries. What fascinates me about this is that the evidence was sitting there the whole time — frozen, waiting for someone to ask the right question.
+
+VISUAL PLAN: IMAGE 8 — framework header "SOLVED FROM ICE AND TREES" + bullets: sulfur spike in polar ice; tree rings — coldest summer in centuries; Stothers, 1984 — the culprit was Tambora.
+
+=== BEAT 9 ===
+NARRATION:
+And the ripples kept spreading. In eighteen seventeen, the first great cholera pandemic exploded out of Bengal — and some historians argue Tambora's wrecked climate helped it spread. In Europe, the failed harvests meant there were no oats to feed horses. Horses starved — or became too expensive to keep. And in eighteen seventeen, a German inventor named Karl Drais unveiled a strange two-wheeled machine you pushed with your feet — built, historians like Gillen D'Arcy Wood argue, partly because horses had become a luxury. It was called the draisine. It was the ancestor of the bicycle. ~ Think about that for a second. The bike you ride to work might exist because a volcano killed the oat harvest two hundred years ago. One mountain. Famine, a horror classic, a pandemic, and the bicycle. History is not a chain of separate events. It is a web — and sometimes a volcano shakes the whole thing.
+
+VISUAL PLAN: IMAGE 9 — framework header "RIPPLES: CHOLERA AND THE BICYCLE" + bullets: 1817 — the first cholera pandemic; no oats — horses starve; Drais' running machine, 1817.
+
+=== BEAT 10 (CLOSING) ===
+NARRATION:
+Two hundred years later, Tambora is still teaching us something. We think of history as the story of kings and wars and inventions — human things. But sometimes the biggest author of history is not human at all. It is a mountain. A sky. A summer that never came. What fascinates me most is how invisible it all was: nobody in eighteen sixteen knew why the sun was dim. They just lived through it — and wrote monsters, and rioted for bread, and invented new ways to move. The past is never just the past. It is the weather we are still living in. If this story gave you chills, subscribe to InkTime — and tell me in the comments: what is the wildest ripple effect in history YOU know? And next, watch our video on the Library of Alexandria — what we actually lost when the ancient world's greatest collection of knowledge faded away. Some losses are loud, like Tambora. Some are silent. See you there.
+
+VISUAL PLAN: IMAGE 10 — framework header "HISTORY'S BIGGEST AUTHOR" + bullets: not kings — a mountain; the past is the weather we live in; comment YOUR wildest ripple below.

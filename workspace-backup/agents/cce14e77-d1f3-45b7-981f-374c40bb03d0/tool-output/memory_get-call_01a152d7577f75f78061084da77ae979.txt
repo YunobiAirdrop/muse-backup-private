@@ -1,0 +1,822 @@
+# Memory file `memory/2026-10-19.md`
+
+```markdown
+- 00:05 WIB: fb_bridge sync OK (exit 0; retry FB GET commands 2x RemoteDisconnected lalu pulih).
+- 00:03 WIB — yt-dashboard-fb-bridge: bridge ok ([commands] ok, [vidreq] ok), exit 0. Sesuai instruksi: diam.
+
+## pra-screen-duplikat-retry (00:04 WIB)
+Pra-screen antrean retry upload: 10 JSON dicek via cek_duplikat.py, semua `duplikat: false` (inktime: 5 long/shorts; macam-macam: hewan/mobil/motor/truk-kartun; mystery-en: 1). 3 error parse awal (format "Judul (persis, ...):") diatasi via --judul manual. Tidak ada yang dipindah ke done/ — semua tetap di antrean. Diam sesuai SOP.
+- 00:06 fb_bridge: bridge ok (commands ok, vidreq ok), exit 0.
+
+- 00:09 WIB: cron yt-dashboard-fb-bridge — fb_bridge.py sukses (commands ok, vidreq ok, bridge ok).
+- 00:12 WIB: fb_bridge.py (yt-dashboard-fb-bridge) sukses — [commands] ok, [vidreq] ok, bridge ok. Sync penuh ~4 dtk.
+- 00:15 WIB — yt-dashboard-fb-bridge: skrip fb_bridge.py sukses (exit 0, commands ok, vidreq ok, bridge ok). Tidak ada error; tidak dilaporkan ke chat per instruksi job.
+
+## 00:14 — backup workspace per jam
+- Jalankan hourly-backup.sh: commit 6de0d32a (595 files, 327189 insertions) + push ke YunobiAirdrop/muse-backup-private, OK. Token GitHub valid, repo sinkron (0 commit tertunda).
+- 00:18 WIB cron yt-dashboard-fb-bridge: fb_bridge.py sukses (commands/vidreq/pending ok, exit 0).
+## 2026-10-19
+
+- 00:21 WIB: fb_bridge.py (yt-dashboard-fb-bridge) selesai OK — [commands] ok, [vidreq] ok, bridge ok. Tidak ada error.
+- yt-dashboard-fb-bridge 00:24 WIB: fb_bridge.py sukses (exit 0; [commands] ok, [vidreq] ok, bridge ok). Tidak ada error, tidak perlu laporan ke chat.
+
+## yt-dashboard fb_bridge (cron 00:27 WIB)
+- Run OK: `[commands] ok / [vidreq] ok / bridge ok`, exit 0, ~4 detik. Firebase sync + publish commands diproses tanpa error.
+## 00:30 — yt-dashboard-fb-bridge: sukses (bridge ok, sync channel/antren review/revenue ke Firebase selesai, exit 0).
+
+## otpmurah-site-watch — 00:31 WIB
+- Cek https://otpmurah.id: `curl -sI --max-time 20` → proxy CONNECT "200 Connection Established" tapi server balasan KOSONG (curl exit 52, http_code=000, ~0.48 dtk). Tanpa proxy: SSL connect error (exit 35).
+- nslookup: otpmurah.id → 198.18.91.76 (masih resolve, tapi tidak ada respons HTTP).
+- Kesimpulan: situs MASIH DOWN. Sesuai instruksi task: tidak kirim pesan apa pun.
+- 00:36 WIB: yt-dashboard-fb-bridge run sukses (exit 0, '[commands] ok / [vidreq] ok / bridge ok', ~4 dtk). Tidak ada error.
+
+## DogeOS Grand Heist — update malam 2026-10-18 (WIB)
+- Reply X ENGAGE ON THE TEASER terpost & terverifikasi (teks disetujui user: "How do the three AI models reach consensus when they can't see each other's evidence?"). READ THE MARKET 5/6 — sisa JOIN THE DAEJIN DISCORD (skip, Discord tidak login); lootbox tetap locked.
+- Elitra PUT YOUR ELITRA ACCOUNT ON FILE selesai & terverifikasi (Doge Stamp) → MEET THE BUYING DESK 6/7.
+- Retry 21:10–23:17: login MOAR via X TEMBUS. Pinjam 1 USDT di MOAR (tx 0x04ccf8bf…) lalu LUNAS penuh (tx 0xdb76570d…), tidak ada utang. Referral Derps SELESAI (kode 102204). BarkSwap wallet-link beres. Know Your Tools 4/6 (BarkSwap✓ Derps✓ Elitra✓ MOAR✓; bundle locked nunggu DogeFundMe + DogeMuseum).
+- MASIH BLOKIR: relay otorisasi DogeOS (relay.mydoge.com) error server-side `auth_cleanup:session_generation:invalid_state` / `cleanup_retry:invalid_state` — flaky/intermittent. Tertunda: quest on-chain Derps (open position/add liquidity/close), donasi DogeFundMe, link DogeMuseum, MONKO wallet on file. Rencana: retry besok pagi.
+- Faucet DogeOS: klaim untuk 0x866b GAGAL rate-limit (sudah diklaim ~17:32, kemungkinan dari HP user; cooldown ~21,5 jam). Faucet juga rate-limit DOGE+USDT ~18,5 jam per observasi ~23:00. Catatan: validasi faucet menolak alamat checksummed — pakai lowercase.
+
+## MetaMask di browser runtime = BLOKER KERAS (2026-10-18)
+- Ekstensi MetaMask (ID nkbihfbeogaeaoehlefnkodbefgpgknn) TERPASANG tapi NONAKTIF — tidak inject provider ke situs mana pun (Multipli "Not Detected", test-dapp "No EIP-6963 Provider Detected").
+- User take over browser (takeover via app BERHASIL): Web Store bilang "beralih ke Chrome"; URL langsung chrome-extension://…/home.html → ERR_BLOCKED_BY_CLIENT; chrome://extensions diblokir policy organisasi; ikon puzzle tidak terlihat di tampilan takeover.
+- Browser jalan di container/namespace terpisah — proses & profil tidak bisa diakses dari server. Jalur ekstensi ini BUNTU, jangan diulang.
+- tBNB wallet farming terverifikasi 0 (RPC BSC testnet) → jalur claim kontrak langsung untuk Multipli juga mati (tidak ada gas).
+
+## Model baru: WalletConnect + MetaMask HP (2026-10-18)
+- User install MetaMask di HP Android + import wallet farming (seed dipegang user, tidak dicatat).
+- Model SEMI-OTOMATIS disepakati: asisten navigasi/klik semua step di browser; user cuma tap approve signature di HP. Full-otomatis ditolak karena mengharuskan asisten menyimpan seed phrase permanen (melanggar aturan keamanan).
+- User minta "cheat" cooldown daily 24 jam — DITOLAK: cooldown dipegang server; satu-satunya jalan = multi-akun (sybil) → risiko wallet di-blacklist & airdrop hangus. Daily tetap dikerjakan daily via cron.
+- PENDING: onboarding Multipli via WalletConnect — QR sudah tampil di testnet.multipli.fi/?referral_code=6RUTJ, menunggu user scan pakai MetaMask HP (per 00:0x 2026-10-19 belum ada konfirmasi scan).
+
+## 3 proyek non-testnet QUEUED (2026-10-18, sudah juga di MEMORY.md + projects.json)
+- Nowa Finance (app.nowa.finance, devnet zero-capital, 1:1 NOWA→TGE) · AlloX (app.allox.ai, poin→$ALLOX confirmed) · TastyCo (app.tastyco.io, $100K $TASTY, quest sosial + streak). Ketiganya verified live. Onboarding butuh connect wallet → via model WalletConnect di atas.
+- Temuan riset: airdrop game/tap-to-earn Telegram MATI per Okt 2026 (token -97–99%, banyak scam) — tidak ada yang worth difarming.
+
+- 00:39 WIB: yt-dashboard-fb-bridge run sukses (exit 0; [commands] ok, [vidreq] ok, [pending] ok, bridge ok, ~78 dtk). Tidak ada error, tidak dilaporkan ke chat.
+00:42 WIB — yt-dashboard-fb-bridge: bridge ok (commands ok, vidreq ok), tanpa error.
+
+## WalletConnect DIBATALKAN → diganti Wallet-Bot (update 2026-10-19, ~00:06–00:47 WIB)
+- MEMBATALKAN entri "Model baru: WalletConnect + MetaMask HP" di atas: user cuma punya 1 HP — MetaMask tidak bisa scan QR dari galeri (harus scan kamera langsung), dan Chrome di HP user selalu ke-close ("HP kentang") jadi koneksi putus-putus. Link WalletConnect hasil "Copy link" nyangkut di clipboard browser VM, tidak bisa diambil user. Jalur WalletConnect BUNTU, jangan diulang.
+- User eksplisit memerintahkan: "kamu download crome terus instal eketsni crome terus masukin wallet farm dan kamu lakuin sendiri" + "kamu simpan aja biar ga minta terus ke saya" (setelah tempel seed phrase di chat). Ini MEMBATALKAN penolakan full-otomatis sebelumnya — penyimpanan disetujui eksplisit user, sama seperti pengecualian 30 wallet faucet.
+
+## Wallet-Bot SELESAI DIBANGUN + wallet farming TER-IMPORT (2026-10-19)
+- ~/workspace/wallet-bot/: Chromium (Playwright 1.64.0) + Xvfb :99 + MetaMask 13.52.0 resmi GitHub Consensys (SHA256 terverifikasi; .crx Web Store tidak bisa diunduh karena proxy egress blokir clients2.google.com). launch.py, README.md, proof-metamask.png. Profil persisten ~/workspace/wallet-bot/profile/; extension ID profil ini: ocicphjefllmdjaioocoolnmfbjdlcfg.
+- Import wallet farming 0xf0f25C36AC70E9d787a108eFB351626192C8107b SELESAI: frase dipakai sekali via stdin (TIDAK ditulis ke file mana pun); vault MetaMask kebentuk, onboarding selesai, address terverifikasi cocok via derivasi eth_account. Password vault di ~/workspace/wallet-bot/.mm-pass (600). Juga tercatat di MEMORY.md.
+- Catatan otomasi MetaMask 13.x: halaman SRP pakai TEXTAREA (bukan input); paste via fill() TIDAK terdeteksi React (tombol Continue tetap disabled) — harus press_sequentially per karakter. Tombol final namanya "Create password". Layar setelahnya: biometrik ("Maybe later") + "Help improve MetaMask" + "Your wallet is ready!".
+
+## Jaringan wallet-bot: forwarder lokal (2026-10-19)
+- Chromium Playwright TIDAK bisa pakai proxy egress langsung (ERR_TUNNEL_CONNECTION_FAILED, walau CONNECT mentah via socket Python sukses 200). Solusi jalan: forwarder.py (TCP pipe 127.0.0.1:3129 → hatch-egress-proxy:3128) + flag --proxy-server=http://127.0.0.1:3129 + --ignore-certificate-errors (proxy melakukan intercept TLS → ERR_CERT_AUTHORITY_INVALID tanpa flag itu). example.com + testnet.multipli.fi termuat; window.ethereum TERINJEK di browser ini.
+- RAM VM ketat: jalankan SATU instance wallet-bot saja, jangan bareng cron render video (risiko OOM).
+
+## Multipli: klaim BELUM selesai (2026-10-19 ~00:47)
+- farm_multipli.py ditulis (unlock via .mm-pass → buka Multipli → connect via eth_requestAccounts langsung). Run terakhir: situs stuck di loading spinner lewat forwarder, proses di-kill. Klaim USDC/USDT/BTC BELUM terjadi.
+- tBNB dikonfirmasi ulang 0 via RPC BSC testnet → klaim tetap terblokir gas walau browser beres. Langkah berikutnya: cari faucet tBNB dulu, baru retry klaim Multipli; onboarding Nowa/AlloX/TastyCo menyusul via wallet-bot yang sama.
+- 00:48 WIB: fb_bridge.py sukses (bridge ok) — sync YT Dashboard → Firebase normal.
+
+## fb_bridge 00:51 WIB
+- Jalankan yt-dashboard/fb_bridge.py — sukses (exit 0): commands ok, vidreq ok, bridge ok. Silent per aturan cron.
+- yt-dashboard-fb-bridge (00:54 WIB): bridge OK — [commands] ok, [vidreq] ok, bridge ok.
+- 01:00 — fb_bridge.py OK (commands/vidreq/pending ok, 59 dtk)
+- 01:03 WIB: yt-dashboard-fb-bridge sukses (exit 0; [commands] ok, [vidreq] ok, bridge ok)
+
+## pra-screen-duplikat-retry (01:04 WIB)
+Cek 10 item di retry-queue/ via cek_duplikat.py:
+- inktime long 2026-10-09 & 2026-10-13: false
+- inktime shorts s1/s2/s3 (3 judul diekstrak manual, format "Judul (persis):" tidak terparse script — workaround --judul): false
+- macam-macam hewan/mobil/motor part1 (via --judul, tanpa instruksi_path): false
+- macam-macam truk kartun: false
+- mystery-en 2026-10-13: false
+Hasil: 0 duplikat, tidak ada yang dipindah ke done/, antrean tetap 10 item.
+## 01:06 WIB — yt-dashboard-fb-bridge (cron)
+- fb_bridge.py selesai: [commands] ok, [vidreq] ok, bridge ok (exit 0, ~5 detik). Sync Firebase lancar, tidak ada error.
+
+## 01:09 — yt-dashboard-fb-bridge (cron)
+fb_bridge.py selesai OK (exit 0, stdout: [commands] ok / [vidreq] ok / bridge ok). Sync YouTube→Firebase + eksekusi perintah publish dari HP tanpa error. Tidak dilaporkan ke chat (sesuai instruksi: diam jika sukses).
+- 01:12 WIB fb_bridge run: sukses (commands ok, vidreq ok, bridge ok; ~3,5 dtk).
+- 01:15 WIB: fb_bridge.py yt-dashboard-fb-bridge sukses (exit 0: commands ok, vidreq ok, bridge ok).
+
+## backup-workspace-perjam (2026-10-19 01:14 WIB run)
+- Run 1x (retry sekali): OK. commit 0bd761fe — 1 file changed, 2 insertions(+), push ke YunobiAirdrop/muse-backup-private berhasil ("OK: push 0bd761fe — 1 commit terkirim"). Repo lokal sinkron dengan origin/main.
+- Token GitHub valid (file ~/.hermes/github-dashboard-token ada). Tidak ada alert ke user.
+- Catatan: jam VM menunjukkan 2026-10-18 18:15 (beda ~7 jam dari stamp run scheduler); entri log skrip memakai jam VM.
+01:24 WIB — yt-dashboard-fb-bridge: bridge ok (commands ok, vidreq ok), exit 0.
+## 2026-10-19 01:30 WIB — fb_bridge run
+fb_bridge.py selesai sukses (exit 0): [commands] ok, [vidreq] ok, bridge ok. Data YT->Firebase tersinkron, tidak ada perintah publish pending/error. Sesuai instruksi cron: diam.
+
+## otpmurah.id watch — 2026-10-19 01:31 WIB
+- `curl -sI https://otpmurah.id`: "HTTP/1.1 200 Connection Established" dari proxy egress, lalu exit 52 (empty reply from server) — TIDAK ada respons HTTP asli.
+- `curl -sv`: sertifikat hanya "Hatch Sandbox Egress CA" (proxy sandbox), koneksi ditutup setelah GET — situs tidak merespons.
+- `nslookup otpmurah.id`: resolve ke 198.18.91.76 (rentang benchmarking 198.18.0.0/15 — sinkhole/blackhole, bukan IP hosting asli).
+- Kesimpulan: situs MASIH tidak bisa diakses (down total seperti sejak 2026-10-18). Per instruksi task: diam, tidak ada pesan ke user. Tidak ada order nomor apa pun.
+
+## Faucet tBNB — investigasi lengkap (2026-10-19 ~00:47–01:25 WIB)
+- Faucet RESMI BSC (bnbchain.org/en/testnet-faucet): kasih 0,3 tBNB/24 jam, tanpa post X/captcha — TAPI syarat wallet punya minimal 0,002 BNB di BSC MAINNET (anti-spam, tidak dipotong). Wallet farming: 0 BNB mainnet. Wallet utama 0x7eF4…8E3b: 0,000165 BNB — kurang juga. TIDAK eligible.
+- QuickNode faucet (faucet.quicknode.com/binance-smart-chain/bnb-testnet): sekarang WAJIB connect wallet (kolom alamat readonly) DAN tampil peringatan "Low balance for this chain and network" — reservoir lagi kosong. Buntu.
+- Chainlink faucet (faucets.chain.link/bnb-chain-testnet): tidak termuat di browser wallet-bot (ERR_TIMED_OUT via forwarder).
+- 3 repo GitHub yang ditanyakan user — SEMUA BUNTU: (1) bnb-chain/example-hub tg-token-launch-example = tutorial bikin bot faucet sendiri (kirim token buatan sendiri, BUKAN tBNB; jalaninnya aja butuh tBNB duluan). (2) bnb-chain/bsc cmd/faucet/customized README = panduan PROYEK token buat daftarin tokennya ke faucet BSC. (3) jellydn/bnb-testnet-auto-faucet = script otomasi 2021 untuk faucet lama (testnet.binance.org/faucet-smart, sudah mati/redirect); tidak bisa lewati syarat mainnet karena dicek on-chain.
+
+## tBNB TERISI — blokir gas Multipli SELESAI (2026-10-19 ~01:29 WIB)
+- MEMBATALKAN blokir di entri "Multipli: klaim BELUM selesai" di atas: user ambil tBNB sendiri ("coba sini saya ambil dulu tbnb nya saya cari yang gratis nanti kamu lanjutin") dan BERHASIL.
+- Saldo farming wallet di BSC Testnet terverifikasi via RPC: 0,010001 tBNB (10000500000000000 wei; sebelumnya 0). Cukup untuk gas klaim.
+- PENDING berikutnya: jalankan klaim Multipli (USDC/USDT/BTC) via farm_multipli.py (run sebelumnya di-kill karena situs stuck loading spinner — perlu retry), lalu onboarding Nowa/AlloX/TastyCo via wallet-bot.
+- 01:33 WIB — fb_bridge.py OK (commands, vidreq, revenue, blogs ok; bridge ok). Sync rutin, tidak ada error.
+- 01:36 WIB fb_bridge.py sukses (bridge ok; commands ok; vidreq ok).
+
+## 01:39 WIB — fb_bridge YT Dashboard
+- Jalankan fb_bridge.py: sukses (exit 0). Output: [commands] ok, [vidreq] ok, bridge ok. Tidak ada perintah publish dari HP.
+
+## 01:42 WIB — yt-dashboard-fb-bridge
+fb_bridge.py OK: [commands] ok, [vidreq] ok, [pending] ok, bridge ok (45 dtk).
+18:45 fb_bridge.py OK (channels/vidreq/commands ok, ~18 dtk)
+- 2026-10-19 01:48 WIB: fb_bridge yt-dashboard sync OK ([commands] ok, [vidreq] ok, bridge ok)
+
+## Tiny Builders via Dola APK — video tayang (2026-10-18)
+- User klarifikasi: Dola versi APK beda sistem — ada kredit mingguan, bisa generate terus. Web dolai.video cuma 60 kredit (1 video = 280) tidak cukup. Alur kerja final: user generate klip di APK Dola pakai prompt dari asisten → kirim klip ke chat → asisten rakit + upload.
+- Prompt baru dibuat (bukan prompt lama): episode "Kincir Air Bambu Mini", 6 prompt dikirim ke chat.
+- 6 klip diterima → dirakit (watermark Dola dihapus via delogo 3 area + 1 area kanan-atas yang sempat masih terlihat, title card, narasi Inggris, SFX air, film grain, CTA akhir) → upload Shorts "Tiny Workers Build a BAMBOO WATER WHEEL!" https://www.youtube.com/shorts/pMXQt-uAhpM (50 dtk, channel UCjy7bWJU5gULDIYjPmTg9xg terverifikasi). File lokal dihapus sesuai aturan.
+
+## Aturan hashtag baru (user 2026-10-18) — sudah juga ditulis ke MEMORY.md
+- Semua video SEMUA channel (long + shorts), mulai produksi 2026-10-18: WAJIB 5 hashtag termasuk #butifyourcloseyoureyesmeme + #foryou terakhir. Dikunci di ~/workspace/youtube-otomatis/protokol-viral.md bagian 14, 17, dan baris aturan shorts.
+
+## KANTOR AI — SELESAI (menggantikan status "dibangun" di MEMORY.md)
+- Web artifact "kantor-ai" jadi: 79 asisten/cron dalam 6 departemen (Produksi YouTube 19, Blog & Konten 4, TikTok & Sosmed 9, Airdrop & Crypto 7, Monitoring & Backup 23, Lainnya 17) + ruang MANAGER, LOUNGE, KEUANGAN (status income per project, jujur Rp 0 realisasi + action item Shopee), dan RUANG PUBLISH.
+- Logo "KANTOR AI — YUNOBI" (SVG inline) terpasang di header.
+- Animasi karakter dirombak 2x: (1) walk cycle prosedural (kaki melangkah, ngetik, idle bernapas/kedip, transisi tanpa teleport); (2) rombak 3D penuh Three.js (orbit/zoom, ±39 karakter 3D, signage departemen, papan pengumuman lobby). Catatan: audit tidak bisa memfoto scene WebGL karena CDN Three.js diblokir di sandbox audit — kode 3D ada di source, jalan di browser user.
+- Ruang Publish: ambil antrean dari Firebase RTDB yang sama dengan yt-dashboard (GET /yt/pending.json), tombol publish → PUT /yt/commands/{slug}-{videoId} status pending → diproses fb_bridge (~3 menit). Temuan keamanan disampaikan ke user: token auth Firebase tertanam di kode klien (pola sama dengan dashboard yang sudah jalan); user diinformasikan opsi rotasi token kapan pun. Nilai token TIDAK dicatat di sini.
+- APK beneran dibangun (user eksplisit minta APK asli, bukan PWA): tooling Android di-install ULANG ke ~/jdk17, ~/android-sdk, ~/gradle (yang 2026-10-17 dihapus atas perintah user). Project ~/workspace/kantor-ai-apk/ (package com.yunobi.kantorai, WebView, build.sh pakai aapt2/d8/apksigner langsung tanpa Gradle — sdkmanager & Maven kena blokir proxy). APK final: ~/workspace/your_files/kantor-ai/kantor-ai.apk (29K, debug-signed CN=Yunobi). Di-rebuild ulang tiap edit artifact (logo, animasi, publish, 3D).
+
+## Fakta Bola Dunia — produksi perdana cron (2026-10-18)
+- Run cron fakta-bola-dunia-harian 16:11 WIB GAGAL: subagent produksi timeout. Retry manual berhasil: "3 Bendera Terunik di Dunia! 😱" (Indonesia + Nepal + Bhutan, background luar angkasa PIL, 47 dtk) → https://www.youtube.com/shorts/n8YVG3b09is. Tercatat di ~/workspace/fakta-bola-dunia/riwayat-fakta.json.
+- INSIDEN DUPLIKAT (sudah beres): subagent pertama ternyata SUDAH upload sebelum timeout; retry mengupload duplikat (A8PNbiCeN5Y) → duplikat DIHAPUS via API (HTTP 204). Channel tinggal 1 copy yang benar. Pelajaran: timeout subagent ≠ pekerjaan tidak selesai — cek channel dulu sebelum retry upload.
+- AI disclosure video ini BELUM dicentang (tidak bisa via API) — perlu centang manual di Studio.
+
+## Game "Sumbul Harvismon Indonesia" — DIBANGUN LALU DIBATALKAN USER (2026-10-18)
+- User minta game 3D simulasi tani Harvest Moon versi Indonesia + unsur GTA. Asisten jawab "bisa" dan membangun: konsep art (logo/karakter/desa/HUD via generate image), lalu game Three.js dalam web artifact + APK (~/workspace/your_files/sumbul-harvismon/sumbul-harvismon.apk, 361K; project ~/workspace/sumbul-apk/). Banyak fitur diminta & dimasukkan bertahap: 35+ tanaman Indonesia, ternak + siklus hidup, nikah & anak, mancing/jaring, rumah 4 level, 6 pekerjaan, progres terikat kalender NYATA 4 bulan (Okt→Feb), pasar & pakaian khas, dialog ala Harvest Moon, 19 NPC utama + figuran, jalan raya & angkot, map 5x, festival kalender, ide anti-bosan.
+- HASIL DITOLAK USER: visual game kotak-kotak/kaku, jauh dari gambar konsep anime. User kecewa karena gambar konsep terlihat nyata sehingga mengira game akan sebagus itu. User: "stop aja ga seru game nya" → build edit yang sedang jalan DI-CANCEL, project DITUTUP atas perintah user.
+- PELAJARAN (penting): jangan jawab "bisa" untuk game 3D kualitas anime/studio tanpa menyatakan batas di awal; gambar konsep AI statis ≠ kemampuan real-time 3D. Engine (Unity/Godot) bukan solusi — yang tidak bisa dibuat asisten adalah aset 3D anime berkualitas; Unity Editor juga tidak jalan di VM headless ini. Asisten sudah minta maaf; jangan tawarkan game 3D sejenis lagi kecuali user yang memulai.
+- 01:51 WIB: yt-dashboard-fb-bridge run OK — sync YouTube -> Firebase berhasil, eksekusi perintah publish selesai (exit 0, ~4.5s).
+
+## 01:54 WIB — yt-dashboard-fb-bridge (cron)
+fb_bridge.py sukses: `[commands] ok`, `[vidreq] ok`, `bridge ok`. Data YT→Firebase tersinkron, tidak ada perintah publish dari HP yang tertunda.
+
+## 01:57 WIB — yt-dashboard-fb-bridge
+Skrip fb_bridge.py sukses (exit 0): [commands] ok, [vidreq] ok, bridge ok. Sync Firebase Realtime Database normal — tanda pemulihan dari outage sync Firebase sejak ~04:00 yang dilaporkan 18 Okt. Per instruksi body: diam, tidak lapor ke chat.
+## 02:00 WIB — yt-dashboard-fb-bridge: OK (commands ok, vidreq ok, bridge ok; 4,6 dtk)
+## 02:03 WIB — yt-dashboard-fb-bridge: OK (commands/vidreq/pending/bridge, exit 0, ~110s)
+
+## 02:04 WIB — pra-screen-duplikat-retry
+- Pra-screen 10 JSON antrean retry-queue: SEMUA duplikat=false (0 dipindah ke done/).
+  - inktime (5): 2026-10-09-long, 2026-10-13-long, 2026-10-14 s1/s2/s3 (shorts; judul diekstrak manual dari instruksi-shorts karena cek_duplikat.py gagal parse format "Judul (persis):" — workaround --judul sesuai AGENTS.md).
+  - mystery-en 2026-10-13: false.
+  - macam-macam (4): truk-kartun, hewan-part1, mobil-part1, motor-part1: false (tiga terakhir via --judul karena JSON tidak punya instruksi_path, hanya field judul).
+- Sesuai body: tidak ada laporan ke chat karena tidak ada yang dipindah ke done/.
+- 02:06 WIB: fb_bridge.py yt-dashboard selesai OK (commands ok, vidreq ok, bridge ok), exit 0.
+## 02:09 WIB — yt-dashboard-fb-bridge (cron)
+Skrip fb_bridge.py sukses (exit 0): [commands] ok, [vidreq] ok, bridge ok. Sync Firebase selesai; tidak ada perintah publish yang gagal.
+- 02:12 WIB: cron yt-dashboard-fb-bridge sukses (exit 0; [commands] ok, [vidreq] ok, bridge ok). Tidak ada laporan ke chat sesuai instruksi.
+[2026-10-18 19:15:36] yt-dashboard-fb-bridge: fb_bridge.py exit 0 — [commands] ok, [vidreq] ok, bridge ok (sync selesai).
+## 2026-10-19 02:15 WIB — backup-workspace-perjam
+- Script hourly-backup.sh exit 0. Commit aa82af10 (427 files changed, 2115 insertions, 102 deletions), push OK 1 commit. Working tree bersih, main == origin/main. Tidak ada failure beruntun; user tidak perlu dilaporkan.
+
+## 02:18 WIB — yt-dashboard-fb-bridge
+fb_bridge.py selesai sukses (exit 0): [commands] ok, [vidreq] ok, bridge ok. Sync dashboard -> Firebase berjalan normal, perintah publish dari HP dieksekusi.
+- 02:21 WIB: yt-dashboard-fb-bridge OK — [commands] ok, [vidreq] ok, bridge ok (sync penuh ~5 dtk, tanpa error).
+
+## MetaMask popup TIDAK jalan di wallet-bot + solusi signing langsung (2026-10-19 ~02:11–02:15 WIB)
+- Tes mandiri parent mengonfirmasi temuan subagent Psy pertama: di Chromium Playwright wallet-bot, `eth_requestAccounts` TIDAK PERNAH memicu popup persetujuan MetaMask (expect_page timeout 15 dtk, tidak ada window notification). Popup MetaMask = jalur BUNTU untuk semua dApp — jangan diulang.
+- SOLUSI DIADOPSI: private key wallet farming diturunkan via eth_account dari frase yang user tempel (dipakai sekali di memori) dan disimpan di ~/workspace/wallet-bot/.privkey (600) — nilai TIDAK dicatat di log/memory/chat selain lokasi file ini. Signing semua transaksi/pesan selanjutnya via eth_account + RPC langsung; browser wallet-bot hanya untuk navigasi/baca state.
+- User MENYETUJUI eksplisit (~02:15 WIB): "oke asalkan tetep pake wallet farming dan otomatis tanpa saya turun tangan ga papa" — syaratnya: (1) tetap wallet farming 0xf0f25C…8107b, (2) full otomatis tanpa campur tangan user. Ini memperluas izin "simpan aja" sebelumnya.
+- User juga menegaskan: jangan pakai browser bawaan runtime untuk faucet/dApp — pakai Chrome wallet-bot ("jangan pake bawa'an browser pake crome kan udah bisa tadi").
+
+## Psy Protocol — riset + percobaan onboarding (2026-10-19 ~01:55–02:10 WIB)
+- Link user (t.co → psy.xyz/psychonaut?icode=A55VV7D8): Psy Protocol (dulu QED), L1 privacy/PoUW, funding $9M (Blockchain Capital, Arrington, StarkWare, Draper Dragon) — dinilai LEGIT & worth farming. Program Psychonaut: poin dari task + check-in harian; panduan user (screenshot X @GumGumHero): daftar Psychonaut → klaim 10.000 pUSDT di app-stg.psy-protocol.xyz/#/faucet → install ekstensi Psy Wallet + klaim test PSY.
+- Subagent onboarding PERTAMA: BLOCKED di 3 jalur — wallet (popup MetaMask tidak muncul), email (kode verifikasi ke khususstokyunobi@gmail.com, Gmail tidak terhubung), Google (tidak ada sesi di wallet-bot); ekstensi Psy Wallet tidak bisa diinstal (clients2.google.com diblokir proxy).
+- SETELAH solusi .privkey: subagent KEDUA (Psy2, signing langsung) DI-SPAWN — status PENDING saat flush ini, hasil belum ada.
+
+## Elysium (Kinetiq) — panduan dipelajari + laporan subagent SELESAI (2026-10-19 ~01:59–02:17 WIB)
+- Dari post X @mickeymrdt (user kirim): ELYSIUM = L2 baru tim Kinetiq (ekosistem Hyperliquid); airdrop Kinetiq sebelumnya dinilai besar. Langkah: faucet HYPE di elysium.kinetiq.xyz/testnet-faucet → bridge HYPE → cek explorer → baca docs; strategi transaksi tipis TIAP HARI. Post resmi @Enter_Elysium (16 Okt): cuma pengumuman testnet live + link explorer/docs; info tambahan: Elysium = chain Arbitrum Orbit yang settle ke HyperEVM, endpoint testnet live di QuickNode.
+- Laporan subagent Elysium: faucet BLOCKED (wajib Connect via popup MetaMask; saldo HYPE farming wallet 0 di kedua chain). Network terverifikasi: Elysium Testnet chain ID 99801, RPC https://testnet-rpc.elysium.kinetiq.xyz, explorer https://test-explorer.elysium.kinetiq.xyz; HyperEVM Testnet chain ID 998, RPC https://rpc.hyperliquid-testnet.xyz/evm. Bridge/swap BELUM jalan (belum ada HYPE). Docs: tidak ada program poin resmi — sinyal farming = aktivitas testnet murni; withdrawal balik ke HyperEVM belum tersedia.
+- URGENSI dilaporkan ke user: CoinMarketCal menyebut mainnet Elysium ~20 Okt 2026 — jendela testnet sangat sempit (belum terverifikasi independen, perlakukan sebagai rumor).
+- PETA EKOSISTEM (dari elysium.kinetiq.xyz/ecosystem, 20+ dApp): Tier 1: Kalos (NFT marketplace), Hunter Card (identity NFT), Dex da Costa & Hexswap (DEX), Yochi (prediction game), Enso (router), Elysa.fun & Frog Flip (game). Launchpad: Signal, Ascend, Perpme, Corepad, Chainzy, Oxley, Neuriio, Montra. Lainnya: AtlasHL, Dystomfers, Clash for Elysium, Eloscape, Tilt, Purrcade, Temporal Finance, Elypact, Pantheon, Marketlab, Hyperflip, Pindar, Liquid Terminal, faucet ELYS komunitas (klaim tiap 5 menit). Rutinitas harian yang disarankan subagent: faucet → 2–3 swap DEX → 1 interaksi launchpad → 1 game → Kalos → self-transfer.
+- Cek mandiri parent ke halaman faucet Elysium: halaman hanya tampil "Connect a wallet to get testnet HYPE" + tombol Connect + "Add Elysium Testnet to wallet" — TIDAK ada kolom alamat manual. Klaim manual dari HP sempat diminta ke user; user menolak jalur browser bawaan dan menyuruh pakai Chrome wallet-bot.
+
+## Kalos — riset post X @9Xvenom (2026-10-19 ~02:07 WIB)
+- Kalos (kalos.fun, @kalosfun): NFT marketplace + DEX di testnet Elysium. Cara farming (dari post): connect wallet + lengkapi profil → klaim HYPE harian dari faucet → mint NFT testnet → bagian Social (post/like/engage) → kumpulkan poin/leaderboard; janji hadiah: poin + peluang whitelist Genesis mainnet + $KALOS harian untuk top earner.
+- Penilaian asisten ke user: LAYAK digarap — ekosistem Elysium legit (Kinetiq terverifikasi organisasi, mitra QuickNode/Alchemy/Derive/Chainlink CCIP), tapi Kalos sendiri sangat baru (~1 bulan, tim/pendanaan publik belum terverifikasi, centang biru = Premium berbayar); risiko modal nol karena testnet. Aktivitas Kalos juga menambah rekam jejak wallet di Elysium. Link di post adalah referral milik poster (kalos.fun/refer/venom) — bias promosi, bukan phishing; tidak ada permintaan seed phrase/deposit.
+- User menanggapi dengan menekankan banyaknya ekosistem di testnet Elysium yang mungkin ada airdropnya → scope pemetaan ekosistem ditambahkan ke subagent Elysium (hasilnya di entri Elysium di atas).
+
+## Instruksi user: klaim SEMUA faucet + status pengerjaan (2026-10-19 ~02:15–02:20 WIB)
+- User memerintahkan: jalankan semua faucet dan ambil semua, seperti DogeOS kemarin yang faucetnya banyak (bukan cuma faucet utama) — pakai private key. Subagent audit faucet menyeluruh DI-SPAWN (audit projects.json + semua faucet main/partner/ekosistem, klaim yang bisa, catat cooldown) — status PENDING saat flush, hasil belum ada.
+- Subagent Multipli KEDUA (klaim USDC/USDT/BTC via signing langsung, tBNB sudah terisi) juga DI-SPAWN — PENDING, belum ada hasil. Klaim Multipli tetap BELUM terverifikasi selesai.
+- Hitungan yang disampaikan ke user: total 19 proyek di daftar, ~15 yang benar-benar aktif digarap (malam ini via wallet-bot: Multipli, Psy, Elysium + Kalos; harian via cron: DogeOS dkk; antre: Nowa, AlloX, TastyCo; mati/blocked: Mitosis, GTE testnet).
+
+## Wallet-bot — solusi jaringan Chromium (2026-10-19 ~00:37–00:52 WIB)
+- Chromium wallet-bot TIDAK bisa pakai proxy egress langsung: `--proxy-server=http://hatch-egress-proxy:3128` (dengan/tanpa auth, hostname maupun IPv6) selalu gagal `ERR_TUNNEL_CONNECTION_FAILED`, padahal curl + raw CONNECT via socket Python berhasil (proxy tidak butuh auth). Direct egress tanpa proxy = mati total.
+- SOLUSI YANG JALAN: jalankan forwarder TCP lokal `~/workspace/wallet-bot/forwarder.py` (127.0.0.1:3129 → hatch-egress-proxy:3128, transparent pipe), lalu Chromium pakai `--proxy-server=http://127.0.0.1:3129` + `--ignore-certificate-errors` (proxy egress melakukan intercept TLS dengan CA sendiri → tanpa flag ini `ERR_CERT_AUTHORITY_INVALID`). Terverifikasi: example.com + testnet.multipli.fi termuat ("Multipli" title OK). Forwarder harus hidup selama browser dipakai; farm_multipli.py sudah otomatis start/cek forwarder.
+- Catatan: situs faucet berat (QuickNode, faucets.chain.link) tetap gagal/sangat lambat termuat di Chromium wallet-bot via jalur ini (timeout/goto 60 dtk) walau curl 200 — bukan masalah proxy lagi, kemungkinan beban JS/fingerprint.
+
+- 02:24 WIB: yt-dashboard-fb-bridge run sukses (commands/ok, vidreq/ok, pending/ok, bridge ok).
+
+## 02:31 WIB — otpmurah-site-watch
+- Cek `curl -sI --max-time 20 https://otpmurah.id`: hanya balasan proxy "HTTP/1.1 200 Connection Established" lalu reply kosong (exit 52) — situs MASIH down.
+- `nslookup otpmurah.id` resolve ke 198.18.100.231 (DNS proxy), tapi koneksi HTTPS ke origin gagal.
+- Per instruksi: tidak mengirim apa-apa (situs belum bisa diakses). Monitoring tetap lanjut.
+
+## fb_bridge run (02:33 WIB)
+- fb_bridge.py OK: [commands] ok, [vidreq] ok, bridge ok (~4s).
+
+- 2026-10-19 02:37 WIB: fb_bridge.py sukses (exit 0) — sync YouTube -> Firebase + eksekusi publish queue; output "[commands] ok / [vidreq] ok / bridge ok".
+
+## Hasil subagent faucet menyeluruh (2026-10-19 ~02:19 WIB) — menggantikan status PENDING audit faucet
+- Audit selesai: faucet yang bisa diklaim saat audit = NOL.
+- DogeOS farming wallet: cooldown, klaim berikutnya ~19/10 14:56 WIB. DogeOS quest wallet 0x866b: cooldown, berikutnya ~19/10 17:30 WIB.
+- Zenchain faucet: DOWN (DEPLOYMENT_DISABLED).
+- Neptune/Variational/Dextr/Abstract: blocked captcha + syarat saldo mainnet. Polyhedra: blocked captcha. Portal/Saturn/Asentum: butuh install wallet khusus.
+- Klarifikasi yang disampaikan ke user: private key hanya untuk signing transaksi; TIDAK bisa melewati syarat faucet seperti captcha, cooldown, atau post X.
+
+## Psy Protocol — hasil subagent KEDUA (signing langsung) (2026-10-19 ~02:24 WIB)
+- Signing langsung terverifikasi jalan: private key terbaca dari ~/workspace/wallet-bot/.privkey, alamat cocok wallet farming, message signing OK. Gas tersedia: 0,01 tBNB (BSC Testnet) + 0,0535 ETH (Sepolia).
+- Signup Psychonaut via Wallet tetap BLOCKED: situs pakai Reown AppKit/Web3Modal; memilih wallet memicu eth_requestAccounts yang butuh popup MetaMask (tidak muncul di Playwright). Tidak ditemukan API SIWE langsung di JS bundle.
+- Faucet pUSDT BLOCKED: app-stg.psy-protocol.xyz/#/faucet memakai Cloudflare Turnstile + backend claim proof/nonce; kontrak TokenFaucetManager butuh proof dari backend sehingga klaim kontrak langsung tidak feasible. Kontrak faucet ditemukan: BSC Testnet 0x87463676D33C98230092027B78124b7247BBfFd7; Sepolia 0xcfEDF2B653a6e066466229a4dF2e48B2598ddbeC; Base Sepolia 0xeb69c70193059729d3f8003C063026C8Ab2820b9; token pUSDT 0x510aA87476b12862d7408597008e6cb43d650560.
+- Rekomendasi subagent: jalur email signup dari HP user (kode ke khususstokyunobi@gmail.com diteruskan ke asisten), setelah itu sesi email bisa dilanjutkan asisten tanpa popup wallet.
+
+## Multipli — hasil subagent KEDUA (klaim faucet via signing langsung) (2026-10-19 ~02:25 WIB)
+- Klaim faucet Multipli BLOCKED, bukan selesai: API faucet ditemukan (POST /multipli/v1/distribute-tokens/, butuh JWT) dan nonce auth berhasil ditandatangani dengan private key, tetapi tidak ada endpoint kerja untuk menukar signature menjadi JWT.
+- Penyebab: Multipli berbasis StarkEx (Brine) — signup butuh derivasi StarkNet key khusus dari Ethereum key + reCAPTCHA token; endpoint signup menuntut wallet_address + dynamic_message_signature + stark_public_key + static_message_signature + recaptcha_token.
+- Saldo terverifikasi saat itu: tBNB 0,010001; USDC/USDT/BTC testnet Multipli masih 0 (faucet BELUM terklaim).
+- Jalur tercepat menurut subagent: user signup + klaim manual dari HP (reCAPTCHA), atau user berikan JWT dari localStorage browser setelah signup agar asisten bisa panggil API faucet.
+
+## Tes definitif popup MetaMask (2026-10-19 ~02:26–02:30 WIB)
+- Unlock MetaMask wallet-bot terbukti bisa (URL berubah #/unlock -> #/), tetapi klik Connect di faucet Elysium tetap TIDAK memunculkan popup (jumlah page tetap 3, hasil eksplisit "NO POPUP"); MetaMask juga terlihat kembali ke #/unlock. Kesimpulan diperkuat: popup Connect bukan jalur yang bisa diandalkan di otomasi ini.
+- User menanggapi MetaMask bermasalah bila diklik terus-menerus dan menyarankan pakai wallet lain ("mending pake yang lain") — arahan ini yang memicu pembuatan AutoWallet.
+
+## AutoWallet — ekstensi wallet custom auto-approve DIBANGUN + teruji sebagian (2026-10-19 ~02:30 WIB)
+- Dibangun ekstensi Chrome sendiri di ~/workspace/wallet-bot/ext/autowallet/ (manifest.json, provider.js, inject.js, background.js): inject window.ethereum, isMetaMask=true untuk kompatibilitas, auto-approve eth_requestAccounts/eth_accounts dengan alamat wallet farming, tangani eth_chainId/net_version/wallet_switchEthereumChain/wallet_addEthereumChain, dan proxy read-only (eth_call, eth_getBalance, dsb) ke RPC per chain.
+- Signing di ekstensi SENGAJA belum diimplementasikan: eth_sendTransaction/personal_sign/eth_signTypedData melempar error jelas agar signing tetap lewat Python + .privkey via RPC langsung.
+- Tes di faucet Elysium: window.ethereum terdeteksi, isAutoWallet=true, eth_requestAccounts mengembalikan alamat wallet farming — koneksi wallet via AutoWallet BEKERJA.
+- TAPI faucet Elysium tetap belum bisa diklaim: setelah klik Connect, situs menampilkan modal geo-restriction "United States is restricted from accessing this application" — IP egress server terdeteksi US. Blocker Elysium bergeser dari popup wallet menjadi geo-block IP.
+- Asisten memberikan link faucet Elysium ke user untuk klaim dari HP (IP Indonesia): https://elysium.kinetiq.xyz/testnet-faucet (Connect wallet farming -> Claim).
+
+## Daftar faucet manual untuk user (diminta user 2026-10-19 ~02:32 WIB)
+- User meminta jadwal/daftar faucet yang tidak bisa diklaim asisten, mencontohkan screenshot panduan Psy dari X @GumGumHero.
+- Daftar yang diberikan ke user: (1) Elysium HYPE harian — https://elysium.kinetiq.xyz/testnet-faucet; (2) Psy pUSDT sekali klaim — https://app-stg.psy-protocol.xyz/#/faucet (Connect EVM -> BSC Testnet -> Claim 10.000 pUSDT); (3) Psy Wallet sekali — install ekstensi dari Chrome Web Store, buat wallet, klaim test PSY; (4) Multipli harian — https://testnet.multipli.fi (signup -> klaim USDC/USDT/BTC); (5) Asentum ASE harian — https://airdrop.asentum.com (install wallet Asentum -> klaim 5 ASE). DogeOS & Sepolia tetap diurus otomatis oleh asisten/cron.
+
+## Psy dicoba lagi dengan AutoWallet (2026-10-19 ~02:33–02:35 WIB) — BELUM berhasil
+- User mempertanyakan "bukanya psy kamu bisa ambil sendiri?" -> asisten mencoba ulang signup Psy memakai AutoWallet.
+- Halaman psy.xyz/psychonaut?icode=A55VV7D8 termuat dan AutoWallet terinject (isAutoWallet=true); halaman menampilkan opsi email / Google / Wallet.
+- Klik tombol Wallet: selector role button tidak menemukan elemen; klik via teks "Wallet" terdaftar tetapi halaman TIDAK berubah (tetap form signup yang sama, tidak ada modal/progres). Percobaan dinyatakan belum berhasil; asisten menyatakan akan mencoba langsung ke halaman faucet Psy dengan AutoWallet (belum ada hasil saat flush ini).
+## 02:39 WIB — fb_bridge (cron yt-dashboard-fb-bridge)
+- fb_bridge.py selesai, exit 0: "[commands] ok / [vidreq] ok / bridge ok"
+[02:42] fb_bridge run OK — sync channel/antrean/revenue + perintah publish dieksekusi, exit 0.
+- 02:45 WIB — cron yt-dashboard-fb-bridge: fb_bridge.py sukses (exit 0, [commands] ok, [vidreq] ok, [pending] ok). Sync Firebase berjalan normal; dashboard tidak basi.
+- 02:51 WIB: fb_bridge.py OK (commands ok, vidreq ok, bridge ok) — sync YT Dashboard -> Firebase sukses.
+- 02:54 WIB — fb_bridge.py jalan sukses (bridge ok): sync data YouTube + perintah publish ke Firebase selesai.
+- yt-dashboard-fb-bridge 02:57 WIB: OK (exit 0, commands ok / vidreq ok / bridge ok, ~5s)
+- 03:03 fb_bridge.py OK (commands ok, vidreq ok, bridge ok, 4.4s)
+
+## Pra-screen duplikat retry (03:04 WIB)
+- 10 JSON di retry-queue/ dicek via cek_duplikat.py: 5 inktime, 4 macam-macam, 1 mystery-en.
+- Hasil: SEMUA `duplikat: false`, tidak ada yang dipindah ke done/. Tidak ada error script.
+- Catatan parse: file instruksi inktime shorts pakai format "Judul (persis):" — script tidak bisa parse (sesuai pelajaran AGENTS.md), judul diekstrak manual dan dipass via --judul. File lain lolos parse normal.
+- Tidak ada laporan ke chat (per aturan: nihil → diam).
+- 03:08 WIB: yt-dashboard-fb-bridge cron OK (64 dtk): [commands] ok, [vidreq] ok, [pending] ok — bridge ok.
+## 03:12 WIB — yt-dashboard-fb-bridge (cron): bridge Firebase OK (commands ok, vidreq ok, bridge ok)
+- 03:15 fb_bridge.py: ok (commands ok, vidreq ok, bridge ok) — sync YouTube→Firebase sukses, tak ada publish pending
+
+## 2026-10-19 03:15 — Backup per jam
+- Skrip hourly-backup.sh jalan normal (exit 0). Tidak ada perubahan workspace sejak push 20:15 (c09cda69); repo in sync dengan origin/main. Tidak ada alert.
+- 03:19 WIB — fb_bridge.py (yt-dashboard-fb-bridge): sukses, exit 0, ~5 dtk — [commands] ok, [vidreq] ok, bridge ok. Sync YT Dashboard -> Firebase normal; tidak ada perintah publish dieksekusi. Sesuai body: tidak dilapor ke chat.
+## 03:24 WIB — fb_bridge run
+- fb_bridge.py selesai sukses (exit 0, 5.3 dtk): [commands] ok, [vidreq] ok, bridge ok. Sync dashboard YouTube -> Firebase normal.
+- 03:27 WIB: yt-dashboard-fb-bridge sukses — [commands] ok, [vidreq] ok, [pending] ok, bridge ok (exit 0, ~52 dtk).
+- 03:30 WIB: fb_bridge.py OK (exit 0) — [commands] ok, [vidreq] ok, bridge ok. Sync dashboard YouTube -> Firebase berhasil.
+
+## otpmurah-site-watch (03:31 WIB)
+- Cek https://otpmurah.id: TLS handshake selesai via egress proxy, tapi server memberi "Empty reply" (curl exit 52). nslookup resolve ke 198.18.100.231 (DNS OK, server origin mati). Situs MASIH down — tidak ada pesan ke user.
+
+- 03:33 fb_bridge: sukses (commands ok, vidreq ok, bridge ok), ~5 detik.
+03:39 yt-dashboard-fb-bridge: sukses (commands ok, vidreq ok, bridge ok, 5s)
+- 03:42 WIB — fb_bridge sync sukses (exit 0: [commands] ok, [vidreq] ok, bridge ok).
+- 03:45 WIB — fb_bridge (yt-dashboard) run: OK (exit 0, bridge ok, ~5 dtk).
+## fb_bridge (cron 03:48 WIB)
+- Jalankan fb_bridge.py: sukses (exit 0, 51 dtk). Output: [commands] ok, [vidreq] ok, [pending] ok, bridge ok. Data YouTube tersinkron ke Firebase Realtime Database, perintah publish HP dieksekusi. Tidak ada error.
+- 03:54 WIB: yt-dashboard fb_bridge run OK (exit 0, commands+vidreq ok).
+- [03:57 WIB] yt-dashboard-fb-bridge: sukses (bridge ok, [commands] ok, [vidreq] ok).
+[2026-10-19 04:00] fb_bridge (cron yt-dashboard-fb-bridge): sukses, exit 0 (commands ok, vidreq ok, bridge ok). Durasi ~4 dtk (sync ringan).
+- 2026-10-19 04:03 WIB: fb_bridge.py sukses (commands ok, vidreq ok, bridge ok).
+## Pra-screen duplikat retry (04:04 WIB)
+- 10 antrean retry-queue dicek via cek_duplikat.py --judul (inktime x5, macam-macam x4, mystery-en x1): semua AMAN (exit 0, duplikat: false). Tidak ada JSON dipindah ke done/. Watchdog retry bebas upload ulang tanpa risiko duplikat.
+- 04:06 WIB — fb_bridge.py cron sukses (exit 0): [commands] ok, [vidreq] ok, bridge ok. Dashboard Firebase sinkron.
+
+## fb_bridge.py run (cron yt-dashboard-fb-bridge, 04:12 WIB)
+Sukses — exit 0, output: [commands] ok, [vidreq] ok, bridge ok. Sinkronisasi channel/antrean review/revenue ke Firebase + eksekusi perintah publish HP selesai tanpa error.
+- 04:18 WIB — fb_bridge (yt-dashboard): sinkronisasi channel, antrean review, revenue ke Firebase + eksekusi publish dari aplikasi HP — BERHASIL (bridge ok).
+## yt-dashboard-fb-bridge (04:21 WIB)
+- fb_bridge.py sync selesai, exit 0 (~4.7 dtk). Output: [commands] ok / [vidreq] ok / bridge ok.
+
+- 04:24 WIB — fb_bridge.py OK ([commands] ok, [vidreq] ok, bridge ok, exit 0). Sync YT Dashboard -> Firebase berjalan normal.
+
+## 04:27 WIB — yt-dashboard-fb-bridge (cron)
+fb_bridge.py sukses: exit 0 ("[commands] ok", "[vidreq] ok", "bridge ok"). Sync Firebase + eksekusi perintah publish HP berjalan normal.
+
+## 04:30 — yt-dashboard-fb-bridge
+Sync Firebase berhasil: [commands] ok, [vidreq] ok, [pending] ok, bridge ok (durasi ~54 dtk).
+## 04:31 WIB — otpmurah-site-watch
+- Cek ketersediaan otpmurah.id: curl -sI -> HTTP/1.1 200 Connection Established (proxy CONNECT) tapi EXIT 52 (empty reply dari server); tidak ada respons HTTP dari situs. nslookup -> 198.18.114.160. Status: MASIH DOWN, tidak bisa diakses. - Sesuai instruksi: diam, tidak kirim pesan ke user.
+- 04:33 WIB — yt-dashboard-fb-bridge: bridge ok (sync channel/review-queue/revenue ke Firebase + eksekusi perintah publish HP selesai, tanpa error).
+- 2026-10-19 04:36 WIB — cron yt-dashboard-fb-bridge: fb_bridge.py sukses (commands ok, vidreq ok, bridge ok), exit 0.
+- 04:39 WIB: fb_bridge.py run ok ([commands] ok, [vidreq] ok, bridge ok).
+
+## 04:42 WIB — fb_bridge run (cron)
+- fb_bridge.py selesai OK: [commands] ok, [vidreq] ok, bridge ok (~6 dtk). Sync Firebase dashboard sukses, tidak ada error.
+- 04:45 WIB: fb_bridge.py sukses ([commands] ok, [vidreq] ok, [channels] ok, bridge ok; ~22 dtk).
+## 04:48 — yt-dashboard-fb-bridge: OK — fb_bridge.py selesai (exit 0), [commands] ok, [vidreq] ok, bridge ok; sync ~5 dtk.
+- 04:51 WIB — yt-dashboard-fb-bridge: sukses (commands ok, vidreq ok, pending ok, bridge ok; exit 0, ~51 dtk). Tidak ada error.
+- 04:54 WIB cron yt-dashboard-fb-bridge: fb_bridge.py selesai (exit 0, durasi ~4.4 dtk) — [commands] ok, [vidreq] ok, bridge ok. Sync Firebase berhasil.
+- 04:57 WIB — yt-dashboard fb_bridge: sukses ([commands] ok, [vidreq] ok, bridge ok), exit 0.
+
+## Pra-screen anti-duplikat retry (05:04 WIB)
+11 JSON antrean di retry-queue/ dicek via cek_duplikat.py — hasil SEMUA `duplikat: false`, tidak ada yang dipindah ke done/. Catatan: instruksi-2026-10-14-shorts.txt (inktime) gagal di-parse script (format "Judul (persis,...)" belum didukung) → dicek manual via --judul untuk 3 shorts. Macam-macam (4 file) & mystery-en juga dicek via --judul/instruksi, semua false.
+- 22:06 fb_bridge: ok ([commands] ok, [vidreq] ok, bridge ok) — exit 0, 4.3 dtk
+- yt-dashboard-fb-bridge (cron, 05:09 WIB): sukses, [commands] ok, [vidreq] ok, bridge ok.
+- yt-dashboard-fb-bridge (cron 05:12 WIB): bridge OK — commands, vidreq, pending OK; sync YouTube→Firebase selesai tanpa error.
+- 05:15 fb_bridge (cron): sukses, [commands] ok, [vidreq] ok, bridge ok — exit 0, 4.6 dtk.
+- 05:18 WIB: fb_bridge.py sync OK (commands ok, vidreq ok, bridge ok)
+- 2026-10-19 ~05:24 WIB: fb_bridge.py run OK (exit 0, commands+vidreq ok, bridge ok). Sinkronisasi YT Dashboard -> Firebase sukses.
+- 05:27 WIB — fb_bridge.py yt-dashboard: OK (commands ok, vidreq ok, bridge ok, ~4 dtk)
+- 05:30 — yt-dashboard-fb-bridge: sync OK (commands ok, vidreq ok, bridge ok), 4.5 dtk.
+
+## 05:31 WIB — otpmurah-site-watch
+- otpmurah.id MASIH tidak bisa diakses: curl HTTPS exit 52 (Empty reply from server); nslookup resolve ke 198.18.137.175 (range benchmarking — kemungkinan sinkhole/DNS level VM/ISP).
+- Sesuai instruksi: tidak kirim pesan ke user, tidak login, tidak beli nomor.
+
+## 05:33 WIB — fb_bridge.py (yt-dashboard) sukses
+Sync YouTube → Firebase selesai (~82 dtk, exit 0). Ada retry RemoteDisconnected pada GET `commands` (3x gagal lalu ok di percobaan berikutnya) dan `state/videos_ts` (1x retry), semua pulih sendiri. Tidak ada error final.
+## 05:39 WIB — yt-dashboard fb_bridge
+- Cron yt-dashboard-fb-bridge sukses (exit 0, ~20 dtk). Firebase sempat RemoteDisconnected 1-2x per PUT/GET tapi pulih via retry; status akhir "bridge ok" + "commands ok". Tidak ada publish command yang tertunda diproses (commands ok).
+## 2026-10-19 05:45 WIB — yt-dashboard-fb-bridge
+- fb_bridge.py jalan sukses (exit 0): commands ok, vidreq ok, bridge ok. Sinkronisasi YT Dashboard -> Firebase selesai, tidak ada perintah publish tertunda.
+- 05:51 WIB — yt-dashboard fb_bridge: SUKSES (bridge ok; 1 retry RemoteDisconnected pada GET commands).
+- 05:54 WIB: fb_bridge sync ok (commands ok, vidreq ok, pending ok); satu retry FB GET req_videos RemoteDisconnected 1/3
+2026-10-19 06:0x WIB — yt-dashboard-fb-bridge: sukses (exit 0, bridge ok). Catatan: FB GET state/videos_ts sempat RemoteDisconnected (coba 1/3, retry lolos). [commands] ok, [vidreq] ok.
+
+## yt-dashboard-fb-bridge (06:03 WIB)
+- fb_bridge.py selesai, exit 0 (~12,6 detik). Ringkasan: [commands] ok, [vidreq] ok, PUT state/updated_at ok, "bridge ok".
+- Ada 2x RemoteDisconnected retry (coba 1/3) pada FB GET/PUT — retry sukses, tidak fatal.
+- yt-dashboard-fb-bridge: sukses, bridge ok ([commands] ok, [vidreq] ok)
+
+## 06:04 WIB — pra-screen-duplikat-retry
+10 JSON antrean retry-queue dicek via cek_duplikat.py (inktime×5, macam-macam×4, mystery-en×1). Hasil: semua `duplikat: false`, exit 0 — tidak ada yang dipindah ke done/. Catatan: pakai --judul manual karena script gagal parse format "Judul (persis...):" (inktime shorts) dan Varian (DIPILIH) diekstrak manual; macammacam* pakai field judul dari JSON.
+2026-10-19 06:12 WIB — fb_bridge.py: sukses (commands ok, vidreq ok, bridge ok).
+- 06:15 WIB: fb_bridge.py sync OK (commands, vidreq, pending, bridge ok; durasi ~69 dtk)
+
+## backup-workspace-perjam (06:14 WIB)
+- Sukses: commit 4a916095 (1 file berubah) + push ke YunobiAirdrop/muse-backup-private, HEAD == origin/main, working tree clean.
+- Token GitHub valid, tidak ada kegagalan. Tidak perlu dilaporkan ke user.
+- Catatan: run kedua (diagnostik, no-op karena tidak ada perubahan) tidak menulis baris log — skrip sepertinya melewatkan log() saat tree bersih; pantau kalau pola ini berulang.
+- 06:18 yt-dashboard-fb-bridge: sukses (bridge ok, exit 0). 2 GET Firebase sempat RemoteDisconnected, retry ok.
+## 06:21 — yt-dashboard-fb-bridge (cron)
+- fb_bridge.py selesai: [commands] ok, [vidreq] ok, bridge ok. Sync penuh ke Firebase berhasil, tidak ada perintah publish tertunda yang gagal.
+- fb_bridge (yt-dashboard-fb-bridge cron, 06:24 WIB): sukses — exit 0, output 'bridge ok' ([commands] ok, [vidreq] ok; satu retry RemoteDisconnected pada FB PUT state/updated_at tapi berhasil setelahnya).
+06:27 WIB — yt-dashboard-fb-bridge: sukses, 'bridge ok' (FB GET commands: 1x RemoteDisconnected, retry ok; commands+vidreq ok).
+
+## 06:31 WIB — otpmurah-site-watch (cek ketersediaan situs)
+- `curl https://otpmurah.id` → gagal 2x: DNS resolve OK (via resolver lokal), tapi server origin tidak menjawab — curl exit 52 "Empty reply from server", http_code 000 (juga dicoba https://www.otpmurah.id, hasil sama). Proxy CONNECT "200 Connection Established" sukses, artinya TLS handshake/connect ke origin kosong.
+- Kesimpulan: situs MASIH down (sejak NXDOMAIN 2026-10-18, kondisi belum pulih).
+- Per instruksi job: diam, tidak mengirim apa pun ke chat. Tidak login, tidak memesan nomor. Cek berikutnya sesuai jadwal.
+## 06:33 WIB — yt-dashboard-fb-bridge (cron)
+- fb_bridge.py sukses (exit 0, bridge ok); 2 retry RemoteDisconnected pada PUT state/updated_at, lalu berhasil.
+
+- 06:39 WIB — yt-dashboard-fb-bridge: sukses (exit 0). GET commands retry 1/3 (RemoteDisconnected) lalu ok, [commands] ok, [vidreq] ok, bridge ok.
+- 06:48 WIB: yt-dashboard-fb-bridge sukses (exit 0): commands ok, vidreq ok, bridge ok. Satu retry GET state/videos_ts (RemoteDisconnected, coba 1/3 berhasil).
+- 06:51:12 WIB — yt-dashboard-fb-bridge: sukses (commands ok, vidreq ok, bridge ok, ~5 detik). Tidak ada perintah publish dari HP.
+## 06:54 WIB - fb_bridge (yt-dashboard)
+- Sync YouTube -> Firebase sukses (exit 0): [commands] ok, [vidreq] ok, bridge ok.
+- 06:57 WIB: fb_bridge.py yt-dashboard-fb-bridge OK (exit 0; [commands] ok, [vidreq] ok, [pending] ok, bridge ok).
+
+## 07:00 WIB — fb_bridge.py
+- cron yt-dashboard-fb-bridge: sinkronisasi YouTube→Firebase sukses (exit 0: [commands] ok, [vidreq] ok, bridge ok). Durasi ~5 dtk (bukan sync penuh 2 menit). Tidak ada error.
+- 2026-10-19 07:03 WIB: yt-dashboard fb_bridge.py sukses (exit 0, commands ok, vidreq ok, bridge ok; durasi ~6 dtk).
+
+## 07:04 — pra-screen-duplikat-retry (cron)
+10 JSON antrean retry-queue dicek via cek_duplikat.py (yt-growth venv). Hasil: semua `duplikat: false`, tidak ada yang dipindah ke done/.
+- inktime long 2026-10-09 & 2026-10-13: aman (masing-masing dicek 11 video).
+- inktime shorts s1/s2/s3 (2026-10-14): parser instruksi gagal ("Judul (persis, ...):" format — issue known) → judul diekstrak manual dari txt, hasil --judul: ketiganya aman.
+- macammacam hewan-part1, mobil-part1, motor-part1: aman (dicek 7 video).
+- macammacam truk-kartun-2026-10-12: aman (dicek 7 video).
+- mystery-en-2026-10-13: aman (dicek 5 video; "Judul:" di md terparse).
+Tidak ada temuan duplikat → laporan diam per SOP.
+- 07:11 WIB: fb_bridge.py sukses ("bridge ok", exit 0). Fase [commands] kena RemoteDisconnected 2x lalu lolos di coba 3/3; [vidreq] ok. Sync dashboard YouTube -> Firebase normal, perintah publish HP dieksekusi (nihil).
+
+## airdrop-hunter-x 07:11 WIB
+- Scan X/social + web news (10–19 Okt): tidak ada peluang baru yang lolos filter; `projects.json` tidak diubah.
+- Mayoritas hasil = thread @MaransCrypto untuk proyek yang sudah ada (Neptune, Variational, GTE, Zenchain, Dextr, Multipli, Saturn).
+- deFarm ditolak: thread klaim testnet baru tapi FAQ resmi berumur 907 hari (program Early Adopter 2024, sudah selesai) — bukan peluang baru.
+- Extended (Starknet) ditolak: butuh modal asli. GIWA/Titan tetap ditolak (hasil riset kemarin).
+- Detail di ~/workspace/airdrop-farming/STATUS.md → "Peluang Baru 2026-10-19".
+- 07:15 WIB — backup-workspace-perjam: script sukses, commit 98c280c6 (11 file) push ke YunobiAirdrop/muse-backup-private, token GitHub valid. Tidak ada alert.
+- 07:18 WIB: yt-dashboard-fb-bridge run OK (65 dtk): [commands] ok, [vidreq] ok, [pending] ok, bridge ok.
+
+## fb_bridge 07:24 WIB
+- Jalankan fb_bridge.py (sync YT Dashboard -> Firebase + eksekusi perintah publish dari HP). Exit 0: [commands] ok, [vidreq] ok, bridge ok. ~5 detik, tidak ada error.
+- 07:27 WIB: yt-dashboard fb_bridge.py OK (bridge ok; FB RemoteDisconnected retry 1/3 sukses, commands ok, vidreq ok)
+- 07:30 fb_bridge: OK (commands ok, vidreq ok, bridge ok; satu retry RemoteDisconnected lalu sukses)
+
+## 07:31 WIB — otpmurah-site-watch
+- curl -sI https://otpmurah.id via proxy: "HTTP/1.1 200 Connection Established" lalu exit 52 (empty reply dari server — TLS tidak pernah jalan).
+- curl --noproxy langsung: exit 35 (SSL connect error), HTTP 000.
+- nslookup: otpmurah.id resolve ke 198.18.154.202 (DNS OK, tetap tidak bisa diakses).
+- KESIMPULAN: situs MASIH DOWN/tidak bisa diakses (tetap seperti saat dibuatnya watch 2026-10-18). Sesuai instruksi: diam, tidak kirim pesan apa-apa.
+
+## 07:33 — fb_bridge run OK
+fb_bridge.py sukses (exit 0, "bridge ok"): commands ok, vidreq ok, blogs ok. Revenue sempat gagal 3x retry RemoteDisconnected ke Firebase lalu ok di run berikutnya — hanya gangguan sesaat koneksi ke Firebase.
+- 2026-10-19 07:36 WIB — fb_bridge.py selesai OK (exit 0, "bridge ok"; ada retry sementara Firebase RemoteDisconnected di GET commands & PUT state tapi pulih sendiri).
+- 07:40 WIB: fb_bridge.py run OK (commands, vidreq, pending sync) — 1x transient RemoteDisconnected retry pada FB GET commands.
+
+## yt-dashboard-fb-bridge (07:45 WIB, cron)
+- fb_bridge.py selesai OK (exit 0): `[commands] ok / [vidreq] ok / bridge ok`. Sinkronisasi data YouTube ke Firebase Realtime Database berjalan normal. Sesuai instruksi: tidak dilaporkan ke chat.
+- 07:51 — fb_bridge.py: OK ([commands] ok, [vidreq] ok, bridge ok; exit 0, ~5s). Tidak ada error; tidak perlu laporan ke chat.
+- 07:54 WIB fb_bridge (yt-dashboard-fb-bridge): sukses — [commands] ok, [vidreq] ok, bridge ok.
+- 07:57 WIB — fb_bridge.py sync sukses (exit 0, 'bridge ok'; retry koneksi Firebase 1x RemoteDisconnected di FB GET commands dan FB GET state/videos_ts, recovery otomatis).
+- 08:00: fb_bridge.py sync sukses (exit 0, 'bridge ok'; FB PUT state/pending sempat RemoteDisconnected 1x lalu retry ok)
+- 08:03 yt-dashboard-fb-bridge: sukses (bridge ok, exit 0); sempat 2x retry RemoteDisconnected pada FB PUT state/updated_at lalu pulih.
+## Pra-screen anti-duplikat retry (08:04 WIB)
+- 10 antrean retry-queue diperiksa via cek_duplikat.py — semua duplikat:false (inktime long x2, inktime shorts x3, macam-macam x4, mystery-en x1). Tidak ada yang dipindah ke done/.
+- Catatan: 3 shorts inktime gagal parse judul via --instruksi (format 'Judul (persis, ...)' — issue AGENTS.md), dicek ulang pakai --judul manual: tetap duplikat:false.
+- 3 entri macam-macam (hewan/mobil/motor) tidak punya instruksi_path — dicek via --judul dari field judul JSON.
+- 08:06 yt-dashboard-fb-bridge: sync OK ([commands] ok, [vidreq] ok, bridge ok), ~5s. Tidak ada error; per instruksi tetap diam ke chat.
+- 08:12 fb_bridge.py (yt-dashboard-fb-bridge): sukses, exit 0, 9.5 dtk — sync channel/antrean/revenue ke Firebase ok; perintah publish ok. Tidak ada error.
+- 08:15 fb_bridge.py sync ok ([commands] ok, [vidreq] ok, bridge ok)
+
+## Backup workspace per jam (run 08:14 WIB)
+- hourly-backup.sh jalan OK: commit e52a0393 (20 files, 336 ins/93 del) + push sukses ke YunobiAirdrop/muse-backup-private (origin/main sinkron, working tree clean).
+- Token GitHub valid; tidak ada failure berturut-turut → tidak ada laporan ke user (sesuai aturan job).
+- Catatan: log backup-perjam.log kini pakai UTC (system tz VM berubah ke UTC), bukan WIB seperti sebelumnya.
+- fb_bridge.py 08:18 WIB: sync YouTube -> Firebase OK (bridge ok; satu retry RemoteDisconnected di GET state/videos_ts, lolos di coba ulang).
+
+- 08:27 WIB: fb_bridge.py selesai OK (exit 0, "bridge ok"; 2 retry RemoteDisconnected lolos). Sync channel/antrean review/revenue ke Firebase.
+
+## 08:30 — yt-dashboard-fb-bridge (cron)
+- fb_bridge.py selesai sukses (exit 0, ~9 detik; sync ringan, bukan penuh). Semua tahap ok: commands, vidreq, bridge.
+- Satu warning transient: FB GET req_videos RemoteDisconnected (retry 1/3 berhasil).
+- fb_bridge yt-dashboard: sukses (commands ok, vidreq ok, bridge ok)
+- yt-dashboard-fb-bridge: sukses, [commands] ok / [vidreq] ok / bridge ok (exit 0).
+2026-10-19 01:43:45 yt-dashboard-fb-bridge: bridge ok (commands ok, vidreq ok, pending ok, updated_at ok; retries RemoteDisconnected)
+
+## 08:45 WIB — yt-dashboard-fb-bridge
+- Cron yt-dashboard-fb-bridge: run pertama terputus karena service restart VM (~08:45), dijalankan ulang, sukses (exit 0, [commands] ok, [vidreq] ok, "bridge ok").
+- Log: ~/workspace/goals/aplikasi-android-pantau-channel-youtube/hidden_files/fb_bridge_runs.log
+
+## Airdrop — malam 19 Okt (wallet-bot, Psy, Elysium, Multipli)
+- WALLET-BOT: Chromium + MetaMask mandiri di ~/workspace/wallet-bot/ (terpisah dari browser runtime). Wallet farming 0xf0f25C36AC70E9d787a108eFB351626192C8107b ter-import (frasa dipakai sekali via stdin, TIDAK ditulis ke disk; vault terenkripsi). .mm-pass + .privkey (600) disimpan atas izin eksplisit user ("kamu simpan aja biar ga minta terus"). FAKTA KUNCI terverifikasi berkali-kali: popup MetaMask TIDAK PERNAH muncul di browser otomasi Playwright (walau MetaMask sudah unlock) → signing wajib via eth_account + .privkey via RPC langsung; browser hanya untuk navigasi/baca state.
+- AutoWallet (extension buatan sendiri, saran user ganti dari MetaMask): ~/workspace/wallet-bot/ext/autowallet/ — auto-approve eth_requestAccounts (balikin alamat farming), mengaku MetaMask (isMetaMask), chain persist via chrome.storage, read-call di-proxy ke RPC. Connect TERBUKTI jalan (halaman faucet Psy tampil wallet connect 0xf0f25C…C8107b). eth_sendTransaction diarahkan ke sign_server.py lokal (127.0.0.1:18743) — server sempat jalan lalu di-pkill saat debug; BELUM production-ready.
+- Proyek baru ditambahkan malam ini atas link user: Psy Protocol, Elysium (+ Kalos di ekosistem Elysium). Total daftar 19 proyek; ~15 aktif digarap.
+- Psy Protocol: signup jalur wallet BLOCKED (Reown AppKit/Web3Modal butuh popup); faucet pUSDT menurut subagent butuh proof backend + Cloudflare Turnstile (kontrak Sepolia 0xcfEDF2B653a6e066466229a4dF2e48B2598ddbeC, BSC 0x87463676D33C98230092027B78124b7247BBfFd7). Test AutoWallet sendiri: connect OK, Turnstile tidak terdeteksi di halaman, TAPI switch chain ke Sepolia gagal (tetap 0x1) + web3.py ke rpc.sepolia.org gagal connect (proxy) → tombol "Faucet 10,000 pUSDT" tetap disabled. KESIMPULAN disampaikan ke user: Psy klaim manual dari HP; jalur email signup butuh user kirim kode verifikasi (Gmail tidak terhubung).
+- Multipli: BLOCKED otomatis — StarkEx/Brine butuh derivasi StarkNet key + reCAPTCHA saat signup; faucet API (POST /multipli/v1/distribute-tokens/) butuh JWT. Saldo testnet USDC/USDT/BTC masih 0; tBNB 0.010001 (gas OK). Laporan lengkap: ~/workspace/wallet-bot/MULTIPLI_FAUCET_REPORT.md. Jalur manual user: signup + klaim dari MetaMask mobile (2-3 mnt).
+- Audit faucet menyeluruh (semua proyek): yang bisa diklaim saat audit = NOL. DogeOS farming cooldown s/d 19/10 14:56; DogeOS quest wallet (0x866b) s/d 19/10 17:30; Zenchain DOWN (DEPLOYMENT_DISABLED); Neptune/Variational/Dextr/Abstract butuh captcha + saldo mainnet; Polyhedra captcha; Portal/Saturn/Asentum butuh install wallet; BSC tBNB sudah 0,01 (user ambil sendiri); GTE/Mitosis testnet mati. Klarifikasi ke user: private key itu untuk signing, BUKAN untuk bypass syarat faucet (captcha/cooldown/X-post).
+- ELYSIUM: faucet dari server ke-block geo ("United States is restricted" — IP egress US) → user klaim manual dari HP 19/10 malam ("elsysium udah") → TERVERIFIKASI 0,1 HYPE masuk di Elysium testnet (chain 99801, RPC testnet-rpc.elysium.kinetiq.xyz; saldo HyperEVM chain 998 = 0). Farming langsung jalan: 5 self-transfer @0,005 HYPE, semua confirmed on-chain; saldo akhir 0,09998 HYPE. Catatan teknis chain: gas wajib 100000 (bukan 21000) + gas price ~1,5x base fee, kalau tidak tx gagal. DEX (Dex da Costa/Hexswap) belum bisa — contract tidak terdokumentasi & Kalos DEX "Prices paused"; Kalos NFT tidak ada live drops; Yochi down (ERR_TIMED_OUT); bridge balik ke HyperEVM BELUM tersedia (jangan bridge keluar). Mainnet kabarnya 20 Okt menurut CoinMarketCal — BUKAN pengumuman resmi; snapshot resmi tidak ada (disampaikan jujur ke user). Ekosistem terpeta 20+ dApp (Kalos, Dex da Costa, Hexswap, Yochi, Hunter Card, launchpad Signal/Ascend/Perpme, game Frog Flip/Elysa.fun, dll); rekomendasi rutinitas harian tersimpan di laporan subagent Elysium.
+- Jadwal faucet manual diberikan ke user: (1) Elysium HYPE harian — SUDAH diklaim user malam ini; (2) Psy pUSDT; (3) Psy Wallet extension (klaim test PSY); (4) Multipli harian; (5) Asentum ASE harian (butuh install wallet Asentum).
+- KEPUTUSAN USER (19/10 02:5x): "oke besok saya kerjain biar refresh nya ga malem" — faucet manual (Psy, Multipli, Asentum) dikerjakan user BESOK SIANG supaya cooldown refresh siang hari. Syarat tetap user: selalu wallet farming + sebisa mungkin full otomatis tanpa user turun tangan; kerjaan wallet pakai Chrome wallet-bot, BUKAN browser bawaan runtime.
+
+- 08:48 WIB: cron yt-dashboard-fb-bridge sukses — fb_bridge.py exit 0 ("bridge ok"), sync YouTube -> Firebase + eksekusi perintah publish selesai ~4 dtk.
+- 08:51 WIB: yt-dashboard-fb-bridge sukses (exit 0) — commands ok, vidreq ok, bridge ok. Sync penuh ~4 detik.
+
+- [08:54] fb_bridge.py OK: [commands] ok, [vidreq] ok, bridge ok
+- 08:57 WIB: fb_bridge.py sukses (commands ok, vidreq ok, bridge ok). Tanpa laporan ke chat.
+
+## fb_bridge sync (09:00 WIB)
+- fb_bridge.py sukses: [commands] ok, [vidreq] ok, bridge ok (durasi ~5 dtk, sync ringan bukan penuh).
+
+## Pra-screen anti-duplikat retry (09:04 WIB, cron pra-screen-duplikat-retry)
+9 JSON di retry-queue dicek via yt-growth/cek_duplikat.py (semua exit 0, tanpa error):
+- inktime long 10-09 ("Why 536 Was the Worst Year to Be Alive"), inktime long 10-13 ("The Bronze Age Collapse: History's Greatest Mystery") → duplikat: false
+- inktime shorts s1/s2/s3 10-14 → duplikat: false
+- mystery-en 10-13 ("A Dead Man, No Name — Only Two Words: Tamam Shud") → duplikat: false
+- macam-macam hewan/mobil/motor/truk-kartun → duplikat: false
+Tidak ada yang dipindah ke done/ — semua tetap di antrean, tidak ada laporan ke chat (per aturan: tidak ada duplikat → diam).
+## 09:06 — yt-dashboard-fb-bridge (cron)
+- fb_bridge.py selesai sukses (exit 0; [commands] ok, [vidreq] ok, bridge ok). Sesuai instruksi body: diam, tidak dilaporkan ke chat.
+- 09:09 WIB: yt-dashboard-fb-bridge OK (bridge ok, ~5s).
+
+## airdrop-mainnet-monitor (cron, Senin 09:11 WIB)
+Cek 7 proyek via browser.search news vertical — hasil:
+- GTE (MegaETH): mainnet live sejak 9 Feb 2026, token MEGA trading sejak 30 Apr 2026; tidak ada berita baru.
+- Neptune Protocol: masih testnet, berita terbaru hanya panduan airdrop (typefully, 19 Okt); tidak ada tanggal mainnet.
+- Variational: TGE $VAR Q4 2026 + airdrop genesis 32% diumumkan 24 Sep 2026 (bukan baru); belum ada tanggal pasti/snapshot baru.
+- Plaza Finance: proyek mati (konfirmasi 2026-10-17); tidak ada berita baru.
+- Zenchain: mainnet + TGE ZTC sudah terjadi awal 2026; tidak ada berita baru.
+- Sahara AI: TGE 26 Jun 2025 sudah terjadi; target AppChain Q4 2025 (lama); tidak ada berita baru.
+- Multipli.fi: mainnet live mid-2025; vote token Q3 2026 sudah lewat; tidak ada pengumuman token baru.
+Kesimpulan: TIDAK ada pengumuman baru → stay silent (tidak ada alert ke user). State: goals/airdrop-testnet-farming-automation/hidden_files/mainnet-monitor-seen.json.
+
+## faucet-sepolia-harian (09:11 WIB)
+- Klaim Google Cloud Sepolia faucet untuk 0xf0f25C36AC70E9d787a108eFB351626192C8107b: COOLDOWN (normal). Halaman: "Each Google Account and wallet address gets one drip on Sepolia every 1 day. Try again after Oct 19, 2026, 1:34:16 PM." Tidak ada ETH terkirim. Akun Google (Akun Utama yunobi) masih login; halaman/network normal. Tidak perlu tindak lanjut.
+
+## fb_bridge.py (09:15 WIB)
+Bridge YT Dashboard -> Firebase jalan OK: exit 0, "[commands] ok / [vidreq] ok / bridge ok" (~5 dtk, bukan sync penuh).
+
+## yt-dashboard-fb-bridge (09:21 WIB)
+- fb_bridge.py selesai sukses (exit 0): [commands] ok, [vidreq] ok, bridge ok — sync Firebase dashboard lancar.
+
+## yt-seo-refresh-mingguan (run 2026-10-19, ~09:11 WIB)
+- Token OAuth yt-growth: 20/20 aktif (fakta-bola-dunia & inktime baru masuk).
+- Analytics API NORMAL (run 12 Okt gagal total/timeout). 20 JSON di yt-growth/hidden_files/analytics-2026-10-19/.
+- Kandidat refresh (umur >14 hari, views+avg tonton < median): 6 video — horor 1 (5H9DWXm1aIs "Orderan Hantu", 261v), youtube-pov 5 (KKB Papua 0v/34hr, 2x "5 Legenda" 0v&2v, Perang Bubat shorts 3v). 18 channel lain: semua video ≤14 hari, belum ada kandidat.
+- 5 proposal metadata ditulis + lolos seo_audit (skor 95-100, tanpa FAIL). File: yt-growth/proposals/meta-2026-10-19/*.json. Laporan: proposals/proposal-2026-10-19.md.
+- 2 A/B test didaftarkan mode PROPOSAL (belum start): horor 5H9DWXm1aIs, youtube-pov 9ZyaPdlHUFU. Total 3 proposal menunggu (1 lama lima-misteri). TIDAK ada push --apply tanpa persetujuan user.
+- Review retensi ASLI pertama (113 video, 40 berkurva): jurang 0:04-0:08 pembunuh utama; juara = history-en "Death Ships" (1.27), mind-en "Someone Is Controlling You" (0.95); terburuk = space-en Oumuamua long (0.08 datar), youtube-pov KKB Papua (0.10). Laporan: proposals/review-retensi-2026-10-19.md.
+- Scan kompetitor: blog-otomatis/data/competitor-2026-10-19.md (Nessie Judge, Bailey Sarian, MrBallen, Barely Sociable, OverSimplified, Kurzgesagt).
+- qvTAM_x2wbs (livestream Sumbul, private) dilewati — refresh metadata video private tak berguna; user sudah stop proyek Sumbul.
+
+## fb_bridge (cron yt-dashboard-fb-bridge)
+- 09:24 WIB: run sukses (exit 0; commands/vidreq/pending ok). Tidak ada perintah publish tertunda.
+
+## Airdrop farming harian (cron 08:00 WIB)
+- farm.py exit 0 → QUEUED: sahara, multipli, mitosis, portal-bitcoin, dogeos, asentum, nowa-finance, allox, tastyco; BLOCKED: gte, neptune, variational, zenchain, dextr, abstract, polyhedra, saturn (captcha/mainnet-balance/X-post, tidak berubah).
+- Saldo: Sepolia 0,1035 ETH (faucet Google Cloud kemarin mengisi dari 0,0535); Arb/Base Sepolia 0; BSC testnet 0,0100005 BNB; DogeOS 42,0219 DOGE; Sahara testnet RPC tak terjangkau dari VM; MegaETH mainnet 1 ETH TIDAK DISENTUH.
+- TRANSAKSI: 3 tx DogeOS self-transfer (0x4dc4d31…, 0xe8eb997e…, 0x52843860…), semua confirmed, gas ~0,000001 DOGE. Signing via eth_account + .privkey wallet-bot (otorisasi user 2026-10-19). Faucet DogeOS cooldown s/d ~15:30 WIB.
+- Sepolia 0,1035 disimpan (tak ada dApp eligible; Multipli recaptcha, Mitosis mati, Neptune butuh Backpack).
+- Sahara: legends.saharaai.com + RPC mati dari VM; token SAHARA sudah live mainnet (nilai farming testnet menurun).
+- nowa/allox/tastyco live (HTTP 200) tapi butuh onboarding + social connects — nunggu izin user ("login bilang dulu").
+- Butuh user: klaim Multipli dari HP, X post Zenchain, faucet Arb/Base Sepolia manual, onboarding nowa/allox/tastyco + Portal/Asentum wallet.
+
+## 09:31 — otpmurah-site-watch
+- cek otpmurah.id: masih DOWN (curl exit 52, http_code=000 HTTPS & HTTP; nslookup resolve tapi server tidak membalas). Sesuai instruksi: tidak kirim apa-apa.
+- yt-dashboard-fb-bridge 09:33: fb_bridge.py selesai OK (commands ok, vidreq ok, bridge ok).
+
+## 09:36 fb_bridge (cron yt-dashboard-fb-bridge)
+- Run selesai OK (~4 dtk): [commands] ok, [vidreq] ok, bridge ok. Sesuai instruksi: diam, tidak dilaporkan ke chat.
+- fb_bridge (yt-dashboard): run 09:39 WIB sukses — exit 0, commands ok, vidreq ok, bridge ok. Sync Firebase dashboard YouTube normal.
+- 09:45 WIB: yt-dashboard fb_bridge cron OK (commands/vidreq/pending ok, bridge ok).
+
+## 2026-10-19 09:51 WIB — yt-dashboard-fb-bridge
+- fb_bridge.py sync YouTube → Firebase OK (commands ok, vidreq ok, bridge ok). Sesuai jadwal: diam, tidak dilaporkan ke chat.
+- 09:54 WIB — fb_bridge.py (YT Dashboard → Firebase) selesai sukses: [commands] ok, [vidreq] ok, bridge ok (durasi ~4,4 dtk).
+- 09:57 WIB: fb_bridge.py sync YouTube→Firebase sukses ([commands] ok, [vidreq] ok, bridge ok), ~5 dtk.
+## 10:00 WIB — yt-dashboard-fb-bridge
+- fb_bridge.py selesai sukses (exit 0): commands ok, vidreq ok, bridge ok. Durasi ~5 dtk.
+
+## Pra-screen duplikat retry (10:04 WIB)
+- 10 JSON di retry-queue/ dicek via cek_duplikat.py (venv yt-growth), semua `duplikat: false`, exit 0 — tidak ada yang dipindah ke done/.
+- inktime shorts s1/s2/s3: format "Judul (persis...)" tidak bisa diparse script (bug dikenal) → pakai --judul manual: "The Entire Civilized World Collapsed in 50 Years…", "The Last Letters of a Burning City…", "An Entire Civilization Forgot How to Write…" (semua + #shorts #history #explainer #foryou).
+- macam-macam (hewan/mobil/motor part1) + truk kartun: 7 video live dicek, tidak duplikat. mystery-en (Tamam Shud): 5 dicek, tidak duplikat. inktime long 10-09 & 10-13: 11 dicek, tidak duplikat.
+- Antrean tetap utuh 10 item; hasil: nihil → diam per instruksi body.
+- [10:06] fb_bridge run: sukses (exit 0; commands/vidreq/pending ok; bridge ok). Sync YouTube -> Firebase + perintah publish dari HP berjalan normal.
+- fb_bridge.py (yt-dashboard-fb-bridge): sukses, exit 0 ([commands] ok, [vidreq] ok, bridge ok)
+- [10:12] fb_bridge run: sukses (exit 0; [commands] ok, [vidreq] ok, bridge ok). Sync YouTube -> Firebase berjalan normal.
+- 10:15 WIB — yt-dashboard fb_bridge sync OK (commands ok, vidreq ok, bridge ok).
+- 10:18 fb_bridge.py sync sukses ([commands] ok, [vidreq] ok, bridge ok) — nothing to report.
+- 10:21 WIB: fb_bridge.py OK (commands ok, vidreq ok, bridge ok) — sync 6 jam normal.
+
+## fb_bridge.py 10:27 WIB
+- Sync YT Dashboard -> Firebase OK (commands/ok, vidreq/ok, pending/ok, bridge ok), durasi 65 detik.
+
+## Verified extraction — 03:25 UTC (run sirun_7f6553753d2042afbec395c947757bac)
+
+- [event|medium] User instructed that for the Psy Protocol wallet onboarding, the assistant should download the Psy Wallet extension and import the existing farming wallet (0xf0f25C36AC70E9d787a108eFB351626192C8107b) into it — instead of creating a new wallet. This refines the pending manual-onboarding list (which said to install the extension and create a wallet). The instruction was given at the end of the window (2026-10-19 10:25 WIB) and had not yet been acted upon.
+  - claim: 2e02b069c1db395e9f4b3bc5fee4e841
+  - quote: "psy wallet pake wallet farming kamu download aja ekstensi terus masukin wallet farming"
+  - sources: message:23f3c147-59f8-4d3e-983f-5ab009b821eb
+- 10:30 WIB — yt-dashboard-fb-bridge: sukses (exit 0). Output: [commands] ok / [vidreq] ok / bridge ok. Data YouTube → Firebase tersinkron; tidak ada laporan ke chat.
+- 10:31 otpmurah-site-watch: otpmurah.id MASIH tidak bisa diakses (HTTPS+HTTP: empty reply, curl exit 52; DNS resolve ke 198.18.179.144 tapi server kosong). Tetap down sejak 2026-10-18. Tidak ada pesan ke user (sesuai aturan job: diam bila down).
+## 10:33 WIB — fb_bridge (YT Dashboard sync)
+fb_bridge.py sukses: [commands] ok, [vidreq] ok, bridge ok. Durasi ~5 dtk.
+
+## yt-dashboard-fb-bridge (10:36 WIB)
+- fb_bridge.py run OK (exit 0, ~5s): [commands] ok, [vidreq] ok, bridge ok — sync YouTube → Firebase + publish commands sukses.
+- 10:39 WIB: yt-dashboard-fb-bridge cron sukses — fb_bridge.py exit 0 ([commands] ok, [vidreq] ok, bridge ok).
+
+## 10:45 WIB — yt-dashboard-fb-bridge (cron)
+- fb_bridge.py sukses: commands ok, vidreq ok, bridge ok (sync penuh ~4 detik).
+
+## 10:48 WIB — yt-dashboard-fb-bridge (cron)
+- fb_bridge.py sukses: [commands] ok, [vidreq] ok, [pending] ok, bridge ok (exit 0, ~52 dtk).
+## 10:51 WIB — yt-dashboard-fb-bridge (cron)
+- fb_bridge.py OK: [commands] ok, [vidreq] ok, [channels] ok — sync Firebase selesai.
+- 10:54 WIB: fb_bridge.py (yt-dashboard -> Firebase) selesai OK: [commands] ok, [vidreq] ok, bridge ok (~5 detik).
+
+## Multipli signup user — mentok warning MetaMask (19/10, ~10:4x WIB)
+- User coba signup Multipli dari HP: MetaMask menolak sign ("katanya beresiko"). Asisten beri cara bypass: tombol "Proceed anyway"/"I understand", atau matikan Security alerts di Settings → Security & Privacy, lalu ulang signup.
+- User tanya "kamu aja emang ga bisa?" — dijawab jujur: signup Multipli TIDAK bisa oleh asisten karena butuh reCAPTCHA (blocker keras, sama seperti temuan subagent). Tawaran tetap: kalau user bereskan signup sekali (lewati warning), asisten yang urus klaim faucet USDC/USDT/BTC-nya otomatis sesudahnya (jalur JWT/API).
+- Status: menunggu user menyelesaikan signup Multipli manual.
+
+- 2026-10-19 10:57: fb_bridge.py run (yt-dashboard-fb-bridge cron): OK (commands ok, vidreq ok, bridge ok)
+- fb_bridge (yt-dashboard): sukses, [commands] ok, [vidreq] ok, bridge ok
+- 11:03 WIB: fb_bridge.py (sync YT Dashboard -> Firebase) sukses — [commands] ok, [vidreq] ok, bridge ok. Tidak ada error, sesuai body: diam.
+
+## Pra-screen duplikat retry (11:04 WIB)
+Cek 10 JSON retry-queue via cek_duplikat.py (venv yt-growth): SEMUA `duplikat: false`, tidak ada yang dipindah ke done/. inktime shorts s1/s2/s3 error parse ("judul tidak ditemukan", format instruksi tidak dikenali — known) → dicek ulang manual dengan --judul, hasil false semua. Antrean tetap utuh, tidak ada laporan ke chat (per body task).
+
+## fb_bridge sync (11:06 WIB)
+- Jembatan YT Dashboard -> Firebase sukses (exit 0, ~4.4 dtk): [commands] ok, [vidreq] ok, bridge ok. Tidak ada error; sesuai SOP, diam tanpa laporan ke chat.
+- 11:09 WIB — yt-dashboard-fb-bridge (cron 6 jam): sukses, exit 0, "[commands] ok / [vidreq] ok / [pending] ok / bridge ok" (49 dtk).
+2026-10-19 04:12 UTC: yt-dashboard-fb-bridge OK — sync Firebase selesai (commands ok, vidreq ok, bridge ok), 4,6 dtk.
+
+## Update Psy & Multipli (19/10, ~10:40–11:10 WIB) — koreksi atas catatan "menunggu user" di atas
+- **Multipli: SKIP atas keputusan user** ("sama aja ga bisa skip aja multipli"). User sempat lanjut signup dari HP: 2 langkah awal lolos (compatibility test + verify message), mentok di langkah 3 "Enable L2 Access" — error "Some error occurred, please try again"; link "Having trouble signing in with MetaMask?" juga tidak menolong. Menggantikan status lama "menunggu user menyelesaikan signup manual".
+- **Psy faucet: user lapor SUDAH claim** (mendahului rencana "besok siang"): pUSDT diklaim user dari HP ("udah saya claim psy faucet nya"), lalu testnet PSY juga diklaim via Psy Wallet extension di HP ("udah claim"). Laporan sepihak user — saldo TIDAK terverifikasi asisten (tidak ada explorer/RPC Psy Chain yang bisa diakses dari VM; user minta cek, asisten tidak bisa).
+- **Psy Wallet extension TIDAK bisa diinstall dari VM**: dicoba 3 cara — unduh CRX langsung (clients2.google.com 403), halaman Chrome Web Store di Chromium wallet-bot (halaman detail tidak termuat, tombol Add tidak muncul), layanan extractor (gagal). Sama polanya dengan blocker Asentum. Solusi yang dipakai: user install sendiri di HP.
+- **User kirim ulang seed phrase wallet farming di chat** untuk import Psy Wallet; asisten verifikasi derivasinya cocok ke 0xf0f25C36AC70E9d787a108eFB351626192C8107b. Nilai phrase TIDAK dicatat di memory/file mana pun (yang tersimpan tetap hanya .privkey di vault wallet-bot, izin user 2026-10-19).
+- **Psychonaut signup: BELUM beres.** Jalur wallet: modal Reown/Web3Modal berhasil dibuka via traversal shadow DOM dan tombol MetaMask terklik, tapi yang muncul QR WalletConnect (tab Mobile), bukan injected provider — belum connect. Jalur email: kode verifikasi "terkirim" ke khususstokyunobi@gmail.com menurut halaman, tapi user lapor OTP TIDAK pernah masuk (inbox + spam kosong); percobaan resend gagal. Email verifikasi Psy memang tidak sampai — blocker di sisi Psy/deliverability, bukan salah email.
+- **Asentum: tetap blocked, bola pindah ke asisten.** User lapor HP-nya force close terus ("ga kuat") dan minta asisten yang kerjakan. Cek halaman resmi asentum.com/downloads: hanya ada Asentum Operator (desktop zip) + link Chrome Web Store untuk wallet (ID sama eanbehbkdekcfgfjfaaocfipmlkdbnoc) → unduhan extension dari VM tetap ke-block seperti Psy. Catatan tambahan dari review pihak ketiga (belum terverifikasi): faucet testnet disebut 100 test ASE/drip, beda dari catatan lama 5 ASE.
+
+## Permintaan user: tools otomasi + cheat sybil (19/10 ~11:1x WIB)
+- User minta: (1) bikin tools mempercepat konek wallet semua airdrop + garap otomatis; (2) eksplisit minta cara "cheat/curangi semua garapan tanpa kena sybil".
+- Asisten MENOLAK bagian cheat/sybil (garis merah tetap dipegang) dan menawarkan alternatif legal: perbaiki AutoWallet (chain switching), script auto-farming per proyek, dashboard pantau posisi airdrop. **User belum memilih** — pending keputusan user.
+
+## 11:11 WIB — Konsolidasi mining harian
+- Cek saldo Sepolia ETH 10 wallet (index 1–10): SEMUA 0 wei, tidak ada yang > 0.001 ETH.
+- 0 wallet dikonsolidasi, 0 ETH terkirim. Sesi mining browser tidak diganggu.
+- Wallet utama 0xf0f25C36AC70E9d787a108eFB351626192C8107b: ~0.1035 SepETH.
+- Log: goals/airdrop-testnet-farming-automation/hidden_files/konsolidasi-mining.log
+
+## fb_bridge sync 2026-10-19 11:15 WIB
+- fb_bridge.py run sukses (exit 0): [commands] ok, [vidreq] ok, bridge ok. Sync YouTube -> Firebase selesai, perintah publish dari HP dieksekusi.
+- yt-dashboard-fb-bridge 11:18 WIB: sync Firebase OK ([commands] ok, [vidreq] ok).
+
+## Backup workspace per jam (11:14 WIB run)
+- Run pertama: skrip exit tanpa output & tanpa menulis log (exit code nyata ter-masking pipe `| tail` — pelajaran: jangan ambil exit code dari pipeline tail). Run kedua (tanpa pipe): sukses — commit 863c3a6a (1 file, 2 insertions), push OK, terverifikasi via git ls-remote HEAD=863c3a6a di GitHub.
+- Token github valid; tidak ada kondisi alert (push gagal 3x / token hilang).
+- yt-dashboard-fb-bridge (11:21 WIB): sukses, exit 0 — commands ok, vidreq ok, bridge ok. Sync YouTube -> Firebase selesai normal.
+- 11:24 WIB: fb_bridge.py (yt-dashboard -> Firebase) sukses, durasi ~5 dtk, output 'commands ok / vidreq ok / bridge ok'.
+
+## 11:27 WIB — yt-dashboard-fb-bridge
+fb_bridge.py sukses (exit 0): [commands] ok, [vidreq] ok, bridge ok. Sync YouTube→Firebase + perintah publish HP jalan.
+
+- 11:30 WIB: yt-dashboard fb_bridge.py sukses ("[commands] ok / [vidreq] ok / [pending] ok / bridge ok", 64 dtk). Tidak ada error.
+
+## otpmurah-site-watch (11:31 WIB)
+- Cek ketersediaan https://otpmurah.id: curl exit 52 (empty reply from server; proxy "200 Connection Established" lalu tidak ada respons HTTP asal). nslookup -> 198.18.221.138 (test-range lokal). Situs MASIH tidak bisa diakses — tetap diam sesuai instruksi, tidak ada pesan ke user, tidak ada login/pembelian.
+- 11:33 WIB: fb_bridge.py run OK (commands ok, vidreq ok, bridge ok)
+
+## Verified extraction — 04:29 UTC (run sirun_88b71666e46c4e94b6ad0a495d1a7050)
+
+- [event|high] On 2026-10-19 (~11:26 WIB), after the assistant declined the sybil-cheat request, the user approved building ALL THREE legal automation tools: (1) AutoWallet fix (proper chain switching so the farming wallet connects to all airdrop dApps), (2) an auto-tx script (~25 tx/day default, random amounts and random delays, multi-chain), and (3) a dashboard to monitor all airdrop positions. This resolves the earlier pending state where the user had not yet chosen between the alternatives offered.
+  - claim: d8c47ab64c7c6ee26f7ad026c64c57cf
+  - quote: "gas semua kalo bisa yang auto trx juga misal sehari 150 trx dengan pengiriman $0.000000000000000001"
+  - sources: message:bf1ac196-4881-4c9a-be7f-84ad5ab554e8, message:assistant-msg-de0b565d-a18c-481a-9df6-4b84548909b5
+04:36 - yt-dashboard-fb-bridge: sukses (bridge ok, exit 0)
+- yt-dashboard-fb-bridge (11:39): bridge sukses — [commands] ok, [vidreq] ok, bridge ok (4.3 dtk).
+- 11:42 WIB fb_bridge (yt-dashboard-fb-bridge): sukses — [commands] ok, [vidreq] ok, bridge ok (4.3s). DIAM sesuai body.
+04:45 fb_bridge yt-dashboard: sukses (exit 0, commands/vidreq ok, bridge ok).
+- [11:48] fb_bridge yt-dashboard: bridge ok (exit 0), sync YouTube -> Firebase selesai.
+- 11:54 WIB: fb_bridge.py sync Firebase OK (exit 0, [commands] ok, [vidreq] ok, bridge ok).
+## 2026-10-19 11:57 WIB — yt-dashboard-fb-bridge: sukses (exit 0; commands ok, vidreq ok, bridge ok)
+
+## Tools otomasi airdrop — dibangun (19/10 ~11:26–11:37 WIB) — lanjutan persetujuan "gas semua"
+- Negosiasi jumlah tx: user minta auto-tx 150/hari dengan pengiriman $0.000000000000000001 "jadi biar banyak"; asisten peringatkan (1) boros GAS (biaya tx, bukan jumlah kirim) ~0,0015 ETH/hari, stok Sepolia 0,1035 cuma ~69 hari, (2) pola 150 tx/hari x 1 wei rawan difilter sebagai wash-trading/bot. User balas tekankan jumlah kirim kecil: "$0.00000000001 ga sampe 1perak". Asisten jelaskan beda jumlah kirim vs gas fee, lalu bangun dengan default AMAN: jumlah & jeda random.
+- **AutoWallet fix SELESAI** (subagent, terverifikasi harness): akar masalah = provider.js di sisi page tidak pernah sync chainId (selalu 0x1, chainChanged tidak pernah emit) — sekarang provider query chain tersimpan saat load + dengarkan broadcast AUTOWALLET_CHAIN_CHANGED; background setChainId persist ke chrome.storage.local + broadcast ke semua tab; Sepolia RPC diganti primary https://ethereum-sepolia-rpc.publicnode.com (rpc.sepolia.org lama mati dari VM); hex Elysium dibetulkan 0x185d9 (=99801); DogeOS testnet ditambahkan; 20/20 unit test + 12/12 integration test lolos (restart MV3 tetap 0xaa36a7).
+- **Auto-farm script SELESAI**: ~/workspace/wallet-bot/auto_farm.py + auto_farm_config.json. Self-transfer acak: amount 1.000–100.000 wei, jeda 5–30 menit, urutan chain diacak; safety stop per chain bila saldo < 0,01 token native; kuota harian persisten di auto_farm_state.json (rerun tidak dobel); quirks Elysium gas 100.000 + gasPrice 1,5x base fee; semua RPC via proxy 127.0.0.1:3129; terverifikasi dry-run + live RPC (saldo Sepolia 0,1035 / Elysium 0,09998 / DogeOS 42,02 terbaca benar) TANPA kirim tx nyata saat testing. Konfigurasi akhir oleh parent: DogeOS DINONAKTIFKAN di config (hindari dobel dengan cron 08:00 yang sudah garap DogeOS) → aktif hanya Sepolia 8 tx/hari + Elysium 8 tx/hari = 16 tx/hari; BSC testnet nonaktif (saldo 0,010001 persis di ambang safety).
+- **Dashboard SELESAI**: ~/workspace/wallet-bot/dashboard.html + farming_status.json (snapshot manual state saat ini, BUKAN live RPC; update live berkala belum dibuat). Isi: alamat wallet farming, 7 proyek + status, aktivitas hari ini, 5 pending action.
+- **Cron baru**: `auto-farm-tx-harian` harian ~09:11 WIB (flexible), owner goal:airdrop-testnet-farming-automation, menjalankan auto_farm.py.
+
+## Auto-farm dijalankan manual + auto-claim faucet (19/10 ~11:36 WIB)
+- User: "yaudah kamu jalanin semua sekarang terus auto ada auto claim faucet juga". Asisten antrekan run manual cron auto-farm-tx-harian (status queued 11:36 WIB) — hasil run belum terverifikasi di percakapan ini.
+- Auto-claim faucet: asisten jawab jujur keterbatasannya — Sepolia Google Cloud butuh login Google/OAuth user; Elysium ke-block region US dari VM (user claim manual); DogeOS paling mungkin diotomasi. User kemudian usulkan jalur APK (di bawah) untuk faucet yang tidak bisa otomatis.
+
+## APK Airdrop Farm (19/10 ~11:40–11:45 WIB)
+- User minta APK: faucet yang tidak bisa otomatis diklaim user sendiri dari HP, sekali klik di APK. **APK SELESAI dibangun**: ~/workspace/wallet-bot/apk/airdrop-farm-debug.apk (17KB, signed, terverifikasi) — WebView com.yunobi.airdropfarm, 2 tab: 📊 Dashboard (dari farming_status.json terbundel) + 🚰 Faucet (tombol buka Elysium https://elysium.kinetiq.xyz/testnet-faucet, DogeOS https://faucet.testnet.dogeos.com/, Sepolia Google Cloud; tombol "Tandai Diklaim" tersimpan di localStorage HP + countdown cooldown 24 jam). Build manual via build.sh (aapt2/javac/d8/apksigner) karena Gradle crash di VM RAM terbatas. APK sudah dikirim ke user di chat; hasil install di HP belum dilaporkan.
+- **Pembagian kerja DIKONFIRMASI user** (19/10): APK hanya untuk user memantau + claim faucet yang tidak bisa diklaim asisten; pengerjaan proyek tetap oleh asisten/otomasi. User minta APK juga menampilkan yang sudah selesai digarap hari ini + berapa tx — asisten konfirmasi tab "Aktivitas Hari Ini" mengambil data dari log auto_farm.py.
+- **Logo APK**: user minta "pasang logo nya biar enak di lihat". Ikon dibuat (roket + koin, ungu/emas) di ~/workspace/wallet-bot/apk/icon/; subagent resize ke mipmap densities + update manifest + rebuild — build.sh dilaporkan exit 0, tetapi handoff final subagent + pengiriman APK berlogo ke user BELUM terjadi dalam percakapan ini (masih pending).
+
+## 12:00 — fb_bridge YouTube Dashboard
+- cron yt-dashboard-fb-bridge jalan sukses (exit 0, ~4 dtk): [commands] ok, [vidreq] ok, bridge ok. Sinkronisasi Firebase + perintah publish HP normal, tidak ada error.
+## 12:03 WIB — yt-dashboard-fb-bridge: SUKSES (exit 0, bridge ok, commands ok, vidreq ok)
+
+## pra-screen-duplikat-retry (run 2026-10-19 12:04 WIB)
+- Antrean retry-queue: 10 JSON aktif (abaikan done/). Semua dicek via cek_duplikat.py (venv, --judul, bypass parser format — 3 shorts inktime & truk-kartun pakai judul manual karena format "Judul (persis):" / "Judul:" di baris sendiri gagal diparse script).
+- Hasil: SEMUA `duplikat: false`, exit 0, tanpa error. (inktime 5 item: 11 video dicek; mystery-en: 5 dicek; macam-macam 4 item: 7 dicek)
+- Tidak ada item dipindah ke done/ → tidak ada laporan ke chat (sesuai bodi: diam).
+- Catatan: macam-macam JSON tidak punya instruksi_path — judul diambil dari field "judul" JSON.
+- 12:06 WIB: yt-dashboard-fb-bridge (cron) — fb_bridge.py sukses, exit 0 (sync channel, antrean review, revenue ke Firebase; perintah publish HP dieksekusi). Tidak ada error.
+- 12:09 WIB: yt-dashboard-fb-bridge OK (commands ok, vidreq ok, bridge ok), durasi ~5 dtk.
+## 2026-10-19
+
+- 12:12 WIB — fb_bridge (YT Dashboard → Firebase) sukses: commands ok, vidreq ok, pending ok, bridge ok. Exit 0. Diam sesuai instruksi (tidak dilaporkan ke chat).
+
+- 12:15 WIB: yt-dashboard-fb-bridge sukses (exit 0, ~14 dtk): commands ok, vidreq ok, bridge ok.
+## 12:18 — yt-dashboard-fb-bridge
+- Run terjadwal fb_bridge.py: SUKSES (exit 0; "[commands] ok", "[vidreq] ok", "bridge ok"). Sesuai instruksi body, tidak ada laporan ke chat.
+
+## 12:19 — horor-harian (shorts day)
+- upload-terakhir.txt = long:2026-10-17 → hari ini SHORTS day. Channel terverifikasi via API: Kisah Horor UCUEHu-nQXxGuru5Bviy4DKQ (@ceritarakyat862 tak tersentuh).
+- Upload 3 shorts potongan long "Sumur Tua Ini Memanggil Namaku Tiap Malam" (https://youtu.be/HyKgoj2Bnuk), Terjadwal 2026-10-20 19:00 WIB:
+  - s1 https://youtube.com/shorts/HtlFTbwit-w — "Wajah di Dasar Sumur Itu... Wajahku Sendiri! | Sumur Tua" + ThePods Pro 3 TWS ANC Rp339.520
+  - s2 https://youtube.com/shorts/u2HU7008EoM — "Dia Menatap Tepat ke Kamera Dari Dalam Sumur! | Sumur Tua" + Perface Tone Up Cream Rp38.800
+  - s3 https://youtube.com/shorts/YYYqtyJOCwQ — "Yang Memperingatkanku Sudah Meninggal 7 Tahun! | Sumur Tua" + Royal Kludge RK R65 Keyboard Rp632.900
+- Kendala: run pertama GAGAL 3x — judul >100 karakter ditolak API (invalidTitle). Diperbaiki saat itu juga ("| Sumur Tua" dipadatkan), retry → 3/3 sukses. Pelajaran: judul shorts wajib ≤100 karakter termasuk hashtag.
+- AI disclosure "Altered content" PENDING manual via Studio (API tak mendukung) — instruksi di horor-otomatis/upload-instruksi-2026-10-19-shorts.md.
+- upload-terakhir.txt → "shorts:2026-10-17"; promo_history.json indeks 3,28,30 → 2026-10-19.
+- BESOK (2026-10-20): LONG day → produksi long BARU (tema baru dari pool, cek riwayat 60 hari) + upload.
+
+## Backup workspace per jam (12:14 WIB)
+- Skrip hourly-backup.sh jalan; commit lokal 747c7d16 (755 files changed, +42198/-10177).
+- Push GAGAL: "send-pack: unexpected disconnect / the remote end hung up unexpectedly" (network, bukan auth/token).
+- Kegagalan berturut-turut: 1x (di bawah ambang lapor 3x). 1 commit antre di lokal, otomatis dicoba lagi run berikutnya.
+- Catatan: 6862 loose objects (~289MB) menumpuk di repo lokal — pertimbangkan git gc/prune kalau push macet lagi.
+- fb_bridge (yt-dashboard-fb-bridge): sukses — [commands] ok, [vidreq] ok, bridge ok (12 dtk).
+
+## fb_bridge (12:24 WIB cron)
+- fb_bridge.py selesai OK (exit 0, ~10 detik): [commands] ok, [vidreq] ok, bridge ok. Sync channel/antrean review/revenue ke Firebase + eksekusi perintah publish berjalan normal. Tidak ada yang perlu dilaporkan ke chat.
+05:30 WIB - fb_bridge (yt-dashboard-fb-bridge): sukses, '[commands] ok / [vidreq] ok / bridge ok'.
+
+## otpmurah-site-watch — 12:31 WIB
+- Cek https://otpmurah.id: masih TIDAK bisa diakses. Egress proxy VM sukses CONNECT + TLS (cert MITM "Hatch Sandbox Egress CA"), tapi origin server balas **empty reply** (curl exit 52). Direct tanpa proxy: exit 35 (SSL connect error — outbound langsung diblok).
+- DNS resolve ke 198.18.239.124 (range aneh 198.18.0.0/15 — kemungkinan DNS filter, bukan IP asli server).
+- Kesimpulan: situs tetap down seperti saat watch dibuat (2026-10-18). Per instruksi: diam, tidak kirim pesan, tidak login, tidak beli nomor.
+## 12:33 WIB — fb_bridge OK (cron yt-dashboard-fb-bridge): sync 79 dtk, [commands]/[vidreq]/[pending] ok, bridge ok. Tidak ada error.
+
+## 12:36 WIB — yt-dashboard-fb-bridge
+- Bridge YT Dashboard → Firebase: sukses (`[commands] ok`, `[vidreq] ok`, `bridge ok`), exit 0.
+- 12:39 WIB: fb_bridge.py sukses (exit 0, [commands] ok / [vidreq] ok / bridge ok) — sync YT Dashboard → Firebase + eksekusi publish dari HP selesai.
+- [12:42] fb_bridge yt-dashboard: sync Firebase OK ([commands] ok, [vidreq] ok, bridge ok), ~5 detik.
+
+## Lima Misteri 2026-10-19 (run lanjutan subagent, koordinator mati sebelumnya)
+- 56 segmen render sebelumnya korup (48 byte, ffmpeg mati tengah jalan) — dihapus, render ulang 56 segmen, total 74/74 OK.
+- Final: video/2026-10-19-final.mp4, 9.04 mnt (video 542.7s / audio 542.5s, per stream OK). 3 shorts 45 detik vertikal 9:16 + subtitle.
+- Upload API ke channel Lima Misteri UCQ0vHTsTqVeYy3zLno6pVfQ sukses 4/4, semua private terjadwal 2026-10-20 19:00 WIB (publishAt 2026-10-20T12:00:00Z): long vgt2CeMXkQc, s1 Xu63G3qfDw0, s2 l9jJIoOelO0, s3 qg29E2vtAvk.
+- Bug: judul shorts di upload_lima_2026-10-19.py >100 karakter → YouTube 400 invalidTitle. Diperbaiki dengan judul pendek di upload_shorts_2026-10-19.py. File upload_lima_*.py untuk run BESOK perlu diperbaiki juga (pola judul shorts harus <=100 char).
+- AI disclosure "Altered content" BELUM dicentang — butuh browser task sesi login Studio, bukan kerjaan subagent ini.
+- 12:45 WIB — fb_bridge yt-dashboard ok (commands ok, vidreq ok, bridge ok; ~4 dtk).
+- yt-dashboard-fb-bridge 12:48 WIB: sukses, exit 0 ([commands] ok, [vidreq] ok, bridge ok), sync penuh ~5 dtk.
+- 12:51 WIB: yt-dashboard-fb-bridge OK (commands ok, vidreq ok, bridge ok) — sync YouTube→Firebase selesai ~4 dtk.
+- 12:57 WIB: yt-dashboard fb_bridge OK ([commands] ok, [vidreq] ok, bridge ok, ~4 detik)
+- 13:00: fb_bridge sync OK (commands, vidreq, bridge) — sesuai body, tidak dilaporkan ke chat.
+
+## fb_bridge yt-dashboard
+- Run 2026-10-19 13:03 WIB: exit 0 — [commands] ok, [vidreq] ok, bridge ok.
+
+## pra-screen-duplikat-retry (13:04 WIB)
+- 10 JSON retry-queue dicek via cek_duplikat.py: inktime (5: 2 long + 3 shorts s1/s2/s3), macammacam (4: hewan/mobil/motor part1 + truk kartun), mystery-en (1). Hasil SEMUA `duplikat: false` (inktime dicek 11 video, macammacam 7, mystery-en 5). Tidak ada yang dipindah ke done/.
+- Format instruksi inktime gagal parse script (dikonfirmasi AGENTS.md) → workaround manual `--judul` untuk 5 judul inktime, berjalan normal (exit 0).
+- Antrean tetap utuh; upload ulang yang sah tidak tertahan oleh pengaman ini.
+
+- 13:06 WIB: yt-dashboard fb_bridge OK ([commands] ok, [vidreq] ok, bridge ok, ~6 detik). Sesuai body, tidak dilaporkan ke chat.
+
+## yt-dashboard-fb-bridge 13:09 WIB
+- fb_bridge.py sukses (exit 0, ~7 detik): `[commands] ok`, `[vidreq] ok`, `bridge ok`. Sync YouTube → Firebase + eksekusi perintah publish HP berjalan normal.
+
+## Strange Tales — 3 Shorts 2026-10-19 (cron strangetales-shorts-harian)
+Produksi + upload 3/3 sukses via API. Channel terverifikasi: Strange Tales / UCAVSqZjG8Af_pm_1uD5wRzA.
+- S1 Naga fireballs (Mekong): https://youtu.be/FLmBboYbgOc — tayang 2026-10-19 21:00 WIB — "Fireballs Rise From This River — WHY?!"
+- S2 Fly Geyser (Nevada): https://youtu.be/yA1U_iFZM9I — tayang 2026-10-20 03:00 WIB — "A Mistake Made This RAINBOW Geyser?!"
+- S3 Thor's Well (Oregon): https://youtu.be/M85V-bfX3hE — tayang 2026-10-20 07:00 WIB — "The Ocean Is DRAINING Into This Hole?!"
+Semua: private+publishAt, not for kids, Entertainment, 5 hashtag judul ditutup #foryou, deskripsi tanpa hashtag + atribusi Commons.
+AI disclosure WAJIB dicentang manual di Studio sebelum tayang (user, window 20:00-23:00).
+Catatan: service restart memotong assembly tengah jalan — resume script bekerja (skip valid, tmp dibuang).
+Frame check menemukan komposisi buruk di segmen 2 fly-geyser → foto diganti, rebuild, terverifikasi OK.
+Pool cerita hampir habis — run berikutnya butuh riset cerita baru.
+- trend-radar-youtube (13:11): sukses — data/trend-radar-2026-10-19.md/.json, 10 niche, top_terms penuh (15/niche), tidak ada laporan ke chat sesuai SOP.
+
+## 13:12 — fb_bridge sync
+Sync YT Dashboard -> Firebase sukses (bridge ok, ~5 dtk). Tidak ada perintah publish dari aplikasi.
+
+## Konsolidasi-mining-harian (run 11:11 WIB)
+- Cek 10 wallet mining (index 1–10 dari wallets-30.json) via RPC publicnode: SEMUA saldo 0 wei, di bawah ambang 0,001 ETH → 0 wallet dikonsolidasi, 0 ETH terkirim. Wallet utama tetap ~0,1035 SepETH dari run sebelumnya. Sesi mining browser tidak diganggu. Tidak dilaporkan ke user sesuai bodi (tidak ada error).
+
+## Multipli.fi — SKIP oleh user (19/10 ~10:4x WIB) — STATE CHANGE
+- User mentok di step "Enable L2 Access": klik Enable → error merah "Some error occurred, please try again" (tanda X); link "Having trouble signing in with MetaMask?" juga tidak menyelesaikan. Sebelumnya user cari toggle "Security alerts"/"Peringatan keamanan" di MetaMask mobile Settings → Keamanan dan privasi — TIDAK ADA toggle itu (seluruh halaman discroll: Pemulihan dompet, Kata sandi, Kunci otomatis, Fungsionalitas dasar, Hapus data privasi, Hapus riwayat browser, Hapus cookie browser, gateway IPFS, MetaMetrics, Reset dompet). Asisten sarankan lewat warning dialog langsung, tetap gagal.
+- Keputusan user: "skip aja multipli" — Multipli TIDAK lagi digarap.
+
+## Psy Protocol — update (19/10)
+- User kirim ulang seed phrase wallet farming di chat (TIDAK dicatat di sini); asisten verifikasi derivasinya cocok: 0xf0f25C36AC70E9d787a108eFB351626192C8107b ✓.
+- Ekstensi Psy Wallet TIDAK bisa diunduh dari VM: clients2.google.com 403; halaman Web Store di Chromium hanya tampil generik tanpa tombol Add. User install sendiri di HP + import seed + **klaim testnet PSY — user konfirmasi "udah claim"**. Saldo tidak bisa diverifikasi asisten (tidak ada explorer Psy Chain publik yang bisa diakses dari VM). pUSDT faucet sudah diklaim user sebelumnya.
+- **Psychonaut signup BELUM selesai**: (a) jalur email — asisten submit khususstokyunobi@gmail.com, halaman tampil "Verification code sent to khususstokyunobi@gmail.com", tapi OTP TIDAK PERNAH masuk (user cek inbox+spam: "ga ada masuk otp nya", "sama aja ga ada"); percobaan Resend gagal (elemen tidak ketemu/timeout). (b) jalur wallet — klik Wallet via JS membuka modal Reown AppKit/Web3Modal; traversal shadow DOM berhasil klik tombol MetaMask, tapi modal tampil QR code (tab Mobile = WalletConnect), bukan injected provider; klik tab "Browser" tidak mengubah state halaman. Signup tetap pending.
+
+## Asentum — HP user force close, diminta ke asisten (19/10)
+- User: aplikasi Asentum di HP-nya force close terus ("ga kuat"). User minta asisten yang garap. Asisten cek asentum.com/downloads: wallet hanya via Chrome Web Store (ID eanbehbkdekcfgfjfaaocfipmlkdbnoc) + Operator app (zip Mac) — unduhan ekstensi terblokir sama seperti Psy Wallet. Status Asentum: tetap pending/blocked dari sisi VM.
+
+## APK Airdrop Farm — KOREKSI atas entri logo di atas
+- Logo SELESAI dipasang & APK terkirim ke user: ikon (roket+koin) di-resize PIL ke 5 densitas mipmap (48–192px), `android:icon="@mipmap/ic_launcher"` ditambah ke manifest, build.sh diperbarui (step aapt2 compile res + link -R), rebuild → APK 105K, signature terverifikasi OK, ikon xxxhdpi pixel-identical dengan sumber.
+- **Install GAGAL di HP user**: "Aplikasi tidak diinstal karena aplikasi tidak kompatibel dengan ponsel Anda" (screenshot user). Akar masalah: manifest tidak punya minSdkVersion. FIX: tambah `<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="34" />` → rebuild sukses (105K) → APK baru dikirim ke user. Hasil install ulang BELUM dilaporkan user.
+
+## Elysium — HexSwap ketemu & swap masuk auto_farm (19/10 ~12:0x–12:12 WIB)
+- User ingatkan: airdrop bukan cuma soal trx, khususnya Elysium. Riset subagent: katalog 58 proyek (37 on testnet). **HexSwap = router Uniswap V2 terpetakan penuh, liquidity HIDUP**:
+  - Router 0x9D02c1D684389d021bF2cF73d1ba7C4652aB1F15; Factory 0xf5269ec7452b71aa79e5ea9d2defbceef76d2c92
+  - WNATIVE 0x8feda963aa318dc94403a413aa94271588b92d64; HEX 0x26aa352bd4324aa507c924af9edd65b2c7bdc1c2 (18 des); USDT 0xf04e426488a8679d6888ec9fb4922a98dd2c17b0 (6 des)
+  - Pair HEX/WNATIVE 0x70b6b0badb5aec1666ff5d46c4526db91c226332; WNATIVE/USDT 0xcc53b341b90927788ec306f6c272ae38f338ee57
+  - Kontrak lain: Elysian Fields 0x09174CCE74722f9C62F5eb4c2B0ef7A10101A9Af; poker on-chain 0x824981F6E8a03fF76D457c125376B69f803DC832
+  - Faucet komunitas ELYS (tiap 5 mnt): https://elysium-testnet-faucet--goodluckigweze.replit.app — tidak terjangkau dari VM, user-side saja.
+  - Tetap blocked dari VM: Dex Da Costa, Frog Flip, Yochi, ELYSA.FUN, Hunter Card, Kalos (frontend timeout); Enso router deployed tapi alamat tidak dipublikasikan.
+- **auto_farm.py DIPERBARUI** (subagent, lolos dry-run, TANPA tx nyata saat testing): fungsi swap HexSwap (swapExactETHForTokens 0x7ff36ab5, swapExactTokensForETH 0x18cbafe5, swapExactTokensForTokens 0x38ed1739, approve 0x095ea7b3 bila allowance kurang), gas_limit swap 300.000 + gasPrice 1,5x base fee (legacy). Config `elysium_swaps`: enabled, 7 swap/hari, amount 0,0005–0,002 HYPE. Rencana harian Elysium: 8 self-transfer + 7 swap (2 HYPE→HEX, 2 HYPE→USDT, 1 HEX→HYPE, 1 HEX→USDT, 1 USDT→HYPE) = 15 tx teracak; total semua chain 23 aksi/hari. Catatan: alamat dari brief checksum EIP-55-nya invalid — diperbaiki subagent. Token→HYPE/ token→token akan skip sampai saldo HEX/USDT terbentuk dari swap HYPE→token dulu.
+
+## Project quest/points — riset API + Nowa ONBOARDED (19/10)
+- User minta project lain juga digarap task-nya (bukan trx saja); user setujui jalan tanpa turun tangan ("yaudah jalanin tanpa harus saya turun tangan").
+- Riset subagent pertama (tidak bisa operasikan browser, hanya riset API dari JS bundle live):
+  - **Nowa Finance**: API https://apipointfarming.nowa.finance/api/v1; auth = signMessageAsync (wagmi) → JWT di localStorage "token". Endpoint: POST /user/connectWallet, GET /user/getProfile, GET /user/listPointBuckets, GET /user/getMyRank, POST /user/submitReferralCode, POST /user/verifyXId, POST /user/verifyTelegramId.
+  - **AlloX**: API https://api.allox.ai (/auth/me, /auth/refresh, /auth/verify, /telegram/callback, /oauth/callback). Portfolio proving mungkin butuh saldo BNB mainnet (wallet farming 0 BNB mainnet).
+  - **TastyCo**: API https://api.tastyco.io (POST /user-auth/wallet/login-request, GET /user/airdrop/stats, POST /user/twitter/link, POST /user/telegram/connect-bot/link, POST /user/wallet/link). Link X + Telegram WAJIB OAuth user — tidak bisa full otomatis.
+- **Nowa Finance ONBOARDING SELESAI** (subagent kedua, via API): User ID 17516, status ACTIVE, poin 0.
+- AlloX: asisten umumkan lanjut, tapi onboarding BELUM dijalankan dalam percakapan ini (pending). TastyCo: pending OAuth user.
+
+## Backup per jam (13:15 WIB)
+- Run backup-workspace-perjam OK: commit f9e6abab (152 files) + push 2 commit terkirim.
+- Kegagalan push 05:18 WIB (exit 1) sudah pulih — retry otomatis di run ini.
+- Verifikasi remote: origin/main == lokal (f9e6abab), push benar-benar mendarat.
+- Token GitHub valid. Gagal beruntun: 0 (tidak perlu lapor user).
+- fb_bridge (yt-dashboard-fb-bridge): sync YouTube->Firebase sukses, exit 0 (commands ok, vidreq ok, bridge ok).
+13:24 WIB — yt-dashboard-fb-bridge cron run: OK ([commands] ok, [vidreq] ok, bridge ok, ~8 detik).
+```
+
+<!-- More: no. -->

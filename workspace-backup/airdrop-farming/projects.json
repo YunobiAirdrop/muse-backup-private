@@ -132,6 +132,7 @@
       "id": "multipli",
       "name": "Multipli.fi",
       "raised": "unknown",
+      "status": "CANCELLED by user 2026-10-19 — skip, do not farm",
       "steps": [
         "Claim USDC, USDT, BTC on BSC testnet",
         "Stake USDT (Max, Confirm, approve)",

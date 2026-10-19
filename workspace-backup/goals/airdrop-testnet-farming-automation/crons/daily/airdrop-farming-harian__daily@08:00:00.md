@@ -31,9 +31,9 @@ LANGKAH:
 3. Baca ringkasan JSON dari output. Untuk proyek yang QUEUED, lakukan interaksi dApp via browser task (MAKSIMAL 5-10 tx/proyek, hemat gas):
    - GTE/MegaETH: swap, earn, launch token di newton.xyz (pakai gas secukupnya)
    - Sahara AI: daily tasks (Gobi bear, blog via Galxe, kirim test token, claim shards)
-   - Multipli: claim USDC/USDT/BTC, stake, earn tORBS
    - Mitosis: deposit, vault, trading
    Untuk proyek BLOCKED: JANGAN coba faucet captcha.
+   CATATAN: Multipli.fi DIBATALKAN user 2026-10-19 — jangan disentuh/ditawarkan lagi.
 4. Private key wallet TIDAK ada di worker ini. Untuk transaksi yang butuh
    signing, ambil private key dari Secure Vault (jalur yang sudah disetujui user).
    JANGAN tulis private key / seed phrase ke file, log, atau chat.

@@ -144,8 +144,30 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
         }
 
         case 'personal_sign':
-        case 'eth_sign':
-          throw new Error('AutoWallet: message signing not implemented yet.');
+        case 'eth_sign': {
+          // params: [message, address] or [address, message] depending on client
+          // personal_sign: [messageHex, address], eth_sign: [address, messageHex]
+          let messageHex = params[0];
+          if (params[1] && params[1].toLowerCase() === FARMING_ADDRESS.toLowerCase()) {
+            // params[0] is address, params[1] is message (eth_sign order)
+            messageHex = params[1];
+          } else if (params[0] && params[0].toLowerCase() === FARMING_ADDRESS.toLowerCase()) {
+            // params[0] is address, params[1] is message
+            messageHex = params[1];
+          }
+          // If messageHex is not hex, it's already handled above; ensure 0x prefix
+          const signResp = await fetch('http://127.0.0.1:18743/sign_message', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: messageHex })
+          });
+          const signData = await signResp.json();
+          if (signData.error) throw new Error('AutoWallet: sign failed: ' + signData.error);
+          result = signData.signature;
+          // Ensure 0x prefix
+          if (!result.startsWith('0x')) result = '0x' + result;
+          break;
+        }
 
         case 'eth_signTypedData':
         case 'eth_signTypedData_v3':

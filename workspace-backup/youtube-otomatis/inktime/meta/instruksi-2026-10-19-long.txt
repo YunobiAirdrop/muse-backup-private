@@ -1,0 +1,89 @@
+INSTRUKSI UPLOAD — InkTime (@InkTime-d3t) — LONG VIDEO
+Tanggal produksi: 2026-10-19 | Slot: Terjadwal BESOK 2026-10-20 07:00 WIB (= 2026-10-19 19:00 US Eastern, prime time USA)
+
+=== 0. VERIFIKASI CHANNEL DULU (WAJIB, SEBELUM UPLOAD) ===
+- Buka YouTube Studio. PASTIKAN channel aktif = "InkTime".
+- Verifikasi via CHANNEL ID (bukan cuma nama!): URL Studio HARUS mengandung
+  UCoZl5OaqjXSVkE4S96RY8_g
+  Contoh: https://studio.youtube.com/channel/UCoZl5OaqjXSVkE4S96RY8_g
+- Kalau ID tidak cocok -> JANGAN upload, hentikan dan laporkan.
+- PENTING: sesi browser sudah login & persisten (terverifikasi 13 Okt).
+  JANGAN login ulang / JANGAN ubah setelan akun apa pun. Kalau ketemu halaman
+  login Google -> BERHENTI, laporkan (jangan isi password).
+
+=== 1. UPLOAD ===
+- Upload sebagai TIDAK PUBLIK (Unlisted) dulu, rapikan metadata, baru ubah ke "Terjadwal" 2026-10-20 07:00 WIB.
+- File video: /home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-19-long.mp4
+  Durasi: ~8:12 (492.0 detik), 1920x1080, 30fps, ada video+audio (voiceover EN miles + bumper suara owner).
+- AI DISCLOSURE: WAJIB centang "Altered content" (Yes, content is altered/AI-generated).
+- JANGAN set "made for kids".
+- KOMENTAR WAJIB ON: Details -> Show more -> Comments -> set EKSPLISIT "Allow all comments" (jangan andalkan default).
+- Izinkan embedding: YA. Lisensi: Standard YouTube. Auto-chapters: ON.
+- Bahasa video: English. Kategori: Education.
+- Auto-dubbing: aktifkan EN -> ID dan EN -> ES.
+- Masukkan ke playlist "Ancient History" (buat bila belum ada).
+
+=== 2. JUDUL (FINAL, tanpa hashtag untuk long) ===
+The Day the Sun Didn't Rise: The Tambora Eruption of 1815
+
+=== 3. DESKRIPSI (template 6 bagian — paste apa adanya) ===
+In 1815, a mountain in Indonesia exploded in the most powerful eruption in recorded human history — and for three days, the sun did not rise over parts of Southeast Asia. A year later, it snowed in July in America. This is the story of Tambora: the eruption that erased a kingdom, froze a summer, wrote Frankenstein, and may have helped invent the bicycle.
+
+Chapters:
+0:00 Intro - The Day the Sun Didn't Rise
+0:02 The day the sun did not rise
+0:52 Sumbawa, 1815
+1:31 The mountain exploded
+2:16 A culture erased
+3:03 A veil around the Earth
+3:50 1816: the year without a summer
+4:36 A volcano wrote Frankenstein
+5:20 Solved from ice and trees
+6:18 Ripples: cholera and the bicycle
+7:10 History's biggest author
+
+What fascinates me most is how invisible it all was: nobody in 1816 knew why the sun was dim. They just lived through it — and wrote monsters, and rioted for bread, and invented new ways to move. If stories about the hidden gears of history are your thing, subscribe to InkTime.
+
+Watch next: our video "The Library of Alexandria: What We Actually Lost" — what we actually lost when the ancient world's greatest collection of knowledge faded away (link dari tab Konten channel ini). Some losses are loud, like Tambora. Some are silent.
+
+Sources:
+- Stothers, R.B. (1984). The Great Tambora Eruption in 1815 and Its Aftermath. Science, 224(4654), 1191-1198. doi:10.1126/science.224.4654.1191
+- Oppenheimer, C. (2003). Climatic, environmental and human consequences of the largest known historic eruption: Tambora volcano (Indonesia) 1815. Progress in Physical Geography, 27(2), 230-259.
+- Self, S., Gertisser, R., Thordarson, T., Rampino, M.R., & Wolff, J.A. (2004). Magma volume, volatile emissions, and stratospheric aerosols from the 1815 eruption of Tambora. Geophysical Research Letters, 31(20).
+- Wood, G.D. (2014). Tambora: The Eruption That Changed the World. Princeton University Press.
+- Klingaman, W.K. & Klingaman, N.P. (2013). The Year Without Summer: 1816 and the Volcano That Darkened the World and Changed History. St. Martin's Press.
+- Stommel, H. & Stommel, E. (1983). Volcano Weather: The Story of 1816, the Year Without a Summer. Seven Seas Press.
+
+#history #ancienthistory #explainer #tambora #butifyourcloseyoureyesmeme #foryou
+
+=== 4. TAGS (20) ===
+tambora eruption, mount tambora, 1815 eruption, year without a summer, 1816, volcanic eruption, largest eruption in history, sumbawa, frankenstein volcano, mary shelley, history documentary, whiteboard explainer, ancient history, volcano documentary, cholera pandemic, history of science, lord byron darkness, turner sunsets, indonesia history, InkTime
+
+=== 5. THUMBNAIL (Test & Compare — upload 3, biarkan YouTube uji) ===
+Utama:   /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-19.jpg    ("THE SUN DIED")
+Varian 2: /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-19-v2.jpg ("1816: NO SUMMER")
+Varian 3: /home/hatch/workspace/youtube-otomatis/inktime/video/thumb-2026-10-19-v3.jpg ("DARKNESS AT NOON")
+
+=== 6. SETELAH METADATA RAPI ===
+- End screen: 1 video spesifik (video long "The Library of Alexandria: What We Actually Lost") + 1 elemen playlist. Verbal pitch: "what we actually lost when the ancient world's greatest collection of knowledge faded away — some losses are loud, like Tambora, some are silent."
+- Set "Terjadwal": 2026-10-20 07:00 WIB.
+- Pinned comment (paste setelah tayang):
+  "Snow in July? A volcano writing Frankenstein? What blows YOUR mind most about Tambora — and what's the wildest ripple effect in history you know? Chapters in the description."
+- Review akurasi auto-caption (perbaiki istilah: Tambora, Sumbawa, Raffles, Sanggar, Lombok, Stothers, Oppenheimer, Rampino, Frankenstein, Byron, draisine bila salah).
+
+=== 7. CATATAN PRODUKSI ===
+- Bahasa: English | Voiceover: TTS avocado_v2:miles | Persona: "Pak Guru Ink"
+- Visual: 10 gambar sketsa whiteboard (portrait 1280x1920, fit-height + white pad ke 1920x1080) + draw-reveal wipe kiri-ke-kanan + caption terbakar + film grain (anti-AI look). Gambar beat 1 + thumbnail utama dicek visual — sesuai narasi.
+- AI clips: TIDAK DIPAKAI — media.generate_video region-blocked 403 (aturan tetap: jangan retry).
+- Assembly: TWO-PASS (pelajaran 2026-10-18) — pass 1 segmen still-image per beat -preset ultrafast TANPA fps filter; pass 2 concat demuxer. Video concat pas 492.03 vs 492.04.
+- Audio: concat demuxer -c copy menghasilkan 535.42 dtk (SALAH — quirk mp3); diperbaiki dengan re-encode libmp3lame -> 492.03 dtk. Pelajaran: untuk mp3 TTS, concat audio SELALU re-encode, jangan -c copy.
+- Bumper suara owner (bumper-inktime.wav, 4.59 dtk) diselipkan di jeda natural antara beat 5 dan 6 (~3:50), dengan kartu putih + teks "InkTime".
+- Naskah: 1400 kata (10 beat), hook 3 detik cold open ("the sun never rises"), pertanyaan pancing komentar di detik pertama, 3 kalimat refleksi narator, 3 jeda dramatis.
+- File final: /home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-19-long.mp4 (492.0 dtk, h264+aac, terverifikasi per-stream).
+- CTA: verbal + overlay "SUBSCRIBE!" 3 dtk di beat 5 (~3:03) + CTA akhir + pitch end-screen ke video Alexandria.
+- Komentar: pastikan ON. AI disclosure: WAJIB centang.
+
+=== 8. JIKA KENA "BATAS UPLOAD HARIAN TELAH TERCAPAI" ===
+- BERHENTI, jangan retry. Tulis antrean JSON ke:
+  /home/hatch/workspace/youtube-otomatis/retry-queue/inktime-2026-10-19.json
+  Format: {"channel":"inktime","video_path":"/home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-19-long.mp4","instruksi_path":"/home/hatch/workspace/youtube-otomatis/inktime/meta/instruksi-2026-10-19-long.txt","slot_target":"2026-10-21 07:00 WIB","gagal_pada":"<ISO WIB>","sebab":"Batas upload harian telah tercapai"}

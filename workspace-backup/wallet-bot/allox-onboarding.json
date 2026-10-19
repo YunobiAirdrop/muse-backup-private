@@ -1,0 +1,24 @@
+{
+  "site": "https://app.allox.ai",
+  "farming_wallet": "0xf0f25C36AC70E9d787a108eFB351626192C8107b",
+  "status": "infrastructure_ready_site_flaky",
+  "onboarded_at": "2026-10-19T13:30:00+07:00",
+  "findings": {
+    "wallet_connection": "WORKS - AutoWallet connects, address 0xf0f25C...107b shown as connected",
+    "auth_flow": "SIWE (Sign-In with Ethereum) - requires personal_sign",
+    "blocker_fixed": "AutoWallet now supports personal_sign/eth_sign via sign_server.py /sign_message endpoint",
+    "sign_server": "Running on 127.0.0.1:18743, /sign_message tested and working",
+    "site_reliability": "FLAKY - page loads intermittently, networkidle never fires (continuous polling), blank pages occur"
+  },
+  "points": {
+    "totalPoints": "unknown - login not completed due to site flakiness"
+  },
+  "bnb_balance_issue": "Farming wallet has 0 BNB mainnet. Portfolio proving may require on-chain holdings. Documented as potential limitation.",
+  "next_steps": [
+    "Retry login when site is more stable",
+    "The message signing infrastructure is now ready for any SIWE-based dApp",
+    "Consider funding small BNB amount if portfolio proving requires it"
+  ],
+  "api_base": "https://api.allox.ai",
+  "reward": "Points → $ALLOX confirmed"
+}
