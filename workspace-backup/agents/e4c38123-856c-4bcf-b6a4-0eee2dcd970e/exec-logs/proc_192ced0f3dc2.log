@@ -1,8 +1,0 @@
-Clicking Switch to Sepolia...
-Chain after switch: 0x1
-Clicking Faucet...
-faucet: Locator.click: Timeout 30000ms exceeded.
-Call log:
-  - waiting for locator("text=Faucet 10,000 pUSDT").first
-    - locator resolved to <button disable
-done

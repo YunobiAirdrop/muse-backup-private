@@ -1,5 +1,0 @@
-goto: Page.goto: net::ERR_TIMED_OUT at https://yochigg.xyz/
-Call log:
-  - navigating t
-Title: Loading https://yochigg.xyz/
-URL: chrome-error://chromewebdata/
