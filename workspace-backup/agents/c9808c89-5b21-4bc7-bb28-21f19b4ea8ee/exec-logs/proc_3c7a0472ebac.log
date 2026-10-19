@@ -1,0 +1,11 @@
+[commands] ok
+[vidreq] ok
+FB PUT state/revenue: RemoteDisconnected (coba 1/3)
+FB PUT state/revenue: RemoteDisconnected (coba 2/3)
+FB PUT state/revenue: RemoteDisconnected (coba 3/3)
+[revenue] gagal (RuntimeError: fb state/revenue gagal 3x: Remote end closed connection without response)
+FB PUT state/revenue: RemoteDisconnected (coba 1/3)
+FB PUT state/revenue: RemoteDisconnected (coba 2/3)
+[revenue] ok
+[blogs] ok
+bridge ok

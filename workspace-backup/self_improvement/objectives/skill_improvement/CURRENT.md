@@ -1,7 +1,7 @@
 ---
 objective_id: skill_improvement
-run_id: sirun_f404001b417b4149a9742474e14302d8
-created_at: 2026-10-18T00:39:09.221809271+00:00
+run_id: sirun_0cc8809eb14a488a88b7c843b27123d0
+created_at: 2026-10-19T00:57:44.873558039+00:00
 card_id: skill_improvement
 worker_outcome: insufficient
 ---
@@ -18,4 +18,4 @@ is a framework-owned projection only.
 - Request origin: internal.self_improvement
 - Cadence: daily
 - Worker outcome: insufficient
-- Subagents spawned: 1
+- Subagents spawned: 2

@@ -159,6 +159,14 @@
       "modified_ms": 1791850316665,
       "version": "2021072d6182df81f3678ebda338c66b3bc67562c1219103a24f62367e01967e",
       "source_url": "https://aktualtangerang.com/wp-content/uploads/2025/10/demo-buruh.jpg"
+    },
+    "fdb57f9efbbf325d66374b1d03ef7c0fdddf5cc7566baaa6541d9e4c67932536": {
+      "path": "workspace/feed/media/3p/9e5145b89ecf5a22754418d898bebbc3ccfb396b7804a86344c3e4a08bd78fcf/hero.jpg",
+      "mime_type": "image/jpeg",
+      "size_bytes": 142393,
+      "modified_ms": 1792368915403,
+      "version": "701cccdd0357f3a84a3be714158a00ba51acb92b74e10b8fa3e386af70855cb3",
+      "source_url": "https://imagedelivery.net/H6_s_Eb_ylTWnSEV3HlmYQ/prd/d804e48f-88cc-4680-b32f-9d855e82b3a9/public"
     }
   }
 }

@@ -1,9 +1,9 @@
 ---
 objective_id: alignment
-run_id: sirun_d5209058e05c44b9adf9448677c1be1b
-created_at: 2026-10-18T00:50:27.539404035+00:00
+run_id: sirun_3e4c069c600c4d71ad8e44146eaa1ea4
+created_at: 2026-10-19T00:37:44.592747969+00:00
 card_id: alignment_nightly_reflection
-worker_outcome: insufficient
+worker_outcome: changed
 ---
 
 # Alignment
@@ -14,8 +14,8 @@ is a framework-owned projection only.
 
 ## Run
 
-- Reason: nightly coherence: light derived alignment pass
+- Reason: nightly coherence: raw relationship reflection
 - Request origin: internal.self_improvement
 - Cadence: daily
-- Worker outcome: insufficient
-- Subagents spawned: 1
+- Worker outcome: changed
+- Subagents spawned: 2
