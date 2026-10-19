@@ -85,6 +85,11 @@ def main():
                 "thumb": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
             }
         time.sleep(0.3)
+    # JANGAN timpa Firebase bila scan gagal total (rate limit) — pertahankan data lama
+    if not review:
+        # cek apakah ini kegagalan atau memang kosong: hitung channel yang berhasil dibaca
+        print("WARNING: 0 video — kemungkinan rate limit, Firebase TIDAK ditimpa", file=sys.stderr)
+        return
     # tulis ke Firebase
     payload = json.dumps({"updated_at": datetime.now(timezone.utc).isoformat(), "videos": review}).encode()
     url = f"{FB_DB}/yt/review.json?auth={FB_AUTH}"

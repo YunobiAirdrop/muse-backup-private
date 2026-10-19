@@ -1,0 +1,536 @@
+{
+ "empires-en/RNO1dekoFMc": {
+  "black_segs": [],
+  "silence_3s": 24,
+  "mean_vol": "-40.7"
+ },
+ "empires-en/-pU-ETEtaJs": {
+  "black_segs": [],
+  "silence_3s": 2,
+  "mean_vol": "-43.7"
+ },
+ "empires-en/mNb8Dz2S7TE": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-35.8"
+ },
+ "empires-en/K8M3w1b6aQU": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-34.7"
+ },
+ "empires-en/5JlDQfx5AA8": {
+  "deleted": true
+ },
+ "history-en/sPVuv89agqs": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-29.3"
+ },
+ "history-en/gAmKDZ_b4Fg": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.7"
+ },
+ "history-en/HZv75KwZIh8": {
+  "black_segs": [],
+  "silence_3s": 1,
+  "mean_vol": "-29.1"
+ },
+ "history-en/OUqXvjS37ug": {
+  "black_segs": [],
+  "silence_3s": 4,
+  "mean_vol": "-28.7"
+ },
+ "history-en/KjhNfeUDgIA": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-29.3"
+ },
+ "horor/u2HU7008EoM": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-22.9"
+ },
+ "horor/YYYqtyJOCwQ": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-21.4"
+ },
+ "horor/HtlFTbwit-w": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.8"
+ },
+ "horor/HyKgoj2Bnuk": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.4"
+ },
+ "horor/aIsrA8upGUc": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.6"
+ },
+ "horror-en/G8rB-4qSHJI": {
+  "black_segs": [
+   [
+    562.733333,
+    3.7
+   ],
+   [
+    570.666667,
+    5.7
+   ],
+   [
+    579.333333,
+    4.7
+   ],
+   [
+    585.333333,
+    3.5
+   ],
+   [
+    589.1,
+    55.0
+   ]
+  ],
+  "silence_3s": 0,
+  "mean_vol": "-27.4"
+ },
+ "horror-en/QK20hlM-0Yo": {
+  "black_segs": [],
+  "silence_3s": 3,
+  "mean_vol": "-35.4"
+ },
+ "horror-en/tk7EqZoscGs": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-34.4"
+ },
+ "horror-en/7rBkdTLLXr8": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-34.3"
+ },
+ "horror-en/QdIQtEmjMac": {
+  "black_segs": [],
+  "silence_3s": 1,
+  "mean_vol": "-35.4"
+ },
+ "jejakbuddha/SiWWntBR5qE": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-21.3"
+ },
+ "jejakbuddha/Pek3DprvFGQ": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-26.3"
+ },
+ "jejakbuddha/3mtS4PiYnV8": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-27.0"
+ },
+ "jejakbuddha/JDELqvSXPGc": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.5"
+ },
+ "jejakbuddha/0xG5W7rbDt4": {
+  "black_segs": [
+   [
+    8.4,
+    3.4
+   ]
+  ],
+  "silence_3s": 0,
+  "mean_vol": "-34.1"
+ },
+ "jejakislami/2jWafMm6Fkg": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.0"
+ },
+ "jejakislami/J1HEYCEkjQs": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-23.9"
+ },
+ "jejakislami/P0XCx7rCbNA": {
+  "deleted": true
+ },
+ "jejakislami/uIGWlXfMQJ4": {
+  "deleted": true
+ },
+ "jejakislami/w6iwcZqpV1E": {
+  "black_segs": [
+   [
+    78.04,
+    3.6
+   ],
+   [
+    88.6,
+    3.4
+   ],
+   [
+    227.52,
+    2.2
+   ],
+   [
+    238.28,
+    2.1
+   ],
+   [
+    241.48,
+    2.2
+   ]
+  ],
+  "silence_3s": 0,
+  "mean_vol": "-28.5"
+ },
+ "kisahalkitab/vf3KMDXSsb4": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.9"
+ },
+ "kisahalkitab/hzxsT0vyfss": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.8"
+ },
+ "kisahalkitab/NSCvoapqE-E": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.7"
+ },
+ "kisahalkitab/JS-uNWKfI1w": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-29.1"
+ },
+ "kisahalkitab/jq7VPibcPXE": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.4"
+ },
+ "kisahdharma/7kzvq0KQyO0": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.2"
+ },
+ "kisahdharma/QnSs69dmjIg": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.6"
+ },
+ "kisahdharma/34bSHOyyriY": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-27.2"
+ },
+ "kisahdharma/fmqAeaarZXs": {
+  "black_segs": [
+   [
+    189.866667,
+    15.1
+   ],
+   [
+    613.233333,
+    14.1
+   ]
+  ],
+  "silence_3s": 0,
+  "mean_vol": "-27.9"
+ },
+ "kisahdharma/mWw8U1FOjKs": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-24.0"
+ },
+ "lima-misteri/vgt2CeMXkQc": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-24.5"
+ },
+ "lima-misteri/qg29E2vtAvk": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-21.6"
+ },
+ "lima-misteri/l9jJIoOelO0": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-20.5"
+ },
+ "lima-misteri/Xu63G3qfDw0": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-24.0"
+ },
+ "lima-misteri/FFLBtD_Ruyw": {
+  "black_segs": [],
+  "silence_3s": 1,
+  "mean_vol": "-22.1"
+ },
+ "mind-en/Yi-KJA-JXFY": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.3"
+ },
+ "mind-en/VvYoBa6OdXg": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-24.1"
+ },
+ "mind-en/M74dSkOq48I": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-24.2"
+ },
+ "mind-en/WMgXhpcyLsw": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.4"
+ },
+ "mind-en/w_riNbyiOW8": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.2"
+ },
+ "mystery-en/6nSvPbqIpH4": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-29.7"
+ },
+ "mystery-en/fINDSxIaH5k": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-27.5"
+ },
+ "mystery-en/FZZpx8dT-Xc": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-27.7"
+ },
+ "mystery-en/teVuCq5mvqM": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-27.6"
+ },
+ "mystery-en/bmcSYyeN6Vs": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.0"
+ },
+ "space-en/-A0NdSrYczQ": {
+  "black_segs": [],
+  "silence_3s": 1,
+  "mean_vol": "-27.7"
+ },
+ "space-en/BqJAv9ApX5w": {
+  "black_segs": [],
+  "silence_3s": 6,
+  "mean_vol": "-28.7"
+ },
+ "space-en/jTJEjYLrXGA": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.0"
+ },
+ "space-en/5ijR6apbCps": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.2"
+ },
+ "space-en/I-fJeXXkgn8": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-29.5"
+ },
+ "strangetales/yA1U_iFZM9I": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-24.8"
+ },
+ "strangetales/M85V-bfX3hE": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-24.8"
+ },
+ "strangetales/FLmBboYbgOc": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.1"
+ },
+ "strangetales/NoqU8B7CwxI": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.6"
+ },
+ "strangetales/P3EtGXAgwC0": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.3"
+ },
+ "tinybuilders/pMXQt-uAhpM": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-38.1"
+ },
+ "tinybuilders/ekSmY8ZR8z8": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-26.7"
+ },
+ "tinybuilders/7BTL5lbpKnM": {
+  "black_segs": [],
+  "silence_3s": 2,
+  "mean_vol": "-29.5"
+ },
+ "tinybuilders/-iDVbSSaoHU": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-30.5"
+ },
+ "tinybuilders/kCoM5sT9q40": {
+  "black_segs": [],
+  "silence_3s": 3,
+  "mean_vol": "-32.4"
+ },
+ "inktime/DtXgq3MDQmk": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-27.9"
+ },
+ "inktime/3PsqOnmIG24": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.6"
+ },
+ "inktime/cM7N7Y63WNM": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.4"
+ },
+ "inktime/Z550Mo9NmvI": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-22.6"
+ },
+ "inktime/prTdUpzXdyE": {
+  "black_segs": [],
+  "silence_3s": 1,
+  "mean_vol": "-28.0"
+ },
+ "macammacam/wxWw_lR-leQ": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-30.1"
+ },
+ "macammacam/hwuWzHPyDl0": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-29.7"
+ },
+ "macammacam/9BRVEab044E": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-28.1"
+ },
+ "macammacam/MA4nd5-EuZY": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-31.3"
+ },
+ "macammacam/aWUTq-zyRvI": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-31.1"
+ },
+ "truecrime-en/MC5PENurBOE": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-29.1"
+ },
+ "truecrime-en/zWaf_UBaKG4": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-34.0"
+ },
+ "truecrime-en/EXmbjr-MKbs": {
+  "status": "not_downloaded"
+ },
+ "truecrime-en/PrEE5W4ZxrI": {
+  "status": "not_downloaded"
+ },
+ "truecrime-en/w2pKB7ndG4Y": {
+  "status": "not_downloaded"
+ },
+ "weird-en/sTo1XZ_pAqA": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.0"
+ },
+ "weird-en/l-41Gdp6jgM": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-26.1"
+ },
+ "weird-en/hHR8ybaT0qA": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.3"
+ },
+ "weird-en/U4UwccK9vdI": {
+  "black_segs": [],
+  "silence_3s": 1,
+  "mean_vol": "-28.8"
+ },
+ "weird-en/zpO5fQIiEV4": {
+  "black_segs": [],
+  "silence_3s": 1,
+  "mean_vol": "-25.1"
+ },
+ "youtube-pov/f4XHWyeolic": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-29.9"
+ },
+ "youtube-pov/dmwuhmQ23cE": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-21.2"
+ },
+ "youtube-pov/RdTenZlsROE": {
+  "black_segs": [],
+  "silence_3s": 1,
+  "mean_vol": "-25.7"
+ },
+ "youtube-pov/NJ4LWQopwRI": {
+  "black_segs": [],
+  "silence_3s": 1,
+  "mean_vol": "-26.1"
+ },
+ "youtube-pov/IIROrIIZ9KQ": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-23.2"
+ },
+ "fakta-bola-dunia/Tpo7v91yIR4": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-23.2"
+ },
+ "fakta-bola-dunia/n8YVG3b09is": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-21.0"
+ },
+ "fakta-bola-dunia/KkIsmqjGOBo": {
+  "black_segs": [],
+  "silence_3s": 0,
+  "mean_vol": "-25.1"
+ }
+}

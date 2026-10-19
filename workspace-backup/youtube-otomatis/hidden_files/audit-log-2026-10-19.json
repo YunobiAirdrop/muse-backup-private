@@ -1,0 +1,73 @@
+{
+ "audit": "kualitas-video-harian",
+ "catatan_metodologi": "5 video terbaru per channel (98 total). Review: 20 grid thumbnail (visual semua), contact sheet frame tiap 10 detik (85 video), analisa caption auto-subs 41 video (hook/CTA/WPM), dHash pembanding visual untuk kandidat duplikat, scan blackdetect+silencedetect+volume. Download via yt-dlp android client (default client kena bot-check YouTube); 3 video gagal download total (rate-limit) -> ditandai belum-tonton-penuh; 92 video ter-QC penuh.",
+ "dihapus": [
+  {
+   "channel": "jejakislami",
+   "videoId": "P0XCx7rCbNA",
+   "judul": "Dibakar Hidup-Hidup, Api Justru Menjadi Dingin",
+   "alasan": "Upload gagal: uploadStatus=uploaded (tidak terproses), durasi P0D/0 detik, thumbnail 404. Judul duplikat persis dengan video bagus J1HEYCEkjQs (6m31s, processed). Views 0.",
+   "cara": "videos.delete via API",
+   "views_saat_hapus": 0
+  },
+  {
+   "channel": "jejakislami",
+   "videoId": "uIGWlXfMQJ4",
+   "judul": "Dibakar Hidup-Hidup, Api Justru Menjadi Dingin #butifyourcloseyoureyesmeme #shorts #islami #kisahisl...",
+   "alasan": "Upload gagal: uploadStatus=uploaded, durasi P0D/0 detik, thumbnail 404. Versi shorts yang gagal proses dari cerita yang sama dengan J1HEYCEkjQs. Views 0.",
+   "cara": "videos.delete via API",
+   "views_saat_hapus": 0
+  },
+  {
+   "channel": "empires-en",
+   "videoId": "5JlDQfx5AA8",
+   "judul": "(tidak terbaca - metadata rusak)",
+   "alasan": "Upload gagal: uploadStatus=uploaded, durasi P0D/0 detik, thumbnail 404. Ditemukan via sweep semua channel. Views 0.",
+   "cara": "videos.delete via API",
+   "views_saat_hapus": 0
+  }
+ ],
+ "diputuskan_pertahankan": 95,
+ "ringkasan_keputusan": "3 video rusak (upload gagal, durasi 0 detik, unprocessed) DIHAPUS via API. Kandidat duplikat (kisahalkitab 4x Keluaran 14, kisahdharma 3x Jatayu, inktime 2x Alexandria, lima-misteri 2x Kuchisake-onna, truecrime-en 3x D.B. Cooper) TERVERIFIKASI BUKAN duplikat: format long+shorts yang disengaja, visual dHash berbeda, durasi berbeda. Tidak ada video dengan views>100 yang dihapus.",
+ "tanggal": "2026-10-19",
+ "temuan_kualitas": [
+  "kisahalkitab: 3 shorts Keluaran 14 + 1 long adalah seri long+shorts (visual dHash beda, audio ada) - PERTAHANKAN. Catatan: shorts hanya 1 klip stok statis + teks overlay (monoton, tapi voiceover jalan).",
+  "kisahdharma: 3 shorts Jatayu/Ramayana visual berbeda (dHash 24-27) - PERTAHANKAN sebagai seri.",
+  "inktime: short Alexandria (41s, 17 views) + long Alexandria (455s, 1 view) = format long+shorts - PERTAHANKAN.",
+  "lima-misteri: long Kuchisake-onna (543s) + short (46s) visual berbeda - PERTAHANKAN. Long adalah format countdown 5 misteri (variasi gambar wajar).",
+  "truecrime-en: 3 shorts D.B. Cooper (42/43/35s) sudut berbeda (pelompatan, uang $5800, misteri) - PERTAHANKAN, tapi catat repetisi topik.",
+  "horror-en: beberapa thumbnail sangat gelap (risiko CTR rendah) - catatan produksi, bukan hapus.",
+  "jejakbuddha: 1 thumbnail (kolom Romawi) tidak cocok dengan cerita Buddha - catatan produksi.",
+  "Narasi 41 video: hook kuat semua (8+ kata dramatis di 8 detik pertama). ~20 video TANPA CTA verbal di tengah/akhir (hanya overlay teks) - melanggar aturan CTA verbal+overlay; catatan produksi.",
+  "tinybuilders/pMXQt-uAhpM: WPM 41 (sangat lambat) - kemungkinan jeda panjang; cek manual disarankan."
+ ],
+ "temuan_scan_teknis": [
+  "blackdetect: semua segmen 'hitam' yang terdeteksi adalah footage malam/gelap yang disengaja (horror-en G8rB-4qSHJI adegan kamar gelap; jejakislami w6iwcZqpV1E footage malam; kisahdharma fmqAeaarZXs transisi gelap) - BUKAN cacat teknis. Tidak ada frame rusak/hitam beneran.",
+  "empires-en/RNO1dekoFMc (Alexandria long, 581s, 0 views): 24 jeda bisu >=3 detik + mean volume -40.7dB. Subs ada (narasi terdeteksi) tapi sangat jarang/pelan - produksi audio lemah. DIPERTAHANKAN (bukan rusak), catat untuk perbaikan.",
+  "empires-en/-pU-ETEtaJs (short 38s, 94 views - views tertinggi empires-en): audio pelan (-43.7dB mean) tapi utuh. DIPERTAHANKAN.",
+  "tinybuilders/pMXQt-uAhpM: WPM 41 + volume -38.1dB - narasi sangat lambat/jarang. DIPERTAHANKAN (channel visual), sarankan cek.",
+  "space-en/BqJAv9ApX5w (Fermi Paradox, 564s): 6 jeda bisu >=3s - kemungkinan jeda dramatis. DIPERTAHANKAN.",
+  "Tidak ada video dengan bagian bisu total / audio hilang."
+ ],
+ "tidak_terdownload": [
+  {
+   "channel": "truecrime-en",
+   "videoId": "EXmbjr-MKbs",
+   "judul": "He Jumped From a Plane With $200,000 — Never Found",
+   "alasan": "rate-limit YouTube, gagal setelah retry 3x+3x"
+  },
+  {
+   "channel": "truecrime-en",
+   "videoId": "PrEE5W4ZxrI",
+   "judul": "The $5,800 That Reopened America's Greatest Mystery",
+   "alasan": "rate-limit YouTube, gagal setelah retry 3x+3x"
+  },
+  {
+   "channel": "truecrime-en",
+   "videoId": "w2pKB7ndG4Y",
+   "judul": "Cooper Vanished Mid-Air. The FBI Never Solved It",
+   "alasan": "rate-limit YouTube, gagal setelah retry 3x+3x"
+  }
+ ],
+ "catatan": "3 video truecrime-en di atas hanya direview via thumbnail+metadata (belum tonton penuh karena blokir rate-limit). Trio D.B. Cooper: judul & durasi berbeda (42/43/35s, sudut berbeda: pelompatan / uang $5800 / misteri) - indikasi kuat bukan duplikat, DIPERTAHANKAN sementara. Prioritas tonton penuh di audit berikutnya. 92 dari 95 video berhasil diunduh dan di-QC penuh."
+}

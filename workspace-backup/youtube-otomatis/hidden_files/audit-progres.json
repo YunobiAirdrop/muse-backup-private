@@ -1,1 +1,126 @@
-{"channels":{"empires-en":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"fakta-bola-dunia":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"history-en":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"horor":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"horror-en":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"inktime":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"jejakbuddha":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"jejakislami":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"kisahalkitab":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"kisahdharma":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"lima-misteri":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"macammacam":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"mind-en":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"mystery-en":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"space-en":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"strangetales":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"tinybuilders":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"truecrime-en":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"weird-en":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0},"youtube-pov":{"dihapus":0,"dipertahankan":0,"terakhir_cek":null,"total_cek":0}},"mulai":"2026-10-19","target_harian_per_channel":5}
+{
+ "channels": {
+  "empires-en": {
+   "dihapus": 1,
+   "dipertahankan": 4,
+   "terakhir_cek": "2026-10-19T14:45:35Z",
+   "total_cek": 5
+  },
+  "fakta-bola-dunia": {
+   "dihapus": 0,
+   "dipertahankan": 3,
+   "terakhir_cek": "2026-10-19T14:45:42Z",
+   "total_cek": 3
+  },
+  "history-en": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-19T14:50:35Z",
+   "total_cek": 5
+  },
+  "horor": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-19T14:50:45Z",
+   "total_cek": 5
+  },
+  "horror-en": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-17T15:27:43Z",
+   "total_cek": 5
+  },
+  "inktime": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-19T00:00:28Z",
+   "total_cek": 5
+  },
+  "jejakbuddha": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-19T14:47:01Z",
+   "total_cek": 5
+  },
+  "jejakislami": {
+   "dihapus": 2,
+   "dipertahankan": 3,
+   "terakhir_cek": "2026-10-17T15:27:58Z",
+   "total_cek": 5
+  },
+  "kisahalkitab": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-15T13:46:34Z",
+   "total_cek": 5
+  },
+  "kisahdharma": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-13T12:00:32Z",
+   "total_cek": 5
+  },
+  "lima-misteri": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-19T14:51:08Z",
+   "total_cek": 5
+  },
+  "macammacam": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-19T08:50:05Z",
+   "total_cek": 5
+  },
+  "mind-en": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-19T14:48:03Z",
+   "total_cek": 5
+  },
+  "mystery-en": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-19T14:48:12Z",
+   "total_cek": 5
+  },
+  "space-en": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-15T13:46:49Z",
+   "total_cek": 5
+  },
+  "strangetales": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-19T14:51:19Z",
+   "total_cek": 5
+  },
+  "tinybuilders": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-17T19:21:42Z",
+   "total_cek": 5
+  },
+  "truecrime-en": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-17T15:30:24Z",
+   "total_cek": 5
+  },
+  "weird-en": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-19T14:51:34Z",
+   "total_cek": 5
+  },
+  "youtube-pov": {
+   "dihapus": 0,
+   "dipertahankan": 5,
+   "terakhir_cek": "2026-10-19T14:50:09Z",
+   "total_cek": 5
+  }
+ },
+ "mulai": "2026-10-19",
+ "target_harian_per_channel": 5
+}
