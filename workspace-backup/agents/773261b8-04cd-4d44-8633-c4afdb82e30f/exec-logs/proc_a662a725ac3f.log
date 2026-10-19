@@ -1,0 +1,12 @@
+FB GET commands: RemoteDisconnected (coba 1/3)
+[commands] ok
+[vidreq] ok
+FB PUT state/pending: RemoteDisconnected (coba 1/3)
+FB PUT state/pending: RemoteDisconnected (coba 2/3)
+FB PUT state/pending: RemoteDisconnected (coba 3/3)
+[pending] gagal (RuntimeError: fb state/pending gagal 3x: Remote end closed connection without response)
+FB PUT state/pending: RemoteDisconnected (coba 1/3)
+FB PUT state/pending: RemoteDisconnected (coba 2/3)
+FB PUT state/pending: RemoteDisconnected (coba 3/3)
+[pending] gagal (RuntimeError: fb state/pending gagal 3x: Remote end closed connection without response)
+bridge ok
