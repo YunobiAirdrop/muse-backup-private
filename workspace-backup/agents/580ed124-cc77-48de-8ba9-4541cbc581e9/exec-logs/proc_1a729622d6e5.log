@@ -1,0 +1,25 @@
+Urutan beat: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 11, 12, 13, 14, 15]
+Pre-render wajah...
+Total 1504 frame (~50.1s)
+Background: sungai via riverbg.py
+  beat 01 (id,senang,wave) 113f
+  beat 02 (eg,senang,open_palm) 87f
+  beat 03 (br,bingung,cheek) 76f
+  beat 04 (id,normal,open_palm) 129f
+  beat 05 (eg,kaget,None) 69f
+  beat 06 (br,senang,thumbs_up) 74f
+  beat 07 (id,senang,fist) 104f
+  beat 08 (br,kaget,cheek) 39f
+  beat 09 (id,senang,open_palm) 168f
+  beat 10 (eg,kaget,None) 74f
+  beat 16 (id,senang,wave) 84f
+  beat 11 (br,normal,open_palm) 48f
+  beat 12 (eg,kaget,cheek) 89f
+  beat 13 (id,senang,fist) 142f
+  beat 14 (br,senang,peace) 82f
+  beat 15 (id,senang,wave) 126f
+Video silent OK
+Gabung audio...
+Audio full: 50.38s
+Video final (tmp): 50.13s
+SELESAI: /home/hatch/workspace/fakta-bola-dunia/output/sungai-terpanjang.mp4 (50.1s)

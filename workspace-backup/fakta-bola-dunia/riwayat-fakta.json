@@ -1,1 +1,41 @@
-[{"background":"minecraft (gamebg.py)","durasi_detik":68.7,"fakta":"3 angka paling seram di dunia: 666, 13, 4","judul":"3 Angka Paling Seram di Dunia! 😱","negara":["indonesia","china","jepang"],"tanggal":"2026-10-15","video_id":"KkIsmqjGOBo"},{"background":"luar angkasa (spacebg.py)","durasi_detik":47.1,"fakta":"3 bendera paling unik di dunia: Nepal (satu-satunya bendera non-persegi panjang), Bhutan (naga Druk), Indonesia (hampir kembar Monako)","judul":"3 Bendera Terunik di Dunia! 😱 #butifyourcloseyoureyesmeme #shorts #faktaunik #viralindonesia #foryou","negara":["indonesia","nepal","butan"],"tanggal":"2026-10-18","video_id":"n8YVG3b09is"}]
+[
+ {
+  "background": "minecraft (gamebg.py)",
+  "durasi_detik": 68.7,
+  "fakta": "3 angka paling seram di dunia: 666, 13, 4",
+  "judul": "3 Angka Paling Seram di Dunia! 😱",
+  "negara": [
+   "indonesia",
+   "china",
+   "jepang"
+  ],
+  "tanggal": "2026-10-15",
+  "video_id": "KkIsmqjGOBo"
+ },
+ {
+  "background": "luar angkasa (spacebg.py)",
+  "durasi_detik": 47.1,
+  "fakta": "3 bendera paling unik di dunia: Nepal (satu-satunya bendera non-persegi panjang), Bhutan (naga Druk), Indonesia (hampir kembar Monako)",
+  "judul": "3 Bendera Terunik di Dunia! 😱 #butifyourcloseyoureyesmeme #shorts #faktaunik #viralindonesia #foryou",
+  "negara": [
+   "indonesia",
+   "nepal",
+   "butan"
+  ],
+  "tanggal": "2026-10-18",
+  "video_id": "n8YVG3b09is"
+ },
+ {
+  "tanggal": "2026-10-19",
+  "fakta": "3 sungai terpanjang di dunia: Nil (Mesir, 6650 km), Amazon (Brasil, rebutan gelar), Kapuas (Indonesia, 1114 km)",
+  "negara": [
+   "indonesia",
+   "mesir",
+   "brasil"
+  ],
+  "judul": "3 Sungai Terpanjang di Dunia! 🌊",
+  "background": "sungai berliku (riverbg.py)",
+  "durasi_detik": 50.1,
+  "video_id": "Tpo7v91yIR4"
+ }
+]
