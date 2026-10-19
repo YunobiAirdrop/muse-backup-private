@@ -1,6 +1,0 @@
-syntax OK
-total expected: 636.3s (10.60 mnt)
-pass1 streams: {'video': 636.28}
-PASS1 OK
-pass2 streams: {'video': 636.28, 'audio': 636.285}
-OK twopass: /home/hatch/workspace/youtube-otomatis/weird-en/video/2026-10-18-final.mp4

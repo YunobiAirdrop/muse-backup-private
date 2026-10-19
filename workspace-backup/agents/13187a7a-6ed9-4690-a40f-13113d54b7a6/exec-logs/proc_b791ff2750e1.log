@@ -1,9 +1,0 @@
-Traceback (most recent call last):
-  File "/home/hatch/workspace/jejak-buddha/2026-10-18/upload_long_api.py", line 144, in <module>
-    main()
-  File "/home/hatch/workspace/jejak-buddha/2026-10-18/upload_long_api.py", line 54, in main
-    s = api_session("jejakbuddha")
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/hatch/workspace/youtube-otomatis/yt-growth/auth.py", line 136, in api_session
-    from google.auth.transport.requests import AuthorizedSession
-ModuleNotFoundError: No module named 'google'
