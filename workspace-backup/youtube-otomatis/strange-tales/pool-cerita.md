@@ -7,6 +7,9 @@
 - [x] 2026-10-17 — Lake Hillier, Australia (danau pink bubblegum)
 - [x] 2026-10-17 — Kentucky meat shower, 1876 (daging jatuh dari langit)
 - [x] 2026-10-17 — Upside-down jellyfish, Cassiopea (bertani sinar matahari)
+- [x] 2026-10-19 — Naga fireballs, Mekong (bola api misterius tiap Oktober)
+- [x] 2026-10-19 — Fly Geyser, Nevada (geyser pelangi akibat sumur gagal 1964)
+- [x] 2026-10-19 — Thor's Well, Oregon ("drainpipe of the Pacific", 20 kaki)
 
 ## ANTRIAN
 1. **Immortal jellyfish** — Hook: "This animal can live forever." Fakta: Turritopsis dohrnii bisa kembali ke tahap polip saat terluka/tua, siklus hidup berulang tanpa batas; ditemukan di Mediterania, kini menyebar ke seluruh dunia lewat air ballast kapal.
@@ -27,7 +30,9 @@
 16. **Singing dunes** — Hook: "These sand dunes sing." Fakta: bukit pasir di gurun (Badain Jaran, Kelso) mengeluarkan dengungan rendah saat pasir longsor; frekuensi dari gesekan butir pasir berukuran seragam.
 17. **Tardigrades** — Hook: "This animal survived outer space." Fakta: beruang air 1mm; tahan vakum, radiasi, -272°C hingga 150°C; pernah selamat di luar ISS; bisa tidur puluhan tahun (cryptobiosis).
 18. **Dragon's blood trees, Socotra** — Hook: "These trees bleed red — and look like UFOs." Fakta: Dracaena cinnabari, Yaman; getah merah seperti darah dipakai obat & pewarna; kanopi payung raksasa; pulau terisolasi 6 juta tahun.
-19. **Naga fireballs, Mekong** — Hook: "Every October, fireballs rise from this river." Fakta: bola api muncul dari Sungai Mekong (Thailand/Laos); legenda ular Naga; penjelasan: gas metana terbakar — tapi waktu kemunculannya misterius.
+19. **Naga fireballs, Mekong** — [x] DIPAKAI 2026-10-19. Hook: "Every October, fireballs rise from this river." Fakta: bola api muncul dari Sungai Mekong (Thailand/Laos); legenda ular Naga; penjelasan: gas metana terbakar — tapi waktu kemunculannya misterius.
+33. **Fly Geyser, Nevada** — [x] DIPAKAI 2026-10-19. Hook: "A drilling mistake created this rainbow geyser." Fakta: sumur uji geothermal 1964 gagal ditutup; air mineral panas menyembur 60 tahun, membangun gundukan travertine; alga thermophilic mewarnai merah-hijau; masih tumbuh beberapa inci/tahun.
+34. **Thor's Well, Oregon** — [x] DIPAKAI 2026-10-19. Hook: "The ocean is draining into this hole — forever." Fakta: "drainpipe of the Pacific" di Cape Perpetua; gua laut runtuh sedalam 20 kaki (tidak tanpa dasar); air pasang menyembur 40 kaki lalu terkuras — ilusi menguras samudra.
 20. **Spotted Lake, Canada** — Hook: "This lake is covered in polka dots." Fakta: Danau Khiluk, British Columbia; saat musim panas air menguap meninggalkan kolam mineral warna-warni; situs sakral suku Okanagan.
 21. **The Mary Celeste** — Hook: "A ship found sailing with no crew — dinner still warm." Fakta: 1872, ditemukan mengapung di Atlantik; seluruh awak hilang; kargo utuh; sekoci hilang; misteri maritim paling terkenal.
 22. **Bioluminescent Mosquito Bay** — Hook: "This water glows when you touch it." Fakta: Teluk Vieques, Puerto Rico; dinoflagellata Pyrodinium memancarkan cahaya biru saat terganggu; salah satu teluk bio-tercerah di dunia.

@@ -1,0 +1,5 @@
+[*] wallet: 0xf0f25C36AC70E9d787a108eFB351626192C8107b (verified)
+[*] forwarder started on 127.0.0.1:3129
+[*] === chain sepolia (id 11155111) ===
+[sepolia] tx 3/8: 4e597a4d13a88b1d14… amount=91937 wei status=1
+[sepolia] sleeping 888s before next tx…

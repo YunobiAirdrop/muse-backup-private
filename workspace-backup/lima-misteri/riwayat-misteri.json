@@ -1,94 +1,104 @@
 {
-  "riwayat": [
-    {
-      "tanggal": "2026-10-06",
-      "peristiwa": [
-        "Hujan ikan (Lluvia de Peces) — Yoro, Honduras",
-        "Dentuman misterius dari langit (skyquake) — Clintonville, Wisconsin AS",
-        "Mothman bermata merah — Point Pleasant, Virginia Barat AS",
-        "Kuntilanak di pohon beringin — Indonesia",
-        "Kapal hantu Ourang Medan — Selat Malaka"
-      ]
-    },
-    {
-      "tanggal": "2026-10-07",
-      "peristiwa": [
-        "Pocong di kebun pisang — Jawa Tengah, Indonesia",
-        "Phoenix Lights (formasi cahaya V) — Phoenix, Arizona AS",
-        "Rumah yang selalu dingin (kamar anak) — Inggris",
-        "Suara gamelan di tengah hutan — Jawa/Kalimantan/Sumatera, Indonesia",
-        "La Llorona (hantu perempuan menangis) — Meksiko"
-      ]
-    },
-    {
-      "tanggal": "2026-10-09",
-      "peristiwa": [
-        "Penampakan di rumah sakit tua — hantu (Jawa Timur, Indonesia)",
-        "Sosok putih di jalan tol — penampakan/legenda jalanan (Indonesia)",
-        "Objek terbang tak dikenal di atas kota — UFO/fenomena langit (kota besar Indonesia)",
-        "Desa hilang dari peta — misteri tempat (pegunungan Indonesia)",
-        "Air laut surut tiba-tiba — kejadian aneh alam (desa nelayan Indonesia)"
-      ]
-    },
-    {
-      "tanggal": "2026-10-10",
-      "peristiwa": [
-        "Kereta hantu Manggarai — legenda urban (Jakarta, Indonesia)",
-        "Wajah di jendela gedung kosong — penampakan hantu (Jakarta, Indonesia)",
-        "Terowongan tua peninggalan Belanda — misteri tempat (Jawa Barat, Indonesia)",
-        "Cahaya aneh di langit malam — UFO/fenomena langit (Indonesia)",
-        "Binatang berperilaku aneh sebelum bencana — kejadian aneh alam (Indonesia)"
-      ]
-    },
-    {
-      "tanggal": "2026-10-12",
-      "peristiwa": [
-        "Dengung Taos (Taos Hum) — Taos, New Mexico AS",
-        "Sinyal Wow! 1977 — teleskop Big Ear, Ohio AS",
-        "Hutan Hoia Baciu — Cluj-Napoca, Rumania",
-        "Segitiga Bermuda (Penerbangan 19 & USS Cyclops) — Atlantik",
-        "Dyatlov Pass 1959 — Pegunungan Ural, Rusia"
-      ]
-    },
-    {
-      "tanggal": "2026-10-13",
-      "peristiwa": [
-        "Bell Witch (Tennessee, AS)",
-        "Pulau Boneka / Isla de las Muñecas (Xochimilco, Meksiko)",
-        "Chupacabra (Puerto Riko)",
-        "Insiden Hutan Rendlesham 1980 (Inggris)",
-        "Hujan darah Kerala 2001 (India)"
-      ]
-    },
-    {
-      "tanggal": "2026-10-14",
-      "peristiwa": [
-        "Teke Teke (Jepang)",
-        "Resurrection Mary (Chicago, AS)",
-        "Centralia (Pennsylvania, AS)",
-        "Cahaya Hessdalen (Norwegia)",
-        "Batu Berjalan Racetrack (Death Valley, AS)"
-      ]
-    },
-    {
-      "tanggal": "2026-10-15",
-      "peristiwa": [
-        "Kapal hantu Queen Mary — penampakan hantu (Long Beach, California, AS)",
-        "Spring-heeled Jack — legenda urban (London, Inggris)",
-        "Pulau Poveglia — misteri tempat (Venesia, Italia)",
-        "Insiden Kecksburg 1965 — UFO/fenomena langit (Pennsylvania, AS)",
-        "Blood Falls (air terjun darah) — kejadian aneh alam (Antartika)"
-      ]
-    },
-    {
-      "tanggal": "2026-10-18",
-      "peristiwa": [
-        "Brown Lady of Raynham Hall — penampakan hantu (Norfolk, Inggris)",
-        "Insiden Roswell 1947 — UFO/fenomena langit (New Mexico, AS)",
-        "Kastil Bhangarh — misteri tempat (Rajasthan, India)",
-        "Marfa Lights — kejadian aneh alam (Texas, AS)",
-        "Slenderman — legenda urban (AS/dunia maya)"
-      ]
-    }
-  ]
+ "riwayat": [
+  {
+   "tanggal": "2026-10-06",
+   "peristiwa": [
+    "Hujan ikan (Lluvia de Peces) — Yoro, Honduras",
+    "Dentuman misterius dari langit (skyquake) — Clintonville, Wisconsin AS",
+    "Mothman bermata merah — Point Pleasant, Virginia Barat AS",
+    "Kuntilanak di pohon beringin — Indonesia",
+    "Kapal hantu Ourang Medan — Selat Malaka"
+   ]
+  },
+  {
+   "tanggal": "2026-10-07",
+   "peristiwa": [
+    "Pocong di kebun pisang — Jawa Tengah, Indonesia",
+    "Phoenix Lights (formasi cahaya V) — Phoenix, Arizona AS",
+    "Rumah yang selalu dingin (kamar anak) — Inggris",
+    "Suara gamelan di tengah hutan — Jawa/Kalimantan/Sumatera, Indonesia",
+    "La Llorona (hantu perempuan menangis) — Meksiko"
+   ]
+  },
+  {
+   "tanggal": "2026-10-09",
+   "peristiwa": [
+    "Penampakan di rumah sakit tua — hantu (Jawa Timur, Indonesia)",
+    "Sosok putih di jalan tol — penampakan/legenda jalanan (Indonesia)",
+    "Objek terbang tak dikenal di atas kota — UFO/fenomena langit (kota besar Indonesia)",
+    "Desa hilang dari peta — misteri tempat (pegunungan Indonesia)",
+    "Air laut surut tiba-tiba — kejadian aneh alam (desa nelayan Indonesia)"
+   ]
+  },
+  {
+   "tanggal": "2026-10-10",
+   "peristiwa": [
+    "Kereta hantu Manggarai — legenda urban (Jakarta, Indonesia)",
+    "Wajah di jendela gedung kosong — penampakan hantu (Jakarta, Indonesia)",
+    "Terowongan tua peninggalan Belanda — misteri tempat (Jawa Barat, Indonesia)",
+    "Cahaya aneh di langit malam — UFO/fenomena langit (Indonesia)",
+    "Binatang berperilaku aneh sebelum bencana — kejadian aneh alam (Indonesia)"
+   ]
+  },
+  {
+   "tanggal": "2026-10-12",
+   "peristiwa": [
+    "Dengung Taos (Taos Hum) — Taos, New Mexico AS",
+    "Sinyal Wow! 1977 — teleskop Big Ear, Ohio AS",
+    "Hutan Hoia Baciu — Cluj-Napoca, Rumania",
+    "Segitiga Bermuda (Penerbangan 19 & USS Cyclops) — Atlantik",
+    "Dyatlov Pass 1959 — Pegunungan Ural, Rusia"
+   ]
+  },
+  {
+   "tanggal": "2026-10-13",
+   "peristiwa": [
+    "Bell Witch (Tennessee, AS)",
+    "Pulau Boneka / Isla de las Muñecas (Xochimilco, Meksiko)",
+    "Chupacabra (Puerto Riko)",
+    "Insiden Hutan Rendlesham 1980 (Inggris)",
+    "Hujan darah Kerala 2001 (India)"
+   ]
+  },
+  {
+   "tanggal": "2026-10-14",
+   "peristiwa": [
+    "Teke Teke (Jepang)",
+    "Resurrection Mary (Chicago, AS)",
+    "Centralia (Pennsylvania, AS)",
+    "Cahaya Hessdalen (Norwegia)",
+    "Batu Berjalan Racetrack (Death Valley, AS)"
+   ]
+  },
+  {
+   "tanggal": "2026-10-15",
+   "peristiwa": [
+    "Kapal hantu Queen Mary — penampakan hantu (Long Beach, California, AS)",
+    "Spring-heeled Jack — legenda urban (London, Inggris)",
+    "Pulau Poveglia — misteri tempat (Venesia, Italia)",
+    "Insiden Kecksburg 1965 — UFO/fenomena langit (Pennsylvania, AS)",
+    "Blood Falls (air terjun darah) — kejadian aneh alam (Antartika)"
+   ]
+  },
+  {
+   "tanggal": "2026-10-18",
+   "peristiwa": [
+    "Brown Lady of Raynham Hall — penampakan hantu (Norfolk, Inggris)",
+    "Insiden Roswell 1947 — UFO/fenomena langit (New Mexico, AS)",
+    "Kastil Bhangarh — misteri tempat (Rajasthan, India)",
+    "Marfa Lights — kejadian aneh alam (Texas, AS)",
+    "Slenderman — legenda urban (AS/dunia maya)"
+   ]
+  },
+  {
+   "tanggal": "2026-10-19",
+   "peristiwa": [
+    "Kuchisake-onna — legenda urban/penampakan hantu (Jepang, 1979)",
+    "Horor Amityville — misteri tempat/rumah terkutuk (Long Island, AS)",
+    "Penculikan Travis Walton — UFO/fenomena langit (Arizona, AS, 1975)",
+    "Lubang Api Darvaza — kejadian aneh alam (Turkmenistan, menyala 50+ tahun)",
+    "Pripyat — misteri tempat/kota hantu (Ukraina)"
+   ]
+  }
+ ]
 }

@@ -1,0 +1,101 @@
+#!/usr/bin/env python3
+"""Scan video sepi semua channel — Data API v3 (publik + milik sendiri).
+
+Untuk tiap channel di channels.yaml: ambil 20 upload terbaru, catat status
+(publik / terjadwal / private), durasi (shorts vs long), umur, views.
+Video publik yang sudah tayang >24 jam tapi views sangat rendah ditandai SEPI.
+
+Channel tanpa token sendiri (inkt​ime, macammacam) dibaca dengan token
+lima-misteri (data publik tetap terbaca).
+
+Output: JSON lengkap + ringkasan teks per channel.
+"""
+import json
+import re
+import sys
+from datetime import date, datetime, timezone
+from pathlib import Path
+
+from auth import yt_get
+from analytics import load_channels, resolve_channel_id
+
+READER = "lima-misteri"
+NO_TOKEN=<redacted>
+OUT = Path(__file__).parent / "hidden_files" / f"sepi-{date.today().isoformat()}.json"
+
+
+def parse_dur(iso):
+    m = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", iso or "")
+    if not m:
+        return 0
+    h, mi, s = (int(x or 0) for x in m.groups())
+    return h * 3600 + mi * 60 + s
+
+
+def scan(slug, info):
+    reader = READER if slug in NO_TOKEN else slug
+    cid = info.get("channel_id")
+    if not cid:
+        r = yt_get(reader, "/channels", {"forHandle": info["handle"], "part": "id"})
+        items = r.get("items", [])
+        if not items:
+            return {"slug": slug, "error": "channel tidak ditemukan"}
+        cid = items[0]["id"]
+    ch = yt_get(reader, "/channels", {"id": cid, "part": "contentDetails"})
+    uploads = ch["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+    pl = yt_get(reader, "/playlistItems",
+                {"playlistId": uploads, "part": "contentDetails", "maxResults": 20})
+    ids = [it["contentDetails"]["videoId"] for it in pl.get("items", [])]
+    vids = []
+    now = datetime.now(timezone.utc)
+    for i in range(0, len(ids), 50):
+        det = yt_get(reader, "/videos", {
+            "id": ",".join(ids[i:i + 50]),
+            "part": "snippet,status,statistics,contentDetails"})
+        for it in det.get("items", []):
+            sn, st = it["snippet"], it["status"]
+            dur = parse_dur(it["contentDetails"]["duration"])
+            pub = datetime.fromisoformat(sn["publishedAt"].replace("Z", "+00:00"))
+            age_h = (now - pub).total_seconds() / 3600
+            views = int(it["statistics"].get("viewCount", 0))
+            fmt = "shorts" if dur <= 61 else "long"
+            vids.append({
+                "id": it["id"], "title": sn["title"], "format": fmt,
+                "durasi_detik": dur, "privacy": st["privacyStatus"],
+                "publish_at": st.get("publishAt"),
+                "made_for_kids": st.get("madeForKids"),
+                "umur_jam": round(age_h, 1), "views": views,
+                "likes": int(it["statistics"].get("likeCount", 0)),
+                "comments": int(it["statistics"].get("commentCount", 0)),
+            })
+    return {"slug": slug, "handle": info["handle"], "channel_id": cid, "videos": vids}
+
+
+def main():
+    chans = load_channels()
+    result = {}
+    for slug, info in chans.items():
+        try:
+            result[slug] = scan(slug, info)
+        except Exception as e:
+=====USAGE=====
+Tersimpan: /home/hatch/workspace/youtube-otomatis/yt-growth/hidden_files/sepi-2026-10-19.json
+
+@AncientEmpiresTV: 15 publik, 1 belum tayang, 5 SEPI
+  SEPI [long] 2 views / 88.4j — xN8si7OLEIc — Pompeii: 20,000 People Died in a Single Morning
+  SEPI [long] 4 views / 222.2j — 6DwpnronVQQ — What Really Killed the Maya? 60 Cities, 1 Mystery
+  SEPI [shorts] 5 views / 246.2j — SVv6jFBOWkA — 12,000 Years Old — The Temple That Shouldn't Exist #shorts #history #archaeology
+  SEPI [shorts] 4 views / 246.2j — QnxIQ8J16_M — This Temple Is Older Than Farming Itself #shorts #history #archaeology #foryou
+  SEPI [long] 2 views / 270.2j — rmkMgiPdLCo — Göbekli Tepe: The 12,000-Year-Old Temple Built Before Farming Existed
+@EchoesOfThePast-e9m: 20 publik, 0 belum tayang, 9 SEPI
+  SEPI [shorts] 2 views / 40.2j — E-Jo0o3EMNI — 1000 Years of Walls Fell in 53 Days #shorts #history #constantinople
+  SEPI [long] 9 views / 85.5j — -_MZgrE4I84 — D-Day 1944: The Longest Day That Changed the World
+  SEPI [long] 1 views / 94.1j — 0ZWVx_sDQRk — The Fall of Tenochtitlan: 93 Days That Ended an Empire
+  SEPI [shorts] 39 views / 94.1j — P8wVZLH-_8U — The Greatest City on Earth Vanished in 93 Days #shorts #history #documentary #fo
+  SEPI [shorts] 35 views / 102.2j — iTbm040yYSY — Titanic's Final 20 Minutes #shorts #history #documentary #foryou
+  SEPI [long] 2 views / 126.2j — p4QkrS3lvfc — The Black Death Came on Ships — Europe Was Never the Same
+  SEPI [long] 1 views / 126.2j — 0vmkyep-JnE — The Ship That Couldn't Sink… Until It Did
+  SEPI [long] 1 views / 147.4j — I1lR5p9N2uY — 1816: The Year Summer Never Came
+  SEPI [long] 68 views / 147.9j — ZNR5JDGKtys — A Volcano Invented Frankenstein
+@KisahPOV: 16 publik, 4 belum tayang, 11 SEPI
+  SEPI [long] 0 views / 38.7j — aIsrA8upGUc — Antar Penumpang Jam 2 Pagi, Alamatnya Tidak Ada di Peta
