@@ -1,7 +1,0 @@
-pages before: 3
-no popup: Timeout 15000ms exceeded while waiting for event "page"
-pages after: 3
- - about:blank
- - chrome-extension://ocicphjefllmdjaioocoolnmfbjdlcfg/home.html
- - about:blank
-done
