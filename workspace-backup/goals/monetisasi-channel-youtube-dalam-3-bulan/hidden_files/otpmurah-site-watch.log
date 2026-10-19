@@ -1,1 +1,2 @@
 2026-10-19 09:31 WIB — otpmurah.id: DOWN (curl exit 52 empty reply, http_code=000 HTTPS & HTTP; nslookup resolve 198.18.179.144)
+2026-10-19 22:31 WIB - otpmurah-site-watch: curl -sI https://otpmurah.id -> HTTP/1.1 200 Connection Established (proxy), lalu empty reply (exit 52). curl GET -> http_code 000, exit 52. nslookup resolve ke 198.18.105.5 via DNS sandbox 198.19.0.1. KESIMPULAN: situs MASIH down -> tetap diam, tidak ada pesan ke user.
