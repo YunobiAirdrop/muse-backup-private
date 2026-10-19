@@ -1,0 +1,20 @@
+{
+  "steps": [
+    {
+      "name": "avatar_js_click",
+      "ok": true,
+      "detail": "clicked last header button, text=$"
+    },
+    {
+      "name": "menu_option_found",
+      "ok": false,
+      "detail": "no sign-in option in menu"
+    },
+    {
+      "name": "signed_in",
+      "ok": false,
+      "detail": "not found"
+    }
+  ],
+  "done_at": "2026-10-19T08:36:44+07:00"
+}

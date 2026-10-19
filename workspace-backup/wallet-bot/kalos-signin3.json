@@ -1,0 +1,25 @@
+{
+  "steps": [
+    {
+      "name": "menu_option",
+      "ok": true,
+      "detail": "Sign in to Kalos"
+    },
+    {
+      "name": "signin_click",
+      "ok": true,
+      "detail": "Sign in to Kalos"
+    },
+    {
+      "name": "username_fill",
+      "ok": false,
+      "detail": "Locator.fill: Timeout 6000ms exceeded.\nCall log:\n  - waiting for locator(\"input[type=text], input:no"
+    },
+    {
+      "name": "signed_in",
+      "ok": false,
+      "detail": "check screenshot"
+    }
+  ],
+  "done_at": "2026-10-19T08:37:54+07:00"
+}

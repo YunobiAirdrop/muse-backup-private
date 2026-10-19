@@ -104,6 +104,35 @@ def base_ball(char):
         # permata merah di cakar
         d.polygon([(C-40, C+118), (C-22, C+136), (C-40, C+154), (C-58, C+136)],
                   fill=(200, 30, 40), outline=(20, 20, 20))
+    elif char == 'eg':
+        # MESIR: merah/putih/hitam horizontal + elang emas sederhana
+        im2 = Image.new("RGBA", (SIZE, SIZE), (0, 0, 0, 0))
+        d2e = ImageDraw.Draw(im2)
+        d2e.rectangle([0, 0, SIZE, SIZE//3], fill=(200, 20, 30))
+        d2e.rectangle([0, SIZE//3, SIZE, 2*SIZE//3], fill=(245, 245, 245))
+        d2e.rectangle([0, 2*SIZE//3, SIZE, SIZE], fill=(25, 25, 25))
+        mask = Image.new("L", (SIZE, SIZE), 0)
+        ImageDraw.Draw(mask).ellipse([8, 8, SIZE-8, SIZE-8], fill=255)
+        im.paste(im2, (0, 0), mask)
+        d = ImageDraw.Draw(im)
+        ex, ey = C, C
+        # sayap elang
+        d.polygon([(ex-120, ey+40), (ex-40, ey-80), (ex+40, ey-80),
+                   (ex+120, ey+40), (ex+70, ey+10), (ex-70, ey+10)],
+                  fill=(200, 150, 30))
+        # badan + kepala + paruh
+        d.ellipse([ex-42, ey-52, ex+42, ey+58], fill=(210, 160, 40))
+        d.ellipse([ex-26, ey-92, ex+26, ey-44], fill=(210, 160, 40))
+        d.polygon([(ex+16, ey-78), (ex+50, ey-68), (ex+16, ey-58)],
+                  fill=(150, 100, 20))
+    elif char == 'br':
+        # BRASIL: hijau + belah ketupat kuning + bola biru + pita putih
+        d.ellipse([8, 8, SIZE-8, SIZE-8], fill=(20, 140, 60))
+        d.polygon([(C, 100), (C+235, C), (C, 700), (C-235, C)],
+                  fill=(255, 215, 0))
+        d.ellipse([C-115, C-115, C+115, C+115], fill=(20, 60, 160))
+        d.arc([C-115, C-115, C+115, C+115], start=195, end=345,
+              fill="white", width=28)
     # outline hitam
     d2 = ImageDraw.Draw(im)
     d2.ellipse([8, 8, SIZE-8, SIZE-8], outline=(20, 20, 20), width=10)

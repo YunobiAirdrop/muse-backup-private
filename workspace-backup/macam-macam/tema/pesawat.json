@@ -1,1 +1,63 @@
-{"items":[{"fakta":"Bawa ratusan penumpang terbang tinggi di awan!","nama":"Pesawat Penumpang","pexels_query":"passenger airplane"},{"fakta":"Jet tempur super cepat penjaga langit!","nama":"Jet Tempur","pexels_query":"fighter jet"},{"fakta":"Bisa terbang diam di tempat kayak capung raksasa!","nama":"Helikopter","pexels_query":"helicopter"},{"fakta":"Terbang pelan-pelan pakai udara panas, seru banget!","nama":"Balon Udara","pexels_query":"hot air balloon"},{"fakta":"Pesawat raksasa pengangkut barang ke seluruh dunia!","nama":"Pesawat Kargo","pexels_query":"cargo airplane"},{"fakta":"Pesawat kecil tanpa pilot, dikendalikan dari jauh!","nama":"Drone","pexels_query":"drone flying"},{"fakta":"Meluncur ke luar angkasa, wuuush!","nama":"Roket","pexels_query":"rocket launch"},{"fakta":"Bisa mendarat di air, keren kan?","nama":"Pesawat Amfibi","pexels_query":"seaplane"}],"judul":"Pesawat","kategori":"jenis pesawat","part":1}
+{
+ "items": [
+  {
+   "fakta": "Bawa ratusan penumpang terbang tinggi di awan!",
+   "nama": "Pesawat Penumpang",
+   "pexels_query": "passenger airplane",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/pesawat-part1/tempel/item00.jpg",
+   "kredit": "Planespotter Geneva / Pexels"
+  },
+  {
+   "fakta": "Jet tempur super cepat penjaga langit!",
+   "nama": "Jet Tempur",
+   "pexels_query": "fighter jet",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/pesawat-part1/tempel/item01.jpg",
+   "kredit": "Ahmad Shakir Shamsulbadri / Pexels"
+  },
+  {
+   "fakta": "Bisa terbang diam di tempat kayak capung raksasa!",
+   "nama": "Helikopter",
+   "pexels_query": "helicopter",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/pesawat-part1/tempel/item02.jpg",
+   "kredit": "Robert So / Pexels"
+  },
+  {
+   "fakta": "Terbang pelan-pelan pakai udara panas, seru banget!",
+   "nama": "Balon Udara",
+   "pexels_query": "hot air balloon",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/pesawat-part1/tempel/item03.jpg",
+   "kredit": "Mehmet Turgut Kirkgoz / Pexels"
+  },
+  {
+   "fakta": "Pesawat raksasa pengangkut barang ke seluruh dunia!",
+   "nama": "Pesawat Kargo",
+   "pexels_query": "cargo airplane",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/pesawat-part1/tempel/item04.jpg",
+   "kredit": "Drinu Cutajar / Pexels"
+  },
+  {
+   "fakta": "Pesawat kecil tanpa pilot, dikendalikan dari jauh!",
+   "nama": "Drone",
+   "pexels_query": "drone flying",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/pesawat-part1/tempel/item05.jpg",
+   "kredit": "Bert Christiaens / Pexels"
+  },
+  {
+   "fakta": "Meluncur ke luar angkasa, wuuush!",
+   "nama": "Roket",
+   "pexels_query": "rocket launch",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/pesawat-part1/tempel/item06.jpg",
+   "kredit": "SpaceX / Pexels"
+  },
+  {
+   "fakta": "Bisa mendarat di air, keren kan?",
+   "nama": "Pesawat Amfibi",
+   "pexels_query": "seaplane",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/pesawat-part1/tempel/item07.jpg",
+   "kredit": ".Shaahy / Pexels"
+  }
+ ],
+ "judul": "Pesawat",
+ "kategori": "jenis pesawat",
+ "part": 1
+}

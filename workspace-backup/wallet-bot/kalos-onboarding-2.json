@@ -1,0 +1,38 @@
+{
+  "steps": [
+    {
+      "name": "still_connected",
+      "ok": true,
+      "detail": "['0xf0f25C36AC70E9d787a108eFB351626192C8107b']"
+    },
+    {
+      "name": "profile_edit",
+      "ok": false,
+      "detail": "Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"Edit profile\").first\n    - locator resolv"
+    },
+    {
+      "name": "airdrop_guide",
+      "ok": true,
+      "detail": "Testnet preview NFTs and HYPE have no real value. Get test HYPE \u2197 Discover DEX Drops Social Points Profile Learn Join \u2197 Refer 0.09 1 All guides  DEX  Claiming airdrops  How to tell whether your wallet"
+    },
+    {
+      "name": "getting_started_guide",
+      "ok": true,
+      "detail": "Testnet preview NFTs and HYPE have no real value. Get test HYPE \u2197 Discover DEX Drops Social Points Profile Learn Join \u2197 Refer 0.09 1 All guides  GETTING STARTED  Getting started on the Elysium testnet"
+    },
+    {
+      "name": "points_retry",
+      "ok": false,
+      "detail": "Testnet preview NFTs and HYPE have no real value. Get test HYPE \u2197 Discover DEX Drops Social Points Profile Learn Join \u2197 Refer 0.09 1 Points Testnet Learn the basics Points could not load  The daily st"
+    },
+    {
+      "name": "social_feed",
+      "ok": false,
+      "detail": "still busy"
+    }
+  ],
+  "airdrop_guide": "Testnet preview\nNFTs and HYPE have no real value.\nGet test HYPE\n\u2197\nDiscover\nDEX\nDrops\nSocial\nPoints\nProfile\nLearn\nJoin\n\u2197\nRefer\n0.09\n1\nAll guides\n\nDEX\n\nClaiming airdrops\n\nHow to tell whether your wallet has a token airdrop, where to claim it on the DEX, and what to check before you confirm.\n\n2 min read \u00b7 Elysium testnet\n\nHow you know you have one\n\nWhen the connected wallet has a token airdrop, the DEX link in the menu shows a small note under it: Claim airdrop once it is ready, or Check airdrop while Kalos is still checking. Kalos looks only at the wallet you are connected with, so connect the wallet that received the airdrop.\n\nClaim it\nOpen DEX. Your airdrop appears at the top of the page as a card with the amount and the token.\nWait for Your airdrop is ready to claim. While the card reads Checking availability\u2026, its button stays disabled.\nPress Claim and confirm in your wallet. The dialog follows the transaction to Complete.\nWhen it confirms, Kalos says Airdrop claimed. Tokens are in your wallet.\nWhat happens behind the button\n\nAn airdrop is a fixed list of wallets and amounts. Before it asks your wallet, Kalos checks that the claim matches the connected wallet and the airdrop campaign, and the tokens go to that wallet. If you are connected with a different wallet, the claim is refused with \u201cThis claim does not match the connected wallet or campaign.\u201d\n\nClaiming is a transaction, so you need a little HYPE for the network fee. If you have none, get test HYPE first, as Getting started explains.\n\nAfter claiming\nThe card disappears once the claim is recorded. An airdrop can be claimed only once.\nThe tokens show in your wallet panel and work on the DEX like any other token: you can swap them, deposit them in a pool or, for KALOS, stake them (Staking KALOS).\nWHY IT MATTERS\n\nClaims happen on the DEX page of Kalos, for the wallet the airdrop was made for. You never need to share anything with anyone to claim.\n\nRISKS\nBe wary of \u201cairdrop\u201d links in messages or on other sites that ask you to connect or sign. On Kalos, claim from the DEX page.\nAn airdrop claim never needs your seed phrase.\nThe amount is what was assigned to your wallet. Nobody can raise it for you.\nOpen the DEX\nNext guide\nBuying, listing and offers on NFTs\nCollections\nDrops\nPoints\nApply to launch\nBuilt for Elysium\nElysium\nTestnet\nConnected\nHYPE\n$",
+  "getting_started": "Testnet preview\nNFTs and HYPE have no real value.\nGet test HYPE\n\u2197\nDiscover\nDEX\nDrops\nSocial\nPoints\nProfile\nLearn\nJoin\n\u2197\nRefer\n0.09\n1\nAll guides\n\nGETTING STARTED\n\nGetting started on the Elysium testnet\n\nConnect a wallet, get free test HYPE from the faucet and learn what testnet means: nothing here has real value.\n\n2 min read \u00b7 Elysium testnet\n\nWhat testnet means\n\nKalos runs on the Kinetiq Elysium testnet, chain ID 99801. A testnet is a practice network, and the banner at the top of every page says it plainly: NFTs and HYPE have no real value. You can try every feature, make mistakes and start again without losing real money.\n\nHYPE is the network\u2019s own token. It pays the small network fee, called gas, of every transaction, and it is the currency most prices on Kalos are shown in.\n\nConnect your wallet\nPress Connect wallet at the top right. On a phone, open the account menu (the person icon at the top right) and press Connect wallet there.\nChoose your wallet in the list. You can search for it by name.\nApprove the network request in your wallet. Kalos asks it to switch to Elysium testnet, and to add the network as Kinetiq Elysium Testnet if your wallet does not know it yet.\nYour balance now shows in the header. Press it to open your wallet panel.\n\nIf your wallet says it cannot add the network, use a wallet that supports custom networks.\n\nGet test HYPE\n\nYou need a little HYPE before you can do anything on chain. Test HYPE is free:\n\nGet test HYPE in the testnet banner opens the official Elysium faucet\n(opens in a new tab)\n\u2197 in a new tab. On a phone it is also under More, as Faucet.\nIn your wallet panel, Get HYPE opens the bridge, which moves HYPE from HyperEVM testnet to Elysium. On testnet the faucet is listed there too.\nSign in to Kalos\n\nSome features use your Kalos account instead of a transaction: posting on Social, a profile with a username, feedback. Sign in to Kalos in the account menu opens a dialog. There, Sign in asks your wallet to sign a message. It is free: no transaction, no gas. If you are new, choose New to Kalos? Create your profile in the same dialog to pick your username.\n\nWhat every transaction costs\n\nSwaps, deposits, listings, purchases, offers and mints are transactions. Each one pays a network fee in HYPE, so always keep some HYPE aside. The Max buttons help: Max for HYPE on the DEX keeps an estimate of the network fee, and Max in Wrap HYPE keeps 0.002 HYPE for gas.\n\nEach transaction opens a dialog that follows it from Sign to Confirming to Complete. When it is done, the result is in your wallet.\n\nWHY IT MATTERS\n\nPractising on testnet is the safest way to learn how wallets, approvals and reviews work before real money is involved.\n\nRISKS\nTest HYPE and testnet NFTs have no real value. Nobody needs to sell you test HYPE: the faucet gives it away.\nA transaction you confirm is final once it is confirmed, even on testnet. Read every review before you confirm. Staying safe explains what to check.\nGet test HYPE\n(opens in a new tab)\n\u2197\nOpe",
+  "points_retry_text": "Testnet preview\nNFTs and HYPE have no real value.\nGet test HYPE\n\u2197\nDiscover\nDEX\nDrops\nSocial\nPoints\nProfile\nLearn\nJoin\n\u2197\nRefer\n0.09\n1\nPoints\nTestnet\nLearn the basics\nPoints could not load\n\nThe daily standings are unavailable. Try again in a moment.\n\nTry again\nCollections\nDrops\nPoints\nApply to launch\nBuilt for Elysium\nElysium\nTestnet\nConnected\nHYPE\n$",
+  "done_at": "2026-10-19T08:35:33+07:00"
+}

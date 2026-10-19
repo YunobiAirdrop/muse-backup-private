@@ -8,10 +8,11 @@ schedule:
   kind: daily
   timezone: Asia/Jakarta
   time: 12:00:00
+timeout_secs: 7200
 delivery:
   - chat_id: cff15a74-710d-4347-9f43-b63e9629bb90
 metadata:
-  originating_chat_context_json: '{"chat_id":"cff15a74-710d-4347-9f43-b63e9629bb90","origin_provider":"main","chat_kind":"direct","event_kind":"message","require_mention":false,"device_id":"a132f74a55562927"}'
+  originating_chat_context_json: '{"chat_id":"7382e6cd-7263-4ede-983e-939bf507ecbf","binding_epoch":4,"origin_provider":"whatsapp","original_reply_target_id":"whatsapp_channel","chat_kind":"direct","message_id":"ACBF9FC9B0A2114372EC6DB0C4D1761C","conversation_id":"whatsapp_channel","delivery_target_id":"whatsapp_channel","event_kind":"message","require_mention":false}'
   presentation_locale: id-ID
 ---
 Produksi & upload 1 video "5 KEJADIAN ANEH/MISTERI"/hari ke "Lima Misteri" (@LimaMisteri, khususstokyunobi@gmail.com). Channel ID: UCQ0vHTsTqVeYy3zLno6pVfQ. WAJIB CEK channel aktif benar di YouTube Studio SEBELUM upload.
@@ -22,7 +23,7 @@ Produksi & upload 1 video "5 KEJADIAN ANEH/MISTERI"/hari ke "Lima Misteri" (@Lim
 
 **KONSEP:** countdown 5 kejadian aneh/misterius/penampakan dunia. Tiap peristiwa: lokasi + deskripsi + unsur misterinya ("Nomor 1. Di [lokasi]..."). Akhir: ajakan subscribe.
 
-**JADWAL:** tayang BESOK 19:00 WIB (prime time ID). Produksi 16:11. Upload ~20:00-22:00 → ketukan persetujuan 20:00-22:00, set "Terjadwal" BESOK 19:00 WIB.
+**JADWAL:** tayang BESOK 19:00 WIB (prime time ID). Produksi 12:00. Upload ~20:00-22:00 → ketukan persetujuan 20:00-22:00, set "Terjadwal" BESOK 19:00 WIB.
 
 **PERISTIWA:** tiap hari 5 BERBEDA. Pool ~/workspace/lima-misteri/pool-misteri.md, cek riwayat-misteri.json (anti-ulang 60 hari). Variasi: penampakan hantu ↔ UFO/fenomena langit ↔ kejadian aneh alam ↔ misteri tempat ↔ legenda urban.
 
@@ -46,16 +47,23 @@ Produksi & upload 1 video "5 KEJADIAN ANEH/MISTERI"/hari ke "Lima Misteri" (@Lim
 
 **JALUR UPLOAD (perbaikan 2026-10-12 malam, perintah user "kalo mau login bilang dulu"):** upload WAJIB via API memakai yt-growth (slug lima-misteri, token OAuth per channel sudah aktif) — BUKAN browser Studio. Upload browser channel ini memicu verifikasi 2 langkah Google ke HP user tanpa pemberitahuan (kejadian 12 Okt malam). Browser hanya dipakai SETELAH video terupload via API, untuk centang AI disclosure di Studio memakai sesi yang sudah login. JANGAN PERNAH memicu login/verifikasi Google baru dari cron ini — bila sesi mati total, STOP dan laporkan ke agen induk. Sebelum upload via API, cek daftar upload channel dulu — bila judul yang sama sudah ada, JANGAN upload dobel.
 
+**ANTI-TIMEOUT / RESUME (perbaikan 2026-10-19):** Pipeline ini panjang (70-80 gambar AI + render). WAJIB ikuti protokol checkpoint:
+1. PRE-FLIGHT: sebelum produksi, cek upload-terakhir.txt — bila sudah berisi tanggal HARI INI, verifikasi via API bahwa 4 video (1 long + 3 shorts) benar ada di channel. Bila ya → SKIP produksi, laporkan "sudah tayang", selesai.
+2. RESUME: cek file parsial hari ini (script/YYYY-MM-DD.txt, audio/YYYY-MM-DD.mp3, gambar/YYYY-MM-DD/beat-*.webp). Yang SUDAH ADA jangan dibuat ulang — lanjutkan dari yang kurang.
+3. Setelah tiap tahap besar selesai (script, audio, gambar, rakit, upload), tulis checkpoint ke ~/workspace/lima-misteri/checkpoint-YYYY-MM-DD.txt.
+4. Upload SEGERA setelah video jadi — jangan tunda sampai semua shorts selesai.
+
 **LANGKAH:**
-1. 5 peristiwa dari pool → cek riwayat → script/YYYY-MM-DD.txt per beat (1-2 kalimat = 1 beat + prompt gambar), selipkan komentar narator tiap peristiwa.
-2. Voiceover per beat (tts --language id --voice avocado_v2:mudiwa), gabung; jeda dramatis di peristiwa terseram.
-3. 70-80 gambar media.generate_image (storybook misterius, 1/beat).
-4. Rakit pakai rakit_light.py (BUKAN rakit_video.py — hindari OOM); text overlay momen kunci.
-5. Potong 3 shorts (ffmpeg crop vertikal).
-6. Thumbnail: bikin_thumbnail.py (≤4 kata).
-7. Upload SEMUA produksi hari ini via API (lihat JALUR UPLOAD): 1 LONG + 3 SHORTS ke @LimaMisteri + judul/deskripsi (afiliasi) + hashtag (long termasuk #foryou; shorts judul ditutup #foryou) + thumbnail, semua private TERJADWAL BESOK 19:00 WIB (publishAt). Tulis "long+shorts:YYYY-MM-DD" ke upload-terakhir.txt. AI disclosure dicentang menyusul via Studio.
-8. Upload via API tidak butuh ketukan persetujuan browser; laporkan hasil + videoId.
-9. Catat 5 peristiwa ke riwayat-misteri.json. Laporkan: yang diupload (long + shorts) + URL + status.
+1. PRE-FLIGHT check (lihat ANTI-TIMEOUT di atas).
+2. 5 peristiwa dari pool → cek riwayat → script/YYYY-MM-DD.txt per beat (1-2 kalimat = 1 beat + prompt gambar), selipkan komentar narator tiap peristiwa.
+3. Voiceover per beat (tts --language id --voice avocado_v2:mudiwa), gabung; jeda dramatis di peristiwa terseram.
+4. 70-80 gambar media.generate_image (storybook misterius, 1/beat).
+5. Rakit pakai rakit_light.py (BUKAN rakit_video.py — hindari OOM); text overlay momen kunci.
+6. Potong 3 shorts (ffmpeg crop vertikal).
+7. Thumbnail: bikin_thumbnail.py (≤4 kata).
+8. Upload SEMUA produksi hari ini via API (lihat JALUR UPLOAD): 1 LONG + 3 SHORTS ke @LimaMisteri + judul/deskripsi (afiliasi) + hashtag (long termasuk #foryou; shorts judul ditutup #foryou) + thumbnail, semua private TERJADWAL BESOK 19:00 WIB (publishAt). Tulis "long+shorts:YYYY-MM-DD" ke upload-terakhir.txt. AI disclosure dicentang menyusul via Studio.
+9. Upload via API tidak butuh ketukan persetujuan browser; laporkan hasil + videoId.
+10. Catat 5 peristiwa ke riwayat-misteri.json. Laporkan: yang diupload (long + shorts) + URL + status.
 
 Workspace: ~/workspace/lima-misteri/
 Catatan: jangan edit MEMORY.md; observasi ke ~/memory/YYYY-MM-DD.md

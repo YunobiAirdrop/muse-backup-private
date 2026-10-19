@@ -1,0 +1,61 @@
+auth ok
+POST /season1/claim -> 200 {"success": true, "message": "5000 points claimed!", "user": {"address": "0xf0f25c36ac70e9d787a108efb351626192c8107b", "points": 5000, "claimed": true, "claimedAt": "2026-10-19T08:36:33.831Z", "snapshot": {"totalBalance": 0.01, "totalTransactions": 0, "snapshotDate": "2026-10-19T08:36:33.831Z", "breakdown": [{"chain": "Ethereum", "transactions": 0, "balance": 0, "success": true, "_id": "6ad5d6913d30c611f379c59b"}, {"chain": "Base", "transactions": 0, "balance": 0, "success": true, "_id": "6ad5d6913d30c611f379c59c"}, {"chain": "BNB Smart Chain", "transactions": 0, "balance": 0.007255700000000001, "success": true, "_id": "6ad5d6913d30c611f379c59d"}]}}}
+Traceback (most recent call last):
+  File "/home/hatch/workspace/wallet-bot/allox_claim.py", line 27, in api
+    with urllib.request.urlopen(req, timeout=30) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hatch/workspace/wallet-bot/allox_claim.py", line 91, in <module>
+    main()
+  File "/home/hatch/workspace/wallet-bot/allox_claim.py", line 67, in main
+    code, r = api("POST", p, token=token)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/wallet-bot/allox_claim.py", line 30, in api
+    raw = e.read()[:400]
+          ^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 638, in func_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 600, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 544, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out

@@ -358,12 +358,15 @@
       "faucet": {},
       "frequency": "daily",
       "steps": [
-        "Connect farming wallet",
-        "Prove portfolio via AI agent",
-        "Earn Points through portfolio/onchain activity"
+        "Daily check-in via API: POST /checkin {chain:\"bnb\", signature, message} (gasless, no on-chain tx)",
+        "AI chat messages: 50/day rate limit, earns fromMessages points",
+        "Link X (@Yunobi_id) via OAuth for twitter tasks (USER ACTION)",
+        "Link Telegram for 2x1000 pts tasks (USER ACTION)",
+        "Portfolio proving: snapshot showed 0.0072 BNB only; LOW_BALANCE limits chat activity points"
       ],
       "format": "quest/points (AI agent, non-testnet)",
-      "status": "QUEUED 2026-10-18 — verified live via browser.open (Earn Points page active). Needs onboarding."
+      "status": "ONBOARDED 2026-10-19 15:40 WIB via direct API (SIWE auth, no browser). Wallet 0xf0f25C...8107b authenticated. Welcome Bonus 5000 pts CLAIMED. Day-1 check-in 500 pts CLAIMED (gasless signature path). Total ~5500 pts. Eligible=true.",
+      "notes": "Auth: GET /auth/nonce/{addr} -> sign -> POST /auth/verify -> Bearer JWT. Token in ~/workspace/wallet-bot/.allox-token (600). Scripts: allox_api.py (auth probe), allox_claim.py (claim), allox_state.py (state dump). Free path confirmed, no BNB needed. sale.allox.ai is PAID public sale - avoid."
     },
     {
       "id": "tastyco",
@@ -383,6 +386,34 @@
       ],
       "format": "quest/points (social + streaks, non-testnet)",
       "status": "QUEUED 2026-10-18 — verified live via browser.open (quest page active, points ladder Newcomer->Ambassador). Needs onboarding: wallet + social connects."
+    },
+    {
+      "id": "kalos",
+      "name": "Kalos",
+      "dapp_url": "https://kalos.fun",
+      "api_base": "https://api.kalos.fun",
+      "chain": "Elysium testnet (Kinetiq L2, chain 99801)",
+      "raised": "unknown (very new, ~1 month; team/funding not publicly verified)",
+      "token_confirmed": false,
+      "reward": "Points + Genesis mainnet whitelist chance + $KALOS daily for top earner (per community post, unverified official)",
+      "status": "wallet_connected_profile_pending",
+      "onboarded_at": "2026-10-19",
+      "wallet": "0xf0f25C36AC70E9d787a108eFB351626192C8107b",
+      "hype_balance": "0.094307",
+      "steps": [
+        "Connect wallet at kalos.fun (DONE 2026-10-19 via AutoWallet)",
+        "Sign in to Kalos + create profile with username (BLOCKED 2026-10-19: api.kalos.fun 'API is busy' outage - retry)",
+        "Mint testnet NFTs from Drops when live (none live 2026-10-19)",
+        "Social: post/like/engage (feed down 2026-10-19, retry)",
+        "DEX: swap HYPE/KALOS, add liquidity (prices paused 2026-10-19, retry)",
+        "Check DEX for 'Claim airdrop' card if wallet is eligible",
+        "Collect points / leaderboard (points API down 2026-10-19, retry)"
+      ],
+      "blockers": [
+        "2026-10-19: api.kalos.fun backend outage ('API is busy') - Points, Social feed, DEX prices, profile creation all failing. Retry when recovered."
+      ],
+      "notes": "Learn guides captured: airdrop claims happen on DEX page as a card; sign-in is free (message signature, no gas). Tabs: Discover, DEX, Drops, Social, Points, Profile, Learn.",
+      "frequency": "daily (when API recovers)"
     }
   ],
   "wallet_address": "0xf0f25C36AC70E9d787a108eFB351626192C8107b"

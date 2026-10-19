@@ -1,24 +1,49 @@
 {
   "site": "https://app.allox.ai",
   "farming_wallet": "0xf0f25C36AC70E9d787a108eFB351626192C8107b",
-  "status": "infrastructure_ready_site_flaky",
-  "onboarded_at": "2026-10-19T13:30:00+07:00",
-  "findings": {
-    "wallet_connection": "WORKS - AutoWallet connects, address 0xf0f25C...107b shown as connected",
-    "auth_flow": "SIWE (Sign-In with Ethereum) - requires personal_sign",
-    "blocker_fixed": "AutoWallet now supports personal_sign/eth_sign via sign_server.py /sign_message endpoint",
-    "sign_server": "Running on 127.0.0.1:18743, /sign_message tested and working",
-    "site_reliability": "FLAKY - page loads intermittently, networkidle never fires (continuous polling), blank pages occur"
+  "status": "ONBOARDED 2026-10-19 15:40 WIB",
+  "onboarded_at": "2026-10-19T15:40:00+07:00",
+  "method": "Direct API (SIWE: nonce -> eth personal_sign -> /auth/verify). No browser needed.",
+  "auth": {
+    "flow": "GET /auth/nonce/{address} -> sign message -> POST /auth/verify {address, signature, walletProvider:'metamask'} -> Bearer JWT",
+    "token_file": "~/workspace/wallet-bot/.allox-token (600)"
   },
   "points": {
-    "totalPoints": "unknown - login not completed due to site flakiness"
+    "welcome_bonus": 5000,
+    "checkin_day1": 500,
+    "total": 5500,
+    "breakdown": {
+      "fromClaim": 5000,
+      "fromMessages": 0,
+      "fromPortfolios": 0,
+      "fromTwitter": 0,
+      "fromTelegram": 0,
+      "fromProve": 0
+    },
+    "eligible": true
   },
-  "bnb_balance_issue": "Farming wallet has 0 BNB mainnet. Portfolio proving may require on-chain holdings. Documented as potential limitation.",
-  "next_steps": [
-    "Retry login when site is more stable",
-    "The message signing infrastructure is now ready for any SIWE-based dApp",
-    "Consider funding small BNB amount if portfolio proving requires it"
+  "daily": {
+    "checkin": "POST /checkin {chain:'bnb', signature, message} - gasless signature path works (any message, server verifies sig)",
+    "cycle": "7-day cycle: 500/1000/1500/2000/2500/4000/5000 pts. Day 2 unlocks ~2026-10-20 07:00 WIB",
+    "ai_chat": "50 msgs/day rate limit, earns fromMessages points"
+  },
+  "user_actions_needed": [
+    "Link X account (@Yunobi_id) via OAuth at app.allox.ai for twitter tasks",
+    "Link Telegram for 1000+1000 pts (join + announcements)"
+  ],
+  "caveats": [
+    "Portfolio snapshot: only 0.0072 BNB on BSC mainnet - chat activity points limited by LOW_BALANCE",
+    "No BNB mainnet balance required for points eligibility (confirmed via guides)"
+  ],
+  "scripts": [
+    "allox_api.py",
+    "allox_claim.py",
+    "allox_state.py",
+    "allox_checkin_probe.py",
+    "allox_checkin_sig.py",
+    "allox_checkin_msg.py",
+    "allox_final.py"
   ],
   "api_base": "https://api.allox.ai",
-  "reward": "Points → $ALLOX confirmed"
+  "reward": "Points -> $ALLOX confirmed"
 }

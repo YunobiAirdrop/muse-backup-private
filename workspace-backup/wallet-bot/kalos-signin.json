@@ -1,0 +1,15 @@
+{
+  "steps": [
+    {
+      "name": "header_buttons",
+      "ok": true,
+      "detail": "count=14"
+    },
+    {
+      "name": "account_menu",
+      "ok": false,
+      "detail": "Locator.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator(\"header\").locator(\"button\").nth(13)\n    - locator resolved to <button data-v"
+    }
+  ],
+  "done_at": "2026-10-19T08:36:08+07:00"
+}

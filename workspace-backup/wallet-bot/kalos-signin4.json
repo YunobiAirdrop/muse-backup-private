@@ -1,0 +1,20 @@
+{
+  "steps": [
+    {
+      "name": "create_profile_click",
+      "ok": true,
+      "detail": "dialog advanced"
+    },
+    {
+      "name": "username_fill",
+      "ok": false,
+      "detail": "Locator.fill: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator(\"input\").first\n    - locator resolved to <input role=\"combobox\" maxlength=\"12"
+    },
+    {
+      "name": "username_visible",
+      "ok": false,
+      "detail": "Testnet preview NFTs and HYPE have no real value. Get test HYPE \u2197 Discover DEX Drops Social Points Profile Learn Join \u2197 Refer 1 AN INVITATION TO KALOS Join the community.  Collect, trade and discover what\u2019s next in Elysium.  Continue without a referral code.  Your username Display name Optional Prof"
+    }
+  ],
+  "done_at": "2026-10-19T08:38:58+07:00"
+}

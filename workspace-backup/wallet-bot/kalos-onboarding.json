@@ -1,0 +1,65 @@
+{
+  "site": "https://kalos.fun",
+  "wallet": "0xf0f25C36AC70E9d787a108eFB351626192C8107b",
+  "steps": [
+    {
+      "name": "load_kalos",
+      "ok": true,
+      "detail": "url=https://www.kalos.fun/ title=Kalos \u2014 Discover"
+    },
+    {
+      "name": "click_wallet_option",
+      "ok": true,
+      "detail": "MetaMask"
+    },
+    {
+      "name": "wallet_connected",
+      "ok": false,
+      "detail": "not found"
+    },
+    {
+      "name": "profile_tab",
+      "ok": true,
+      "detail": "Testnet preview NFTs and HYPE have no real value. Get test HYPE \u2197 Discover DEX Drops Social Points Profile Learn Join \u2197 Refer 0.09 \u00a0 Loading your profile \u00a0 \u00a0 \u00a0 \u00a0 NFT floor estimate \u2014 Loading NFTs\u2026 HYP"
+    },
+    {
+      "name": "points_tab",
+      "ok": true,
+      "detail": "Testnet preview NFTs and HYPE have no real value. Get test HYPE \u2197 Discover DEX Drops Social Points Profile Learn Join \u2197 Refer 0.09 Points Testnet Learn the basics Points could not load  The daily standings are unavailable. Try again in a moment.  Try again Collections Drops Points Apply to launch Bu"
+    },
+    {
+      "name": "drops_tab",
+      "ok": true,
+      "detail": "live_drops=False"
+    },
+    {
+      "name": "social_tab",
+      "ok": true,
+      "detail": "Testnet preview NFTs and HYPE have no real value. Get test HYPE \u2197 Discover DEX Drops Social Points Profile Learn Join \u2197 Refer 0.09 Social  Collectors, conversations, and what\u2019s next.  Feed Following Saved Global chat Holder rooms New post All Posts Trades Mints Search posts by text or username Sort "
+    },
+    {
+      "name": "dex_tab",
+      "ok": true,
+      "detail": "screenshot taken"
+    },
+    {
+      "name": "learn_tab",
+      "ok": true,
+      "detail": "Testnet preview NFTs and HYPE have no real value. Get test HYPE \u2197 Discover DEX Drops Social Points Profile Learn Join \u2197 Refer 0.09 Learn  Short, plain guides to Kalos on the Elysium testnet: the DEX, NFTs and Drops, Social and Points.  Search guides  13 guides  Getting started Getting started on the"
+    },
+    {
+      "name": "provider_state",
+      "ok": true,
+      "detail": "accounts=['0xf0f25C36AC70E9d787a108eFB351626192C8107b'] chainId=0x185d9"
+    }
+  ],
+  "points_text": "Testnet preview\nNFTs and HYPE have no real value.\nGet test HYPE\n\u2197\nDiscover\nDEX\nDrops\nSocial\nPoints\nProfile\nLearn\nJoin\n\u2197\nRefer\n0.09\nPoints\nTestnet\nLearn the basics\nPoints could not load\n\nThe daily standings are unavailable. Try again in a moment.\n\nTry again\nCollections\nDrops\nPoints\nApply to launch\nBuilt for Elysium\nElysium\nTestnet\nConnected\nHYPE\n$",
+  "drops_text": "Testnet preview\nNFTs and HYPE have no real value.\nGet test HYPE\n\u2197\nDiscover\nDEX\nDrops\nSocial\nPoints\nProfile\nLearn\nJoin\n\u2197\nRefer\n0.09\nDrops\n\nMint new collections while they\u2019re live, and see what\u2019s coming next.\n\nLive & upcoming\nPast\nMy Drops\nApply to launch\n\nNo live drops right now.\n\nSee past drops\nCollections\nDrops\nPoints\nApply to launch\nBuilt for Elysium\nElysium\nTestnet\nUpdating\nHYPE\n$",
+  "social_text": "Testnet preview\nNFTs and HYPE have no real value.\nGet test HYPE\n\u2197\nDiscover\nDEX\nDrops\nSocial\nPoints\nProfile\nLearn\nJoin\n\u2197\nRefer\n0.09\nSocial\n\nCollectors, conversations, and what\u2019s next.\n\nFeed\nFollowing\nSaved\nGlobal chat\nHolder rooms\nNew post\nAll\nPosts\nTrades\nMints\nSearch posts by text or username\nSort posts\nRecent\nThis feed didn\u2019t load\n\nAPI is busy. Please try again shortly.\n\nTry again\nCollectors to follow\n0xa920\u202663ae\nCollector\nFollow\n0x8723\u20261c92\nCollector\nFollow\ngoko\n@goko\nFollow\nfsf\n@baongoc\nFollow\n@kc6a13e9d\nCollector\nFollow\nAround Kalos\nCollections\nDrops\nPoints\nApply to launch\nBuilt for Elysium\nElysium\nTestnet\nConnected\nHYPE\n$",
+  "learn_text": "Testnet preview\nNFTs and HYPE have no real value.\nGet test HYPE\n\u2197\nDiscover\nDEX\nDrops\nSocial\nPoints\nProfile\nLearn\nJoin\n\u2197\nRefer\n0.09\nLearn\n\nShort, plain guides to Kalos on the Elysium testnet: the DEX, NFTs and Drops, Social and Points.\n\nSearch guides\n\n13 guides\n\nGetting started\nGetting started on the Elysium testnet\n\nConnect a wallet, get free test HYPE from the faucet and learn what testnet means: nothing here has real value.\n\n2 min read\nWrapping and unwrapping HYPE\n\nWhat WHYPE is and why NFT offers use it, how to wrap and unwrap HYPE in your wallet panel, and what the Kalos Allowance does.\n\n2 min read\nStaying safe\n\nNever share your seed phrase, read what you sign, know what each approval allows, and spot testnet scams before they cost you.\n\n3 min read\nDEX\nSwapping tokens\n\nSwap on the DEX: price impact, max slippage from 0.01% to 5%, minimum received, pool fees, the route, network fees and the final check.\n\n3 min read\nAdding liquidity\n\nDeposit two tokens into a pool to earn its swap fees: full range or custom range, pool fee tiers, approvals and the deposit review.\n\n3 min read\nImpermanent loss explained\n\nWhy a liquidity position can be worth less than holding the same tokens, a worked example with numbers, when it matters and how fees offset it.\n\n3 min read\nCollecting fees and removing liquidity\n\nRead a position card, move uncollected fees to your wallet with Collect, and take your tokens out with Remove, in part or in full.\n\n2 min read\nStaking KALOS\n\nStake KALOS for stKALOS on the DEX Stake tab, how the stKALOS rate grows with rewards, and how to unstake any time with no lock.\n\n2 min read\nClaiming airdrops\n\nHow to tell whether your wallet has a token airdrop, where to claim it on the DEX, and what to check before you confirm.\n\n2 min read\nNFTs and Drops\nBuying, listing and offers on NFTs\n\nBuy one NFT or a cart, sweep the floor, list one NFT or many, make item and collection offers in WHYPE, and accept offers.\n\n3 min read\nMinting from Drops\n\nFind a live drop, see who",
+  "accounts": [
+    "0xf0f25C36AC70E9d787a108eFB351626192C8107b"
+  ],
+  "chainId": "0x185d9",
+  "done_at": "2026-10-19T08:33:00+07:00"
+}

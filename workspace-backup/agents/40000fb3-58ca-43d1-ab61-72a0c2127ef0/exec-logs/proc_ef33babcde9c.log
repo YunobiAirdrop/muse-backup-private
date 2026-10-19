@@ -1,0 +1,10 @@
+[OK] still_connected: ['0xf0f25C36AC70E9d787a108eFB351626192C8107b']
+[FAIL] profile_edit: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for get_by_text("Edit profile").first
+    - locator resolv
+[OK] airdrop_guide: Testnet preview NFTs and HYPE have no real value. Get test HYPE ↗ Discover DEX Drops Social Points Profile Learn Join ↗ Refer 0.09 1 All guides  DEX  Claiming airdrops  How to tell whether your wallet
+[OK] getting_started_guide: Testnet preview NFTs and HYPE have no real value. Get test HYPE ↗ Discover DEX Drops Social Points Profile Learn Join ↗ Refer 0.09 1 All guides  GETTING STARTED  Getting started on the Elysium testnet
+[FAIL] points_retry: Testnet preview NFTs and HYPE have no real value. Get test HYPE ↗ Discover DEX Drops Social Points Profile Learn Join ↗ Refer 0.09 1 Points Testnet Learn the basics Points could not load  The daily st
+[FAIL] social_feed: still busy
+[DONE] results -> /home/hatch/workspace/wallet-bot/kalos-onboarding-2.json

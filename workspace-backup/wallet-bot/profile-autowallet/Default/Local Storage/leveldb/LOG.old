@@ -1,3 +1,5 @@
-2026/10/19-06:25:36.637 16db Reusing MANIFEST /home/hatch/workspace/wallet-bot/profile-autowallet/Default/Local Storage/leveldb/MANIFEST-000001
-2026/10/19-06:25:36.643 16db Recovering log #7
-2026/10/19-06:25:36.643 16db Reusing old log /home/hatch/workspace/wallet-bot/profile-autowallet/Default/Local Storage/leveldb/000007.log 
+2026/10/19-08:39:14.361 10c6 Reusing MANIFEST /home/hatch/workspace/wallet-bot/profile-autowallet/Default/Local Storage/leveldb/MANIFEST-000001
+2026/10/19-08:39:14.377 10c6 Recovering log #20
+2026/10/19-08:39:14.379 10c6 Level-0 table #22: started
+2026/10/19-08:39:14.416 10c6 Level-0 table #22: 34067 bytes OK
+2026/10/19-08:39:14.487 10c6 Delete type=0 #20
