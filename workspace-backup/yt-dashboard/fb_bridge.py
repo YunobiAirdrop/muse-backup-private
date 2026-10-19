@@ -186,6 +186,20 @@ def do_publish(cmd):
     return {"ok": True, "ts": int(time.time())}
 
 
+def do_delete(cmd):
+    slug, vid = cmd.get("slug", ""), cmd.get("videoId", "")
+    if slug not in dash.CHANNELS or not vid or not dash.has_token(slug):
+        return {"ok": False, "error": "slug/video tidak valid", "ts": int(time.time())}
+    try:
+        yt_delete(slug, f"/videos/{vid}")
+    except Exception as e:
+        return {"ok": False, "error": str(e)[:150], "ts": int(time.time())}
+    ts = datetime.now(WIB).strftime("%Y-%m-%d %H:%M:%S")
+    with open(dash.PUBLISH_LOG, "a") as f:
+        f.write(f"{ts} {slug} {vid} -> DELETED (via firebase)\n")
+    return {"ok": True, "ts": int(time.time())}
+
+
 def _load_state():
     try:
         raw = STATE_FILE.read_text().strip()

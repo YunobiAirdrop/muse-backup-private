@@ -1,0 +1,555 @@
+{
+  "tanggal_audit": "2026-10-19",
+  "channels": {
+    "empires-en": {
+      "channel_id": "UCd2wADmj47v3XCPcCpk-fSg",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [
+        {
+          "judul_base": "What Really Killed the Maya? 60 Cities, 1",
+          "jumlah": 2,
+          "videos": [
+            {
+              "videoId": "5JlDQfx5AA8",
+              "judul": "What Really Killed the Maya? 60 Cities, 1 Mystery"
+            },
+            {
+              "videoId": "6DwpnronVQQ",
+              "judul": "What Really Killed the Maya? 60 Cities, 1 Mystery"
+            }
+          ]
+        }
+      ],
+      "video_sepi": [
+        {
+          "videoId": "6DwpnronVQQ",
+          "judul": "What Really Killed the Maya? 60 Cities, 1 Mystery",
+          "views": 4,
+          "umur_hari": 9
+        },
+        {
+          "videoId": "SVv6jFBOWkA",
+          "judul": "12,000 Years Old — The Temple That Shouldn't Exist #shorts #history #archaeology",
+          "views": 5,
+          "umur_hari": 10
+        },
+        {
+          "videoId": "QnxIQ8J16_M",
+          "judul": "This Temple Is Older Than Farming Itself #shorts #history #archaeology #foryou",
+          "views": 4,
+          "umur_hari": 10
+        },
+        {
+          "videoId": "rmkMgiPdLCo",
+          "judul": "Göbekli Tepe: The 12,000-Year-Old Temple Built Before Farming Existed",
+          "views": 2,
+          "umur_hari": 11
+        }
+      ]
+    },
+    "history-en": {
+      "channel_id": "UCCBGIbsfMo2TmyhbUzHxD0A",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": [
+        {
+          "videoId": "PFG-p8TNA4o",
+          "judul": "Pompeii's Last Morning: A Living City Buried in 79 AD",
+          "views": 2,
+          "umur_hari": 11
+        }
+      ]
+    },
+    "horor": {
+      "channel_id": "UCUEHu-nQXxGuru5Bviy4DKQ",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": [
+        {
+          "videoId": "iSIaj3nG_vk",
+          "judul": "Setiap Kali Dia Foto, Sosok Itu Makin Dekat... Kutukan Candi Terlarang!",
+          "views": 3,
+          "umur_hari": 10
+        },
+        {
+          "videoId": "nadty2jGMfY",
+          "judul": "Isi Kantong Ini Gigi Manusia! | Pasar Malam Gaib #shorts #horor #ceritahoror #fo",
+          "views": 2,
+          "umur_hari": 11
+        },
+        {
+          "videoId": "KWjDXPQoOHs",
+          "judul": "Pasar Malam Ini Cuma Muncul Setahun Sekali... Pembelinya Bukan Manusia!",
+          "views": 5,
+          "umur_hari": 12
+        },
+        {
+          "videoId": "2QIHW50JSZU",
+          "judul": "Kamar Kos Nomor 13 Ini Selalu Kosong... Ternyata Penghuninya Belum Pergi!",
+          "views": 9,
+          "umur_hari": 13
+        }
+      ]
+    },
+    "horror-en": {
+      "channel_id": "UCR7uhocCg9YZM7-Qoi1sVGA",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": [
+        {
+          "videoId": "jhDzosY_vj8",
+          "judul": "Her Mirror Showed No Reflection. Then It Moved #shorts #horror #scarystories #fo",
+          "views": 1,
+          "umur_hari": 11
+        },
+        {
+          "videoId": "7mkgmONd89o",
+          "judul": "Dead for 52 Years — Then He Opened His Eyes #shorts #horror #scarystories #foryo",
+          "views": 1,
+          "umur_hari": 11
+        },
+        {
+          "videoId": "LYjw4nTlwUE",
+          "judul": "She Had NO Reflection #shorts #horror #scarystories #foryou",
+          "views": 7,
+          "umur_hari": 12
+        },
+        {
+          "videoId": "W-9_kjVUpuI",
+          "judul": "The Last Bus to Black Hollow Never Came Back | Horror Story",
+          "views": 2,
+          "umur_hari": 13
+        }
+      ]
+    },
+    "jejakbuddha": {
+      "channel_id": "UC1PNEzhOmAH08p75vwp7n0A",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [
+        {
+          "judul_base": "6 Tahun Menyiksa Diri, Tapi Pencerahan Tak Kunjung",
+          "jumlah": 2,
+          "videos": [
+            {
+              "videoId": "HrI_hj6jGXQ",
+              "judul": "6 Tahun Menyiksa Diri, Tapi Pencerahan Tak Kunjung Datang #shorts #buddha #kebijaksanaan #foryou"
+            },
+            {
+              "videoId": "I_B9oy4U9TI",
+              "judul": "6 Tahun Menyiksa Diri, Tapi Pencerahan Tak Kunjung Datang #shorts #buddha #kebijaksanaan #foryou"
+            }
+          ]
+        }
+      ],
+      "video_sepi": []
+    },
+    "jejakislami": {
+      "channel_id": "UC81zPJnIJbKU5lhTKx-6Hyg",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [
+        {
+          "judul_base": "Dibakar Hidup-Hidup, Api Justru Menjadi Dingin",
+          "jumlah": 3,
+          "videos": [
+            {
+              "videoId": "J1HEYCEkjQs",
+              "judul": "Dibakar Hidup-Hidup, Api Justru Menjadi Dingin"
+            },
+            {
+              "videoId": "P0XCx7rCbNA",
+              "judul": "Dibakar Hidup-Hidup, Api Justru Menjadi Dingin"
+            },
+            {
+              "videoId": "uIGWlXfMQJ4",
+              "judul": "Dibakar Hidup-Hidup, Api Justru Menjadi Dingin"
+            }
+          ]
+        },
+        {
+          "judul_base": "Laut Terbelah Dua, Pasukan Fir'aun Tenggelam",
+          "jumlah": 2,
+          "videos": [
+            {
+              "videoId": "w6iwcZqpV1E",
+              "judul": "Laut Terbelah Dua, Pasukan Fir'aun Tenggelam"
+            },
+            {
+              "videoId": "xpGwk_bdxZ8",
+              "judul": "Laut Terbelah Dua, Pasukan Fir'aun Tenggelam"
+            }
+          ]
+        }
+      ],
+      "video_sepi": [
+        {
+          "videoId": "bltnidaQ0ms",
+          "judul": "Mimpi 11 Bintang Jadi Kenyataan — Kisah Nabi Yusuf #shorts #islami #kisahnabi #f",
+          "views": 2,
+          "umur_hari": 9
+        },
+        {
+          "videoId": "AjKco8l2Hf0",
+          "judul": "Difitnah Lalu Dipenjara — Kisah Nabi Yusuf yang Menggetarkan #shorts #islami #ki",
+          "views": 2,
+          "umur_hari": 9
+        },
+        {
+          "videoId": "l3G0yeRWSN8",
+          "judul": "Dibuang ke Sumur oleh Kakaknya Sendiri — Kisah Nabi Yusuf #shorts #islami #kisah",
+          "views": 4,
+          "umur_hari": 9
+        },
+        {
+          "videoId": "8LdS1kmxEjg",
+          "judul": "Dibuang ke Sumur, Difitnah, Lalu Jadi Penguasa Mesir",
+          "views": 2,
+          "umur_hari": 10
+        }
+      ]
+    },
+    "kisahalkitab": {
+      "channel_id": "UCGCXDPx3vSHTUOkNiuLezdw",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": []
+    },
+    "kisahdharma": {
+      "channel_id": "UCAhInkFRxF3xkxW8kgFOrJA",
+      "total_video_cek": 8,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": []
+    },
+    "lima-misteri": {
+      "channel_id": "UCQ0vHTsTqVeYy3zLno6pVfQ",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": []
+    },
+    "mind-en": {
+      "channel_id": "UCAnSrJzQuePS1MJhfwlRJuQ",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": [
+        {
+          "videoId": "ffZFaSuDJdI",
+          "judul": "Gaslighting: How They Destroy Your Reality #shorts #psychology #mindset #foryou",
+          "views": 7,
+          "umur_hari": 10
+        }
+      ]
+    },
+    "mystery-en": {
+      "channel_id": "UCjxESFWyFPOkGTSpajK69Lw",
+      "total_video_cek": 6,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": [
+        {
+          "videoId": "g900Smffbuo",
+          "judul": "9 Hikers Died on the Dead Mountain — Science Still Can't Explain It",
+          "views": 2,
+          "umur_hari": 13
+        }
+      ]
+    },
+    "space-en": {
+      "channel_id": "UCQnUeh4-2AKgCsV_cjgUv4w",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [
+        {
+          "judul_base": "The Boötes Void: 330 Million Light-Years of NOTHING",
+          "jumlah": 2,
+          "videos": [
+            {
+              "videoId": "I-fJeXXkgn8",
+              "judul": "The Boötes Void: 330 Million Light-Years of NOTHING #shorts #space #universe #foryou"
+            },
+            {
+              "videoId": "Cn6AYK_fvag",
+              "judul": "The Boötes Void: 330 Million Light-Years of NOTHING"
+            }
+          ]
+        }
+      ],
+      "video_sepi": []
+    },
+    "strangetales": {
+      "channel_id": "UCAVSqZjG8Af_pm_1uD5wRzA",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": [
+        {
+          "videoId": "Up9w_QKjrTg",
+          "judul": "Lightning Strikes Here 300 Nights a Year — But WHY?! #shorts #weirdfacts #strang",
+          "views": 0,
+          "umur_hari": 8
+        },
+        {
+          "videoId": "Y5nf99683ZE",
+          "judul": "The Jellyfish That Refuses to Die — Immortal?! #shorts #weirdfacts #ocean #foryo",
+          "views": 3,
+          "umur_hari": 11
+        }
+      ]
+    },
+    "tinybuilders": {
+      "channel_id": "UCjy7bWJU5gULDIYjPmTg9xg",
+      "total_video_cek": 9,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": [
+        {
+          "videoId": "SbN_Xgr2jq8",
+          "judul": "We Built a WORKING Mini Diesel Water Pump! (Miniature Farm Build)",
+          "views": 1,
+          "umur_hari": 10
+        }
+      ]
+    },
+    "inktime": {
+      "channel_id": "UCoZl5OaqjXSVkE4S96RY8_g",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": []
+    },
+    "macammacam": {
+      "channel_id": "UC5ld2qCo0wKeuRKCA1-dbow",
+      "total_video_cek": 8,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [
+        {
+          "judul_base": "Macam-macam Jenis Truk (Part 1)",
+          "jumlah": 2,
+          "videos": [
+            {
+              "videoId": "_KnBwr71YZM",
+              "judul": "Macam-macam Jenis Truk (Part 1)"
+            },
+            {
+              "videoId": "bGBGROVZfZY",
+              "judul": "Macam-macam Jenis Truk (Part 1)"
+            }
+          ]
+        }
+      ],
+      "video_sepi": []
+    },
+    "truecrime-en": {
+      "channel_id": "UC2df1xY_WqWdX33oLqeXE2w",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [
+        {
+          "judul_base": "He Jumped From a Plane With $200,000 —",
+          "jumlah": 2,
+          "videos": [
+            {
+              "videoId": "EXmbjr-MKbs",
+              "judul": "He Jumped From a Plane With $200,000 — Never Found #shorts #truecrime #mystery #foryou"
+            },
+            {
+              "videoId": "W2gByTFLYWU",
+              "judul": "He Jumped From a Plane With $200,000 — Never Found #shorts #truecrime #mystery #foryou"
+            }
+          ]
+        },
+        {
+          "judul_base": "The $5,800 That Reopened America's Greatest Mystery",
+          "jumlah": 2,
+          "videos": [
+            {
+              "videoId": "PrEE5W4ZxrI",
+              "judul": "The $5,800 That Reopened America's Greatest Mystery #shorts #truecrime #mystery #foryou"
+            },
+            {
+              "videoId": "zItf87bPxvU",
+              "judul": "The $5,800 That Reopened America's Greatest Mystery #shorts #truecrime #mystery #foryou"
+            }
+          ]
+        },
+        {
+          "judul_base": "Cooper Vanished Mid-Air. The FBI Never Solved It",
+          "jumlah": 2,
+          "videos": [
+            {
+              "videoId": "w2pKB7ndG4Y",
+              "judul": "Cooper Vanished Mid-Air. The FBI Never Solved It #shorts #truecrime #mystery #foryou"
+            },
+            {
+              "videoId": "QYS9r3c4glM",
+              "judul": "Cooper Vanished Mid-Air. The FBI Never Solved It #shorts #truecrime #mystery #foryou"
+            }
+          ]
+        }
+      ],
+      "video_sepi": [
+        {
+          "videoId": "7zOMvbK2rjE",
+          "judul": "The Phone Line Was CUT Before the Fire Started #shorts #truecrime #mystery #fory",
+          "views": 9,
+          "umur_hari": 10
+        },
+        {
+          "videoId": "b3KyDWsTyq0",
+          "judul": "D.B. Cooper: America's Only Unsolved Skyjacking (1971)",
+          "views": 3,
+          "umur_hari": 13
+        }
+      ]
+    },
+    "weird-en": {
+      "channel_id": "UCJ6KqdYvVJ-PaxhGLfTFVhA",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": [
+        {
+          "videoId": "MnqiOkoot10",
+          "judul": "Australia Went to War Against Birds — And Lost | The Great Emu War 1932",
+          "views": 4,
+          "umur_hari": 12
+        }
+      ]
+    },
+    "youtube-pov": {
+      "channel_id": "UC1c8WpKGhFKpUOp5AqVueEg",
+      "total_video_cek": 10,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [
+        {
+          "judul_base": "Dinding Bergetar... 200 Ribu Tentara Mengepungku!",
+          "jumlah": 3,
+          "videos": [
+            {
+              "videoId": "F0Malo5MCoA",
+              "judul": "Dinding Bergetar... 200 Ribu Tentara Mengepungku! | POV Ksatria Templar Terakhir di Acre #shorts #po"
+            },
+            {
+              "videoId": "-2qLmaLbPZo",
+              "judul": "Dinding Bergetar... 200 Ribu Tentara Mengepungku! | POV Ksatria Templar Terakhir di Acre"
+            },
+            {
+              "videoId": "mgMXJIOqG7E",
+              "judul": "Dinding Bergetar... 200 Ribu Tentara Mengepungku! | POV Ksatria Templar Terakhir di Acre"
+            }
+          ]
+        }
+      ],
+      "video_sepi": [
+        {
+          "videoId": "epB4odp8Fhk",
+          "judul": "Surat Terakhir Untuk Ibu Sebelum Terbang | POV Pilot Kamikaze #shorts #pov #seja",
+          "views": 1,
+          "umur_hari": 11
+        },
+        {
+          "videoId": "uODVnY-U17o",
+          "judul": "\"IBUUU!\" — Teriakan Terakhir Sang Pilot | POV Pilot Kamikaze #shorts #pov #sejar",
+          "views": 2,
+          "umur_hari": 11
+        },
+        {
+          "videoId": "avEG3PdEZyg",
+          "judul": "Tanganku Gemetar... Tak Ada Jalan Pulang! | POV Pilot Kamikaze #shorts #pov #sej",
+          "views": 1,
+          "umur_hari": 11
+        },
+        {
+          "videoId": "W--QaM2Mm2A",
+          "judul": "POV: Kamu Jadi Pilot Kamikaze — Penerbangan Terakhir Tanpa Tiket Pulang!",
+          "views": 6,
+          "umur_hari": 12
+        },
+        {
+          "videoId": "1_Ly-3dGSjo",
+          "judul": "Pisau di Leherku, Ombak Sebesar Bukit: POV Awak Kapal Sriwijaya di Selat Malaka",
+          "views": 6,
+          "umur_hari": 13
+        },
+        {
+          "videoId": "E4me_PPkkOY",
+          "judul": "Pengkhianatnya Ternyata Awak Kapalku Sendiri! | POV Awak Kapal Sriwijaya #shorts",
+          "views": 2,
+          "umur_hari": 13
+        },
+        {
+          "videoId": "90hW5rScils",
+          "judul": "Digantung di Tiang Kapal Saat Badai Datang! | POV Awak Kapal Sriwijaya #shorts #",
+          "views": 8,
+          "umur_hari": 13
+        },
+        {
+          "videoId": "rz41otZhx5U",
+          "judul": "Kain Jimat Kecil Ini Selamatkan Nyawaku 2 Kali | POV Awak Kapal Sriwijaya #short",
+          "views": 0,
+          "umur_hari": 13
+        },
+        {
+          "videoId": "VlBBI1WSt_M",
+          "judul": "Jempol Kaisar Menentukan Nyawaku | POV Gladiator Colosseum #shorts #pov #sejarah",
+          "views": 5,
+          "umur_hari": 15
+        },
+        {
+          "videoId": "sLsyvHV4BVg",
+          "judul": "Detik-Detik Terakhir Sebelum Masuk Arena Kematian | POV Gladiator #shorts #pov #",
+          "views": 7,
+          "umur_hari": 15
+        },
+        {
+          "videoId": "txLoIquT-Dg",
+          "judul": "POV: Kamu Jadi Gladiator di Colosseum — 60 Detik Menentukan Hidup Matimu!",
+          "views": 4,
+          "umur_hari": 15
+        }
+      ]
+    },
+    "fakta-bola-dunia": {
+      "channel_id": "UCU9QUVkWqqjnEFtrj6QACDA",
+      "total_video_cek": 3,
+      "video_bermasalah": [],
+      "error": null,
+      "duplikat_judul": [],
+      "video_sepi": []
+    }
+  },
+  "ringkasan": {
+    "total_bermasalah": 0,
+    "channel_terparah": "empires-en",
+    "channel_terparah_jumlah": 0,
+    "total_duplikat_judul": 10,
+    "total_video_sepi": 36
+  }
+}

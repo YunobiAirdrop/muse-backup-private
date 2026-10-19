@@ -26,6 +26,7 @@ Tujuan: memaksimalkan peluang video meledak. Berlaku untuk semua 13 channel.
 - **Aturan naskah (dari tt-repurposer):** buka dengan HASILNYA dulu, bukan setup ("ini solusinya" > "saya jelaskan dulu konteksnya"); setiap baris naskah harus bisa diucapkan dalam SATU tarikan napas — kalau harus berhenti ambil napas, potong.
 - **FRASE PEMBUKA KONSISTEN (wajib, mulai 2026-10-11):** tiap channel punya 1 frase pembuka yang SAMA di setiap video (ciri khas channel, misal "Kembali di [nama channel]..."). Membangun identitas + kontinuitas buat penonton setia.
 - **KOMENTAR PENONTON JADI INTRO (wajib, mulai 2026-10-11):** 1x/minggu, buka video dengan menampilkan komentar penonton ("@X kemarin nanya...") — bukti didengarkan + pancing komentar lain biar kebagian giliran.
+- **SKILL VIRAL HOOKS (wajib, mulai 2026-10-19):** SEBELUM nulis hook/judul, WAJIB baca `~/workspace/custom-skills/local-viral-hooks-skill/SKILL.md` + `hooks-database.md`. Buat 3 varian hook dari 3 kategori BERBEDA (1 stop-scroll: negation/specificity/question + 1 retention: story/confession/emotional + 1 bebas), masing-masing MAKS 12 kata, pilih 1 yang terkuat. Hook yang tidak lewat skill ini = DITOLAK.
 
 ## 3. PACKAGING
 - Judul: curiosity gap, ≤60 karakter, kata kuat di depan ("Ternyata...", "Jangan...", angka).
@@ -239,3 +240,22 @@ Video yang SUDAH dibuild DILARANG dibuild ulang — hasil rebuild = video "sama"
 - SEBELUM produksi: cek riwayat topik/kisah channel + daftar video bank/upload channel — topik yang SUDAH pernah dibuild (dalam bentuk apa pun: long/shorts) DILARANG dipilih lagi. Pilih topik lain dari pool.
 - Pengecualian HANYA bila video asli HILANG/rusak total (file tidak ada) dan belum pernah tayang — catat alasannya di log.
 - Bila duplikat terlanjur terupload: batch yang LEBIH BARU (rebuild) yang di-private, batch asli yang sudah punya views dipertahankan.
+
+## 20. SEMUA SKILL WAJIB DIPAKAI PRODUKSI (perintah user 2026-10-19: "pasang semua skill yang kita punya buat produksi video youtube biar makin rame")
+Setiap produksi video WAJIB melewati skill-skill ini (baca SKILL.md masing-masing SEBELUM kerja):
+- **local-viral-hooks-skill** → 3 varian hook dari 3 kategori beda, pilih terkuat (sudah diwajibkan di bagian 2).
+- **local-social-media-pro-max** → untuk JUDUL, DESKRIPSI, dan THUMBNAIL. Ikuti formula packaging judul/hook, prinsip visual hierarchy untuk thumbnail (wajah emosi + teks ≤4 kata + kontras tinggi).
+- **local-tiktok-skills** → untuk SHORTS: pakai tt-hook-scripter (hook 1-3 detik: spoken + on-screen + visual serentak), tt-caption-writer (caption + hashtag), tt-humanizer (audit naskah sebelum produksi — hilangkan AI tells).
+- **local-humanizer** → untuk NASKAH LONG: bersihkan pola AI (staging, triad berlebih, dashes everywhere, klaim bombastis) agar terdengar seperti manusia bercerita, bukan robot baca berita.
+- Urutan pakai: viral-hooks (hook) → tiktok-skills/tt-humanizer (naskah) → humanizer (final polish naskah) → social-media-pro-max (judul + thumbnail + deskripsi).
+- Produksi yang skip skill = DITOLAK, tulis ulang.
+
+## 21. STANDAR TEKS OVERLAY & THUMBNAIL (wajib, mulai 2026-10-19 — komplain user: teks kepanjangan & numpuk, nggak kebaca)
+Aturan keras untuk SEMUA teks yang dibakar ke video (hook overlay, subtitle, CTA) di SEMUA channel:
+- **Hook overlay: MAKS 8 KATA.** Contoh benar: "MULUT TERSAYAT", "HANTU PENUNGGU SUMUR". Contoh SALAH: "Bayangin kamu tinggal di rumah tua, terus malam-malam dengar langkah kaki di tangga" (kepanjangan, DILARANG).
+- **Subtitle: MAKS 10 KATA per frame.** Kalimat panjang WAJIB dipecah jadi 2-3 frame. Jangan tampilkan paragraf penuh sekaligus.
+- **Posisi:** hook di ATAS (y=165 untuk shorts vertikal), subtitle di BAWAH (jangan di tengah layar — menutupi visual). CTA di bawah.
+- **Font:** shorts vertikal minimal fontsize 72, long horizontal minimal 62. Border hitam tebal (borderw minimal 3-4) agar kebaca di gambar ramai.
+- **Durasi tampil:** hook 5-6 detik, subtitle mengikuti audio per kalimat (jangan lebih dari 7 detik per frame).
+- **DILARANG:** teks menutupi wajah/objek utama; teks terlalu kecil; lebih dari 3 baris sekaligus; teks tanpa border/outline.
+- Checklist bagian 17 ditambah: [ ] teks overlay ≤8 kata (hook) / ≤10 kata per frame (subtitle), posisi benar, font cukup besar.
