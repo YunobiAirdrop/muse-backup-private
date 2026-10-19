@@ -2,7 +2,7 @@
 """Scan video private/scheduled terbaru di semua channel → Firebase /yt/review.json
 Untuk APK Review Video. Dijalankan tiap 30 menit via cron.
 """
-import json, sys, time
+import json, os, sys, time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import urllib.request
@@ -37,8 +37,12 @@ CHANNELS = {
 }
 
 def yt_get(slug, path, params=""):
-    tok = json.load(open(TOKENS_DIR / f"{slug}.json"))
-    at = tok.get("token") or tok.get("access_token", "")
+    try:
+        from auth import get_credentials  # auto-refresh access token bila kadaluwarsa
+        at = get_credentials(slug).token
+    except Exception:
+        tok = json.load(open(TOKENS_DIR / f"{slug}.json"))
+        at = tok.get("token") or tok.get("access_token", "")
     url = f"https://www.googleapis.com/youtube/v3/{path}?{params}"
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {at}"})
     try:
@@ -99,5 +103,13 @@ def main():
     print(f"OK: {len(review)} video pending → Firebase /yt/review.json")
 
 if __name__ == "__main__":
+    # auth.get_credentials butuh google-auth (hanya ada di venv yt-growth);
+    # re-exec ke venv bila python ini tidak punya (cron memanggil via python3 biasa)
+    try:
+        import google.auth  # noqa: F401
+    except ImportError:
+        venv_py = Path.home() / "workspace" / "youtube-otomatis" / "yt-growth" / "venv" / "bin" / "python"
+        if venv_py.exists():
+            os.execv(str(venv_py), [str(venv_py), str(Path(__file__).resolve()), *sys.argv[1:]])
     sys.path.insert(0, str(Path.home() / "workspace" / "youtube-otomatis" / "yt-growth"))
     main()
