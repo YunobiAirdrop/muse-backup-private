@@ -1,36 +1,15 @@
-2026/10/19-02:23:00.791 3258 Reusing MANIFEST /home/hatch/workspace/wallet-bot/profile/Default/IndexedDB/chrome-extension_ocicphjefllmdjaioocoolnmfbjdlcfg_0.indexeddb.leveldb/MANIFEST-000001
-2026/10/19-02:23:00.794 3258 Recovering log #99
-2026/10/19-02:23:00.796 3258 Reusing old log /home/hatch/workspace/wallet-bot/profile/Default/IndexedDB/chrome-extension_ocicphjefllmdjaioocoolnmfbjdlcfg_0.indexeddb.leveldb/000099.log 
-2026/10/19-02:23:00.797 3258 Delete type=2 #98
-2026/10/19-02:23:03.271 3259 Level-0 table #104: started
-2026/10/19-02:23:03.310 3259 Level-0 table #104: 23921 bytes OK
-2026/10/19-02:23:03.360 3259 Delete type=0 #99
-2026/10/19-02:23:03.360 3251 Manual compaction at level-0 from '\x00%\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00&\x00\x00\x00' @ 0 : 0; will stop at '\x00%\x00\x00\x05' @ 8190 : 1
-2026/10/19-02:23:03.360 3251 Compacting 1@0 + 1@1 files
-2026/10/19-02:23:03.404 3251 Generated table #105@0: 421 keys, 19952 bytes
-2026/10/19-02:23:03.404 3251 Compacted 1@0 + 1@1 files => 19952 bytes
-2026/10/19-02:23:03.450 3251 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/19-02:23:03.450 3251 Delete type=2 #104
-2026/10/19-02:23:03.452 3251 Manual compaction at level-0 from '\x00%\x00\x00\x05' @ 8190 : 1 .. '\x00&\x00\x00\x00' @ 0 : 0; will stop at (end)
-2026/10/19-02:23:03.529 325a Level-0 table #107: started
-2026/10/19-02:23:03.550 325a Level-0 table #107: 707 bytes OK
-2026/10/19-02:23:03.588 325a Delete type=2 #101
-2026/10/19-02:23:03.588 325a Delete type=0 #103
-2026/10/19-02:23:03.594 3258 Manual compaction at level-0 from '\x00&\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00'\x00\x00\x00' @ 0 : 0; will stop at '\x00&\x00\x00\x05' @ 8207 : 1
-2026/10/19-02:23:03.594 3258 Compacting 1@0 + 1@1 files
-2026/10/19-02:23:03.617 3258 Generated table #108@0: 421 keys, 19945 bytes
-2026/10/19-02:23:03.617 3258 Compacted 1@0 + 1@1 files => 19945 bytes
-2026/10/19-02:23:03.650 3258 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/19-02:23:03.650 3258 Delete type=2 #107
-2026/10/19-02:23:03.651 3258 Manual compaction at level-0 from '\x00&\x00\x00\x05' @ 8207 : 1 .. '\x00'\x00\x00\x00' @ 0 : 0; will stop at (end)
-2026/10/19-02:23:13.941 3251 Level-0 table #110: started
-2026/10/19-02:23:13.967 3251 Level-0 table #110: 52172 bytes OK
-2026/10/19-02:23:14.007 3251 Delete type=2 #105
-2026/10/19-02:23:14.007 3251 Delete type=0 #106
-2026/10/19-02:23:14.009 3251 Manual compaction at level-0 from '\x00'\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00(\x00\x00\x00' @ 0 : 0; will stop at '\x00'\x00\x00\x05' @ 8384 : 1
-2026/10/19-02:23:14.009 3251 Compacting 1@0 + 1@1 files
-2026/10/19-02:23:14.035 3251 Generated table #111@0: 421 keys, 19091 bytes
-2026/10/19-02:23:14.036 3251 Compacted 1@0 + 1@1 files => 19091 bytes
-2026/10/19-02:23:14.075 3251 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/19-02:23:14.075 3251 Delete type=2 #110
-2026/10/19-02:23:14.076 3251 Manual compaction at level-0 from '\x00'\x00\x00\x05' @ 8384 : 1 .. '\x00(\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/10/19-10:39:34.678 77d Reusing MANIFEST /home/hatch/workspace/wallet-bot/profile/Default/IndexedDB/chrome-extension_ocicphjefllmdjaioocoolnmfbjdlcfg_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/19-10:39:34.679 77d Recovering log #109
+2026/10/19-10:39:34.688 77d Reusing old log /home/hatch/workspace/wallet-bot/profile/Default/IndexedDB/chrome-extension_ocicphjefllmdjaioocoolnmfbjdlcfg_0.indexeddb.leveldb/000109.log 
+2026/10/19-10:39:34.688 77d Delete type=2 #108
+2026/10/19-10:39:37.215 77d Manual compaction at level-0 from '\x00(\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/10/19-10:39:37.489 77d Level-0 table #114: started
+2026/10/19-10:39:37.542 77d Level-0 table #114: 87489 bytes OK
+2026/10/19-10:39:37.593 77d Delete type=0 #109
+2026/10/19-10:39:37.593 77d Manual compaction at level-0 from '\x00)\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00*\x00\x00\x00' @ 0 : 0; will stop at '\x00)\x00\x00\x05' @ 8651 : 1
+2026/10/19-10:39:37.593 77d Compacting 1@0 + 1@1 files
+2026/10/19-10:39:37.632 77d Generated table #115@0: 430 keys, 33004 bytes
+2026/10/19-10:39:37.632 77d Compacted 1@0 + 1@1 files => 33004 bytes
+2026/10/19-10:39:37.666 77d compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/19-10:39:37.666 77d Delete type=2 #114
+2026/10/19-10:39:37.667 77d Manual compaction at level-0 from '\x00)\x00\x00\x05' @ 8651 : 1 .. '\x00*\x00\x00\x00' @ 0 : 0; will stop at (end)
