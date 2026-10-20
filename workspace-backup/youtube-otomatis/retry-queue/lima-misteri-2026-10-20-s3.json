@@ -1,0 +1,8 @@
+{
+ "channel": "lima-misteri",
+ "video_path": "/home/hatch/workspace/lima-misteri/shorts/2026-10-20-s3.mp4",
+ "instruksi_path": "/home/hatch/workspace/lima-misteri/upload-instruksi-2026-10-20.md",
+ "slot_target": "2026-10-21 19:00 WIB",
+ "gagal_pada": "2026-10-20T12:46:56+07:00",
+ "sebab": "Kuota API YouTube Data v3 habis (quotaExceeded 403 pada channels.list) — limit harian level proyek API, reset ~14:00 WIB"
+}

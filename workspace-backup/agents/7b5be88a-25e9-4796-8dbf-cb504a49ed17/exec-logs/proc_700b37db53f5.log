@@ -1,7 +1,0 @@
-{"artifact_id":"media-artifact:5b732c80-02b8-4fe3-b283-7ba119ac6be3","bytes":237541,"ok":true,"path":"vo-naga-fireballs.mp3","voice":"avocado_v2:miles","voice2":null}
-{"artifact_id":"media-artifact:e72ea05e-4886-409b-ac83-cd2a9adceef0","bytes":196837,"ok":true,"path":"vo-thors-well.mp3","voice":"avocado_v2:miles","voice2":null}
-{"artifact_id":"media-artifact:933e89dc-7dbb-4be9-892a-6b899724ae1f","bytes":257317,"ok":true,"path":"vo-fly-geyser.mp3","voice":"avocado_v2:miles","voice2":null}
--rw-rw---- 1 root nogroup 257317 Oct 19 05:57 vo-fly-geyser.mp3
--rw-rw---- 1 root nogroup 196837 Oct 19 05:57 vo-thors-well.mp3
-32.160000
-24.600000

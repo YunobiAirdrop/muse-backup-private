@@ -1,0 +1,12 @@
+{
+ "status": "gagal_kuota_api",
+ "publishAt": "2026-10-21T12:00:00.000Z",
+ "gagal_pada": "2026-10-20T12:46:56+07:00",
+ "sebab": "Kuota API YouTube Data v3 habis (quotaExceeded 403 pada channels.list) — limit harian level proyek API, reset ~14:00 WIB",
+ "antrean": [
+  "lima-misteri-2026-10-20-long.json",
+  "lima-misteri-2026-10-20-s1.json",
+  "lima-misteri-2026-10-20-s2.json",
+  "lima-misteri-2026-10-20-s3.json"
+ ]
+}

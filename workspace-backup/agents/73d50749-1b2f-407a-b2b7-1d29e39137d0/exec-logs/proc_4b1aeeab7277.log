@@ -1,0 +1,17 @@
+OK spotted-lake partA
+OK spotted-lake partB
+caption spotted-lake: 14 chunks, contoh: 'IN THE SUMMER,\\nA LAKE IN' 0.00-1.98
+OK spotted-lake mux
+DURASI OK spotted-lake: video 28.80s audio 28.80s (VO 28.92)
+OK salar-uyuni partA
+OK salar-uyuni partB
+caption salar-uyuni: 14 chunks, contoh: 'IN BOLIVIA LIES\\nTHE LARGEST MIRROR' 0.00-2.21
+OK salar-uyuni mux
+Traceback (most recent call last):
+  File "/home/hatch/workspace/youtube-otomatis/strange-tales/2026-10-20/rakit-3shorts.py", line 199, in <module>
+    ds = durations(tmp)
+         ^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/youtube-otomatis/strange-tales/2026-10-20/rakit-3shorts.py", line 91, in durations
+    d[c] = float(dur)
+           ^^^^^^^^^^
+ValueError: could not convert string to float: '33.600000,'

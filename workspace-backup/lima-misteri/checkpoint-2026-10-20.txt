@@ -1,0 +1,7 @@
+script OK (75 beat)
+script+tts OK (audio 497s)
+gambar OK (75 gambar)
+rakit OK
+shorts OK
+thumb OK
+upload GAGAL kuota API -> antrean ditulis

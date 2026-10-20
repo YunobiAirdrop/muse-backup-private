@@ -1,0 +1,4 @@
+beats: 75
+base TMP: audio 496.7s vs video 496.9s (selisih 0.1s)
+base OK -> /home/hatch/workspace/lima-misteri/video/video-2026-10-20-base.mp4
+OK: /home/hatch/workspace/lima-misteri/video/video-2026-10-20-final.mp4 (8.3 menit)

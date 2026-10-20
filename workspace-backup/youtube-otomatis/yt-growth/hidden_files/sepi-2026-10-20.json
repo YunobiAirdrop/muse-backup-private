@@ -1,0 +1,82 @@
+{
+ "empires-en": {
+  "slug": "empires-en",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCd2wADmj47v3XCPcCpk-fSg&part=contentDetails"
+ },
+ "history-en": {
+  "slug": "history-en",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCCBGIbsfMo2TmyhbUzHxD0A&part=contentDetails"
+ },
+ "horor": {
+  "slug": "horor",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCUEHu-nQXxGuru5Bviy4DKQ&part=contentDetails"
+ },
+ "horror-en": {
+  "slug": "horror-en",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCR7uhocCg9YZM7-Qoi1sVGA&part=contentDetails"
+ },
+ "jejakbuddha": {
+  "slug": "jejakbuddha",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UC1PNEzhOmAH08p75vwp7n0A&part=contentDetails"
+ },
+ "jejakislami": {
+  "slug": "jejakislami",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UC81zPJnIJbKU5lhTKx-6Hyg&part=contentDetails"
+ },
+ "kisahalkitab": {
+  "slug": "kisahalkitab",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCGCXDPx3vSHTUOkNiuLezdw&part=contentDetails"
+ },
+ "kisahdharma": {
+  "slug": "kisahdharma",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCAhInkFRxF3xkxW8kgFOrJA&part=contentDetails"
+ },
+ "lima-misteri": {
+  "slug": "lima-misteri",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCQ0vHTsTqVeYy3zLno6pVfQ&part=contentDetails"
+ },
+ "mind-en": {
+  "slug": "mind-en",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCAnSrJzQuePS1MJhfwlRJuQ&part=contentDetails"
+ },
+ "mystery-en": {
+  "slug": "mystery-en",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCjxESFWyFPOkGTSpajK69Lw&part=contentDetails"
+ },
+ "space-en": {
+  "slug": "space-en",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCQnUeh4-2AKgCsV_cjgUv4w&part=contentDetails"
+ },
+ "strangetales": {
+  "slug": "strangetales",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCAVSqZjG8Af_pm_1uD5wRzA&part=contentDetails"
+ },
+ "tinybuilders": {
+  "slug": "tinybuilders",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCjy7bWJU5gULDIYjPmTg9xg&part=contentDetails"
+ },
+ "inktime": {
+  "slug": "inktime",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCoZl5OaqjXSVkE4S96RY8_g&part=contentDetails"
+ },
+ "macammacam": {
+  "slug": "macammacam",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UC5ld2qCo0wKeuRKCA1-dbow&part=contentDetails"
+ },
+ "truecrime-en": {
+  "slug": "truecrime-en",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UC2df1xY_WqWdX33oLqeXE2w&part=contentDetails"
+ },
+ "weird-en": {
+  "slug": "weird-en",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCJ6KqdYvVJ-PaxhGLfTFVhA&part=contentDetails"
+ },
+ "youtube-pov": {
+  "slug": "youtube-pov",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UC1c8WpKGhFKpUOp5AqVueEg&part=contentDetails"
+ },
+ "fakta-bola-dunia": {
+  "slug": "fakta-bola-dunia",
+  "error": "403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?id=UCU9QUVkWqqjnEFtrj6QACDA&part=contentDetails"
+ }
+}

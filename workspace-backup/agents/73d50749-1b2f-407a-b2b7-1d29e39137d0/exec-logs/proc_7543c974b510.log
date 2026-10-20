@@ -1,0 +1,13 @@
+hapus sisa gagal: strange-tales-2026-10-20-salar-uyuni.mp4.tmp.mp4
+SKIP final existing strange-tales-2026-10-20-spotted-lake.mp4
+Traceback (most recent call last):
+  File "/home/hatch/workspace/youtube-otomatis/strange-tales/2026-10-20/rakit-3shorts.py", line 181, in <module>
+    a = build_part(sh["slug"], "partA", sh["imgs"][:2], MOTIONS[:2], seg_dur)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/youtube-otomatis/strange-tales/2026-10-20/rakit-3shorts.py", line 113, in build_part
+    if part_valid(out, seg_dur):
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/youtube-otomatis/strange-tales/2026-10-20/rakit-3shorts.py", line 102, in part_valid
+    dur = float(r.stdout.strip().split(",", 1)[1])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '16.800000,'

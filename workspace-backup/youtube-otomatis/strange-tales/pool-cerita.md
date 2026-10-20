@@ -10,6 +10,9 @@
 - [x] 2026-10-19 — Naga fireballs, Mekong (bola api misterius tiap Oktober)
 - [x] 2026-10-19 — Fly Geyser, Nevada (geyser pelangi akibat sumur gagal 1964)
 - [x] 2026-10-19 — Thor's Well, Oregon ("drainpipe of the Pacific", 20 kaki)
+- [x] 2026-10-20 — Spotted Lake, Canada (danau mineral polka dot)
+- [x] 2026-10-20 — Salar de Uyuni, Bolivia (salt flat raksasa jadi cermin langit)
+- [x] 2026-10-20 — Waitomo Glowworm Caves, NZ (gua bercahaya kunang-kunang)
 
 ## ANTRIAN
 1. **Immortal jellyfish** — Hook: "This animal can live forever." Fakta: Turritopsis dohrnii bisa kembali ke tahap polip saat terluka/tua, siklus hidup berulang tanpa batas; ditemukan di Mediterania, kini menyebar ke seluruh dunia lewat air ballast kapal.
@@ -33,7 +36,7 @@
 19. **Naga fireballs, Mekong** — [x] DIPAKAI 2026-10-19. Hook: "Every October, fireballs rise from this river." Fakta: bola api muncul dari Sungai Mekong (Thailand/Laos); legenda ular Naga; penjelasan: gas metana terbakar — tapi waktu kemunculannya misterius.
 33. **Fly Geyser, Nevada** — [x] DIPAKAI 2026-10-19. Hook: "A drilling mistake created this rainbow geyser." Fakta: sumur uji geothermal 1964 gagal ditutup; air mineral panas menyembur 60 tahun, membangun gundukan travertine; alga thermophilic mewarnai merah-hijau; masih tumbuh beberapa inci/tahun.
 34. **Thor's Well, Oregon** — [x] DIPAKAI 2026-10-19. Hook: "The ocean is draining into this hole — forever." Fakta: "drainpipe of the Pacific" di Cape Perpetua; gua laut runtuh sedalam 20 kaki (tidak tanpa dasar); air pasang menyembur 40 kaki lalu terkuras — ilusi menguras samudra.
-20. **Spotted Lake, Canada** — Hook: "This lake is covered in polka dots." Fakta: Danau Khiluk, British Columbia; saat musim panas air menguap meninggalkan kolam mineral warna-warni; situs sakral suku Okanagan.
+20. **Spotted Lake, Canada** — [x] DIPAKAI 2026-10-20. Hook: "This lake is covered in polka dots." Fakta: Danau Khiluk, British Columbia; saat musim panas air menguap meninggalkan kolam mineral warna-warni; situs sakral suku Okanagan.
 21. **The Mary Celeste** — Hook: "A ship found sailing with no crew — dinner still warm." Fakta: 1872, ditemukan mengapung di Atlantik; seluruh awak hilang; kargo utuh; sekoci hilang; misteri maritim paling terkenal.
 22. **Bioluminescent Mosquito Bay** — Hook: "This water glows when you touch it." Fakta: Teluk Vieques, Puerto Rico; dinoflagellata Pyrodinium memancarkan cahaya biru saat terganggu; salah satu teluk bio-tercerah di dunia.
 23. **The Tunguska event, 1908** — Hook: "In 1908, Siberia exploded — with no crater." Fakta: ledakan 12 megaton meratakan 2000 km² hutan; tanpa kawah; diduga meteor meledak di udara; teori lain masih diperdebatkan.
@@ -46,3 +49,7 @@
 30. **Eternal flame waterfalls** — Hook: "A waterfall with a flame burning behind it." Fakta: Chestnut Ridge, New York; api abadi di balik air terjun dari rembesan gas alam; menyala meski disiram air.
 31. **The sailing... (cadangan)** — Hook: "Fish rain from the sky in this town — every year." Fakta: Lluvia de Peces, Honduras; hujan ikan kecil tiap musim hujan; teori: ikan tersedot waterspout dari sungai bawah tanah.
 32. **Upside-down jellyfish** — Hook: "This jellyfish farms its own food with sunlight." Fakta: Cassiopea berenang terbalik di dasar laut; bersimbiosis dengan alga fotosintesis di tentakelnya; "bertani" pakai matahari.
+35. **Caño Cristales, Colombia** — Hook: "This river is liquid rainbow." Fakta: sungai lima warna di Serranía de la Macarena; tanaman air Macarenia clavigera mewarnai merah/kuning/hijau/biru tiap Juli–November; disebut sungai terindah di dunia.
+36. **The Crooked Forest, Poland** — Hook: "Every tree in this forest is bent the same way." Fakta: ~400 pohon pinus di Gryfino melengkung 90 derajat di pangkal; ditanam 1930-an; penyebab: campur tangan manusia atau badai salju — masih misteri.
+37. **Pamukkale, Turkey** — Hook: "This looks like a castle made of cotton." Fakta: teras travertine putih dari mata air panas kaya kalsium; dipakai pemandian sejak zaman Romawi (Hierapolis); UNESCO World Heritage.
+38. **The Great Blue Hole, Belize** — Hook: "A giant blue hole in the middle of the ocean." Fakta: sinkhole laut sedalam 125 meter di Lighthouse Reef; terbentuk saat zaman es; dipopulerkan Jacques Cousteau 1971; stalaktit raksasa di dindingnya.
