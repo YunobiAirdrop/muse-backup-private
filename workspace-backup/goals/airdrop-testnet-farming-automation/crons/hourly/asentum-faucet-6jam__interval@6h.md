@@ -1,7 +1,7 @@
 ---
 id: asentum-faucet-6jam
 title: Asentum faucet tiap 6 jam
-enabled: true
+enabled: false
 owner: goal:airdrop-testnet-farming-automation
 mode: task
 schedule:
@@ -13,7 +13,7 @@ delivery:
   - chat_id: cff15a74-710d-4347-9f43-b63e9629bb90
 metadata:
   tags: [cron:automatic-interval-anchor]
-  originating_chat_context_json: '{"chat_id":"cff15a74-710d-4347-9f43-b63e9629bb90","origin_provider":"main","chat_kind":"direct","event_kind":"message","require_mention":false,"device_id":"a132f74a55562927"}'
+  originating_chat_context_json: '{"chat_id":"cff15a74-710d-4347-9f43-b63e9629bb90","origin_provider":"main","chat_kind":"direct","provider":"main","event_kind":"message","require_mention":false,"device_id":"a132f74a55562927"}'
   presentation_locale: id-ID
 ---
 Klaim faucet testnet Asentum (5 ASE per 6 jam) via browser.
