@@ -1,0 +1,11 @@
+FB GET commands: RemoteDisconnected (coba 1/3)
+FB GET commands: RemoteDisconnected (coba 2/3)
+FB GET commands: IncompleteRead (coba 3/3)
+[commands] gagal (RuntimeError: fb commands gagal 3x: IncompleteRead(6718 bytes read, 6171 more expected))
+FB GET commands: RemoteDisconnected (coba 1/3)
+FB GET commands: RemoteDisconnected (coba 2/3)
+FB GET commands: RemoteDisconnected (coba 3/3)
+[commands] gagal (RuntimeError: fb commands gagal 3x: Remote end closed connection without response)
+[vidreq] ok
+[pending] ok
+bridge ok

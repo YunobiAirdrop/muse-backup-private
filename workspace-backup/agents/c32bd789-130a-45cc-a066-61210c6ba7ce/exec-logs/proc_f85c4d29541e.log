@@ -1,9 +1,10 @@
 [commands] ok
+FB GET req_videos: RemoteDisconnected (coba 1/3)
+FB GET state/videos_ts: RemoteDisconnected (coba 1/3)
+FB GET state/videos_ts: RemoteDisconnected (coba 2/3)
 [vidreq] ok
 FB PUT state/pending: RemoteDisconnected (coba 1/3)
 FB PUT state/pending: RemoteDisconnected (coba 2/3)
-FB PUT state/pending: IncompleteRead (coba 3/3)
-[pending] gagal (RuntimeError: fb state/pending gagal 3x: IncompleteRead(13758 bytes read, 187 more expected))
 [pending] ok
 [revenue] ok
 [blogs] ok
