@@ -32,15 +32,15 @@
       "who": "user"
     },
     {
-      "action": "Psychonaut signup Psy — email verifikasi tidak masuk, coba opsi Google dari HP",
+      "action": "Psychonaut signup Psy \u2014 email verifikasi tidak masuk, coba opsi Google dari HP",
       "who": "user"
     },
     {
-      "action": "Asentum — cari cara alternatif (ekstensi tidak bisa didownload dari server)",
+      "action": "Asentum \u2014 cari cara alternatif (ekstensi tidak bisa didownload dari server)",
       "who": "assistant"
     },
     {
-      "action": "Faucet Sepolia Google Cloud — cooldown s/d 13:34 WIB, klaim lagi setelah itu",
+      "action": "Faucet Sepolia Google Cloud \u2014 cooldown s/d 13:34 WIB, klaim lagi setelah itu",
       "who": "auto (cron)"
     },
     {
@@ -70,7 +70,7 @@
       "balance": "0.09998",
       "chain_id": 99801,
       "name": "Elysium HYPE",
-      "note": "5 self-transfer sukses hari ini. Faucet geo-block (US) — klaim manual dari HP",
+      "note": "5 self-transfer sukses hari ini. Faucet geo-block (US) \u2014 klaim manual dari HP",
       "status": "active",
       "token": "HYPE",
       "tx_today": 5
@@ -115,7 +115,7 @@
       "balance": "-",
       "chain_id": null,
       "name": "Multipli.fi",
-      "note": "User menyerah — MetaMask blokir signature (warning 'risky')",
+      "note": "User menyerah \u2014 MetaMask blokir signature (warning 'risky')",
       "status": "skipped",
       "token": "-",
       "tx_today": 0
@@ -130,5 +130,11 @@
       "note": "Onboarded 15:40 WIB via API. Welcome 5000 + check-in day-1 500. Check-in harian gasless via API."
     }
   ],
-  "wallet": "0xf0f25C36AC70E9d787a108eFB351626192C8107b"
+  "wallet": "0xf0f25C36AC70E9d787a108eFB351626192C8107b",
+  "allox": {
+    "last_checkin": "2026-10-20T08:15:00+07:00",
+    "cycleDay": 2,
+    "total": 6000,
+    "status": "OK"
+  }
 }

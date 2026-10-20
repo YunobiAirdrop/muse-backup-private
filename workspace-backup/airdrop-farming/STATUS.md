@@ -255,3 +255,27 @@ Total proyek aktif: 11 (GTE/MegaETH tetap di list tapi testnet tidak eligible la
 - Saldo Sepolia: 0.0535 -> 0.05349999 ETH (gas hampir nol).
 - ArbSepolia/BSC: 0 (skip, tidak ada gas).
 - MegaETH testnet: 1 ETH tapi testnet mati (tidak dipakai).
+
+## Peluang Baru 2026-10-20 (cron airdrop-hunter-x, 07:11 WIB)
+
+### Ditambahkan (1) — QUEUED
+**Robinhood Chain testnet** (Chain ID 46630, Arbitrum Orbit L2, gas ETH)
+- Kenapa menarik: chain resmi dari Robinhood (broker publik AS) — testnet GRATIS, faucet resmi tanpa captcha/KYC/saldo mainnet.
+- Faucet: https://faucet.testnet.chain.robinhood.com (klaim test ETH + Stock Tokens simulasi: TSLA, AMZN, PLTR, NFLX, AMD).
+- Syarat eligibility: belum ada airdrop yang dikonfirmasi — sifatnya spekulatif; aktivitas on-chain konsisten + domain .hood + interaksi dApps.
+- Estimasi effort: mingguan ringan (klaim faucet, bridge, swap/domain, beberapa tx).
+- ⚠️ JUJUR: RPC resmi tidak merespons dari VM (explorer live, HTTP 200) — klaim faucet & tx awal butuh dari HP/browser user; otomatisasi VM belum terbukti.
+- Detail: projects.json → `robinhood-chain`.
+
+### Ditolak hari ini
+- **Hyperlend**: testnet SUDAH berakhir (testnet.hyperlend.finance sekarang "Mainnet Coming Soon") — guide 19/10 dari @MaransCrypto basi. Tidak bisa difarming.
+- **Titan Exchange**: sudah dievaluasi & ditolak 2026-10-18 (non-EVM wallet).
+- **GIWA**: sudah dievaluasi & ditolak 2026-10-18 (ketuaan).
+- **Push Chain**: sudah dievaluasi & ditolak 2026-10-18 (ketuaan).
+- **Alphadrops**: spam/skema (7 followers, landing flashy tanpa proyek jelas).
+- **Bitcoin Hyper**: presale berbayar + peringatan regulator Spanyol (CNMV) — bukan testnet gratis.
+- **X1**: testnet selesai, airdrop validator sudah dibagikan 6/10 — terlambat.
+- **Pharos**: $PROS claim deadline 31/10 HANYA untuk peserta testnet lama / role Discord / OKX campaign — bukan peluang farming baru. (Catatan: belum pernah difarming; klaim = nol untuk wallet kita.)
+
+### Catatan teknis
+- Cek faucet via browser task GAGAL (agent stuck 30+ menit tanpa aktivitas, di-close) — halaman faucet dilindungi Cloudflare (403 dari VM). Klaim tetap bisa dari browser/HP user.

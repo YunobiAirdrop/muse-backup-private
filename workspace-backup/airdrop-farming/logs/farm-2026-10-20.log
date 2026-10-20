@@ -1,0 +1,30 @@
+[2026-10-20 07:56:55 WIB] === Farm run start (wallet 0xf0f25C36AC70E9d787a108eFB351626192C8107b) ===
+[2026-10-20 07:56:55 WIB] BLOCKED gte (GTE (MegaETH testnet)): faucet needs captcha — manual step required
+[2026-10-20 07:56:55 WIB] BLOCKED neptune (Neptune Protocol): faucet needs captcha, mainnet-balance:0.001 ETH on Ethereum mainnet — manual step required
+[2026-10-20 07:56:55 WIB] BLOCKED variational (Variational): faucet needs captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet — manual step required
+[2026-10-20 07:56:55 WIB] BLOCKED zenchain (Zenchain): faucet needs social:X post required — manual step required
+[2026-10-20 07:56:55 WIB] QUEUED  sahara (Sahara AI): daily — dapp: https://sahara.ai (labs site)
+[2026-10-20 07:56:55 WIB] QUEUED  multipli (Multipli.fi): regular (avoid unnecessary unstaking, 7-day wait) — dapp: https://testnet.multipli.fi?referral_code=6RUTJ
+[2026-10-20 07:56:55 WIB] QUEUED  mitosis (Mitosis): regular — dapp: https://app.testnet.mitosis.org
+[2026-10-20 07:56:55 WIB] BLOCKED dextr (Dextr): faucet needs captcha, mainnet-balance:0.001 ETH on Base mainnet — manual step required
+[2026-10-20 07:56:55 WIB] QUEUED  portal-bitcoin (Portal Bitcoin): daily (swap 1x = 40 sparks, 10x = 200 sparks) — dapp: https://faucet-testnet.portaldefi.com
+[2026-10-20 07:56:55 WIB] BLOCKED abstract (Abstract (Pudgy Penguins L2)): faucet needs captcha, mainnet-balance:0.001 ETH on Ethereum mainnet — manual step required
+[2026-10-20 07:56:55 WIB] BLOCKED polyhedra (Polyhedra (Expchain)): faucet needs captcha — manual step required
+[2026-10-20 07:56:55 WIB] BLOCKED saturn (Saturn BTC): faucet needs captcha — manual step required
+[2026-10-20 07:56:55 WIB] QUEUED  dogeos (DogeOS Chikyū): daily — dapp: Portal resmi DogeOS (Grand Heist campaign)
+[2026-10-20 07:56:55 WIB] QUEUED  asentum (Asentum): daily — dapp: https://airdrop.asentum.com
+[2026-10-20 07:56:55 WIB] QUEUED  nowa-finance (Nowa Finance): daily (devnet trades) — dapp: https://app.nowa.finance
+[2026-10-20 07:56:55 WIB] QUEUED  allox (AlloX): daily — dapp: https://app.allox.ai
+[2026-10-20 07:56:55 WIB] QUEUED  tastyco (TastyCo): daily (streaks: 3/5/7-day activity) — dapp: https://app.tastyco.io
+[2026-10-20 07:56:55 WIB] QUEUED  kalos (Kalos): daily (when API recovers) — dapp: https://kalos.fun
+[2026-10-20 07:56:55 WIB] QUEUED  robinhood-chain (Robinhood Chain (testnet)): weekly (kumpulkan aktivitas konsisten) — dapp: https://faucet.testnet.chain.robinhood.com
+[2026-10-20 07:56:55 WIB] === Summary: 11 queued, 8 blocked ===
+[2026-10-20 07:56:55 WIB]   blocked: gte [captcha]
+[2026-10-20 07:56:55 WIB]   blocked: neptune [captcha, mainnet-balance:0.001 ETH on Ethereum mainnet]
+[2026-10-20 07:56:55 WIB]   blocked: variational [captcha, mainnet-balance:0.001 Arbitrum ETH on mainnet]
+[2026-10-20 07:56:55 WIB]   blocked: zenchain [social:X post required]
+[2026-10-20 07:56:55 WIB]   blocked: dextr [captcha, mainnet-balance:0.001 ETH on Base mainnet]
+[2026-10-20 07:56:55 WIB]   blocked: abstract [captcha, mainnet-balance:0.001 ETH on Ethereum mainnet]
+[2026-10-20 07:56:55 WIB]   blocked: polyhedra [captcha]
+[2026-10-20 07:56:55 WIB]   blocked: saturn [captcha]
+[2026-10-20 07:56:55 WIB] === Farm run end ===
