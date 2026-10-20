@@ -1,0 +1,1 @@
+After each record, I drop a Weirdness Score from one to ten. Highest score takes the crown.

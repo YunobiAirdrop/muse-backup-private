@@ -88,5 +88,8 @@ Perbaikan: (1) untuk rakitan still-image concat WAJIB `-preset ultrafast` — ma
 ## Cek TOPIK di SELURUH riwayat-topik.json, bukan cuma entri terakhir (2026-10-19)
 Kasus: topik "Gladiator" dipilih karena 6 entri terakhir terlihat fresh — ternyata sudah tayang 2026-10-04 (entri ke-8 dari belakang). Koordinator memblokir build sebelum file dibuat (aturan ANTI-REBUILD). Selalu grep topik kandidat ke SELURUH riwayat-topik.json sebelum dispatch produksi.
 
+## browser.open bisa beri false positive dari cache — untuk status situs pakai browser live (2026-10-20)
+Kasus: browser.open ke faucet.zenchain.io menampilkan halaman marketing lengkap (kesan situs hidup), padahal browser task live menunjukkan "This deployment is temporarily paused" di SEMUA tab (faucet.zenchain.io, zenchain.io, docs.zenchain.io). Text-fetch bisa menyajikan versi cache/stale. Untuk menentukan apakah sebuah situs benar-benar up/down (terutama halaman status/error Vercel), SELALU verifikasi via browser task live, bukan browser.open saja.
+
 ## cek_duplikat.py gagal parse 2 format judul (2026-10-15)
 Script judul_dari_instruksi() TIDAK membaca format "Judul (persis, ...):" (inktime shorts txt) dan "## JUDUL" markdown (kisah-islami md) — keluar {"error": "judul tidak ditemukan"} (exit 2). BUKAN tanda duplikat. Workaround pra-screen: ekstrak judul manual dari file instruksi, ulangi dengan `--judul`. Format yang lolos parse: "Judul: ..." (satu baris), "=== N. JUDUL ===", "Varian ... (DIPILIH):".

@@ -1,0 +1,15 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,44,&H00FFFFFF,&H00000000,&H80000000,0,0,1,2,0,2,20,20,380,1
+
+[Events]
+Format: Layer, Start, End, Style, Text
+Dialogue: 0,0:00:00.00,0:00:21.48,Default,Kennedy's team made a\Nbrilliant move. They
+Dialogue: 0,0:00:21.48,0:00:39.60,Default,On the morning of October\N28th, Radio Moscow carried
+Dialogue: 0,0:00:39.60,0:00:56.44,Default,In the following days, spy\Nplanes watched the

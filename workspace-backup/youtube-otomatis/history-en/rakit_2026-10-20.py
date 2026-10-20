@@ -66,11 +66,14 @@ assert len(OVERLAYS) == 4, f"overlay: {len(OVERLAYS)} != 4"
 def img_for(beat_no, letter):
     cand = []
     src = IMG_SUB.get(beat_no, beat_no)
+    cand.append(os.path.join(GDIR, f"beat-{src:03d}{letter}.jpg"))
     cand.append(os.path.join(GDIR, f"beat-{src:03d}-{letter}.jpg"))
     other = "b" if letter == "a" else "a"
+    cand.append(os.path.join(GDIR, f"beat-{src:03d}{other}.jpg"))
     cand.append(os.path.join(GDIR, f"beat-{src:03d}-{other}.jpg"))
     for nb in (src - 1, src + 1, src - 2, src + 2):
         if 1 <= nb <= N_BEATS:
+            cand.append(os.path.join(GDIR, f"beat-{nb:03d}a.jpg"))
             cand.append(os.path.join(GDIR, f"beat-{nb:03d}-a.jpg"))
     for p in cand:
         if os.path.exists(p):

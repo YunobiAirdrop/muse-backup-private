@@ -1,0 +1,15 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,44,&H00FFFFFF,&H00000000,&H80000000,0,0,1,2,0,2,20,20,380,1
+
+[Events]
+Format: Layer, Start, End, Style, Text
+Dialogue: 0,0:00:00.00,0:00:21.96,Default,October 27th, 1962. The\Nday the world came closer
+Dialogue: 0,0:00:21.96,0:00:40.39,Default,That Saturday morning, an\NAmerican spy plane was
+Dialogue: 0,0:00:40.39,0:01:01.58,Default,President Kennedy's\Ngenerals urged him to

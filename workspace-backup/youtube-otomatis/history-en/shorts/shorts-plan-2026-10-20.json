@@ -1,0 +1,38 @@
+{
+ "s1": {
+  "beats": [
+   1,
+   3
+  ],
+  "durasi_target": 61.58,
+  "durasi_final": 61.6,
+  "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-20-s1.mp4",
+  "hook_overlay": "THE DAY THE WORLD ALMOST ENDED",
+  "title": "The Day the World Almost Ended #shorts #history #documentary #foryou",
+  "description": "October 27, 1962: the closest humanity ever came to nuclear war. A U-2 shot down over Cuba, Soviet ships approaching the blockade line, and one man's restraint holding the world together. Full story on Echoes of History Channel."
+ },
+ "s2": {
+  "beats": [
+   14,
+   16
+  ],
+  "durasi_target": 61.24,
+  "durasi_final": 61.27,
+  "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-20-s2.mp4",
+  "hook_overlay": "ONE MAN SAID NO",
+  "title": "One Man Said NO to Nuclear War #shorts #history #documentary #foryou",
+  "description": "Deep under the Atlantic, a Soviet submarine captain believed war had begun and wanted to launch a nuclear torpedo. Two officers said yes. Vasili Arkhipov said no, and may have saved the world. Full story on Echoes of History Channel."
+ },
+ "s3": {
+  "beats": [
+   24,
+   26
+  ],
+  "durasi_target": 56.44,
+  "durasi_final": 56.47,
+  "file": "/home/hatch/workspace/youtube-otomatis/history-en/shorts/2026-10-20-s3.mp4",
+  "hook_overlay": "THE SECRET DEAL THAT SAVED US",
+  "title": "The Secret Deal That Saved the World #shorts #history #documentary #foryou",
+  "description": "On October 28, 1962, a secret backchannel deal ended the Cuban Missile Crisis, including an American promise kept hidden for 25 years. This is how the world was saved. Full story on Echoes of History Channel."
+ }
+}

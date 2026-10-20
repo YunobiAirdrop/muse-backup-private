@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/youtube-otomatis/history-en/rakit_2026-10-20.py", line 393, in <module>
+    main()
+  File "/home/hatch/workspace/youtube-otomatis/history-en/rakit_2026-10-20.py", line 175, in main
+    segs.append((img_for(i, "a"), da))
+                 ^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/youtube-otomatis/history-en/rakit_2026-10-20.py", line 78, in img_for
+    raise RuntimeError(f"tidak ada gambar untuk beat-{beat_no:03d}")
+RuntimeError: tidak ada gambar untuk beat-001

@@ -1,0 +1,531 @@
+{
+ "beats": [
+  {
+   "id": "beat-001",
+   "narration": "At two in the morning on a random Tuesday, I caught myself scrolling through a stranger's vacation photos, feeling miserable about my own perfectly fine life.",
+   "image": "A man in bed at 2 AM, face lit by phone glow, scrolling miserably, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-002",
+   "narration": "That is when I realized something uncomfortable. My phone was not entertaining me. It was training me.",
+   "image": "A smartphone with glowing puppet strings attached to a man's hands in darkness, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-003",
+   "narration": "Tonight: seven psychological weapons hidden inside your social media feed, designed by the smartest engineers on Earth.",
+   "image": "A smartphone screen revealing seven glowing hooked weapons inside it, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-004",
+   "narration": "Not to teach you evil. So you can see the game being played on you, and stop losing it.",
+   "image": "A lantern of light pushing back a swarm of shadowy hands, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-005",
+   "narration": "Have you ever lost a whole hour to scrolling without ever deciding to? Tell me about it in the comments.",
+   "image": "A giant hourglass made of a phone screen, time sand falling through, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-006",
+   "narration": "I used to brag that I had self control. Then my screen time report said five hours a day. Five hours.",
+   "image": "A glowing screen time report showing five hours, a shocked man staring at it, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-007",
+   "narration": "Let us start with weapon number one. And it is the one you use every single day.",
+   "image": "A glowing countdown number one over a smartphone in darkness, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-008",
+   "narration": "Weapon one: the infinite scroll.",
+   "image": "A long endless conveyor belt feed rolling into dark infinity, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": "The Infinite Scroll"
+  },
+  {
+   "id": "beat-009",
+   "narration": "Old websites had pages. You reached the bottom, you got a stopping cue, and your brain said: done.",
+   "image": "A webpage with a visible bottom edge next to an endless bottomless feed, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-010",
+   "narration": "Engineers deleted the bottom. The feed never ends, so your brain never gets the signal to stop.",
+   "image": "An engineer's hand deleting the bottom of a webpage with an eraser, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": true,
+   "chapter": null
+  },
+  {
+   "id": "beat-011",
+   "narration": "A casino has no windows and no clocks. Your feed works exactly the same way.",
+   "image": "A windowless casino full of glowing slot machines, no clocks on walls, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-012",
+   "narration": "People spend up to three times longer on feeds that never end. That is not an accident.",
+   "image": "A bar chart showing time spent tripling on an endless feed, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-013",
+   "narration": "Fix it with friction. Use apps with an end, or set a hard timer before you open the feed.",
+   "image": "A smartphone locked inside a small cage with a kitchen timer on top, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-014",
+   "narration": "Weapon two: variable rewards.",
+   "image": "A slot machine with a pull down refresh lever and like icons as symbols, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": "Variable Rewards"
+  },
+  {
+   "id": "beat-015",
+   "narration": "Every pull to refresh is a slot machine spin. Maybe a like. Maybe nothing. Maybe a viral moment.",
+   "image": "A hand pulling down to refresh a phone screen like a slot machine lever, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-016",
+   "narration": "I have caught myself pulling to refresh like a gambler at a casino. This one hit close to home.",
+   "image": "A man at a slot machine slowly morphing into a man staring at a phone, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-017",
+   "narration": "Your brain releases more dopamine on unpredictable rewards than on guaranteed ones. They know this.",
+   "image": "A human brain with dopamine sparks flying around a glowing phone, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-018",
+   "narration": "Likes, comments, new followers. Each one is a pellet in the largest conditioning experiment ever run.",
+   "image": "A laboratory experiment with reward pellets dropping as a man taps his phone, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-019",
+   "narration": "That little red badge is not information. It is a promise that maybe something good is waiting.",
+   "image": "A glowing red notification badge shining like a siren in the dark, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-020",
+   "narration": "You are not checking your phone. You are pulling the lever. And the casino always wins.",
+   "image": "A casino dealer collecting chips from a row of phone staring players, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": true,
+   "chapter": null
+  },
+  {
+   "id": "beat-021",
+   "narration": "Weapon three: the outrage algorithm.",
+   "image": "A giant mechanical eye sorting angry red posts to the top, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": "The Outrage Algorithm"
+  },
+  {
+   "id": "beat-022",
+   "narration": "The algorithm does not care what you feel. It cares how long you stay. And nothing holds attention like anger.",
+   "image": "A calm blue post sinking down while a furious red post rockets upward, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-023",
+   "narration": "A post that makes you calm gets ignored. A post that makes you furious gets shared, commented, and boosted.",
+   "image": "A furious comment thread multiplying with share arrows in every direction, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-024",
+   "narration": "Every angry comment teaches the machine one lesson: show this person more of what upsets them.",
+   "image": "A puppet hand feeding an angry face more rage filled posts, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-025",
+   "narration": "You think you are informing yourself. You are being fed the most enraging version of reality, on purpose.",
+   "image": "A man reading news through a funhouse mirror that distorts everything, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-026",
+   "narration": "Here is the counter move. When a post makes your blood boil, that is exactly when you put the phone down.",
+   "image": "A hand calmly putting down a phone while an angry post glows on screen, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-027",
+   "narration": "Calm never goes viral. Your anger is the product being sold to advertisers.",
+   "image": "A price tag hanging on a pile of anger, labeled as the product, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": true,
+   "chapter": null
+  },
+  {
+   "id": "beat-028",
+   "narration": "Weapon four: the comparison trap.",
+   "image": "A phone showing perfect vacation photos while a messy real room sits behind it, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": "The Comparison Trap"
+  },
+  {
+   "id": "beat-029",
+   "narration": "Nobody posts their laundry pile. Everyone posts the highlight reel.",
+   "image": "A person posting glamorous photos while hiding a pile of laundry, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-030",
+   "narration": "Psychologists call it upward social comparison. Your brain compares your behind the scenes to everyone else's stage.",
+   "image": "A brain comparing a small plain self to a giant polished stranger, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-031",
+   "narration": "The result is predictable. The more you scroll, the worse you feel about a life that is actually fine.",
+   "image": "A mood meter needle dropping lower as scrolling continues, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-032",
+   "narration": "Even the influencers feel it. They compare themselves to someone with better filters.",
+   "image": "Two influencers anxiously comparing their follower counts, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-033",
+   "narration": "I once felt like a failure next to a guy my age with a yacht. Then I learned the yacht was rented for the photo.",
+   "image": "A small man feeling tiny next to a giant rented yacht photo, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-034",
+   "narration": "You are comparing your real life to an advertisement. The game is rigged from the start.",
+   "image": "A split screen: dull real life on one side, glossy advertisement on the other, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-035",
+   "narration": "Weapon five: notification conditioning.",
+   "image": "A ringing bell with sound waves controlling a reaching hand, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": "Notification Conditioning"
+  },
+  {
+   "id": "beat-036",
+   "narration": "That ping is Pavlov's bell. You have been trained to salivate for approval on command.",
+   "image": "A man salivating like Pavlov's dog at the sound of a phone ping, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-037",
+   "narration": "Engineers tested thousands of notification schedules. They found the exact timing that makes you reach.",
+   "image": "An engineer with a stopwatch testing notification timing on a giant phone, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-038",
+   "narration": "Phantom vibration syndrome. People feel their phone buzz when it never did. That is how deep the training goes.",
+   "image": "A phone vibrating with ghost waves in an empty pocket, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-039",
+   "narration": "Your phone lets you batch notifications into one daily digest for a reason. One check a day breaks the spell.",
+   "image": "A stack of notifications bundled neatly into one single daily digest, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-040",
+   "narration": "Turn off everything except messages from actual humans you know. Watch how quiet your mind gets.",
+   "image": "A phone settings screen with almost all notifications toggled off, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-041",
+   "narration": "Your attention is the most valuable thing you own. Stop giving it away for free.",
+   "image": "A golden crown labeled attention being handed away for nothing, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": true,
+   "chapter": null
+  },
+  {
+   "id": "beat-042",
+   "narration": "Weapon six: the manufactured FOMO loop.",
+   "image": "A 24 hour countdown timer over a row of disappearing stories, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": "The FOMO Loop"
+  },
+  {
+   "id": "beat-043",
+   "narration": "Stories that vanish in twenty four hours. Streaks that break if you skip a single day.",
+   "image": "A flame streak icon chaining two friends together like a contract, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-044",
+   "narration": "Your brain fears losing something twice as much as it enjoys gaining it. That is loss aversion.",
+   "image": "A balance scale with loss weighing far heavier than gain in a brain, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-045",
+   "narration": "A little flame next to a friend's name turns a friendship into an obligation.",
+   "image": "A chain of flame icons linking friends together like handcuffs, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-046",
+   "narration": "'Live now' notifications create fake urgency for events that do not matter at all.",
+   "image": "A fake live now siren blaring over a completely empty stage, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-047",
+   "narration": "When everyone watches the same drama, skipping it feels like exile from the tribe.",
+   "image": "A tribe gathered around a glowing drama screen, one outsider standing apart, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-048",
+   "narration": "You are not afraid of missing out. You are being threatened with missing out, on purpose.",
+   "image": "A hand holding a threatening letter stamped with FOMO, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": true,
+   "chapter": null
+  },
+  {
+   "id": "beat-049",
+   "narration": "Weapon seven: the echo chamber.",
+   "image": "A human head trapped inside a glass bubble hearing only its own voice, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": "The Echo Chamber"
+  },
+  {
+   "id": "beat-050",
+   "narration": "The algorithm learns what you believe, then feeds you only proof that you are right.",
+   "image": "A thumbs up vote feeding a machine that builds a custom made world, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-051",
+   "narration": "Every like is a vote. The machine builds a world where you are always the hero and they are always wrong.",
+   "image": "A person as a hero in a custom world built by voting machines, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-052",
+   "narration": "Two people can live in the same country and see two completely different realities.",
+   "image": "Two people side by side seeing two different realities through their phones, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-053",
+   "narration": "Outrage plus echo chamber. You end up angrier and more certain than you have ever been.",
+   "image": "A man growing angrier inside a mirrored room of his own opinions, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-054",
+   "narration": "The antidote is discomfort. Deliberately follow people you disagree with.",
+   "image": "A person uncomfortably following someone with opposing views, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-055",
+   "narration": "A mind that is never challenged is a mind that is being managed.",
+   "image": "A chained mind on one side, a mind breaking free on the other, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": true,
+   "chapter": null
+  },
+  {
+   "id": "beat-056",
+   "narration": "All seven weapons, named. Write these down.",
+   "image": "Seven glowing weapons laid out and labeled on a dark table, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": "All 7 Hijacks, Named"
+  },
+  {
+   "id": "beat-057",
+   "narration": "One: the infinite scroll. Two: variable rewards. Three: the outrage algorithm.",
+   "image": "Glowing numbers one two three over a dark smartphone, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-058",
+   "narration": "Four: the comparison trap. Five: notification conditioning.",
+   "image": "Glowing numbers four and five over a dark smartphone, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-059",
+   "narration": "Six: manufactured FOMO. Seven: the echo chamber.",
+   "image": "Glowing numbers six and seven over a dark smartphone, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-060",
+   "narration": "Remember this. You were never the customer of these apps. You were always the product.",
+   "image": "A price tag hanging on a human silhouette labeled product, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-061",
+   "narration": "Now the counter moves. Three defenses that actually work.",
+   "image": "A glowing shield with three defense symbols on a dark background, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": "The Counter Moves"
+  },
+  {
+   "id": "beat-062",
+   "narration": "Defense one: turn your screen grayscale. Color is a drug for your attention.",
+   "image": "A phone screen with all colors draining away into gray, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-063",
+   "narration": "Defense two: delete the apps, use the browser. A little friction is freedom.",
+   "image": "Social apps being deleted, only a simple browser icon remaining, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-064",
+   "narration": "Defense three: the twenty minute rule. After twenty minutes, the app goes dark for the day.",
+   "image": "A twenty minute hourglass over a phone that goes dark, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-065",
+   "narration": "These sound small. That is the point. You do not defeat a trillion dollar machine with willpower alone.",
+   "image": "A tiny pebble cracking a giant war machine, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-066",
+   "narration": "The moment you notice the manipulation is the moment it stops working on you.",
+   "image": "An eye opening wide as puppet strings snap above it, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": true,
+   "chapter": null
+  },
+  {
+   "id": "beat-067",
+   "narration": "You are not weak for falling for this. It was engineered by thousands of experts. But now you know.",
+   "image": "A person standing strong against a tidal wave of notifications, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-068",
+   "narration": "So tell me honestly. Which of these seven caught you the most?",
+   "image": "A giant question mark hovering over seven glowing traps, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": "Your Turn"
+  },
+  {
+   "id": "beat-069",
+   "narration": "Number them one through seven in the comments. I read every single one.",
+   "image": "Rows of comment bubbles filled with numbers one through seven, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-070",
+   "narration": "If this rewired how you see your own phone, subscribe to Dark Mind Files.",
+   "image": "A glowing subscribe button on a dark screen, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-071",
+   "narration": "A new dark psychology episode every single day. Built to make you sharper, not angrier.",
+   "image": "A calendar with a new episode marked on every single day, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-072",
+   "narration": "Tomorrow: the exact words manipulators use to make you doubt your own memory.",
+   "image": "Shadowy words swirling over a doubting human mind, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-073",
+   "narration": "Hit the bell, so the algorithm works for you for once.",
+   "image": "A notification bell ringing while algorithm gears turn for the viewer, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-074",
+   "narration": "Stay sharp out there. Your mind is the only feed worth curating.",
+   "image": "A sharp glowing mind shaped like a carefully curated garden, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  },
+  {
+   "id": "beat-075",
+   "narration": "I will see you tomorrow.",
+   "image": "A dark doorway with warm light, a host silhouette waving goodbye, dark storybook 2D illustration, 16:9 widescreen, moody psychological lighting, deep shadows",
+   "insight": false,
+   "chapter": null
+  }
+ ],
+ "topic": "7 Ways Social Media Secretly Hijacks Your Brain",
+ "date": "2026-10-20"
+}

@@ -1,0 +1,20 @@
+72 segmen, total target 703.0s = 11.72 mnt (bumper 4.29s)
+  render title card...
+  72 segmen selesai
+  chunk boundaries: [0, 12, 24, 36, 48, 60, 74]
+  audio chunk boundaries: [0, 6, 12, 18, 24, 30, 38]
+  chunk0: V 109.8s / A 98.9s
+  chunk1: V 113.8s / A 115.8s
+  chunk2: V 115.3s / A 115.5s
+  chunk3: V 116.1s / A 104.0s
+  chunk4: V 116.7s / A 118.3s
+  chunk5: V 131.3s / A 150.5s
+  vconcat (filter): 703.0s
+  aconcat (filter): 703.1s | selisih: 0.08s
+  mux: 703.0s vs target 703.0s
+  SRT: /home/hatch/workspace/youtube-otomatis/history-en/script/subs-2026-10-20.srt
+  final (subtitle): 703.0s vs target 703.0s
+  stream video: 703.0s | stream audio: 703.0s
+OK: /home/hatch/workspace/youtube-otomatis/history-en/video/2026-10-20.mp4 (11.72 menit, terverifikasi)
+  chapters + deskripsi OK
+  staging dihapus

@@ -1,0 +1,9 @@
+beat-023 +1.3s drama OK
+bumper dur: 3.75s
+concat OK
+total segmen: 615.4s = 10.26 min
+Traceback (most recent call last):
+  File "/home/hatch/workspace/youtube-otomatis/weird-en/script/prep_audio_w20.py", line 75, in <module>
+    assert 540 <= tot <= 600, f"durasi {tot:.0f}s di luar target 9-10 menit!"
+           ^^^^^^^^^^^^^^^^^
+AssertionError: durasi 615s di luar target 9-10 menit!

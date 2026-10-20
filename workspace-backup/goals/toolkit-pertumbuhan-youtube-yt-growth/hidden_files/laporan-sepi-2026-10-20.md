@@ -38,9 +38,14 @@ Catatan retensi: untuk semua 8 video baru, kurva retensi kosong/belum ada data
 - weird-en 17 (1 baru) · youtube-pov 8
 
 ## Share-3x
-- Kandidat: 6 video mentok baru yang belum pernah di-share (182 lainnya masih dalam cooldown 7 hari).
+- Kandidat: 6 video mentok baru yang belum pernah di-share (182 lainnya masih dalam cooldown 7 hari):
+  mNb8Dz2S7TE, OUqXvjS37ug, WMgXhpcyLsw, DtXgq3MDQmk, cM7N7Y63WNM, U4UwccK9vdI.
 - Batch: 1 (6 video) via browser task — Share → Copy link 3x per video, tanpa login/like/komentar/subscribe.
-- Status: DALAM PROSES → hasil dicatat di bawah setelah batch selesai.
+- Hasil: browser task selesai — **6/6 video OK 3/3**, tiap copy dikonfirmasi toast
+  "Link disalin ke papan klip"; tanpa login/like/komentar/subscribe.
+  (Konfirmasi sempat tertunda ~20 menit; sempat disimpan ke pending file lalu dihapus
+  setelah konfirmasi tiba.)
+- quiet_shared di share3x-log.json: +6 video bertanggal 2026-10-20 (total 236).
 
 ## Perbaikan sampingan (bug)
 - `NO_TOKEN` di `scan_sepi.py`, `scan_sepi_malam.py`, `diagnosis_malam_191019.py`
