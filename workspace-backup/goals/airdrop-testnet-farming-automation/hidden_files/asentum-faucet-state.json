@@ -1,11 +1,1 @@
-{
-  "last_claim": "2026-10-20T04:44:58+07:00",
-  "amount_ase": 5,
-  "success_message": "Sent 5 ASE to your linked wallet",
-  "wallet_displayed": "ase1tydz4m…lnsw",
-  "wallet_expected": "ase1tydz4m3j3d0j9wrgga7ggax8ds88m5nq2wlnsw",
-  "login": "persisted (@Yunobi_id via Privy)",
-  "cooldown_hours": 6,
-  "consecutive_failures": 0,
-  "next_window_after": "2026-10-20T10:44:58+07:00"
-}
+{"amount_ase":5,"consecutive_failures":0,"cooldown_hours":6,"dashboard_extra":{"rank":118999,"streak":"2d","total_xp":32},"last_check":"2026-10-20T10:42:00+07:00","last_check_result":"cooldown — tombol 'GET 5 TEST ASE' diklik 1x, dashboard balas 'already claimed, try again in ~1h'; tidak ada ASE dikirim, bukan error","last_claim":"2026-10-20T04:44:58+07:00","login":"persisted (@Yunobi_id via Privy)","next_window_after":"2026-10-20T10:44:58+07:00","next_window_observed":"~2026-10-20T11:41:00+07:00 (estimasi dari pesan cooldown)","success_message":"Sent 5 ASE to your linked wallet","wallet_displayed":"ase1tydz4m…lnsw","wallet_expected":"ase1tydz4m3j3d0j9wrgga7ggax8ds88m5nq2wlnsw"}

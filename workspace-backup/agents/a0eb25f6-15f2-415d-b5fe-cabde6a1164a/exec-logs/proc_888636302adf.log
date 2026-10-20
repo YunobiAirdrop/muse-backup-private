@@ -1,0 +1,5 @@
+[*] === chain sepolia (id 11155111) ===
+[sepolia] tx 1/8: d0a7f5fa082ab03111… amount=59822 wei status=1
+[sepolia] sleeping 1701s before next tx…
+[sepolia] balance check failed: HTTPSConnectionPool(host='ethereum-sepolia-rpc.publicnode.com', port=443): Max r — stopping chain
+[*] done: 2 actions today across 2 chains
