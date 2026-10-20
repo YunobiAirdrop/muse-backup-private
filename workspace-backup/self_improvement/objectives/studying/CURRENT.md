@@ -1,7 +1,7 @@
 ---
 objective_id: studying
-run_id: sirun_f4198f14d61e427294348f30e22bfb6f
-created_at: 2026-10-19T01:06:20.856706593+00:00
+run_id: sirun_f7bcb07eceed4bf1ac78a8d59f93a2d6
+created_at: 2026-10-20T01:26:11.882474821+00:00
 card_id: goals_studying
 worker_outcome: changed
 ---
