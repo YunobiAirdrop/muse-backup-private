@@ -1,0 +1,24 @@
+Urutan beat: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 11, 12, 13, 15]
+Pre-render wajah...
+Total 1605 frame (~53.5s)
+Background: gunung berapi via volcbg.py
+  beat 01 (id,senang,wave) 153f
+  beat 02 (it,senang,open_palm) 88f
+  beat 03 (id,kaget,None) 144f
+  beat 04 (it,senang,thumbs_up) 53f
+  beat 05 (is,kaget,cheek) 110f
+  beat 06 (id,bingung,cheek) 155f
+  beat 07 (is,senang,peace) 50f
+  beat 08 (id,senang,fist) 124f
+  beat 09 (it,kaget,None) 65f
+  beat 10 (id,senang,open_palm) 151f
+  beat 16 (id,senang,wave) 93f
+  beat 11 (is,senang,fist) 63f
+  beat 12 (id,senang,open_palm) 151f
+  beat 13 (it,senang,thumbs_up) 69f
+  beat 15 (id,senang,wave) 136f
+Video silent OK
+Gabung audio...
+Audio full: 53.67s
+Video final (tmp): 53.50s
+SELESAI: /home/hatch/workspace/fakta-bola-dunia/output/gunung-berapi-aktif.mp4 (53.5s)
