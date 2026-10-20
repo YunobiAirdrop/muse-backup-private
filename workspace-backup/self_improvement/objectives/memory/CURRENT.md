@@ -1,7 +1,7 @@
 ---
 objective_id: memory
-run_id: sirun_8685e6ec3d1c44c2909101f072dfe13d
-created_at: 2026-10-20T10:45:52.667265614+00:00
+run_id: sirun_562c39b4d7624edcb963ee5c8db8f112
+created_at: 2026-10-20T11:40:40.359263596+00:00
 card_id: memory
 worker_outcome: changed
 ---
@@ -18,4 +18,4 @@ is a framework-owned projection only.
 - Request origin: internal.self_improvement
 - Cadence: hourly
 - Worker outcome: changed
-- Subagents spawned: 3
+- Subagents spawned: 1

@@ -14,11 +14,10 @@
 - **YT DASHBOARD (2026-10-15, user):** Firebase Hosting (`yt-dashboard-yunobi.web.app`); halaman OAuth per channel: tombol Login, kolom tempel kode, tombol 📩 kirim ke WhatsApp; tab 📰 Blog (statistik: total artikel + terbaru per blog; data feed publik Blogger tanpa API key, sync 6 jam oleh fb_bridge.py). Deploy via `~/workspace/yt-dashboard/deploy_hosting.py`.
 - **FAKTA BOLA DUNIA (#20, 2026-10-15):** @FaktaBolaDuniaID (UCU9QUVkWqqjnEFtrj6QACDA). Cron `fakta-bola-dunia-harian` (16:11 WIB): 1 countryball shorts/hari.
 - **BRANDING FBD + STRANGE TALES (2026-10-15):** logo/banner siap di ~/workspace/branding/ (fbd-*.jpg, st-*.jpg) — user pasang sendiri via Studio HP; API YouTube TIDAK bisa upload foto profil/banner.
-- **KANTOR AI (2026-10-18, user; SELESAI 2026-10-18):** kantor virtual pantau semua asisten; APK beneran 29K (bukan PWA) SELESAI.
 
 ## Facts
 - User's name is Yunobi (introduced 2026-09-30, via WhatsApp).
-- Hermes Agent + 9Router (gateway AI lokal) di ~/.hermes; semua secret (600) TIDAK di memory/chat. DIAGNOSIS (2026-09-30): OpenRouter 402 — blocker: top-up kredit user; lalu re-run `hermes -z`.
+- Hermes Agent + 9Router (gateway AI lokal) di ~/.hermes; semua secret (600) TIDAK di memory/chat.
 - Composio MCP connected (2026-09-30): consumer key di ~/.hermes/.env (600); 11 meta-tools. Apps belum connect — user connect on demand via OAuth link.
 
 ## Preferences
@@ -70,7 +69,7 @@
 - Backup GitHub (2026-10-17): repo publik https://github.com/YunobiAirdrop/muse-auto-backup (fork Kutuyyy — JANGAN taruh secret) + repo PRIVATE https://github.com/YunobiAirdrop/muse-backup-private (tooling + secrets gpg AES-256 + restore.sh untuk VM baru; password dipegang user). Cron backup-workspace-perjam: tiap jam (skip secret & file besar; push hanya jika ada perubahan).
 
 ## Airdrop Farming (2026-10-17)
-- **KERJAKAN SEMUA AIRDROP SENDIRI (user tegaskan ulang 2026-10-20):** semua langkah airdrop = pekerjaan asisten end-to-end; JANGAN lempar langkah manual ke user sebelum jalur otomatis benar-benar mentok — kegagalan sesaat (RPC down, situs error) WAJIB di-retry berkala dulu (kasus QMS 2026-10-20: siang RPC mati → sore pulih → swap+LP selesai tanpa user turun tangan). Lempar ke user hanya bila mustahil dari server (captcha tak tembus, app HP-only, tanda tangan di aplikasi HP).
+- **KERJAKAN SEMUA AIRDROP SENDIRI (user tegaskan ulang 2026-10-20):** semua langkah airdrop = pekerjaan asisten end-to-end; JANGAN lempar langkah manual ke user sebelum jalur otomatis benar-benar mentok — kegagalan sesaat (RPC down, situs error) WAJIB di-retry berkala dulu. Lempar ke user hanya bila mustahil dari server (captcha tak tembus, app HP-only, tanda tangan di aplikasi HP).
 - Wallet farming: 0xf0f25C36AC70E9d787a108eFB351626192C8107b (seed phrase dipegang user, TIDAK dicatat). 12 proyek testnet (2026-10-18): GTE (MegaETH — mainnet live, testnet tidak eligible), Neptune Protocol, Variational, Zenchain, Sahara AI, Multipli.fi, Mitosis, Dextr, Portal Bitcoin, Abstract, Polyhedra, Saturn BTC (butuh wallet Unisat) — Plaza Finance MATI 2026-10-17; HaHa Wallet DITOLAK user.
 - **NON-TESTNET (riset user 2026-10-18):** Nowa Finance (devnet zero-capital, 1:1 NOWA→TGE) · AlloX (poin→$ALLOX confirmed) · TastyCo ($100K $TASTY, quest+sosial+streak) — ketiganya verified live, QUEUED, format quest/points (bukan testnet). **GAME AIRDROP: meta tap-to-earn Telegram MATI Okt 2026** (token-tokennya -97–99%, sisanya banyak scam) — tidak ada game airdrop fresh yang worth difarming.
 - **WALLET-BOT (2026-10-19, user authorized):** Chromium + MetaMask mandiri di ~/workspace/wallet-bot/ (terpisah dari browser runtime yang ke-lock). Wallet farming 0xf0f25C...8107b sudah di-import (frasa dipakai sekali via stdin, TIDAK ditulis ke disk; vault terenkripsi). Password vault di ~/workspace/wallet-bot/.mm-pass (600); private key di ~/workspace/wallet-bot/.privkey (600) — user: "kamu simpan aja biar ga minta terus". **PENTING:** popup MetaMask TIDAK muncul di browser otomasi Playwright — signing pakai eth_account + .privkey via RPC langsung, browser hanya untuk navigasi/baca state.

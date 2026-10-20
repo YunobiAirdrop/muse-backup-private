@@ -93,3 +93,5 @@ Kasus: browser.open ke faucet.zenchain.io menampilkan halaman marketing lengkap 
 
 ## cek_duplikat.py gagal parse 2 format judul (2026-10-15)
 Script judul_dari_instruksi() TIDAK membaca format "Judul (persis, ...):" (inktime shorts txt) dan "## JUDUL" markdown (kisah-islami md) — keluar {"error": "judul tidak ditemukan"} (exit 2). BUKAN tanda duplikat. Workaround pra-screen: ekstrak judul manual dari file instruksi, ulangi dengan `--judul`. Format yang lolos parse: "Judul: ..." (satu baris), "=== N. JUDUL ===", "Varian ... (DIPILIH):".
+## cek_duplikat.py — slug "kisah-horor" tidak dikenali (2026-10-20)
+JSON retry-queue kisah-horor pakai channel:"kisah-horor" tapi channels.yaml cuma punya slug "horor" (@KisahPOV, UCUEHu-nQXxGuru5Bviy4DKQ) — run dengan slug JSON memberi {"error": "'kisah-horor'"} (exit 2). Workaround: jalankan dengan slug "horor". (SLUG_ALIAS baru punya macam-macam→macammacam; alias kisah-horor→horor belum ditambahkan.)
