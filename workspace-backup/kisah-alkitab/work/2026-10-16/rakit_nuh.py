@@ -43,12 +43,12 @@ PLAN = [
     ("n14.orig", 32,  25.856, None),
     # BEAT 3 — hewan masuk, pintu ditutup (235.416 - 338.976)
     ("n23.orig", 5,   26.0,   None),
-    ("n24.orig", 0,   26.0,   "Kejadian 7:16 \u2014 Tuhan menutup pintu bahtera"),
+    ("cl01.orig", 0,  26.0,   "Kejadian 7:16 \u2014 Tuhan menutup pintu bahtera"),
     ("r01.orig", 10,  26.0,   None),
     ("n23.orig", 33,  25.56,  None),
     # BEAT 4 — air bah & penantian (338.976 - 423.528)
     ("r02.orig", 15,  30.0,   None),
-    ("n24.orig", 28,  27.0,   "Kejadian 8:11 \u2014 Daun zaitun yang segar"),
+    ("rv01.orig", 0,  27.0,   "Kejadian 8:11 \u2014 Daun zaitun yang segar"),
     ("n27.orig", 8,   27.552, None),
     # BEAT 5 — keluar, pelangi (423.528 - 525.216)
     ("n27.orig", 45,  30.0,   None),

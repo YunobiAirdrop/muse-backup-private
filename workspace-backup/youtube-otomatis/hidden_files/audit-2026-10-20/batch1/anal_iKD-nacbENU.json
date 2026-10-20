@@ -1,0 +1,61 @@
+{
+ "videoId": "iKD-nacbENU",
+ "slug": "history-en",
+ "durasi_file_s": 703.2,
+ "n_frames": 70,
+ "sheets": [
+  "sheet_iKD-nacbENU_00.jpg",
+  "sheet_iKD-nacbENU_01.jpg",
+  "sheet_iKD-nacbENU_02.jpg"
+ ],
+ "keyframes": [
+  "kf_iKD-nacbENU_start.jpg",
+  "kf_iKD-nacbENU_mid.jpg",
+  "kf_iKD-nacbENU_end.jpg"
+ ],
+ "audio": {
+  "max_volume": "-3.7",
+  "mean_volume": "-28.6",
+  "silent_segs": [
+   {
+    "start": 0.0,
+    "end": 3.4,
+    "dur": 3.4
+   },
+   {
+    "start": 49.0,
+    "end": 52.2,
+    "dur": 3.3
+   },
+   {
+    "start": 182.6,
+    "end": 185.7,
+    "dur": 3.1
+   },
+   {
+    "start": 264.0,
+    "end": 267.2,
+    "dur": 3.1
+   },
+   {
+    "start": 381.0,
+    "end": 383.8,
+    "dur": 2.8
+   },
+   {
+    "start": 463.1,
+    "end": 466.1,
+    "dur": 3.0
+   },
+   {
+    "start": 623.5,
+    "end": 626.4,
+    "dur": 2.9
+   }
+  ]
+ },
+ "vtt": {
+  "ada": false
+ },
+ "frame_hitam": []
+}

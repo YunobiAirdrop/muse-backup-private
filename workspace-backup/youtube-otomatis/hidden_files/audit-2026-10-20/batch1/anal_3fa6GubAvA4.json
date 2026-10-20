@@ -1,0 +1,49 @@
+{
+ "videoId": "3fa6GubAvA4",
+ "slug": "empires-en",
+ "durasi_file_s": 40.0,
+ "n_frames": 4,
+ "sheets": [
+  "sheet_3fa6GubAvA4_00.jpg"
+ ],
+ "keyframes": [
+  "kf_3fa6GubAvA4_start.jpg",
+  "kf_3fa6GubAvA4_mid.jpg",
+  "kf_3fa6GubAvA4_end.jpg"
+ ],
+ "audio": {
+  "max_volume": "-22.2",
+  "mean_volume": "-46.5",
+  "silent_segs": [
+   {
+    "start": 18.2,
+    "end": 20.6,
+    "dur": 2.3
+   }
+  ]
+ },
+ "vtt": {
+  "ada": true,
+  "raw_lines": [
+   "The librarians were not just collectors.",
+   "They were inventors.",
+   "Callimachus of Cyrene builds the",
+   "Pinakes, the first library catalog in",
+   "history, 120 volumes listing every",
+   "author and every work, each with a short",
+   "biography.",
+   "It is the ancestor of every search",
+   "engine you have ever used.",
+   "When you type into Google, you are using",
+   "an idea born on these steps.",
+   "Then comes Eratosthenes, the head",
+   "librarian, and he attempts something",
+   "absurd. He hears that at noon on one",
+   "summer day, the sun shines straight down",
+   "a deep well in a southern city, casting",
+   "no shadow. In Alexandria, there is a"
+  ],
+  "raw": true
+ },
+ "frame_hitam": []
+}

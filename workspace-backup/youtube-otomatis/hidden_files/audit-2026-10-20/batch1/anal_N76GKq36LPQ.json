@@ -1,0 +1,23 @@
+{
+ "videoId": "N76GKq36LPQ",
+ "slug": "horor",
+ "durasi_file_s": 45.1,
+ "n_frames": 5,
+ "sheets": [
+  "sheet_N76GKq36LPQ_00.jpg"
+ ],
+ "keyframes": [
+  "kf_N76GKq36LPQ_start.jpg",
+  "kf_N76GKq36LPQ_mid.jpg",
+  "kf_N76GKq36LPQ_end.jpg"
+ ],
+ "audio": {
+  "max_volume": "-6.6",
+  "mean_volume": "-25.6",
+  "silent_segs": []
+ },
+ "vtt": {
+  "ada": false
+ },
+ "frame_hitam": []
+}

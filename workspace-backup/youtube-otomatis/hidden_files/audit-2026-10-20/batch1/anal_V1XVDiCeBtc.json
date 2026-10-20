@@ -1,0 +1,23 @@
+{
+ "videoId": "V1XVDiCeBtc",
+ "slug": "horor",
+ "durasi_file_s": 45.1,
+ "n_frames": 5,
+ "sheets": [
+  "sheet_V1XVDiCeBtc_00.jpg"
+ ],
+ "keyframes": [
+  "kf_V1XVDiCeBtc_start.jpg",
+  "kf_V1XVDiCeBtc_mid.jpg",
+  "kf_V1XVDiCeBtc_end.jpg"
+ ],
+ "audio": {
+  "max_volume": "-7.5",
+  "mean_volume": "-25.0",
+  "silent_segs": []
+ },
+ "vtt": {
+  "ada": false
+ },
+ "frame_hitam": []
+}

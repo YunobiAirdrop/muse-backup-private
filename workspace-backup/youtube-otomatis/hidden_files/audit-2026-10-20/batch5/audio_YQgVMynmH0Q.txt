@@ -1,0 +1,4 @@
+[Parsed_silencedetect_1 @ 0x7d1b24081d00] silence_start: 0
+[Parsed_silencedetect_1 @ 0x7d1b24081d00] silence_end: 3.322336 | silence_duration: 3.322336
+[Parsed_volumedetect_0 @ 0x7d1b24001ac0] mean_volume: -25.4 dB
+[Parsed_volumedetect_0 @ 0x7d1b24001ac0] max_volume: -3.8 dB

@@ -1,0 +1,27 @@
+Segmen: 20, total 525.22s (VO 525.216s)
+SKIP s00 (ada)
+SKIP s01 (ada)
+SKIP s02 (ada)
+SKIP s03 (ada)
+SKIP s04 (ada)
+SKIP s05 (ada)
+SKIP s06 (ada)
+SKIP s07 (ada)
+SKIP s08 (ada)
+SKIP s09 (ada)
+OK s10 (26.0s) cl01.orig@0
+SKIP s11 (ada)
+SKIP s12 (ada)
+SKIP s13 (ada)
+OK s14 (27.0s) rv01.orig@0
+SKIP s15 (ada)
+SKIP s16 (ada)
+SKIP s17 (ada)
+SKIP s18 (ada)
+SKIP s19 (ada)
+stream vconcat:
+video,525.600000
+stream final(tmp):
+video,525.166016
+audio,525.194000
+SELESAI: /home/hatch/workspace/kisah-alkitab/work/2026-10-16/out/kisah-alkitab-2026-10-16-long.mp4 (525.2s, 86MB)

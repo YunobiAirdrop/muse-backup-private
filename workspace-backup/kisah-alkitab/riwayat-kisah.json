@@ -1,64 +1,74 @@
 {
-  "dipakai": [
-    {
-      "catatan": "Produksi perdana channel. 18 klip Pexels TERVERIFIKASI netral (9 klip unik x2); 9 klip kuil Hindu/Buddha dari search 'church' DIBUANG sebelum assembly.",
-      "durasi_detik": 468,
-      "jenis": "long",
-      "judul": "Daud melawan Goliat",
-      "referensi": "1 Samuel 17",
-      "tanggal": "2026-10-08"
-    },
-    {
-      "tanggal": "2026-10-10",
-      "jenis": "long",
-      "judul": "Dijual Saudara Sendiri, Malah Jadi Penguasa Mesir — Kisah Yusuf",
-      "referensi": "Kejadian 37-50",
-      "durasi_detik": 479,
-      "catatan": "Naskah 1023 kata, VO mudiwa 5 beat. 9 klip Pexels TERVERIFIKASI netral dari produksi 10-08 dipakai ulang (tiap 2x). Upload 720p 114MB ke @KisahAlkitab-k9j via browser task; jadwal tayang 2026-10-11 19:00 WIB."
-    },
-    {
-      "tanggal": "2026-10-12",
-      "jenis": "long",
-      "judul": "Dilempar ke Gua Singa Semalaman, Paginya Masih Hidup — Kisah Daniel",
-      "referensi": "Daniel 6",
-      "durasi_detik": 510.9,
-      "catatan": "Naskah 1057 kata, VO mudiwa 5 beat. PRODUKSI SELESAI (720p 52MB upload + master kerja 720p). Upload MENUNGGU persetujuan 2FA user di browser task (ketuk Ya + angka 97) per 2026-10-12 malam; target Terjadwal 2026-10-13 19:00 WIB. QC: klip13/16 (candi Hindu) DIBUANG — pool bersih hanya klip 05,07,10,11,14,15,17. Lihat STATUS-PRODUKSI.md di work/2026-10-12/. Upload via API 2026-10-13 (carry-over: browser 10-12 parkir di 2FA). Private, publishAt 2026-10-13 19:00 WIB. Thumbnail API 403 -> via Studio. Disclosure via Studio menyusul.",
-      "video_id": "Yaayw7F_on8",
-      "url": "https://youtu.be/Yaayw7F_on8"
-    },
-    {
-      "tanggal": "2026-10-13",
-      "jenis": "shorts",
-      "judul": "3 shorts Daniel (dipotong dari long 2026-10-12)",
-      "referensi": "Daniel 6",
-      "video_ids": [
-        "jq7VPibcPXE",
-        "W4Atp612hRw",
-        "LVHwjTrw3Ao"
-      ],
-      "catatan": "Vertikal 9:16 dari master 720p (crop tengah), overlay momen kunci + CTA. Upload via API 2026-10-13; private, publishAt 2026-10-14 19:00 WIB. Judul hook + hashtag akhir ditutup #foryou."
-    },
-    {
-      "tanggal": "2026-10-14",
-      "jenis": "long",
-      "judul": "Terjepit di Tepi Laut, Lalu Air Berdiri Seperti Tembok — Kisah Musa",
-      "referensi": "Keluaran 14",
-      "durasi_detik": 451.7,
-      "video_id": "JS-uNWKfI1w",
-      "url": "https://youtu.be/JS-uNWKfI1w",
-      "catatan": "Naskah 1018 kata, VO mudiwa 5 beat. 19 segmen (4 klip baru Wikimedia Commons terverifikasi: w01 PD, w02/w03 CC BY-SA 4.0 Joe Mabel, w06 CC BY 3.0 Chiro J; 6 klip lama Pexels bersih, tiap maks 2x). 4 klip Commons DIBUANG (anak-anak, film kapal karam, diagram, satelit). Overlay diperbaiki (fontsize dinamis, 2 segmen rebuild). Upload via API 2026-10-14; private, publishAt 2026-10-15 19:00 WIB. Thumbnail API OK. AI disclosure via Studio menyusul."
-    },
-    {
-      "tanggal": "2026-10-15",
-      "jenis": "shorts",
-      "judul": "3 shorts Musa (dipotong dari long 2026-10-14)",
-      "referensi": "Keluaran 14",
-      "video_ids": [
-        "vf3KMDXSsb4",
-        "hzxsT0vyfss",
-        "NSCvoapqE-E"
-      ],
-      "catatan": "Vertikal 720x1280 (crop tengah), hook overlay 5 dtk + CTA 3 dtk terakhir. Upload via API 2026-10-15; private, publishAt 2026-10-16 19:00 WIB. Judul hook + hashtag akhir ditutup #foryou. AI disclosure via Studio menyusul."
-    }
-  ]
+ "dipakai": [
+  {
+   "catatan": "Produksi perdana channel. 18 klip Pexels TERVERIFIKASI netral (9 klip unik x2); 9 klip kuil Hindu/Buddha dari search 'church' DIBUANG sebelum assembly.",
+   "durasi_detik": 468,
+   "jenis": "long",
+   "judul": "Daud melawan Goliat",
+   "referensi": "1 Samuel 17",
+   "tanggal": "2026-10-08"
+  },
+  {
+   "tanggal": "2026-10-10",
+   "jenis": "long",
+   "judul": "Dijual Saudara Sendiri, Malah Jadi Penguasa Mesir — Kisah Yusuf",
+   "referensi": "Kejadian 37-50",
+   "durasi_detik": 479,
+   "catatan": "Naskah 1023 kata, VO mudiwa 5 beat. 9 klip Pexels TERVERIFIKASI netral dari produksi 10-08 dipakai ulang (tiap 2x). Upload 720p 114MB ke @KisahAlkitab-k9j via browser task; jadwal tayang 2026-10-11 19:00 WIB."
+  },
+  {
+   "tanggal": "2026-10-12",
+   "jenis": "long",
+   "judul": "Dilempar ke Gua Singa Semalaman, Paginya Masih Hidup — Kisah Daniel",
+   "referensi": "Daniel 6",
+   "durasi_detik": 510.9,
+   "catatan": "Naskah 1057 kata, VO mudiwa 5 beat. PRODUKSI SELESAI (720p 52MB upload + master kerja 720p). Upload MENUNGGU persetujuan 2FA user di browser task (ketuk Ya + angka 97) per 2026-10-12 malam; target Terjadwal 2026-10-13 19:00 WIB. QC: klip13/16 (candi Hindu) DIBUANG — pool bersih hanya klip 05,07,10,11,14,15,17. Lihat STATUS-PRODUKSI.md di work/2026-10-12/. Upload via API 2026-10-13 (carry-over: browser 10-12 parkir di 2FA). Private, publishAt 2026-10-13 19:00 WIB. Thumbnail API 403 -> via Studio. Disclosure via Studio menyusul.",
+   "video_id": "Yaayw7F_on8",
+   "url": "https://youtu.be/Yaayw7F_on8"
+  },
+  {
+   "tanggal": "2026-10-13",
+   "jenis": "shorts",
+   "judul": "3 shorts Daniel (dipotong dari long 2026-10-12)",
+   "referensi": "Daniel 6",
+   "video_ids": [
+    "jq7VPibcPXE",
+    "W4Atp612hRw",
+    "LVHwjTrw3Ao"
+   ],
+   "catatan": "Vertikal 9:16 dari master 720p (crop tengah), overlay momen kunci + CTA. Upload via API 2026-10-13; private, publishAt 2026-10-14 19:00 WIB. Judul hook + hashtag akhir ditutup #foryou."
+  },
+  {
+   "tanggal": "2026-10-14",
+   "jenis": "long",
+   "judul": "Terjepit di Tepi Laut, Lalu Air Berdiri Seperti Tembok — Kisah Musa",
+   "referensi": "Keluaran 14",
+   "durasi_detik": 451.7,
+   "video_id": "JS-uNWKfI1w",
+   "url": "https://youtu.be/JS-uNWKfI1w",
+   "catatan": "Naskah 1018 kata, VO mudiwa 5 beat. 19 segmen (4 klip baru Wikimedia Commons terverifikasi: w01 PD, w02/w03 CC BY-SA 4.0 Joe Mabel, w06 CC BY 3.0 Chiro J; 6 klip lama Pexels bersih, tiap maks 2x). 4 klip Commons DIBUANG (anak-anak, film kapal karam, diagram, satelit). Overlay diperbaiki (fontsize dinamis, 2 segmen rebuild). Upload via API 2026-10-14; private, publishAt 2026-10-15 19:00 WIB. Thumbnail API OK. AI disclosure via Studio menyusul."
+  },
+  {
+   "tanggal": "2026-10-15",
+   "jenis": "shorts",
+   "judul": "3 shorts Musa (dipotong dari long 2026-10-14)",
+   "referensi": "Keluaran 14",
+   "video_ids": [
+    "vf3KMDXSsb4",
+    "hzxsT0vyfss",
+    "NSCvoapqE-E"
+   ],
+   "catatan": "Vertikal 720x1280 (crop tengah), hook overlay 5 dtk + CTA 3 dtk terakhir. Upload via API 2026-10-15; private, publishAt 2026-10-16 19:00 WIB. Judul hook + hashtag akhir ditutup #foryou. AI disclosure via Studio menyusul."
+  },
+  {
+   "tanggal": "2026-10-20",
+   "jenis": "long",
+   "judul": "Saya Merinding Baca Ini: Tuhan Sendiri Menutup Pintu Bahtera",
+   "referensi": "Kejadian 6-9",
+   "durasi_detik": 525.2,
+   "video_id": "dtGEIk9xGJo",
+   "url": "https://youtu.be/dtGEIk9xGJo",
+   "catatan": "Naskah 1075 kata, VO mudiwa 5 beat. Produksi dimulai 2026-10-16, terhenti di rakit; diselesaikan 2026-10-20: 20 segmen (10 klip Commons terverifikasi QC, tiap maks 2x; n24 DIBUANG — film naratif campuran, diganti cl01/rv01; rb01 gagal download). Overlay 6 momen kunci + grain anti-AI. Upload via API 2026-10-20; private, publishAt 2026-10-21 19:00 WIB. Thumbnail API 403 -> via Studio. AI disclosure via Studio menyusul."
+  }
+ ]
 }

@@ -1,0 +1,2 @@
+stream,video
+stream,audio,48000

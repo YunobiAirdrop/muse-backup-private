@@ -1,0 +1,3 @@
+DURATION_S: 43.264000
+[Parsed_volumedetect_0 @ 0x74943c001ac0] mean_volume: -24.6 dB
+[Parsed_volumedetect_0 @ 0x74943c001ac0] max_volume: -4.7 dB

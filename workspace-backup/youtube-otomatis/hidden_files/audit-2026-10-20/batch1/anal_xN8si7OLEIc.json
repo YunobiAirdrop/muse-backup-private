@@ -1,0 +1,79 @@
+{
+ "videoId": "xN8si7OLEIc",
+ "slug": "empires-en",
+ "durasi_file_s": 497.8,
+ "n_frames": 50,
+ "sheets": [
+  "sheet_xN8si7OLEIc_00.jpg",
+  "sheet_xN8si7OLEIc_01.jpg",
+  "sheet_xN8si7OLEIc_02.jpg"
+ ],
+ "keyframes": [
+  "kf_xN8si7OLEIc_start.jpg",
+  "kf_xN8si7OLEIc_mid.jpg",
+  "kf_xN8si7OLEIc_end.jpg"
+ ],
+ "audio": {
+  "max_volume": "-7.9",
+  "mean_volume": "-35.4",
+  "silent_segs": [
+   {
+    "start": 0.0,
+    "end": 4.3,
+    "dur": 4.3
+   },
+   {
+    "start": 31.2,
+    "end": 33.4,
+    "dur": 2.2
+   }
+  ]
+ },
+ "vtt": {
+  "ada": true,
+  "raw_lines": [
+   "In a single morning, 20,000 people died",
+   "where they stood.",
+   "No war killed them. No plague emptied",
+   "their streets. The mountain did it.",
+   "This is Pompeii, the city that time",
+   "forgot to destroy. And today, we are",
+   "walking its streets again.",
+   "I am standing in the forum, where",
+   "senators once argued and merchants",
+   "shouted their prices.",
+   "The paving stones still carry the ruts",
+   "of cart wheels, worn deep over",
+   "centuries.",
+   "What amazes me is this.",
+   "I am walking the exact road a Roman",
+   "walked on the exact morning he died.",
+   "But before the mountain speaks, let me",
+   "ask you something.",
+   "If you had 4 hours to live, what would",
+   "you grab?",
+   "Your money? Your family? Your memories?",
+   "Keep that question in your pocket.",
+   "Because at 1:00 in the afternoon on an",
+   "ordinary summer day, Pompeii ran out of",
+   "time.",
+   "Rewind 2,000 years. The Bay of Naples",
+   "glitters below. Pompeii is rich, loud,",
+   "and alive. 20,000 people pack its",
+   "streets. Sailors, wine merchants,",
+   "bakers, gladiators, ships crowd the",
+   "harbor with oil and grain. This is not",
+   "some forgotten village. This is a Roman",
+   "boomtown. Morning in Pompeii smells like",
+   "fresh bread. 150 thermopolia, the fast",
+   "food counters of Rome, serve hot stew to",
+   "workers in a hurry.",
+   "In the bakery, 80 loaves slide into the",
+   "brick ovens. And the amphitheater, the",
+   "oldest surviving one in the Roman world,",
+   "roars with 20,000 voices. Wealth paints"
+  ],
+  "raw": true
+ },
+ "frame_hitam": []
+}

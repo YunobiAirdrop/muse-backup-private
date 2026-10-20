@@ -1,0 +1,29 @@
+{
+ "videoId": "8AGtu8ZpZxY",
+ "slug": "history-en",
+ "durasi_file_s": 33.3,
+ "n_frames": 3,
+ "sheets": [
+  "sheet_8AGtu8ZpZxY_00.jpg"
+ ],
+ "keyframes": [
+  "kf_8AGtu8ZpZxY_start.jpg",
+  "kf_8AGtu8ZpZxY_mid.jpg",
+  "kf_8AGtu8ZpZxY_end.jpg"
+ ],
+ "audio": {
+  "max_volume": "-9.6",
+  "mean_volume": "-30.1",
+  "silent_segs": [
+   {
+    "start": 6.2,
+    "end": 9.0,
+    "dur": 2.8
+   }
+  ]
+ },
+ "vtt": {
+  "ada": false
+ },
+ "frame_hitam": []
+}

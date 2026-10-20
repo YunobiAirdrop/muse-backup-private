@@ -1,0 +1,57 @@
+{
+ "videoId": "0hbkORJAraU",
+ "slug": "empires-en",
+ "durasi_file_s": 40.0,
+ "n_frames": 4,
+ "sheets": [
+  "sheet_0hbkORJAraU_00.jpg"
+ ],
+ "keyframes": [
+  "kf_0hbkORJAraU_start.jpg",
+  "kf_0hbkORJAraU_mid.jpg",
+  "kf_0hbkORJAraU_end.jpg"
+ ],
+ "audio": {
+  "max_volume": "-27.7",
+  "mean_volume": "-49.4",
+  "silent_segs": [
+   {
+    "start": 1.8,
+    "end": 4.0,
+    "dur": 2.2
+   },
+   {
+    "start": 4.1,
+    "end": 17.8,
+    "dur": 13.7
+   },
+   {
+    "start": 24.6,
+    "end": 26.6,
+    "dur": 2.1
+   }
+  ]
+ },
+ "vtt": {
+  "ada": true,
+  "raw_lines": [
+   "Half a million books gone in a single",
+   "night. Not stolen, not hidden, burned to",
+   "ash while the greatest minds on earth",
+   "watched helpless. This is the story of",
+   "the greatest library ever built and the",
+   "day humanity's memory went up in flames.",
+   "I am standing on the cornes of",
+   "Alexandria, Egypt, watching fishing",
+   "boats rock in the same harbor where",
+   "warships once docked.",
+   "rises a giant tilted disc of glass and",
+   "granite. The new Library of Alexandria",
+   "opened in 2002.",
+   "The building it honors, that one",
+   "vanished 2,000 years ago."
+  ],
+  "raw": true
+ },
+ "frame_hitam": []
+}

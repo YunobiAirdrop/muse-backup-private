@@ -1,0 +1,17 @@
+DURATION_S: 601.071746
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_start: 0
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_end: 3.30102 | silence_duration: 3.30102
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_start: 70.576939
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_end: 72.796281 | silence_duration: 2.219342
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_start: 178.776531
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_end: 182.119751 | silence_duration: 3.34322
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_start: 201.131973
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_end: 203.531723 | silence_duration: 2.399751
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_start: 403.984422
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_end: 406.354966 | silence_duration: 2.370544
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_start: 517.453991
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_end: 519.526984 | silence_duration: 2.072993
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_start: 583.864422
+[Parsed_silencedetect_1 @ 0x757990081d00] silence_end: 585.999138 | silence_duration: 2.134717
+[Parsed_volumedetect_0 @ 0x757990001ac0] mean_volume: -28.2 dB
+[Parsed_volumedetect_0 @ 0x757990001ac0] max_volume: -4.8 dB

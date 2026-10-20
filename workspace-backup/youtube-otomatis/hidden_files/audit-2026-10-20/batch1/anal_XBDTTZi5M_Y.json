@@ -1,0 +1,43 @@
+{
+ "videoId": "XBDTTZi5M_Y",
+ "slug": "empires-en",
+ "durasi_file_s": 40.1,
+ "n_frames": 4,
+ "sheets": [
+  "sheet_XBDTTZi5M_Y_00.jpg"
+ ],
+ "keyframes": [
+  "kf_XBDTTZi5M_Y_start.jpg",
+  "kf_XBDTTZi5M_Y_mid.jpg",
+  "kf_XBDTTZi5M_Y_end.jpg"
+ ],
+ "audio": {
+  "max_volume": "-8.4",
+  "mean_volume": "-30.1",
+  "silent_segs": []
+ },
+ "vtt": {
+  "ada": true,
+  "raw_lines": [
+   "There is a cruel irony in it.",
+   "A civilization that could predict",
+   "eclipses to the exact day could not",
+   "predict the rain.",
+   "All their astronomy, all their",
+   "mathematics, and the one cycle that",
+   "truly mattered slipped right past them.",
+   "It makes you wonder what we are missing",
+   "right now. And here is what most people",
+   "get wrong. The Maya never disappeared.",
+   "Standing here a thousand years ago, you",
+   "would see farmers, scribes, and kings",
+   "going about their day.",
+   "Today, their descendants number in the",
+   "millions, still speaking Mayan",
+   "languages, still farming the same land.",
+   "The cities fell. The people endured."
+  ],
+  "raw": true
+ },
+ "frame_hitam": []
+}

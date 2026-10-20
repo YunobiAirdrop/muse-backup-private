@@ -1,0 +1,8 @@
+[Parsed_silencedetect_1 @ 0x7d1b24081d00] silence_start: 0
+[Parsed_silencedetect_1 @ 0x7d1b24081d00] silence_end: 3.322336 | silence_duration: 3.322336
+[Parsed_volumedetect_0 @ 0x7d1b24001ac0] mean_volume: -25.4 dB
+[Parsed_volumedetect_0 @ 0x7d1b24001ac0] max_volume: -3.8 dB
+===
+NA{'en': [{'ext': 'json3', 'url': 'https://www.youtube.com/api/timedtext?v=YQgVMynmH0Q&ei=C5PXaufeFbn5sfIPnuaEmAc&caps=asr&opi=112496729&exp=xpo&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792537979&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cexp%2Cxoaf&signature=75A18D18E4FB6142AB714A76098F9A3F6A21F3AE.44AA4F0429AD834CA0AB9D8117FDB7459A931EAF&key=yt8&kind=asr&lang=id&fmt=json3&tlang=en', 'name': 'English', 'impersonate': True, '__yt_dlp_client': 'android'}, {'ext': 'srv1', 
+=== pipeline:
+2

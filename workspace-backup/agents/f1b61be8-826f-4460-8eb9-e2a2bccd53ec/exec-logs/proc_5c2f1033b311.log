@@ -1,4 +1,0 @@
-  File "/home/hatch/workspace/youtube-otomatis/hidden_files/audit-qc.py", line 96
-    for s in subs: segs = parse_vtt(s); if segs: break
-                                        ^^
-SyntaxError: invalid syntax

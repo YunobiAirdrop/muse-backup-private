@@ -16,3 +16,12 @@ OK s13 (30.0s) r02.orig@15
 OK s14 (27.0s) n24.orig@28
 OK s15 (27.552s) n27.orig@8
 OK s16 (30.0s) n27.orig@45
+OK s17 (26.0s) rv01.orig@0
+OK s18 (19.0s) r03.orig@0
+OK s19 (26.688s) cl01.orig@0
+stream vconcat:
+video,525.633333
+stream final(tmp):
+video,525.166016
+audio,525.194000
+SELESAI: /home/hatch/workspace/kisah-alkitab/work/2026-10-16/out/kisah-alkitab-2026-10-16-long.mp4 (525.2s, 84MB)
