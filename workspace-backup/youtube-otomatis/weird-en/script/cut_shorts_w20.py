@@ -22,7 +22,7 @@ for k in keys:
 
 # (nama, beat_awal, beat_akhir_inklusif, hook_text)
 SHORTS = [
-    ("s1", 21, 28, "30 YEARS. 28 FEET OF NAILS."),  # Lee Redmond champion
+    ("s1", 23, 28, "30 YEARS. 28 FEET OF NAILS."),  # Lee Redmond champion (cold open reaksi)
     ("s2", 60, 64, "109.9 DECIBELS"),               # loudest burp
     ("s3", 50, 54, "85 SPOONS. ONE BODY."),         # spoon man
 ]
@@ -40,7 +40,7 @@ for name, b0, b1, hook in SHORTS:
     tmp = os.path.join(W, "shorts", f"2026-10-20-{name}-TEMP.mp4")
     final = os.path.join(W, "shorts", f"2026-10-20-{name}.mp4")
     assert not os.path.exists(final), f"{final} sudah ada!"
-    vf = ("crop=ih*9/16:ih,scale=720:1280,"
+    vf = ("crop=ih*9/16:ih,fps=25,scale=720:1280,"
           + dt(hook, 0, 5.0) + ","
           + dt("SUBSCRIBE!", dur - 3.0, dur, fs=80, y="h-260"))
     r = subprocess.run([Q, "-y", "-ss", str(max(0, ss - 5)), "-i", SRC,

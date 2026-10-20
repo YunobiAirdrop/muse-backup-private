@@ -1,0 +1,5 @@
+total expected: 600.9s (10.01 mnt)
+pass1 streams: {'video': 600.92}
+PASS1 OK
+pass2 streams: {'video': 600.92, 'audio': 600.882}
+OK twopass: /home/hatch/workspace/youtube-otomatis/weird-en/video/2026-10-20-final.mp4

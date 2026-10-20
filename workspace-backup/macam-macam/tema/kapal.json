@@ -1,1 +1,63 @@
-{"items":[{"fakta":"Hotel mewah yang berlayar di lautan!","nama":"Kapal Pesiar","pexels_query":"cruise ship"},{"fakta":"Berlayar ditiup angin pakai layar besar!","nama":"Kapal Layar","pexels_query":"sailing ship"},{"fakta":"Bisa menyelam ke dasar laut kayak ikan paus!","nama":"Kapal Selam","pexels_query":"submarine"},{"fakta":"Perahu para nelayan pencari ikan!","nama":"Perahu Nelayan","pexels_query":"fishing boat"},{"fakta":"Angkut peti kemas raksasa antar negara!","nama":"Kapal Kargo","pexels_query":"cargo ship"},{"fakta":"Perahu super cepat, ciuuut!","nama":"Speedboat","pexels_query":"speedboat"},{"fakta":"Antar penumpang menyeberang antar pulau!","nama":"Kapal Feri","pexels_query":"ferry boat"},{"fakta":"Perahu kecil yang didayung, asyik buat santai!","nama":"Kano","pexels_query":"canoe"}],"judul":"Kapal","kategori":"jenis kapal","part":1}
+{
+ "items": [
+  {
+   "fakta": "Hotel mewah yang berlayar di lautan!",
+   "nama": "Kapal Pesiar",
+   "pexels_query": "cruise ship",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/kapal-part1/tempel/item00.jpg",
+   "kredit": "Sergii / Pexels"
+  },
+  {
+   "fakta": "Berlayar ditiup angin pakai layar besar!",
+   "nama": "Kapal Layar",
+   "pexels_query": "sailing ship",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/kapal-part1/tempel/item01.jpg",
+   "kredit": "Andrew Dreyer / Pexels"
+  },
+  {
+   "fakta": "Bisa menyelam ke dasar laut kayak ikan paus!",
+   "nama": "Kapal Selam",
+   "pexels_query": "submarine",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/kapal-part1/tempel/item02.jpg",
+   "kredit": "Arjanne Holsappel / Pexels"
+  },
+  {
+   "fakta": "Perahu para nelayan pencari ikan!",
+   "nama": "Perahu Nelayan",
+   "pexels_query": "fishing boat",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/kapal-part1/tempel/item03.jpg",
+   "kredit": "Hasan Utku Sala / Pexels"
+  },
+  {
+   "fakta": "Angkut peti kemas raksasa antar negara!",
+   "nama": "Kapal Kargo",
+   "pexels_query": "cargo ship",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/kapal-part1/tempel/item04.jpg",
+   "kredit": "Reco Alleyne / Pexels"
+  },
+  {
+   "fakta": "Perahu super cepat, ciuuut!",
+   "nama": "Speedboat",
+   "pexels_query": "speedboat",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/kapal-part1/tempel/item05.jpg",
+   "kredit": "REFARGOTOHP / Pexels"
+  },
+  {
+   "fakta": "Antar penumpang menyeberang antar pulau!",
+   "nama": "Kapal Feri",
+   "pexels_query": "ferry boat",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/kapal-part1/tempel/item06.jpg",
+   "kredit": "Aydın Kiraz / Pexels"
+  },
+  {
+   "fakta": "Perahu kecil yang didayung, asyik buat santai!",
+   "nama": "Kano",
+   "pexels_query": "canoe",
+   "foto_lokal": "/home/hatch/workspace/macam-macam/work/kapal-part1/tempel/item07.jpg",
+   "kredit": "Abhilash Venkat / Pexels"
+  }
+ ],
+ "judul": "Kapal",
+ "kategori": "jenis kapal",
+ "part": 1
+}

@@ -1,0 +1,7 @@
+43:    vf = ("crop=ih*9/16:ih,fps=25,scale=720:1280,"
+s1: beats 23-28 -> ss=164.5s dur=58.3s
+OK s1: /home/hatch/workspace/youtube-otomatis/weird-en/shorts/2026-10-20-s1.mp4 (58.3s)
+s2: beats 60-64 -> ss=478.1s dur=37.5s
+OK s2: /home/hatch/workspace/youtube-otomatis/weird-en/shorts/2026-10-20-s2.mp4 (37.5s)
+s3: beats 50-54 -> ss=400.6s dur=42.9s
+OK s3: /home/hatch/workspace/youtube-otomatis/weird-en/shorts/2026-10-20-s3.mp4 (42.9s)

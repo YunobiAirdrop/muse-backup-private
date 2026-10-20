@@ -59,5 +59,11 @@
   "topic": "7 Foods So Weird They Should NOT Exist (century egg, balut, escamoles, kopi luwak, hakarl, surstromming, casu marzu - Weirdness Score ranking)",
   "status": "DIPRODUKSI+UPLOAD 2026-10-18 via API yt-growth (slug weird-en): long 636.3s/10.6mnt, videoId U4UwccK9vdI (RE-UPLOAD: video pertama G3mCu5nqleM dihapus karena A/V tidak sinkron - preset veryfast merusak timestamp VFR; rebuild two-pass preset ultrafast, verifikasi per-stream OK), private terjadwal 2026-10-19 07:00 WIB, masuk playlist PLF5KYcAHwR74. Thumbnail API 403 (channel belum verifikasi HP - pola tetap). 3 shorts bank dipotong ulang dari video fixed (s1 51.5s surstromming, s2 54.1s casu marzu, s3 54.3s kopi luwak).",
   "videoId": "U4UwccK9vdI"
+ },
+ {
+  "date": "2026-10-20",
+  "category": "weird-facts",
+  "topic": "7 World Records So Weird They Should Be Illegal (eyeball pop, 28ft fingernails, 30k Big Macs, 110 tacos/8min, 85 spoons, 260 t-shirts, 109.9dB burp - Weirdness Score battle, champion Lee Redmond)",
+  "status": "DIPRODUKSI 2026-10-20 (upload-ready, menunggu parent upload via API): long 600.9s/10.01mnt 1280x720 (74 beats, 1111 kata, TTS Miles EN, 74 gambar storybook, bumper owner setelah beat 28 + overlay WEIRD WORLD DAILY, two-pass preset ultrafast, verifikasi per-stream OK: video 600.92s/audio 600.88s, grain+vignette+6 overlay+CTA 50%). Thumbnail kustom 'BREAKS THE RULES' siap. 3 shorts bank: s1 58.3s (nails), s2 37.5s (burp), s3 42.9s (spoons), 9:16 + hook/CTA overlay, fps=25. Manifest: upload-2026-10-20.json, slot Terjadwal 2026-10-21 07:00 WIB."
  }
 ]

@@ -1,6 +1,0 @@
-[OK] header_buttons: count=14
-[FAIL] account_menu: Locator.click: Timeout 8000ms exceeded.
-Call log:
-  - waiting for locator("header").locator("button").nth(13)
-    - locator resolved to <button data-v
-[DONE] results -> /home/hatch/workspace/wallet-bot/kalos-signin.json

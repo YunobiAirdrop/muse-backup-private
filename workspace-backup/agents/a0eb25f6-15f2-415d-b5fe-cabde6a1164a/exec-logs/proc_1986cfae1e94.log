@@ -1,0 +1,8 @@
+[elysium] mixed progress (2/3) — sleeping 1163s…
+[elysium] balance check failed: HTTPSConnectionPool(host='testnet-rpc.elysium.kinetiq.xyz', port=443): Max retri
+[elysium] transfer failed/stopped — ending mixed run
+[elysium] mixed run done: 2 actions (transfers 7/8, swaps 7/7)
+[*] inter-chain gap: sleeping 99s…
+[*] === chain sepolia (id 11155111) ===
+[sepolia] tx 8/8: 0b8a69ee1f2fb419e4… amount=25747 wei status=1
+[*] done: 3 actions today across 2 chains

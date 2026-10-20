@@ -133,11 +133,34 @@ def base_ball(char):
         d.ellipse([C-115, C-115, C+115, C+115], fill=(20, 60, 160))
         d.arc([C-115, C-115, C+115, C+115], start=195, end=345,
               fill="white", width=28)
+    elif char == 'it':
+        # ITALIA: trikolor vertikal hijau-putih-merah
+        im2 = Image.new("RGBA", (SIZE, SIZE), (0, 0, 0, 0))
+        d2i = ImageDraw.Draw(im2)
+        d2i.rectangle([0, 0, SIZE//3, SIZE], fill=(20, 140, 60))
+        d2i.rectangle([SIZE//3, 0, 2*SIZE//3, SIZE], fill=(245, 245, 245))
+        d2i.rectangle([2*SIZE//3, 0, SIZE, SIZE], fill=(200, 30, 40))
+        mask = Image.new("L", (SIZE, SIZE), 0)
+        ImageDraw.Draw(mask).ellipse([8, 8, SIZE-8, SIZE-8], fill=255)
+        im.paste(im2, (0, 0), mask)
+        d = ImageDraw.Draw(im)
+    elif char == 'is':
+        # ISLANDIA: biru + salib nordik putih berisi salib merah
+        im2 = Image.new("RGBA", (SIZE, SIZE), (0, 0, 0, 0))
+        d2s = ImageDraw.Draw(im2)
+        d2s.rectangle([0, 0, SIZE, SIZE], fill=(20, 70, 170))
+        d2s.rectangle([0, C-110, SIZE, C+110], fill=(245, 245, 245))
+        d2s.rectangle([C-270, 0, C-50, SIZE], fill=(245, 245, 245))
+        d2s.rectangle([0, C-45, SIZE, C+45], fill=(200, 30, 40))
+        d2s.rectangle([C-205, 0, C-115, SIZE], fill=(200, 30, 40))
+        mask = Image.new("L", (SIZE, SIZE), 0)
+        ImageDraw.Draw(mask).ellipse([8, 8, SIZE-8, SIZE-8], fill=255)
+        im.paste(im2, (0, 0), mask)
+        d = ImageDraw.Draw(im)
     # outline hitam
     d2 = ImageDraw.Draw(im)
     d2.ellipse([8, 8, SIZE-8, SIZE-8], outline=(20, 20, 20), width=10)
     return im
-
 
 def draw_eyes(d, style):
     """Mata kartun BESAR: oval putih + pupil hitam."""

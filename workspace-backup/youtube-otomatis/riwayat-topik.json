@@ -210,5 +210,13 @@
   "instruksi": "upload-instruksi-pov-2026-10-19.md",
   "durasi_long_detik": 594,
   "catatan": "Long 9:54 (594s), 88 beat, 88 gambar storybook 2D (img-054=copy img-055, blokir policy). Bumper voice-clone sebelum beat 047, overlay 5 momen, thumbnail 'LAYAR PUTIH DATANG!'. Upload via API 2026-10-19: long NJ4LWQopwRI (slot Jum 2026-10-23 19:00 WIB) + 3 shorts (8CO2EXHPlCE, dmwuhmQ23cE, 9zcuRu6WvAo; slot Sab 2026-10-24 19:00 WIB). AI disclosure WAJIB centang manual via Studio."
+ },
+ {
+  "tanggal": "2026-10-20",
+  "topik": "POV: Kamu Jadi Prajurit Gajah Mada dalam Sumpah Palapa",
+  "kategori": "Nusantara",
+  "status": "produksi",
+  "catatan": "Produksi selesai 2026-10-20 pagi: 88 beat, 88/88 gambar OK (4 beat gagal transien di-generate ulang manual: 007,008,017,075). Audio final 646.1s json / 638.0s aktual (atempo 1.25), video final 639.4s video + 641.0s audio (verifikasi per-stream lolos). Thumbnail 'SUMPAH GILA!' (img-008). BELUM UPLOAD: parent handle.",
+  "file_long": "video/2026-10-20-final.mp4"
  }
 ]

@@ -71,6 +71,14 @@
    "tipe": "shorts",
    "video": "short1-serangan-mara.mp4 (3mtS4PiYnV8), short2-bhumisparsha.mp4 (SiWWntBR5qE), short3-tiga-jaga.mp4 (Pek3DprvFGQ)",
    "catatan": "3 shorts dipotong dari long 2026-10-18; diupload via API 2026-10-19, terjadwal tayang 2026-10-20 19:00/19:05/19:10 WIB. AI disclosure pending centang manual di Studio (API tidak mendukung field itu)."
+  },
+  {
+   "kisah": "Khotbah pertama di Taman Rusa Isipatana",
+   "tanggal": "2026-10-20",
+   "tipe": "long",
+   "video": "jejak-buddha-2026-10-20-upload.mp4",
+   "video_id": "uQ5n9Coygt0",
+   "catatan": "Diupload via API 2026-10-20 -> video ID uQ5n9Coygt0 (https://youtu.be/uQ5n9Coygt0), terjadwal tayang Rabu 2026-10-21 19:00 WIB. Footage 17 klip Wikimedia Commons reuse dari 2026-10-18 (0 baru). Thumbnail custom GAGAL via API (403: akun belum verifikasi HP). AI disclosure pending centang manual di Studio. File video final dihapus dari lokal pasca-upload (aturan user). Shorts dari long ini diproduksi+upload 2026-10-21."
   }
  ]
 }

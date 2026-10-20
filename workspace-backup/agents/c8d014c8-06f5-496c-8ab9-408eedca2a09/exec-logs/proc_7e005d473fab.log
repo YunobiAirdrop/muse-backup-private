@@ -1,0 +1,13 @@
+skala segmen 0.9875 (narasi 638.0s -> slide total 638.0s)
+render chunk0: beat 1-22 ...
+  OK chunk -> /home/hatch/workspace/youtube-otomatis/video/_tmp_segs_2026-10-20/chunk0.mp4 (165.4s)
+render chunk1: beat 23-44 ...
+  OK chunk -> /home/hatch/workspace/youtube-otomatis/video/_tmp_segs_2026-10-20/chunk1.mp4 (156.6s)
+render chunk2: beat 45-66 ...
+  OK chunk -> /home/hatch/workspace/youtube-otomatis/video/_tmp_segs_2026-10-20/chunk2.mp4 (154.8s)
+render chunk3: beat 67-88 ...
+  OK chunk -> /home/hatch/workspace/youtube-otomatis/video/_tmp_segs_2026-10-20/chunk3.mp4 (159.6s)
+  OK title card -> /home/hatch/workspace/youtube-otomatis/video/_tmp_segs_2026-10-20/titlecard.mp4
+pass1: expected 641.0s, got video 639.4s
+pass2 per-stream: {'video': 639.4, 'audio': 641.01}, expected 641.0s
+OK: /home/hatch/workspace/youtube-otomatis/video/2026-10-20-final.mp4 (10.7 menit)

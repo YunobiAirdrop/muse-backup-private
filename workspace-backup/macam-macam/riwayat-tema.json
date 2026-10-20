@@ -42,5 +42,12 @@
   "tanggal": "2026-10-19",
   "catatan": "8 foto Pexels via images.pexels.com langsung (CDN tidak ke-block Cloudflare; browser task hanya bisa unduh ke file store runtime, tidak bisa tulis ke workspace); kredit per file; cutout rembg perlu downscale max 1280px; keyframe terverifikasi (posisi stiker berubah antar frame 20.0s/20.8s); 54.2 dtk; hashtag 5 (aturan 2026-10-18); TERUPLOAD 2026-10-19 (videoId wxWw_lR-leQ, https://youtube.com/shorts/wxWw_lR-leQ, Publik, kids audience, AI disclosure Ya, no copyright issue)",
   "video_id": "wxWw_lR-leQ"
+ },
+ {
+  "tema": "kapal",
+  "part": 1,
+  "judul": "Macam-macam Jenis Kapal (Part 1)",
+  "tanggal": "2026-10-20",
+  "catatan": "8 foto Pexels (6 diganti krn cutout gagal + Kapal Pesiar diganti; kredit per file); TEMUAN: tempel.py pakai cache cutout/itemNN.png — wajib hapus cache item yg diganti sblm re-run; keyframe terverifikasi (bg pan frame 7.0/7.9); 51.3 dtk; hashtag 5; UPLOAD TERTUNDA: Google minta verifikasi push di HP (ketuk Ya + angka 45) saat ganti channel ke @MacamMacamID — menunggu user; channel ID UC5ld2qCo0wKeuRKCA1-dbow terverifikasi"
  }
 ]
