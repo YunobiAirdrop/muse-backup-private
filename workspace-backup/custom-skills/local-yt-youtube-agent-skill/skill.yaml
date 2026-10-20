@@ -1,8 +1,26 @@
-name: "local_yt_youtube_agent_skill"
-title: "Recovered skill notes"
-description: "Local skill notes preserved from the previous layout and awaiting review."
-category: "Learning and customization"
+name: local_yt_youtube_agent_skill
+title: Recovered skill notes
+description: Local skill notes preserved from the previous layout and awaiting review.
+category: Learning and customization
 include_in_prompt: true
 skill_improvement:
   managed: true
-  needs_review: true
+  needs_review: false
+  status: retired
+  evidence_handles:
+  - /home/hatch/workspace/custom-skills/local-youtube-agent-skill/SKILL.md
+  - /home/hatch/workspace/custom-skills/local-yt-youtube-agent-skill/SKILL.md
+  - /home/hatch/workspace/custom-skills/local-youtube-marketing-skills/SKILL.md
+  - /home/hatch/workspace/custom-skills/local-youtube-agent-skill/skill.yaml
+  - /home/hatch/workspace/custom-skills/local-yt-youtube-agent-skill/skill.yaml
+  - /home/hatch/workspace/custom-skills/local-youtube-marketing-skills/skill.yaml
+  - /home/hatch/workspace/youtube-otomatis/protokol-viral.md
+  - sirun_8c9514fd182f43e3881ab6bb5d2a52ba
+  measurement:
+    proxy_metric_id: active_placeholder_skill_count
+    success_criterion: The 3 retired placeholder skills leave active discovery within 7 days (active learned count 12 -> 10 net, because this batch also publishes pre_production_skill_check); no worker output in the window references the retired registrations.
+    window_days: 7
+  rationale: 'Consolidation review: 12 active learned skills (>=10) triggers mandatory consolidation. The top-level SKILL.md of all three (read this turn) is the byte-identical ''Recovered skill notes'' placeholder with no method and no guidance, while include_in_prompt:true lists each in every conversation. Their legacy sub-folder methods (skills/yt-*, e.g. yt-script with hooks.json and hookscore.py) are not discoverable through the placeholder, duplicate each other across the two youtube-agent notes, and overlap the standalone skills the user mandated for production on 2026-10-19 (local_viral_hooks_skill for hooks, local_social_media_pro_max for titles and thumbnails, local_tiktok_skills for shorts; protokol-viral.md section 20, verified on disk this turn). This continues the accepted 2026-10-16 consolidation batch (run sirun_8c9514fd182f43e3881ab6bb5d2a52ba), which deferred local_youtube_marketing_skills only because its inventory revision could not be grounded then; the revision is grounded character-for-character in this run''s inventory. Retiring removes the three from active discovery; folders and tooling stay on disk, so nothing is lost if a sub-method is ever needed.'
+  review_after: 2026-10-27T01:26:12.352986+00:00
+  reviewed_at: 2026-10-20T01:26:12.352986+00:00
+  run_id: sirun_ff5548495b964ba3bbf447280487f2ef

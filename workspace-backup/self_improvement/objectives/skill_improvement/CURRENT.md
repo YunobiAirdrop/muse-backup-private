@@ -1,9 +1,9 @@
 ---
 objective_id: skill_improvement
-run_id: sirun_0cc8809eb14a488a88b7c843b27123d0
-created_at: 2026-10-19T00:57:44.873558039+00:00
+run_id: sirun_ff5548495b964ba3bbf447280487f2ef
+created_at: 2026-10-20T02:28:39.410556842+00:00
 card_id: skill_improvement
-worker_outcome: insufficient
+worker_outcome: changed
 ---
 
 # Skill Improvement
@@ -17,5 +17,5 @@ is a framework-owned projection only.
 - Reason: baseline cadence self-improvement run
 - Request origin: internal.self_improvement
 - Cadence: daily
-- Worker outcome: insufficient
+- Worker outcome: changed
 - Subagents spawned: 2

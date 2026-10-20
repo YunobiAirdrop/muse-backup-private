@@ -1,0 +1,24 @@
+name: pre_production_skill_check
+title: Pre-production skill check
+description: Name the catalog skills your automated production worker will use before you write its prompt, so scheduled pipelines reuse proven methods instead of improvising.
+category: Work and knowledge
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:e1cdfd5f
+  - message:374d006b
+  - message:de5edd83
+  - message:assistant-msg-892a07cd
+  - message:assistant-msg-0f298909
+  - /home/hatch/workspace/youtube-otomatis/protokol-viral.md
+  measurement:
+    proxy_metric_id: new_pipeline_skill_consultation
+    success_criterion: Every automated production pipeline (cron body, worker prompt, or production browser-task instruction) authored or materially edited in the 14 days after publish names at least one consulted catalog skill in its prompt or plan; zero new user complaints that production ignored an existing skill. If no pipeline was authored or edited in the window, the result is inconclusive and the skill stays installed.
+    window_days: 14
+  needs_review: false
+  rationale: 'On 2026-10-19 the user caught that automated YouTube production never consulted the skill catalog: thumbnails shipped with overlong overlapping hook text (user message:e1cdfd5f: ''apasi ko produksi jelek banget itu masa kaya gitu boro boro orang mau nonton liat aja males''), then asked ''lah bukanya kita udah ada skill hook yang bagus? emang ga di pake?'' (message:374d006b). The assistant admitted the skill had been idle from the start (message:assistant-msg-892a07cd) and, on the user''s order ''pasang semua skill yang kita punya buat produksi video youtube'' (message:de5edd83), locked a 4-skill mandate into protokol-viral.md section 20 (message:assistant-msg-0f298909; verified on disk this turn). That fix is YouTube-only by the file''s own scope, while the generic mechanism, consult the catalog before authoring any automated production worker, has no durable managed home; a muse.skill_search this turn (3 queries) confirms no existing skill teaches it. This skill gives pipeline authors that method: search the catalog at authoring time, name consulted skills in the worker prompt, and log gaps instead of silently improvising.'
+  review_after: 2026-11-03T01:26:12.352986+00:00
+  reviewed_at: 2026-10-20T01:26:12.352986+00:00
+  run_id: sirun_ff5548495b964ba3bbf447280487f2ef
