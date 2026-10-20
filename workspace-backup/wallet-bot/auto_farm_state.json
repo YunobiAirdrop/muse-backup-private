@@ -12,13 +12,13 @@
  },
  "2026-10-20": {
   "elysium": {
-   "done": 0
+   "done": 1
   },
   "elysium_swaps": {
    "done": 4
   },
   "sepolia": {
-   "done": 1
+   "done": 2
   }
  }
 }

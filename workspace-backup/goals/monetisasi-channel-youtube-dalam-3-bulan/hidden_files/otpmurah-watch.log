@@ -1,3 +1,4 @@
 2026-10-18 20:31 WIB — otpmurah.id masih DOWN (curl exit 52, empty reply; no HTTP response). Tidak kirim pesan (sesuai aturan). NEXT: cek lagi jam berikutnya.
 2026-10-19 08:31 WIB — cek ketersediaan otpmurah.id: MASIH DOWN. HTTPS: TLS handshake OK tapi server kirim balasan kosong (curl exit 52); HTTP juga exit 52. DNS lokal: 198.18.154.202 (range benchmark/non-routable, kemungkinan sinkhole); resolver publik 8.8.8.8/1.1.1.1 tidak me-resolve domain sama sekali. Kesimpulan: situs belum bisa diakses; tidak ada pesan dikirim.
 2026-10-19 21:31 WIB — otpmurah.id masih DOWN: 8.8.8.8 REFUSED (NXDOMAIN-ish), curl GET exit 52 (empty reply). DNS lokal me-redirect ke 198.18.83.8 (block page). Tidak ada aksi, tetap diam sesuai SOP watch.
+[2026-10-20 11:31 WIB] otpmurah-site-watch: curl -sI -> proxy CONNECT OK, empty reply (exit 52, no HTTP response). nslookup resolves to 198.18.5.52. Status: STILL DOWN. No user message sent (per body rule 3).

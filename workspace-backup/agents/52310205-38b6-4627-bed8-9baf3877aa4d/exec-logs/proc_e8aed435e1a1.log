@@ -1,3 +1,0 @@
-app/src/main/AndroidManifest.xml: error: <manifest> must have a 'package' attribute.
-app/src/main/AndroidManifest.xml:2: error: <manifest> tag is missing 'package' attribute.
-aapt2 link done

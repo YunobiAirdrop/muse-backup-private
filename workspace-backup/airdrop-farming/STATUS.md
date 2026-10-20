@@ -1,7 +1,83 @@
 # Airdrop Farming — Status Report
 
-**Date:** 2026-10-19
+**Date:** 2026-10-20
 **Wallet:** `0xf0f25C36AC70E9d787a108eFB351626192C8107b`
+
+## Run 2026-10-20 (cron airdrop-farming-harian, 08:00 WIB)
+
+### farm.py
+- Berjalan bersih (exit 0), log: `logs/farm-2026-10-20.log`.
+- Hasil: **QUEUED** = sahara, multipli, mitosis, portal-bitcoin, dogeos,
+  asentum, nowa-finance, allox, tastyco, kalos, robinhood-chain.
+  **BLOCKED** = gte (captcha), neptune (captcha + mainnet balance),
+  variational (captcha + mainnet balance), zenchain (social: X post),
+  dextr (captcha + mainnet balance), abstract (captcha + mainnet balance),
+  polyhedra (captcha), saturn (captcha).
+
+### Saldo gas per jaringan (RPC langsung dari VM, read-only, ~08:10 WIB)
+- Ethereum Sepolia: **0,1035 ETH** — di atas ambang STOP 0,01 ETH; disimpan
+  (tidak ada interaksi dApp yang eligible hari ini, self-transfer = boros).
+- Arbitrum Sepolia: **0** · Base Sepolia: **0**.
+- BSC testnet: **0,0099 tBNB** (di bawah ambang 0,01 — tidak dipakai).
+- DogeOS Chikyū: **41,95 test DOGE** (sesudah 5 tx hari ini).
+- Elysium: **0,0915 HYPE** (dikelola cron auto_farm terpisah).
+- MegaETH mainnet: tidak terjangkau dari VM — TIDAK DISENTUH (aset mainnet).
+- Sahara testnet (313313): tidak terjangkau dari VM.
+
+### Transaksi hari ini: 5 (DogeOS) + checkin AlloX
+- Private key via `~/workspace/wallet-bot/.privkey` (otorisasi user
+  2026-10-19; TIDAK pernah ditulis ke log/chat). Signing via eth_account
+  langsung ke RPC.
+- 5x self-transfer 0 DOGE di DogeOS Chikyū (gas total ~0,0000016 DOGE),
+  semua confirmed (status 0x1):
+  - 589fd4e7211f26e399df26f530513469ea41223fc795b62c67b0c65b7cc88a28
+  - 312b03b6088dcd56c2233e5790af90fcf0f9c5c9f042eed8c687a7ae460164d9
+  - 15cec2ab5673ffb6e7244eb982c78d8d8391c998d4efb6a1b698b614325ef66f
+  - ead687823d49c196ca5137f283da86515c008a8f193f4ecd48091072773a01b1
+  - 41546292b9856aa1b21a7f695494321fcf6c78ff93dba1eae2df4ae95b281526
+- **AlloX**: checkin harian Day 2 SUDAH tercatat hari ini (+1000 pts;
+  lifetime 2 checkin, 1500 pts dari checkin; Season 1: 5000 pts, eligible).
+
+### Faucet DogeOS: TERBLOKIR reCAPTCHA (tidak diklaim otomatis)
+- Klaim via Chromium headless (wallet-bot venv + proxy forwarder):
+  address terisi, token "Dogecoin (DOGE)" terpilih, tombol "Get 42.069 DOGE"
+  diklik — situs menjawab **"Please complete the reCAPTCHA"**.
+  Aturan: faucet captcha tidak dicoba otomatis.
+- Browser task runtime di-spawn untuk klaim ini tapi tidak ada window/result
+  yang kembali selama run — rute browser task tidak bisa diandalkan run ini.
+- Saldo DogeOS terverifikasi tetap 41,95 (klaim TIDAK terjadi).
+
+### Tidak dikerjakan (alasan)
+- **Multipli**: DIBATALKAN user 2026-10-19 — tidak disentuh sama sekali.
+- **Sahara**: legends.saharaai.com (HTTP 000) + RPC tidak terjangkau dari VM;
+  butuh sesi browser wallet-connected. Token SAHARA sudah live di mainnet
+  (airdrop 8,15% terdistribusi) — nilai farming testnet menurun.
+- **Mitosis**: testnet mati (app.testnet.mitosis.org: DNS resolve tapi HTTP
+  000). Mainnet sudah live di app.mitosis.org.
+- **Portal Bitcoin**: butuh install ekstensi Portal wallet (user).
+- **Asentum**: faucet butuh sign-in dashboard via browser (perlu izin user —
+  aturan "login bilang dulu").
+- **nowa-finance**: sudah onboarded (user_id 17516, ACTIVE); aktivitas utama
+  = devnet trades (BNPL Trade Volume 70% poin) — butuh devnet funds + sesi
+  on-chain di devnet Nowa.
+- **tastyco**: situs live (HTTP 200); butuh onboarding wallet + social
+  connects (perlu izin user).
+- **kalos**: situs live (www.kalos.fun, HTTP 200); sign-in butuh signature
+  wallet di browser (perlu izin user). Points API sempat down 2026-10-19.
+- **robinhood-chain**: faucet kena Cloudflare 403 dari VM; RPC resmi tidak
+  merespons dari VM — klaim manual dari HP/browser user.
+- 8 proyek faucet-blocked: tidak berubah (captcha / mainnet-balance / X post).
+
+### Dibutuhkan dari user
+1. Klaim faucet DogeOS dari HP/browser: https://faucet.testnet.dogeos.com —
+   tempel address, selesaikan reCAPTCHA (~1 menit).
+2. X post sekali untuk unlock faucet Zenchain (blocker lama).
+3. Faucet manual (captcha): Arbitrum Sepolia ETH, Base Sepolia ETH.
+4. Izin + langkah untuk onboarding tastyco/kalos (social connects), install
+   ekstensi Portal wallet, sign-in dashboard Asentum.
+5. Klaim faucet Robinhood Chain dari HP (Cloudflare-blocked dari VM).
+
+---
 
 ## Run 2026-10-19 (cron airdrop-farming-harian, 08:00 WIB)
 
