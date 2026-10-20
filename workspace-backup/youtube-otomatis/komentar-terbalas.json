@@ -27,9 +27,10 @@
    "author": "@professorroyhinkley4775",
    "text": "Maybe its not a “canon”…",
    "handled_at": "2026-10-17 21:15 WIB",
-   "status": "dibalas",
+   "status": "dibalas+dilike",
    "reply": "Ha — you're not wrong to wonder! But this beast genuinely needed all 60 of those oxen… moving it was a military operation all of its own 😄",
-   "reply_id": "UgzLSNj5Fugje8xGVJ14AaABAg.Ac3LRj2doLMAc3o2H_-GrT"
+   "reply_id": "UgzLSNj5Fugje8xGVJ14AaABAg.Ac3LRj2doLMAc3o2H_-GrT",
+   "note_like": "like terkonfirmasi via browser 20 Okt malam (tombol 'Unlike', 1 like)"
   },
   "Ugx2l89g7dYJDEdFVBR4AaABAg": {
    "channel": "@TrueCaseFilesTV",
@@ -41,10 +42,10 @@
    "reason": "toxic — ejekan kasar ke konten channel ('are you proud of this shaky AI bullshit?'), aturan: jangan dibalas & jangan di-like"
   }
  },
- "last_run": "Malam 19 Okt 21:13 (run 21:11 WIB, via API): fetch 13 channel — 0 komentar baru penonton (thread total: 1/7/9/5/4/3/7/3/4/2/9/9/7; cek balasan penonton di dalam thread per 19 Okt: nihil). 0 balasan malam ini. Seeds via API tetap TIDAK di-retry (blokir 403 level-akun sejak 17 Okt; risiko memperparah flag); pin via browser tetap pending (blokir phone-verification level akun; verifikasi HP ditolak user 2026-10-06). like_pending: 1 (UgzLSNj5Fugje8xGVJ14AaABAg) tetap pending.",
- "note": "MALAM 19 OKT — tidak ada aksi tulis apa pun malam ini; lihat last_run.",
+ "last_run": "MALAM 20 OKT 21:11 WIB (fetch API + browser task): 0 komentar baru penonton di 13 channel (0 dibalas, 0 baru di-like). Like pending 1 BERHASIL. Browser: 3 seed+pin OK (@KisahPOV, @LimaMisteri, @StrangeTales-g6n), 8 seed terposting tapi pin terblokir verifikasi HP, @ceritarakyat862 dilewati (video terbaru belum publik, tayang 22 Okt). Catatan: 12 channel + @tinybuilders-d5z semua di 1 akun Google khususstokyunobi@gmail.com (terkonfirmasi panel Ganti akun).",
+ "note": "MALAM 20 OKT — selesai. 3 pin OK, 8 seed menunggu pin (blokir HP), 1 like OK, 1 seed ditunda (video belum publik).",
  "pin_skipped": {
-  "@ceritarakyat862": "komentar DINONAKTIFKAN di video terbaru x3Mkp4cYc0g (403 saat seed 9 Okt malam; sebelumnya epB4odp8Fhk juga 403; setting TIDAK diubah) | seed 403 commentsDisabled di video terbaru HjdAB_44M30 (2026-10-11 malam; setting TIDAK diubah)",
+  "@ceritarakyat862": "komentar DINONAKTIFKAN di video terbaru x3Mkp4cYc0g (403 saat seed 9 Okt malam; sebelumnya epB4odp8Fhk juga 403; setting TIDAK diubah) | seed 403 commentsDisabled di video terbaru HjdAB_44M30 (2026-10-11 malam; setting TIDAK diubah) | 2026-10-20 malam: video terbaru U6w2jXqHL4c BELUM PUBLIK (dijadwalkan 22 Okt 2026, lencana Pribadi) — seed ditunda sampai tayang; 403 API kemarin karena video belum publik | 2026-10-20 malam: U6w2jXqHL4c belum publik (tayang 22 Okt 2026) — seed ditunda",
   "@KisahPOV": "komentar DINONAKTIFKAN di video terbaru iSIaj3nG_vk (403 saat seed 9 Okt pagi; setting TIDAK diubah) | seed 403 di video terjadwal U6F-BbZ1Lns (2026-10-12 pagi, video belum tayang 19:00 WIB; setting TIDAK diubah)",
   "@AncientEmpiresTV": "komentar DINONAKTIFKAN di video terbaru xD_HOr7GOQ4 (403 commentsDisabled saat seed 2026-10-10 21:18 WIB; setting TIDAK diubah — perlu dicek pipeline upload)",
   "@TrueCaseFilesTV": "komentar DINONAKTIFKAN di video terbaru 6SE9_KiLafM (403 commentsDisabled saat seed 2026-10-10 21:18 WIB; setting TIDAK diubah — perlu dicek pipeline upload) | seed 403 forbidden (\"insufficient permissions\", BUKAN commentsDisabled) di video terbaru MsvOo6y4Bko (2026-10-14 malam; setting TIDAK diubah)",
@@ -500,10 +501,115 @@
    "handled_at": "2026-10-15 21:15 WIB",
    "pinned": false,
    "pin_pending": true
+  },
+  {
+   "channel": "@KisahPOV",
+   "video": "https://www.youtube.com/watch?v=u2HU7008EoM",
+   "text": "Kalau kalian yang motret dan sadar ada sosok menatap balik dari dalam sumur... lanjut motret atau langsung kabur? 😱👇",
+   "comment_id": "UgzH1VJKuVMx4C9ur354AaABAg",
+   "handled_at": "2026-10-20 21:11 WIB (malam)",
+   "pinned": true,
+   "pin_verified": "2026-10-20 malam (browser task, terverifikasi 'Disematkan oleh' + toast)"
+  },
+  {
+   "channel": "@LimaMisteri",
+   "video": "https://www.youtube.com/watch?v=vgt2CeMXkQc",
+   "text": "5 kejadian aneh di video ini — nomor berapa yang paling bikin kalian merinding? 👇",
+   "comment_id": "UgyKsGwYQUvUBRGnyLF4AaABAg",
+   "handled_at": "2026-10-20 21:11 WIB (malam)",
+   "pinned": true,
+   "pin_verified": "2026-10-20 malam (browser task, terverifikasi 'Disematkan oleh' + toast)"
+  },
+  {
+   "channel": "@TrueCaseFilesTV",
+   "video": "https://www.youtube.com/watch?v=MC5PENurBOE",
+   "text": "Two masked men hijacked live TV in 1987 — and were never caught. Who do you think was behind the mask? 👇",
+   "comment_id": "Ugy_XCJ2GlYEhtlsQF14AaABAg",
+   "handled_at": "2026-10-20 21:11 WIB (malam)",
+   "pinned": false,
+   "pin_pending": true,
+   "note": "seed diposting via browser task 20 Okt malam; pin TERBLOKIR dinding verifikasi nomor telepon (dialog dibatalkan — verifikasi HP ditolak user 2026-10-06)"
+  },
+  {
+   "channel": "@TalesOfDreadTV",
+   "video": "https://www.youtube.com/watch?v=G8rB-4qSHJI",
+   "text": "12,000 people... all describing the same figure. What do you think connects them? 😱👇",
+   "comment_id": "UgzVrk5OihcA6iXHHO54AaABAg",
+   "handled_at": "2026-10-20 21:11 WIB (malam)",
+   "pinned": false,
+   "pin_pending": true,
+   "note": "seed diposting via browser task 20 Okt malam; pin TERBLOKIR dinding verifikasi nomor telepon (dialog dibatalkan — verifikasi HP ditolak user 2026-10-06)"
+  },
+  {
+   "channel": "@MysteryShadowsTV",
+   "video": "https://www.youtube.com/watch?v=tj5tJfR2G4Q",
+   "text": "A ghost testified in court... and the jury believed it. Would YOU trust a witness from beyond? 👇",
+   "comment_id": "Ugw_O29HEYLPN2U0f3p4AaABAg",
+   "handled_at": "2026-10-20 21:11 WIB (malam)",
+   "pinned": false,
+   "pin_pending": true,
+   "note": "seed diposting via browser task 20 Okt malam; pin TERBLOKIR dinding verifikasi nomor telepon (dialog dibatalkan — verifikasi HP ditolak user 2026-10-06)"
+  },
+  {
+   "channel": "@EchoesOfThePast-e9m",
+   "video": "https://www.youtube.com/watch?v=iKD-nacbENU",
+   "text": "13 days when the world nearly ended — what do you think was the single closest moment? 👇",
+   "comment_id": "Ugy2FWhn7Ngr6oVGut54AaABAg",
+   "handled_at": "2026-10-20 21:11 WIB (malam)",
+   "pinned": false,
+   "pin_pending": true,
+   "note": "seed diposting via browser task 20 Okt malam; pin TERBLOKIR dinding verifikasi nomor telepon (dialog dibatalkan — verifikasi HP ditolak user 2026-10-06)"
+  },
+  {
+   "channel": "@TheDarkMindFiles-s6i",
+   "video": "https://www.youtube.com/watch?v=ojzd_KX-U58",
+   "text": "Which of these 7 charming tricks have you spotted in real life — before you knew what it was called? 👇",
+   "comment_id": "UgxUoi2cmwGmIesov9d4AaABAg",
+   "handled_at": "2026-10-20 21:11 WIB (malam)",
+   "pinned": false,
+   "pin_pending": true,
+   "note": "seed diposting via browser task 20 Okt malam; pin TERBLOKIR dinding verifikasi nomor telepon (dialog dibatalkan — verifikasi HP ditolak user 2026-10-06)"
+  },
+  {
+   "channel": "@BizarreWorldDaily",
+   "video": "https://www.youtube.com/watch?v=LvNWk5RQKUw",
+   "text": "7 records so weird they should be illegal 😅 Which one shocked you the most? 👇",
+   "comment_id": "UgwNhwxYfFRkNR4hmcZ4AaABAg",
+   "handled_at": "2026-10-20 21:11 WIB (malam)",
+   "pinned": false,
+   "pin_pending": true,
+   "note": "seed diposting via browser task 20 Okt malam; pin TERBLOKIR dinding verifikasi nomor telepon (dialog dibatalkan — verifikasi HP ditolak user 2026-10-06)"
+  },
+  {
+   "channel": "@AncientEmpiresTV",
+   "video": "https://www.youtube.com/watch?v=3fa6GubAvA4",
+   "text": "He measured the entire Earth with just a stick and shadows — no satellites, no GPS. What ancient achievement blows your mind the most? 👇",
+   "comment_id": "UgyGHIq5Ee_90z1Uy5x4AaABAg",
+   "handled_at": "2026-10-20 21:11 WIB (malam)",
+   "pinned": false,
+   "pin_pending": true,
+   "note": "seed diposting via browser task 20 Okt malam; pin TERBLOKIR dinding verifikasi nomor telepon (dialog dibatalkan — verifikasi HP ditolak user 2026-10-06)"
+  },
+  {
+   "channel": "@StrangeTales-g6n",
+   "video": "https://www.youtube.com/watch?v=dAYGIAGxjyw",
+   "text": "A lake that turns into polka dots 😮 If you could visit, what is the first thing you would do there? 👇",
+   "comment_id": "UgzXnpJ7PpL0p_fYziB4AaABAg",
+   "handled_at": "2026-10-20 21:11 WIB (malam)",
+   "pinned": true,
+   "pin_verified": "2026-10-20 malam (browser task, terverifikasi 'Disematkan oleh' + toast)"
+  },
+  {
+   "channel": "@tinybuilders-d5z",
+   "video": "https://www.youtube.com/watch?v=pMXQt-uAhpM",
+   "text": "A working bamboo water wheel built at tiny scale! 😮 What should the tiny builders construct next — a tiny windmill or a miniature bridge? 👇",
+   "comment_id": "UgyM73R3HW5ahs-ZJal4AaABAg",
+   "handled_at": "2026-10-20 21:11 WIB (malam)",
+   "pinned": false,
+   "pin_pending": true,
+   "note": "seed diposting via browser task 20 Okt malam; pin TERBLOKIR dinding verifikasi nomor telepon (dialog dibatalkan — verifikasi HP ditolak user 2026-10-06)"
   }
  ],
- "like_pending": [
-  "UgzLSNj5Fugje8xGVJ14AaABAg"
- ],
+ "like_pending": [],
  "seeds_pending": []
 }

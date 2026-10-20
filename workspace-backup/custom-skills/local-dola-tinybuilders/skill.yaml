@@ -1,0 +1,5 @@
+name: "local_dola_tinybuilders"
+title: "Dola Tiny Builders 30s Video Generation"
+description: "Generate Tiny Builders miniature construction videos of at least 30 seconds per block through Dola web using the user's Gmail account pool, with chained-clip continuity and hard duration verification."
+category: "Work and knowledge"
+include_in_prompt: true
