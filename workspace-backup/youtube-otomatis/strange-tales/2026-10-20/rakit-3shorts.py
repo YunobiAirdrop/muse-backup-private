@@ -17,7 +17,7 @@ FFQ = "/home/hatch/workspace/youtube-otomatis/ffmpeg-queue.sh"
 FONT = "/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf"
 FPS = 30
 
-CTA_TAIL = "HIT SUBSCRIBE\\\\nFOR MORE STRANGE TALES"
+CTA_TAIL = "HIT SUBSCRIBE\nFOR MORE STRANGE TALES"
 CTA_SECONDS = 3.5
 
 def esc(t):
@@ -54,8 +54,8 @@ def chunk_captions(naskah, vo_dur):
         t0 = wpos * per_word
         t1 = (wpos + len(ch)) * per_word
         half = (len(ch) + 1) // 2
-        # drawtext butuh '\\n' di argv agar filter parser meneruskan '\n' ke drawtext
-        text = " ".join(ch[:half]).upper() + "\\\\n" + " ".join(ch[half:]).upper()
+        # newline ASLI seperti kemarin (render 2 baris OK); pola backslash-n literal tampil sebagai huruf 'n'
+        text = " ".join(ch[:half]).upper() + "\n" + " ".join(ch[half:]).upper()
         caps.append((text, t0, t1))
         wpos += len(ch)
     caps.append((CTA_TAIL, vo_dur - CTA_SECONDS, vo_dur))

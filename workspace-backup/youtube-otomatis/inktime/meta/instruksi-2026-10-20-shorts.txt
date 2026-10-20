@@ -1,0 +1,50 @@
+INSTRUKSI UPLOAD — InkTime (@InkTime-d3t) — 3 SHORTS
+Tanggal produksi: 2026-10-20 | Slot: Terjadwal 2026-10-21 07:00 WIB (= 2026-10-20 19:00 US Eastern, prime time USA)
+Sumber: potongan long 2026-10-19 "The Day the Sun Didn't Rise: The Tambora Eruption of 1815" (dijadwalkan tayang 2026-10-20 07:00 WIB)
+
+=== 0. VERIFIKASI CHANNEL DULU (WAJIB, SEBELUM UPLOAD) ===
+- Buka YouTube Studio. PASTIKAN channel aktif = "InkTime".
+- Verifikasi via CHANNEL ID (bukan cuma nama!): URL Studio HARUS mengandung
+  UCoZl5OaqjXSVkE4S96RY8_g
+  Contoh: https://studio.youtube.com/channel/UCoZl5OaqjXSVkE4S96RY8_g
+- Kalau ID tidak cocok -> JANGAN upload, hentikan dan laporkan.
+- PENTING: sesi browser sudah login & persisten (terverifikasi 13 Okt).
+  JANGAN login ulang / JANGAN ubah setelan akun apa pun. Kalau ketemu halaman
+  login Google -> BERHENTI, laporkan (jangan isi password).
+
+=== 1. ATURAN TIAP UPLOAD ===
+- Upload sebagai TIDAK PUBLIK (Unlisted) dulu, rapikan metadata, baru ubah ke "Terjadwal" 2026-10-21 07:00 WIB.
+- AI DISCLOSURE: WAJIB centang "Altered content" (Yes, content is altered/AI-generated).
+- JANGAN set "made for kids".
+- KOMENTAR WAJIB ON: Details -> Show more -> Comments -> set EKSPLISIT "Allow all comments" (jangan andalkan default).
+- Izinkan embedding: YA. Lisensi: Standard YouTube.
+- Bahasa video: English. Kategori: Education.
+- Masukkan ke playlist "Ancient History".
+- Thumbnail kustom: upload bila YouTube mengizinkan (channel belum verifikasi HP — bila ditolak, lewati & catat, JANGAN lakukan verifikasi HP).
+
+=== SHORTS 1 ===
+File: /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-20-s1.mp4 (44.5 dtk, 720x1280)
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-20-s1.jpg
+Judul (persis, hashtag di akhir judul ditutup #foryou):
+The Day the Sun Didn't Rise #shorts #history #explainer #butifyourcloseyoureyesmeme #foryou
+Deskripsi (tanpa hashtag):
+In 1815, a mountain in Indonesia exploded — and for three days, the sun never rose over parts of Southeast Asia. Ash fell like gray snow. A year later, it snowed in July in America. Full story in the long video "The Day the Sun Didn't Rise: The Tambora Eruption of 1815" on the InkTime channel. Sources: Stothers, R.B. (1984). The Great Tambora Eruption in 1815 and Its Aftermath. Science, 224(4654), 1191-1198. doi:10.1126/science.224.4654.1191; Oppenheimer, C. (2003). Climatic, environmental and human consequences of the largest known historic eruption: Tambora volcano (Indonesia) 1815. Progress in Physical Geography, 27(2), 230-259.
+
+=== SHORTS 2 ===
+File: /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-20-s2.mp4 (44.0 dtk, 720x1280)
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-20-s2.jpg
+Judul (persis):
+A Volcano Wrote Frankenstein #shorts #history #explainer #butifyourcloseyoureyesmeme #foryou
+Deskripsi (tanpa hashtag):
+The most famous horror story ever written was born because a volcano ruined a Swiss summer. In June 1816, eighteen-year-old Mary Shelley was stuck indoors at Lake Geneva — too cold and rainy to go outside — when Lord Byron proposed a ghost-story contest. She wrote Frankenstein. Full story in the long video "The Day the Sun Didn't Rise: The Tambora Eruption of 1815" on the InkTime channel. Sources: Wood, G.D. (2014). Tambora: The Eruption That Changed the World. Princeton University Press; Klingaman, W.K. & Klingaman, N.P. (2013). The Year Without Summer: 1816 and the Volcano That Darkened the World and Changed History. St. Martin's Press.
+
+=== SHORTS 3 ===
+File: /home/hatch/workspace/youtube-otomatis/inktime/shorts/2026-10-20-s3.mp4 (52.0 dtk, 720x1280)
+Thumbnail: /home/hatch/workspace/youtube-otomatis/inktime/shorts/thumb-2026-10-20-s3.jpg
+Judul (persis):
+The Bicycle Was Invented Because of a Volcano #shorts #history #explainer #butifyourcloseyoureyesmeme #foryou
+Deskripsi (tanpa hashtag):
+The bicycle you ride might exist because a volcano killed the oat harvest two hundred years ago. After Tambora's 1815 eruption, ruined harvests meant no oats — horses starved or became luxuries. So in 1817, Karl Drais unveiled a two-wheeled running machine: the draisine, the ancestor of the bicycle. Full story in the long video "The Day the Sun Didn't Rise: The Tambora Eruption of 1815" on the InkTime channel. Sources: Wood, G.D. (2014). Tambora: The Eruption That Changed the World. Princeton University Press; Self, S., Gertisser, R., Thordarson, T., Rampino, M.R., & Wolff, J.A. (2004). Magma volume, volatile emissions, and stratospheric aerosols from the 1815 eruption of Tambora. Geophysical Research Letters, 31(20).
+
+=== 2. JIKA KENA "BATAS UPLOAD HARIAN TELAH TERCAPAI" ===
+- BERHENTI, jangan retry. WAJIB tulis antrean JSON ke /home/hatch/workspace/youtube-otomatis/retry-queue/inktime-2026-10-20-shorts-sN.json per video dengan format {"channel":"inktime","video_path":"<absolut>","instruksi_path":"/home/hatch/workspace/youtube-otomatis/inktime/meta/instruksi-2026-10-20-shorts.txt","slot_target":"2026-10-21 07:00 WIB","gagal_pada":"<ISO+07:00>","sebab":"..."} — watchdog otomatis mengerjakan setelah ±23 jam.

@@ -1,0 +1,16 @@
+SKIP existing valid /home/hatch/workspace/youtube-otomatis/strange-tales/2026-10-20/spotted-lake-partA.mp4
+SKIP existing valid /home/hatch/workspace/youtube-otomatis/strange-tales/2026-10-20/spotted-lake-partB.mp4
+caption spotted-lake: 14 chunks, contoh: 'IN THE SUMMER,\nA LAKE IN' 0.00-1.98
+OK spotted-lake mux
+DURASI OK spotted-lake: video 28.80s audio 28.80s (VO 28.92)
+SKIP existing valid /home/hatch/workspace/youtube-otomatis/strange-tales/2026-10-20/salar-uyuni-partA.mp4
+SKIP existing valid /home/hatch/workspace/youtube-otomatis/strange-tales/2026-10-20/salar-uyuni-partB.mp4
+caption salar-uyuni: 14 chunks, contoh: 'IN BOLIVIA LIES\nTHE LARGEST MIRROR' 0.00-2.21
+OK salar-uyuni mux
+DURASI OK salar-uyuni: video 33.60s audio 33.60s (VO 33.672)
+SKIP existing valid /home/hatch/workspace/youtube-otomatis/strange-tales/2026-10-20/waitomo-glowworms-partA.mp4
+SKIP existing valid /home/hatch/workspace/youtube-otomatis/strange-tales/2026-10-20/waitomo-glowworms-partB.mp4
+caption waitomo-glowworms: 15 chunks, contoh: 'DEEP UNDER NEW\nZEALAND, THERE IS' 0.00-1.64
+OK waitomo-glowworms mux
+DURASI OK waitomo-glowworms: video 26.27s audio 26.24s (VO 26.4)
+ALL DONE

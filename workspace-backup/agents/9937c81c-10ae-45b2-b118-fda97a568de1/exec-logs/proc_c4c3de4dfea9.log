@@ -1,0 +1,55 @@
+router.factory(): 0x93AFD9aC50822F82c7C4f2Ec8Ec2463b086Fb878
+router.WQMS(): 0x9AA510295aC664A3d5A3182a3eFe959DE2B12c34
+pair.token0: 0x9AA510295aC664A3d5A3182a3eFe959DE2B12c34
+pair.token1: 0xDfF68E53a0A8275212927c12017f5aB5f1842a04
+QMS balance: 1.75
+reserves: WQMS = 253598.001078710066917474  USDC = 117041.702911
+swap: 0.5 QMS -> expected ~0.2301 USDC, minOut=0.2071
+  tx sent: 4dd06ed8a0c39b97527019caf30a91828d90f4b35a944b1beb024ba6ec29cfc4 gas: 182867
+Traceback (most recent call last):
+  File "/tmp/qms_farm.py", line 133, in <module>
+    main()
+  File "/tmp/qms_farm.py", line 97, in main
+    h_swap = send(w3, acct,
+             ^^^^^^^^^^^^^^
+  File "/tmp/qms_farm.py", line 58, in send
+    rc = w3.eth.wait_for_transaction_receipt(h, timeout=240)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/web3/eth/eth.py", line 489, in wait_for_transaction_receipt
+    tx_receipt = self._transaction_receipt(transaction_hash)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/web3/module.py", line 106, in caller
+    result = w3.manager.request_blocking(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/web3/manager.py", line 225, in request_blocking
+    response = self._make_request(method, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/web3/manager.py", line 156, in _make_request
+    return request_func(method, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/web3/middleware/base.py", line 53, in middleware
+    return self.response_processor(method, make_request(method, params))
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/web3/middleware/base.py", line 53, in middleware
+    return self.response_processor(method, make_request(method, params))
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/web3/middleware/base.py", line 53, in middleware
+    return self.response_processor(method, make_request(method, params))
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/web3/_utils/caching/caching_utils.py", line 249, in wrapper
+    return func(provider, method, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/web3/providers/rpc/rpc.py", line 157, in make_request
+    raw_response = self._make_request(method, request_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/web3/providers/rpc/rpc.py", line 144, in _make_request
+    raise e
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/web3/providers/rpc/rpc.py", line 134, in _make_request
+    return self._request_session_manager.make_post_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/web3/_utils/http_session_manager.py", line 151, in make_post_request
+    response.raise_for_status()
+  File "/home/hatch/workspace/wallet-bot/venv/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://testnet.qmsscan.io/api/eth-rpc

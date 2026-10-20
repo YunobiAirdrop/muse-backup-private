@@ -1,7 +1,0 @@
-expected: 492.04
-Q: -y -f concat -safe 0 ...
-afull=492.03s expected=492.04s
-vconcat=492.03s
-Q: -y -i /home/hatch/workspace/youtube-otomatis/inktime/video/tmp/vconcat1019.mp4 -i /home/hatch/workspace/youtube-otomatis/inktime/video/tmp/afull1019.mp3 ...
-FINAL TMP per-stream: {'video': 492.0, 'audio': 492.026009} expected: 492.04
-FINAL MOVED: /home/hatch/workspace/youtube-otomatis/inktime/video/inktime-2026-10-19-long.mp4 492.0 s

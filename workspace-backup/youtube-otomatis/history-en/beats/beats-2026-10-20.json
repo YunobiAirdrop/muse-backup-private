@@ -1,0 +1,362 @@
+[
+ {
+  "beat": "beat-001",
+  "chapter": "The Day the World Almost Ended",
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A giant wall clock showing almost midnight in a dark war room, red telephone on a desk, dramatic shadows, 1960s government interior",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Earth viewed from space with a red glow spreading over the Atlantic, stylized dramatic, dark ominous clouds"
+  ],
+  "overlay": "OCTOBER 27 1962",
+  "text": "October 27th, 1962. The day the world came closer to nuclear war than ever before, or since. In Washington and Moscow, powerful men waited for news that could mean the end of everything. This is the story of the thirteen days that almost ended the world."
+ },
+ {
+  "beat": "beat-002",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A lone American U-2 spy plane flying at extreme altitude above the clouds, tiny and fragile against a vast pale sky",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A Soviet surface-to-air missile battery on a Cuban hillside at dawn, soldiers at radar screens, tense alert atmosphere"
+  ],
+  "overlay": null,
+  "text": "That Saturday morning, an American spy plane was shot down over Cuba. Its pilot never came home. At the same time, a Soviet ship steamed toward an American blockade in the Atlantic. One wrong move, and the missiles would fly."
+ },
+ {
+  "beat": "beat-003",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Inside the White House Situation Room 1962, anxious officials around a conference table, maps of Cuba on the wall, cigarette smoke in the air, dramatic lighting",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A worried young President Kennedy at his desk in the Oval Office at night, head in hands, lamp glow, weight of the world on his shoulders"
+  ],
+  "overlay": null,
+  "text": "President Kennedy's generals urged him to invade Cuba at once. He refused. [JEDA] For thirteen days, one man's restraint stood between humanity and catastrophe. But how did the world reach this cliff edge? We must go back to the beginning."
+ },
+ {
+  "beat": "beat-004",
+  "chapter": "Thirteen Days Earlier",
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A giant clock face with hands spinning backward, calendar pages flying through a dark swirling sky, time rewinding dramatically",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Black and white style reconnaissance photograph of a tropical island with marked missile sites, red circles drawn on it, 1960s intelligence aesthetic"
+  ],
+  "overlay": null,
+  "text": "Thirteen days earlier. October 14th, 1962. High above the Caribbean, an American U-2 photographed something chilling in Cuba. Long shapes in jungle clearings. Shapes that could only mean Soviet nuclear missiles."
+ },
+ {
+  "beat": "beat-005",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Aerial view of a secret missile launch site hidden in a Cuban palm forest, long missile-shaped crates, construction crews, Soviet trucks",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Close view of a Soviet ballistic missile being erected on a launch pad in a tropical clearing, engineers and soldiers around it, dawn light"
+  ],
+  "overlay": null,
+  "text": "The missiles were real. Each far more powerful than the bomb that destroyed Hiroshima. From Cuba, they could strike Washington and New York within minutes. The threat sat ninety miles from Florida."
+ },
+ {
+  "beat": "beat-006",
+  "chapter": "The Spark",
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Havana Cuba 1960, cheering crowds in the street waving Cuban flags, Fidel Castro figure on a balcony in the distance, revolutionary atmosphere",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A failed beach invasion at dawn, landing craft in the surf at the Bay of Pigs, smoke on the horizon, 1961"
+  ],
+  "overlay": null,
+  "text": "The roots grew in Cuba itself. In 1959, Castro's revolution turned toward Moscow. In 1961, the CIA-backed Bay of Pigs invasion failed humiliatingly. Castro was sure America would try again. He was right to worry."
+ },
+ {
+  "beat": "beat-007",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Soviet Premier Nikita Khrushchev in a 1960s Kremlin office, pounding the table, maps of the world behind him, dramatic and determined",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: American Jupiter nuclear missiles on launch pads in Turkey, 1960s, pointed toward the Soviet Union, stark Cold War imagery"
+  ],
+  "overlay": null,
+  "text": "In Moscow, Khrushchev saw his chance. America had placed nuclear missiles in Turkey, on the Soviet border. Why not answer in kind, in Cuba? He ordered the missiles shipped in secret, across the Atlantic, in the dead of night."
+ },
+ {
+  "beat": "beat-008",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A Soviet cargo ship crossing a dark stormy Atlantic at night, deck cargo hidden under tarps, mysterious and tense",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A chess board in dramatic lighting with a Soviet red king piece making an aggressive move against an American blue king"
+  ],
+  "overlay": null,
+  "text": "What strikes me most is the sheer boldness of the gamble. Khrushchev bet everything on one secret operation. If America found the missiles before they were ready, it could mean war. He rolled the dice anyway."
+ },
+ {
+  "beat": "beat-009",
+  "chapter": "Kennedy's Secret Meetings",
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: President Kennedy in the White House cabinet room being shown large reconnaissance photographs by CIA officials, October 1962, grave faces all around",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A circle of serious men in suits around a White House conference table at night, labeled EXCOMM in spirit, maps and photos spread out, tense debate"
+  ],
+  "overlay": null,
+  "text": "On October 16th, the photographs landed on Kennedy's desk. He studied them in silence, then gathered his closest advisers in secret. They called themselves EXCOMM. For thirteen days, they would decide the fate of the world."
+ },
+ {
+  "beat": "beat-010",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: American B-52 bombers on a runway at dawn, engines roaring, 1960s Strategic Air Command base, dramatic takeoff scene",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A heated debate in a wood-paneled government room, a general pointing at a map of Cuba while others argue, dramatic gestures, 1960s"
+  ],
+  "overlay": null,
+  "text": "The generals wanted an air strike, then invasion. Bomb the sites, land the Marines. But Kennedy asked the question no one wanted to answer. [JEDA] What if surviving missiles fire back? What if Berlin falls next? One strike could ignite everything."
+ },
+ {
+  "beat": "beat-011",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A massive American naval fleet steaming through the Atlantic, aircraft carrier and destroyers in formation, 1960s, powerful and ominous",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: President Kennedy at the Oval Office desk addressing the nation on television, 1962 broadcast aesthetic, American flag behind him"
+  ],
+  "overlay": "OCTOBER 22 1962",
+  "text": "Kennedy chose a middle path: a naval quarantine of Cuba. A blockade in all but name. On the evening of October 22nd, he told the American people the truth on television. Missiles in Cuba. Ships on the way. The world held its breath."
+ },
+ {
+  "beat": "beat-012",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: An American family in a 1960s living room gathered around a television, faces lit by the screen, fear and tension, curtains drawn",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Newspaper front pages with huge headlines about the Cuba crisis, 1962, scattered on a newsstand, dramatic close-up"
+  ],
+  "overlay": null,
+  "text": "Imagine being there, hearing your president say nuclear missiles sat ninety miles away. Families stocked food and water. Children practiced duck and cover. This time the threat was not far away. It was next door."
+ },
+ {
+  "beat": "beat-013",
+  "chapter": "The Blockade",
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: An American destroyer intercepting a Soviet freighter on the open ocean, signal flags flying, tense standoff at sea, dramatic waves",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A line of Soviet ships on the horizon of a grey Atlantic, seen through binoculars from an American warship, suspenseful"
+  ],
+  "overlay": null,
+  "text": "On October 24th, the quarantine took effect. American warships ringed Cuba. Soviet ships kept steaming toward the line. In the White House, Kennedy waited. Would Khrushchev order his captains through? The next hours would decide everything."
+ },
+ {
+  "beat": "beat-014",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A Soviet submarine deep underwater in dark blue depths, depth charges exploding in the distance, tense and claustrophobic",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Inside a cramped Soviet submarine control room, sweating officers around a torpedo panel, red emergency lighting, extreme tension"
+  ],
+  "overlay": null,
+  "text": "Beneath the waves, the danger ran deeper. Soviet submarines carried nuclear torpedoes near the blockade. American destroyers dropped depth charges to force them up. [JEDA] On one submarine, the captain believed war had already begun."
+ },
+ {
+  "beat": "beat-015",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A calm Soviet naval officer standing firm among arguing officers in a submarine, hand raised for calm, heroic restrained moment, dramatic lighting",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A nuclear torpedo in a submarine tube, dramatic close-up, a hand hovering over the launch controls, frozen moment of decision"
+  ],
+  "overlay": null,
+  "text": "Soviet protocol needed three officers to agree to launch. Two said yes. One said no. Vasili Arkhipov refused to fire. He argued and held his ground while depth charges exploded around them. One man's calm may have saved the world."
+ },
+ {
+  "beat": "beat-016",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: The United Nations Security Council chamber 1962, dramatic confrontation, an American ambassador holding up reconnaissance photos, world watching",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A giant hourglass with sand running out, superimposed over a map of the Caribbean, dramatic symbolic image"
+  ],
+  "overlay": null,
+  "text": "On October 25th, the crisis went public at the United Nations. America's ambassador confronted Moscow with the photographs. The Soviet envoy stalled. The American answered with words the world remembers: I will wait until hell freezes over."
+ },
+ {
+  "beat": "beat-017",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Soviet ships turning around on the ocean, wakes curving away from the blockade line, dawn breaking over the Atlantic, relief",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Jubilant but exhausted officials in the White House receiving the news, restrained celebration, October 1962"
+  ],
+  "overlay": null,
+  "text": "Then a crack of hope. Soviet ships stopped dead, then turned back. The blockade held without a shot. Washington exhaled. But the missiles still stood in Cuba, aimed at American cities, and the hardest days were yet to come."
+ },
+ {
+  "beat": "beat-018",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A storyteller silhouette before a glowing screen showing historical images, warm inviting light, YouTube documentary aesthetic",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A red subscribe button glowing on a dark background with historical imagery around it, dramatic and inviting"
+  ],
+  "overlay": null,
+  "text": "If you are finding this story as gripping as I do, hit subscribe. Every week I bring forgotten moments like this back to life. And trust me, what happens next, on Black Saturday, is the most terrifying part of all."
+ },
+ {
+  "beat": "beat-019",
+  "chapter": "Black Saturday",
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A U-2 spy plane breaking apart in the sky over Cuba, missile trail below, dramatic and tragic, high altitude",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A lone pilot portrait in flight gear against a dramatic sky, memorial mood, respectful and somber"
+  ],
+  "overlay": "BLACK SATURDAY",
+  "text": "October 27th. Black Saturday. A Soviet battery in Cuba shot down Major Rudolf Anderson's U-2. He became the crisis's only combat death. Kennedy's generals demanded immediate retaliation. Invasion plans were ready. He had hours to decide."
+ },
+ {
+  "beat": "beat-020",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: President Kennedy alone in the Oval Office at night, staring out the window at the Washington Monument, deep in thought, cinematic",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: American fighter jets scrambling from a Florida airbase at dawn, afterburners glowing, 1960s, dramatic urgency"
+  ],
+  "overlay": null,
+  "text": "Kennedy did something extraordinary. He held back the bombers and sent his brother to find a way out through secret talks. [JEDA] Later he said the odds of avoiding war were between one in three and even. A coin flip, with the world at stake."
+ },
+ {
+  "beat": "beat-021",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A vintage typewriter with a long emotional letter, a single tear-like coffee ring on the paper, dramatic desk lamp lighting, Kremlin mood",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Two hands reaching across a table toward each other over a world map, one sleeve American, one Soviet, dramatic symbolic"
+  ],
+  "overlay": null,
+  "text": "That same day, a long emotional letter arrived from Khrushchev. It spoke of the horror of war, of a knot both sides must untie together. It offered a deal: Moscow removes the missiles if America pledges never to invade Cuba."
+ },
+ {
+  "beat": "beat-022",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A second stern official letter stamped URGENT on a desk, harder tone, dramatic red lighting, Kremlin office",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: American Jupiter missiles in Turkey again, this time with a question mark over them, diplomatic bargaining concept, dramatic"
+  ],
+  "overlay": null,
+  "text": "But before Kennedy could answer, a second letter arrived, colder and tougher. Now Moscow demanded a public trade: American missiles out of Turkey too. Hardliners had pushed Khrushchev. Which letter was real? A wrong answer could end everything."
+ },
+ {
+  "beat": "beat-023",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A secret nighttime meeting in a dim Washington restaurant booth, two men in suits leaning close, conspiratorial, 1960s",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A red telephone and an envelope marked confidential on a dark desk, dramatic spy-thriller lighting"
+  ],
+  "overlay": null,
+  "text": "In the shadows, a backchannel worked. Robert Kennedy met the Soviet ambassador in secret with an extraordinary offer. Ignore the second letter, he said. Accept the first. And quietly, America would remove its Turkey missiles within months."
+ },
+ {
+  "beat": "beat-024",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A wise hand placing one letter on top of another on a desk, choosing the first, dramatic decision moment, warm lamp light",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Dawn breaking over the White House, soft golden light, a new day, hope after a long night"
+  ],
+  "overlay": null,
+  "text": "Kennedy's team made a brilliant move. They answered the first letter and pretended the second never arrived. [JEDA] Diplomats call it the Trollope Ploy. It let Khrushchev say yes without losing face. Dawn would bring a deal or an invasion."
+ },
+ {
+  "beat": "beat-025",
+  "chapter": "The Deal",
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A vintage 1960s radio broadcasting, sound waves spreading across a world map, dramatic announcement moment",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Crowds in Moscow and Washington hearing the news, relief and joy, newspapers with peaceful headlines, 1962"
+  ],
+  "overlay": null,
+  "text": "On the morning of October 28th, Radio Moscow carried Khrushchev's voice to the world. The Soviet Union would dismantle the Cuban missile bases. The crisis was over. People wept in the streets. The world had survived."
+ },
+ {
+  "beat": "beat-026",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Soviet missiles being dismantled on a Cuban launch site, cranes lifting missile parts onto ships, 1962, careful verification",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: American surveillance photos showing empty launch pads where missiles once stood, intelligence triumph, 1960s aesthetic"
+  ],
+  "overlay": null,
+  "text": "In the following days, spy planes watched the missiles come apart and sail home to the Soviet Union. The quarantine stayed until every last one was gone. Trust, but verify, as the world would later say."
+ },
+ {
+  "beat": "beat-027",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: American Jupiter missiles being quietly removed from a Turkish base at night, floodlights, secret operation, 1963",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A sealed envelope with a wax stamp, dramatic, representing a secret kept for decades"
+  ],
+  "overlay": null,
+  "text": "Months later, quietly and without announcement, America's Jupiter missiles left Turkey, exactly as secretly promised. The public never knew. For twenty-five years the full story stayed hidden. History is full of deals made in the dark to keep the light on."
+ },
+ {
+  "beat": "beat-028",
+  "chapter": "Aftermath",
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A red hotline telephone connecting Washington and Moscow across a world map, symbolic, dramatic, 1960s",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Two leaders signing a treaty at a grand table, doves flying outside the window, hope and peace, 1963"
+  ],
+  "overlay": null,
+  "text": "The crisis changed everything. Washington and Moscow installed a direct hotline, so leaders could talk in minutes, not days. In 1963 they banned nuclear tests in the atmosphere. The world had stared into the abyss and stepped back."
+ },
+ {
+  "beat": "beat-029",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A family in 1962 hugging in their living room listening to the radio with relief, warm light through curtains, emotional",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Children playing peacefully in a sunny 1960s American suburb, carefree, a future that almost never happened"
+  ],
+  "overlay": null,
+  "text": "Imagine being a parent in October 1962, tucking your children in not knowing if morning would come. That was reality for millions. The relief they felt on October 28th is something we, who never lived it, can barely understand."
+ },
+ {
+  "beat": "beat-030",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A single domino standing while others fall around it, dramatic metaphor, dark background with spotlight",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Portraits of Kennedy, Khrushchev, and Arkhipov arranged like a triptych in dramatic lighting, historical reverence"
+  ],
+  "overlay": null,
+  "text": "Historians now know how often luck intervened. A submarine officer who said no. A president who refused to bomb. A backchannel that stayed open. Remove any one of them, and the dominoes fall. We live in the world their restraint made."
+ },
+ {
+  "beat": "beat-031",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A calendar with thirteen days marked in red, dramatic, October 1962, historical",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A museum exhibit of the crisis, photographs and artifacts under spotlights, visitors in silhouette, reverent"
+  ],
+  "overlay": "13 DAYS",
+  "text": "Thirteen days. That is all it took to bring humanity to the edge. The Cuban Missile Crisis remains the defining moment of the nuclear age, the closest we ever came to destroying ourselves, and the greatest argument for talking instead of fighting."
+ },
+ {
+  "beat": "beat-032",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A mushroom cloud far on the horizon that dissolves into birds flying away, symbolic of a disaster avoided, hopeful and artistic",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: The Earth at peace from space, blue and beautiful, sunrise over the Atlantic, serene and hopeful"
+  ],
+  "overlay": null,
+  "text": "Think of the world that almost was. Cities gone in flashes of light. Generations unborn. All avoided because, in the darkest hours, enough people chose patience over pride. [JEDA] That choice echoes through every peaceful day since."
+ },
+ {
+  "beat": "beat-033",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Kennedy and Khrushchev as chess players in a dramatic eternal game, thoughtful, the board between them a world map",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A library of history books with one glowing book pulled out, titled with the crisis, inviting curiosity"
+  ],
+  "overlay": null,
+  "text": "Both leaders paid a price. Khrushchev was removed from power two years later, partly for this adventure. Kennedy would not live out the year. But their thirteen days taught the world a lesson it must never forget."
+ },
+ {
+  "beat": "beat-034",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Modern diplomats shaking hands across a table, flags of many nations behind them, hopeful, continuity of diplomacy",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A classroom of students watching a documentary about the crisis, engaged faces lit by the screen, learning from history"
+  ],
+  "overlay": null,
+  "text": "Today new crises rise, and the weapons are more terrible than ever. But the lesson of October 1962 endures. When leaders talk, when backchannels stay open, when one person refuses the unthinkable, humanity survives."
+ },
+ {
+  "beat": "beat-035",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A storyteller silhouette before a glowing screen, warm light, end of documentary mood, inviting",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A red subscribe button glowing among historical images, dramatic, end screen aesthetic"
+  ],
+  "overlay": null,
+  "text": "If this story moved you, subscribe and share it. These thirteen days deserve remembering, not as ancient history, but as warning and hope. The people who saved the world in 1962 are gone. The responsibility is ours now."
+ },
+ {
+  "beat": "beat-036",
+  "chapter": null,
+  "image_prompts": [
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: Earth rising over the horizon at dawn, beautiful blue marble, peaceful, cinematic, hopeful ending",
+   "Epic digital 2D storybook illustration, 16:9 widescreen, painterly, cinematic dramatic lighting, rich historical detail, no text, no watermark: A dove flying over a calm sea at sunrise, symbolic of peace, serene painterly style"
+  ],
+  "overlay": null,
+  "text": "Thirteen days that almost ended the world, and the quiet courage that saved it. I will see you in the next story. Until then, remember: history is not just what happened. It is what we choose to do with what we learned."
+ }
+]

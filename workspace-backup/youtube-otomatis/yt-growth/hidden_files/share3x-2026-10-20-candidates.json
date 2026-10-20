@@ -1,4 +1,47 @@
 {
  "tanggal": "2026-10-20",
- "candidates": []
+ "candidates": [
+  {
+   "slug": "empires-en",
+   "id": "mNb8Dz2S7TE",
+   "title": "Nothing Outruns the Surge 🌋 #butifyourcloseyoureyesmeme #shorts #history #archaeology #for",
+   "format": "shorts",
+   "views": 8
+  },
+  {
+   "slug": "history-en",
+   "id": "OUqXvjS37ug",
+   "title": "Hiroshima 1945: 8.15 AM — The Moment That Changed the World",
+   "format": "long",
+   "views": 1
+  },
+  {
+   "slug": "mind-en",
+   "id": "WMgXhpcyLsw",
+   "title": "7 Mind Tricks Your Own Brain Plays on You",
+   "format": "long",
+   "views": 2
+  },
+  {
+   "slug": "inktime",
+   "id": "DtXgq3MDQmk",
+   "title": "The Library of Alexandria Never Burned Down #shorts #history #explainer #foryou",
+   "format": "shorts",
+   "views": 15
+  },
+  {
+   "slug": "inktime",
+   "id": "cM7N7Y63WNM",
+   "title": "90 Plays Written, Only 7 Survived #shorts #history #explainer #foryou",
+   "format": "shorts",
+   "views": 10
+  },
+  {
+   "slug": "weird-en",
+   "id": "U4UwccK9vdI",
+   "title": "7 Foods So Weird They Should NOT Exist!",
+   "format": "long",
+   "views": 0
+  }
+ ]
 }

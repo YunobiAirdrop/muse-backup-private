@@ -1,0 +1,27 @@
+75 gambar OK, audio 598.1s, sum slides 598.1s
+  segmen 15/75 skip
+  segmen 30/75 skip
+  segmen 45/75 skip
+  segmen 60/75 skip
+  segmen 63/75 buat
+  segmen 64/75 buat
+  segmen 65/75 buat
+  segmen 66/75 buat
+  segmen 67/75 buat
+  segmen 68/75 buat
+  segmen 69/75 buat
+  segmen 70/75 buat
+  segmen 71/75 buat
+  segmen 72/75 buat
+  segmen 73/75 buat
+  segmen 74/75 buat
+  segmen 75/75 buat
+RAKIT OK: /home/hatch/workspace/horor-otomatis/video/2026-10-20-TEMP.mp4 (598.0s)
+OVERLAY OK: /home/hatch/workspace/horor-otomatis/video/2026-10-20-TEMP2.mp4 (598.0s)
+stream durations: {'video': 597.966667, 'audio': 597.931}
+QC PER-STREAM LOLOS
+FINAL: /home/hatch/workspace/horor-otomatis/video/2026-10-20.mp4 (598.0s)
+SHORT OK: /home/hatch/workspace/horor-otomatis/shorts/2026-10-20-s1.mp4 (45.0s)
+SHORT OK: /home/hatch/workspace/horor-otomatis/shorts/2026-10-20-s2.mp4 (50.0s)
+SHORT OK: /home/hatch/workspace/horor-otomatis/shorts/2026-10-20-s3.mp4 (45.0s)
+SELESAI SEMUA

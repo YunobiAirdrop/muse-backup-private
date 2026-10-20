@@ -1,0 +1,12 @@
+PID:1771
+---LOG---
+START state: QMS=1.75 USDC=0.0 LP=0.0
+SWAP 0.5 QMS -> ~0.2299 USDC (min 0.2069); reserves WQMS=253716.8 USDC=117011.3
+  [swap] nonce=2 baseFee=24.5g maxFee=80g hash=0xac4e977573098fa329288f2ecd91d2b81e34260df768472ab3276f0a57f7b7ca
+  [swap] broadcast 1: accepted 0xac4e977573098fa329288f2ecd91d2b81e34260df768472ab3276f0a57f7b7ca
+    rpc eth_sendRawTransaction try 1 failed: RPC error: {'code': -32000, 'message': 'already known'}; retry 4s
+    rpc eth_sendRawTransaction try 2 failed: RPC error: {'code': -32000, 'message': 'already known'}; retry 8s
+  [swap] broadcast 2 err: rpc eth_sendRawTransaction failed: RPC error: {'code': -32000, 'message': 'already known'}
+    rpc eth_sendRawTransaction try 1 failed: RPC error: {'code': -32000, 'message': 'already known'}; retry 4s
+    rpc eth_sendRawTransaction try 2 failed: RPC error: {'code': -32000, 'message': 'already known'}; retry 8s
+  [swap] broadcast 3 err: rpc eth_sendRawTransaction failed: RPC error: {'code': -32000, 'message': 'already known'}

@@ -1,0 +1,8 @@
+[elysium] transfer failed/stopped — ending mixed run
+[elysium] mixed run done: 1 actions (transfers 5/8, swaps 6/7)
+[*] inter-chain gap: sleeping 184s…
+[*] === chain sepolia (id 11155111) ===
+[sepolia] tx 6/8: 49146b6d88ac80003a… amount=6492 wei status=1
+[sepolia] sleeping 502s before next tx…
+[sepolia] balance check failed: HTTPSConnectionPool(host='ethereum-sepolia-rpc.publicnode.com', port=443): Max r — stopping chain
+[*] done: 2 actions today across 2 chains

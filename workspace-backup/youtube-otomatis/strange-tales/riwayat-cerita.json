@@ -217,6 +217,24 @@
    "tanggal": "2026-10-19",
    "video_url": "https://youtu.be/M85V-bfX3hE",
    "status": "UPLOADED via API 2026-10-19 ~13:17 WIB; SCHEDULED 2026-10-20 07:00 WIB (private s/d publishAt; AI disclosure manual di Studio)"
+  },
+  {
+   "tanggal": "2026-10-20",
+   "cerita": "Spotted Lake, Canada (polka dot mineral lake)",
+   "video_url": "https://youtu.be/dAYGIAGxjyw",
+   "slot": "2026-10-20 21:00 WIB"
+  },
+  {
+   "tanggal": "2026-10-20",
+   "cerita": "Salar de Uyuni, Bolivia (world's largest mirror)",
+   "video_url": "https://youtu.be/Xtm4fZG-LOQ",
+   "slot": "2026-10-21 03:00 WIB"
+  },
+  {
+   "tanggal": "2026-10-20",
+   "cerita": "Waitomo Glowworm Caves, NZ (living starry ceiling)",
+   "video_url": "https://youtu.be/NDz4xGbf8zQ",
+   "slot": "2026-10-21 07:00 WIB"
   }
  ]
 }

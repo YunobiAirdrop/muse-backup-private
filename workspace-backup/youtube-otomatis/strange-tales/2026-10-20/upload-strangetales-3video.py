@@ -23,14 +23,14 @@ TAGS = ["butifyourcloseyoureyesmeme", "shorts", "viral", "mystery", "foryou"]
 
 VIDEOS = [
   {"file": f"{D}/strange-tales-2026-10-20-spotted-lake.mp4",
-   "title": "This Lake Turns Into POLKA DOTS Every Summer?! #butifyourcloseyoureyesmeme #shorts #viral #mystery #foryou",
+   "title": "This Lake Turns Into POLKA DOTS?! #butifyourcloseyoureyesmeme #shorts #viral #mystery #foryou",
    "desc": ("Spotted Lake in British Columbia, Canada, turns into hundreds of colorful "
             "mineral pools each summer as its water evaporates. Sacred to the Okanagan "
             "people, its pattern is different every year." + ATTRIB),
    "tags": TAGS,
    "slot_wib": "2026-10-20 21:00", "publish_at": "2026-10-20T14:00:00.000Z"},
   {"file": f"{D}/strange-tales-2026-10-20-salar-uyuni.mp4",
-   "title": "The LARGEST Mirror on Earth Is in Bolivia?! #butifyourcloseyoureyesmeme #shorts #viral #mystery #foryou",
+   "title": "Earth's LARGEST Mirror Is in Bolivia?! #butifyourcloseyoureyesmeme #shorts #viral #mystery #foryou",
    "desc": ("Salar de Uyuni in Bolivia is the world's largest salt flat. After rain, a "
             "thin layer of water turns ten thousand square kilometers of salt into a "
             "perfect mirror of the sky." + ATTRIB),
